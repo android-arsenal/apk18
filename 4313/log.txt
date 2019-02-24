@@ -1,0 +1,559 @@
+2018-10-22 22:51:15,002 INFO  DownloadService - Downloading "https://github.com/mauriciotogneri/green-coffee/archive/master.zip", attempt 3
+2018-10-22 22:51:17,416 INFO  DownloadService - Downloaded https://github.com/mauriciotogneri/green-coffee/archive/master.zip, attempt 3
+2018-10-22 22:51:17,416 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/master.zip": 131 KB
+2018-10-22 22:51:17,416 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-22 22:51:17,421 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/master.zip: true
+2018-10-22 22:51:17,422 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src'.
+2018-10-22 22:51:17,448 INFO  FullProcessService - Size of directory with sources: 430 KB
+2018-10-22 22:51:17,448 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src]
+2018-10-22 22:51:17,471 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/.git/
+
+2018-10-22 22:51:17,474 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/gradlew
+2018-10-22 22:51:17,477 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/build.gradle
+2018-10-22 22:51:17,479 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/settings.gradle
+2018-10-22 22:51:17,479 INFO  ProjectBuildService - Remote scripts: none
+2018-10-22 22:51:17,479 INFO  ProjectFixService - Fixing project...
+2018-10-22 22:51:17,486 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/local.properties
+2018-10-22 22:51:17,487 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-10-22 22:51:17,487 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-10-22 22:51:17,488 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
+2018-10-22 22:51:17,488 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/local.properties
+2018-10-22 22:51:17,491 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
+2018-10-22 22:51:17,492 INFO  ProjectFixService - Project was maybe fixed
+2018-10-22 22:51:17,492 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-22 22:51:17,492 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-22 22:51:27,964 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-10-22 22:51:27,964 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-10-22 22:51:27,964 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-10-22 22:51:45,909 INFO  SysUtils - Configuration on demand is an incubating feature.
+:greencoffee:preBuild UP-TO-DATE
+:greencoffee:preDebugBuild UP-TO-DATE
+:greencoffee:compileDebugAidl NO-SOURCE
+:greencoffee:compileDebugRenderscript
+Download https://jcenter.bintray.com/io/cucumber/gherkin-jvm-deps/1.0.4/gherkin-jvm-deps-1.0.4.pom
+:greencoffee:checkDebugManifest
+:greencoffee:generateDebugBuildConfig
+:greencoffee:generateDebugResValues
+:greencoffee:generateDebugResources
+:greencoffee:packageDebugResources
+:greencoffee:processDebugManifest
+:greencoffee:generateDebugRFile
+:greencoffee:prepareLintJar
+:greencoffee:generateDebugSources
+:greencoffee:javaPreCompileDebug
+Download https://jcenter.bintray.com/io/cucumber/gherkin-jvm-deps/1.0.4/gherkin-jvm-deps-1.0.4.jar
+:greencoffee:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:greencoffee:extractDebugAnnotations
+:greencoffee:mergeDebugConsumerProguardFiles
+:greencoffee:mergeDebugShaders
+:greencoffee:compileDebugShaders
+:greencoffee:generateDebugAssets
+:greencoffee:packageDebugAssets
+:greencoffee:packageDebugRenderscript NO-SOURCE
+:greencoffee:processDebugJavaRes NO-SOURCE
+:greencoffee:transformResourcesWithMergeJavaResForDebug
+:greencoffee:transformClassesAndResourcesWithSyncLibJarsForDebug
+:greencoffee:compileDebugNdk NO-SOURCE
+:greencoffee:mergeDebugJniLibFolders
+:greencoffee:transformNativeLibsWithMergeJniLibsForDebug
+:greencoffee:transformNativeLibsWithStripDebugSymbolForDebug
+:greencoffee:transformNativeLibsWithSyncJniLibsForDebug
+:greencoffee:bundleDebugAar
+:greencoffee:compileDebugSources
+:greencoffee:assembleDebug
+:greencoffee:preReleaseBuild UP-TO-DATE
+:greencoffee:compileReleaseAidl NO-SOURCE
+:greencoffee:compileReleaseRenderscript
+:greencoffee:checkReleaseManifest
+:greencoffee:generateReleaseBuildConfig
+:greencoffee:generateReleaseResValues
+:greencoffee:generateReleaseResources
+:greencoffee:packageReleaseResources
+:greencoffee:processReleaseManifest
+:greencoffee:generateReleaseRFile
+:greencoffee:generateReleaseSources
+:greencoffee:javaPreCompileRelease
+:greencoffee:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:greencoffee:extractReleaseAnnotations
+:greencoffee:mergeReleaseConsumerProguardFiles
+:greencoffee:mergeReleaseShaders
+:greencoffee:compileReleaseShaders
+:greencoffee:generateReleaseAssets
+:greencoffee:packageReleaseAssets
+:greencoffee:packageReleaseRenderscript NO-SOURCE
+:greencoffee:processReleaseJavaRes NO-SOURCE
+:greencoffee:transformResourcesWithMergeJavaResForRelease
+:greencoffee:transformClassesAndResourcesWithSyncLibJarsForRelease
+:greencoffee:compileReleaseNdk NO-SOURCE
+:greencoffee:mergeReleaseJniLibFolders
+:greencoffee:transformNativeLibsWithMergeJniLibsForRelease
+:greencoffee:transformNativeLibsWithStripDebugSymbolForRelease
+:greencoffee:transformNativeLibsWithSyncJniLibsForRelease
+:greencoffee:bundleReleaseAar
+:greencoffee:compileReleaseSources
+:greencoffee:mergeReleaseResources
+:greencoffee:verifyReleaseResources
+:greencoffee:assembleRelease
+:greencoffee:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/gherkin/cli/Main.java:4: error: package gherkin.deps.com.google.gson does not exist
+import gherkin.deps.com.google.gson.Gson;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/gherkin/cli/Main.java:5: error: package gherkin.deps.com.google.gson does not exist
+import gherkin.deps.com.google.gson.GsonBuilder;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/gherkin/GherkinDialectProvider.java:7: error: package gherkin.deps.com.google.gson does not exist
+import gherkin.deps.com.google.gson.Gson;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/ObjectMatcher.java:3: error: package org.hamcrest does not exist
+import org.hamcrest.BaseMatcher;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/ObjectMatcher.java:4: error: package org.hamcrest does not exist
+import org.hamcrest.Description;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/ObjectMatcher.java:6: error: cannot find symbol
+public class ObjectMatcher<T> extends BaseMatcher<T>
+                                      ^
+  symbol: class BaseMatcher
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/ObjectMatcher.java:22: error: cannot find symbol
+    public void describeTo(Description description)
+                           ^
+  symbol:   class Description
+  location: class ObjectMatcher<T>
+  where T is a type-variable:
+    T extends Object declared in class ObjectMatcher
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/ActionableView.java:3: error: package android.support.test.espresso does not exist
+import android.support.test.espresso.UiController;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/ActionableView.java:4: error: package android.support.test.espresso does not exist
+import android.support.test.espresso.ViewAction;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/ActionableView.java:5: error: package android.support.test.espresso does not exist
+import android.support.test.espresso.ViewAssertion;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/ActionableView.java:6: error: package android.support.test.espresso does not exist
+import android.support.test.espresso.ViewInteraction;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/ActionableView.java:10: error: package org.hamcrest does not exist
+import org.hamcrest.Matcher;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/ActionableView.java:12: error: package android.support.test.espresso.matcher does not exist
+import static android.support.test.espresso.matcher.ViewMatchers.isAssignableFrom;
+                                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/ActionableView.java:12: error: static import only from classes and interfaces
+import static android.support.test.espresso.matcher.ViewMatchers.isAssignableFrom;
+^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/ActionableObject.java:3: error: package android.support.test.espresso does not exist
+import android.support.test.espresso.ViewAction;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/ActionableObject.java:4: error: package android.support.test.espresso does not exist
+import android.support.test.espresso.ViewAssertion;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/ActionableObject.java:5: error: package android.support.test.espresso.action does not exist
+import android.support.test.espresso.action.ViewActions;
+                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/ActionableObject.java:6: error: package android.support.test.espresso.assertion does not exist
+import android.support.test.espresso.assertion.ViewAssertions;
+                                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/ActionableObject.java:7: error: package android.support.test.espresso.matcher does not exist
+import android.support.test.espresso.matcher.BoundedMatcher;
+                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/ActionableObject.java:8: error: package android.support.test.espresso.matcher does not exist
+import android.support.test.espresso.matcher.ViewMatchers;
+                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/ActionableObject.java:12: error: package org.hamcrest does not exist
+import org.hamcrest.Description;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/ActionableObject.java:13: error: package org.hamcrest does not exist
+import org.hamcrest.Matchers;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/ActionableView.java:16: error: cannot find symbol
+    private final ViewInteraction viewInteraction;
+                  ^
+  symbol:   class ViewInteraction
+  location: class ActionableView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/ActionableView.java:18: error: cannot find symbol
+    public ActionableView(ViewInteraction viewInteraction)
+                          ^
+  symbol:   class ViewInteraction
+  location: class ActionableView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/ActionableView.java:24: error: cannot find symbol
+    public ActionableObject check(ViewAssertion viewAssertion)
+                                  ^
+  symbol:   class ViewAssertion
+  location: class ActionableView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/ActionableView.java:30: error: cannot find symbol
+    public ActionableObject perform(ViewAction viewAction)
+                                    ^
+  symbol:   class ViewAction
+  location: class ActionableView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/ActionableObject.java:287: error: cannot find symbol
+    public abstract ActionableObject check(ViewAssertion viewAssertion);
+                                           ^
+  symbol:   class ViewAssertion
+  location: class ActionableObject
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/ActionableObject.java:289: error: cannot find symbol
+    public abstract ActionableObject perform(ViewAction viewAction);
+                                             ^
+  symbol:   class ViewAction
+  location: class ActionableObject
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/ActionableObject.java:307: error: cannot find symbol
+    public BoundedMatcher<View, ImageView> hasDrawableImageView()
+           ^
+  symbol:   class BoundedMatcher
+  location: class ActionableObject
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/DataMatcher.java:3: error: package android.support.annotation does not exist
+import android.support.annotation.IdRes;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/DataMatcher.java:4: error: package android.support.test.espresso does not exist
+import android.support.test.espresso.DataInteraction;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/DataMatcher.java:5: error: package android.support.test.espresso.matcher does not exist
+import android.support.test.espresso.matcher.BoundedMatcher;
+                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/DataMatcher.java:7: error: package org.hamcrest does not exist
+import org.hamcrest.Description;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/DataMatcher.java:8: error: package org.hamcrest does not exist
+import org.hamcrest.Matcher;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/DataMatcher.java:10: error: package android.support.test.espresso does not exist
+import static android.support.test.espresso.Espresso.onData;
+                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/DataMatcher.java:10: error: static import only from classes and interfaces
+import static android.support.test.espresso.Espresso.onData;
+^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/DataMatcher.java:11: error: package android.support.test.espresso.matcher does not exist
+import static android.support.test.espresso.matcher.ViewMatchers.withId;
+                                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/DataMatcher.java:11: error: static import only from classes and interfaces
+import static android.support.test.espresso.matcher.ViewMatchers.withId;
+^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/ActionableData.java:3: error: package android.support.test.espresso does not exist
+import android.support.test.espresso.DataInteraction;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/ActionableData.java:4: error: package android.support.test.espresso does not exist
+import android.support.test.espresso.UiController;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/ActionableData.java:5: error: package android.support.test.espresso does not exist
+import android.support.test.espresso.ViewAction;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/ActionableData.java:6: error: package android.support.test.espresso does not exist
+import android.support.test.espresso.ViewAssertion;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/ActionableData.java:10: error: package org.hamcrest does not exist
+import org.hamcrest.Matcher;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/ActionableData.java:12: error: package android.support.test.espresso.matcher does not exist
+import static android.support.test.espresso.matcher.ViewMatchers.isAssignableFrom;
+                                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/ActionableData.java:12: error: static import only from classes and interfaces
+import static android.support.test.espresso.matcher.ViewMatchers.isAssignableFrom;
+^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/DataMatcher.java:43: error: cannot find symbol
+    private Matcher<Object> dataMatcher(C content)
+            ^
+  symbol:   class Matcher
+  location: class DataMatcher<T,C>
+  where T,C are type-variables:
+    T extends Object declared in class DataMatcher
+    C extends Object declared in class DataMatcher
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/ActionableData.java:16: error: cannot find symbol
+    private final DataInteraction dataInteraction;
+                  ^
+  symbol:   class DataInteraction
+  location: class ActionableData
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/ActionableData.java:18: error: cannot find symbol
+    public ActionableData(DataInteraction dataInteraction)
+                          ^
+  symbol:   class DataInteraction
+  location: class ActionableData
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/ActionableData.java:24: error: cannot find symbol
+    public ActionableObject check(ViewAssertion viewAssertion)
+                                  ^
+  symbol:   class ViewAssertion
+  location: class ActionableData
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/ActionableData.java:30: error: cannot find symbol
+    public ActionableObject perform(ViewAction viewAction)
+                                    ^
+  symbol:   class ViewAction
+  location: class ActionableData
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/ScreenshotProvider.java:9: error: package android.support.test does not exist
+import static android.support.test.InstrumentationRegistry.getTargetContext;
+                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/ScreenshotProvider.java:9: error: static import only from classes and interfaces
+import static android.support.test.InstrumentationRegistry.getTargetContext;
+^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/ScreenCapture.java:6: error: package android.support.test does not exist
+import android.support.test.InstrumentationRegistry;
+                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/ScreenCapture.java:7: error: package android.support.test.runner.lifecycle does not exist
+import android.support.test.runner.lifecycle.ActivityLifecycleMonitorRegistry;
+                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/ScreenCapture.java:8: error: package android.support.test.runner.lifecycle does not exist
+import android.support.test.runner.lifecycle.Stage;
+                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/GreenCoffeeTest.java:13: error: package android.support.test does not exist
+import static android.support.test.InstrumentationRegistry.getTargetContext;
+                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/GreenCoffeeTest.java:13: error: static import only from classes and interfaces
+import static android.support.test.InstrumentationRegistry.getTargetContext;
+^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/GreenCoffeeSteps.java:3: error: package android.support.annotation does not exist
+import android.support.annotation.IdRes;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/GreenCoffeeSteps.java:4: error: package android.support.annotation does not exist
+import android.support.annotation.StringRes;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/GreenCoffeeSteps.java:5: error: package android.support.test does not exist
+import android.support.test.InstrumentationRegistry;
+                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/GreenCoffeeSteps.java:6: error: package android.support.test.espresso does not exist
+import android.support.test.espresso.Espresso;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/GreenCoffeeSteps.java:7: error: package android.support.test.espresso does not exist
+import android.support.test.espresso.UiController;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/GreenCoffeeSteps.java:8: error: package android.support.test.espresso does not exist
+import android.support.test.espresso.ViewAction;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/GreenCoffeeSteps.java:9: error: package android.support.test.espresso.matcher does not exist
+import android.support.test.espresso.matcher.ViewMatchers;
+                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/GreenCoffeeSteps.java:25: error: package org.hamcrest does not exist
+import org.hamcrest.Description;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/GreenCoffeeSteps.java:26: error: package org.hamcrest does not exist
+import org.hamcrest.Matcher;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/GreenCoffeeSteps.java:27: error: package org.hamcrest does not exist
+import org.hamcrest.TypeSafeMatcher;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/GreenCoffeeSteps.java:36: error: package android.support.test.espresso does not exist
+import static android.support.test.espresso.Espresso.onData;
+                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/GreenCoffeeSteps.java:36: error: static import only from classes and interfaces
+import static android.support.test.espresso.Espresso.onData;
+^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/GreenCoffeeSteps.java:37: error: package android.support.test.espresso does not exist
+import static android.support.test.espresso.Espresso.onView;
+                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/GreenCoffeeSteps.java:37: error: static import only from classes and interfaces
+import static android.support.test.espresso.Espresso.onView;
+^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/GreenCoffeeSteps.java:38: error: package android.support.test.espresso.matcher does not exist
+import static android.support.test.espresso.matcher.ViewMatchers.isRoot;
+                                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/GreenCoffeeSteps.java:38: error: static import only from classes and interfaces
+import static android.support.test.espresso.matcher.ViewMatchers.isRoot;
+^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/GreenCoffeeSteps.java:39: error: package android.support.test.espresso.matcher does not exist
+import static android.support.test.espresso.matcher.ViewMatchers.withId;
+                                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/GreenCoffeeSteps.java:39: error: static import only from classes and interfaces
+import static android.support.test.espresso.matcher.ViewMatchers.withId;
+^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/GreenCoffeeSteps.java:40: error: package org.hamcrest does not exist
+import static org.hamcrest.Matchers.allOf;
+                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/GreenCoffeeSteps.java:40: error: static import only from classes and interfaces
+import static org.hamcrest.Matchers.allOf;
+^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/GreenCoffeeSteps.java:146: error: cannot find symbol
+    protected ActionableObject onViewWithAll(Matcher<? super View>... matchers)
+                                             ^
+  symbol:   class Matcher
+  location: class GreenCoffeeSteps
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/GreenCoffeeSteps.java:192: error: cannot find symbol
+    protected Matcher<View> withIndex(Matcher<View> matcher, int index)
+                                      ^
+  symbol:   class Matcher
+  location: class GreenCoffeeSteps
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/GreenCoffeeSteps.java:192: error: cannot find symbol
+    protected Matcher<View> withIndex(Matcher<View> matcher, int index)
+              ^
+  symbol:   class Matcher
+  location: class GreenCoffeeSteps
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/GreenCoffeeSteps.java:218: error: cannot find symbol
+    protected Matcher<View> nthChildOf(Matcher<View> parentMatcher, int childPosition)
+                                       ^
+  symbol:   class Matcher
+  location: class GreenCoffeeSteps
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/GreenCoffeeSteps.java:218: error: cannot find symbol
+    protected Matcher<View> nthChildOf(Matcher<View> parentMatcher, int childPosition)
+              ^
+  symbol:   class Matcher
+  location: class GreenCoffeeSteps
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/GreenCoffeeSteps.java:253: error: cannot find symbol
+    private ViewAction actionWaitFor(long value, TimeUnit timeUnit)
+            ^
+  symbol:   class ViewAction
+  location: class GreenCoffeeSteps
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/TimedIdlingResource.java:3: error: package android.support.test.espresso does not exist
+import android.support.test.espresso.Espresso;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/TimedIdlingResource.java:4: error: package android.support.test.espresso does not exist
+import android.support.test.espresso.IdlingResource;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/TimedIdlingResource.java:8: error: cannot find symbol
+public class TimedIdlingResource implements IdlingResource
+                                            ^
+  symbol: class IdlingResource
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/TimedIdlingResource.java:11: error: cannot find symbol
+    private ResourceCallback resourceCallback;
+            ^
+  symbol:   class ResourceCallback
+  location: class TimedIdlingResource
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/TimedIdlingResource.java:43: error: cannot find symbol
+    public void registerIdleTransitionCallback(ResourceCallback resourceCallback)
+                                               ^
+  symbol:   class ResourceCallback
+  location: class TimedIdlingResource
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/interactions/DataMatcher.java:18: error: cannot find symbol
+    public DataMatcher(@IdRes int resourceId, Class<T> clazz)
+                        ^
+  symbol:   class IdRes
+  location: class DataMatcher<T,C>
+  where T,C are type-variables:
+    T extends Object declared in class DataMatcher
+    C extends Object declared in class DataMatcher
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/GreenCoffeeSteps.java:116: error: cannot find symbol
+    protected ActionableObject onViewWithId(@IdRes int resourceId)
+                                             ^
+  symbol:   class IdRes
+  location: class GreenCoffeeSteps
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/GreenCoffeeSteps.java:121: error: cannot find symbol
+    protected ActionableObject onViewWithId(@IdRes int resourceId, int index)
+                                             ^
+  symbol:   class IdRes
+  location: class GreenCoffeeSteps
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/GreenCoffeeSteps.java:126: error: cannot find symbol
+    protected ActionableObject onViewWithText(@StringRes int resourceId)
+                                               ^
+  symbol:   class StringRes
+  location: class GreenCoffeeSteps
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/GreenCoffeeSteps.java:131: error: cannot find symbol
+    protected ActionableObject onViewWithText(@StringRes int resourceId, int index)
+                                               ^
+  symbol:   class StringRes
+  location: class GreenCoffeeSteps
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/GreenCoffeeSteps.java:156: error: cannot find symbol
+    protected <T> ActionableObject onViewWithObject(@IdRes int resourceId, Class<T> clazz, T object)
+                                                     ^
+  symbol:   class IdRes
+  location: class GreenCoffeeSteps
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/GreenCoffeeSteps.java:161: error: cannot find symbol
+    protected ActionableObject onViewChildOf(@IdRes int parentViewId, int index)
+                                              ^
+  symbol:   class IdRes
+  location: class GreenCoffeeSteps
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/com/mauriciotogneri/greencoffee/GreenCoffeeSteps.java:176: error: cannot find symbol
+    protected String string(@StringRes int stringId)
+                             ^
+  symbol:   class StringRes
+  location: class GreenCoffeeSteps
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/src/main/java/gherkin/TokenScanner.java:14: warning: empty <p> tag
+ * <p>
+   ^
+javadoc: warning - Class IdRes not found.
+javadoc: warning - Class IdRes not found.
+javadoc: warning - Class StringRes not found.
+
+100 warnings
+:greencoffee:javadocJar
+:greencoffee:sourcesJar
+:greencoffee:assemble
+:greencoffee:build
+
+BUILD SUCCESSFUL in 17s
+48 actionable tasks: 48 executed
+
+2018-10-22 22:51:45,930 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-22 22:51:45,931 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-22 22:51:52,352 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-10-22 22:51:52,353 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-10-22 22:51:52,353 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223475000-0/src/green-coffee-master/greencoffee/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-10-22 22:51:58,944 INFO  SysUtils - Configuration on demand is an incubating feature.
+:greencoffee:preBuild UP-TO-DATE
+:greencoffee:preDebugBuild UP-TO-DATE
+:greencoffee:compileDebugAidl NO-SOURCE
+:greencoffee:compileDebugRenderscript UP-TO-DATE
+:greencoffee:checkDebugManifest UP-TO-DATE
+:greencoffee:generateDebugBuildConfig UP-TO-DATE
+:greencoffee:generateDebugResValues UP-TO-DATE
+:greencoffee:generateDebugResources UP-TO-DATE
+:greencoffee:packageDebugResources UP-TO-DATE
+:greencoffee:processDebugManifest UP-TO-DATE
+:greencoffee:generateDebugRFile UP-TO-DATE
+:greencoffee:prepareLintJar UP-TO-DATE
+:greencoffee:generateDebugSources UP-TO-DATE
+:greencoffee:javaPreCompileDebug UP-TO-DATE
+:greencoffee:compileDebugJavaWithJavac UP-TO-DATE
+:greencoffee:extractDebugAnnotations UP-TO-DATE
+:greencoffee:mergeDebugConsumerProguardFiles UP-TO-DATE
+:greencoffee:mergeDebugShaders UP-TO-DATE
+:greencoffee:compileDebugShaders UP-TO-DATE
+:greencoffee:generateDebugAssets UP-TO-DATE
+:greencoffee:packageDebugAssets UP-TO-DATE
+:greencoffee:packageDebugRenderscript NO-SOURCE
+:greencoffee:processDebugJavaRes NO-SOURCE
+:greencoffee:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:greencoffee:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:greencoffee:compileDebugNdk NO-SOURCE
+:greencoffee:mergeDebugJniLibFolders UP-TO-DATE
+:greencoffee:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:greencoffee:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:greencoffee:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:greencoffee:bundleDebugAar UP-TO-DATE
+:greencoffee:compileDebugSources UP-TO-DATE
+:greencoffee:assembleDebug UP-TO-DATE
+:greencoffee:preReleaseBuild UP-TO-DATE
+:greencoffee:compileReleaseAidl NO-SOURCE
+:greencoffee:compileReleaseRenderscript UP-TO-DATE
+:greencoffee:checkReleaseManifest UP-TO-DATE
+:greencoffee:generateReleaseBuildConfig UP-TO-DATE
+:greencoffee:generateReleaseResValues UP-TO-DATE
+:greencoffee:generateReleaseResources UP-TO-DATE
+:greencoffee:packageReleaseResources UP-TO-DATE
+:greencoffee:processReleaseManifest UP-TO-DATE
+:greencoffee:generateReleaseRFile UP-TO-DATE
+:greencoffee:generateReleaseSources UP-TO-DATE
+:greencoffee:javaPreCompileRelease UP-TO-DATE
+:greencoffee:compileReleaseJavaWithJavac UP-TO-DATE
+:greencoffee:extractReleaseAnnotations UP-TO-DATE
+:greencoffee:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:greencoffee:mergeReleaseShaders UP-TO-DATE
+:greencoffee:compileReleaseShaders UP-TO-DATE
+:greencoffee:generateReleaseAssets UP-TO-DATE
+:greencoffee:packageReleaseAssets UP-TO-DATE
+:greencoffee:packageReleaseRenderscript NO-SOURCE
+:greencoffee:processReleaseJavaRes NO-SOURCE
+:greencoffee:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:greencoffee:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:greencoffee:compileReleaseNdk NO-SOURCE
+:greencoffee:mergeReleaseJniLibFolders UP-TO-DATE
+:greencoffee:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:greencoffee:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:greencoffee:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:greencoffee:bundleReleaseAar UP-TO-DATE
+:greencoffee:compileReleaseSources UP-TO-DATE
+:greencoffee:mergeReleaseResources UP-TO-DATE
+:greencoffee:verifyReleaseResources
+:greencoffee:assembleRelease
+:greencoffee:javadoc UP-TO-DATE
+:greencoffee:javadocJar UP-TO-DATE
+:greencoffee:sourcesJar UP-TO-DATE
+:greencoffee:assemble
+:greencoffee:build
+
+BUILD SUCCESSFUL in 6s
+48 actionable tasks: 1 executed, 47 up-to-date
+
+2018-10-22 22:51:58,965 ERROR FullProcessService - Project build has not produced APK file
+2018-10-22 22:51:58,983 ERROR FullProcessService - Could not find generated or existed APK file

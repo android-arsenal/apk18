@@ -1,0 +1,531 @@
+2019-01-19 21:21:50,935 INFO  DownloadService - Downloading "https://github.com/lisawray/groupie/archive/master.zip", attempt 3
+2019-01-19 21:21:53,133 INFO  DownloadService - Downloaded https://github.com/lisawray/groupie/archive/master.zip, attempt 3
+2019-01-19 21:21:53,134 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/master.zip": 198 KB
+2019-01-19 21:21:53,134 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-19 21:21:53,139 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/master.zip: true
+2019-01-19 21:21:53,139 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src'.
+2019-01-19 21:21:53,185 INFO  FullProcessService - Size of directory with sources: 327 KB
+2019-01-19 21:21:53,186 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src]
+2019-01-19 21:21:53,206 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/.git/
+
+2019-01-19 21:21:53,213 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/gradlew
+2019-01-19 21:21:53,220 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/example-databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/example-shared/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/library-databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/library-kotlin-android-extensions/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/library/build.gradle
+2019-01-19 21:21:53,229 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/example-shared/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/library-databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/jcenter/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/jcenter/maven-install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/library-kotlin-android-extensions/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/release-bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/example-databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/settings.gradle
+2019-01-19 21:21:53,230 INFO  ProjectBuildService - Remote scripts: none
+2019-01-19 21:21:53,230 INFO  ProjectFixService - Fixing project...
+2019-01-19 21:21:53,248 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/local.properties
+2019-01-19 21:21:53,249 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-01-19 21:21:53,249 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-01-19 21:21:53,254 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-19 21:21:53,254 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-19 21:21:53,256 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/example-databinding/local.properties
+2019-01-19 21:21:53,261 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/example-databinding/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-19 21:21:53,261 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/example-databinding/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-19 21:21:53,262 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/example-shared/local.properties
+2019-01-19 21:21:53,267 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/example-shared/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-19 21:21:53,268 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/example-shared/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-19 21:21:53,268 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/example/local.properties
+2019-01-19 21:21:53,274 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-19 21:21:53,274 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-19 21:21:53,275 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/library-databinding/local.properties
+2019-01-19 21:21:53,280 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/library-databinding/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-19 21:21:53,280 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/library-databinding/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-19 21:21:53,281 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/library-kotlin-android-extensions/local.properties
+2019-01-19 21:21:53,286 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/library-kotlin-android-extensions/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-19 21:21:53,286 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/library-kotlin-android-extensions/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-19 21:21:53,287 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/library/local.properties
+2019-01-19 21:21:53,293 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-19 21:21:53,293 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-19 21:21:53,294 INFO  ProjectFixService - Project was maybe fixed
+2019-01-19 21:21:53,294 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 21:21:53,294 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 21:22:05,622 INFO  ProjectTaskService - Detected possible tasks: 81
+2019-01-19 21:22:05,623 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-19 21:22:05,623 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-19 21:23:42,636 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+:example:checkDebugClasspath
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-android-extensions-runtime/1.2.71/kotlin-android-extensions-runtime-1.2.71.jar
+:example:preBuild UP-TO-DATE
+:example-shared:preBuild UP-TO-DATE
+:example-shared:preDebugBuild UP-TO-DATE
+:example-shared:checkDebugManifest
+:example-shared:processDebugManifest
+:example:preDebugBuild
+:example-shared:compileDebugAidl NO-SOURCE
+:example:compileDebugAidl NO-SOURCE
+:example-shared:packageDebugRenderscript NO-SOURCE
+:example:compileDebugRenderscript
+:example:checkDebugManifest
+:example:generateDebugBuildConfig
+:example:mainApkListPersistenceDebug
+:example:generateDebugResValues
+:example:generateDebugResources
+:example-shared:compileDebugRenderscript
+:example-shared:generateDebugResValues
+:example-shared:generateDebugResources
+:example-shared:packageDebugResources
+:example:mergeDebugResources
+:example:createDebugCompatibleScreenManifests
+:example:processDebugManifest
+:example:splitsDiscoveryTaskDebug
+:example-shared:generateDebugRFile
+:example:processDebugResources
+:example-shared:generateDebugBuildConfig
+:example-shared:prepareLintJar
+:example-shared:generateDebugSources
+:example-shared:javaPreCompileDebug
+:example-shared:compileDebugJavaWithJavac
+:example-shared:processDebugJavaRes NO-SOURCE
+:example-shared:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:example:compileDebugKotlin
+:example:prepareLintJar
+:example:generateDebugSources
+:example:javaPreCompileDebug
+:example:compileDebugJavaWithJavac
+:example:compileDebugNdk NO-SOURCE
+:example:compileDebugSources
+:example:mergeDebugShaders
+:example:compileDebugShaders
+:example:generateDebugAssets
+:example-shared:mergeDebugShaders
+:example-shared:compileDebugShaders
+:example-shared:generateDebugAssets
+:example-shared:packageDebugAssets
+:example:mergeDebugAssets
+:example:transformClassesWithDexBuilderForDebug
+:example:transformDexArchiveWithExternalLibsDexMergerForDebug
+:example:transformDexArchiveWithDexMergerForDebug
+:example:mergeDebugJniLibFolders
+:example-shared:compileDebugNdk NO-SOURCE
+:example-shared:mergeDebugJniLibFolders
+:example-shared:transformNativeLibsWithMergeJniLibsForDebug
+:example-shared:transformNativeLibsWithStripDebugSymbolForDebug
+:example-shared:transformNativeLibsWithIntermediateJniLibsForDebug
+:example:transformNativeLibsWithMergeJniLibsForDebug
+:example:transformNativeLibsWithStripDebugSymbolForDebug
+:example:checkDebugLibraries
+:example:processDebugJavaRes NO-SOURCE
+:example:transformResourcesWithMergeJavaResForDebug
+:example:validateSigningDebug
+:example:packageDebug
+:example:assembleDebug
+:example:checkReleaseClasspath
+:example-shared:preReleaseBuild UP-TO-DATE
+:example-shared:checkReleaseManifest
+:example-shared:processReleaseManifest
+:example:preReleaseBuild
+:example-shared:compileReleaseAidl NO-SOURCE
+:example:compileReleaseAidl NO-SOURCE
+:example-shared:packageReleaseRenderscript NO-SOURCE
+:example:compileReleaseRenderscript
+:example:checkReleaseManifest
+:example:generateReleaseBuildConfig
+:example:mainApkListPersistenceRelease
+:example:generateReleaseResValues
+:example:generateReleaseResources
+:example-shared:compileReleaseRenderscript
+:example-shared:generateReleaseResValues
+:example-shared:generateReleaseResources
+:example-shared:packageReleaseResources
+:example:mergeReleaseResources
+:example:createReleaseCompatibleScreenManifests
+:example:processReleaseManifest
+:example:splitsDiscoveryTaskRelease
+:example-shared:generateReleaseRFile
+:example:processReleaseResources
+:example-shared:generateReleaseBuildConfig
+:example-shared:generateReleaseSources
+:example-shared:javaPreCompileRelease
+:example-shared:compileReleaseJavaWithJavac
+:example-shared:processReleaseJavaRes NO-SOURCE
+:example-shared:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:example:compileReleaseKotlin
+:example:generateReleaseSources
+:example:javaPreCompileRelease
+:example:compileReleaseJavaWithJavac
+:example:compileReleaseNdk NO-SOURCE
+:example:compileReleaseSources
+:example:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/7e8c1580aaac191694eb4c23677ba101/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:example:mergeReleaseShaders
+:example:compileReleaseShaders
+:example:generateReleaseAssets
+:example-shared:mergeReleaseShaders
+:example-shared:compileReleaseShaders
+:example-shared:generateReleaseAssets
+:example-shared:packageReleaseAssets
+:example:mergeReleaseAssets
+:example:transformClassesWithDexBuilderForRelease
+:example:transformDexArchiveWithExternalLibsDexMergerForRelease
+:example:transformDexArchiveWithDexMergerForRelease
+:example:mergeReleaseJniLibFolders
+:example-shared:compileReleaseNdk NO-SOURCE
+:example-shared:mergeReleaseJniLibFolders
+:example-shared:transformNativeLibsWithMergeJniLibsForRelease
+:example-shared:transformNativeLibsWithStripDebugSymbolForRelease
+:example-shared:transformNativeLibsWithIntermediateJniLibsForRelease
+:example:transformNativeLibsWithMergeJniLibsForRelease
+:example:transformNativeLibsWithStripDebugSymbolForRelease
+:example:checkReleaseLibraries
+:example:processReleaseJavaRes NO-SOURCE
+:example:transformResourcesWithMergeJavaResForRelease
+:example:packageRelease
+:example:assembleRelease
+:example:assemble
+:example:build
+:example-databinding:checkDebugClasspath
+Download https://dl.bintray.com/lisawray/maven/com/xwray/groupie-databinding/2.2.0/groupie-databinding-2.2.0.aar
+:example-databinding:preBuild UP-TO-DATE
+:example-databinding:preDebugBuild
+:example-databinding:compileDebugAidl NO-SOURCE
+:example-databinding:compileDebugRenderscript
+:example-databinding:checkDebugManifest
+:example-databinding:generateDebugBuildConfig
+:example-databinding:prepareLintJar
+:example-databinding:mainApkListPersistenceDebug
+:example-databinding:generateDebugResValues
+:example-databinding:generateDebugResources
+:example-databinding:mergeDebugResources
+:example-databinding:createDebugCompatibleScreenManifests
+:example-databinding:processDebugManifest
+:example-databinding:splitsDiscoveryTaskDebug
+:example-databinding:processDebugResources
+:example-databinding:generateDebugSources
+:example-databinding:dataBindingExportBuildInfoDebug
+:example-databinding:dataBindingExportFeaturePackageIdsDebug
+:example-databinding:dataBindingMergeDependencyArtifactsDebug
+:example-databinding:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+:example-databinding:dataBindingGenBaseClassesDebug
+:example-databinding:javaPreCompileDebug
+ERROR: [TAG] Failed to resolve variable '${project.version}'
+ERROR: [TAG] Failed to resolve variable '${animal.sniffer.version}'
+:example-databinding:compileDebugJavaWithJavac
+:example-databinding:compileDebugNdk NO-SOURCE
+:example-databinding:compileDebugSources
+:example-databinding:mergeDebugShaders
+:example-databinding:compileDebugShaders
+:example-databinding:generateDebugAssets
+:example-databinding:mergeDebugAssets
+:example-databinding:transformClassesWithDexBuilderForDebug
+:example-databinding:transformDexArchiveWithExternalLibsDexMergerForDebug
+:example-databinding:transformDexArchiveWithDexMergerForDebug
+:example-databinding:mergeDebugJniLibFolders
+:example-databinding:transformNativeLibsWithMergeJniLibsForDebug
+:example-databinding:transformNativeLibsWithStripDebugSymbolForDebug
+:example-databinding:checkDebugLibraries
+:example-databinding:processDebugJavaRes NO-SOURCE
+:example-databinding:transformResourcesWithMergeJavaResForDebug
+:example-databinding:validateSigningDebug
+:example-databinding:packageDebug
+:example-databinding:assembleDebug
+:example-databinding:checkReleaseClasspath
+:example-databinding:preReleaseBuild
+:example-databinding:compileReleaseAidl NO-SOURCE
+:example-databinding:compileReleaseRenderscript
+:example-databinding:checkReleaseManifest
+:example-databinding:generateReleaseBuildConfig
+:example-databinding:mainApkListPersistenceRelease
+:example-databinding:generateReleaseResValues
+:example-databinding:generateReleaseResources
+:example-databinding:mergeReleaseResources
+:example-databinding:createReleaseCompatibleScreenManifests
+:example-databinding:processReleaseManifest
+:example-databinding:splitsDiscoveryTaskRelease
+:example-databinding:processReleaseResources
+:example-databinding:generateReleaseSources
+:example-databinding:dataBindingExportBuildInfoRelease
+:example-databinding:dataBindingExportFeaturePackageIdsRelease
+:example-databinding:dataBindingMergeDependencyArtifactsRelease
+:example-databinding:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForRelease
+:example-databinding:dataBindingGenBaseClassesRelease
+:example-databinding:javaPreCompileRelease
+:example-databinding:compileReleaseJavaWithJavac
+:example-databinding:compileReleaseNdk NO-SOURCE
+:example-databinding:compileReleaseSources
+:example-databinding:lintVitalRelease
+:example-databinding:mergeReleaseShaders
+:example-databinding:compileReleaseShaders
+:example-databinding:generateReleaseAssets
+:example-databinding:mergeReleaseAssets
+:example-databinding:transformClassesWithDexBuilderForRelease
+:example-databinding:transformDexArchiveWithExternalLibsDexMergerForRelease
+:example-databinding:transformDexArchiveWithDexMergerForRelease
+:example-databinding:mergeReleaseJniLibFolders
+:example-databinding:transformNativeLibsWithMergeJniLibsForRelease
+:example-databinding:transformNativeLibsWithStripDebugSymbolForRelease
+:example-databinding:checkReleaseLibraries
+:example-databinding:processReleaseJavaRes NO-SOURCE
+:example-databinding:transformResourcesWithMergeJavaResForRelease
+:example-databinding:packageRelease
+:example-databinding:assembleRelease
+:example-databinding:assemble
+:example-databinding:build
+:example-shared:extractDebugAnnotations
+:example-shared:mergeDebugConsumerProguardFiles
+:example-shared:transformResourcesWithMergeJavaResForDebug
+:example-shared:transformClassesAndResourcesWithSyncLibJarsForDebug
+:example-shared:transformNativeLibsWithSyncJniLibsForDebug
+:example-shared:bundleDebugAar
+:example-shared:compileDebugSources
+:example-shared:assembleDebug
+:example-shared:extractReleaseAnnotations
+:example-shared:mergeReleaseConsumerProguardFiles
+:example-shared:transformResourcesWithMergeJavaResForRelease
+:example-shared:transformClassesAndResourcesWithSyncLibJarsForRelease
+:example-shared:transformNativeLibsWithSyncJniLibsForRelease
+:example-shared:bundleReleaseAar
+:example-shared:compileReleaseSources
+:example-shared:mergeReleaseResources
+:example-shared:verifyReleaseResources
+:example-shared:assembleRelease
+:example-shared:assemble
+:example-shared:build
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:compileDebugAidl NO-SOURCE
+:library:compileDebugRenderscript
+:library:checkDebugManifest
+:library:generateDebugBuildConfig
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:packageDebugResources
+:library:processDebugManifest
+:library:generateDebugRFile
+:library:prepareLintJar
+:library:generateDebugSources
+:library:javaPreCompileDebug
+:library:compileDebugJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:library:extractDebugAnnotations
+:library:mergeDebugConsumerProguardFiles
+:library:mergeDebugShaders
+:library:compileDebugShaders
+:library:generateDebugAssets
+:library:packageDebugAssets
+:library:packageDebugRenderscript NO-SOURCE
+:library:processDebugJavaRes NO-SOURCE
+:library:transformResourcesWithMergeJavaResForDebug
+:library:transformClassesAndResourcesWithSyncLibJarsForDebug
+:library:compileDebugNdk NO-SOURCE
+:library:mergeDebugJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForDebug
+:library:transformNativeLibsWithStripDebugSymbolForDebug
+:library:transformNativeLibsWithSyncJniLibsForDebug
+:library:bundleDebugAar
+:library:compileDebugSources
+:library:assembleDebug
+:library:preReleaseBuild UP-TO-DATE
+:library:compileReleaseAidl NO-SOURCE
+:library:compileReleaseRenderscript
+:library:checkReleaseManifest
+:library:generateReleaseBuildConfig
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:library:processReleaseManifest
+:library:generateReleaseRFile
+:library:generateReleaseSources
+:library:javaPreCompileRelease
+:library:compileReleaseJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:library:extractReleaseAnnotations
+:library:mergeReleaseConsumerProguardFiles
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:packageReleaseAssets
+:library:packageReleaseRenderscript NO-SOURCE
+:library:processReleaseJavaRes NO-SOURCE
+:library:transformResourcesWithMergeJavaResForRelease
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:library:compileReleaseNdk NO-SOURCE
+:library:mergeReleaseJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForRelease
+:library:transformNativeLibsWithStripDebugSymbolForRelease
+:library:transformNativeLibsWithSyncJniLibsForRelease
+:library:bundleReleaseAar
+:library:compileReleaseSources
+:library:mergeReleaseResources
+:library:verifyReleaseResources
+:library:assembleRelease
+:library:dokkaJavadoc
+No source directories found: skipping dokka generation
+:library:javadocJar
+:library:sourcesJar
+:library:assemble
+:library:build
+:library-databinding:preBuild UP-TO-DATE
+:library-databinding:preDebugBuild UP-TO-DATE
+:library-databinding:compileDebugAidl NO-SOURCE
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:library-databinding:compileDebugRenderscript
+Download https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-runtime/3.2.0/databinding-runtime-3.2.0.aar
+:library-databinding:checkDebugManifest
+:library-databinding:generateDebugBuildConfig
+:library-databinding:generateDebugResValues
+:library-databinding:generateDebugResources
+:library-databinding:packageDebugResources
+:library-databinding:processDebugManifest
+:library-databinding:generateDebugRFile
+:library-databinding:prepareLintJar
+:library-databinding:generateDebugSources
+:library-databinding:javaPreCompileDebug
+:library-databinding:compileDebugJavaWithJavac
+:library-databinding:extractDebugAnnotations
+:library-databinding:mergeDebugConsumerProguardFiles
+:library-databinding:mergeDebugShaders
+:library-databinding:compileDebugShaders
+:library-databinding:generateDebugAssets
+:library-databinding:packageDebugAssets
+:library-databinding:packageDebugRenderscript NO-SOURCE
+:library-databinding:processDebugJavaRes NO-SOURCE
+:library-databinding:transformResourcesWithMergeJavaResForDebug
+:library-databinding:transformClassesAndResourcesWithSyncLibJarsForDebug
+:library-databinding:compileDebugNdk NO-SOURCE
+:library-databinding:mergeDebugJniLibFolders
+:library-databinding:transformNativeLibsWithMergeJniLibsForDebug
+:library-databinding:transformNativeLibsWithStripDebugSymbolForDebug
+:library-databinding:transformNativeLibsWithSyncJniLibsForDebug
+:library-databinding:bundleDebugAar
+:library-databinding:compileDebugSources
+:library-databinding:assembleDebug
+:library-databinding:preReleaseBuild UP-TO-DATE
+:library-databinding:compileReleaseAidl NO-SOURCE
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:library-databinding:compileReleaseRenderscript
+:library-databinding:checkReleaseManifest
+:library-databinding:generateReleaseBuildConfig
+:library-databinding:generateReleaseResValues
+:library-databinding:generateReleaseResources
+:library-databinding:packageReleaseResources
+:library-databinding:processReleaseManifest
+:library-databinding:generateReleaseRFile
+:library-databinding:generateReleaseSources
+:library-databinding:javaPreCompileRelease
+:library-databinding:compileReleaseJavaWithJavac
+:library-databinding:extractReleaseAnnotations
+:library-databinding:mergeReleaseConsumerProguardFiles
+:library-databinding:mergeReleaseShaders
+:library-databinding:compileReleaseShaders
+:library-databinding:generateReleaseAssets
+:library-databinding:packageReleaseAssets
+:library-databinding:packageReleaseRenderscript NO-SOURCE
+:library-databinding:processReleaseJavaRes NO-SOURCE
+:library-databinding:transformResourcesWithMergeJavaResForRelease
+:library-databinding:transformClassesAndResourcesWithSyncLibJarsForRelease
+:library-databinding:compileReleaseNdk NO-SOURCE
+:library-databinding:mergeReleaseJniLibFolders
+:library-databinding:transformNativeLibsWithMergeJniLibsForRelease
+:library-databinding:transformNativeLibsWithStripDebugSymbolForRelease
+:library-databinding:transformNativeLibsWithSyncJniLibsForRelease
+:library-databinding:bundleReleaseAar
+:library-databinding:compileReleaseSources
+:library-databinding:mergeReleaseResources
+:library-databinding:verifyReleaseResources
+:library-databinding:assembleRelease
+:library-databinding:dokkaJavadoc
+No source directories found: skipping dokka generation
+:library-databinding:javadocJar
+:library-databinding:sourcesJar
+:library-databinding:assemble
+:library-databinding:build
+:library-kotlin-android-extensions:preBuild UP-TO-DATE
+:library-kotlin-android-extensions:preDebugBuild UP-TO-DATE
+:library-kotlin-android-extensions:compileDebugAidl NO-SOURCE
+:library-kotlin-android-extensions:compileDebugRenderscript
+:library-kotlin-android-extensions:checkDebugManifest
+:library-kotlin-android-extensions:generateDebugBuildConfig
+:library-kotlin-android-extensions:generateDebugResValues
+:library-kotlin-android-extensions:generateDebugResources
+:library-kotlin-android-extensions:packageDebugResources
+:library-kotlin-android-extensions:processDebugManifest
+:library-kotlin-android-extensions:generateDebugRFile
+:library-kotlin-android-extensions:compileDebugKotlin
+:library-kotlin-android-extensions:prepareLintJar
+:library-kotlin-android-extensions:generateDebugSources
+:library-kotlin-android-extensions:javaPreCompileDebug
+:library-kotlin-android-extensions:compileDebugJavaWithJavac
+:library-kotlin-android-extensions:extractDebugAnnotations
+:library-kotlin-android-extensions:mergeDebugConsumerProguardFiles
+:library-kotlin-android-extensions:mergeDebugShaders
+:library-kotlin-android-extensions:compileDebugShaders
+:library-kotlin-android-extensions:generateDebugAssets
+:library-kotlin-android-extensions:packageDebugAssets
+:library-kotlin-android-extensions:packageDebugRenderscript NO-SOURCE
+:library-kotlin-android-extensions:processDebugJavaRes NO-SOURCE
+:library-kotlin-android-extensions:transformResourcesWithMergeJavaResForDebug
+:library-kotlin-android-extensions:transformClassesAndResourcesWithSyncLibJarsForDebug
+:library-kotlin-android-extensions:compileDebugNdk NO-SOURCE
+:library-kotlin-android-extensions:mergeDebugJniLibFolders
+:library-kotlin-android-extensions:transformNativeLibsWithMergeJniLibsForDebug
+:library-kotlin-android-extensions:transformNativeLibsWithStripDebugSymbolForDebug
+:library-kotlin-android-extensions:transformNativeLibsWithSyncJniLibsForDebug
+:library-kotlin-android-extensions:bundleDebugAar
+:library-kotlin-android-extensions:compileDebugSources
+:library-kotlin-android-extensions:assembleDebug
+:library-kotlin-android-extensions:preReleaseBuild UP-TO-DATE
+:library-kotlin-android-extensions:compileReleaseAidl NO-SOURCE
+:library-kotlin-android-extensions:compileReleaseRenderscript
+:library-kotlin-android-extensions:checkReleaseManifest
+:library-kotlin-android-extensions:generateReleaseBuildConfig
+:library-kotlin-android-extensions:generateReleaseResValues
+:library-kotlin-android-extensions:generateReleaseResources
+:library-kotlin-android-extensions:packageReleaseResources
+:library-kotlin-android-extensions:processReleaseManifest
+:library-kotlin-android-extensions:generateReleaseRFile
+:library-kotlin-android-extensions:compileReleaseKotlin
+:library-kotlin-android-extensions:generateReleaseSources
+:library-kotlin-android-extensions:javaPreCompileRelease
+:library-kotlin-android-extensions:compileReleaseJavaWithJavac
+:library-kotlin-android-extensions:extractReleaseAnnotations
+:library-kotlin-android-extensions:mergeReleaseConsumerProguardFiles
+:library-kotlin-android-extensions:mergeReleaseShaders
+:library-kotlin-android-extensions:compileReleaseShaders
+:library-kotlin-android-extensions:generateReleaseAssets
+:library-kotlin-android-extensions:packageReleaseAssets
+:library-kotlin-android-extensions:packageReleaseRenderscript NO-SOURCE
+:library-kotlin-android-extensions:processReleaseJavaRes NO-SOURCE
+:library-kotlin-android-extensions:transformResourcesWithMergeJavaResForRelease
+:library-kotlin-android-extensions:transformClassesAndResourcesWithSyncLibJarsForRelease
+:library-kotlin-android-extensions:compileReleaseNdk NO-SOURCE
+:library-kotlin-android-extensions:mergeReleaseJniLibFolders
+:library-kotlin-android-extensions:transformNativeLibsWithMergeJniLibsForRelease
+:library-kotlin-android-extensions:transformNativeLibsWithStripDebugSymbolForRelease
+:library-kotlin-android-extensions:transformNativeLibsWithSyncJniLibsForRelease
+:library-kotlin-android-extensions:bundleReleaseAar
+:library-kotlin-android-extensions:compileReleaseSources
+:library-kotlin-android-extensions:mergeReleaseResources
+:library-kotlin-android-extensions:verifyReleaseResources
+:library-kotlin-android-extensions:assembleRelease
+:library-kotlin-android-extensions:dokkaJavadoc
+No documentation for com.xwray.groupie.groupiex$plusAssign(com.xwray.groupie.Section, com.xwray.groupie.Group) (SectionExt.kt:8)
+No documentation for com.xwray.groupie.groupiex$plusAssign(com.xwray.groupie.Section, kotlin.collections.Collection((com.xwray.groupie.Group))) (SectionExt.kt:11)
+No documentation for com.xwray.groupie.groupiex$minusAssign(com.xwray.groupie.Section, com.xwray.groupie.Group) (SectionExt.kt:14)
+No documentation for com.xwray.groupie.groupiex$minusAssign(com.xwray.groupie.Section, kotlin.collections.Collection((com.xwray.groupie.Group))) (SectionExt.kt:17)
+No documentation for com.xwray.groupie.groupiex$plusAssign(com.xwray.groupie.GroupAdapter((com.xwray.groupie.ViewHolder)), com.xwray.groupie.Group) (GroupAdapterExt.kt:8)
+No documentation for com.xwray.groupie.groupiex$plusAssign(com.xwray.groupie.GroupAdapter((com.xwray.groupie.ViewHolder)), kotlin.collections.Collection((com.xwray.groupie.Group))) (GroupAdapterExt.kt:11)
+No documentation for com.xwray.groupie.groupiex$minusAssign(com.xwray.groupie.GroupAdapter((com.xwray.groupie.ViewHolder)), com.xwray.groupie.Group) (GroupAdapterExt.kt:14)
+No documentation for com.xwray.groupie.groupiex$minusAssign(com.xwray.groupie.GroupAdapter((com.xwray.groupie.ViewHolder)), kotlin.collections.Collection((com.xwray.groupie.Group))) (GroupAdapterExt.kt:17)
+No documentation for com.xwray.groupie.kotlinandroidextensions.ViewHolder (ViewHolder.kt:6)
+No documentation for com.xwray.groupie.kotlinandroidextensions.ViewHolder$containerView (ViewHolder.kt:6)
+No documentation for com.xwray.groupie.kotlinandroidextensions.ViewHolder$<init>(android.view.View) (ViewHolder.kt:6)
+No documentation for com.xwray.groupie.kotlinandroidextensions.ViewHolder$containerView (ViewHolder.kt:6)
+No documentation for com.xwray.groupie.kotlinandroidextensions.Item (Item.kt:6)
+No documentation for com.xwray.groupie.kotlinandroidextensions.Item$createViewHolder(android.view.View) (Item.kt:11)
+No documentation for com.xwray.groupie.kotlinandroidextensions.Item$<init>() (Item.kt:8)
+No documentation for com.xwray.groupie.kotlinandroidextensions.Item$<init>(kotlin.Long) (Item.kt:9)
+:library-kotlin-android-extensions:javadocJar
+:library-kotlin-android-extensions:sourcesJar
+:library-kotlin-android-extensions:assemble
+:library-kotlin-android-extensions:build
+
+BUILD SUCCESSFUL in 1m 36s
+319 actionable tasks: 319 executed
+
+2019-01-19 21:23:42,960 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907710931-0/src/groupie-master/example/build/outputs/apk/release/example-release-unsigned.apk

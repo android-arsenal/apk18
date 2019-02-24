@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.thefuntasty.infinity.sample",
+    "label" : "Infinity",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.DISABLE_KEYGUARD", "android.permission.WAKE_LOCK" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAACo1BMVEUAAAAAqv8Av/8AgP8AodcAmd0AldwAmeYDmd0CmdwCl9wCl9sDl9oCkNEAAAACl9oCl9oCl9sCl9sCktIAeqYAg7oCldoCkdIAZ5gAdawCltoAYZIAg8ECpfACp/ICoOkAbaQCpvAAicQAcaYAdqQCpe8CpvECp/ICnuQAWoAAVaoAAAACj9IBhsQAAAAAJDcBhcICm+ACnuYCnuQCnOEBg74AIzQAAAAAAAAALkIAQl0APVwAPFsAM2YAAAAAAAAAgL8CmNwCl9sSndwzqN06qt4mo90EmNsPnNw0qN1Ard41qd4UndykzuLg4+Xl5eXL3OR0vuAOnNwopN2Zy+He4uXi5OWs0eJkueDD2uMrpt1Rst/a4eTj5OV6weADl9tWtN/k5eXT3+Qqpt1Us99quuAZn9zW4OTD2eMRndw2qd7d4uXc4uUiot17weDh5OWdzeKAw+CezeKWyuHI2+Sq0eKTyeGw0+KGxODK3ORHr94ko92/1+PM3eRBrd7b4eXR3+QGmdsnpN2Cw+Afodw8q95uu+Aspt1btt8coNxMsN9Vs98VndwFmNu91+PX4ORatd8Cp/Jexvb9/f0YrvMIqfLa8fv0+v0fsfMDp/Lv+PxjyPYCqPNOwfU5uvRnyfaW2vkgsfNSwvUttvSI1fgbr/Pm9fz5/P0/vPVyzfcvt/QGqPLp9vzz+v07u/UZr/PE6frh9PwstfQzuPTr9/zn9vyd3Pmf3fmD1Pih3vmO1/jy+f2i3vmj3vn6/P1PwfX1+v0qtPST2fj7/P1uzPfb8vx90fcLqvKu4vpYxPYisvPM7Pv8/f2M1/gEqPJmyfbS7vvq9/yS2fgesPN5z/fe8/z2+/245fpHv/U+vPVEvvUotPQ6uvQPq/MDqfQCpe8Cpe5woLaCAAAAQXRSTlMAAwQCEx4dCpbo7JaYmgHq+f386hcl7+8qJe4qJe/87yruJysc7Pn97CIDCKmtAyqw7fDv7bEsCSBCTUtMBQsOBDsjvXEAAAJjSURBVEjHY2CgF2BkIgAYUZQzMxM2ElkNkMnCyoYXsLKAlcHUs3NwchEAnNzscB3MDDyOToQBLx9UAyMDC7+TgKAQXiAo4CgswgDxORODqJiTECHzhRzFJYBKIRokpYjSII3QIDacNDi7uLq5I1R5eHp5++DR4Onr5+/vHxAYBFETHBIK5IaFe+HSEAFSDgKRUSAl0TFQbmxcPFYNCYn+MJCU7OSUEgbn+qdi05CWjlDgn5GZlY3EzcnFoiEPJJNfUFgEVllcAiL9SsvKY0GMCkwN7pUgBVVAt1fXwAyuBfmlrh7IamjE0NAEUtEMDp2WJKhnW8HcNhC7HUNDFUjYExKeHRANZRBeJygwujA0dIOU9ECU9PaBOGHB0OjrB3ImoGiQkZ0oN2kyEEyZCAZTp4E402dAeDNnATmz5ebIK6BomAtSMw+iZP5kMFgA4S0EsRdhaFgMEl4CVrF0GUTD8hVg7koQexWGhtVrgMJr1wEVrN8wGQo2bgJyN28BsrauxtAwcRvY3dt37AQpmLx1F4jcvWfH3rUQ12Fq2LxvMgLs2z91AxL3wEEsGiYeQig4fGTixBlHEfxjE7FpOH4CJr/lJMizp05DuWfOnsOqYeK58xdA8hcvXYaE5/ErV4Hca9dvgDjYNIDC/OatVVMnwsG523dW3YUwcWjADQa9BkUSNSgRZ4MyVAMjg4rqHDV1ObxAXe2ehiaDFrTK0ta5f2/OPbxgzr0HutrwOk5P38DQyNgIDzA2MjE100NUo+YWllbW1tY2OABQysrSwhy5ora1sycA7GxRK38tBwJAi26tGADrj07OVcbiPgAAAABJRU5ErkJggg=="
+  },
+  "dexClasses" : 2886,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0.0\" package=\"com.thefuntasty.infinity.sample\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"25\" />\n\t<uses-permission android:name=\"android.permission.DISABLE_KEYGUARD\" />\n\t<uses-permission android:name=\"android.permission.WAKE_LOCK\" />\n\t<application android:theme=\"resourceId:0x7f0800a3\" android:label=\"Infinity\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.thefuntasty.infinity.sample.SampleActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1830386,
+  "crc32" : 1232422970,
+  "sha256" : "1b343d2834d64fe10623ffa5fe8bdc7ea48edf8c864cf305dbf69484f06dea05",
+  "buildTime" : 1526811839000
+}

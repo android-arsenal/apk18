@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "io.github.ryanhoo.music",
+    "label" : "Music Player",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "24",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "24",
+    "platformBuildVersionName" : "7.0",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAABp1BMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1TWpEZ45Ha5RHa5RHapRDZo0zSmYAAAAAAABCY4tNdKJBYYkAAAAySWQAAAAAAABDZYxIbJVHa5MAAABGaZMAAABNdKJReKVxmbpljLNZgKpPdaNReaRWfahhia+jyuCly+Ggx92Ap8ZTe6eu0OVUeaZmjbOjyt+mzOKgx95nj7O/4PGrzeJReKRhiK9qkbV1nL2TudOly+B1nb7F5fWewNpNdaJ5n8Gmy+FnjrSsz+NOdqKPttCPtc9dha6cwtp8pMJSeKVVgKhgjrJUfadMc6Fvor+p7/Wz/f6k6fC24e/E5PRMc6CFvtO46/OrzuJmlray+/2n0OBLcZ6W1eCn4ehLcp9Jb5us9Pam6OxKb5xKb5uy/P2n7PBJbppHbJed3uONyNF2qbdolqlKcJw+W32f4ueS0Nc9W4BGapVDYXqT0tiJw8w+XHdIbZhDZY4zTGtZf5B2qLOIwstzo69Sd4k0T25FaJJMcqA+XoQ3VHU4VXdAYIZJbpkuArkOAAAAJXRSTlMAAQMEBgcIBQIMDxITEAk1fJ2en303EQps924LOA0OfpyeFKAV3vlhsQAAAWdJREFUSMfl1sdTwkAUBvANISQQqSqKvQV7L9h7xa7RqFijYMWGXbFjbH+0UTFX3ptxxoPfZS/vd9nZ2e8RQlE6Ws8YYobRszqOIoTiaMZo4uNihjcbDawqKNpittrsjvhYsSckOpNYjnCMKdklgOJK4S06QqdagfOqSEtnCZthE8DJdDJEb86Cg+wcA2GcDjjIzVMBjwKWvwPu/ILCIgQoLiktK6+orAIDd3VNbZ3HU98ABo1NzS2tbe0dnWDQ1a0ePb19/WAw8Hl6B4dwQBgeQQLvKBIIY1gg/BMwPjGJAOLUtCRJM7NzQOCbl76zsAgC4lJ0XlpeESFAXv0B0pofAgLrGtjYhICtbQ3sBAFA3N3TwD4ECMEDDRwGICB0dBydPzmVIcB3dn7xNX95FQZdq+C/vrm9u394jDwpwKehhJ9fIq9v7wr4qxTlUCAki7/4GWMLBV1Z6FJE1y662NGrA3o5wa4/H5h0SmaTO2/RAAAAAElFTkSuQmCC",
+    "file" : true
+  },
+  "dexClasses" : 1650,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"io.github.ryanhoo.music\" platformBuildVersionCode=\"24\" platformBuildVersionName=\"7.0\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"24\" />\n\t<application android:theme=\"resourceId:0x7f08008e\" android:label=\"Music Player\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"io.github.ryanhoo.music.SplashScreenActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1304221,
+  "crc32" : 441483469,
+  "sha256" : "9e211c1d49228f8d4441dcb1e63d9de1d5c6e25aa8e50f7938f4824c878d3881",
+  "buildTime" : 1540111925000
+}

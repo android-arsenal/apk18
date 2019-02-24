@@ -1,0 +1,165 @@
+2018-10-25 18:35:06,484 INFO  DownloadService - Downloading "https://github.com/mike14u/croperino/archive/master.zip", attempt 3
+2018-10-25 18:35:08,354 INFO  DownloadService - Downloaded https://github.com/mike14u/croperino/archive/master.zip, attempt 3
+2018-10-25 18:35:08,354 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467306480-0/master.zip": 143 KB
+2018-10-25 18:35:08,354 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-25 18:35:08,360 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467306480-0/master.zip: true
+2018-10-25 18:35:08,360 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467306480-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467306480-0/src'.
+2018-10-25 18:35:08,383 INFO  FullProcessService - Size of directory with sources: 206 KB
+2018-10-25 18:35:08,383 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467306480-0/src]
+2018-10-25 18:35:08,406 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467306480-0/src/.git/
+
+2018-10-25 18:35:08,410 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467306480-0/src/croperino-master/gradlew
+2018-10-25 18:35:08,414 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467306480-0/src/croperino-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467306480-0/src/croperino-master/crop-me/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467306480-0/src/croperino-master/build.gradle
+2018-10-25 18:35:08,418 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467306480-0/src/croperino-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467306480-0/src/croperino-master/crop-me/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467306480-0/src/croperino-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467306480-0/src/croperino-master/settings.gradle
+2018-10-25 18:35:08,418 INFO  ProjectBuildService - Remote scripts: none
+2018-10-25 18:35:08,418 INFO  ProjectFixService - Fixing project...
+2018-10-25 18:35:08,426 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467306480-0/src/croperino-master/app/local.properties
+2018-10-25 18:35:08,426 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467306480-0/src/croperino-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-10-25 18:35:08,427 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467306480-0/src/croperino-master/crop-me/local.properties
+2018-10-25 18:35:08,427 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467306480-0/src/croperino-master/crop-me/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-10-25 18:35:08,427 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467306480-0/src/croperino-master/local.properties
+2018-10-25 18:35:08,428 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-10-25 18:35:08,428 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-10-25 18:35:08,429 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467306480-0/src/croperino-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-10-25 18:35:08,429 INFO  ProjectFixService - Project was maybe fixed
+2018-10-25 18:35:08,429 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-25 18:35:08,429 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467306480-0/src/croperino-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467306480-0/src/croperino-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-25 18:35:15,917 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-10-25 18:35:15,918 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-10-25 18:35:15,918 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467306480-0/src/croperino-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467306480-0/src/croperino-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-10-25 18:35:42,120 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:crop-me:preBuild UP-TO-DATE
+:crop-me:preDebugBuild UP-TO-DATE
+:crop-me:checkDebugManifest
+:crop-me:processDebugManifest
+:app:preDebugBuild
+:crop-me:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:crop-me:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:crop-me:compileDebugRenderscript
+:crop-me:generateDebugResValues
+:crop-me:generateDebugResources
+:crop-me:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:crop-me:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:crop-me:generateDebugBuildConfig
+:crop-me:prepareLintJar
+:crop-me:generateDebugSources
+:crop-me:javaPreCompileDebug
+:crop-me:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:crop-me:processDebugJavaRes NO-SOURCE
+:crop-me:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:crop-me:mergeDebugShaders
+:crop-me:compileDebugShaders
+:crop-me:generateDebugAssets
+:crop-me:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:crop-me:compileDebugNdk NO-SOURCE
+:crop-me:mergeDebugJniLibFolders
+:crop-me:transformNativeLibsWithMergeJniLibsForDebug
+:crop-me:transformNativeLibsWithStripDebugSymbolForDebug
+:crop-me:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:crop-me:preReleaseBuild UP-TO-DATE
+:crop-me:checkReleaseManifest
+:crop-me:processReleaseManifest
+:app:preReleaseBuild
+:crop-me:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:crop-me:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:crop-me:compileReleaseRenderscript
+:crop-me:generateReleaseResValues
+:crop-me:generateReleaseResources
+:crop-me:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:crop-me:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:crop-me:generateReleaseBuildConfig
+:crop-me:generateReleaseSources
+:crop-me:javaPreCompileRelease
+:crop-me:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:crop-me:processReleaseJavaRes NO-SOURCE
+:crop-me:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:crop-me:mergeReleaseShaders
+:crop-me:compileReleaseShaders
+:crop-me:generateReleaseAssets
+:crop-me:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:crop-me:compileReleaseNdk NO-SOURCE
+:crop-me:mergeReleaseJniLibFolders
+:crop-me:transformNativeLibsWithMergeJniLibsForRelease
+:crop-me:transformNativeLibsWithStripDebugSymbolForRelease
+:crop-me:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 25s
+90 actionable tasks: 90 executed
+
+2018-10-25 18:35:42,217 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467306480-0/src/croperino-master/app/build/outputs/apk/debug/app-debug.apk

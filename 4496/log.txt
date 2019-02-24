@@ -1,0 +1,1551 @@
+2017-12-30 14:36:40,205 INFO  DownloadService - Downloading "https://github.com/kunny/RxFirebase/archive/master.zip", attempt 3
+2017-12-30 14:36:46,099 INFO  DownloadService - Downloading "https://github.com/kunny/RxFirebase/archive/master.zip", attempt 2
+2017-12-30 14:36:51,707 INFO  DownloadService - Downloading "https://github.com/kunny/RxFirebase/archive/master.zip", attempt 1
+2017-12-30 14:37:51,897 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2017-12-30 14:37:52,810 INFO  GithubDownloadService - Default branch of this repository: rxjava2
+2017-12-30 14:37:52,811 INFO  DownloadService - Downloading "https://github.com/kunny/RxFirebase/archive/rxjava2.zip", attempt 3
+2017-12-30 14:38:53,964 DEBUG FullProcessService - Repository https://github.com/kunny/RxFirebase available: true
+2017-12-30 14:38:53,965 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2017-12-30 14:38:53,965 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/kunny/RxFirebase, /tmp/1514644600201-0/src]
+2017-12-30 14:38:55,676 INFO  SysUtils - 
+2017-12-30 14:38:55,681 INFO  GitService - Deleted "/tmp/1514644600201-0/src/.git": true
+2017-12-30 14:38:55,683 INFO  FullProcessService - Size of directory with sources: 257 KB
+2017-12-30 14:38:55,683 INFO  SysUtils - Execute command: [git, init, /tmp/1514644600201-0/src]
+2017-12-30 14:38:55,689 INFO  SysUtils - Initialized empty Git repository in /tmp/1514644600201-0/src/.git/
+
+2017-12-30 14:38:55,691 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/1514644600201-0/src/gradlew
+2017-12-30 14:38:55,693 INFO  ProjectBuildService - Build script(s): /tmp/1514644600201-0/src/firebase-auth-kotlin/build.gradle /tmp/1514644600201-0/src/firebase-auth/build.gradle /tmp/1514644600201-0/src/firebase-database-kotlin/build.gradle /tmp/1514644600201-0/src/firebase-database/build.gradle /tmp/1514644600201-0/src/build.gradle
+2017-12-30 14:38:55,695 INFO  ProjectBuildService - All script(s): /tmp/1514644600201-0/src/build.gradle /tmp/1514644600201-0/src/dependencies.gradle /tmp/1514644600201-0/src/firebase-database-kotlin/build.gradle /tmp/1514644600201-0/src/firebase-auth/build.gradle /tmp/1514644600201-0/src/settings.gradle /tmp/1514644600201-0/src/coverage.gradle /tmp/1514644600201-0/src/firebase-database/build.gradle /tmp/1514644600201-0/src/gradle/gradle-mvn-local.gradle /tmp/1514644600201-0/src/gradle/gradle-mvn-push.gradle /tmp/1514644600201-0/src/firebase-auth-kotlin/build.gradle /tmp/1514644600201-0/src/checkstyle.gradle
+2017-12-30 14:38:55,696 INFO  ProjectBuildService - Remote scripts: none
+2017-12-30 14:38:55,696 INFO  ProjectFixService - Fixing project...
+2017-12-30 14:38:55,718 INFO  LocalPropertiesFixService - Created fake /tmp/1514644600201-0/src/firebase-auth-kotlin/local.properties
+2017-12-30 14:38:55,722 INFO  ProjectFixService - Build info for "/tmp/1514644600201-0/src/firebase-auth-kotlin/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=<null>]
+2017-12-30 14:38:55,722 INFO  ProjectFixService - Fixed build info for "/tmp/1514644600201-0/src/firebase-auth-kotlin/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2017-12-30 14:38:55,724 INFO  LocalPropertiesFixService - Created fake /tmp/1514644600201-0/src/firebase-auth/local.properties
+2017-12-30 14:38:55,728 INFO  ProjectFixService - Build info for "/tmp/1514644600201-0/src/firebase-auth/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=<null>]
+2017-12-30 14:38:55,728 INFO  ProjectFixService - Fixed build info for "/tmp/1514644600201-0/src/firebase-auth/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2017-12-30 14:38:55,728 INFO  LocalPropertiesFixService - Created fake /tmp/1514644600201-0/src/firebase-database-kotlin/local.properties
+2017-12-30 14:38:55,732 INFO  ProjectFixService - Build info for "/tmp/1514644600201-0/src/firebase-database-kotlin/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=<null>]
+2017-12-30 14:38:55,732 INFO  ProjectFixService - Fixed build info for "/tmp/1514644600201-0/src/firebase-database-kotlin/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2017-12-30 14:38:55,733 INFO  LocalPropertiesFixService - Created fake /tmp/1514644600201-0/src/firebase-database/local.properties
+2017-12-30 14:38:55,736 INFO  ProjectFixService - Build info for "/tmp/1514644600201-0/src/firebase-database/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=<null>]
+2017-12-30 14:38:55,736 INFO  ProjectFixService - Fixed build info for "/tmp/1514644600201-0/src/firebase-database/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2017-12-30 14:38:55,737 INFO  LocalPropertiesFixService - Created fake /tmp/1514644600201-0/src/local.properties
+2017-12-30 14:38:55,737 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2017-12-30 14:38:55,738 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2017-12-30 14:38:55,740 INFO  ProjectFixService - Build info for "/tmp/1514644600201-0/src/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=<null>]
+2017-12-30 14:38:55,741 INFO  ProjectFixService - Fixed build info for "/tmp/1514644600201-0/src/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2017-12-30 14:38:55,741 INFO  ProjectFixService - Project was maybe fixed
+2017-12-30 14:38:55,741 INFO  ProjectTaskService - Detecting possible tasks...
+2017-12-30 14:38:55,741 INFO  SysUtils - Execute command: [/tmp/1514644600201-0/src/gradlew, -b, /tmp/1514644600201-0/src/firebase-auth-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2017-12-30 14:39:04,835 INFO  ProjectTaskService - Detected possible tasks: 72
+2017-12-30 14:39:04,835 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll checkstyle test check testDebugUnitTest connectedAndroidTest lintRelease
+2017-12-30 14:39:04,836 INFO  SysUtils - Execute command: [/tmp/1514644600201-0/src/gradlew, -b, /tmp/1514644600201-0/src/firebase-auth-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2017-12-30 14:39:29,073 INFO  SysUtils - Configuration on demand is an incubating feature.
+:firebase-auth-kotlin:androidJavadocs NO-SOURCE
+:firebase-auth-kotlin:androidJavadocsJar
+:firebase-auth-kotlin:androidSourcesJar
+:firebase-auth:preBuild UP-TO-DATE
+:firebase-auth:preDebugBuild UP-TO-DATE
+:firebase-auth:compileDebugAidl
+:firebase-auth-kotlin:preBuild UP-TO-DATE
+:firebase-auth-kotlin:preDebugBuild UP-TO-DATE
+:firebase-auth-kotlin:compileDebugAidl
+:firebase-auth-kotlin:compileDebugNdk NO-SOURCE
+:firebase-auth:compileDebugRenderscript
+:firebase-auth:checkDebugManifest
+:firebase-auth:generateDebugBuildConfig
+:firebase-auth:prepareLintJar
+:firebase-auth:generateDebugResValues
+:firebase-auth:generateDebugResources
+:firebase-auth:packageDebugResources
+:firebase-auth:platformAttrExtractor
+:firebase-auth:processDebugManifest
+:firebase-auth:javaPreCompileDebug
+:firebase-auth:processDebugJavaRes NO-SOURCE
+:firebase-auth:packageDebugRenderscript NO-SOURCE
+:firebase-auth-kotlin:compileDebugRenderscript
+:firebase-auth-kotlin:checkDebugManifest
+:firebase-auth:processDebugResources
+:firebase-auth:generateDebugSources
+:firebase-auth:compileDebugJavaWithJavac
+:firebase-auth:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:firebase-auth-kotlin:generateDebugBuildConfig
+:firebase-auth-kotlin:generateDebugResValues
+:firebase-auth-kotlin:generateDebugResources
+:firebase-auth-kotlin:packageDebugResources
+:firebase-auth-kotlin:platformAttrExtractor
+:firebase-auth-kotlin:processDebugManifest
+:firebase-auth-kotlin:prepareLintJar
+:firebase-auth-kotlin:mergeDebugShaders
+:firebase-auth-kotlin:compileDebugShaders
+:firebase-auth-kotlin:generateDebugAssets
+:firebase-auth-kotlin:mergeDebugAssets
+:firebase-auth-kotlin:mergeDebugConsumerProguardFiles
+:firebase-auth-kotlin:packageDebugRenderscript NO-SOURCE
+:firebase-auth-kotlin:processDebugJavaRes NO-SOURCE
+:firebase-auth-kotlin:mergeDebugJniLibFolders
+:firebase-auth-kotlin:transformNativeLibsWithMergeJniLibsForDebug
+:firebase-auth-kotlin:transformNativeLibsWithStripDebugSymbolForDebug
+:firebase-auth-kotlin:transformNativeLibsWithSyncJniLibsForDebug
+:firebase-auth:preReleaseBuild UP-TO-DATE
+:firebase-auth:compileReleaseAidl
+:firebase-auth-kotlin:preReleaseBuild UP-TO-DATE
+:firebase-auth-kotlin:compileReleaseAidl
+:firebase-auth-kotlin:compileReleaseNdk NO-SOURCE
+:firebase-auth:compileReleaseRenderscript
+:firebase-auth:checkReleaseManifest
+:firebase-auth:generateReleaseBuildConfig
+:firebase-auth:generateReleaseResValues
+:firebase-auth:generateReleaseResources
+:firebase-auth:packageReleaseResources
+:firebase-auth:processReleaseManifest
+:firebase-auth:processReleaseResources
+:firebase-auth:generateReleaseSources
+:firebase-auth:javaPreCompileRelease
+:firebase-auth:compileReleaseJavaWithJavac
+:firebase-auth:processReleaseJavaRes NO-SOURCE
+:firebase-auth:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:firebase-auth:packageReleaseRenderscript NO-SOURCE
+:firebase-auth-kotlin:compileReleaseRenderscript
+:firebase-auth-kotlin:checkReleaseManifest
+:firebase-auth-kotlin:generateReleaseBuildConfig
+:firebase-auth-kotlin:generateReleaseResValues
+:firebase-auth-kotlin:generateReleaseResources
+:firebase-auth-kotlin:packageReleaseResources
+:firebase-auth-kotlin:processReleaseManifest
+:firebase-auth-kotlin:mergeReleaseShaders
+:firebase-auth-kotlin:compileReleaseShaders
+:firebase-auth-kotlin:generateReleaseAssets
+:firebase-auth-kotlin:mergeReleaseAssets
+:firebase-auth-kotlin:mergeReleaseConsumerProguardFiles
+:firebase-auth-kotlin:packageReleaseRenderscript NO-SOURCE
+:firebase-auth-kotlin:processReleaseJavaRes NO-SOURCE
+:firebase-auth-kotlin:mergeReleaseJniLibFolders
+:firebase-auth-kotlin:transformNativeLibsWithMergeJniLibsForRelease
+:firebase-auth-kotlin:transformNativeLibsWithStripDebugSymbolForRelease
+:firebase-auth-kotlin:transformNativeLibsWithSyncJniLibsForRelease
+:firebase-auth-kotlin:mergeReleaseResources
+:firebase-auth-kotlin:verifyReleaseResources
+:firebase-auth-kotlin:processDebugResources
+:firebase-auth-kotlin:compileDebugKotlin
+:firebase-auth-kotlin:generateDebugSources
+:firebase-auth-kotlin:javaPreCompileDebug
+:firebase-auth-kotlin:compileDebugJavaWithJavac
+:firebase-auth-kotlin:extractDebugAnnotations
+:firebase-auth-kotlin:transformResourcesWithMergeJavaResForDebug
+:firebase-auth-kotlin:transformClassesAndResourcesWithSyncLibJarsForDebug
+:firebase-auth-kotlin:bundleDebug
+:firebase-auth-kotlin:compileDebugSources
+:firebase-auth-kotlin:assembleDebug
+:firebase-auth-kotlin:processReleaseResources
+:firebase-auth-kotlin:compileReleaseKotlin
+:firebase-auth-kotlin:generateReleaseSources
+:firebase-auth-kotlin:javaPreCompileRelease
+:firebase-auth-kotlin:compileReleaseJavaWithJavac
+:firebase-auth-kotlin:extractReleaseAnnotations
+:firebase-auth-kotlin:transformResourcesWithMergeJavaResForRelease
+:firebase-auth-kotlin:transformClassesAndResourcesWithSyncLibJarsForRelease
+:firebase-auth-kotlin:bundleRelease
+:firebase-auth-kotlin:compileReleaseSources
+:firebase-auth-kotlin:assembleRelease
+:firebase-auth-kotlin:signArchives SKIPPED
+:firebase-auth-kotlin:assemble
+:firebase-auth-kotlin:build
+
+BUILD SUCCESSFUL in 23s
+76 actionable tasks: 76 executed
+
+2017-12-30 14:39:29,083 INFO  ProjectTaskService - Detecting possible tasks...
+2017-12-30 14:39:29,083 INFO  SysUtils - Execute command: [/tmp/1514644600201-0/src/gradlew, -b, /tmp/1514644600201-0/src/firebase-auth/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2017-12-30 14:39:36,986 INFO  ProjectTaskService - Detected possible tasks: 72
+2017-12-30 14:39:36,987 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll checkstyle test check testDebugUnitTest connectedAndroidTest lintRelease
+2017-12-30 14:39:36,988 INFO  SysUtils - Execute command: [/tmp/1514644600201-0/src/gradlew, -b, /tmp/1514644600201-0/src/firebase-auth/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2017-12-30 14:39:50,009 INFO  SysUtils - Configuration on demand is an incubating feature.
+:firebase-auth:androidJavadocs/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserUpdateProfileOnSubscribe.java:3: error: package com.google.android.gms.tasks does not exist
+import com.google.android.gms.tasks.OnCompleteListener;
+                                   ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserUpdateProfileOnSubscribe.java:4: error: package com.google.android.gms.tasks does not exist
+import com.google.android.gms.tasks.Task;
+                                   ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserUpdateProfileOnSubscribe.java:5: error: package com.google.firebase.auth does not exist
+import com.google.firebase.auth.FirebaseUser;
+                               ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserUpdateProfileOnSubscribe.java:6: error: package com.google.firebase.auth does not exist
+import com.google.firebase.auth.UserProfileChangeRequest;
+                               ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserUpdateProfileOnSubscribe.java:8: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserUpdateProfileOnSubscribe.java:10: error: package io.reactivex does not exist
+import io.reactivex.CompletableEmitter;
+                   ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserUpdateProfileOnSubscribe.java:11: error: package io.reactivex does not exist
+import io.reactivex.CompletableOnSubscribe;
+                   ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserUpdateProfileOnSubscribe.java:13: error: cannot find symbol
+final class UserUpdateProfileOnSubscribe implements CompletableOnSubscribe {
+                                                    ^
+  symbol: class CompletableOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserUpdateProfileOnSubscribe.java:15: error: cannot find symbol
+    private final FirebaseUser user;
+                  ^
+  symbol:   class FirebaseUser
+  location: class UserUpdateProfileOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserUpdateProfileOnSubscribe.java:17: error: cannot find symbol
+    private final UserProfileChangeRequest request;
+                  ^
+  symbol:   class UserProfileChangeRequest
+  location: class UserUpdateProfileOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserUpdateProfileOnSubscribe.java:19: error: cannot find symbol
+    UserUpdateProfileOnSubscribe(FirebaseUser user, UserProfileChangeRequest request) {
+                                 ^
+  symbol:   class FirebaseUser
+  location: class UserUpdateProfileOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserUpdateProfileOnSubscribe.java:19: error: cannot find symbol
+    UserUpdateProfileOnSubscribe(FirebaseUser user, UserProfileChangeRequest request) {
+                                                    ^
+  symbol:   class UserProfileChangeRequest
+  location: class UserUpdateProfileOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserUpdateProfileOnSubscribe.java:25: error: cannot find symbol
+    public void subscribe(final CompletableEmitter emitter) {
+                                ^
+  symbol:   class CompletableEmitter
+  location: class UserUpdateProfileOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/FetchProvidersForEmailOnSubscribe.java:3: error: package com.google.android.gms.tasks does not exist
+import com.google.android.gms.tasks.OnCompleteListener;
+                                   ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/FetchProvidersForEmailOnSubscribe.java:4: error: package com.google.android.gms.tasks does not exist
+import com.google.android.gms.tasks.Task;
+                                   ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/FetchProvidersForEmailOnSubscribe.java:5: error: package com.google.firebase.auth does not exist
+import com.google.firebase.auth.FirebaseAuth;
+                               ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/FetchProvidersForEmailOnSubscribe.java:6: error: package com.google.firebase.auth does not exist
+import com.google.firebase.auth.ProviderQueryResult;
+                               ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/FetchProvidersForEmailOnSubscribe.java:8: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/FetchProvidersForEmailOnSubscribe.java:13: error: package io.reactivex does not exist
+import io.reactivex.SingleEmitter;
+                   ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/FetchProvidersForEmailOnSubscribe.java:14: error: package io.reactivex does not exist
+import io.reactivex.SingleOnSubscribe;
+                   ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/FetchProvidersForEmailOnSubscribe.java:17: error: cannot find symbol
+        implements SingleOnSubscribe<List<String>> {
+                   ^
+  symbol: class SingleOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/FetchProvidersForEmailOnSubscribe.java:19: error: cannot find symbol
+    private final FirebaseAuth instance;
+                  ^
+  symbol:   class FirebaseAuth
+  location: class FetchProvidersForEmailOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/FetchProvidersForEmailOnSubscribe.java:23: error: cannot find symbol
+    FetchProvidersForEmailOnSubscribe(FirebaseAuth instance, String email) {
+                                      ^
+  symbol:   class FirebaseAuth
+  location: class FetchProvidersForEmailOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/FetchProvidersForEmailOnSubscribe.java:29: error: cannot find symbol
+    public void subscribe(final SingleEmitter<List<String>> emitter) {
+                                ^
+  symbol:   class SingleEmitter
+  location: class FetchProvidersForEmailOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserSendEmailVerificationOnSubscribe.java:3: error: package com.google.android.gms.tasks does not exist
+import com.google.android.gms.tasks.OnCompleteListener;
+                                   ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserSendEmailVerificationOnSubscribe.java:4: error: package com.google.android.gms.tasks does not exist
+import com.google.android.gms.tasks.Task;
+                                   ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserSendEmailVerificationOnSubscribe.java:5: error: package com.google.firebase.auth does not exist
+import com.google.firebase.auth.FirebaseUser;
+                               ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserSendEmailVerificationOnSubscribe.java:7: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserSendEmailVerificationOnSubscribe.java:9: error: package io.reactivex does not exist
+import io.reactivex.CompletableEmitter;
+                   ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserSendEmailVerificationOnSubscribe.java:10: error: package io.reactivex does not exist
+import io.reactivex.CompletableOnSubscribe;
+                   ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserSendEmailVerificationOnSubscribe.java:12: error: cannot find symbol
+final class UserSendEmailVerificationOnSubscribe implements CompletableOnSubscribe {
+                                                            ^
+  symbol: class CompletableOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserSendEmailVerificationOnSubscribe.java:14: error: cannot find symbol
+    private final FirebaseUser user;
+                  ^
+  symbol:   class FirebaseUser
+  location: class UserSendEmailVerificationOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserSendEmailVerificationOnSubscribe.java:16: error: cannot find symbol
+    UserSendEmailVerificationOnSubscribe(FirebaseUser user) {
+                                         ^
+  symbol:   class FirebaseUser
+  location: class UserSendEmailVerificationOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserSendEmailVerificationOnSubscribe.java:21: error: cannot find symbol
+    public void subscribe(final CompletableEmitter emitter) {
+                                ^
+  symbol:   class CompletableEmitter
+  location: class UserSendEmailVerificationOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserUpdatePasswordOnSubscribe.java:3: error: package com.google.android.gms.tasks does not exist
+import com.google.android.gms.tasks.OnCompleteListener;
+                                   ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserUpdatePasswordOnSubscribe.java:4: error: package com.google.android.gms.tasks does not exist
+import com.google.android.gms.tasks.Task;
+                                   ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserUpdatePasswordOnSubscribe.java:5: error: package com.google.firebase.auth does not exist
+import com.google.firebase.auth.FirebaseUser;
+                               ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserUpdatePasswordOnSubscribe.java:7: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserUpdatePasswordOnSubscribe.java:9: error: package io.reactivex does not exist
+import io.reactivex.CompletableEmitter;
+                   ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserUpdatePasswordOnSubscribe.java:10: error: package io.reactivex does not exist
+import io.reactivex.CompletableOnSubscribe;
+                   ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserUpdatePasswordOnSubscribe.java:12: error: cannot find symbol
+final class UserUpdatePasswordOnSubscribe implements CompletableOnSubscribe {
+                                                     ^
+  symbol: class CompletableOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserUpdatePasswordOnSubscribe.java:14: error: cannot find symbol
+    private final FirebaseUser user;
+                  ^
+  symbol:   class FirebaseUser
+  location: class UserUpdatePasswordOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserUpdatePasswordOnSubscribe.java:18: error: cannot find symbol
+    UserUpdatePasswordOnSubscribe(FirebaseUser user, String password) {
+                                  ^
+  symbol:   class FirebaseUser
+  location: class UserUpdatePasswordOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserUpdatePasswordOnSubscribe.java:24: error: cannot find symbol
+    public void subscribe(final CompletableEmitter emitter) {
+                                ^
+  symbol:   class CompletableEmitter
+  location: class UserUpdatePasswordOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/AuthStateChangesOnSubscribe.java:3: error: package com.google.firebase.auth does not exist
+import com.google.firebase.auth.FirebaseAuth;
+                               ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/AuthStateChangesOnSubscribe.java:5: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/AuthStateChangesOnSubscribe.java:7: error: package io.reactivex does not exist
+import io.reactivex.ObservableEmitter;
+                   ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/AuthStateChangesOnSubscribe.java:8: error: package io.reactivex does not exist
+import io.reactivex.ObservableOnSubscribe;
+                   ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/AuthStateChangesOnSubscribe.java:9: error: package io.reactivex.disposables does not exist
+import io.reactivex.disposables.Disposables;
+                               ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/AuthStateChangesOnSubscribe.java:10: error: package io.reactivex.functions does not exist
+import io.reactivex.functions.Action;
+                             ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/AuthStateChangesOnSubscribe.java:13: error: cannot find symbol
+final class AuthStateChangesOnSubscribe implements ObservableOnSubscribe<FirebaseAuth> {
+                                                   ^
+  symbol: class ObservableOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/AuthStateChangesOnSubscribe.java:13: error: cannot find symbol
+final class AuthStateChangesOnSubscribe implements ObservableOnSubscribe<FirebaseAuth> {
+                                                                         ^
+  symbol: class FirebaseAuth
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/AuthStateChangesOnSubscribe.java:15: error: cannot find symbol
+    private final FirebaseAuth instance;
+                  ^
+  symbol:   class FirebaseAuth
+  location: class AuthStateChangesOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/AuthStateChangesOnSubscribe.java:17: error: cannot find symbol
+    AuthStateChangesOnSubscribe(FirebaseAuth instance) {
+                                ^
+  symbol:   class FirebaseAuth
+  location: class AuthStateChangesOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/AuthStateChangesOnSubscribe.java:22: error: cannot find symbol
+    public void subscribe(final ObservableEmitter<FirebaseAuth> emitter) {
+                                ^
+  symbol:   class ObservableEmitter
+  location: class AuthStateChangesOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/AuthStateChangesOnSubscribe.java:22: error: cannot find symbol
+    public void subscribe(final ObservableEmitter<FirebaseAuth> emitter) {
+                                                  ^
+  symbol:   class FirebaseAuth
+  location: class AuthStateChangesOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserReauthenticateOnSubscribe.java:3: error: package com.google.android.gms.tasks does not exist
+import com.google.android.gms.tasks.OnCompleteListener;
+                                   ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserReauthenticateOnSubscribe.java:4: error: package com.google.android.gms.tasks does not exist
+import com.google.android.gms.tasks.Task;
+                                   ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserReauthenticateOnSubscribe.java:5: error: package com.google.firebase.auth does not exist
+import com.google.firebase.auth.AuthCredential;
+                               ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserReauthenticateOnSubscribe.java:6: error: package com.google.firebase.auth does not exist
+import com.google.firebase.auth.FirebaseUser;
+                               ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserReauthenticateOnSubscribe.java:8: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserReauthenticateOnSubscribe.java:10: error: package io.reactivex does not exist
+import io.reactivex.CompletableEmitter;
+                   ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserReauthenticateOnSubscribe.java:11: error: package io.reactivex does not exist
+import io.reactivex.CompletableOnSubscribe;
+                   ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserReauthenticateOnSubscribe.java:13: error: cannot find symbol
+final class UserReauthenticateOnSubscribe implements CompletableOnSubscribe {
+                                                     ^
+  symbol: class CompletableOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserReauthenticateOnSubscribe.java:15: error: cannot find symbol
+    private final FirebaseUser user;
+                  ^
+  symbol:   class FirebaseUser
+  location: class UserReauthenticateOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserReauthenticateOnSubscribe.java:17: error: cannot find symbol
+    private final AuthCredential credential;
+                  ^
+  symbol:   class AuthCredential
+  location: class UserReauthenticateOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserReauthenticateOnSubscribe.java:19: error: cannot find symbol
+    UserReauthenticateOnSubscribe(FirebaseUser user, AuthCredential credential) {
+                                  ^
+  symbol:   class FirebaseUser
+  location: class UserReauthenticateOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserReauthenticateOnSubscribe.java:19: error: cannot find symbol
+    UserReauthenticateOnSubscribe(FirebaseUser user, AuthCredential credential) {
+                                                     ^
+  symbol:   class AuthCredential
+  location: class UserReauthenticateOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/UserReauthenticateOnSubscribe.java:25: error: cannot find symbol
+    public void subscribe(final CompletableEmitter emitter) {
+                                ^
+  symbol:   class CompletableEmitter
+  location: class UserReauthenticateOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/CreateUserWithEmailAndPasswordOnSubscribe.java:3: error: package com.google.android.gms.tasks does not exist
+import com.google.android.gms.tasks.OnCompleteListener;
+                                   ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/CreateUserWithEmailAndPasswordOnSubscribe.java:4: error: package com.google.android.gms.tasks does not exist
+import com.google.android.gms.tasks.Task;
+                                   ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/CreateUserWithEmailAndPasswordOnSubscribe.java:5: error: package com.google.firebase.auth does not exist
+import com.google.firebase.auth.AuthResult;
+                               ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/CreateUserWithEmailAndPasswordOnSubscribe.java:6: error: package com.google.firebase.auth does not exist
+import com.google.firebase.auth.FirebaseAuth;
+                               ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/CreateUserWithEmailAndPasswordOnSubscribe.java:7: error: package com.google.firebase.auth does not exist
+import com.google.firebase.auth.FirebaseUser;
+                               ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/CreateUserWithEmailAndPasswordOnSubscribe.java:9: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/CreateUserWithEmailAndPasswordOnSubscribe.java:11: error: package io.reactivex does not exist
+import io.reactivex.SingleEmitter;
+                   ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/CreateUserWithEmailAndPasswordOnSubscribe.java:12: error: package io.reactivex does not exist
+import io.reactivex.SingleOnSubscribe;
+                   ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/CreateUserWithEmailAndPasswordOnSubscribe.java:15: error: cannot find symbol
+        implements SingleOnSubscribe<FirebaseUser> {
+                   ^
+  symbol: class SingleOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/CreateUserWithEmailAndPasswordOnSubscribe.java:15: error: cannot find symbol
+        implements SingleOnSubscribe<FirebaseUser> {
+                                     ^
+  symbol: class FirebaseUser
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/CreateUserWithEmailAndPasswordOnSubscribe.java:17: error: cannot find symbol
+    private final FirebaseAuth instance;
+                  ^
+  symbol:   class FirebaseAuth
+  location: class CreateUserWithEmailAndPasswordOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/CreateUserWithEmailAndPasswordOnSubscribe.java:24: error: cannot find symbol
+            FirebaseAuth instance, String email, String password) {
+            ^
+  symbol:   class FirebaseAuth
+  location: class CreateUserWithEmailAndPasswordOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/CreateUserWithEmailAndPasswordOnSubscribe.java:31: error: cannot find symbol
+    public void subscribe(final SingleEmitter<FirebaseUser> emitter) {
+                                ^
+  symbol:   class SingleEmitter
+  location: class CreateUserWithEmailAndPasswordOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/CreateUserWithEmailAndPasswordOnSubscribe.java:31: error: cannot find symbol
+    public void subscribe(final SingleEmitter<FirebaseUser> emitter) {
+                                              ^
+  symbol:   class FirebaseUser
+  location: class CreateUserWithEmailAndPasswordOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/SignInWithCredentialOnSubscribe.java:3: error: package com.google.android.gms.tasks does not exist
+import com.google.android.gms.tasks.OnCompleteListener;
+                                   ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/SignInWithCredentialOnSubscribe.java:4: error: package com.google.android.gms.tasks does not exist
+import com.google.android.gms.tasks.Task;
+                                   ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/SignInWithCredentialOnSubscribe.java:5: error: package com.google.firebase.auth does not exist
+import com.google.firebase.auth.AuthCredential;
+                               ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/SignInWithCredentialOnSubscribe.java:6: error: package com.google.firebase.auth does not exist
+import com.google.firebase.auth.AuthResult;
+                               ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/SignInWithCredentialOnSubscribe.java:7: error: package com.google.firebase.auth does not exist
+import com.google.firebase.auth.FirebaseAuth;
+                               ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/SignInWithCredentialOnSubscribe.java:8: error: package com.google.firebase.auth does not exist
+import com.google.firebase.auth.FirebaseUser;
+                               ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/SignInWithCredentialOnSubscribe.java:10: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/SignInWithCredentialOnSubscribe.java:12: error: package io.reactivex does not exist
+import io.reactivex.SingleEmitter;
+                   ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/SignInWithCredentialOnSubscribe.java:13: error: package io.reactivex does not exist
+import io.reactivex.SingleOnSubscribe;
+                   ^
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/SignInWithCredentialOnSubscribe.java:16: error: cannot find symbol
+        implements SingleOnSubscribe<FirebaseUser> {
+                   ^
+  symbol: class SingleOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/SignInWithCredentialOnSubscribe.java:16: error: cannot find symbol
+        implements SingleOnSubscribe<FirebaseUser> {
+                                     ^
+  symbol: class FirebaseUser
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/SignInWithCredentialOnSubscribe.java:18: error: cannot find symbol
+    private final FirebaseAuth instance;
+                  ^
+  symbol:   class FirebaseAuth
+  location: class SignInWithCredentialOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/SignInWithCredentialOnSubscribe.java:20: error: cannot find symbol
+    private final AuthCredential credential;
+                  ^
+  symbol:   class AuthCredential
+  location: class SignInWithCredentialOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/SignInWithCredentialOnSubscribe.java:22: error: cannot find symbol
+    SignInWithCredentialOnSubscribe(FirebaseAuth instance, AuthCredential credential) {
+                                    ^
+  symbol:   class FirebaseAuth
+  location: class SignInWithCredentialOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/SignInWithCredentialOnSubscribe.java:22: error: cannot find symbol
+    SignInWithCredentialOnSubscribe(FirebaseAuth instance, AuthCredential credential) {
+                                                           ^
+  symbol:   class AuthCredential
+  location: class SignInWithCredentialOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/SignInWithCredentialOnSubscribe.java:28: error: cannot find symbol
+    public void subscribe(final SingleEmitter<FirebaseUser> emitter) {
+                                ^
+  symbol:   class SingleEmitter
+  location: class SignInWithCredentialOnSubscribe
+/tmp/1514644600201-0/src/firebase-auth/src/main/java/com/androidhuman/rxfirebase2/auth/SignInWithCredentialOnSubscribe.java:28: error: cannot find symbol
+    public void subscribe(final SingleEmitter<FirebaseUser> emitter) {
+                                              ^
+  symbol:   class FirebaseUser
+  location: class SignInWithCredentialOnSubscribe
+
+100 warnings
+:firebase-auth:androidJavadocsJar
+:firebase-auth:androidSourcesJar
+:firebase-auth:preBuild UP-TO-DATE
+:firebase-auth:preDebugBuild UP-TO-DATE
+:firebase-auth:compileDebugAidl UP-TO-DATE
+:firebase-auth:compileDebugNdk NO-SOURCE
+:firebase-auth:compileDebugRenderscript UP-TO-DATE
+:firebase-auth:checkDebugManifest UP-TO-DATE
+:firebase-auth:generateDebugBuildConfig UP-TO-DATE
+:firebase-auth:prepareLintJar UP-TO-DATE
+:firebase-auth:generateDebugResValues UP-TO-DATE
+:firebase-auth:generateDebugResources UP-TO-DATE
+:firebase-auth:packageDebugResources UP-TO-DATE
+:firebase-auth:platformAttrExtractor UP-TO-DATE
+:firebase-auth:processDebugManifest UP-TO-DATE
+:firebase-auth:processDebugResources UP-TO-DATE
+:firebase-auth:generateDebugSources UP-TO-DATE
+:firebase-auth:javaPreCompileDebug UP-TO-DATE
+:firebase-auth:compileDebugJavaWithJavac UP-TO-DATE
+:firebase-auth:extractDebugAnnotations
+:firebase-auth:mergeDebugShaders
+:firebase-auth:compileDebugShaders
+:firebase-auth:generateDebugAssets
+:firebase-auth:mergeDebugAssets
+:firebase-auth:mergeDebugConsumerProguardFiles
+:firebase-auth:packageDebugRenderscript NO-SOURCE
+:firebase-auth:processDebugJavaRes NO-SOURCE
+:firebase-auth:transformResourcesWithMergeJavaResForDebug
+:firebase-auth:transformClassesAndResourcesWithSyncLibJarsForDebug
+:firebase-auth:mergeDebugJniLibFolders
+:firebase-auth:transformNativeLibsWithMergeJniLibsForDebug
+:firebase-auth:transformNativeLibsWithStripDebugSymbolForDebug
+:firebase-auth:transformNativeLibsWithSyncJniLibsForDebug
+:firebase-auth:bundleDebug
+:firebase-auth:compileDebugSources UP-TO-DATE
+:firebase-auth:assembleDebug
+:firebase-auth:preReleaseBuild UP-TO-DATE
+:firebase-auth:compileReleaseAidl UP-TO-DATE
+:firebase-auth:compileReleaseNdk NO-SOURCE
+:firebase-auth:compileReleaseRenderscript UP-TO-DATE
+:firebase-auth:checkReleaseManifest UP-TO-DATE
+:firebase-auth:generateReleaseBuildConfig UP-TO-DATE
+:firebase-auth:generateReleaseResValues UP-TO-DATE
+:firebase-auth:generateReleaseResources UP-TO-DATE
+:firebase-auth:packageReleaseResources UP-TO-DATE
+:firebase-auth:processReleaseManifest UP-TO-DATE
+:firebase-auth:processReleaseResources UP-TO-DATE
+:firebase-auth:generateReleaseSources UP-TO-DATE
+:firebase-auth:javaPreCompileRelease UP-TO-DATE
+:firebase-auth:compileReleaseJavaWithJavac UP-TO-DATE
+:firebase-auth:extractReleaseAnnotations
+:firebase-auth:mergeReleaseShaders
+:firebase-auth:compileReleaseShaders
+:firebase-auth:generateReleaseAssets
+:firebase-auth:mergeReleaseAssets
+:firebase-auth:mergeReleaseConsumerProguardFiles
+:firebase-auth:packageReleaseRenderscript NO-SOURCE
+:firebase-auth:processReleaseJavaRes NO-SOURCE
+:firebase-auth:transformResourcesWithMergeJavaResForRelease
+:firebase-auth:transformClassesAndResourcesWithSyncLibJarsForRelease
+:firebase-auth:mergeReleaseJniLibFolders
+:firebase-auth:transformNativeLibsWithMergeJniLibsForRelease
+:firebase-auth:transformNativeLibsWithStripDebugSymbolForRelease
+:firebase-auth:transformNativeLibsWithSyncJniLibsForRelease
+:firebase-auth:bundleRelease
+:firebase-auth:compileReleaseSources UP-TO-DATE
+:firebase-auth:mergeReleaseResources
+:firebase-auth:verifyReleaseResources
+:firebase-auth:assembleRelease
+:firebase-auth:signArchives SKIPPED
+:firebase-auth:assemble
+:firebase-auth:build
+
+BUILD SUCCESSFUL in 12s
+51 actionable tasks: 29 executed, 22 up-to-date
+
+2017-12-30 14:39:50,020 INFO  ProjectTaskService - Detecting possible tasks...
+2017-12-30 14:39:50,020 INFO  SysUtils - Execute command: [/tmp/1514644600201-0/src/gradlew, -b, /tmp/1514644600201-0/src/firebase-database-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2017-12-30 14:39:58,119 INFO  ProjectTaskService - Detected possible tasks: 72
+2017-12-30 14:39:58,120 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll checkstyle test check testDebugUnitTest connectedAndroidTest lintRelease
+2017-12-30 14:39:58,121 INFO  SysUtils - Execute command: [/tmp/1514644600201-0/src/gradlew, -b, /tmp/1514644600201-0/src/firebase-database-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2017-12-30 14:40:16,986 INFO  SysUtils - Configuration on demand is an incubating feature.
+:firebase-database-kotlin:androidJavadocs NO-SOURCE
+:firebase-database-kotlin:androidJavadocsJar
+:firebase-database-kotlin:androidSourcesJar
+:firebase-database:preBuild UP-TO-DATE
+:firebase-database:preDebugBuild UP-TO-DATE
+:firebase-database:compileDebugAidl
+:firebase-database-kotlin:preBuild UP-TO-DATE
+:firebase-database-kotlin:preDebugBuild UP-TO-DATE
+:firebase-database-kotlin:compileDebugAidl
+:firebase-database-kotlin:compileDebugNdk NO-SOURCE
+:firebase-database:compileDebugRenderscript
+:firebase-database:checkDebugManifest
+:firebase-database:generateDebugBuildConfig
+:firebase-database:prepareLintJar
+:firebase-database:generateDebugResValues
+:firebase-database:generateDebugResources
+:firebase-database:packageDebugResources
+:firebase-database:platformAttrExtractor
+:firebase-database:processDebugManifest
+:firebase-database:javaPreCompileDebug
+:firebase-database:processDebugJavaRes NO-SOURCE
+:firebase-database:packageDebugRenderscript NO-SOURCE
+:firebase-database-kotlin:compileDebugRenderscript
+:firebase-database-kotlin:checkDebugManifest
+:firebase-database-kotlin:generateDebugBuildConfig
+:firebase-database-kotlin:generateDebugResValues
+:firebase-database-kotlin:generateDebugResources
+:firebase-database-kotlin:packageDebugResources
+:firebase-database-kotlin:platformAttrExtractor
+:firebase-database-kotlin:processDebugManifest
+:firebase-database-kotlin:prepareLintJar
+:firebase-database-kotlin:mergeDebugShaders
+:firebase-database-kotlin:compileDebugShaders
+:firebase-database:processDebugResources
+:firebase-database:generateDebugSources
+:firebase-database:compileDebugJavaWithJavac
+:firebase-database:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:firebase-database-kotlin:generateDebugAssets
+:firebase-database-kotlin:mergeDebugAssets
+:firebase-database-kotlin:mergeDebugConsumerProguardFiles
+:firebase-database-kotlin:packageDebugRenderscript NO-SOURCE
+:firebase-database-kotlin:processDebugJavaRes NO-SOURCE
+:firebase-database-kotlin:mergeDebugJniLibFolders
+:firebase-database-kotlin:transformNativeLibsWithMergeJniLibsForDebug
+:firebase-database-kotlin:transformNativeLibsWithStripDebugSymbolForDebug
+:firebase-database-kotlin:transformNativeLibsWithSyncJniLibsForDebug
+:firebase-database:preReleaseBuild UP-TO-DATE
+:firebase-database:compileReleaseAidl
+:firebase-database-kotlin:preReleaseBuild UP-TO-DATE
+:firebase-database-kotlin:compileReleaseAidl
+:firebase-database-kotlin:compileReleaseNdk NO-SOURCE
+:firebase-database:compileReleaseRenderscript
+:firebase-database:checkReleaseManifest
+:firebase-database:generateReleaseBuildConfig
+:firebase-database:generateReleaseResValues
+:firebase-database:generateReleaseResources
+:firebase-database:packageReleaseResources
+:firebase-database:processReleaseManifest
+:firebase-database:processReleaseResources
+:firebase-database:generateReleaseSources
+:firebase-database:javaPreCompileRelease
+:firebase-database:compileReleaseJavaWithJavac
+:firebase-database:processReleaseJavaRes NO-SOURCE
+:firebase-database:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:firebase-database:packageReleaseRenderscript NO-SOURCE
+:firebase-database-kotlin:compileReleaseRenderscript
+:firebase-database-kotlin:processDebugResources
+:firebase-database-kotlin:compileDebugKotlin
+:firebase-database-kotlin:generateDebugSources
+:firebase-database-kotlin:javaPreCompileDebug
+:firebase-database-kotlin:compileDebugJavaWithJavac
+:firebase-database-kotlin:extractDebugAnnotations
+:firebase-database-kotlin:transformResourcesWithMergeJavaResForDebug
+:firebase-database-kotlin:transformClassesAndResourcesWithSyncLibJarsForDebug
+:firebase-database-kotlin:bundleDebug
+:firebase-database-kotlin:compileDebugSources
+:firebase-database-kotlin:assembleDebug
+:firebase-database-kotlin:checkReleaseManifest
+:firebase-database-kotlin:generateReleaseBuildConfig
+:firebase-database-kotlin:generateReleaseResValues
+:firebase-database-kotlin:generateReleaseResources
+:firebase-database-kotlin:packageReleaseResources
+:firebase-database-kotlin:processReleaseManifest
+:firebase-database-kotlin:processReleaseResources
+:firebase-database-kotlin:compileReleaseKotlin
+:firebase-database-kotlin:generateReleaseSources
+:firebase-database-kotlin:javaPreCompileRelease
+:firebase-database-kotlin:compileReleaseJavaWithJavac
+:firebase-database-kotlin:extractReleaseAnnotations
+:firebase-database-kotlin:mergeReleaseShaders
+:firebase-database-kotlin:compileReleaseShaders
+:firebase-database-kotlin:generateReleaseAssets
+:firebase-database-kotlin:mergeReleaseAssets
+:firebase-database-kotlin:mergeReleaseConsumerProguardFiles
+:firebase-database-kotlin:packageReleaseRenderscript NO-SOURCE
+:firebase-database-kotlin:processReleaseJavaRes NO-SOURCE
+:firebase-database-kotlin:transformResourcesWithMergeJavaResForRelease
+:firebase-database-kotlin:transformClassesAndResourcesWithSyncLibJarsForRelease
+:firebase-database-kotlin:mergeReleaseJniLibFolders
+:firebase-database-kotlin:transformNativeLibsWithMergeJniLibsForRelease
+:firebase-database-kotlin:transformNativeLibsWithStripDebugSymbolForRelease
+:firebase-database-kotlin:transformNativeLibsWithSyncJniLibsForRelease
+:firebase-database-kotlin:bundleRelease
+:firebase-database-kotlin:compileReleaseSources
+:firebase-database-kotlin:mergeReleaseResources
+:firebase-database-kotlin:verifyReleaseResources
+:firebase-database-kotlin:assembleRelease
+:firebase-database-kotlin:signArchives SKIPPED
+:firebase-database-kotlin:assemble
+:firebase-database-kotlin:build
+
+BUILD SUCCESSFUL in 18s
+76 actionable tasks: 76 executed
+
+2017-12-30 14:40:17,003 INFO  ProjectTaskService - Detecting possible tasks...
+2017-12-30 14:40:17,003 INFO  SysUtils - Execute command: [/tmp/1514644600201-0/src/gradlew, -b, /tmp/1514644600201-0/src/firebase-database/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2017-12-30 14:40:24,533 INFO  ProjectTaskService - Detected possible tasks: 72
+2017-12-30 14:40:24,533 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll checkstyle test check testDebugUnitTest connectedAndroidTest lintRelease
+2017-12-30 14:40:24,535 INFO  SysUtils - Execute command: [/tmp/1514644600201-0/src/gradlew, -b, /tmp/1514644600201-0/src/firebase-database/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2017-12-30 14:40:36,345 INFO  SysUtils - Configuration on demand is an incubating feature.
+:firebase-database:androidJavadocs/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/ChildChangeEvent.java:3: error: package com.google.firebase.database does not exist
+import com.google.firebase.database.DataSnapshot;
+                                   ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/ChildChangeEvent.java:5: error: package android.support.annotation does not exist
+import android.support.annotation.CheckResult;
+                                 ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/ChildChangeEvent.java:6: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/ChildChangeEvent.java:7: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/ChildEvent.java:3: error: package com.google.firebase.database does not exist
+import com.google.firebase.database.DataSnapshot;
+                                   ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/ChildEvent.java:5: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/ChildChangeEvent.java:15: error: cannot find symbol
+    public static ChildChangeEvent create(DataSnapshot dataSnapshot, String previousChildName) {
+                                          ^
+  symbol:   class DataSnapshot
+  location: class ChildChangeEvent
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/ChildChangeEvent.java:19: error: cannot find symbol
+    private ChildChangeEvent(DataSnapshot dataSnapshot, String previousChildName) {
+                             ^
+  symbol:   class DataSnapshot
+  location: class ChildChangeEvent
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/ChildEvent.java:9: error: cannot find symbol
+    final DataSnapshot dataSnapshot;
+          ^
+  symbol:   class DataSnapshot
+  location: class ChildEvent
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/ChildEvent.java:11: error: cannot find symbol
+    ChildEvent(DataSnapshot dataSnapshot) {
+               ^
+  symbol:   class DataSnapshot
+  location: class ChildEvent
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/ChildEvent.java:16: error: cannot find symbol
+    public DataSnapshot dataSnapshot() {
+           ^
+  symbol:   class DataSnapshot
+  location: class ChildEvent
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/UpdateChildrenOnSubscribe.java:3: error: package com.google.android.gms.tasks does not exist
+import com.google.android.gms.tasks.OnCompleteListener;
+                                   ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/UpdateChildrenOnSubscribe.java:4: error: package com.google.android.gms.tasks does not exist
+import com.google.android.gms.tasks.Task;
+                                   ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/UpdateChildrenOnSubscribe.java:5: error: package com.google.firebase.database does not exist
+import com.google.firebase.database.DatabaseReference;
+                                   ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/UpdateChildrenOnSubscribe.java:7: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/UpdateChildrenOnSubscribe.java:11: error: package io.reactivex does not exist
+import io.reactivex.CompletableEmitter;
+                   ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/UpdateChildrenOnSubscribe.java:12: error: package io.reactivex does not exist
+import io.reactivex.CompletableOnSubscribe;
+                   ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/UpdateChildrenOnSubscribe.java:14: error: cannot find symbol
+final class UpdateChildrenOnSubscribe implements CompletableOnSubscribe {
+                                                 ^
+  symbol: class CompletableOnSubscribe
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/UpdateChildrenOnSubscribe.java:16: error: cannot find symbol
+    private final DatabaseReference ref;
+                  ^
+  symbol:   class DatabaseReference
+  location: class UpdateChildrenOnSubscribe
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/UpdateChildrenOnSubscribe.java:20: error: cannot find symbol
+    UpdateChildrenOnSubscribe(DatabaseReference ref, Map<String, Object> update) {
+                              ^
+  symbol:   class DatabaseReference
+  location: class UpdateChildrenOnSubscribe
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/UpdateChildrenOnSubscribe.java:26: error: cannot find symbol
+    public void subscribe(final CompletableEmitter emitter) {
+                                ^
+  symbol:   class CompletableEmitter
+  location: class UpdateChildrenOnSubscribe
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/SingleTransformerOfGenericTypeIndicator.java:3: error: package com.google.firebase.database does not exist
+import com.google.firebase.database.DataSnapshot;
+                                   ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/SingleTransformerOfGenericTypeIndicator.java:4: error: package com.google.firebase.database does not exist
+import com.google.firebase.database.GenericTypeIndicator;
+                                   ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/SingleTransformerOfGenericTypeIndicator.java:8: error: package io.reactivex does not exist
+import io.reactivex.Single;
+                   ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/SingleTransformerOfGenericTypeIndicator.java:9: error: package io.reactivex does not exist
+import io.reactivex.SingleSource;
+                   ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/SingleTransformerOfGenericTypeIndicator.java:10: error: package io.reactivex does not exist
+import io.reactivex.SingleTransformer;
+                   ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/SingleTransformerOfGenericTypeIndicator.java:11: error: package io.reactivex.annotations does not exist
+import io.reactivex.annotations.NonNull;
+                               ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/SingleTransformerOfGenericTypeIndicator.java:12: error: package io.reactivex.functions does not exist
+import io.reactivex.functions.Function;
+                             ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/SingleTransformerOfGenericTypeIndicator.java:15: error: cannot find symbol
+        implements SingleTransformer<DataSnapshot, T> {
+                   ^
+  symbol: class SingleTransformer
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/SingleTransformerOfGenericTypeIndicator.java:15: error: cannot find symbol
+        implements SingleTransformer<DataSnapshot, T> {
+                                     ^
+  symbol: class DataSnapshot
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/SingleTransformerOfGenericTypeIndicator.java:17: error: cannot find symbol
+    private GenericTypeIndicator<T> typeIndicator;
+            ^
+  symbol:   class GenericTypeIndicator
+  location: class SingleTransformerOfGenericTypeIndicator<T>
+  where T is a type-variable:
+    T extends Object declared in class SingleTransformerOfGenericTypeIndicator
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/SingleTransformerOfGenericTypeIndicator.java:19: error: cannot find symbol
+    public SingleTransformerOfGenericTypeIndicator(GenericTypeIndicator<T> indicator) {
+                                                   ^
+  symbol:   class GenericTypeIndicator
+  location: class SingleTransformerOfGenericTypeIndicator<T>
+  where T is a type-variable:
+    T extends Object declared in class SingleTransformerOfGenericTypeIndicator
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/SingleTransformerOfGenericTypeIndicator.java:24: error: cannot find symbol
+    public SingleSource<T> apply(Single<DataSnapshot> upstream) {
+                                 ^
+  symbol:   class Single
+  location: class SingleTransformerOfGenericTypeIndicator<T>
+  where T is a type-variable:
+    T extends Object declared in class SingleTransformerOfGenericTypeIndicator
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/SingleTransformerOfGenericTypeIndicator.java:24: error: cannot find symbol
+    public SingleSource<T> apply(Single<DataSnapshot> upstream) {
+                                        ^
+  symbol:   class DataSnapshot
+  location: class SingleTransformerOfGenericTypeIndicator<T>
+  where T is a type-variable:
+    T extends Object declared in class SingleTransformerOfGenericTypeIndicator
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/SingleTransformerOfGenericTypeIndicator.java:24: error: cannot find symbol
+    public SingleSource<T> apply(Single<DataSnapshot> upstream) {
+           ^
+  symbol:   class SingleSource
+  location: class SingleTransformerOfGenericTypeIndicator<T>
+  where T is a type-variable:
+    T extends Object declared in class SingleTransformerOfGenericTypeIndicator
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/TransformerOfGenericTypeIndicator.java:3: error: package com.google.firebase.database does not exist
+import com.google.firebase.database.DataSnapshot;
+                                   ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/TransformerOfGenericTypeIndicator.java:4: error: package com.google.firebase.database does not exist
+import com.google.firebase.database.GenericTypeIndicator;
+                                   ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/TransformerOfGenericTypeIndicator.java:8: error: package io.reactivex does not exist
+import io.reactivex.Observable;
+                   ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/TransformerOfGenericTypeIndicator.java:9: error: package io.reactivex does not exist
+import io.reactivex.ObservableSource;
+                   ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/TransformerOfGenericTypeIndicator.java:10: error: package io.reactivex does not exist
+import io.reactivex.ObservableTransformer;
+                   ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/TransformerOfGenericTypeIndicator.java:11: error: package io.reactivex.functions does not exist
+import io.reactivex.functions.Function;
+                             ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/TransformerOfGenericTypeIndicator.java:14: error: cannot find symbol
+        implements ObservableTransformer<DataSnapshot, DataValue<T>> {
+                   ^
+  symbol: class ObservableTransformer
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/TransformerOfGenericTypeIndicator.java:14: error: cannot find symbol
+        implements ObservableTransformer<DataSnapshot, DataValue<T>> {
+                                         ^
+  symbol: class DataSnapshot
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/TransformerOfGenericTypeIndicator.java:16: error: cannot find symbol
+    private GenericTypeIndicator<T> typeIndicator;
+            ^
+  symbol:   class GenericTypeIndicator
+  location: class TransformerOfGenericTypeIndicator<T>
+  where T is a type-variable:
+    T extends Object declared in class TransformerOfGenericTypeIndicator
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/TransformerOfGenericTypeIndicator.java:18: error: cannot find symbol
+    public TransformerOfGenericTypeIndicator(GenericTypeIndicator<T> indicator) {
+                                             ^
+  symbol:   class GenericTypeIndicator
+  location: class TransformerOfGenericTypeIndicator<T>
+  where T is a type-variable:
+    T extends Object declared in class TransformerOfGenericTypeIndicator
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/TransformerOfGenericTypeIndicator.java:23: error: cannot find symbol
+    public ObservableSource<DataValue<T>> apply(Observable<DataSnapshot> upstream) {
+                                                ^
+  symbol:   class Observable
+  location: class TransformerOfGenericTypeIndicator<T>
+  where T is a type-variable:
+    T extends Object declared in class TransformerOfGenericTypeIndicator
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/TransformerOfGenericTypeIndicator.java:23: error: cannot find symbol
+    public ObservableSource<DataValue<T>> apply(Observable<DataSnapshot> upstream) {
+                                                           ^
+  symbol:   class DataSnapshot
+  location: class TransformerOfGenericTypeIndicator<T>
+  where T is a type-variable:
+    T extends Object declared in class TransformerOfGenericTypeIndicator
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/TransformerOfGenericTypeIndicator.java:23: error: cannot find symbol
+    public ObservableSource<DataValue<T>> apply(Observable<DataSnapshot> upstream) {
+           ^
+  symbol:   class ObservableSource
+  location: class TransformerOfGenericTypeIndicator<T>
+  where T is a type-variable:
+    T extends Object declared in class TransformerOfGenericTypeIndicator
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/SingleTransformerOfClazz.java:3: error: package com.google.firebase.database does not exist
+import com.google.firebase.database.DataSnapshot;
+                                   ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/SingleTransformerOfClazz.java:7: error: package io.reactivex does not exist
+import io.reactivex.Single;
+                   ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/SingleTransformerOfClazz.java:8: error: package io.reactivex does not exist
+import io.reactivex.SingleSource;
+                   ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/SingleTransformerOfClazz.java:9: error: package io.reactivex does not exist
+import io.reactivex.SingleTransformer;
+                   ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/SingleTransformerOfClazz.java:10: error: package io.reactivex.annotations does not exist
+import io.reactivex.annotations.NonNull;
+                               ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/SingleTransformerOfClazz.java:11: error: package io.reactivex.functions does not exist
+import io.reactivex.functions.Function;
+                             ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/SingleTransformerOfClazz.java:14: error: cannot find symbol
+        implements SingleTransformer<DataSnapshot, T> {
+                   ^
+  symbol: class SingleTransformer
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/SingleTransformerOfClazz.java:14: error: cannot find symbol
+        implements SingleTransformer<DataSnapshot, T> {
+                                     ^
+  symbol: class DataSnapshot
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/SingleTransformerOfClazz.java:23: error: cannot find symbol
+    public SingleSource<T> apply(Single<DataSnapshot> upstream) {
+                                 ^
+  symbol:   class Single
+  location: class SingleTransformerOfClazz<T>
+  where T is a type-variable:
+    T extends Object declared in class SingleTransformerOfClazz
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/SingleTransformerOfClazz.java:23: error: cannot find symbol
+    public SingleSource<T> apply(Single<DataSnapshot> upstream) {
+                                        ^
+  symbol:   class DataSnapshot
+  location: class SingleTransformerOfClazz<T>
+  where T is a type-variable:
+    T extends Object declared in class SingleTransformerOfClazz
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/SingleTransformerOfClazz.java:23: error: cannot find symbol
+    public SingleSource<T> apply(Single<DataSnapshot> upstream) {
+           ^
+  symbol:   class SingleSource
+  location: class SingleTransformerOfClazz<T>
+  where T is a type-variable:
+    T extends Object declared in class SingleTransformerOfClazz
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/TransformerOfClazz.java:3: error: package com.google.firebase.database does not exist
+import com.google.firebase.database.DataSnapshot;
+                                   ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/TransformerOfClazz.java:7: error: package io.reactivex does not exist
+import io.reactivex.Observable;
+                   ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/TransformerOfClazz.java:8: error: package io.reactivex does not exist
+import io.reactivex.ObservableSource;
+                   ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/TransformerOfClazz.java:9: error: package io.reactivex does not exist
+import io.reactivex.ObservableTransformer;
+                   ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/TransformerOfClazz.java:10: error: package io.reactivex.functions does not exist
+import io.reactivex.functions.Function;
+                             ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/TransformerOfClazz.java:13: error: cannot find symbol
+        implements ObservableTransformer<DataSnapshot, DataValue<T>> {
+                   ^
+  symbol: class ObservableTransformer
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/TransformerOfClazz.java:13: error: cannot find symbol
+        implements ObservableTransformer<DataSnapshot, DataValue<T>> {
+                                         ^
+  symbol: class DataSnapshot
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/TransformerOfClazz.java:22: error: cannot find symbol
+    public ObservableSource<DataValue<T>> apply(Observable<DataSnapshot> upstream) {
+                                                ^
+  symbol:   class Observable
+  location: class TransformerOfClazz<T>
+  where T is a type-variable:
+    T extends Object declared in class TransformerOfClazz
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/TransformerOfClazz.java:22: error: cannot find symbol
+    public ObservableSource<DataValue<T>> apply(Observable<DataSnapshot> upstream) {
+                                                           ^
+  symbol:   class DataSnapshot
+  location: class TransformerOfClazz<T>
+  where T is a type-variable:
+    T extends Object declared in class TransformerOfClazz
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/transformers/TransformerOfClazz.java:22: error: cannot find symbol
+    public ObservableSource<DataValue<T>> apply(Observable<DataSnapshot> upstream) {
+           ^
+  symbol:   class ObservableSource
+  location: class TransformerOfClazz<T>
+  where T is a type-variable:
+    T extends Object declared in class TransformerOfClazz
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/ChildRemoveEvent.java:3: error: package com.google.firebase.database does not exist
+import com.google.firebase.database.DataSnapshot;
+                                   ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/ChildRemoveEvent.java:5: error: package android.support.annotation does not exist
+import android.support.annotation.CheckResult;
+                                 ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/ChildRemoveEvent.java:6: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/ChildRemoveEvent.java:12: error: cannot find symbol
+    public static ChildRemoveEvent create(DataSnapshot dataSnapshot) {
+                                          ^
+  symbol:   class DataSnapshot
+  location: class ChildRemoveEvent
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/ChildRemoveEvent.java:16: error: cannot find symbol
+    private ChildRemoveEvent(DataSnapshot dataSnapshot) {
+                             ^
+  symbol:   class DataSnapshot
+  location: class ChildRemoveEvent
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/DataOnSubscribe.java:3: error: package com.google.firebase.database does not exist
+import com.google.firebase.database.DataSnapshot;
+                                   ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/DataOnSubscribe.java:4: error: package com.google.firebase.database does not exist
+import com.google.firebase.database.DatabaseError;
+                                   ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/DataOnSubscribe.java:5: error: package com.google.firebase.database does not exist
+import com.google.firebase.database.DatabaseReference;
+                                   ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/DataOnSubscribe.java:6: error: package com.google.firebase.database does not exist
+import com.google.firebase.database.ValueEventListener;
+                                   ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/DataOnSubscribe.java:8: error: package io.reactivex does not exist
+import io.reactivex.SingleEmitter;
+                   ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/DataOnSubscribe.java:9: error: package io.reactivex does not exist
+import io.reactivex.SingleOnSubscribe;
+                   ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/DataOnSubscribe.java:11: error: cannot find symbol
+final class DataOnSubscribe implements SingleOnSubscribe<DataSnapshot> {
+                                       ^
+  symbol: class SingleOnSubscribe
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/DataOnSubscribe.java:11: error: cannot find symbol
+final class DataOnSubscribe implements SingleOnSubscribe<DataSnapshot> {
+                                                         ^
+  symbol: class DataSnapshot
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/DataOnSubscribe.java:13: error: cannot find symbol
+    private final DatabaseReference ref;
+                  ^
+  symbol:   class DatabaseReference
+  location: class DataOnSubscribe
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/DataOnSubscribe.java:15: error: cannot find symbol
+    DataOnSubscribe(DatabaseReference ref) {
+                    ^
+  symbol:   class DatabaseReference
+  location: class DataOnSubscribe
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/DataOnSubscribe.java:20: error: cannot find symbol
+    public void subscribe(final SingleEmitter<DataSnapshot> emitter) {
+                                ^
+  symbol:   class SingleEmitter
+  location: class DataOnSubscribe
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/DataOnSubscribe.java:20: error: cannot find symbol
+    public void subscribe(final SingleEmitter<DataSnapshot> emitter) {
+                                              ^
+  symbol:   class DataSnapshot
+  location: class DataOnSubscribe
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/model/Some.java:3: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/SetValueWithPriorityOnSubscribe.java:3: error: package com.google.android.gms.tasks does not exist
+import com.google.android.gms.tasks.OnCompleteListener;
+                                   ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/SetValueWithPriorityOnSubscribe.java:4: error: package com.google.android.gms.tasks does not exist
+import com.google.android.gms.tasks.Task;
+                                   ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/SetValueWithPriorityOnSubscribe.java:5: error: package com.google.firebase.database does not exist
+import com.google.firebase.database.DatabaseReference;
+                                   ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/SetValueWithPriorityOnSubscribe.java:7: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/SetValueWithPriorityOnSubscribe.java:9: error: package io.reactivex does not exist
+import io.reactivex.CompletableEmitter;
+                   ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/SetValueWithPriorityOnSubscribe.java:10: error: package io.reactivex does not exist
+import io.reactivex.CompletableOnSubscribe;
+                   ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/SetValueWithPriorityOnSubscribe.java:12: error: cannot find symbol
+final class SetValueWithPriorityOnSubscribe<T> implements CompletableOnSubscribe {
+                                                          ^
+  symbol: class CompletableOnSubscribe
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/SetValueWithPriorityOnSubscribe.java:14: error: cannot find symbol
+    private final DatabaseReference ref;
+                  ^
+  symbol:   class DatabaseReference
+  location: class SetValueWithPriorityOnSubscribe<T>
+  where T is a type-variable:
+    T extends Object declared in class SetValueWithPriorityOnSubscribe
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/SetValueWithPriorityOnSubscribe.java:20: error: cannot find symbol
+    SetValueWithPriorityOnSubscribe(DatabaseReference ref, T value, Object priority) {
+                                    ^
+  symbol:   class DatabaseReference
+  location: class SetValueWithPriorityOnSubscribe<T>
+  where T is a type-variable:
+    T extends Object declared in class SetValueWithPriorityOnSubscribe
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/SetValueWithPriorityOnSubscribe.java:27: error: cannot find symbol
+    public void subscribe(final CompletableEmitter emitter) {
+                                ^
+  symbol:   class CompletableEmitter
+  location: class SetValueWithPriorityOnSubscribe<T>
+  where T is a type-variable:
+    T extends Object declared in class SetValueWithPriorityOnSubscribe
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/ChildEventsOnSubscribe.java:3: error: package com.google.firebase.database does not exist
+import com.google.firebase.database.ChildEventListener;
+                                   ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/ChildEventsOnSubscribe.java:4: error: package com.google.firebase.database does not exist
+import com.google.firebase.database.DataSnapshot;
+                                   ^
+/tmp/1514644600201-0/src/firebase-database/src/main/java/com/androidhuman/rxfirebase2/database/ChildEventsOnSubscribe.java:5: error: package com.google.firebase.database does not exist
+import com.google.firebase.database.DatabaseError;
+                                   ^
+
+100 warnings
+:firebase-database:androidJavadocsJar
+:firebase-database:androidSourcesJar
+:firebase-database:preBuild UP-TO-DATE
+:firebase-database:preDebugBuild UP-TO-DATE
+:firebase-database:compileDebugAidl UP-TO-DATE
+:firebase-database:compileDebugNdk NO-SOURCE
+:firebase-database:compileDebugRenderscript UP-TO-DATE
+:firebase-database:checkDebugManifest UP-TO-DATE
+:firebase-database:generateDebugBuildConfig UP-TO-DATE
+:firebase-database:prepareLintJar UP-TO-DATE
+:firebase-database:generateDebugResValues UP-TO-DATE
+:firebase-database:generateDebugResources UP-TO-DATE
+:firebase-database:packageDebugResources UP-TO-DATE
+:firebase-database:platformAttrExtractor UP-TO-DATE
+:firebase-database:processDebugManifest UP-TO-DATE
+:firebase-database:processDebugResources UP-TO-DATE
+:firebase-database:generateDebugSources UP-TO-DATE
+:firebase-database:javaPreCompileDebug UP-TO-DATE
+:firebase-database:compileDebugJavaWithJavac UP-TO-DATE
+:firebase-database:extractDebugAnnotations
+:firebase-database:mergeDebugShaders
+:firebase-database:compileDebugShaders
+:firebase-database:generateDebugAssets
+:firebase-database:mergeDebugAssets
+:firebase-database:mergeDebugConsumerProguardFiles
+:firebase-database:packageDebugRenderscript NO-SOURCE
+:firebase-database:processDebugJavaRes NO-SOURCE
+:firebase-database:transformResourcesWithMergeJavaResForDebug
+:firebase-database:transformClassesAndResourcesWithSyncLibJarsForDebug
+:firebase-database:mergeDebugJniLibFolders
+:firebase-database:transformNativeLibsWithMergeJniLibsForDebug
+:firebase-database:transformNativeLibsWithStripDebugSymbolForDebug
+:firebase-database:transformNativeLibsWithSyncJniLibsForDebug
+:firebase-database:bundleDebug
+:firebase-database:compileDebugSources UP-TO-DATE
+:firebase-database:assembleDebug
+:firebase-database:preReleaseBuild UP-TO-DATE
+:firebase-database:compileReleaseAidl UP-TO-DATE
+:firebase-database:compileReleaseNdk NO-SOURCE
+:firebase-database:compileReleaseRenderscript UP-TO-DATE
+:firebase-database:checkReleaseManifest UP-TO-DATE
+:firebase-database:generateReleaseBuildConfig UP-TO-DATE
+:firebase-database:generateReleaseResValues UP-TO-DATE
+:firebase-database:generateReleaseResources UP-TO-DATE
+:firebase-database:packageReleaseResources UP-TO-DATE
+:firebase-database:processReleaseManifest UP-TO-DATE
+:firebase-database:processReleaseResources UP-TO-DATE
+:firebase-database:generateReleaseSources UP-TO-DATE
+:firebase-database:javaPreCompileRelease UP-TO-DATE
+:firebase-database:compileReleaseJavaWithJavac UP-TO-DATE
+:firebase-database:extractReleaseAnnotations
+:firebase-database:mergeReleaseShaders
+:firebase-database:compileReleaseShaders
+:firebase-database:generateReleaseAssets
+:firebase-database:mergeReleaseAssets
+:firebase-database:mergeReleaseConsumerProguardFiles
+:firebase-database:packageReleaseRenderscript NO-SOURCE
+:firebase-database:processReleaseJavaRes NO-SOURCE
+:firebase-database:transformResourcesWithMergeJavaResForRelease
+:firebase-database:transformClassesAndResourcesWithSyncLibJarsForRelease
+:firebase-database:mergeReleaseJniLibFolders
+:firebase-database:transformNativeLibsWithMergeJniLibsForRelease
+:firebase-database:transformNativeLibsWithStripDebugSymbolForRelease
+:firebase-database:transformNativeLibsWithSyncJniLibsForRelease
+:firebase-database:bundleRelease
+:firebase-database:compileReleaseSources UP-TO-DATE
+:firebase-database:mergeReleaseResources
+:firebase-database:verifyReleaseResources
+:firebase-database:assembleRelease
+:firebase-database:signArchives SKIPPED
+:firebase-database:assemble
+:firebase-database:build
+
+BUILD SUCCESSFUL in 11s
+51 actionable tasks: 29 executed, 22 up-to-date
+
+2017-12-30 14:40:36,364 INFO  ProjectTaskService - Detecting possible tasks...
+2017-12-30 14:40:36,364 INFO  SysUtils - Execute command: [/tmp/1514644600201-0/src/gradlew, -b, /tmp/1514644600201-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2017-12-30 14:40:45,019 INFO  ProjectTaskService - Detected possible tasks: 73
+2017-12-30 14:40:45,020 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll checkstyle test check testDebugUnitTest connectedAndroidTest lintRelease
+2017-12-30 14:40:45,021 INFO  SysUtils - Execute command: [/tmp/1514644600201-0/src/gradlew, -b, /tmp/1514644600201-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2017-12-30 14:40:55,521 INFO  SysUtils - Configuration on demand is an incubating feature.
+:firebase-auth:androidJavadocs UP-TO-DATE
+:firebase-auth:androidJavadocsJar UP-TO-DATE
+:firebase-auth:androidSourcesJar UP-TO-DATE
+:firebase-auth:preBuild UP-TO-DATE
+:firebase-auth:preDebugBuild UP-TO-DATE
+:firebase-auth:compileDebugAidl UP-TO-DATE
+:firebase-auth:compileDebugNdk NO-SOURCE
+:firebase-auth:compileDebugRenderscript UP-TO-DATE
+:firebase-auth:checkDebugManifest UP-TO-DATE
+:firebase-auth:generateDebugBuildConfig UP-TO-DATE
+:firebase-auth:prepareLintJar UP-TO-DATE
+:firebase-auth:generateDebugResValues UP-TO-DATE
+:firebase-auth:generateDebugResources UP-TO-DATE
+:firebase-auth:packageDebugResources UP-TO-DATE
+:firebase-auth:platformAttrExtractor UP-TO-DATE
+:firebase-auth:processDebugManifest UP-TO-DATE
+:firebase-auth:processDebugResources UP-TO-DATE
+:firebase-auth:generateDebugSources UP-TO-DATE
+:firebase-auth:javaPreCompileDebug UP-TO-DATE
+:firebase-auth:compileDebugJavaWithJavac UP-TO-DATE
+:firebase-auth:extractDebugAnnotations UP-TO-DATE
+:firebase-auth:mergeDebugShaders UP-TO-DATE
+:firebase-auth:compileDebugShaders UP-TO-DATE
+:firebase-auth:generateDebugAssets UP-TO-DATE
+:firebase-auth:mergeDebugAssets UP-TO-DATE
+:firebase-auth:mergeDebugConsumerProguardFiles UP-TO-DATE
+:firebase-auth:packageDebugRenderscript NO-SOURCE
+:firebase-auth:processDebugJavaRes NO-SOURCE
+:firebase-auth:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:firebase-auth:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:firebase-auth:mergeDebugJniLibFolders UP-TO-DATE
+:firebase-auth:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:firebase-auth:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:firebase-auth:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:firebase-auth:bundleDebug UP-TO-DATE
+:firebase-auth:compileDebugSources UP-TO-DATE
+:firebase-auth:assembleDebug UP-TO-DATE
+:firebase-auth:preReleaseBuild UP-TO-DATE
+:firebase-auth:compileReleaseAidl UP-TO-DATE
+:firebase-auth:compileReleaseNdk NO-SOURCE
+:firebase-auth:compileReleaseRenderscript UP-TO-DATE
+:firebase-auth:checkReleaseManifest UP-TO-DATE
+:firebase-auth:generateReleaseBuildConfig UP-TO-DATE
+:firebase-auth:generateReleaseResValues UP-TO-DATE
+:firebase-auth:generateReleaseResources UP-TO-DATE
+:firebase-auth:packageReleaseResources UP-TO-DATE
+:firebase-auth:processReleaseManifest UP-TO-DATE
+:firebase-auth:processReleaseResources UP-TO-DATE
+:firebase-auth:generateReleaseSources UP-TO-DATE
+:firebase-auth:javaPreCompileRelease UP-TO-DATE
+:firebase-auth:compileReleaseJavaWithJavac UP-TO-DATE
+:firebase-auth:extractReleaseAnnotations UP-TO-DATE
+:firebase-auth:mergeReleaseShaders UP-TO-DATE
+:firebase-auth:compileReleaseShaders UP-TO-DATE
+:firebase-auth:generateReleaseAssets UP-TO-DATE
+:firebase-auth:mergeReleaseAssets UP-TO-DATE
+:firebase-auth:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:firebase-auth:packageReleaseRenderscript NO-SOURCE
+:firebase-auth:processReleaseJavaRes NO-SOURCE
+:firebase-auth:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:firebase-auth:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:firebase-auth:mergeReleaseJniLibFolders UP-TO-DATE
+:firebase-auth:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:firebase-auth:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:firebase-auth:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:firebase-auth:bundleRelease UP-TO-DATE
+:firebase-auth:compileReleaseSources UP-TO-DATE
+:firebase-auth:mergeReleaseResources UP-TO-DATE
+:firebase-auth:verifyReleaseResources UP-TO-DATE
+:firebase-auth:assembleRelease UP-TO-DATE
+:firebase-auth:signArchives SKIPPED
+:firebase-auth:assemble UP-TO-DATE
+:firebase-auth:build
+:firebase-auth-kotlin:androidJavadocs NO-SOURCE
+:firebase-auth-kotlin:androidJavadocsJar UP-TO-DATE
+:firebase-auth-kotlin:androidSourcesJar UP-TO-DATE
+:firebase-auth-kotlin:preBuild UP-TO-DATE
+:firebase-auth-kotlin:preDebugBuild UP-TO-DATE
+:firebase-auth-kotlin:compileDebugAidl UP-TO-DATE
+:firebase-auth-kotlin:compileDebugNdk NO-SOURCE
+:firebase-auth:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:firebase-auth-kotlin:compileDebugRenderscript UP-TO-DATE
+:firebase-auth-kotlin:checkDebugManifest UP-TO-DATE
+:firebase-auth-kotlin:generateDebugBuildConfig UP-TO-DATE
+:firebase-auth-kotlin:generateDebugResValues UP-TO-DATE
+:firebase-auth-kotlin:generateDebugResources UP-TO-DATE
+:firebase-auth-kotlin:packageDebugResources UP-TO-DATE
+:firebase-auth-kotlin:platformAttrExtractor UP-TO-DATE
+:firebase-auth-kotlin:processDebugManifest UP-TO-DATE
+:firebase-auth-kotlin:processDebugResources UP-TO-DATE
+:firebase-auth-kotlin:compileDebugKotlin UP-TO-DATE
+:firebase-auth-kotlin:prepareLintJar UP-TO-DATE
+:firebase-auth-kotlin:generateDebugSources UP-TO-DATE
+:firebase-auth-kotlin:javaPreCompileDebug UP-TO-DATE
+:firebase-auth-kotlin:compileDebugJavaWithJavac UP-TO-DATE
+:firebase-auth-kotlin:extractDebugAnnotations UP-TO-DATE
+:firebase-auth-kotlin:mergeDebugShaders UP-TO-DATE
+:firebase-auth-kotlin:compileDebugShaders UP-TO-DATE
+:firebase-auth-kotlin:generateDebugAssets UP-TO-DATE
+:firebase-auth-kotlin:mergeDebugAssets UP-TO-DATE
+:firebase-auth-kotlin:mergeDebugConsumerProguardFiles UP-TO-DATE
+:firebase-auth-kotlin:packageDebugRenderscript NO-SOURCE
+:firebase-auth-kotlin:processDebugJavaRes NO-SOURCE
+:firebase-auth-kotlin:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:firebase-auth-kotlin:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:firebase-auth-kotlin:mergeDebugJniLibFolders UP-TO-DATE
+:firebase-auth-kotlin:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:firebase-auth-kotlin:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:firebase-auth-kotlin:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:firebase-auth-kotlin:bundleDebug UP-TO-DATE
+:firebase-auth-kotlin:compileDebugSources UP-TO-DATE
+:firebase-auth-kotlin:assembleDebug UP-TO-DATE
+:firebase-auth-kotlin:preReleaseBuild UP-TO-DATE
+:firebase-auth-kotlin:compileReleaseAidl UP-TO-DATE
+:firebase-auth-kotlin:compileReleaseNdk NO-SOURCE
+:firebase-auth:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+:firebase-auth-kotlin:compileReleaseRenderscript UP-TO-DATE
+:firebase-auth-kotlin:checkReleaseManifest UP-TO-DATE
+:firebase-auth-kotlin:generateReleaseBuildConfig UP-TO-DATE
+:firebase-auth-kotlin:generateReleaseResValues UP-TO-DATE
+:firebase-auth-kotlin:generateReleaseResources UP-TO-DATE
+:firebase-auth-kotlin:packageReleaseResources UP-TO-DATE
+:firebase-auth-kotlin:processReleaseManifest UP-TO-DATE
+:firebase-auth-kotlin:processReleaseResources UP-TO-DATE
+:firebase-auth-kotlin:compileReleaseKotlin UP-TO-DATE
+:firebase-auth-kotlin:generateReleaseSources UP-TO-DATE
+:firebase-auth-kotlin:javaPreCompileRelease UP-TO-DATE
+:firebase-auth-kotlin:compileReleaseJavaWithJavac UP-TO-DATE
+:firebase-auth-kotlin:extractReleaseAnnotations UP-TO-DATE
+:firebase-auth-kotlin:mergeReleaseShaders UP-TO-DATE
+:firebase-auth-kotlin:compileReleaseShaders UP-TO-DATE
+:firebase-auth-kotlin:generateReleaseAssets UP-TO-DATE
+:firebase-auth-kotlin:mergeReleaseAssets UP-TO-DATE
+:firebase-auth-kotlin:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:firebase-auth-kotlin:packageReleaseRenderscript NO-SOURCE
+:firebase-auth-kotlin:processReleaseJavaRes NO-SOURCE
+:firebase-auth-kotlin:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:firebase-auth-kotlin:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:firebase-auth-kotlin:mergeReleaseJniLibFolders UP-TO-DATE
+:firebase-auth-kotlin:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:firebase-auth-kotlin:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:firebase-auth-kotlin:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:firebase-auth-kotlin:bundleRelease UP-TO-DATE
+:firebase-auth-kotlin:compileReleaseSources UP-TO-DATE
+:firebase-auth-kotlin:mergeReleaseResources UP-TO-DATE
+:firebase-auth-kotlin:verifyReleaseResources UP-TO-DATE
+:firebase-auth-kotlin:assembleRelease UP-TO-DATE
+:firebase-auth-kotlin:signArchives SKIPPED
+:firebase-auth-kotlin:assemble UP-TO-DATE
+:firebase-auth-kotlin:build
+:firebase-database:androidJavadocs UP-TO-DATE
+:firebase-database:androidJavadocsJar UP-TO-DATE
+:firebase-database:androidSourcesJar UP-TO-DATE
+:firebase-database:preBuild UP-TO-DATE
+:firebase-database:preDebugBuild UP-TO-DATE
+:firebase-database:compileDebugAidl UP-TO-DATE
+:firebase-database:compileDebugNdk NO-SOURCE
+:firebase-database:compileDebugRenderscript UP-TO-DATE
+:firebase-database:checkDebugManifest UP-TO-DATE
+:firebase-database:generateDebugBuildConfig UP-TO-DATE
+:firebase-database:prepareLintJar UP-TO-DATE
+:firebase-database:generateDebugResValues UP-TO-DATE
+:firebase-database:generateDebugResources UP-TO-DATE
+:firebase-database:packageDebugResources UP-TO-DATE
+:firebase-database:platformAttrExtractor UP-TO-DATE
+:firebase-database:processDebugManifest UP-TO-DATE
+:firebase-database:processDebugResources UP-TO-DATE
+:firebase-database:generateDebugSources UP-TO-DATE
+:firebase-database:javaPreCompileDebug UP-TO-DATE
+:firebase-database:compileDebugJavaWithJavac UP-TO-DATE
+:firebase-database:extractDebugAnnotations UP-TO-DATE
+:firebase-database:mergeDebugShaders UP-TO-DATE
+:firebase-database:compileDebugShaders UP-TO-DATE
+:firebase-database:generateDebugAssets UP-TO-DATE
+:firebase-database:mergeDebugAssets UP-TO-DATE
+:firebase-database:mergeDebugConsumerProguardFiles UP-TO-DATE
+:firebase-database:packageDebugRenderscript NO-SOURCE
+:firebase-database:processDebugJavaRes NO-SOURCE
+:firebase-database:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:firebase-database:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:firebase-database:mergeDebugJniLibFolders UP-TO-DATE
+:firebase-database:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:firebase-database:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:firebase-database:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:firebase-database:bundleDebug UP-TO-DATE
+:firebase-database:compileDebugSources UP-TO-DATE
+:firebase-database:assembleDebug UP-TO-DATE
+:firebase-database:preReleaseBuild UP-TO-DATE
+:firebase-database:compileReleaseAidl UP-TO-DATE
+:firebase-database:compileReleaseNdk NO-SOURCE
+:firebase-database:compileReleaseRenderscript UP-TO-DATE
+:firebase-database:checkReleaseManifest UP-TO-DATE
+:firebase-database:generateReleaseBuildConfig UP-TO-DATE
+:firebase-database:generateReleaseResValues UP-TO-DATE
+:firebase-database:generateReleaseResources UP-TO-DATE
+:firebase-database:packageReleaseResources UP-TO-DATE
+:firebase-database:processReleaseManifest UP-TO-DATE
+:firebase-database:processReleaseResources UP-TO-DATE
+:firebase-database:generateReleaseSources UP-TO-DATE
+:firebase-database:javaPreCompileRelease UP-TO-DATE
+:firebase-database:compileReleaseJavaWithJavac UP-TO-DATE
+:firebase-database:extractReleaseAnnotations UP-TO-DATE
+:firebase-database:mergeReleaseShaders UP-TO-DATE
+:firebase-database:compileReleaseShaders UP-TO-DATE
+:firebase-database:generateReleaseAssets UP-TO-DATE
+:firebase-database:mergeReleaseAssets UP-TO-DATE
+:firebase-database:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:firebase-database:packageReleaseRenderscript NO-SOURCE
+:firebase-database:processReleaseJavaRes NO-SOURCE
+:firebase-database:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:firebase-database:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:firebase-database:mergeReleaseJniLibFolders UP-TO-DATE
+:firebase-database:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:firebase-database:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:firebase-database:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:firebase-database:bundleRelease UP-TO-DATE
+:firebase-database:compileReleaseSources UP-TO-DATE
+:firebase-database:mergeReleaseResources UP-TO-DATE
+:firebase-database:verifyReleaseResources UP-TO-DATE
+:firebase-database:assembleRelease UP-TO-DATE
+:firebase-database:signArchives SKIPPED
+:firebase-database:assemble UP-TO-DATE
+:firebase-database:build
+:firebase-database-kotlin:androidJavadocs NO-SOURCE
+:firebase-database-kotlin:androidJavadocsJar UP-TO-DATE
+:firebase-database-kotlin:androidSourcesJar UP-TO-DATE
+:firebase-database-kotlin:preBuild UP-TO-DATE
+:firebase-database-kotlin:preDebugBuild UP-TO-DATE
+:firebase-database-kotlin:compileDebugAidl UP-TO-DATE
+:firebase-database-kotlin:compileDebugNdk NO-SOURCE
+:firebase-database:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:firebase-database-kotlin:compileDebugRenderscript UP-TO-DATE
+:firebase-database-kotlin:checkDebugManifest UP-TO-DATE
+:firebase-database-kotlin:generateDebugBuildConfig UP-TO-DATE
+:firebase-database-kotlin:generateDebugResValues UP-TO-DATE
+:firebase-database-kotlin:generateDebugResources UP-TO-DATE
+:firebase-database-kotlin:packageDebugResources UP-TO-DATE
+:firebase-database-kotlin:platformAttrExtractor UP-TO-DATE
+:firebase-database-kotlin:processDebugManifest UP-TO-DATE
+:firebase-database-kotlin:processDebugResources UP-TO-DATE
+:firebase-database-kotlin:compileDebugKotlin UP-TO-DATE
+:firebase-database-kotlin:prepareLintJar UP-TO-DATE
+:firebase-database-kotlin:generateDebugSources UP-TO-DATE
+:firebase-database-kotlin:javaPreCompileDebug UP-TO-DATE
+:firebase-database-kotlin:compileDebugJavaWithJavac UP-TO-DATE
+:firebase-database-kotlin:extractDebugAnnotations UP-TO-DATE
+:firebase-database-kotlin:mergeDebugShaders UP-TO-DATE
+:firebase-database-kotlin:compileDebugShaders UP-TO-DATE
+:firebase-database-kotlin:generateDebugAssets UP-TO-DATE
+:firebase-database-kotlin:mergeDebugAssets UP-TO-DATE
+:firebase-database-kotlin:mergeDebugConsumerProguardFiles UP-TO-DATE
+:firebase-database-kotlin:packageDebugRenderscript NO-SOURCE
+:firebase-database-kotlin:processDebugJavaRes NO-SOURCE
+:firebase-database-kotlin:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:firebase-database-kotlin:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:firebase-database-kotlin:mergeDebugJniLibFolders UP-TO-DATE
+:firebase-database-kotlin:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:firebase-database-kotlin:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:firebase-database-kotlin:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:firebase-database-kotlin:bundleDebug UP-TO-DATE
+:firebase-database-kotlin:compileDebugSources UP-TO-DATE
+:firebase-database-kotlin:assembleDebug UP-TO-DATE
+:firebase-database-kotlin:preReleaseBuild UP-TO-DATE
+:firebase-database-kotlin:compileReleaseAidl UP-TO-DATE
+:firebase-database-kotlin:compileReleaseNdk NO-SOURCE
+:firebase-database:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+:firebase-database-kotlin:compileReleaseRenderscript UP-TO-DATE
+:firebase-database-kotlin:checkReleaseManifest UP-TO-DATE
+:firebase-database-kotlin:generateReleaseBuildConfig UP-TO-DATE
+:firebase-database-kotlin:generateReleaseResValues UP-TO-DATE
+:firebase-database-kotlin:generateReleaseResources UP-TO-DATE
+:firebase-database-kotlin:packageReleaseResources UP-TO-DATE
+:firebase-database-kotlin:processReleaseManifest UP-TO-DATE
+:firebase-database-kotlin:processReleaseResources UP-TO-DATE
+:firebase-database-kotlin:compileReleaseKotlin UP-TO-DATE
+:firebase-database-kotlin:generateReleaseSources UP-TO-DATE
+:firebase-database-kotlin:javaPreCompileRelease UP-TO-DATE
+:firebase-database-kotlin:compileReleaseJavaWithJavac UP-TO-DATE
+:firebase-database-kotlin:extractReleaseAnnotations UP-TO-DATE
+:firebase-database-kotlin:mergeReleaseShaders UP-TO-DATE
+:firebase-database-kotlin:compileReleaseShaders UP-TO-DATE
+:firebase-database-kotlin:generateReleaseAssets UP-TO-DATE
+:firebase-database-kotlin:mergeReleaseAssets UP-TO-DATE
+:firebase-database-kotlin:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:firebase-database-kotlin:packageReleaseRenderscript NO-SOURCE
+:firebase-database-kotlin:processReleaseJavaRes NO-SOURCE
+:firebase-database-kotlin:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:firebase-database-kotlin:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:firebase-database-kotlin:mergeReleaseJniLibFolders UP-TO-DATE
+:firebase-database-kotlin:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:firebase-database-kotlin:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:firebase-database-kotlin:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:firebase-database-kotlin:bundleRelease UP-TO-DATE
+:firebase-database-kotlin:compileReleaseSources UP-TO-DATE
+:firebase-database-kotlin:mergeReleaseResources UP-TO-DATE
+:firebase-database-kotlin:verifyReleaseResources UP-TO-DATE
+:firebase-database-kotlin:assembleRelease UP-TO-DATE
+:firebase-database-kotlin:signArchives SKIPPED
+:firebase-database-kotlin:assemble UP-TO-DATE
+:firebase-database-kotlin:build
+
+BUILD SUCCESSFUL in 9s
+210 actionable tasks: 210 up-to-date
+
+2017-12-30 14:40:55,537 ERROR FullProcessService - Project build has not produced APK file
+2017-12-30 14:40:55,556 ERROR FullProcessService - Could not find generated or existed APK file

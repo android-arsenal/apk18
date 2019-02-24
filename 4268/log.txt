@@ -1,0 +1,112 @@
+2019-01-26 21:49:44,869 INFO  DownloadService - Downloading "https://github.com/ChrisRM/material-theme-jetbrains/archive/master.zip", attempt 3
+2019-01-26 21:49:49,297 INFO  DownloadService - Downloaded https://github.com/ChrisRM/material-theme-jetbrains/archive/master.zip, attempt 3
+2019-01-26 21:49:49,297 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514184864-0/master.zip": 9 MB
+2019-01-26 21:49:49,297 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-26 21:49:49,304 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514184864-0/master.zip: true
+2019-01-26 21:49:49,305 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514184864-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514184864-0/src'.
+2019-01-26 21:49:50,591 INFO  FullProcessService - Size of directory with sources: 15 MB
+2019-01-26 21:49:50,591 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514184864-0/src]
+2019-01-26 21:49:50,614 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514184864-0/src/.git/
+
+2019-01-26 21:49:50,680 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514184864-0/src/material-theme-jetbrains-master/gradlew
+2019-01-26 21:49:50,738 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514184864-0/src/material-theme-jetbrains-master/build.gradle
+2019-01-26 21:49:50,806 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514184864-0/src/material-theme-jetbrains-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514184864-0/src/material-theme-jetbrains-master/settings.gradle
+2019-01-26 21:49:50,806 INFO  ProjectBuildService - Remote scripts: none
+2019-01-26 21:49:50,806 INFO  ProjectFixService - Fixing project...
+2019-01-26 21:49:50,930 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514184864-0/src/material-theme-jetbrains-master/local.properties
+2019-01-26 21:49:50,930 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.0-all.zip
+2019-01-26 21:49:50,931 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.0-bin.zip)
+2019-01-26 21:49:50,932 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514184864-0/src/material-theme-jetbrains-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-26 21:49:50,932 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514184864-0/src/material-theme-jetbrains-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-26 21:49:50,934 INFO  ProjectFixService - Project was maybe fixed
+2019-01-26 21:49:50,934 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-26 21:49:50,934 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514184864-0/src/material-theme-jetbrains-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514184864-0/src/material-theme-jetbrains-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-26 21:54:48,455 INFO  ProjectTaskService - Detected possible tasks: 59
+2019-01-26 21:54:48,459 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-01-26 21:54:48,460 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514184864-0/src/material-theme-jetbrains-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514184864-0/src/material-theme-jetbrains-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-01-26 21:55:58,500 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.0/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+Configuration on demand is an incubating feature.
+> Task :discoverMainScriptsExtensions
+w: API version 1.1 is deprecated and its support will be removed in a future version of Kotlin
+> Task :compileKotlin
+
+> Task :compileJava
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514184864-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/ui/MTDarculaButtonUI.java:34: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
+import sun.swing.SwingUtilities2;
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514184864-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/ui/MTButtonUI.java:42: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
+import sun.swing.SwingUtilities2;
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514184864-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/ui/MTCheckBoxUI.java:35: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
+import sun.swing.SwingUtilities2;
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514184864-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/MTThemeManager.java:67: warning: AppContext is internal proprietary API and may be removed in a future release
+import sun.awt.AppContext;
+              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514184864-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/panes/MTFrameComponentExtension.java:39: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
+import sun.swing.SwingUtilities2;
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514184864-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/ui/MTDarculaButtonUI.java:60: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
+    final FontMetrics metrics = SwingUtilities2.getFontMetrics(c, g);
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514184864-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/ui/MTDarculaButtonUI.java:69: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
+      SwingUtilities2.drawStringUnderlineCharAt(c, g, textToPrint, mnemonicIndex, x, y);
+      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514184864-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/ui/MTDarculaButtonUI.java:87: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
+    SwingUtilities2.drawStringUnderlineCharAt(c, g, textToPrint, -1, x + 1, textRect.y + metrics.getAscent() + 1);
+    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514184864-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/ui/MTButtonUI.java:270: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
+    final FontMetrics metrics = SwingUtilities2.getFontMetrics(c, g);
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514184864-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/ui/MTButtonUI.java:279: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
+      SwingUtilities2.drawStringUnderlineCharAt(c, g, textToPrint, mnemonicIndex, x, y);
+      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514184864-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/ui/MTButtonUI.java:298: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
+    SwingUtilities2.drawStringUnderlineCharAt(c, g, textToPrint, -1, x + 1, textRect.y + metrics.getAscent() + 1);
+    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514184864-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/ui/MTButtonUI.java:301: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
+    SwingUtilities2.drawStringUnderlineCharAt(c, g, textToPrint, -1, x, textRect.y + metrics.getAscent());
+    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514184864-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/ui/MTCheckBoxUI.java:78: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
+    final FontMetrics fm = SwingUtilities2.getFontMetrics(c, g, font);
+                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514184864-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/ui/MTCheckBoxUI.java:204: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
+        SwingUtilities2.drawStringUnderlineCharAt(c, g, text,
+        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514184864-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/MTThemeManager.java:768: warning: AppContext is internal proprietary API and may be removed in a future release
+      AppContext.getAppContext().put(keyField.get(null), styleSheet);
+      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514184864-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/panes/MTFrameComponentExtension.java:133: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
+        final FontMetrics metrics = SwingUtilities2.getFontMetrics(this, g);
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514184864-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/panes/MTFrameComponentExtension.java:140: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
+        SwingUtilities2.drawString(this, g, textToDraw, r.x + getXOffset(), r.y + metrics.getAscent() - 2);
+        ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+17 warnings
+
+> Task :patchPluginXml
+> Task :processResources
+> Task :classes
+> Task :inspectClassesForKotlinIC
+> Task :instrumentCode
+> Task :postInstrumentCode
+> Task :jar
+> Task :prepareSandbox
+> Task :buildPlugin
+> Task :assemble
+> Task :build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.0/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1m 9s
+11 actionable tasks: 11 executed
+
+2019-01-26 21:55:58,658 ERROR FullProcessService - Project build has not produced APK file
+2019-01-26 21:55:58,799 ERROR FullProcessService - Could not find generated or existed APK file

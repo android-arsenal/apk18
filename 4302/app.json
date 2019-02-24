@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.livetyping.cannyviewanimator",
+    "label" : "CannyViewAnimator",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "24",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 2146,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.livetyping.cannyviewanimator\" platformBuildVersionCode=\"24\" platformBuildVersionName=\"7.0\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"24\" />\n\t<application android:theme=\"resourceId:0x7f080092\" android:label=\"CannyViewAnimator\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.livetyping.cannyviewanimator.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.livetyping.cannyviewanimator.choose.ChooseActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f080093\" android:name=\"com.livetyping.cannyviewanimator.choose.list.ChooseListActivity\" />\n\t\t<activity android:name=\"com.livetyping.cannyviewanimator.xml.XmlActivity\" />\n\t\t<activity android:name=\"com.livetyping.cannyviewanimator.transition.TransitionActivity\" />\n\t\t<activity android:name=\"com.livetyping.cannyviewanimator.custom.CustomActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1902215,
+  "crc32" : 59385595,
+  "sha256" : "bd778ef3aa03fbab0eea0d239620b001b390d7acab48641601bdfd3cab2baa22",
+  "buildTime" : 1496784637000
+}

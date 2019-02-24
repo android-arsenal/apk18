@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "uk.co.barbuzz.clockscroller.sample",
+    "label" : "Clock Scroller Sample",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "24",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAABOFBMVEUAAABsRbprRb5rRL1rRL1VNpdUNpdVNpdYO5NrRL14VcOghtS6qODPwurRxetsRb2Sdc76+P3///9/XcbRxer7+/3a0e+4pd+tmNuumduYfdHz8Pr39Pu5p+CfhtT7+v3b0u+AXsZuSL7Wy+3FtuVxS8DHuOZtRr5uR77KvOfy7/h8W8DLweFmQbP29PuDa7RlQLLKwN5WN5n5+PtkSKCRfbxVNpevoc6tl9pvSb/Hvd2ljdfa0O7Lwd9lQLNvSr/j3PLd1PCKbMtWNphyTcC2ot718/vDs+R7WMR8WcXGtuX8+/5xTMCLbcvYze3QxOqehNTj3PPCsuSCa7LKwd9WN5jx7/ZsUaX6+fyJc7fYzu7Xze35+PyXfM+7qeCIc7Z6Wr7LweBlQLGCa7NkP7Cwoc7Ivt1VNpjz13TPAAAACXRSTlMAGqDy1fKg1Ro0wWZ7AAAB9ElEQVRIx83WWVvaQBQGYAW3CSHAFwhlMyyCS1urBcalxlZp1da9bt030f7/f9Ahi2bMTMhFL/xuyPMwL5lJzpxhZORxZjQWJ0MTj43ejR8jkTLmiRiJmJgL4lFB3AUkcv4XUBJqUtOSakKJAlJpLQM3GS2dGgb0LJAz8k+AQt7IAVk9HBRLKFfYGAVg89ErZZSKYWDaRLU2uKg3GvXBZ82AOS0HRRMzTX6ZzRbMogzoJbRmncu5+fk552q2hYWnYpDKwvB+31mDc48qnj0XgjQWayQISG0RL5ZEQEOFiABRsfxyKQiUTE4XAz3X7jiCAwkYRAyIgS61BQdU5GUgjxVqCw4ksarURWBNWcU6tQUHNFZtDR945dXdBvvCogOxKQev3wBb2w8A7cmnRN6+24G5u+efEot80SzvP+yjVDi4W3QAcI/VzuERcOw91iDgXpxbXSenH90XJwBcaXBhpUFFwF98/rDiOxMCVt7VZnB808D5hRD4N9B92Aa6vKJiMNiireAW/fSZyoCvCXz56jSBKr51qRyQ7wsoq/dt5kcZlz9pGCC/ftuNrOA1svMrGg7In2ur7bXKtnV2QYcB0u91uje3lnV70+3QBxF3736PyiJp93IhO7JkYlx6KErEhPzYFYrJqZCDvf83MJ+JqUf6v+Qf1kOVIqo3gk4AAAAASUVORK5CYII="
+  },
+  "dexClasses" : 1800,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"uk.co.barbuzz.clockscroller.sample\" platformBuildVersionCode=\"24\" platformBuildVersionName=\"7.0\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"24\" />\n\t<application android:theme=\"resourceId:0x7f08008f\" android:label=\"Clock Scroller Sample\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"uk.co.barbuzz.clockscroller.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1423743,
+  "crc32" : 949666615,
+  "sha256" : "c8c8cd92ee027a6e31b05773ce1a08b95dab0433fb8a44719b3886020bdbf026",
+  "buildTime" : 1526825210000
+}

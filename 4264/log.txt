@@ -1,0 +1,165 @@
+2018-11-17 23:51:48,551 INFO  DownloadService - Downloading "https://github.com/rubensousa/RecyclerViewSnap/archive/master.zip", attempt 3
+2018-11-17 23:51:52,163 INFO  DownloadService - Downloaded https://github.com/rubensousa/RecyclerViewSnap/archive/master.zip, attempt 3
+2018-11-17 23:51:52,164 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/master.zip": 8 MB
+2018-11-17 23:51:52,164 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-17 23:51:52,164 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/master.zip: true
+2018-11-17 23:51:52,164 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src'.
+2018-11-17 23:51:52,256 INFO  FullProcessService - Size of directory with sources: 8 MB
+2018-11-17 23:51:52,257 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src]
+2018-11-17 23:51:52,274 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/.git/
+
+2018-11-17 23:51:52,277 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/gradlew
+2018-11-17 23:51:52,281 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/gravitysnaphelper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/build.gradle
+2018-11-17 23:51:52,285 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/gradle/gradle-bintray-upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/gravitysnaphelper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/settings.gradle
+2018-11-17 23:51:52,286 INFO  ProjectBuildService - Remote scripts: none
+2018-11-17 23:51:52,286 INFO  ProjectFixService - Fixing project...
+2018-11-17 23:51:52,297 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/app/local.properties
+2018-11-17 23:51:52,300 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
+2018-11-17 23:51:52,301 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-11-17 23:51:52,302 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/gravitysnaphelper/local.properties
+2018-11-17 23:51:52,305 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/gravitysnaphelper/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
+2018-11-17 23:51:52,306 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/gravitysnaphelper/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-11-17 23:51:52,307 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/local.properties
+2018-11-17 23:51:52,307 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-11-17 23:51:52,308 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-11-17 23:51:52,310 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
+2018-11-17 23:51:52,311 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-11-17 23:51:52,311 INFO  ProjectFixService - Project was maybe fixed
+2018-11-17 23:51:52,311 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-17 23:51:52,311 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-17 23:51:59,503 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-11-17 23:51:59,503 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-11-17 23:51:59,503 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-11-17 23:52:39,561 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:gravitysnaphelper:preBuild UP-TO-DATE
+:gravitysnaphelper:preDebugBuild UP-TO-DATE
+:gravitysnaphelper:checkDebugManifest
+:gravitysnaphelper:processDebugManifest
+:app:preDebugBuild
+:gravitysnaphelper:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:gravitysnaphelper:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:gravitysnaphelper:compileDebugRenderscript
+:gravitysnaphelper:generateDebugResValues
+:gravitysnaphelper:generateDebugResources
+:gravitysnaphelper:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:gravitysnaphelper:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:gravitysnaphelper:generateDebugBuildConfig
+:gravitysnaphelper:prepareLintJar
+:gravitysnaphelper:generateDebugSources
+:gravitysnaphelper:javaPreCompileDebug
+:gravitysnaphelper:compileDebugJavaWithJavac
+:gravitysnaphelper:processDebugJavaRes NO-SOURCE
+:gravitysnaphelper:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:gravitysnaphelper:mergeDebugShaders
+:gravitysnaphelper:compileDebugShaders
+:gravitysnaphelper:generateDebugAssets
+:gravitysnaphelper:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:gravitysnaphelper:compileDebugNdk NO-SOURCE
+:gravitysnaphelper:mergeDebugJniLibFolders
+:gravitysnaphelper:transformNativeLibsWithMergeJniLibsForDebug
+:gravitysnaphelper:transformNativeLibsWithStripDebugSymbolForDebug
+:gravitysnaphelper:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:gravitysnaphelper:preReleaseBuild UP-TO-DATE
+:gravitysnaphelper:checkReleaseManifest
+:gravitysnaphelper:processReleaseManifest
+:app:preReleaseBuild
+:gravitysnaphelper:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:gravitysnaphelper:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:gravitysnaphelper:compileReleaseRenderscript
+:gravitysnaphelper:generateReleaseResValues
+:gravitysnaphelper:generateReleaseResources
+:gravitysnaphelper:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:gravitysnaphelper:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:gravitysnaphelper:generateReleaseBuildConfig
+:gravitysnaphelper:generateReleaseSources
+:gravitysnaphelper:javaPreCompileRelease
+:gravitysnaphelper:compileReleaseJavaWithJavac
+:gravitysnaphelper:processReleaseJavaRes NO-SOURCE
+:gravitysnaphelper:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/78fb2b14bf035f6abe068c061a3ffa5c/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:gravitysnaphelper:mergeReleaseShaders
+:gravitysnaphelper:compileReleaseShaders
+:gravitysnaphelper:generateReleaseAssets
+:gravitysnaphelper:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:gravitysnaphelper:compileReleaseNdk NO-SOURCE
+:gravitysnaphelper:mergeReleaseJniLibFolders
+:gravitysnaphelper:transformNativeLibsWithMergeJniLibsForRelease
+:gravitysnaphelper:transformNativeLibsWithStripDebugSymbolForRelease
+:gravitysnaphelper:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 39s
+90 actionable tasks: 90 executed
+
+2018-11-17 23:52:39,671 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/app/build/outputs/apk/debug/app-debug.apk

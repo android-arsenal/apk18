@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.fingerprint.sample",
+    "label" : "FingerPrintAuthHelper",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : null,
+    "platformBuildVersionName" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 1551,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.fingerprint.sample\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"27\" />\n\t<uses-permission-sdk-23 android:name=\"android.permission.USE_FINGERPRINT\" />\n\t<application android:theme=\"resourceId:0x7f0c0005\" android:label=\"FingerPrintAuthHelper\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.fingerprint.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.fingerprint.sample.AuthSuccessScreen\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1533538,
+  "crc32" : 1134668681,
+  "sha256" : "b1ef28d1b2725ca493645fd30a74101ce15b75030e4f69bfd5b2df8faee4fbd2",
+  "buildTime" : 1539844389000
+}

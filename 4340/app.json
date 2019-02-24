@@ -1,0 +1,56 @@
+{
+  "meta" : {
+    "packageName" : "io.github.scola.qart",
+    "label" : "Qart",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "2.3",
+    "versionCode" : 14,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "23",
+    "platformBuildVersionName" : "6.0-2704002",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.WRITE_EXTERNAL_STORAGE", "android.permission.READ_EXTERNAL_STORAGE", "android.permission.CAMERA" ],
+    "usesFeatures" : [ {
+      "name" : "android.hardware.camera",
+      "required" : false
+    }, {
+      "name" : "android.hardware.camera.front",
+      "required" : false
+    }, {
+      "name" : "android.hardware.camera.autofocus",
+      "required" : false
+    }, {
+      "name" : "android.hardware.camera.flash",
+      "required" : false
+    }, {
+      "name" : "android.hardware.screen.landscape",
+      "required" : false
+    }, {
+      "name" : "android.hardware.wifi",
+      "required" : false
+    } ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 2890,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "eu", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"14\" android:versionName=\"2.3\" package=\"io.github.scola.qart\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"23\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.CAMERA\" />\n\t<uses-feature android:name=\"android.hardware.camera\" android:required=\"false\" />\n\t<uses-feature android:name=\"android.hardware.camera.front\" android:required=\"false\" />\n\t<uses-feature android:name=\"android.hardware.camera.autofocus\" android:required=\"false\" />\n\t<uses-feature android:name=\"android.hardware.camera.flash\" android:required=\"false\" />\n\t<uses-feature android:name=\"android.hardware.screen.landscape\" android:required=\"false\" />\n\t<uses-feature android:name=\"android.hardware.wifi\" android:required=\"false\" />\n\t<application android:theme=\"resourceId:0x7f090094\" android:label=\"Qart\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:label=\"Qart\" android:name=\"io.github.scola.qart.MainActivity\" android:screenOrientation=\"portrait\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"io.github.scola.qart.IntroActivity\" android:screenOrientation=\"portrait\" android:noHistory=\"true\" />\n\t\t<activity android:theme=\"resourceId:0x7f09003b\" android:label=\"QR Result\" android:name=\"io.github.scola.qart.QRCodeResultActivity\" android:screenOrientation=\"portrait\" />\n\t\t<activity android:theme=\"resourceId:0x7f090020\" android:name=\"com.journeyapps.barcodescanner.CaptureActivity\" android:clearTaskOnLaunch=\"true\" android:stateNotNeeded=\"true\" android:screenOrientation=\"portrait\" android:windowSoftInputMode=\"0x3\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 3208000,
+  "crc32" : 2553579804,
+  "sha256" : "7d4a209331c474f2026e3f1a0815574f04d0e5afbdf02467a5c8f434f6c6f3d7",
+  "buildTime" : 1540124126000
+}

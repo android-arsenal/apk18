@@ -1,0 +1,1037 @@
+2018-10-20 19:09:13,087 INFO  DownloadService - Downloading "https://github.com/NateWickstrom/RxActivityResult/archive/master.zip", attempt 3
+2018-10-20 19:09:13,617 INFO  DownloadService - Downloaded https://github.com/NateWickstrom/RxActivityResult/archive/master.zip, attempt 3
+2018-10-20 19:09:13,617 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/master.zip": 107 KB
+2018-10-20 19:09:13,617 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-20 19:09:13,617 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/master.zip: true
+2018-10-20 19:09:13,617 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src'.
+2018-10-20 19:09:13,630 INFO  FullProcessService - Size of directory with sources: 125 KB
+2018-10-20 19:09:13,630 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src]
+2018-10-20 19:09:13,647 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/.git/
+
+2018-10-20 19:09:13,649 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/gradlew
+2018-10-20 19:09:13,652 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/build.gradle
+2018-10-20 19:09:13,654 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/settings.gradle
+2018-10-20 19:09:13,655 INFO  ProjectBuildService - Remote scripts: none
+2018-10-20 19:09:13,655 INFO  ProjectFixService - Fixing project...
+2018-10-20 19:09:13,662 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/local.properties
+2018-10-20 19:09:13,663 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=10,targetSdkVersion=<null>]
+2018-10-20 19:09:13,663 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=10,targetSdkVersion=28]
+2018-10-20 19:09:13,664 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/local.properties
+2018-10-20 19:09:13,665 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=10,targetSdkVersion=<null>]
+2018-10-20 19:09:13,666 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=10,targetSdkVersion=28]
+2018-10-20 19:09:13,666 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/sample/local.properties
+2018-10-20 19:09:13,668 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/sample/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=<null>]
+2018-10-20 19:09:13,668 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/sample/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=28]
+2018-10-20 19:09:13,668 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/local.properties
+2018-10-20 19:09:13,669 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2018-10-20 19:09:13,669 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2018-10-20 19:09:13,670 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=10,targetSdkVersion=<null>]
+2018-10-20 19:09:13,671 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=10,targetSdkVersion=28]
+2018-10-20 19:09:13,671 INFO  ProjectFixService - Project was maybe fixed
+2018-10-20 19:09:13,671 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-20 19:09:13,671 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-20 19:09:26,708 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-10-20 19:09:26,708 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-10-20 19:09:26,708 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-10-20 19:09:26,708 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-10-20 19:09:37,006 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-10-20 19:09:37,006 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:rxactivityresult-support-v4:preBuild UP-TO-DATE
+:rxactivityresult-support-v4:preDebugBuild UP-TO-DATE
+:rxactivityresult-support-v4:checkDebugManifest
+:rxactivityresult:preBuild UP-TO-DATE
+:rxactivityresult:preReleaseBuild UP-TO-DATE
+:rxactivityresult:checkReleaseManifest
+:rxactivityresult:prepareReleaseDependencies
+:rxactivityresult:compileReleaseAidl
+:rxactivityresult:compileReleaseNdk UP-TO-DATE
+:rxactivityresult:compileLint
+:rxactivityresult:copyReleaseLint UP-TO-DATE
+:rxactivityresult:compileReleaseRenderscript
+:rxactivityresult:generateReleaseBuildConfig
+:rxactivityresult:generateReleaseResValues
+:rxactivityresult:generateReleaseResources
+:rxactivityresult:packageReleaseResources
+:rxactivityresult:processReleaseManifest
+:rxactivityresult:processReleaseResources
+:rxactivityresult:generateReleaseSources
+:rxactivityresult:incrementalReleaseJavaCompilationSafeguard
+:rxactivityresult:compileReleaseJavaWithJavac
+:rxactivityresult:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:rxactivityresult:extractReleaseAnnotations
+:rxactivityresult:mergeReleaseShaders
+:rxactivityresult:compileReleaseShaders
+:rxactivityresult:generateReleaseAssets
+:rxactivityresult:mergeReleaseAssets
+:rxactivityresult:mergeReleaseProguardFiles
+:rxactivityresult:packageReleaseRenderscript UP-TO-DATE
+:rxactivityresult:processReleaseJavaRes UP-TO-DATE
+:rxactivityresult:transformResourcesWithMergeJavaResForRelease
+:rxactivityresult:transformClassesAndResourcesWithSyncLibJarsForRelease
+:rxactivityresult:mergeReleaseJniLibFolders
+:rxactivityresult:transformNative_libsWithMergeJniLibsForRelease
+:rxactivityresult:transformNative_libsWithSyncJniLibsForRelease
+:rxactivityresult:bundleRelease
+:rxactivityresult-support-v4:preDebugAndroidTestBuild UP-TO-DATE
+:rxactivityresult-support-v4:preDebugUnitTestBuild UP-TO-DATE
+:rxactivityresult-support-v4:preReleaseBuild UP-TO-DATE
+:rxactivityresult-support-v4:preReleaseUnitTestBuild UP-TO-DATE
+:rxactivityresult-support-v4:prepareComAndroidSupportSupportCompat2421Library
+:rxactivityresult-support-v4:prepareComAndroidSupportSupportCoreUi2421Library
+:rxactivityresult-support-v4:prepareComAndroidSupportSupportCoreUtils2421Library
+:rxactivityresult-support-v4:prepareComAndroidSupportSupportFragment2421Library
+:rxactivityresult-support-v4:prepareComAndroidSupportSupportMediaCompat2421Library
+:rxactivityresult-support-v4:prepareComAndroidSupportSupportV42421Library
+:rxactivityresult-support-v4:prepareComNatewickstromRxactivityresultRxactivityresult010Rc3Library
+:rxactivityresult-support-v4:prepareDebugDependencies
+:rxactivityresult-support-v4:compileDebugAidl
+:rxactivityresult-support-v4:compileDebugNdk UP-TO-DATE
+:rxactivityresult-support-v4:compileLint
+:rxactivityresult-support-v4:copyDebugLint UP-TO-DATE
+:rxactivityresult-support-v4:compileDebugRenderscript
+:rxactivityresult-support-v4:generateDebugBuildConfig
+:rxactivityresult-support-v4:generateDebugResValues
+:rxactivityresult-support-v4:generateDebugResources
+:rxactivityresult-support-v4:mergeDebugResources
+:rxactivityresult-support-v4:processDebugManifest
+:rxactivityresult-support-v4:processDebugResources
+:rxactivityresult-support-v4:generateDebugSources
+:rxactivityresult-support-v4:incrementalDebugJavaCompilationSafeguard
+:rxactivityresult-support-v4:compileDebugJavaWithJavac
+:rxactivityresult-support-v4:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:rxactivityresult-support-v4:extractDebugAnnotations
+:rxactivityresult-support-v4:mergeDebugShaders
+:rxactivityresult-support-v4:compileDebugShaders
+:rxactivityresult-support-v4:generateDebugAssets
+:rxactivityresult-support-v4:mergeDebugAssets
+:rxactivityresult-support-v4:mergeDebugProguardFiles
+:rxactivityresult-support-v4:packageDebugRenderscript UP-TO-DATE
+:rxactivityresult-support-v4:packageDebugResources
+:rxactivityresult-support-v4:processDebugJavaRes UP-TO-DATE
+:rxactivityresult-support-v4:transformResourcesWithMergeJavaResForDebug
+:rxactivityresult-support-v4:transformClassesAndResourcesWithSyncLibJarsForDebug
+:rxactivityresult-support-v4:mergeDebugJniLibFolders
+:rxactivityresult-support-v4:transformNative_libsWithMergeJniLibsForDebug
+:rxactivityresult-support-v4:transformNative_libsWithSyncJniLibsForDebug
+:rxactivityresult-support-v4:bundleDebug
+:rxactivityresult-support-v4:compileDebugSources
+:rxactivityresult-support-v4:assembleDebug
+:rxactivityresult-support-v4:checkReleaseManifest
+:rxactivityresult-support-v4:prepareReleaseDependencies
+:rxactivityresult-support-v4:compileReleaseAidl
+:rxactivityresult-support-v4:compileReleaseNdk UP-TO-DATE
+:rxactivityresult-support-v4:copyReleaseLint UP-TO-DATE
+:rxactivityresult-support-v4:compileReleaseRenderscript
+:rxactivityresult-support-v4:generateReleaseBuildConfig
+:rxactivityresult-support-v4:generateReleaseResValues
+:rxactivityresult-support-v4:generateReleaseResources
+:rxactivityresult-support-v4:mergeReleaseResources
+:rxactivityresult-support-v4:processReleaseManifest
+:rxactivityresult-support-v4:processReleaseResources
+:rxactivityresult-support-v4:generateReleaseSources
+:rxactivityresult-support-v4:incrementalReleaseJavaCompilationSafeguard
+:rxactivityresult-support-v4:compileReleaseJavaWithJavac
+:rxactivityresult-support-v4:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:rxactivityresult-support-v4:extractReleaseAnnotations
+:rxactivityresult-support-v4:mergeReleaseShaders
+:rxactivityresult-support-v4:compileReleaseShaders
+:rxactivityresult-support-v4:generateReleaseAssets
+:rxactivityresult-support-v4:mergeReleaseAssets
+:rxactivityresult-support-v4:mergeReleaseProguardFiles
+:rxactivityresult-support-v4:packageReleaseRenderscript UP-TO-DATE
+:rxactivityresult-support-v4:packageReleaseResources
+:rxactivityresult-support-v4:processReleaseJavaRes UP-TO-DATE
+:rxactivityresult-support-v4:transformResourcesWithMergeJavaResForRelease
+:rxactivityresult-support-v4:transformClassesAndResourcesWithSyncLibJarsForRelease
+:rxactivityresult-support-v4:mergeReleaseJniLibFolders
+:rxactivityresult-support-v4:transformNative_libsWithMergeJniLibsForRelease
+:rxactivityresult-support-v4:transformNative_libsWithSyncJniLibsForRelease
+:rxactivityresult-support-v4:bundleRelease
+:rxactivityresult-support-v4:compileReleaseSources
+:rxactivityresult-support-v4:assembleRelease
+:rxactivityresult-support-v4:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:8: error: package android.support.annotation does not exist
+import android.support.annotation.CheckResult;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:9: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:10: error: package android.support.v4.app does not exist
+import android.support.v4.app.Fragment;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:12: error: cannot find symbol
+import com.natewickstrom.rxactivityresult.Launchable;
+                                         ^
+  symbol:   class Launchable
+  location: package com.natewickstrom.rxactivityresult
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:13: error: cannot find symbol
+import com.natewickstrom.rxactivityresult.RxActivityResult;
+                                         ^
+  symbol:   class RxActivityResult
+  location: package com.natewickstrom.rxactivityresult
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:22: error: cannot find symbol
+    private RxActivityResult rxActivityResult;
+            ^
+  symbol:   class RxActivityResult
+  location: class RxFragmentActivityResult
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:31: error: cannot find symbol
+    private RxFragmentActivityResult(RxActivityResult rxActivityResult) {
+                                     ^
+  symbol:   class RxActivityResult
+  location: class RxFragmentActivityResult
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:42: error: cannot find symbol
+    public Launchable from(@NonNull Activity activity) {
+           ^
+  symbol:   class Launchable
+  location: class RxFragmentActivityResult
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:54: error: cannot find symbol
+    public Launchable from(@NonNull final android.app.Fragment fragment) {
+           ^
+  symbol:   class Launchable
+  location: class RxFragmentActivityResult
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:72: error: cannot find symbol
+    public Launchable from(@NonNull final Fragment fragment) {
+                                          ^
+  symbol:   class Fragment
+  location: class RxFragmentActivityResult
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:72: error: cannot find symbol
+    public Launchable from(@NonNull final Fragment fragment) {
+           ^
+  symbol:   class Launchable
+  location: class RxFragmentActivityResult
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:42: error: cannot find symbol
+    public Launchable from(@NonNull Activity activity) {
+                            ^
+  symbol:   class NonNull
+  location: class RxFragmentActivityResult
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:41: error: cannot find symbol
+    @CheckResult
+     ^
+  symbol:   class CheckResult
+  location: class RxFragmentActivityResult
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:54: error: cannot find symbol
+    public Launchable from(@NonNull final android.app.Fragment fragment) {
+                            ^
+  symbol:   class NonNull
+  location: class RxFragmentActivityResult
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:53: error: cannot find symbol
+    @CheckResult
+     ^
+  symbol:   class CheckResult
+  location: class RxFragmentActivityResult
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:72: error: cannot find symbol
+    public Launchable from(@NonNull final Fragment fragment) {
+                            ^
+  symbol:   class NonNull
+  location: class RxFragmentActivityResult
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:71: error: cannot find symbol
+    @CheckResult
+     ^
+  symbol:   class CheckResult
+  location: class RxFragmentActivityResult
+javadoc: warning - Class CheckResult not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:42: warning - Tag @link: reference not found: Launchable
+javadoc: warning - Class CheckResult not found.
+javadoc: warning - Class CheckResult not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:54: warning - Tag @link: reference not found: Launchable
+javadoc: warning - Class CheckResult not found.
+javadoc: warning - Class CheckResult not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:72: warning - Tag @link: reference not found: Launchable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:72: warning - Tag @link: reference not found: Fragment
+javadoc: warning - Class CheckResult not found.
+javadoc: warning - Class CheckResult not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class CheckResult not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:42: warning - Tag @link: reference not found: Launchable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:42: warning - Tag @link: reference not found: Launchable
+javadoc: warning - Class CheckResult not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class CheckResult not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:54: warning - Tag @link: reference not found: Launchable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:54: warning - Tag @link: reference not found: Launchable
+javadoc: warning - Class CheckResult not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class CheckResult not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:72: warning - Tag @link: reference not found: Launchable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:72: warning - Tag @link: reference not found: Fragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:72: warning - Tag @link: reference not found: Launchable
+javadoc: warning - Class CheckResult not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:42: warning - Tag @link: reference not found: Launchable
+javadoc: warning - Class CheckResult not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:54: warning - Tag @link: reference not found: Launchable
+javadoc: warning - Class CheckResult not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:72: warning - Tag @link: reference not found: Launchable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:72: warning - Tag @link: reference not found: Fragment
+javadoc: warning - Class CheckResult not found.
+javadoc: warning - Class CheckResult not found.
+javadoc: warning - Class CheckResult not found.
+
+53 warnings
+:rxactivityresult-support-v4:javadocJar
+:rxactivityresult-support-v4:sourcesJar
+:rxactivityresult-support-v4:assemble
+:rxactivityresult-support-v4:lint FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':rxactivityresult-support-v4:lint'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':rxactivityresult-support-v4:lint'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:66)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:153)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:150)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:99)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:239)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:212)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getDefaultToolchainVersion(DefaultNdkInfo.java:330)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getToolchainPath(DefaultNdkInfo.java:207)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getCCompiler(DefaultNdkInfo.java:263)
+	at com.android.build.gradle.internal.ndk.NdkHandler.getCCompiler(NdkHandler.java:306)
+	at com.android.build.gradle.internal.model.ModelBuilder.createNativeToolchainModelMap(ModelBuilder.java:240)
+	at com.android.build.gradle.internal.model.ModelBuilder.buildAll(ModelBuilder.java:175)
+	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.java:288)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.java:105)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:228)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:221)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:210)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:621)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:604)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 60 more
+
+
+BUILD FAILED
+
+Total time: 9.703 secs
+
+2018-10-20 19:09:37,040 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-20 19:09:37,040 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-20 19:09:43,891 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-10-20 19:09:43,891 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-10-20 19:09:43,891 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-10-20 19:09:43,891 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-10-20 19:09:53,081 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-10-20 19:09:53,081 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:rxactivityresult:preBuild UP-TO-DATE
+:rxactivityresult:preDebugBuild UP-TO-DATE
+:rxactivityresult:checkDebugManifest
+:rxactivityresult:prepareDebugDependencies
+:rxactivityresult:compileDebugAidl
+:rxactivityresult:compileDebugNdk UP-TO-DATE
+:rxactivityresult:compileLint UP-TO-DATE
+:rxactivityresult:copyDebugLint UP-TO-DATE
+:rxactivityresult:compileDebugRenderscript
+:rxactivityresult:generateDebugBuildConfig
+:rxactivityresult:generateDebugResValues
+:rxactivityresult:generateDebugResources
+:rxactivityresult:packageDebugResources
+:rxactivityresult:processDebugManifest
+:rxactivityresult:processDebugResources
+:rxactivityresult:generateDebugSources
+:rxactivityresult:incrementalDebugJavaCompilationSafeguard
+:rxactivityresult:compileDebugJavaWithJavac
+:rxactivityresult:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:rxactivityresult:extractDebugAnnotations
+:rxactivityresult:mergeDebugShaders
+:rxactivityresult:compileDebugShaders
+:rxactivityresult:generateDebugAssets
+:rxactivityresult:mergeDebugAssets
+:rxactivityresult:mergeDebugProguardFiles
+:rxactivityresult:packageDebugRenderscript UP-TO-DATE
+:rxactivityresult:processDebugJavaRes UP-TO-DATE
+:rxactivityresult:transformResourcesWithMergeJavaResForDebug
+:rxactivityresult:transformClassesAndResourcesWithSyncLibJarsForDebug
+:rxactivityresult:mergeDebugJniLibFolders
+:rxactivityresult:transformNative_libsWithMergeJniLibsForDebug
+:rxactivityresult:transformNative_libsWithSyncJniLibsForDebug
+:rxactivityresult:bundleDebug
+:rxactivityresult:compileDebugSources
+:rxactivityresult:assembleDebug
+:rxactivityresult:preReleaseBuild UP-TO-DATE
+:rxactivityresult:checkReleaseManifest
+:rxactivityresult:prepareReleaseDependencies
+:rxactivityresult:compileReleaseAidl UP-TO-DATE
+:rxactivityresult:compileReleaseNdk UP-TO-DATE
+:rxactivityresult:copyReleaseLint UP-TO-DATE
+:rxactivityresult:compileReleaseRenderscript UP-TO-DATE
+:rxactivityresult:generateReleaseBuildConfig UP-TO-DATE
+:rxactivityresult:generateReleaseResValues UP-TO-DATE
+:rxactivityresult:generateReleaseResources UP-TO-DATE
+:rxactivityresult:packageReleaseResources UP-TO-DATE
+:rxactivityresult:processReleaseManifest UP-TO-DATE
+:rxactivityresult:processReleaseResources UP-TO-DATE
+:rxactivityresult:generateReleaseSources UP-TO-DATE
+:rxactivityresult:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:rxactivityresult:compileReleaseJavaWithJavac UP-TO-DATE
+:rxactivityresult:extractReleaseAnnotations UP-TO-DATE
+:rxactivityresult:mergeReleaseShaders UP-TO-DATE
+:rxactivityresult:compileReleaseShaders UP-TO-DATE
+:rxactivityresult:generateReleaseAssets UP-TO-DATE
+:rxactivityresult:mergeReleaseAssets UP-TO-DATE
+:rxactivityresult:mergeReleaseProguardFiles UP-TO-DATE
+:rxactivityresult:packageReleaseRenderscript UP-TO-DATE
+:rxactivityresult:processReleaseJavaRes UP-TO-DATE
+:rxactivityresult:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:rxactivityresult:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:rxactivityresult:mergeReleaseJniLibFolders UP-TO-DATE
+:rxactivityresult:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:rxactivityresult:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:rxactivityresult:bundleRelease UP-TO-DATE
+:rxactivityresult:compileReleaseSources UP-TO-DATE
+:rxactivityresult:assembleRelease UP-TO-DATE
+:rxactivityresult:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:8: error: package android.support.annotation does not exist
+import android.support.annotation.CheckResult;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:9: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:10: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:15: error: package rx does not exist
+import rx.Observable;
+         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:16: error: package rx.subjects does not exist
+import rx.subjects.PublishSubject;
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:30: error: cannot find symbol
+    private Map<Integer, PublishSubject<ActivityResult>> results = new HashMap<>();
+                         ^
+  symbol:   class PublishSubject
+  location: class RxActivityResult
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:6: error: package android.support.annotation does not exist
+import android.support.annotation.CheckResult;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:7: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:8: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:10: error: package rx does not exist
+import rx.Observable;
+         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:80: error: cannot find symbol
+    private PublishSubject<ActivityResult> prepareSubject(final int requestCode) {
+            ^
+  symbol:   class PublishSubject
+  location: class RxActivityResult
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:45: error: cannot find symbol
+    Observable<ActivityResult> startActivityForResult(@NonNull Intent intent, int requestCode,
+    ^
+  symbol:   class Observable
+  location: interface Launchable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:60: error: cannot find symbol
+    Observable<ActivityResult> startActivityForResult(@NonNull Intent intent, int requestCode);
+    ^
+  symbol:   class Observable
+  location: interface Launchable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:99: error: cannot find symbol
+        public Observable<ActivityResult> startActivityForResult(@NonNull Intent intent, int requestCode) {
+               ^
+  symbol:   class Observable
+  location: class Launcher
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:104: error: cannot find symbol
+        public Observable<ActivityResult> startActivityForResult(@NonNull Intent intent, int requestCode,
+               ^
+  symbol:   class Observable
+  location: class Launcher
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:50: error: cannot find symbol
+    public Launchable from(@NonNull final Activity activity) {
+                            ^
+  symbol:   class NonNull
+  location: class RxActivityResult
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:49: error: cannot find symbol
+    @CheckResult
+     ^
+  symbol:   class CheckResult
+  location: class RxActivityResult
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:71: error: cannot find symbol
+    private Intent prepareIntent(final Intent intent, final int requestCode, @Nullable final Bundle options) {
+                                                                              ^
+  symbol:   class Nullable
+  location: class RxActivityResult
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:45: error: cannot find symbol
+    Observable<ActivityResult> startActivityForResult(@NonNull Intent intent, int requestCode,
+                                                       ^
+  symbol:   class NonNull
+  location: interface Launchable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:46: error: cannot find symbol
+                                                      @Nullable Bundle options);
+                                                       ^
+  symbol:   class Nullable
+  location: interface Launchable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:44: error: cannot find symbol
+    @CheckResult
+     ^
+  symbol:   class CheckResult
+  location: interface Launchable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:60: error: cannot find symbol
+    Observable<ActivityResult> startActivityForResult(@NonNull Intent intent, int requestCode);
+                                                       ^
+  symbol:   class NonNull
+  location: interface Launchable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:59: error: cannot find symbol
+    @CheckResult
+     ^
+  symbol:   class CheckResult
+  location: interface Launchable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:99: error: cannot find symbol
+        public Observable<ActivityResult> startActivityForResult(@NonNull Intent intent, int requestCode) {
+                                                                  ^
+  symbol:   class NonNull
+  location: class Launcher
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:104: error: cannot find symbol
+        public Observable<ActivityResult> startActivityForResult(@NonNull Intent intent, int requestCode,
+                                                                  ^
+  symbol:   class NonNull
+  location: class Launcher
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:105: error: cannot find symbol
+                                                                 @Nullable Bundle options) {
+                                                                  ^
+  symbol:   class Nullable
+  location: class Launcher
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:15: warning - Tag @link: reference not found: Observable
+javadoc: warning - Class CheckResult not found.
+javadoc: warning - Class CheckResult not found.
+javadoc: warning - Class CheckResult not found.
+javadoc: warning - Class CheckResult not found.
+javadoc: warning - Class CheckResult not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class CheckResult not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:45: warning - Tag @link: reference not found: Observable
+javadoc: warning - Class CheckResult not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class CheckResult not found.
+javadoc: warning - Class CheckResult not found.
+javadoc: warning - Class CheckResult not found.
+javadoc: warning - Class CheckResult not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class CheckResult not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class Nullable not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:45: warning - Tag @link: reference not found: Observable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:15: warning - Tag @link: reference not found: Observable
+javadoc: warning - Class CheckResult not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:15: warning - Tag @link: reference not found: Observable
+javadoc: warning - Class CheckResult not found.
+javadoc: warning - Class CheckResult not found.
+javadoc: warning - Class CheckResult not found.
+javadoc: warning - Class CheckResult not found.
+javadoc: warning - Class CheckResult not found.
+
+56 warnings
+:rxactivityresult:javadocJar
+:rxactivityresult:sourcesJar
+:rxactivityresult:assemble
+:rxactivityresult:lint FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':rxactivityresult:lint'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':rxactivityresult:lint'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:66)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:153)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:150)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:99)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:239)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:212)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getDefaultToolchainVersion(DefaultNdkInfo.java:330)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getToolchainPath(DefaultNdkInfo.java:207)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getCCompiler(DefaultNdkInfo.java:263)
+	at com.android.build.gradle.internal.ndk.NdkHandler.getCCompiler(NdkHandler.java:306)
+	at com.android.build.gradle.internal.model.ModelBuilder.createNativeToolchainModelMap(ModelBuilder.java:240)
+	at com.android.build.gradle.internal.model.ModelBuilder.buildAll(ModelBuilder.java:175)
+	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.java:288)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.java:105)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:228)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:221)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:210)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:621)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:604)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 60 more
+
+
+BUILD FAILED
+
+Total time: 8.619 secs
+
+2018-10-20 19:09:53,120 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-20 19:09:53,120 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-20 19:09:59,608 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-10-20 19:09:59,608 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-10-20 19:09:59,608 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-10-20 19:09:59,608 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-10-20 19:10:06,244 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-10-20 19:10:06,244 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':sample'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':sample'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:79)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:74)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:540)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:93)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:42)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:84)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:75)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$3.run(DefaultGradleLauncher.java:142)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:139)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:99)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:239)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:212)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getDefaultToolchainVersion(DefaultNdkInfo.java:330)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getToolchainPath(DefaultNdkInfo.java:207)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getStripExecutable(DefaultNdkInfo.java:300)
+	at com.android.build.gradle.internal.ndk.NdkHandler.getStripExecutable(NdkHandler.java:333)
+	at com.android.build.gradle.internal.transforms.StripDebugSymbolTransform.<init>(StripDebugSymbolTransform.java:73)
+	at com.android.build.gradle.internal.TaskManager.createStripNativeLibraryTask(TaskManager.java:1339)
+	at com.android.build.gradle.internal.ApplicationTaskManager.createTasksForVariantData(ApplicationTaskManager.java:289)
+	at com.android.build.gradle.internal.VariantManager.createTasksForVariantData(VariantManager.java:485)
+	at com.android.build.gradle.internal.VariantManager$3.call(VariantManager.java:293)
+	at com.android.build.gradle.internal.VariantManager$3.call(VariantManager.java:290)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.internal.profile.SpanRecorders.record(SpanRecorders.java:44)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:286)
+	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:688)
+	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:685)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:683)
+	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:608)
+	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:605)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.BasePlugin.lambda$createTasks$1(BasePlugin.java:603)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:93)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:82)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
+	... 57 more
+
+
+BUILD FAILED
+
+Total time: 6.038 secs
+
+2018-10-20 19:10:06,281 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-20 19:10:06,281 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-20 19:10:13,143 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-10-20 19:10:13,143 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-10-20 19:10:13,143 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-10-20 19:10:13,144 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-10-20 19:10:19,822 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-10-20 19:10:19,823 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':sample'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':sample'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:79)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:74)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:540)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:93)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:47)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:84)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:75)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$3.run(DefaultGradleLauncher.java:142)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:139)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:99)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:239)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:212)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getDefaultToolchainVersion(DefaultNdkInfo.java:330)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getToolchainPath(DefaultNdkInfo.java:207)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getStripExecutable(DefaultNdkInfo.java:300)
+	at com.android.build.gradle.internal.ndk.NdkHandler.getStripExecutable(NdkHandler.java:333)
+	at com.android.build.gradle.internal.transforms.StripDebugSymbolTransform.<init>(StripDebugSymbolTransform.java:73)
+	at com.android.build.gradle.internal.TaskManager.createStripNativeLibraryTask(TaskManager.java:1339)
+	at com.android.build.gradle.internal.ApplicationTaskManager.createTasksForVariantData(ApplicationTaskManager.java:289)
+	at com.android.build.gradle.internal.VariantManager.createTasksForVariantData(VariantManager.java:485)
+	at com.android.build.gradle.internal.VariantManager$3.call(VariantManager.java:293)
+	at com.android.build.gradle.internal.VariantManager$3.call(VariantManager.java:290)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.internal.profile.SpanRecorders.record(SpanRecorders.java:44)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:286)
+	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:688)
+	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:685)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:683)
+	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:608)
+	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:605)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.BasePlugin.lambda$createTasks$1(BasePlugin.java:603)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:93)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:82)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
+	... 57 more
+
+
+BUILD FAILED
+
+Total time: 6.049 secs
+
+2018-10-20 19:10:19,858 ERROR FullProcessService - Project build has not produced APK file
+2018-10-20 19:10:19,888 ERROR FullProcessService - Could not find generated or existed APK file

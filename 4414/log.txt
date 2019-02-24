@@ -1,0 +1,514 @@
+2018-10-19 16:04:02,773 INFO  DownloadService - Downloading "https://github.com/janishar/PlaceHolderView/archive/master.zip", attempt 3
+2018-10-19 16:04:08,851 INFO  DownloadService - Downloading "https://github.com/janishar/PlaceHolderView/archive/master.zip", attempt 2
+2018-10-19 16:04:14,728 INFO  DownloadService - Downloading "https://github.com/janishar/PlaceHolderView/archive/master.zip", attempt 1
+2018-10-19 16:05:14,988 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-10-19 16:05:16,124 INFO  GithubDownloadService - Default branch of this repository: 2.x
+2018-10-19 16:05:16,124 INFO  DownloadService - Downloading "https://github.com/janishar/PlaceHolderView/archive/2.x.zip", attempt 3
+2018-10-19 16:06:18,082 DEBUG FullProcessService - Repository https://github.com/janishar/PlaceHolderView available: true
+2018-10-19 16:06:18,082 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-10-19 16:06:18,082 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/janishar/PlaceHolderView, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src]
+2018-10-19 16:06:21,703 INFO  SysUtils - 
+2018-10-19 16:06:21,715 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/.git": true
+2018-10-19 16:06:21,724 INFO  FullProcessService - Size of directory with sources: 517 KB
+2018-10-19 16:06:21,724 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src]
+2018-10-19 16:06:21,740 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/.git/
+
+2018-10-19 16:06:21,747 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/gradlew
+2018-10-19 16:06:21,754 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/placeholderview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/placeholderview-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/placeholderview-compiler/build.gradle
+2018-10-19 16:06:21,760 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/placeholderview-compiler/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/placeholderview-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/placeholderview/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/placeholderview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/placeholderview-annotations/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/placeholderview-annotations/build.gradle
+2018-10-19 16:06:21,761 INFO  ProjectBuildService - Remote scripts: none
+2018-10-19 16:06:21,761 INFO  ProjectFixService - Fixing project...
+2018-10-19 16:06:21,775 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/app/local.properties
+2018-10-19 16:06:21,776 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-10-19 16:06:21,776 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/placeholderview/local.properties
+2018-10-19 16:06:21,778 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/placeholderview/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-10-19 16:06:21,778 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/local.properties
+2018-10-19 16:06:21,779 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.5.1-all.zip
+2018-10-19 16:06:21,779 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.5.1-bin.zip)
+2018-10-19 16:06:21,780 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-10-19 16:06:21,781 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/placeholderview-annotations/local.properties
+2018-10-19 16:06:21,782 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/placeholderview-annotations/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-10-19 16:06:21,783 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/placeholderview-compiler/local.properties
+2018-10-19 16:06:21,784 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/placeholderview-compiler/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-10-19 16:06:21,784 INFO  ProjectFixService - Project was maybe fixed
+2018-10-19 16:06:21,784 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-19 16:06:21,785 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-19 16:06:45,225 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-10-19 16:06:45,225 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-10-19 16:06:45,226 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-10-19 16:07:58,331 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:placeholderview:preBuild UP-TO-DATE
+:placeholderview:preDebugBuild UP-TO-DATE
+:placeholderview:checkDebugManifest
+:placeholderview:processDebugManifest
+:app:preDebugBuild
+Download https://jcenter.bintray.com/com/mindorks/butterknifelite/0.0.4/butterknifelite-0.0.4.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/recyclerview-v7/27.1.0/recyclerview-v7-27.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/design/27.1.0/design-27.1.0.pom
+Download https://jcenter.bintray.com/com/android/support/support-core-utils/27.1.0/support-core-utils-27.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/transition/27.1.0/transition-27.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-v4/27.1.0/support-v4-27.1.0.pom
+Download https://jcenter.bintray.com/com/android/support/support-compat/27.1.0/support-compat-27.1.0.pom
+Download https://jcenter.bintray.com/com/mindorks/butterknifelite/0.0.4/butterknifelite-0.0.4.aar
+:placeholderview:compileDebugAidl
+Download https://dl.google.com/dl/android/maven2/com/android/support/recyclerview-v7/25.4.0/recyclerview-v7-25.4.0.pom
+:app:compileDebugAidl
+:placeholderview:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:placeholderview:compileDebugRenderscript
+:placeholderview:generateDebugResValues
+:placeholderview:generateDebugResources
+:placeholderview:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:placeholderview:platformAttrExtractor
+:placeholderview:generateDebugBuildConfig
+:placeholderview:prepareLintJar
+:placeholderview-annotations:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+:placeholderview-annotations:processResources NO-SOURCE
+:placeholderview-annotations:classes
+:placeholderview-annotations:jar
+:placeholderview:javaPreCompileDebug
+:placeholderview:processDebugJavaRes NO-SOURCE
+:placeholderview-compiler:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+:placeholderview-compiler:processResources
+:placeholderview-compiler:classes
+:placeholderview-compiler:jar
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:placeholderview:mergeDebugShaders
+:placeholderview:compileDebugShaders
+:placeholderview:generateDebugAssets
+:placeholderview:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:placeholderview:compileDebugNdk NO-SOURCE
+:placeholderview:mergeDebugJniLibFolders
+:placeholderview:transformNativeLibsWithMergeJniLibsForDebug
+:placeholderview:transformNativeLibsWithStripDebugSymbolForDebug
+:placeholderview:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:app:extractProguardFiles
+:placeholderview:preReleaseBuild UP-TO-DATE
+:placeholderview:checkReleaseManifest
+:placeholderview:processReleaseManifest
+:app:preReleaseBuild
+:placeholderview:compileReleaseAidl
+:app:compileReleaseAidl
+:placeholderview:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:placeholderview:compileReleaseRenderscript
+:placeholderview:generateReleaseResValues
+:placeholderview:generateReleaseResources
+:placeholderview:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:placeholderview:generateReleaseBuildConfig
+:placeholderview:javaPreCompileRelease
+:placeholderview:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:placeholderview:mergeReleaseShaders
+:placeholderview:compileReleaseShaders
+:placeholderview:generateReleaseAssets
+:placeholderview:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:processReleaseJavaRes NO-SOURCE
+:placeholderview:mergeReleaseConsumerProguardFiles
+:app:mergeReleaseJniLibFolders
+:placeholderview:compileReleaseNdk NO-SOURCE
+:placeholderview:mergeReleaseJniLibFolders
+:placeholderview:transformNativeLibsWithMergeJniLibsForRelease
+:placeholderview:transformNativeLibsWithStripDebugSymbolForRelease
+:placeholderview:transformNativeLibsWithIntermediateJniLibsForRelease
+:placeholderview:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:placeholderview:generateDebugSources
+:placeholderview:compileDebugJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:placeholderview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:placeholderview:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:placeholderview:generateReleaseSources
+:placeholderview:compileReleaseJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:placeholderview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:transformClassesAndResourcesWithProguardForRelease
+Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
+thread-pool size=4
+ProGuard, version 5.3.3
+Reading input...
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/e1f996af75b447dd201f5a4f5bdec72b/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/butterknifelite-0.0.4.aar/0f7be68eb0bd3c191b4e1a7dd5c10084/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/91b9497186a65853fe2e9916c941b416/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.0.aar/df9e3f9fa8580039139cb325da0abe3d/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.2/3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf/gson-2.8.2.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/bc2c661febc4f14704a535eaa33faec8/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/c09afbf62da459a22dfb9a2bc1472113/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/86fa5b4fc0ec53196cefd1bd29f5e527/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/2f6424d6319d721144d34ef88bee99ed/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/b8e27004d52eebe02df5653b7e3acbe9/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/a72d75846e97aa7e4b9d9fc595c9b73a/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/aca4197762bcb0a00e2d177b81b8a139/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/c93626e9d1fb9a99fd93f61f693d03b7/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/8216c3bfdf496fa22695f7dde7f02b15/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/15f2984d79637c7b66fa20b7c17828c3/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.1.0/39ded76b5e1ce1c5b2688e1d25cdc20ecee32007/support-annotations-27.1.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/899be6fb8f0c8d7a7b8d795e779a00ac/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/c3bd906d814fae0103c5acf77d3fe613/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/307a2c2dea9a92c05d6833d2b719bd54/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.0/edf3f7bfb84a7521d0599efa3b0113a0ee90f85/common-1.1.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/3d3fa501f8146ae91761055be50953b0/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.0/8007981f7d7540d89cd18471b8e5dcd2b4f99167/common-1.1.0.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/placeholderview/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/placeholderview-annotations/build/libs/placeholderview-annotations-1.0.3.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/app/build/intermediates/classes/release] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/optional/org.apache.http.legacy.jar]
+Note: duplicate definition of library class [org.apache.http.params.HttpConnectionParams]
+Note: duplicate definition of library class [org.apache.http.params.CoreConnectionPNames]
+Note: duplicate definition of library class [org.apache.http.params.HttpParams]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.LayeredSocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.SocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.HostNameResolver]
+Note: duplicate definition of library class [org.apache.http.conn.ConnectTimeoutException]
+Note: duplicate definition of library class [android.net.http.SslCertificate]
+Note: duplicate definition of library class [android.net.http.SslCertificate$DName]
+Note: duplicate definition of library class [android.net.http.SslError]
+Note: duplicate definition of library class [android.net.http.HttpResponseCache]
+Note: there were 11 duplicate class definitions.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#duplicateclass)
+Initializing...
+Note: com.google.gson.internal.UnsafeAllocator: can't find dynamically referenced class sun.misc.Unsafe
+Note: the configuration keeps the entry point 'com.mindorks.demo.CardPresenter$DirectionalViewBinder { void bindViews(com.mindorks.demo.CardPresenter,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.CardPresenter$DirectionalViewBinder { void bindClick(com.mindorks.demo.CardPresenter,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.CardPresenter$DirectionalViewBinder { void bindLongClick(com.mindorks.demo.CardPresenter,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.CardPresenter$DirectionalViewBinder { void bindSwipeView(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.CardPresenter$DirectionalViewBinder { void bindSwipingDirection(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.CardPresenter$DirectionalViewBinder { void bindSwipeInDirectional(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.CardPresenter$DirectionalViewBinder { void bindSwipeOutDirectional(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.CardPresenter$SwipeViewBinder { void bindViews(com.mindorks.demo.CardPresenter,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.CardPresenter$SwipeViewBinder { void bindClick(com.mindorks.demo.CardPresenter,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.CardPresenter$SwipeViewBinder { void bindLongClick(com.mindorks.demo.CardPresenter,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.CardPresenter$SwipeViewBinder { void bindSwipeView(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.drawer.DrawerHeader$DirectionalViewBinder { void bindViews(com.mindorks.demo.drawer.DrawerHeader,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.drawer.DrawerHeader$DirectionalViewBinder { void bindClick(com.mindorks.demo.drawer.DrawerHeader,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.drawer.DrawerHeader$DirectionalViewBinder { void bindLongClick(com.mindorks.demo.drawer.DrawerHeader,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.drawer.DrawerHeader$DirectionalViewBinder { void bindSwipeView(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.drawer.DrawerHeader$DirectionalViewBinder { void bindSwipingDirection(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.drawer.DrawerHeader$DirectionalViewBinder { void bindSwipeInDirectional(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.drawer.DrawerHeader$DirectionalViewBinder { void bindSwipeOutDirectional(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.drawer.DrawerHeader$SwipeViewBinder { void bindViews(com.mindorks.demo.drawer.DrawerHeader,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.drawer.DrawerHeader$SwipeViewBinder { void bindClick(com.mindorks.demo.drawer.DrawerHeader,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.drawer.DrawerHeader$SwipeViewBinder { void bindLongClick(com.mindorks.demo.drawer.DrawerHeader,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.drawer.DrawerHeader$SwipeViewBinder { void bindSwipeView(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.drawer.DrawerMenuItem { void setDrawerCallBack(com.mindorks.demo.drawer.DrawerMenuItem$DrawerCallBack); }', but not the descriptor class 'com.mindorks.demo.drawer.DrawerMenuItem$DrawerCallBack'
+Note: the configuration keeps the entry point 'com.mindorks.demo.drawer.DrawerMenuItem$DirectionalViewBinder { void bindViews(com.mindorks.demo.drawer.DrawerMenuItem,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.drawer.DrawerMenuItem$DirectionalViewBinder { void bindClick(com.mindorks.demo.drawer.DrawerMenuItem,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.drawer.DrawerMenuItem$DirectionalViewBinder { void bindLongClick(com.mindorks.demo.drawer.DrawerMenuItem,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.drawer.DrawerMenuItem$DirectionalViewBinder { void bindSwipeView(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.drawer.DrawerMenuItem$DirectionalViewBinder { void bindSwipingDirection(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.drawer.DrawerMenuItem$DirectionalViewBinder { void bindSwipeInDirectional(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.drawer.DrawerMenuItem$DirectionalViewBinder { void bindSwipeOutDirectional(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.drawer.DrawerMenuItem$SwipeViewBinder { void bindViews(com.mindorks.demo.drawer.DrawerMenuItem,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.drawer.DrawerMenuItem$SwipeViewBinder { void bindClick(com.mindorks.demo.drawer.DrawerMenuItem,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.drawer.DrawerMenuItem$SwipeViewBinder { void bindLongClick(com.mindorks.demo.drawer.DrawerMenuItem,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.drawer.DrawerMenuItem$SwipeViewBinder { void bindSwipeView(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.expandable.ChildItem$DirectionalViewBinder { void bindViews(com.mindorks.demo.expandable.ChildItem,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.expandable.ChildItem$DirectionalViewBinder { void bindClick(com.mindorks.demo.expandable.ChildItem,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.expandable.ChildItem$DirectionalViewBinder { void bindLongClick(com.mindorks.demo.expandable.ChildItem,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.expandable.ChildItem$DirectionalViewBinder { void bindSwipeView(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.expandable.ChildItem$DirectionalViewBinder { void bindSwipingDirection(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.expandable.ChildItem$DirectionalViewBinder { void bindSwipeInDirectional(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.expandable.ChildItem$DirectionalViewBinder { void bindSwipeOutDirectional(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.expandable.ChildItem$SwipeViewBinder { void bindViews(com.mindorks.demo.expandable.ChildItem,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.expandable.ChildItem$SwipeViewBinder { void bindClick(com.mindorks.demo.expandable.ChildItem,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.expandable.ChildItem$SwipeViewBinder { void bindLongClick(com.mindorks.demo.expandable.ChildItem,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.expandable.ChildItem$SwipeViewBinder { void bindSwipeView(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.expandable.ParentItem$DirectionalViewBinder { void bindViews(com.mindorks.demo.expandable.ParentItem,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.expandable.ParentItem$DirectionalViewBinder { void bindClick(com.mindorks.demo.expandable.ParentItem,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.expandable.ParentItem$DirectionalViewBinder { void bindLongClick(com.mindorks.demo.expandable.ParentItem,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.expandable.ParentItem$DirectionalViewBinder { void bindSwipeView(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.expandable.ParentItem$DirectionalViewBinder { void bindSwipingDirection(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.expandable.ParentItem$DirectionalViewBinder { void bindSwipeInDirectional(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.expandable.ParentItem$DirectionalViewBinder { void bindSwipeOutDirectional(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.expandable.ParentItem$SwipeViewBinder { void bindViews(com.mindorks.demo.expandable.ParentItem,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.expandable.ParentItem$SwipeViewBinder { void bindClick(com.mindorks.demo.expandable.ParentItem,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.expandable.ParentItem$SwipeViewBinder { void bindLongClick(com.mindorks.demo.expandable.ParentItem,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.expandable.ParentItem$SwipeViewBinder { void bindSwipeView(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.feed.HeadingView$DirectionalViewBinder { void bindViews(com.mindorks.demo.feed.HeadingView,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.feed.HeadingView$DirectionalViewBinder { void bindClick(com.mindorks.demo.feed.HeadingView,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.feed.HeadingView$DirectionalViewBinder { void bindLongClick(com.mindorks.demo.feed.HeadingView,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.feed.HeadingView$DirectionalViewBinder { void bindSwipeView(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.feed.HeadingView$DirectionalViewBinder { void bindSwipingDirection(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.feed.HeadingView$DirectionalViewBinder { void bindSwipeInDirectional(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.feed.HeadingView$DirectionalViewBinder { void bindSwipeOutDirectional(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.feed.HeadingView$SwipeViewBinder { void bindViews(com.mindorks.demo.feed.HeadingView,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.feed.HeadingView$SwipeViewBinder { void bindClick(com.mindorks.demo.feed.HeadingView,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.feed.HeadingView$SwipeViewBinder { void bindLongClick(com.mindorks.demo.feed.HeadingView,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.feed.HeadingView$SwipeViewBinder { void bindSwipeView(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.feed.InfoView { InfoView(android.content.Context,com.mindorks.demo.feed.data.Info); }', but not the descriptor class 'com.mindorks.demo.feed.data.Info'
+Note: the configuration keeps the entry point 'com.mindorks.demo.feed.InfoView$DirectionalViewBinder { void bindViews(com.mindorks.demo.feed.InfoView,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.feed.InfoView$DirectionalViewBinder { void bindClick(com.mindorks.demo.feed.InfoView,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.feed.InfoView$DirectionalViewBinder { void bindLongClick(com.mindorks.demo.feed.InfoView,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.feed.InfoView$DirectionalViewBinder { void bindSwipeView(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.feed.InfoView$DirectionalViewBinder { void bindSwipingDirection(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.feed.InfoView$DirectionalViewBinder { void bindSwipeInDirectional(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.feed.InfoView$DirectionalViewBinder { void bindSwipeOutDirectional(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.feed.InfoView$SwipeViewBinder { void bindViews(com.mindorks.demo.feed.InfoView,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.feed.InfoView$SwipeViewBinder { void bindClick(com.mindorks.demo.feed.InfoView,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.feed.InfoView$SwipeViewBinder { void bindLongClick(com.mindorks.demo.feed.InfoView,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.feed.InfoView$SwipeViewBinder { void bindSwipeView(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.gallery.ImageTypeBig$DirectionalViewBinder { void bindViews(com.mindorks.demo.gallery.ImageTypeBig,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.gallery.ImageTypeBig$DirectionalViewBinder { void bindClick(com.mindorks.demo.gallery.ImageTypeBig,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.gallery.ImageTypeBig$DirectionalViewBinder { void bindLongClick(com.mindorks.demo.gallery.ImageTypeBig,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.gallery.ImageTypeBig$DirectionalViewBinder { void bindSwipeView(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.gallery.ImageTypeBig$DirectionalViewBinder { void bindSwipingDirection(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.gallery.ImageTypeBig$DirectionalViewBinder { void bindSwipeInDirectional(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.gallery.ImageTypeBig$DirectionalViewBinder { void bindSwipeOutDirectional(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.gallery.ImageTypeBig$SwipeViewBinder { void bindViews(com.mindorks.demo.gallery.ImageTypeBig,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.gallery.ImageTypeBig$SwipeViewBinder { void bindClick(com.mindorks.demo.gallery.ImageTypeBig,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.gallery.ImageTypeBig$SwipeViewBinder { void bindLongClick(com.mindorks.demo.gallery.ImageTypeBig,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.gallery.ImageTypeBig$SwipeViewBinder { void bindSwipeView(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.gallery.ImageTypeSmall$DirectionalViewBinder { void bindViews(com.mindorks.demo.gallery.ImageTypeSmall,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.gallery.ImageTypeSmall$DirectionalViewBinder { void bindClick(com.mindorks.demo.gallery.ImageTypeSmall,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.gallery.ImageTypeSmall$DirectionalViewBinder { void bindLongClick(com.mindorks.demo.gallery.ImageTypeSmall,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.gallery.ImageTypeSmall$DirectionalViewBinder { void bindSwipeView(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.gallery.ImageTypeSmall$DirectionalViewBinder { void bindSwipingDirection(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.gallery.ImageTypeSmall$DirectionalViewBinder { void bindSwipeInDirectional(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.gallery.ImageTypeSmall$DirectionalViewBinder { void bindSwipeOutDirectional(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.gallery.ImageTypeSmall$SwipeViewBinder { void bindViews(com.mindorks.demo.gallery.ImageTypeSmall,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.gallery.ImageTypeSmall$SwipeViewBinder { void bindClick(com.mindorks.demo.gallery.ImageTypeSmall,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.gallery.ImageTypeSmall$SwipeViewBinder { void bindLongClick(com.mindorks.demo.gallery.ImageTypeSmall,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.gallery.ImageTypeSmall$SwipeViewBinder { void bindSwipeView(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.gallery.ImageTypeSmallPlaceHolder$DirectionalViewBinder { void bindViews(com.mindorks.demo.gallery.ImageTypeSmallPlaceHolder,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.gallery.ImageTypeSmallPlaceHolder$DirectionalViewBinder { void bindClick(com.mindorks.demo.gallery.ImageTypeSmallPlaceHolder,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.gallery.ImageTypeSmallPlaceHolder$DirectionalViewBinder { void bindLongClick(com.mindorks.demo.gallery.ImageTypeSmallPlaceHolder,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.gallery.ImageTypeSmallPlaceHolder$DirectionalViewBinder { void bindSwipeView(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.gallery.ImageTypeSmallPlaceHolder$DirectionalViewBinder { void bindSwipingDirection(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.gallery.ImageTypeSmallPlaceHolder$DirectionalViewBinder { void bindSwipeInDirectional(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.gallery.ImageTypeSmallPlaceHolder$DirectionalViewBinder { void bindSwipeOutDirectional(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.gallery.ImageTypeSmallPlaceHolder$SwipeViewBinder { void bindViews(com.mindorks.demo.gallery.ImageTypeSmallPlaceHolder,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.gallery.ImageTypeSmallPlaceHolder$SwipeViewBinder { void bindClick(com.mindorks.demo.gallery.ImageTypeSmallPlaceHolder,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.gallery.ImageTypeSmallPlaceHolder$SwipeViewBinder { void bindLongClick(com.mindorks.demo.gallery.ImageTypeSmallPlaceHolder,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.gallery.ImageTypeSmallPlaceHolder$SwipeViewBinder { void bindSwipeView(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.infinite.ItemView { ItemView(android.content.Context,com.mindorks.demo.infinite.InfiniteFeedInfo); }', but not the descriptor class 'com.mindorks.demo.infinite.InfiniteFeedInfo'
+Note: the configuration keeps the entry point 'com.mindorks.demo.infinite.ItemView$DirectionalViewBinder { void bindViews(com.mindorks.demo.infinite.ItemView,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.infinite.ItemView$DirectionalViewBinder { void bindClick(com.mindorks.demo.infinite.ItemView,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.infinite.ItemView$DirectionalViewBinder { void bindLongClick(com.mindorks.demo.infinite.ItemView,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.infinite.ItemView$DirectionalViewBinder { void bindSwipeView(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.infinite.ItemView$DirectionalViewBinder { void bindSwipingDirection(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.infinite.ItemView$DirectionalViewBinder { void bindSwipeInDirectional(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.infinite.ItemView$DirectionalViewBinder { void bindSwipeOutDirectional(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.infinite.ItemView$SwipeViewBinder { void bindViews(com.mindorks.demo.infinite.ItemView,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.infinite.ItemView$SwipeViewBinder { void bindClick(com.mindorks.demo.infinite.ItemView,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.infinite.ItemView$SwipeViewBinder { void bindLongClick(com.mindorks.demo.infinite.ItemView,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.infinite.ItemView$SwipeViewBinder { void bindSwipeView(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.infinite.LoadMoreView$DirectionalViewBinder { void bindViews(com.mindorks.demo.infinite.LoadMoreView,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.infinite.LoadMoreView$DirectionalViewBinder { void bindClick(com.mindorks.demo.infinite.LoadMoreView,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.infinite.LoadMoreView$DirectionalViewBinder { void bindLongClick(com.mindorks.demo.infinite.LoadMoreView,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.infinite.LoadMoreView$DirectionalViewBinder { void bindSwipeView(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.infinite.LoadMoreView$DirectionalViewBinder { void bindSwipingDirection(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.infinite.LoadMoreView$DirectionalViewBinder { void bindSwipeInDirectional(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.infinite.LoadMoreView$DirectionalViewBinder { void bindSwipeOutDirectional(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.infinite.LoadMoreView$SwipeViewBinder { void bindViews(com.mindorks.demo.infinite.LoadMoreView,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.infinite.LoadMoreView$SwipeViewBinder { void bindClick(com.mindorks.demo.infinite.LoadMoreView,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.infinite.LoadMoreView$SwipeViewBinder { void bindLongClick(com.mindorks.demo.infinite.LoadMoreView,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.infinite.LoadMoreView$SwipeViewBinder { void bindSwipeView(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.SwipeCard$DirectionalViewBinder { void bindViews(com.mindorks.demo.swipe.SwipeCard,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.SwipeCard$DirectionalViewBinder { void bindClick(com.mindorks.demo.swipe.SwipeCard,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.SwipeCard$DirectionalViewBinder { void bindLongClick(com.mindorks.demo.swipe.SwipeCard,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.SwipeCard$DirectionalViewBinder { void bindSwipeView(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.SwipeCard$DirectionalViewBinder { void bindSwipingDirection(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.SwipeCard$DirectionalViewBinder { void bindSwipeInDirectional(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.SwipeCard$DirectionalViewBinder { void bindSwipeOutDirectional(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.SwipeCard$SwipeViewBinder { void bindViews(com.mindorks.demo.swipe.SwipeCard,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.SwipeCard$SwipeViewBinder { void bindClick(com.mindorks.demo.swipe.SwipeCard,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.SwipeCard$SwipeViewBinder { void bindLongClick(com.mindorks.demo.swipe.SwipeCard,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.SwipeCard$SwipeViewBinder { void bindSwipeView(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.TinderCard$DirectionalViewBinder { void bindViews(com.mindorks.demo.swipe.TinderCard,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.TinderCard$DirectionalViewBinder { void bindClick(com.mindorks.demo.swipe.TinderCard,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.TinderCard$DirectionalViewBinder { void bindLongClick(com.mindorks.demo.swipe.TinderCard,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.TinderCard$DirectionalViewBinder { void bindSwipeView(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.TinderCard$DirectionalViewBinder { void bindSwipingDirection(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.TinderCard$DirectionalViewBinder { void bindSwipeInDirectional(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.TinderCard$DirectionalViewBinder { void bindSwipeOutDirectional(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.TinderCard$SwipeViewBinder { void bindViews(com.mindorks.demo.swipe.TinderCard,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.TinderCard$SwipeViewBinder { void bindClick(com.mindorks.demo.swipe.TinderCard,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.TinderCard$SwipeViewBinder { void bindLongClick(com.mindorks.demo.swipe.TinderCard,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.TinderCard$SwipeViewBinder { void bindSwipeView(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.TinderCard2 { TinderCard2(com.mindorks.demo.swipe.TinderCard2$CardCallback); }', but not the descriptor class 'com.mindorks.demo.swipe.TinderCard2$CardCallback'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.TinderCard2$DirectionalViewBinder { void bindViews(com.mindorks.demo.swipe.TinderCard2,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.TinderCard2$DirectionalViewBinder { void bindClick(com.mindorks.demo.swipe.TinderCard2,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.TinderCard2$DirectionalViewBinder { void bindLongClick(com.mindorks.demo.swipe.TinderCard2,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.TinderCard2$DirectionalViewBinder { void bindSwipeView(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.TinderCard2$DirectionalViewBinder { void bindSwipingDirection(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.TinderCard2$DirectionalViewBinder { void bindSwipeInDirectional(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.TinderCard2$DirectionalViewBinder { void bindSwipeOutDirectional(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.TinderCard2$SwipeViewBinder { void bindViews(com.mindorks.demo.swipe.TinderCard2,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.TinderCard2$SwipeViewBinder { void bindClick(com.mindorks.demo.swipe.TinderCard2,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.TinderCard2$SwipeViewBinder { void bindLongClick(com.mindorks.demo.swipe.TinderCard2,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.TinderCard2$SwipeViewBinder { void bindSwipeView(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.TinderDirectionalCard { void onSwipeOutDirectional(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.TinderDirectionalCard { void onSwipeInDirectional(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.TinderDirectionalCard { void onSwipingDirection(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.TinderDirectionalCard$DirectionalViewBinder { void bindViews(com.mindorks.demo.swipe.TinderDirectionalCard,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.TinderDirectionalCard$DirectionalViewBinder { void bindClick(com.mindorks.demo.swipe.TinderDirectionalCard,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.TinderDirectionalCard$DirectionalViewBinder { void bindLongClick(com.mindorks.demo.swipe.TinderDirectionalCard,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.TinderDirectionalCard$DirectionalViewBinder { void bindSwipeView(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.TinderDirectionalCard$DirectionalViewBinder { void bindSwipingDirection(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.TinderDirectionalCard$DirectionalViewBinder { void bindSwipeInDirectional(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.TinderDirectionalCard$DirectionalViewBinder { void bindSwipeOutDirectional(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.TinderDirectionalCard$SwipeViewBinder { void bindViews(com.mindorks.demo.swipe.TinderDirectionalCard,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.TinderDirectionalCard$SwipeViewBinder { void bindClick(com.mindorks.demo.swipe.TinderDirectionalCard,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.TinderDirectionalCard$SwipeViewBinder { void bindLongClick(com.mindorks.demo.swipe.TinderDirectionalCard,com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.demo.swipe.TinderDirectionalCard$SwipeViewBinder { void bindSwipeView(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.placeholderview.ExpandableViewBinder { void setCallback(com.mindorks.placeholderview.ExpandableViewBinder$ExpansionCallback); }', but not the descriptor class 'com.mindorks.placeholderview.ExpandableViewBinder$ExpansionCallback'
+Note: the configuration keeps the entry point 'com.mindorks.placeholderview.ExpandableViewBinder { void setParentViewBinder(com.mindorks.placeholderview.ExpandableViewBinder); }', but not the descriptor class 'com.mindorks.placeholderview.ExpandableViewBinder'
+Note: the configuration keeps the entry point 'com.mindorks.placeholderview.SwipeDirectionalViewBinder { void setDefaultTouchListener(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.placeholderview.SwipeDirectionalViewBinder { void bindSwipingDirection(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.placeholderview.SwipeDirectionalViewBinder { void bindSwipeInDirectional(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.placeholderview.SwipeDirectionalViewBinder { void bindSwipeOutDirectional(com.mindorks.placeholderview.SwipeDirection); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirection'
+Note: the configuration keeps the entry point 'com.mindorks.placeholderview.SwipeDirectionalViewBinder { int access$000(com.mindorks.placeholderview.SwipeDirectionalViewBinder); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirectionalViewBinder'
+Note: the configuration keeps the entry point 'com.mindorks.placeholderview.SwipeDirectionalViewBinder { int access$100(com.mindorks.placeholderview.SwipeDirectionalViewBinder); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirectionalViewBinder'
+Note: the configuration keeps the entry point 'com.mindorks.placeholderview.SwipeDirectionalViewBinder { boolean access$200(com.mindorks.placeholderview.SwipeDirectionalViewBinder); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirectionalViewBinder'
+Note: the configuration keeps the entry point 'com.mindorks.placeholderview.SwipeDirectionalViewBinder { boolean access$202(com.mindorks.placeholderview.SwipeDirectionalViewBinder,boolean); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirectionalViewBinder'
+Note: the configuration keeps the entry point 'com.mindorks.placeholderview.SwipeDirectionalViewBinder { void access$300(com.mindorks.placeholderview.SwipeDirectionalViewBinder,float,float,float,float); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDirectionalViewBinder'
+Note: the configuration keeps the entry point 'com.mindorks.placeholderview.SwipePlaceHolderView { void setSwipeDecor(com.mindorks.placeholderview.SwipeDecor); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDecor'
+Note: the configuration keeps the entry point 'com.mindorks.placeholderview.SwipeViewBinder { void bindView(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView,int,int,com.mindorks.placeholderview.SwipeDecor,com.mindorks.placeholderview.SwipePlaceHolderView$SwipeOption,com.mindorks.placeholderview.SwipeViewBinder$SwipeCallback); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.placeholderview.SwipeViewBinder { void bindView(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView,int,int,com.mindorks.placeholderview.SwipeDecor,com.mindorks.placeholderview.SwipePlaceHolderView$SwipeOption,com.mindorks.placeholderview.SwipeViewBinder$SwipeCallback); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDecor'
+Note: the configuration keeps the entry point 'com.mindorks.placeholderview.SwipeViewBinder { void bindView(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView,int,int,com.mindorks.placeholderview.SwipeDecor,com.mindorks.placeholderview.SwipePlaceHolderView$SwipeOption,com.mindorks.placeholderview.SwipeViewBinder$SwipeCallback); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$SwipeOption'
+Note: the configuration keeps the entry point 'com.mindorks.placeholderview.SwipeViewBinder { void bindView(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView,int,int,com.mindorks.placeholderview.SwipeDecor,com.mindorks.placeholderview.SwipePlaceHolderView$SwipeOption,com.mindorks.placeholderview.SwipeViewBinder$SwipeCallback); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeViewBinder$SwipeCallback'
+Note: the configuration keeps the entry point 'com.mindorks.placeholderview.SwipeViewBinder { void setDefaultTouchListener(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.placeholderview.SwipeViewBinder { void setHorizontalTouchListener(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.placeholderview.SwipeViewBinder { void setVerticalTouchListener(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.placeholderview.SwipeViewBinder { void bindSwipeView(com.mindorks.placeholderview.SwipePlaceHolderView$FrameView); }', but not the descriptor class 'com.mindorks.placeholderview.SwipePlaceHolderView$FrameView'
+Note: the configuration keeps the entry point 'com.mindorks.placeholderview.SwipeViewBinder { com.mindorks.placeholderview.SwipePlaceHolderView$SwipeOption access$000(com.mindorks.placeholderview.SwipeViewBinder); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeViewBinder'
+Note: the configuration keeps the entry point 'com.mindorks.placeholderview.SwipeViewBinder { android.animation.Animator$AnimatorListener access$100(com.mindorks.placeholderview.SwipeViewBinder); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeViewBinder'
+Note: the configuration keeps the entry point 'com.mindorks.placeholderview.SwipeViewBinder { com.mindorks.placeholderview.SwipeDecor access$200(com.mindorks.placeholderview.SwipeViewBinder); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeViewBinder'
+Note: the configuration keeps the entry point 'com.mindorks.placeholderview.SwipeViewBinder { float access$300(com.mindorks.placeholderview.SwipeViewBinder); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeViewBinder'
+Note: the configuration keeps the entry point 'com.mindorks.placeholderview.SwipeViewBinder { float access$400(com.mindorks.placeholderview.SwipeViewBinder); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeViewBinder'
+Note: the configuration keeps the entry point 'com.mindorks.placeholderview.SwipeViewBinder { com.mindorks.placeholderview.SwipePlaceHolderView$FrameView access$500(com.mindorks.placeholderview.SwipeViewBinder); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeViewBinder'
+Note: the configuration keeps the entry point 'com.mindorks.placeholderview.SwipeViewBinder { com.mindorks.placeholderview.SwipeViewBinder$SwipeCallback access$600(com.mindorks.placeholderview.SwipeViewBinder); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeViewBinder'
+Note: the configuration keeps the entry point 'com.mindorks.placeholderview.SwipeViewBinder { int access$700(com.mindorks.placeholderview.SwipeViewBinder); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeViewBinder'
+Note: the configuration keeps the entry point 'com.mindorks.placeholderview.SwipeViewBinder { int access$800(com.mindorks.placeholderview.SwipeViewBinder); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeViewBinder'
+Note: the configuration keeps the entry point 'com.mindorks.placeholderview.SwipeViewBinder { int access$900(com.mindorks.placeholderview.SwipeViewBinder); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeViewBinder'
+Note: the configuration keeps the entry point 'com.mindorks.placeholderview.SwipeViewBinder { boolean access$1000(com.mindorks.placeholderview.SwipeViewBinder); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeViewBinder'
+Note: the configuration keeps the entry point 'com.mindorks.placeholderview.SwipeViewBinder { boolean access$1002(com.mindorks.placeholderview.SwipeViewBinder,boolean); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeViewBinder'
+Note: the configuration keeps the entry point 'com.mindorks.placeholderview.SwipeViewBinder { android.animation.Animator$AnimatorListener access$1100(com.mindorks.placeholderview.SwipeViewBinder); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeViewBinder'
+Note: the configuration keeps the entry point 'com.mindorks.placeholderview.ViewBinder { void setAnimationResolver(com.mindorks.placeholderview.AnimationResolver); }', but not the descriptor class 'com.mindorks.placeholderview.AnimationResolver'
+Note: the configuration keeps the entry point 'com.mindorks.placeholderview.widget.RecyclableEditText { void setTextChangedListener(com.mindorks.placeholderview.widget.RecyclableEditText$OnTextChangeListener); }', but not the descriptor class 'com.mindorks.placeholderview.widget.RecyclableEditText$OnTextChangeListener'
+Note: there were 218 unkept descriptor classes in kept class members.
+      You should consider explicitly keeping the mentioned classes
+      (using '-keep').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#descriptorclass)
+Note: there were 1 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Ignoring unused library classes...
+  Original number of library classes: 4610
+  Final number of library classes:    1177
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/app/build/outputs/mapping/release/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 2962
+  Final number of program classes:    1590
+Inlining subroutines...
+Obfuscating...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/app/build/outputs/mapping/release/mapping.txt]...
+Preverifying...
+Writing output...
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/app/build/intermediates/transforms/proguard/release/0.jar]
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/e1f996af75b447dd201f5a4f5bdec72b/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/butterknifelite-0.0.4.aar/0f7be68eb0bd3c191b4e1a7dd5c10084/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/91b9497186a65853fe2e9916c941b416/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.0.aar/df9e3f9fa8580039139cb325da0abe3d/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.2/3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf/gson-2.8.2.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/bc2c661febc4f14704a535eaa33faec8/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/c09afbf62da459a22dfb9a2bc1472113/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/86fa5b4fc0ec53196cefd1bd29f5e527/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/2f6424d6319d721144d34ef88bee99ed/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/b8e27004d52eebe02df5653b7e3acbe9/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/a72d75846e97aa7e4b9d9fc595c9b73a/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/aca4197762bcb0a00e2d177b81b8a139/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/c93626e9d1fb9a99fd93f61f693d03b7/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/8216c3bfdf496fa22695f7dde7f02b15/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/15f2984d79637c7b66fa20b7c17828c3/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.1.0/39ded76b5e1ce1c5b2688e1d25cdc20ecee32007/support-annotations-27.1.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/899be6fb8f0c8d7a7b8d795e779a00ac/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/c3bd906d814fae0103c5acf77d3fe613/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/307a2c2dea9a92c05d6833d2b719bd54/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.0/edf3f7bfb84a7521d0599efa3b0113a0ee90f85/common-1.1.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/3d3fa501f8146ae91761055be50953b0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.0/8007981f7d7540d89cd18471b8e5dcd2b4f99167/common-1.1.0.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/placeholderview/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/placeholderview-annotations/build/libs/placeholderview-annotations-1.0.3.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/app/build/intermediates/classes/release] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Printing classes to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/app/build/outputs/mapping/release/dump.txt]...
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 1m 12s
+98 actionable tasks: 98 executed
+
+2018-10-19 16:07:58,421 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/app/build/outputs/apk/debug/app-debug.apk

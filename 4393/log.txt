@@ -1,0 +1,234 @@
+2018-12-16 20:00:17,243 INFO  DownloadService - Downloading "https://github.com/ligi/SnackEngage/archive/master.zip", attempt 3
+2018-12-16 20:00:19,261 INFO  DownloadService - Downloaded https://github.com/ligi/SnackEngage/archive/master.zip, attempt 3
+2018-12-16 20:00:19,261 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965217233-0/master.zip": 307 KB
+2018-12-16 20:00:19,261 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-12-16 20:00:19,267 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965217233-0/master.zip: true
+2018-12-16 20:00:19,267 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965217233-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965217233-0/src'.
+2018-12-16 20:00:19,300 INFO  FullProcessService - Size of directory with sources: 382 KB
+2018-12-16 20:00:19,300 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965217233-0/src]
+2018-12-16 20:00:19,317 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965217233-0/src/.git/
+
+2018-12-16 20:00:19,322 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965217233-0/src/SnackEngage-master/gradlew
+2018-12-16 20:00:19,327 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965217233-0/src/SnackEngage-master/demo_app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965217233-0/src/SnackEngage-master/snackengage-amazonrate/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965217233-0/src/SnackEngage-master/snackengage-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965217233-0/src/SnackEngage-master/snackengage-playrate/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965217233-0/src/SnackEngage-master/build.gradle
+2018-12-16 20:00:19,332 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965217233-0/src/SnackEngage-master/snackengage-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965217233-0/src/SnackEngage-master/snackengage-playrate/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965217233-0/src/SnackEngage-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965217233-0/src/SnackEngage-master/snackengage-amazonrate/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965217233-0/src/SnackEngage-master/demo_app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965217233-0/src/SnackEngage-master/settings.gradle
+2018-12-16 20:00:19,332 INFO  ProjectBuildService - Remote scripts: none
+2018-12-16 20:00:19,333 INFO  ProjectFixService - Fixing project...
+2018-12-16 20:00:19,344 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965217233-0/src/SnackEngage-master/demo_app/local.properties
+2018-12-16 20:00:19,344 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965217233-0/src/SnackEngage-master/demo_app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-12-16 20:00:19,345 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965217233-0/src/SnackEngage-master/snackengage-amazonrate/local.properties
+2018-12-16 20:00:19,345 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965217233-0/src/SnackEngage-master/snackengage-amazonrate/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-12-16 20:00:19,346 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965217233-0/src/SnackEngage-master/snackengage-core/local.properties
+2018-12-16 20:00:19,346 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965217233-0/src/SnackEngage-master/snackengage-core/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-12-16 20:00:19,347 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965217233-0/src/SnackEngage-master/snackengage-playrate/local.properties
+2018-12-16 20:00:19,348 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965217233-0/src/SnackEngage-master/snackengage-playrate/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-12-16 20:00:19,348 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965217233-0/src/SnackEngage-master/local.properties
+2018-12-16 20:00:19,349 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.3-all.zip
+2018-12-16 20:00:19,349 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.3-bin.zip)
+2018-12-16 20:00:19,350 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965217233-0/src/SnackEngage-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-12-16 20:00:19,350 INFO  ProjectFixService - Project was maybe fixed
+2018-12-16 20:00:19,350 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-16 20:00:19,350 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965217233-0/src/SnackEngage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965217233-0/src/SnackEngage-master/demo_app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-16 20:00:26,802 INFO  ProjectTaskService - Detected possible tasks: 71
+2018-12-16 20:00:26,802 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-12-16 20:00:26,802 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965217233-0/src/SnackEngage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965217233-0/src/SnackEngage-master/demo_app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-12-16 20:00:48,527 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :demo_app
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+
+> Configure project :snackengage-playrate
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+
+> Configure project :snackengage-core
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+
+> Task :demo_app:checkDebugClasspath
+> Task :demo_app:preBuild UP-TO-DATE
+> Task :snackengage-core:preBuild UP-TO-DATE
+> Task :snackengage-core:preDebugBuild UP-TO-DATE
+> Task :snackengage-core:checkDebugManifest
+> Task :snackengage-core:processDebugManifest
+> Task :snackengage-playrate:preBuild UP-TO-DATE
+> Task :snackengage-playrate:preDebugBuild UP-TO-DATE
+> Task :snackengage-playrate:checkDebugManifest
+> Task :snackengage-playrate:processDebugManifest
+> Task :demo_app:preDebugBuild
+> Task :snackengage-core:compileDebugAidl NO-SOURCE
+> Task :snackengage-playrate:compileDebugAidl NO-SOURCE
+> Task :demo_app:compileDebugAidl NO-SOURCE
+> Task :snackengage-core:packageDebugRenderscript NO-SOURCE
+> Task :snackengage-playrate:packageDebugRenderscript NO-SOURCE
+> Task :demo_app:compileDebugRenderscript
+> Task :demo_app:checkDebugManifest
+> Task :demo_app:generateDebugBuildConfig
+> Task :demo_app:prepareLintJar
+> Task :demo_app:mainApkListPersistenceDebug
+> Task :demo_app:generateDebugResValues
+> Task :demo_app:generateDebugResources
+> Task :snackengage-core:compileDebugRenderscript
+> Task :snackengage-core:generateDebugResValues
+> Task :snackengage-core:generateDebugResources
+> Task :snackengage-core:packageDebugResources
+> Task :snackengage-playrate:compileDebugRenderscript
+> Task :snackengage-playrate:generateDebugResValues
+> Task :snackengage-playrate:generateDebugResources
+> Task :snackengage-playrate:packageDebugResources
+> Task :demo_app:mergeDebugResources
+> Task :demo_app:createDebugCompatibleScreenManifests
+> Task :demo_app:processDebugManifest
+> Task :demo_app:splitsDiscoveryTaskDebug
+> Task :snackengage-core:generateDebugRFile
+> Task :snackengage-playrate:generateDebugRFile
+> Task :demo_app:processDebugResources
+> Task :demo_app:generateDebugSources
+> Task :snackengage-core:generateDebugBuildConfig
+> Task :snackengage-core:prepareLintJar
+> Task :snackengage-core:generateDebugSources
+> Task :snackengage-core:javaPreCompileDebug
+> Task :snackengage-core:compileDebugJavaWithJavac
+> Task :snackengage-core:processDebugJavaRes NO-SOURCE
+> Task :snackengage-core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :snackengage-playrate:generateDebugBuildConfig
+> Task :snackengage-playrate:prepareLintJar
+> Task :snackengage-playrate:generateDebugSources
+> Task :snackengage-playrate:javaPreCompileDebug
+> Task :snackengage-playrate:compileDebugJavaWithJavac
+> Task :snackengage-playrate:processDebugJavaRes NO-SOURCE
+> Task :snackengage-playrate:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :demo_app:javaPreCompileDebug
+> Task :demo_app:compileDebugJavaWithJavac
+> Task :demo_app:compileDebugNdk NO-SOURCE
+> Task :demo_app:compileDebugSources
+> Task :demo_app:mergeDebugShaders
+> Task :demo_app:compileDebugShaders
+> Task :demo_app:generateDebugAssets
+> Task :snackengage-core:mergeDebugShaders
+> Task :snackengage-core:compileDebugShaders
+> Task :snackengage-core:generateDebugAssets
+> Task :snackengage-core:packageDebugAssets
+> Task :snackengage-playrate:mergeDebugShaders
+> Task :snackengage-playrate:compileDebugShaders
+> Task :snackengage-playrate:generateDebugAssets
+> Task :snackengage-playrate:packageDebugAssets
+> Task :demo_app:mergeDebugAssets
+> Task :demo_app:transformClassesWithDexBuilderForDebug
+> Task :demo_app:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :demo_app:transformDexArchiveWithDexMergerForDebug
+> Task :demo_app:mergeDebugJniLibFolders
+> Task :snackengage-core:compileDebugNdk NO-SOURCE
+> Task :snackengage-core:mergeDebugJniLibFolders
+> Task :snackengage-core:transformNativeLibsWithMergeJniLibsForDebug
+> Task :snackengage-core:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :snackengage-core:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :snackengage-playrate:compileDebugNdk NO-SOURCE
+> Task :snackengage-playrate:mergeDebugJniLibFolders
+> Task :snackengage-playrate:transformNativeLibsWithMergeJniLibsForDebug
+> Task :snackengage-playrate:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :snackengage-playrate:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :demo_app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :demo_app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :demo_app:checkDebugLibraries
+> Task :demo_app:processDebugJavaRes NO-SOURCE
+> Task :demo_app:transformResourcesWithMergeJavaResForDebug
+> Task :demo_app:validateSigningDebug
+> Task :demo_app:packageDebug
+> Task :demo_app:assembleDebug
+> Task :demo_app:checkReleaseClasspath
+> Task :snackengage-core:preReleaseBuild UP-TO-DATE
+> Task :snackengage-core:checkReleaseManifest
+> Task :snackengage-core:processReleaseManifest
+> Task :snackengage-playrate:preReleaseBuild UP-TO-DATE
+> Task :snackengage-playrate:checkReleaseManifest
+> Task :snackengage-playrate:processReleaseManifest
+> Task :demo_app:preReleaseBuild
+> Task :snackengage-core:compileReleaseAidl NO-SOURCE
+> Task :snackengage-playrate:compileReleaseAidl NO-SOURCE
+> Task :demo_app:compileReleaseAidl NO-SOURCE
+> Task :snackengage-core:packageReleaseRenderscript NO-SOURCE
+> Task :snackengage-playrate:packageReleaseRenderscript NO-SOURCE
+> Task :demo_app:compileReleaseRenderscript
+> Task :demo_app:checkReleaseManifest
+> Task :demo_app:generateReleaseBuildConfig
+> Task :demo_app:mainApkListPersistenceRelease
+> Task :demo_app:generateReleaseResValues
+> Task :demo_app:generateReleaseResources
+> Task :snackengage-core:compileReleaseRenderscript
+> Task :snackengage-core:generateReleaseResValues
+> Task :snackengage-core:generateReleaseResources
+> Task :snackengage-core:packageReleaseResources
+> Task :snackengage-playrate:compileReleaseRenderscript
+> Task :snackengage-playrate:generateReleaseResValues
+> Task :snackengage-playrate:generateReleaseResources
+> Task :snackengage-playrate:packageReleaseResources
+> Task :demo_app:mergeReleaseResources
+> Task :demo_app:createReleaseCompatibleScreenManifests
+> Task :demo_app:processReleaseManifest
+> Task :demo_app:splitsDiscoveryTaskRelease
+> Task :snackengage-core:generateReleaseRFile
+> Task :snackengage-playrate:generateReleaseRFile
+> Task :demo_app:processReleaseResources
+> Task :demo_app:generateReleaseSources
+> Task :snackengage-core:generateReleaseBuildConfig
+> Task :snackengage-core:generateReleaseSources
+> Task :snackengage-core:javaPreCompileRelease
+> Task :snackengage-core:compileReleaseJavaWithJavac
+> Task :snackengage-core:processReleaseJavaRes NO-SOURCE
+> Task :snackengage-core:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :snackengage-playrate:generateReleaseBuildConfig
+> Task :snackengage-playrate:generateReleaseSources
+> Task :snackengage-playrate:javaPreCompileRelease
+> Task :snackengage-playrate:compileReleaseJavaWithJavac
+> Task :snackengage-playrate:processReleaseJavaRes NO-SOURCE
+> Task :snackengage-playrate:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :demo_app:javaPreCompileRelease
+> Task :demo_app:compileReleaseJavaWithJavac
+> Task :demo_app:compileReleaseNdk NO-SOURCE
+> Task :demo_app:compileReleaseSources
+> Task :demo_app:lintVitalRelease
+> Task :demo_app:mergeReleaseShaders
+> Task :demo_app:compileReleaseShaders
+> Task :demo_app:generateReleaseAssets
+> Task :snackengage-core:mergeReleaseShaders
+> Task :snackengage-core:compileReleaseShaders
+> Task :snackengage-core:generateReleaseAssets
+> Task :snackengage-core:packageReleaseAssets
+> Task :snackengage-playrate:mergeReleaseShaders
+> Task :snackengage-playrate:compileReleaseShaders
+> Task :snackengage-playrate:generateReleaseAssets
+> Task :snackengage-playrate:packageReleaseAssets
+> Task :demo_app:mergeReleaseAssets
+> Task :demo_app:transformClassesWithDexBuilderForRelease
+> Task :demo_app:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :demo_app:transformDexArchiveWithDexMergerForRelease
+> Task :demo_app:mergeReleaseJniLibFolders
+> Task :snackengage-core:compileReleaseNdk NO-SOURCE
+> Task :snackengage-core:mergeReleaseJniLibFolders
+> Task :snackengage-core:transformNativeLibsWithMergeJniLibsForRelease
+> Task :snackengage-core:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :snackengage-core:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :snackengage-playrate:compileReleaseNdk NO-SOURCE
+> Task :snackengage-playrate:mergeReleaseJniLibFolders
+> Task :snackengage-playrate:transformNativeLibsWithMergeJniLibsForRelease
+> Task :snackengage-playrate:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :snackengage-playrate:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :demo_app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :demo_app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :demo_app:checkReleaseLibraries
+> Task :demo_app:processReleaseJavaRes NO-SOURCE
+> Task :demo_app:transformResourcesWithMergeJavaResForRelease
+> Task :demo_app:packageRelease
+> Task :demo_app:assembleRelease
+> Task :demo_app:assemble
+> Task :demo_app:build
+
+BUILD SUCCESSFUL in 21s
+125 actionable tasks: 125 executed
+
+2018-12-16 20:00:48,626 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965217233-0/src/SnackEngage-master/demo_app/build/outputs/apk/release/demo_app-release-unsigned.apk

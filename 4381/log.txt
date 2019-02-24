@@ -1,0 +1,162 @@
+2019-01-02 18:03:39,508 INFO  DownloadService - Downloading "https://github.com/kingsammalik/SamLocationAndGeocoding/archive/master.zip", attempt 3
+2019-01-02 18:04:40,395 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-01-02 18:04:41,298 INFO  GithubDownloadService - Default branch of this repository: master
+2019-01-02 18:04:41,298 INFO  DownloadService - Downloading "https://github.com/kingsammalik/SamLocationAndGeocoding/archive/master.zip", attempt 3
+2019-01-02 18:05:42,588 DEBUG FullProcessService - Repository https://github.com/kingsammalik/SamLocationAndGeocoding available: true
+2019-01-02 18:05:42,588 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-01-02 18:05:42,588 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/kingsammalik/SamLocationAndGeocoding, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427019500-0/src]
+2019-01-02 18:05:44,542 INFO  SysUtils - 
+2019-01-02 18:05:44,551 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427019500-0/src/.git": true
+2019-01-02 18:05:44,554 INFO  FullProcessService - Size of directory with sources: 118 KB
+2019-01-02 18:05:44,554 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427019500-0/src]
+2019-01-02 18:05:44,571 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427019500-0/src/.git/
+
+2019-01-02 18:05:44,575 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427019500-0/src/gradlew
+2019-01-02 18:05:44,578 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427019500-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427019500-0/src/samlocationandgeocoding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427019500-0/src/build.gradle
+2019-01-02 18:05:44,582 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427019500-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427019500-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427019500-0/src/samlocationandgeocoding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427019500-0/src/settings.gradle
+2019-01-02 18:05:44,583 INFO  ProjectBuildService - Remote scripts: none
+2019-01-02 18:05:44,583 INFO  ProjectFixService - Fixing project...
+2019-01-02 18:05:44,591 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427019500-0/src/app/local.properties
+2019-01-02 18:05:44,592 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427019500-0/src/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-01-02 18:05:44,592 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427019500-0/src/samlocationandgeocoding/local.properties
+2019-01-02 18:05:44,593 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427019500-0/src/samlocationandgeocoding/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-01-02 18:05:44,594 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427019500-0/src/local.properties
+2019-01-02 18:05:44,594 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-01-02 18:05:44,594 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-01-02 18:05:44,595 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427019500-0/src/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-01-02 18:05:44,595 INFO  ProjectFixService - Project was maybe fixed
+2019-01-02 18:05:44,595 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-02 18:05:44,595 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427019500-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427019500-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-02 18:05:52,585 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-01-02 18:05:52,585 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-02 18:05:52,585 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427019500-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427019500-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-02 18:06:31,059 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:samlocationandgeocoding:preBuild UP-TO-DATE
+:samlocationandgeocoding:preDebugBuild UP-TO-DATE
+:samlocationandgeocoding:checkDebugManifest
+:samlocationandgeocoding:processDebugManifest
+:app:preDebugBuild
+Download https://jcenter.bintray.com/com/karumi/dexter/4.2.0/dexter-4.2.0.aar
+:samlocationandgeocoding:compileDebugAidl
+:app:compileDebugAidl
+:samlocationandgeocoding:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:samlocationandgeocoding:compileDebugRenderscript
+:samlocationandgeocoding:generateDebugResValues
+:samlocationandgeocoding:generateDebugResources
+:samlocationandgeocoding:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:samlocationandgeocoding:platformAttrExtractor
+:samlocationandgeocoding:generateDebugBuildConfig
+:samlocationandgeocoding:prepareLintJar
+:samlocationandgeocoding:javaPreCompileDebug
+:samlocationandgeocoding:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:samlocationandgeocoding:mergeDebugShaders
+:samlocationandgeocoding:compileDebugShaders
+:samlocationandgeocoding:generateDebugAssets
+:samlocationandgeocoding:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:samlocationandgeocoding:compileDebugNdk NO-SOURCE
+:samlocationandgeocoding:mergeDebugJniLibFolders
+:samlocationandgeocoding:transformNativeLibsWithMergeJniLibsForDebug
+:samlocationandgeocoding:transformNativeLibsWithStripDebugSymbolForDebug
+:samlocationandgeocoding:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:samlocationandgeocoding:preReleaseBuild UP-TO-DATE
+:samlocationandgeocoding:checkReleaseManifest
+:samlocationandgeocoding:processReleaseManifest
+:app:preReleaseBuild
+:samlocationandgeocoding:compileReleaseAidl
+:app:compileReleaseAidl
+:samlocationandgeocoding:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:samlocationandgeocoding:compileReleaseRenderscript
+:samlocationandgeocoding:generateReleaseResValues
+:samlocationandgeocoding:generateReleaseResources
+:samlocationandgeocoding:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:samlocationandgeocoding:generateReleaseBuildConfig
+:samlocationandgeocoding:javaPreCompileRelease
+:samlocationandgeocoding:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:samlocationandgeocoding:mergeReleaseShaders
+:samlocationandgeocoding:compileReleaseShaders
+:samlocationandgeocoding:generateReleaseAssets
+:samlocationandgeocoding:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:samlocationandgeocoding:compileReleaseNdk NO-SOURCE
+:samlocationandgeocoding:mergeReleaseJniLibFolders
+:samlocationandgeocoding:transformNativeLibsWithMergeJniLibsForRelease
+:samlocationandgeocoding:transformNativeLibsWithStripDebugSymbolForRelease
+:samlocationandgeocoding:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:samlocationandgeocoding:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:samlocationandgeocoding:generateDebugSources
+:samlocationandgeocoding:compileDebugJavaWithJavac
+:samlocationandgeocoding:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:samlocationandgeocoding:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:samlocationandgeocoding:generateReleaseSources
+:samlocationandgeocoding:compileReleaseJavaWithJavac
+:samlocationandgeocoding:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 38s
+91 actionable tasks: 91 executed
+
+2019-01-02 18:06:31,149 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427019500-0/src/app/build/outputs/apk/debug/app-debug.apk

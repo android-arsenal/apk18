@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.pierfrancescosoffritti.aytplayersample",
+    "label" : "android-youtube-player",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "9.0.1",
+    "versionCode" : 10,
+    "installLocation" : null,
+    "minSdkVersion" : "17",
+    "targetSdkVersion" : "28",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : "28",
+    "compileSdkVersionCodename" : "9",
+    "platformBuildVersionCode" : "10",
+    "platformBuildVersionName" : "9.0.1",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.ACCESS_NETWORK_STATE", "android.permission.FOREGROUND_SERVICE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAQAAAD9CzEMAAAB5klEQVRYw+2YPWgUQRTHf2929y5eEMzHoVZCOhGsrEQhxNomcK2lIX06C/dKQWwtTWPjgiCCnaLBwiYQBIUIaWwucjkSNOfd5XZmLM5Ldo2CezurKPe22h14v3nv/d98LPzrJunXmteUfA6rNtK/GApVqFzMOe1HEp8NXJuRSWVHd27Etp+3ht4SgFCF5nqlfZdFgpwB9Hk8ufL06xDhH43s35Ml6yJHy58DbqZSVPMiPT/Le6nKQRI5ksWU4p32xfVGzYv09wiaAp2pSgD4NmehxQcJzBSNgR4P3Vmx1p36zaF4koISdwD7M0AxNgaMAX8Q4HMaKRIwwTI3OJUZkGFpm+Yyl1hlA11UDRTnqbPEbIZkZS7yBIvc4QqlIlV0jluscPa34hhRpj4L1Km6LXJ621rjAc2iAB9Z5Q0HrmU6sC7PeEQL674PwLCZuQ8yAHZ5yBP2iurkLvf5hC1uqYjZHu8HY8DfB7g8/Io9BtDK5eHXqFSjVS3099ECsTi4gBjda6ciiHSo3u50X1gooXI+JUP31YdGqF7G6aWiv1mfK5+4Kh6WUZNlEas7r7duH20WyWtsmTMzc+VKvgz1Oq0ttsPeD9fYASLy3wV4OWugL/Rr8dD9sV8J8/6XnFo6aQe5/3/sG8X8kVDy1vyxAAAAAElFTkSuQmCC",
+    "file" : true
+  },
+  "dexClasses" : 2679,
+  "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"10\" android:versionName=\"9.0.1\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.pierfrancescosoffritti.aytplayersample\" platformBuildVersionCode=\"10\" platformBuildVersionName=\"9.0.1\">\n\t<uses-sdk android:minSdkVersion=\"17\" android:targetSdkVersion=\"28\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<uses-permission android:name=\"android.permission.FOREGROUND_SERVICE\" />\n\t<application android:theme=\"resourceId:0x7f110006\" android:label=\"android-youtube-player\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:label=\"android-youtube-player\" android:name=\"com.pierfrancescosoffritti.aytplayersample.MainActivity\" android:configChanges=\"0xda0\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"Basic example\" android:name=\"com.pierfrancescosoffritti.aytplayersample.examples.basicExample.BasicExampleActivity\" android:configChanges=\"0xda0\" android:hardwareAccelerated=\"true\" />\n\t\t<activity android:label=\"Fragment Example\" android:name=\"com.pierfrancescosoffritti.aytplayersample.examples.fragmentExample.FragmentExampleActivity\" android:configChanges=\"0xda0\" android:hardwareAccelerated=\"true\" />\n\t\t<activity android:label=\"RecyclerView example\" android:name=\"com.pierfrancescosoffritti.aytplayersample.examples.recyclerViewExample.RecyclerViewActivity\" android:configChanges=\"0xda0\" android:hardwareAccelerated=\"true\" />\n\t\t<activity android:label=\"ViewPager example\" android:name=\"com.pierfrancescosoffritti.aytplayersample.examples.viewPagerExample.ViewPagerActivity\" android:configChanges=\"0xda0\" android:hardwareAccelerated=\"true\" />\n\t\t<activity android:label=\"Custom UI example\" android:name=\"com.pierfrancescosoffritti.aytplayersample.examples.customUIExample.CustomUIActivity\" android:configChanges=\"0xda0\" android:hardwareAccelerated=\"true\" />\n\t\t<activity android:label=\"LiveVideo example\" android:name=\"com.pierfrancescosoffritti.aytplayersample.examples.liveVideoExample.LiveVideoActivity\" android:configChanges=\"0xda0\" android:hardwareAccelerated=\"true\" />\n\t\t<activity android:label=\"PlayerStatus example\" android:name=\"com.pierfrancescosoffritti.aytplayersample.examples.playerStatusExample.PlayerStatusActivity\" android:configChanges=\"0xda0\" android:hardwareAccelerated=\"true\" />\n\t\t<activity android:label=\"PictureInPicture example\" android:name=\"com.pierfrancescosoffritti.aytplayersample.examples.pictureInPictureExample.PictureInPictureActivity\" android:configChanges=\"0xda0\" android:hardwareAccelerated=\"true\" android:resizeableActivity=\"true\" android:supportsPictureInPicture=\"true\" />\n\t\t<activity android:label=\"IFrame Player Options Example\" android:name=\"com.pierfrancescosoffritti.aytplayersample.examples.iFramePlayerOptionsExample.IFramePlayerOptionsExampleActivity\" android:configChanges=\"0xda0\" android:hardwareAccelerated=\"true\" />\n\t\t<activity android:label=\"Chromecast example\" android:name=\"com.pierfrancescosoffritti.aytplayersample.examples.chromecastExample.ChromecastExampleActivity\" android:configChanges=\"0xda0\" android:hardwareAccelerated=\"true\" />\n\t\t<meta-data android:name=\"com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME\" android:value=\"com.pierfrancescosoffritti.aytplayersample.examples.chromecastExample.CastOptionsProvider\" />\n\t\t<receiver android:name=\"com.google.android.gms.cast.framework.media.MediaIntentReceiver\" android:exported=\"false\" />\n\t\t<service android:name=\"com.google.android.gms.cast.framework.media.MediaNotificationService\" android:exported=\"false\" />\n\t\t<service android:name=\"com.google.android.gms.cast.framework.ReconnectionService\" android:exported=\"false\" />\n\t\t<activity android:theme=\"@android:style/Theme.Translucent.NoTitleBar\" android:name=\"com.google.android.gms.common.api.GoogleApiActivity\" android:exported=\"false\" />\n\t\t<meta-data android:name=\"com.google.android.gms.version\" android:value=\"12451000\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 3077831,
+  "crc32" : 1978917284,
+  "sha256" : "9cb8b96e09d38e2d4f27b2de8561c12d10695cd486fecf3c2fff5d7f418cacd0",
+  "buildTime" : 1547902969000
+}

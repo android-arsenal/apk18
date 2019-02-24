@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "net.openid.appauthdemo",
+    "label" : "AppAuth",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "DEV",
+    "versionCode" : 508,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : null,
+    "platformBuildVersionName" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAAXNSR0IArs4c6QAAAuJQTFRFAAAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////xe37////////////////////AK7vFkpy/v7++vv8Aq/vD7PwBbDvLVyAKLvy9Pz+Aa7v/v//F0tzB7DvA6/vWX6aGUx02+PpErTwI1R6/f7/SXKRe5iv9vj5e5mvj9v47/P29/n6mbHCkqu9scPQ5evw093kN2SGp7vK8vX3Gk102vP9HE92xdLc9/z+x+37Tcf0ver7lN34/f7+X8z1ze/8j6i7DLLwJbrx7vr+mN/5Ucj0VMn0a9D2tcbS4fX99vz+8fv+5vf95/f93PT92fP9CbHwpbnJO2aI+fr7RcTzLFt/VnyZoLXFztnhScX0nrTEz9niQMPzhaG1ssPRNb/yruX6Jld8NL/yld34c9P2+v3/+/7/H7jxHbjxu+n7oOH5vOr7+Pn7QmyN7PDzU3qY1PH8FrXwC7Hw3/X9/P7/K7zygdf3O8Hz0tzkftb37Pn+FLTwRG2Ouun71vL86/n+h9n3hNj3Vcn0ZM71KVl+b9H2cdL2seb68/v+6fj+8PT2G7fx+f3/g9j3bdH2Usj0YMz1UMf0Yc314PX9dNP2MmCE3vX9Z8/2qbzL2eHo8/b43OTq9Pb4qLzKJVV72PP9prrJsMLPPmmKOGSH/P39edX3v+v7tMXSJlZ76O3xYoWgVXuYo7fHXoKebY2nRm+PaIqkjqe6gp6zoeH5tsbTw9DbRMTzhJ+0KbvyUXiWyO78e9X3dtP2reX6k934q+T6nuD50/H84vb9CLHvatD2GLbxl67AkNz4itr4Wsv1vMvXDrLwU8j0nOD5eJatm9/5ac/2W8v1NWKF+/z9V8r04ujtwev7UHeV0PD8Lbzyn7TFytbf3+bsy+788Zc/iwAAACd0Uk5TAGor/vNp+gEEZHjFTdZP107KHMkmXAVKG7m6BksnXVDEm/4snHl3GjIsmwAABJRJREFUSMeNVndc01cQTyAxgogoGwHFjruXQCQEGTJFAUXQKoKIKDgAAa1atc7WUfee1K2odVXrtmq1U1tXp3Zo927trvb/3hsJP0Lg4/vjd+t7b9y7u/fT6ZqPzhHhkXp9ZHhEZ91DjE76sDagRpswfafW0W29Oips4auK6ejVtkW4qUsHx9wwfryTbe9rco/3aOfEwH+IQxuldh7u8H6GRgQcQPxBIxp8mm/nMU+H9UEF1MchRtdDxR8Onae3y7ZMjypL3b9p7DwUI42DcJ79deY3ZYhq6uGt1PdrGXvl4osJ3ME66mI/xjb2VSbvJvuX+8n4KZ4xdg7KEXv0QNwPNSQmvW+Ru9Kc4xF53owPyc4uWBrGIW7bhjiuwXKBa65ID4MzViYZz95LyDigpA4u0YkLCqIRL0FdyQBSvik9ujqO0UWIRYlk6r4WYEwM4kiArYgxYwDWdif1VbOA+Kp8kPd7mQz9conZjOLWhhLZTGIunZw9Le9cZomXEBa/zlhKMjGjlyG+J7IDcdlooskptHJ/AfISDjLf3qZ5KjjzCc38nMg/YoZw5jUypQuQv8hnwb5BAX2S7/SZeYizZOSnI859lqj5LQqGXCKEHPSC60OziCtaQPN+CrC0HmAGsTe4ri8Z8wTMSA5hgktj7B1OU2MRS1MBiosB7MR/YOfajbS8gIVSPYr6yqU5+nDmY5p1AcAoq/UuwGckzFDrJ2WJGgzSRQjPm+QwiTOz5L73I+6Q55nOtZPI/K4ABujCBc2mKXoT3SQjs56SY/l6gF4kzudJkMTYUwIYrIsU9DpjMzmdivjlEwDreLauA7BtQJzK9TMZuyaAgSpI6XQ3RAYR7hvC9eQOPW0AW4h+RAbKj2kqTNJhGmPbiQwm2G6+k1VlZavwa5lXg8mwnbES5SC39BWd6jTcocpcDbDyC3HT88tXAtxCjFsKJ5njDIHq0N+R5gR8izhsODQZzy9H/BVOkHmgOrQM6+J4VltURZV5WwHtdsXsREx4qaiW5e9RYZUXB0vYcTiG+HmDkGyzY2Nn2wQ7lmr1GJxhiaAuTqVGzVELN5VzfsWcGB6lmDkruPQLFXil5ehxR2qoMO05B0d4owCoOhSNaiQcqgLgLeQI1PR3Jp9MbzAPH4Z4mJgRHBo3eXIcpzykB3koZI2K9FYFBKup9KsBXqb5v99RQCvt5Bv7G6A6WgTbWUCqRPntjiB6GGOH7JZmW9k/vBvwNTfYNCUqmwDPs0EUlAOb7Jpr+PP3apkwvTRNQLSZfXsR13DlyQztvWWc5t81iHv3NbYZ0ch+pll2AZxKTzmbmeyAJ2eeTUk/BbCLjD9qGpnOw5Baat1aCJDDeytjaZkTc3ImZqYJIZ56UuFIa2mqQfOs+HXbUinmHHiPuYx7MocqX+jm467dw8K8RVr4oryF4K7d60xRznOap2QnTshnLH9CYvYUs1Md5foEeXtqo2POyjJrZc/Hm7+kPgZocbh5FF2e3aajq0cLD7tvB3fw9n6mVn4d/F3h/q38OogRYgxt/DkJNYY8zA9NUEBwoNEYGBwQ5Mb4P5/XkGgU1g/MAAAAAElFTkSuQmCC",
+    "file" : true
+  },
+  "dexClasses" : 3136,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"508\" android:versionName=\"DEV\" package=\"net.openid.appauthdemo\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"27\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:theme=\"resourceId:0x7f0e0006\" android:label=\"AppAuth\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:name=\"net.openid.appauthdemo.Application\" android:allowBackup=\"false\" android:supportsRtl=\"false\" android:fullBackupContent=\"false\">\n\t\t<activity android:theme=\"resourceId:0x7f0e0006\" android:label=\"AppAuth\" android:name=\"net.openid.appauthdemo.LoginActivity\" android:windowSoftInputMode=\"0x2\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f0e0006\" android:label=\"AppAuth\" android:name=\"net.openid.appauthdemo.TokenActivity\" android:windowSoftInputMode=\"0x2\" />\n\t\t<activity android:name=\"net.openid.appauth.RedirectUriReceiverActivity\" android:exported=\"true\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.VIEW\" />\n\t\t\t\t<category android:name=\"android.intent.category.DEFAULT\" />\n\t\t\t\t<category android:name=\"android.intent.category.BROWSABLE\" />\n\t\t\t\t<data android:scheme=\"https\" android:host=\"appauth.demo-app.io\" android:path=\"/oauth2redirect\" />\n\t\t\t</intent-filter>\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.VIEW\" />\n\t\t\t\t<category android:name=\"android.intent.category.DEFAULT\" />\n\t\t\t\t<category android:name=\"android.intent.category.BROWSABLE\" />\n\t\t\t\t<data android:scheme=\"net.openid.appauthdemo\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"@android:style/Theme.Translucent.NoTitleBar\" android:name=\"net.openid.appauth.AuthorizationManagementActivity\" android:exported=\"false\" android:launchMode=\"singleTask\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2392980,
+  "crc32" : 1189141443,
+  "sha256" : "e1fc94be2666582fc67ce7da1d59efffe16d6833de01c0518234b087dde82859",
+  "buildTime" : 1547902949000
+}

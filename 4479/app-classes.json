@@ -1,0 +1,3 @@
+{
+  "net.idolon.crashcatch" : [ "BuildConfig", "CrashCatchApplication", "CrashCatchApplication$BackgroundException", "CrashCatchApplication$UncaughtHandler", "CrashCatchApplication$UncaughtHandler$1", "CrashDisplayActivity", "FirstActivity", "FirstActivity$1", "R", "R$array", "R$attr", "R$drawable", "R$id", "R$layout", "R$string", "SecondActivity", "SecondActivity$1" ]
+}

@@ -1,0 +1,10 @@
+2019-01-18 14:12:05,825 INFO  DownloadService - Downloading "https://github.com/Commit451/ResourcesPoet/archive/master.zip", attempt 3
+2019-01-18 14:12:06,520 INFO  DownloadService - Downloaded https://github.com/Commit451/ResourcesPoet/archive/master.zip, attempt 3
+2019-01-18 14:12:06,520 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547795525821-0/master.zip": 83 KB
+2019-01-18 14:12:06,520 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-18 14:12:06,522 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547795525821-0/master.zip: false
+2019-01-18 14:12:06,522 INFO  FullProcessService - Archive with sources does not contain any build script
+2019-01-18 14:12:06,522 ERROR FullProcessService - Could not find directory with sources
+2019-01-18 14:12:06,522 ERROR FullProcessService - Project will not be processed
+2019-01-18 14:12:06,522 ERROR FullProcessService - Project build has not produced APK file
+2019-01-18 14:12:06,523 ERROR FullProcessService - Could not find generated or existed APK file

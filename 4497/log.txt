@@ -1,0 +1,127 @@
+2019-01-12 22:06:02,170 INFO  DownloadService - Downloading "https://github.com/hummatli/SimpleEncryptionLib/archive/master.zip", attempt 3
+2019-01-12 22:06:10,024 INFO  DownloadService - Downloaded https://github.com/hummatli/SimpleEncryptionLib/archive/master.zip, attempt 3
+2019-01-12 22:06:10,025 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305562166-0/master.zip": 9 MB
+2019-01-12 22:06:10,025 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-12 22:06:10,031 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305562166-0/master.zip: true
+2019-01-12 22:06:10,031 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305562166-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305562166-0/src'.
+2019-01-12 22:06:10,124 INFO  FullProcessService - Size of directory with sources: 11 MB
+2019-01-12 22:06:10,125 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305562166-0/src]
+2019-01-12 22:06:10,146 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305562166-0/src/.git/
+
+2019-01-12 22:06:10,151 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305562166-0/src/SimpleEncryptionLib-master/gradlew
+2019-01-12 22:06:10,156 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305562166-0/src/SimpleEncryptionLib-master/android-sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305562166-0/src/SimpleEncryptionLib-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305562166-0/src/SimpleEncryptionLib-master/java-sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305562166-0/src/SimpleEncryptionLib-master/simple-encryptor-lib/build.gradle
+2019-01-12 22:06:10,161 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305562166-0/src/SimpleEncryptionLib-master/simple-encryptor-lib/conf_for_maven/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305562166-0/src/SimpleEncryptionLib-master/simple-encryptor-lib/conf_for_maven/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305562166-0/src/SimpleEncryptionLib-master/simple-encryptor-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305562166-0/src/SimpleEncryptionLib-master/java-sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305562166-0/src/SimpleEncryptionLib-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305562166-0/src/SimpleEncryptionLib-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305562166-0/src/SimpleEncryptionLib-master/android-sample-app/build.gradle
+2019-01-12 22:06:10,161 INFO  ProjectBuildService - Remote scripts: none
+2019-01-12 22:06:10,161 INFO  ProjectFixService - Fixing project...
+2019-01-12 22:06:10,173 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305562166-0/src/SimpleEncryptionLib-master/android-sample-app/local.properties
+2019-01-12 22:06:10,175 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305562166-0/src/SimpleEncryptionLib-master/android-sample-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-12 22:06:10,175 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305562166-0/src/SimpleEncryptionLib-master/android-sample-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-12 22:06:10,176 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305562166-0/src/SimpleEncryptionLib-master/local.properties
+2019-01-12 22:06:10,176 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-01-12 22:06:10,177 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-01-12 22:06:10,180 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305562166-0/src/SimpleEncryptionLib-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-12 22:06:10,181 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305562166-0/src/SimpleEncryptionLib-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-12 22:06:10,182 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305562166-0/src/SimpleEncryptionLib-master/java-sample-app/local.properties
+2019-01-12 22:06:10,185 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305562166-0/src/SimpleEncryptionLib-master/java-sample-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-12 22:06:10,185 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305562166-0/src/SimpleEncryptionLib-master/java-sample-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-12 22:06:10,186 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305562166-0/src/SimpleEncryptionLib-master/simple-encryptor-lib/local.properties
+2019-01-12 22:06:10,189 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305562166-0/src/SimpleEncryptionLib-master/simple-encryptor-lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-12 22:06:10,189 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305562166-0/src/SimpleEncryptionLib-master/simple-encryptor-lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-12 22:06:10,189 INFO  ProjectFixService - Project was maybe fixed
+2019-01-12 22:06:10,189 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-12 22:06:10,189 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305562166-0/src/SimpleEncryptionLib-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305562166-0/src/SimpleEncryptionLib-master/android-sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-12 22:06:17,558 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-01-12 22:06:17,558 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-12 22:06:17,559 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305562166-0/src/SimpleEncryptionLib-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305562166-0/src/SimpleEncryptionLib-master/android-sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-12 22:06:56,296 INFO  SysUtils - Configuration on demand is an incubating feature.
+:android-sample-app:checkDebugClasspath
+:android-sample-app:preBuild UP-TO-DATE
+:android-sample-app:preDebugBuild
+:android-sample-app:compileDebugAidl NO-SOURCE
+:android-sample-app:compileDebugRenderscript
+:android-sample-app:checkDebugManifest
+:android-sample-app:generateDebugBuildConfig
+:android-sample-app:mainApkListPersistenceDebug
+:android-sample-app:generateDebugResValues
+:android-sample-app:generateDebugResources
+:android-sample-app:mergeDebugResources
+:android-sample-app:createDebugCompatibleScreenManifests
+:android-sample-app:processDebugManifest
+:android-sample-app:splitsDiscoveryTaskDebug
+:android-sample-app:processDebugResources
+:simple-encryptor-lib:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+:simple-encryptor-lib:processResources NO-SOURCE
+:simple-encryptor-lib:classes
+:simple-encryptor-lib:jar
+:android-sample-app:compileDebugKotlin
+:android-sample-app:prepareLintJar
+:android-sample-app:generateDebugSources
+:android-sample-app:javaPreCompileDebug
+:android-sample-app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305562166-0/src/SimpleEncryptionLib-master/android-sample-app/src/main/java/com/mobapphome/simpleencryptorlib/sample/SampleActivityJava.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:android-sample-app:compileDebugNdk NO-SOURCE
+:android-sample-app:compileDebugSources
+:android-sample-app:mergeDebugShaders
+:android-sample-app:compileDebugShaders
+:android-sample-app:generateDebugAssets
+:android-sample-app:mergeDebugAssets
+:android-sample-app:transformClassesWithDexBuilderForDebug
+:android-sample-app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:android-sample-app:transformDexArchiveWithDexMergerForDebug
+:android-sample-app:mergeDebugJniLibFolders
+:android-sample-app:transformNativeLibsWithMergeJniLibsForDebug
+:android-sample-app:transformNativeLibsWithStripDebugSymbolForDebug
+:android-sample-app:checkDebugLibraries
+:android-sample-app:processDebugJavaRes NO-SOURCE
+:android-sample-app:transformResourcesWithMergeJavaResForDebug
+:android-sample-app:validateSigningDebug
+:android-sample-app:packageDebug
+:android-sample-app:assembleDebug
+:android-sample-app:checkReleaseClasspath
+:android-sample-app:preReleaseBuild
+:android-sample-app:compileReleaseAidl NO-SOURCE
+:android-sample-app:compileReleaseRenderscript
+:android-sample-app:checkReleaseManifest
+:android-sample-app:generateReleaseBuildConfig
+:android-sample-app:mainApkListPersistenceRelease
+:android-sample-app:generateReleaseResValues
+:android-sample-app:generateReleaseResources
+:android-sample-app:mergeReleaseResources
+:android-sample-app:createReleaseCompatibleScreenManifests
+:android-sample-app:processReleaseManifest
+:android-sample-app:splitsDiscoveryTaskRelease
+:android-sample-app:processReleaseResources
+:android-sample-app:compileReleaseKotlin
+:android-sample-app:generateReleaseSources
+:android-sample-app:javaPreCompileRelease
+:android-sample-app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305562166-0/src/SimpleEncryptionLib-master/android-sample-app/src/main/java/com/mobapphome/simpleencryptorlib/sample/SampleActivityJava.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:android-sample-app:compileReleaseNdk NO-SOURCE
+:android-sample-app:compileReleaseSources
+:android-sample-app:lintVitalRelease
+:android-sample-app:mergeReleaseShaders
+:android-sample-app:compileReleaseShaders
+:android-sample-app:generateReleaseAssets
+:android-sample-app:mergeReleaseAssets
+:android-sample-app:transformClassesWithDexBuilderForRelease
+:android-sample-app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:android-sample-app:transformDexArchiveWithDexMergerForRelease
+:android-sample-app:mergeReleaseJniLibFolders
+:android-sample-app:transformNativeLibsWithMergeJniLibsForRelease
+:android-sample-app:transformNativeLibsWithStripDebugSymbolForRelease
+:android-sample-app:checkReleaseLibraries
+:android-sample-app:processReleaseJavaRes NO-SOURCE
+:android-sample-app:transformResourcesWithMergeJavaResForRelease
+:android-sample-app:packageRelease
+:android-sample-app:assembleRelease
+:android-sample-app:assemble
+:android-sample-app:build
+
+BUILD SUCCESSFUL in 38s
+59 actionable tasks: 59 executed
+
+2019-01-12 22:06:56,377 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305562166-0/src/SimpleEncryptionLib-master/android-sample-app/build/outputs/apk/release/android-sample-app-release-unsigned.apk

@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.kenber.doublestickyheaderslist",
+    "label" : "DoubleStickyHeadersList",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0.0",
+    "versionCode" : 100000,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "24",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAAS1BMVEUAAAAAu50Au5sAu5wAupwAupsAu5sAu5sAu5sAu5sAupoAv58Au5wAup0Av58Au5sAupwAupwAvJwAupsAupwAu5wAvJwAu5wAu5xN0EW5AAAAGHRSTlMAf4+/0MBAgLBwMCDgYBDwoJBQz9/vX68o/2CVAAACn0lEQVR42u3dW3OiQBCG4V7loIOMoJLw/3/pxq0tK0Yq2RlQunvf796LR5nuOQCKEEIIIeS/zq+JbLZL5MWQ8WkBAgTItym8QEogQIAAAQIECBAgQIAAAQIEyJxUdfEMxm4fXr9r2tSHZRWHNq61A9wuSCmqVTez64UYx3btbfmwyFjZRVk/3XxHreOspJ3raEU8SI6ViAtJK4rSOXGIZNeuTpdDmmNmN4/KILmdsRJ1yZqt7PQ58ipXoxCS85N0Gh2ydzFCPhLVn+D+a3apkF4pJHm4B6WQkDpbFK1J7O6lWkhpcjk1fw68VwupPXQRIECAAAECBEge5MSk8dk5e9h6uCZxYXXR6qhSl7pRKaQ3vhF/y8XDhmnG3oPaayvjsEflYjcO6RCVdSvrgEThcG+GHMigb5Rs806s1G3/Zh9QK5sChyEXouviiucxO+fowzGOWyeOD0n04dBydVXDODvD+rUrbpa5FXCzsuPtMi6Uy9uajPO4YM4rUcLmMi6cYfP6c973YXxKhnfdGyYJAQIEyPc3OXqB8EQPECBAgAABAgQIECBAgAABMu8w4cdMPita/PgxfQ/HlBq+byBAgAABAgQIECBAgABxB+m9QGogQIAAAQIEiE1IbelZ0GRIZRCy9wKpLD0vnQwRi5k6sPICKU1CJhpJ5wVSm4TUPvrhZCOpTEIqH21EpHHSRibqb2kUUvqovhNvm62NQh7q78ko5PQVEoxCGidF66FslWYhpY+i9fCeqr1ZSOthpnVN8DDTehztB7uO+9HeGYb0Psb6l94eDEOii75+zafbsXemIb2PIXI3SIJpiLjoInerxM44pLW+OrwV4KOPK+v2YtDePOTvDLgRHz9JZ9/x5+/sjtEBREJRBCGEEEIISc1v/FpPkzdYzL0AAAAASUVORK5CYII="
+  },
+  "dexClasses" : 1672,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"100000\" android:versionName=\"1.0.0\" package=\"com.kenber.doublestickyheaderslist\" platformBuildVersionCode=\"24\" platformBuildVersionName=\"7.0\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"24\" />\n\t<application android:theme=\"resourceId:0x7f08008e\" android:label=\"DoubleStickyHeadersList\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.kenber.doublestickyheaderslist.activity.DoubleStickyHeadersListActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1255923,
+  "crc32" : 1334151238,
+  "sha256" : "37c212c910fc493482c1073376f5613b2bcbab5d8d784010b55cc557994d45b3",
+  "buildTime" : 1522044916000
+}

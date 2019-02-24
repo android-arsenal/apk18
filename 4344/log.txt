@@ -1,0 +1,21 @@
+2018-10-21 19:01:09,420 INFO  DownloadService - Downloading "https://github.com/kbiakov/gradle-cleaner-intellij-plugin/archive/master.zip", attempt 3
+2018-10-21 19:02:10,378 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-10-21 19:02:11,442 INFO  GithubDownloadService - Default branch of this repository: master
+2018-10-21 19:02:11,443 INFO  DownloadService - Downloading "https://github.com/kbiakov/gradle-cleaner-intellij-plugin/archive/master.zip", attempt 3
+2018-10-21 19:03:13,060 DEBUG FullProcessService - Repository https://github.com/kbiakov/gradle-cleaner-intellij-plugin available: true
+2018-10-21 19:03:13,060 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-10-21 19:03:13,060 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/kbiakov/gradle-cleaner-intellij-plugin, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540123269412-0/src]
+2018-10-21 19:03:14,406 INFO  SysUtils - 
+2018-10-21 19:03:14,420 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540123269412-0/src/.git": true
+2018-10-21 19:03:14,421 INFO  FullProcessService - Size of directory with sources: 38 KB
+2018-10-21 19:03:14,421 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540123269412-0/src]
+2018-10-21 19:03:14,438 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540123269412-0/src/.git/
+
+2018-10-21 19:03:14,439 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-10-21 19:03:14,439 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-10-21 19:03:14,440 INFO  ProjectBuildService - Build script(s): none
+2018-10-21 19:03:14,441 INFO  ProjectBuildService - All script(s): none
+2018-10-21 19:03:14,441 INFO  ProjectBuildService - Remote scripts: none
+2018-10-21 19:03:14,441 ERROR FullProcessService - Project is not correct Gradle project
+2018-10-21 19:03:14,441 ERROR FullProcessService - Project build has not produced APK file
+2018-10-21 19:03:14,442 ERROR FullProcessService - Could not find generated or existed APK file

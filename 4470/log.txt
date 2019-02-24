@@ -1,0 +1,287 @@
+2018-12-16 19:44:12,369 INFO  DownloadService - Downloading "https://github.com/tianzhijiexian/ShareLoginLib/archive/master.zip", attempt 3
+2018-12-16 19:44:17,200 INFO  DownloadService - Downloaded https://github.com/tianzhijiexian/ShareLoginLib/archive/master.zip, attempt 3
+2018-12-16 19:44:17,201 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/master.zip": 6 MB
+2018-12-16 19:44:17,201 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-12-16 19:44:17,208 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/master.zip: true
+2018-12-16 19:44:17,208 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src'.
+2018-12-16 19:44:17,287 INFO  FullProcessService - Size of directory with sources: 6 MB
+2018-12-16 19:44:17,287 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src]
+2018-12-16 19:44:17,306 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/.git/
+
+2018-12-16 19:44:17,310 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/gradlew
+2018-12-16 19:44:17,314 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/build.gradle
+2018-12-16 19:44:17,318 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/settings.gradle
+2018-12-16 19:44:17,318 INFO  ProjectBuildService - Remote scripts: none
+2018-12-16 19:44:17,318 INFO  ProjectFixService - Fixing project...
+2018-12-16 19:44:17,327 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/app/local.properties
+2018-12-16 19:44:17,328 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=18,targetSdkVersion=27]
+2018-12-16 19:44:17,328 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/lib/local.properties
+2018-12-16 19:44:17,329 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/lib/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-12-16 19:44:17,329 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/local.properties
+2018-12-16 19:44:17,329 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-12-16 19:44:17,330 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-12-16 19:44:17,331 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=18,targetSdkVersion=27]
+2018-12-16 19:44:17,331 INFO  ProjectFixService - Project was maybe fixed
+2018-12-16 19:44:17,331 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-16 19:44:17,331 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-16 19:44:24,419 INFO  ProjectTaskService - Detected possible tasks: 70
+2018-12-16 19:44:24,419 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-12-16 19:44:24,420 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-12-16 19:44:58,815 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:lib:preBuild UP-TO-DATE
+:lib:preDebugBuild UP-TO-DATE
+:lib:checkDebugManifest
+:lib:processDebugManifest
+:app:preDebugBuild
+:lib:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:lib:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:lib:compileDebugRenderscript
+:lib:generateDebugResValues
+:lib:generateDebugResources
+:lib:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:lib:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:lib:generateDebugBuildConfig
+:lib:prepareLintJar
+:lib:generateDebugSources
+:lib:javaPreCompileDebug
+:lib:compileDebugJavaWithJavac
+:lib:processDebugJavaRes NO-SOURCE
+:lib:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/app/src/main/java/com/liulishuo/engzo/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/app/src/main/java/com/liulishuo/engzo/MapBuilder.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:lib:mergeDebugShaders
+:lib:compileDebugShaders
+:lib:generateDebugAssets
+:lib:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/lib/libs/open_sdk_r6008_lite.jar: D8: Type `org.apache.http.conn.scheme.PlainSocketFactory` was not found, it is required for default or static interface methods desugaring of `org.apache.http.client.HttpClient com.tencent.open.utils.HttpUtils.getHttpClient(android.content.Context, java.lang.String, java.lang.String)`
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/lib/libs/open_sdk_r6008_lite.jar: D8: Type `org.apache.http.params.HttpProtocolParams` was not found, it is required for default or static interface methods desugaring of `org.apache.http.client.HttpClient com.tencent.open.utils.HttpUtils.getHttpClient(android.content.Context, java.lang.String, java.lang.String)`
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:lib:compileDebugNdk NO-SOURCE
+:lib:mergeDebugJniLibFolders
+:lib:transformNativeLibsWithMergeJniLibsForDebug
+:lib:transformNativeLibsWithStripDebugSymbolForDebug
+:lib:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libutility.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libweibosdkcore.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:app:extractProguardFiles
+:lib:preReleaseBuild UP-TO-DATE
+:lib:checkReleaseManifest
+:lib:processReleaseManifest
+:app:preReleaseBuild
+:lib:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:lib:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:lib:compileReleaseRenderscript
+:lib:generateReleaseResValues
+:lib:generateReleaseResources
+:lib:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:lib:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:lib:generateReleaseBuildConfig
+:lib:generateReleaseSources
+:lib:javaPreCompileRelease
+:lib:compileReleaseJavaWithJavac
+:lib:processReleaseJavaRes NO-SOURCE
+:lib:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/app/src/main/java/com/liulishuo/engzo/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/app/src/main/java/com/liulishuo/engzo/MapBuilder.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Download https://jcenter.bintray.com/org/hamcrest/hamcrest-junit/2.0.0.0/hamcrest-junit-2.0.0.0.jar
+Download https://jcenter.bintray.com/org/hamcrest/java-hamcrest/2.0.0.0/java-hamcrest-2.0.0.0.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:lib:mergeReleaseShaders
+:lib:compileReleaseShaders
+:lib:generateReleaseAssets
+:lib:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:lib:mergeReleaseConsumerProguardFiles
+:app:transformClassesAndResourcesWithProguardForRelease
+Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
+thread-pool size=4
+ProGuard, version 6.0.3
+Reading input...
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/lib/libs/open_sdk_r6008_lite.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/900248f956182d93d8c5c246d8cf5f99/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.tencent.mm.opensdk/wechat-sdk-android-without-mta/5.1.6/d78e9ebd52545fa9b23133f871744db008e7a715/wechat-sdk-android-without-mta-5.1.6.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/core-4.3.0-openDefaultRelease.aar/817b87971f8e51acb46e709882667916/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/3eb11d76fa8f79997d71000796c31e7d/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/6b9bf6c2537e8c265ad76d92a2d20182/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/cbb282e07c136823badfbb6f4541101c/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e32c613ba6493a81d10dde25b6b0446b/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/dfdbb4ea7e0e725e5cd2695e25d96a49/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/17c5405a93feaaf53aed55e7fad3b578/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.1.1/39ded76b5e1ce1c5b2688e1d25cdc20ecee32007/support-annotations-27.1.1.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/8a2ca091f9a0f8a4a982310675ed1603/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/ce93094fdb34ff0dbd906ed210df1110/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/6c012121b9da9431fd5a153f3d947493/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.0/edf3f7bfb84a7521d0599efa3b0113a0ee90f85/common-1.1.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/8a855bc53207657af72994face8f08d9/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.0/8007981f7d7540d89cd18471b8e5dcd2b4f99167/common-1.1.0.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/lib/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/optional/org.apache.http.legacy.jar]
+Initializing...
+Note: the configuration refers to the unknown class 'com.tencent.open.PKDialog'
+Note: the configuration refers to the unknown class 'com.tencent.open.PKDialog'
+Note: the configuration refers to the unknown class 'Object'
+      Maybe you meant the fully qualified name 'java.lang.Object'?
+Note: the configuration refers to the unknown class 'com.google.android.gms.common.internal.safeparcel.SafeParcelable'
+Note: the configuration refers to the unknown class 'com.google.android.gms.common.annotation.KeepName'
+Note: the configuration refers to the unknown class 'com.google.android.gms.common.annotation.KeepName'
+Note: the configuration refers to the unknown class 'com.google.android.gms.common.annotation.KeepName'
+Note: the configuration refers to the unknown class 'com.squareup.otto.Subscribe'
+Note: the configuration refers to the unknown class 'com.squareup.otto.Produce'
+Note: the configuration refers to the unknown class 'com.squareup.otto.Subscribe'
+Note: the configuration refers to the unknown class 'com.squareup.otto.Produce'
+Note: the configuration refers to the unknown class 'com.alibaba.android.vlayout.ExposeLinearLayoutManagerEx'
+Note: com.sina.weibo.sdk.net.AsyncWeiboRunner: can't find dynamically referenced class com.sina.weibo.sdk.cmd.WbAppActivator
+Note: com.sina.weibo.sdk.utils.AidTask: can't find dynamically referenced class android.os.SystemProperties
+Note: com.squareup.picasso.Utils: can't find dynamically referenced class com.squareup.okhttp.OkHttpClient
+Note: com.tencent.connect.a.a: can't find dynamically referenced class com.tencent.stat.StatConfig
+Note: com.tencent.connect.a.a: can't find dynamically referenced class com.tencent.stat.StatService
+Note: com.tencent.connect.a.a: can't find dynamically referenced class com.tencent.stat.StatReportStrategy
+Note: com.tencent.connect.a.a: can't find dynamically referenced class com.tencent.stat.common.StatConstants
+Note: the configuration keeps the entry point 'com.tencent.connect.auth.a { a(android.content.Context,java.lang.String,java.lang.String,com.tencent.tauth.IUiListener,com.tencent.connect.auth.QQToken); }', but not the descriptor class 'com.tencent.tauth.IUiListener'
+Note: the configuration keeps the entry point 'com.tencent.connect.auth.a { a(android.content.Context,java.lang.String,java.lang.String,com.tencent.tauth.IUiListener,com.tencent.connect.auth.QQToken); }', but not the descriptor class 'com.tencent.connect.auth.QQToken'
+Note: the configuration keeps the entry point 'com.tencent.open.TDialog { TDialog(android.content.Context,java.lang.String,java.lang.String,com.tencent.tauth.IUiListener,com.tencent.connect.auth.QQToken); }', but not the descriptor class 'com.tencent.tauth.IUiListener'
+Note: the configuration keeps the entry point 'com.tencent.open.TDialog { TDialog(android.content.Context,java.lang.String,java.lang.String,com.tencent.tauth.IUiListener,com.tencent.connect.auth.QQToken); }', but not the descriptor class 'com.tencent.connect.auth.QQToken'
+Note: the configuration keeps the entry point 'com.tencent.open.TDialog$OnTimeListener { TDialog$OnTimeListener(android.content.Context,java.lang.String,java.lang.String,java.lang.String,com.tencent.tauth.IUiListener); }', but not the descriptor class 'com.tencent.tauth.IUiListener'
+Note: the configuration keeps the entry point 'com.tencent.open.TDialog$OnTimeListener { void onError(com.tencent.tauth.UiError); }', but not the descriptor class 'com.tencent.tauth.UiError'
+Note: the configuration keeps the entry point 'com.tencent.open.a$b { void call(java.lang.String,java.util.List,com.tencent.open.a$a); }', but not the descriptor class 'com.tencent.open.a$a'
+Note: the configuration keeps the entry point 'com.tencent.open.c { c(android.content.Context,java.lang.String,java.lang.String,com.tencent.tauth.IUiListener,com.tencent.connect.auth.QQToken); }', but not the descriptor class 'com.tencent.tauth.IUiListener'
+Note: the configuration keeps the entry point 'com.tencent.open.c { c(android.content.Context,java.lang.String,java.lang.String,com.tencent.tauth.IUiListener,com.tencent.connect.auth.QQToken); }', but not the descriptor class 'com.tencent.connect.auth.QQToken'
+Note: there were 12 references to unknown classes.
+      You should check your configuration for typos.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#unknownclass)
+Note: there were 9 unkept descriptor classes in kept class members.
+      You should consider explicitly keeping the mentioned classes
+      (using '-keep').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#descriptorclass)
+Note: there were 7 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Ignoring unused library classes...
+  Original number of library classes: 4612
+  Final number of library classes:    1380
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/app/build/outputs/mapping/release/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 1839
+  Final number of program classes:    1268
+Obfuscating...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/app/build/outputs/mapping/release/mapping.txt]...
+Writing output...
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/app/build/intermediates/transforms/proguard/release/0.jar]
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/lib/libs/open_sdk_r6008_lite.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/900248f956182d93d8c5c246d8cf5f99/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.tencent.mm.opensdk/wechat-sdk-android-without-mta/5.1.6/d78e9ebd52545fa9b23133f871744db008e7a715/wechat-sdk-android-without-mta-5.1.6.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/core-4.3.0-openDefaultRelease.aar/817b87971f8e51acb46e709882667916/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/3eb11d76fa8f79997d71000796c31e7d/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/6b9bf6c2537e8c265ad76d92a2d20182/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/cbb282e07c136823badfbb6f4541101c/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e32c613ba6493a81d10dde25b6b0446b/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/dfdbb4ea7e0e725e5cd2695e25d96a49/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/17c5405a93feaaf53aed55e7fad3b578/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.1.1/39ded76b5e1ce1c5b2688e1d25cdc20ecee32007/support-annotations-27.1.1.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/8a2ca091f9a0f8a4a982310675ed1603/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/ce93094fdb34ff0dbd906ed210df1110/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/6c012121b9da9431fd5a153f3d947493/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.0/edf3f7bfb84a7521d0599efa3b0113a0ee90f85/common-1.1.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/8a855bc53207657af72994face8f08d9/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.0/8007981f7d7540d89cd18471b8e5dcd2b4f99167/common-1.1.0.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/lib/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+:app:transformClassesWithDexBuilderForRelease
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `org.apache.http.conn.scheme.PlainSocketFactory` was not found, it is required for default or static interface methods desugaring of `org.apache.http.client.HttpClient com.tencent.open.utils.HttpUtils.a(android.content.Context, java.lang.String, java.lang.String)`
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `org.apache.http.params.HttpProtocolParams` was not found, it is required for default or static interface methods desugaring of `org.apache.http.client.HttpClient com.tencent.open.utils.HttpUtils.a(android.content.Context, java.lang.String, java.lang.String)`
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `org.apache.http.util.EntityUtils` was not found, it is required for default or static interface methods desugaring of `byte[] com.tencent.mm.opensdk.diffdev.a.e.a(java.lang.String)`
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:lib:compileReleaseNdk NO-SOURCE
+:lib:mergeReleaseJniLibFolders
+:lib:transformNativeLibsWithMergeJniLibsForRelease
+:lib:transformNativeLibsWithStripDebugSymbolForRelease
+:lib:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi/libutility.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi/libweibosdkcore.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+:app:validateSigningRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 34s
+93 actionable tasks: 93 executed
+
+2018-12-16 19:44:58,883 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964252360-0/src/ShareLoginLib-master/app/build/outputs/apk/debug/app-debug.apk

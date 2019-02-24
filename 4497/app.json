@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.mobapphome.mahencryptorlib",
+    "label" : "SimpleEncryptorLib - Sample",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.2.0",
+    "versionCode" : 5,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "28",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : "28",
+    "compileSdkVersionCodename" : "9",
+    "platformBuildVersionCode" : "5",
+    "platformBuildVersionName" : "1.2.0",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 2159,
+  "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"5\" android:versionName=\"1.2.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.mobapphome.mahencryptorlib\" platformBuildVersionCode=\"5\" platformBuildVersionName=\"1.2.0\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f0c0005\" android:label=\"SimpleEncryptorLib - Sample\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:appComponentFactory=\"android.support.v4.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.mobapphome.simpleencryptorlib.sample.SampleActivityKotlin\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.mobapphome.simpleencryptorlib.sample.SampleActivityJava\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1851464,
+  "crc32" : 1031167643,
+  "sha256" : "77e82e2739445d4a9eb56513002e2176cf29416ee40a8146afc5dab62dc950af",
+  "buildTime" : 1547305615000
+}

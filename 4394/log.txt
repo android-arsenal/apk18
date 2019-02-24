@@ -1,0 +1,461 @@
+2019-01-19 19:59:22,414 INFO  DownloadService - Downloading "https://github.com/Tencent/tinker/archive/master.zip", attempt 3
+2019-01-19 19:59:23,482 INFO  DownloadService - Downloaded https://github.com/Tencent/tinker/archive/master.zip, attempt 3
+2019-01-19 19:59:23,482 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/master.zip": 871 KB
+2019-01-19 19:59:23,482 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-19 19:59:23,484 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/master.zip: true
+2019-01-19 19:59:23,484 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src'.
+2019-01-19 19:59:23,612 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-01-19 19:59:23,612 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src]
+2019-01-19 19:59:23,632 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/.git/
+
+2019-01-19 19:59:23,646 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-sample-android/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/gradlew
+2019-01-19 19:59:23,662 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-android/tinker-android-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-android/tinker-android-loader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-sample-android/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-sample-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/third-party/aosp-dexutils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/third-party/bsdiff-util/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/third-party/tinker-ziputils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-android/tinker-android-anno/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-build/tinker-patch-cli/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-build/tinker-patch-gradle-plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-build/tinker-patch-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-commons/build.gradle
+2019-01-19 19:59:23,676 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-commons/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-sample-android/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-sample-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-sample-android/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-build/tinker-patch-gradle-plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-build/tinker-patch-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-build/tinker-patch-cli/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/gradle/java-artifacts.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/gradle/android-artifacts.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/gradle/check.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/third-party/bsdiff-util/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/third-party/tinker-ziputils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/third-party/aosp-dexutils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-android/tinker-android-anno/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-android/tinker-android-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-android/tinker-android-loader/build.gradle
+2019-01-19 19:59:23,678 INFO  ProjectBuildService - Remote scripts: none
+2019-01-19 19:59:23,678 INFO  ProjectFixService - Fixing project...
+2019-01-19 19:59:23,730 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-android/tinker-android-lib/local.properties
+2019-01-19 19:59:23,732 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-android/tinker-android-lib/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-01-19 19:59:23,732 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-android/tinker-android-loader/local.properties
+2019-01-19 19:59:23,734 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-android/tinker-android-loader/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-01-19 19:59:23,735 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-sample-android/app/local.properties
+2019-01-19 19:59:23,735 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-sample-android/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-01-19 19:59:23,736 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/local.properties
+2019-01-19 19:59:23,736 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-01-19 19:59:23,736 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-01-19 19:59:23,737 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=26,minSdkVersion=10,targetSdkVersion=23]
+2019-01-19 19:59:23,737 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-sample-android/local.properties
+2019-01-19 19:59:23,738 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-01-19 19:59:23,738 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-01-19 19:59:23,740 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-sample-android/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-01-19 19:59:23,741 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/third-party/aosp-dexutils/local.properties
+2019-01-19 19:59:23,743 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/third-party/aosp-dexutils/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-01-19 19:59:23,744 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/third-party/bsdiff-util/local.properties
+2019-01-19 19:59:23,745 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/third-party/bsdiff-util/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-01-19 19:59:23,746 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/third-party/tinker-ziputils/local.properties
+2019-01-19 19:59:23,748 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/third-party/tinker-ziputils/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-01-19 19:59:23,749 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-android/tinker-android-anno/local.properties
+2019-01-19 19:59:23,756 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-android/tinker-android-anno/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-01-19 19:59:23,757 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-build/tinker-patch-cli/local.properties
+2019-01-19 19:59:23,760 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-build/tinker-patch-cli/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-01-19 19:59:23,760 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-build/tinker-patch-gradle-plugin/local.properties
+2019-01-19 19:59:23,762 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-build/tinker-patch-gradle-plugin/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-01-19 19:59:23,763 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-build/tinker-patch-lib/local.properties
+2019-01-19 19:59:23,765 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-build/tinker-patch-lib/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-01-19 19:59:23,765 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-commons/local.properties
+2019-01-19 19:59:23,766 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-commons/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-01-19 19:59:23,766 INFO  ProjectFixService - Project was maybe fixed
+2019-01-19 19:59:23,766 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 19:59:23,767 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-android/tinker-android-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 19:59:34,187 INFO  ProjectTaskService - Detected possible tasks: 78
+2019-01-19 19:59:34,187 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-19 19:59:34,187 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-android/tinker-android-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-19 19:59:51,094 INFO  SysUtils - Configuration on demand is an incubating feature.
+:tinker-android:tinker-android-lib:androidJavadocs SKIPPED
+:tinker-android:tinker-android-lib:androidJavadocsJar
+:tinker-android:tinker-android-lib:androidSourcesJar
+:tinker-android:tinker-android-lib:preBuild UP-TO-DATE
+:tinker-android:tinker-android-lib:preDebugBuild UP-TO-DATE
+:tinker-android:tinker-android-loader:preBuild UP-TO-DATE
+:tinker-android:tinker-android-loader:preDebugBuild UP-TO-DATE
+:tinker-android:tinker-android-loader:compileDebugAidl NO-SOURCE
+:tinker-android:tinker-android-lib:compileDebugAidl NO-SOURCE
+:third-party:aosp-dexutils:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+:third-party:bsdiff-util:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+:third-party:tinker-ziputils:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+:tinker-commons:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+:tinker-commons:processResources NO-SOURCE
+:tinker-commons:classes
+:tinker-commons:jar
+:third-party:aosp-dexutils:processResources NO-SOURCE
+:third-party:aosp-dexutils:classes
+:third-party:aosp-dexutils:jar
+:third-party:bsdiff-util:processResources NO-SOURCE
+:third-party:bsdiff-util:classes
+:third-party:bsdiff-util:jar
+:third-party:tinker-ziputils:processResources NO-SOURCE
+:third-party:tinker-ziputils:classes
+:third-party:tinker-ziputils:jar
+:tinker-android:tinker-android-loader:packageDebugRenderscript NO-SOURCE
+:tinker-android:tinker-android-lib:compileDebugRenderscript
+:tinker-android:tinker-android-lib:checkDebugManifest
+:tinker-android:tinker-android-lib:generateDebugBuildConfig
+:tinker-android:tinker-android-lib:generateDebugResValues
+:tinker-android:tinker-android-lib:generateDebugResources
+:tinker-android:tinker-android-lib:packageDebugResources
+:tinker-android:tinker-android-lib:processDebugManifest
+:tinker-android:tinker-android-loader:compileDebugRenderscript
+:tinker-android:tinker-android-loader:generateDebugResValues
+:tinker-android:tinker-android-loader:generateDebugResources
+:tinker-android:tinker-android-loader:packageDebugResources
+:tinker-android:tinker-android-loader:checkDebugManifest
+:tinker-android:tinker-android-loader:processDebugManifest
+:tinker-android:tinker-android-loader:generateDebugRFile
+:tinker-android:tinker-android-lib:generateDebugRFile
+:tinker-android:tinker-android-lib:prepareLintJar
+:tinker-android:tinker-android-lib:generateDebugSources
+:tinker-android:tinker-android-loader:generateDebugBuildConfig
+:tinker-android:tinker-android-loader:prepareLintJar
+:tinker-android:tinker-android-loader:generateDebugSources
+:tinker-android:tinker-android-loader:javaPreCompileDebug
+:tinker-android:tinker-android-loader:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:tinker-android:tinker-android-loader:processDebugJavaRes NO-SOURCE
+:tinker-android:tinker-android-loader:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:tinker-android:tinker-android-lib:javaPreCompileDebug
+:tinker-android:tinker-android-lib:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-android/tinker-android-lib/src/main/java/com/tencent/tinker/lib/library/TinkerLoadLibrary.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:tinker-android:tinker-android-lib:extractDebugAnnotations
+:tinker-android:tinker-android-lib:mergeDebugConsumerProguardFiles
+:tinker-android:tinker-android-lib:mergeDebugShaders
+:tinker-android:tinker-android-lib:compileDebugShaders
+:tinker-android:tinker-android-lib:generateDebugAssets
+:tinker-android:tinker-android-lib:packageDebugAssets
+:tinker-android:tinker-android-lib:packageDebugRenderscript NO-SOURCE
+:tinker-android:tinker-android-lib:processDebugJavaRes NO-SOURCE
+:tinker-android:tinker-android-lib:transformResourcesWithMergeJavaResForDebug
+:tinker-android:tinker-android-lib:transformClassesAndResourcesWithSyncLibJarsForDebug
+:tinker-android:tinker-android-lib:compileDebugNdk NO-SOURCE
+:tinker-android:tinker-android-lib:mergeDebugJniLibFolders
+:tinker-android:tinker-android-lib:transformNativeLibsWithMergeJniLibsForDebug
+:tinker-android:tinker-android-lib:transformNativeLibsWithStripDebugSymbolForDebug
+:tinker-android:tinker-android-lib:transformNativeLibsWithSyncJniLibsForDebug
+:tinker-android:tinker-android-lib:bundleDebugAar
+:tinker-android:tinker-android-lib:compileDebugSources
+:tinker-android:tinker-android-lib:assembleDebug
+:tinker-android:tinker-android-lib:preReleaseBuild UP-TO-DATE
+:tinker-android:tinker-android-loader:preReleaseBuild UP-TO-DATE
+:tinker-android:tinker-android-loader:compileReleaseAidl NO-SOURCE
+:tinker-android:tinker-android-lib:compileReleaseAidl NO-SOURCE
+:tinker-android:tinker-android-loader:packageReleaseRenderscript NO-SOURCE
+:tinker-android:tinker-android-lib:compileReleaseRenderscript
+:tinker-android:tinker-android-lib:checkReleaseManifest
+:tinker-android:tinker-android-lib:generateReleaseBuildConfig
+:tinker-android:tinker-android-lib:generateReleaseResValues
+:tinker-android:tinker-android-lib:generateReleaseResources
+:tinker-android:tinker-android-lib:packageReleaseResources
+:tinker-android:tinker-android-lib:processReleaseManifest
+:tinker-android:tinker-android-loader:compileReleaseRenderscript
+:tinker-android:tinker-android-loader:generateReleaseResValues
+:tinker-android:tinker-android-loader:generateReleaseResources
+:tinker-android:tinker-android-loader:packageReleaseResources
+:tinker-android:tinker-android-loader:checkReleaseManifest
+:tinker-android:tinker-android-loader:processReleaseManifest
+:tinker-android:tinker-android-loader:generateReleaseRFile
+:tinker-android:tinker-android-lib:generateReleaseRFile
+:tinker-android:tinker-android-lib:generateReleaseSources
+:tinker-android:tinker-android-loader:generateReleaseBuildConfig
+:tinker-android:tinker-android-loader:generateReleaseSources
+:tinker-android:tinker-android-loader:javaPreCompileRelease
+:tinker-android:tinker-android-loader:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:tinker-android:tinker-android-loader:processReleaseJavaRes NO-SOURCE
+:tinker-android:tinker-android-loader:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:tinker-android:tinker-android-lib:javaPreCompileRelease
+:tinker-android:tinker-android-lib:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-android/tinker-android-lib/src/main/java/com/tencent/tinker/lib/library/TinkerLoadLibrary.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:tinker-android:tinker-android-lib:extractReleaseAnnotations
+:tinker-android:tinker-android-lib:mergeReleaseConsumerProguardFiles
+:tinker-android:tinker-android-lib:mergeReleaseShaders
+:tinker-android:tinker-android-lib:compileReleaseShaders
+:tinker-android:tinker-android-lib:generateReleaseAssets
+:tinker-android:tinker-android-lib:packageReleaseAssets
+:tinker-android:tinker-android-lib:packageReleaseRenderscript NO-SOURCE
+:tinker-android:tinker-android-lib:processReleaseJavaRes NO-SOURCE
+:tinker-android:tinker-android-lib:transformResourcesWithMergeJavaResForRelease
+:tinker-android:tinker-android-lib:transformClassesAndResourcesWithSyncLibJarsForRelease
+:tinker-android:tinker-android-lib:compileReleaseNdk NO-SOURCE
+:tinker-android:tinker-android-lib:mergeReleaseJniLibFolders
+:tinker-android:tinker-android-lib:transformNativeLibsWithMergeJniLibsForRelease
+:tinker-android:tinker-android-lib:transformNativeLibsWithStripDebugSymbolForRelease
+:tinker-android:tinker-android-lib:transformNativeLibsWithSyncJniLibsForRelease
+:tinker-android:tinker-android-lib:bundleReleaseAar
+:tinker-android:tinker-android-lib:compileReleaseSources
+:tinker-android:tinker-android-lib:mergeReleaseResources
+:tinker-android:tinker-android-lib:verifyReleaseResources
+:tinker-android:tinker-android-lib:assembleRelease
+:tinker-android:tinker-android-lib:signArchives SKIPPED
+:tinker-android:tinker-android-lib:assemble
+:tinker-android:tinker-android-lib:build
+
+BUILD SUCCESSFUL in 16s
+76 actionable tasks: 76 executed
+
+2019-01-19 19:59:51,144 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 19:59:51,144 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-android/tinker-android-loader/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 20:00:00,559 INFO  ProjectTaskService - Detected possible tasks: 78
+2019-01-19 20:00:00,559 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-19 20:00:00,559 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-android/tinker-android-loader/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-19 20:00:11,205 INFO  SysUtils - Configuration on demand is an incubating feature.
+:tinker-android:tinker-android-loader:androidJavadocs SKIPPED
+:tinker-android:tinker-android-loader:androidJavadocsJar
+:tinker-android:tinker-android-loader:androidSourcesJar
+:tinker-android:tinker-android-loader:preBuild UP-TO-DATE
+:tinker-android:tinker-android-loader:preDebugBuild UP-TO-DATE
+:tinker-android:tinker-android-loader:compileDebugAidl NO-SOURCE
+:tinker-android:tinker-android-loader:compileDebugRenderscript UP-TO-DATE
+:tinker-android:tinker-android-loader:checkDebugManifest UP-TO-DATE
+:tinker-android:tinker-android-loader:generateDebugBuildConfig UP-TO-DATE
+:tinker-android:tinker-android-loader:generateDebugResValues UP-TO-DATE
+:tinker-android:tinker-android-loader:generateDebugResources UP-TO-DATE
+:tinker-android:tinker-android-loader:packageDebugResources UP-TO-DATE
+:tinker-android:tinker-android-loader:processDebugManifest UP-TO-DATE
+:tinker-android:tinker-android-loader:generateDebugRFile UP-TO-DATE
+:tinker-android:tinker-android-loader:prepareLintJar UP-TO-DATE
+:tinker-android:tinker-android-loader:generateDebugSources UP-TO-DATE
+:tinker-android:tinker-android-loader:javaPreCompileDebug UP-TO-DATE
+:tinker-android:tinker-android-loader:compileDebugJavaWithJavac UP-TO-DATE
+:tinker-android:tinker-android-loader:extractDebugAnnotations
+:tinker-android:tinker-android-loader:mergeDebugConsumerProguardFiles
+:tinker-android:tinker-android-loader:mergeDebugShaders
+:tinker-android:tinker-android-loader:compileDebugShaders
+:tinker-android:tinker-android-loader:generateDebugAssets
+:tinker-android:tinker-android-loader:packageDebugAssets
+:tinker-android:tinker-android-loader:packageDebugRenderscript NO-SOURCE
+:tinker-android:tinker-android-loader:processDebugJavaRes NO-SOURCE
+:tinker-android:tinker-android-loader:transformResourcesWithMergeJavaResForDebug
+:tinker-android:tinker-android-loader:transformClassesAndResourcesWithSyncLibJarsForDebug
+:tinker-android:tinker-android-loader:compileDebugNdk NO-SOURCE
+:tinker-android:tinker-android-loader:mergeDebugJniLibFolders
+:tinker-android:tinker-android-loader:transformNativeLibsWithMergeJniLibsForDebug
+:tinker-android:tinker-android-loader:transformNativeLibsWithStripDebugSymbolForDebug
+:tinker-android:tinker-android-loader:transformNativeLibsWithSyncJniLibsForDebug
+:tinker-android:tinker-android-loader:bundleDebugAar
+:tinker-android:tinker-android-loader:compileDebugSources UP-TO-DATE
+:tinker-android:tinker-android-loader:assembleDebug
+:tinker-android:tinker-android-loader:preReleaseBuild UP-TO-DATE
+:tinker-android:tinker-android-loader:compileReleaseAidl NO-SOURCE
+:tinker-android:tinker-android-loader:compileReleaseRenderscript UP-TO-DATE
+:tinker-android:tinker-android-loader:checkReleaseManifest UP-TO-DATE
+:tinker-android:tinker-android-loader:generateReleaseBuildConfig UP-TO-DATE
+:tinker-android:tinker-android-loader:generateReleaseResValues UP-TO-DATE
+:tinker-android:tinker-android-loader:generateReleaseResources UP-TO-DATE
+:tinker-android:tinker-android-loader:packageReleaseResources UP-TO-DATE
+:tinker-android:tinker-android-loader:processReleaseManifest UP-TO-DATE
+:tinker-android:tinker-android-loader:generateReleaseRFile UP-TO-DATE
+:tinker-android:tinker-android-loader:generateReleaseSources UP-TO-DATE
+:tinker-android:tinker-android-loader:javaPreCompileRelease UP-TO-DATE
+:tinker-android:tinker-android-loader:compileReleaseJavaWithJavac UP-TO-DATE
+:tinker-android:tinker-android-loader:extractReleaseAnnotations
+:tinker-android:tinker-android-loader:mergeReleaseConsumerProguardFiles
+:tinker-android:tinker-android-loader:mergeReleaseShaders
+:tinker-android:tinker-android-loader:compileReleaseShaders
+:tinker-android:tinker-android-loader:generateReleaseAssets
+:tinker-android:tinker-android-loader:packageReleaseAssets
+:tinker-android:tinker-android-loader:packageReleaseRenderscript NO-SOURCE
+:tinker-android:tinker-android-loader:processReleaseJavaRes NO-SOURCE
+:tinker-android:tinker-android-loader:transformResourcesWithMergeJavaResForRelease
+:tinker-android:tinker-android-loader:transformClassesAndResourcesWithSyncLibJarsForRelease
+:tinker-android:tinker-android-loader:compileReleaseNdk NO-SOURCE
+:tinker-android:tinker-android-loader:mergeReleaseJniLibFolders
+:tinker-android:tinker-android-loader:transformNativeLibsWithMergeJniLibsForRelease
+:tinker-android:tinker-android-loader:transformNativeLibsWithStripDebugSymbolForRelease
+:tinker-android:tinker-android-loader:transformNativeLibsWithSyncJniLibsForRelease
+:tinker-android:tinker-android-loader:bundleReleaseAar
+:tinker-android:tinker-android-loader:compileReleaseSources UP-TO-DATE
+:tinker-android:tinker-android-loader:mergeReleaseResources
+:tinker-android:tinker-android-loader:verifyReleaseResources
+:tinker-android:tinker-android-loader:assembleRelease
+:tinker-android:tinker-android-loader:signArchives SKIPPED
+:tinker-android:tinker-android-loader:assemble
+:tinker-android:tinker-android-loader:build
+
+BUILD SUCCESSFUL in 10s
+47 actionable tasks: 28 executed, 19 up-to-date
+
+2019-01-19 20:00:11,256 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 20:00:11,257 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-sample-android/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-sample-android/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 20:00:26,482 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-01-19 20:00:26,483 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-19 20:00:26,483 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-sample-android/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-sample-android/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-19 20:01:07,274 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: The specified Android SDK Build Tools version (26.0.2) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.2.1.
+Android SDK Build Tools 28.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '26.0.2'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+:app:checkDebugClasspath
+Download https://jcenter.bintray.com/com/tencent/tinker/tinker-android-lib/1.9.11/tinker-android-lib-1.9.11.pom
+Download https://jcenter.bintray.com/com/tencent/tinker/tinker-android-anno/1.9.11/tinker-android-anno-1.9.11.pom
+Download https://jcenter.bintray.com/com/tencent/tinker/tinker-android-loader/1.9.11/tinker-android-loader-1.9.11.pom
+Download https://maven.google.com/com/android/support/multidex/1.0.2/multidex-1.0.2.pom
+Download https://jcenter.bintray.com/com/tencent/tinker/tinker-android-lib/1.9.11/tinker-android-lib-1.9.11.aar
+Download https://jcenter.bintray.com/com/tencent/tinker/tinker-android-loader/1.9.11/tinker-android-loader-1.9.11.aar
+Download https://jcenter.bintray.com/com/tencent/tinker/tinker-android-anno/1.9.11/tinker-android-anno-1.9.11.jar
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild
+:app:compileDebugAidl NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:app:processDebugResources
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+*
+Note: Creating file:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-sample-android/app/build/generated/source/apt/debug/tinker/sample/android/app/SampleApplication.java
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformClassesWithMultidexlistForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:app:extractProguardFiles
+:app:preReleaseBuild
+:app:compileReleaseAidl NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+*
+Note: Creating file:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-sample-android/app/build/generated/source/apt/release/tinker/sample/android/app/SampleApplication.java
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Download https://maven.google.com/com/android/support/multidex-instrumentation/1.0.2/multidex-instrumentation-1.0.2.pom
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/4572e29e926ebdde8e44213e13e36fd3/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-26/android.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:transformClassesAndResourcesWithProguardForRelease
+Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
+thread-pool size=4
+ProGuard, version 6.0.3
+Reading input...
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/tinker-android-lib-1.9.11.aar/134e781e5839b2846d1f59534cd89209/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.1.1.aar/cf22d21ed2d84c6d20db2f5eb99610bc/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.11.aar/0f08fa95390fdeff029a6e30b4877cae/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/d0f2557f05513c1d8c9946d8f2120af8/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.tencent.tinker/tinker-commons/1.9.11/146ece18076150f2a2ec1e2e36cd4ae589a2f481/tinker-commons-1.9.11.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-23.1.1.aar/104edd2776ac3976407377d4f44335c6/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-23.1.1.aar/104edd2776ac3976407377d4f44335c6/jars/libs/internal_impl-23.1.1.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.tencent.tinker/aosp-dexutils/1.9.11/3359042f626407f2b75f63404966f20e2ccbb40e/aosp-dexutils-1.9.11.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.tencent.tinker/bsdiff-util/1.9.11/91ece5f1a89772b4be41f1abe1bd4fcbbc111c83/bsdiff-util-1.9.11.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.tencent.tinker/tinker-ziputils/1.9.11/5e8e3406ca2de87afbe398acec20dd5536253b42/tinker-ziputils-1.9.11.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-sample-android/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-sample-android/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.tencent.tinker/tinker-android-anno/1.9.11/f05a0db68fe4d1f83a0daf0cf636c51c7c34838/tinker-android-anno-1.9.11.jar] (filtered)
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-26/android.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-26/optional/org.apache.http.legacy.jar]
+Initializing...
+Note: com.tencent.tinker.loader.TinkerResourcePatcher: can't find dynamically referenced class android.app.ActivityThread
+Note: com.tencent.tinker.loader.TinkerResourcePatcher: can't find dynamically referenced class android.app.LoadedApk
+Note: com.tencent.tinker.loader.TinkerResourcePatcher: can't find dynamically referenced class android.app.ActivityThread$PackageInfo
+Note: com.tencent.tinker.loader.TinkerResourcePatcher: can't find dynamically referenced class android.app.ResourcesManager
+Note: com.tencent.tinker.loader.hotplug.handler.MHMessageHandler: can't find dynamically referenced class android.app.ActivityManagerNative
+Note: com.tencent.tinker.loader.hotplug.handler.MHMessageHandler: can't find dynamically referenced class android.app.ActivityThread$H
+Note: com.tencent.tinker.loader.hotplug.interceptor.ServiceBinderInterceptor: can't find dynamically referenced class android.app.ActivityManagerNative
+Note: com.tencent.tinker.loader.hotplug.interceptor.ServiceBinderInterceptor: can't find dynamically referenced class android.app.ActivityThread
+Note: com.tencent.tinker.loader.hotplug.interceptor.ServiceBinderInterceptor: can't find dynamically referenced class android.app.ApplicationPackageManager
+Note: com.tencent.tinker.loader.hotplug.interceptor.ServiceBinderInterceptor: can't find dynamically referenced class android.os.ServiceManager
+Note: com.tencent.tinker.loader.shareutil.ShareReflectUtil: can't find dynamically referenced class android.app.ActivityThread
+Note: com.tencent.tinker.loader.shareutil.ShareTinkerInternals: can't find dynamically referenced class dalvik.system.VMRuntime
+Note: com.tencent.tinker.loader.shareutil.ShareTinkerInternals: can't find dynamically referenced class android.os.SystemProperties
+Note: com.tencent.tinker.loader.shareutil.ShareReflectUtil accesses a field 'mLoadedApk' dynamically
+Note: com.tencent.tinker.loader.shareutil.ShareReflectUtil accesses a declared field 'mActivityThread' dynamically
+      Maybe this is program field 'com.tencent.tinker.loader.hotplug.interceptor.TinkerHackInstrumentation { java.lang.Object mActivityThread; }'
+Note: there were 13 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Note: there were 2 accesses to class members by means of introspection.
+      You should consider explicitly keeping the mentioned class members
+      (using '-keep' or '-keepclassmembers').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclassmember)
+Ignoring unused library classes...
+  Original number of library classes: 4594
+  Final number of library classes:    1031
+Printing kept classes, fields, and methods...
+Inlining subroutines...
+Shrinking...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-sample-android/app/build/outputs/mapping/release/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 1804
+  Final number of program classes:    736
+Obfuscating...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-sample-android/app/build/outputs/mapping/release/mapping.txt]...
+Preverifying...
+Writing output...
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-sample-android/app/build/intermediates/transforms/proguard/release/0.jar]
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/tinker-android-lib-1.9.11.aar/134e781e5839b2846d1f59534cd89209/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.1.1.aar/cf22d21ed2d84c6d20db2f5eb99610bc/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.11.aar/0f08fa95390fdeff029a6e30b4877cae/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/d0f2557f05513c1d8c9946d8f2120af8/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.tencent.tinker/tinker-commons/1.9.11/146ece18076150f2a2ec1e2e36cd4ae589a2f481/tinker-commons-1.9.11.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-23.1.1.aar/104edd2776ac3976407377d4f44335c6/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-23.1.1.aar/104edd2776ac3976407377d4f44335c6/jars/libs/internal_impl-23.1.1.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.tencent.tinker/aosp-dexutils/1.9.11/3359042f626407f2b75f63404966f20e2ccbb40e/aosp-dexutils-1.9.11.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.tencent.tinker/bsdiff-util/1.9.11/91ece5f1a89772b4be41f1abe1bd4fcbbc111c83/bsdiff-util-1.9.11.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.tencent.tinker/tinker-ziputils/1.9.11/5e8e3406ca2de87afbe398acec20dd5536253b42/tinker-ziputils-1.9.11.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-sample-android/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-sample-android/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+:app:transformClassesWithDexBuilderForRelease
+:app:transformClassesWithMultidexlistForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:validateSigningRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 40s
+58 actionable tasks: 58 executed
+
+2019-01-19 20:01:07,377 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547902762411-0/src/tinker-master/tinker-sample-android/app/build/outputs/apk/debug/app-debug.apk

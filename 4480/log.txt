@@ -1,0 +1,10 @@
+2018-10-18 22:11:02,302 INFO  DownloadService - Downloading "https://github.com/Trikke/android-sqlite-generator/archive/master.zip", attempt 3
+2018-10-18 22:11:02,976 INFO  DownloadService - Downloaded https://github.com/Trikke/android-sqlite-generator/archive/master.zip, attempt 3
+2018-10-18 22:11:02,977 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875462297-0/master.zip": 170 KB
+2018-10-18 22:11:02,977 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-18 22:11:02,983 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875462297-0/master.zip: false
+2018-10-18 22:11:02,983 INFO  FullProcessService - Archive with sources does not contain any build script
+2018-10-18 22:11:02,983 ERROR FullProcessService - Could not find directory with sources
+2018-10-18 22:11:02,983 ERROR FullProcessService - Project will not be processed
+2018-10-18 22:11:02,983 ERROR FullProcessService - Project build has not produced APK file
+2018-10-18 22:11:02,984 ERROR FullProcessService - Could not find generated or existed APK file

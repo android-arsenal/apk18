@@ -1,0 +1,161 @@
+2018-10-18 13:30:35,164 INFO  DownloadService - Downloading "https://github.com/multidots/android-fingerprint-authentication/archive/master.zip", attempt 3
+2018-10-18 13:31:36,299 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-10-18 13:31:37,365 INFO  GithubDownloadService - Default branch of this repository: master
+2018-10-18 13:31:37,365 INFO  DownloadService - Downloading "https://github.com/multidots/android-fingerprint-authentication/archive/master.zip", attempt 3
+2018-10-18 13:32:38,920 DEBUG FullProcessService - Repository https://github.com/multidots/android-fingerprint-authentication available: true
+2018-10-18 13:32:38,921 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-10-18 13:32:38,921 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/multidots/android-fingerprint-authentication, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539844235162-0/src]
+2018-10-18 13:32:44,136 INFO  SysUtils - 
+2018-10-18 13:32:44,171 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539844235162-0/src/.git": true
+2018-10-18 13:32:44,173 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-10-18 13:32:44,174 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539844235162-0/src]
+2018-10-18 13:32:44,190 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539844235162-0/src/.git/
+
+2018-10-18 13:32:44,192 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539844235162-0/src/gradlew
+2018-10-18 13:32:44,195 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539844235162-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539844235162-0/src/fingerprint-auth/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539844235162-0/src/build.gradle
+2018-10-18 13:32:44,197 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539844235162-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539844235162-0/src/fingerprint-auth/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539844235162-0/src/fingerprint-auth/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539844235162-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539844235162-0/src/settings.gradle
+2018-10-18 13:32:44,197 INFO  ProjectBuildService - Remote scripts: none
+2018-10-18 13:32:44,197 INFO  ProjectFixService - Fixing project...
+2018-10-18 13:32:44,203 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539844235162-0/src/app/local.properties
+2018-10-18 13:32:44,204 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539844235162-0/src/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-10-18 13:32:44,204 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539844235162-0/src/fingerprint-auth/local.properties
+2018-10-18 13:32:44,204 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539844235162-0/src/fingerprint-auth/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-10-18 13:32:44,205 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539844235162-0/src/local.properties
+2018-10-18 13:32:44,205 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-10-18 13:32:44,206 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-10-18 13:32:44,206 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539844235162-0/src/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-10-18 13:32:44,206 INFO  ProjectFixService - Project was maybe fixed
+2018-10-18 13:32:44,206 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-18 13:32:44,206 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539844235162-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539844235162-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-18 13:32:51,407 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-10-18 13:32:51,407 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-10-18 13:32:51,408 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539844235162-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539844235162-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-10-18 13:33:20,208 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:fingerprint-auth:preBuild UP-TO-DATE
+:fingerprint-auth:preDebugBuild UP-TO-DATE
+:fingerprint-auth:checkDebugManifest
+:fingerprint-auth:processDebugManifest
+:app:preDebugBuild
+:fingerprint-auth:compileDebugAidl
+:app:compileDebugAidl
+:fingerprint-auth:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:fingerprint-auth:compileDebugRenderscript
+:fingerprint-auth:generateDebugResValues
+:fingerprint-auth:generateDebugResources
+:fingerprint-auth:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:fingerprint-auth:platformAttrExtractor
+:fingerprint-auth:generateDebugBuildConfig
+:fingerprint-auth:prepareLintJar
+:fingerprint-auth:javaPreCompileDebug
+:fingerprint-auth:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:fingerprint-auth:mergeDebugShaders
+:fingerprint-auth:compileDebugShaders
+:fingerprint-auth:generateDebugAssets
+:fingerprint-auth:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:fingerprint-auth:compileDebugNdk NO-SOURCE
+:fingerprint-auth:mergeDebugJniLibFolders
+:fingerprint-auth:transformNativeLibsWithMergeJniLibsForDebug
+:fingerprint-auth:transformNativeLibsWithStripDebugSymbolForDebug
+:fingerprint-auth:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:fingerprint-auth:preReleaseBuild UP-TO-DATE
+:fingerprint-auth:checkReleaseManifest
+:fingerprint-auth:processReleaseManifest
+:app:preReleaseBuild
+:fingerprint-auth:compileReleaseAidl
+:app:compileReleaseAidl
+:fingerprint-auth:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:fingerprint-auth:compileReleaseRenderscript
+:fingerprint-auth:generateReleaseResValues
+:fingerprint-auth:generateReleaseResources
+:fingerprint-auth:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:fingerprint-auth:generateReleaseBuildConfig
+:fingerprint-auth:javaPreCompileRelease
+:fingerprint-auth:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:fingerprint-auth:mergeReleaseShaders
+:fingerprint-auth:compileReleaseShaders
+:fingerprint-auth:generateReleaseAssets
+:fingerprint-auth:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:fingerprint-auth:compileReleaseNdk NO-SOURCE
+:fingerprint-auth:mergeReleaseJniLibFolders
+:fingerprint-auth:transformNativeLibsWithMergeJniLibsForRelease
+:fingerprint-auth:transformNativeLibsWithStripDebugSymbolForRelease
+:fingerprint-auth:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:fingerprint-auth:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:fingerprint-auth:generateDebugSources
+:fingerprint-auth:compileDebugJavaWithJavac
+:fingerprint-auth:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:fingerprint-auth:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:fingerprint-auth:generateReleaseSources
+:fingerprint-auth:compileReleaseJavaWithJavac
+:fingerprint-auth:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 28s
+91 actionable tasks: 91 executed
+
+2018-10-18 13:33:20,278 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539844235162-0/src/app/build/outputs/apk/debug/app-debug.apk

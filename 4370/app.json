@@ -1,0 +1,37 @@
+{
+  "meta" : {
+    "packageName" : "com.codemybrainsout.placesearchdialog",
+    "label" : "Place Search Dialog",
+    "icon" : "res/mipmap-ldpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : {
+      "major" : 2,
+      "minor" : 0,
+      "required" : true
+    },
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.ACCESS_NETWORK_STATE", "android.permission.INTERNET" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-ldpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 3297,
+  "locales" : [ "", "kk_KZ", "bg", "mr", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "lv", "tl", "pt", "gl", "bs_BA", "gu_IN", "sk", "kn_IN", "ml", "et", "cs", "sv", "pa", "el", "hu", "af", "in", "km", "pt_BR", "ml_IN", "be", "es", "is_IS", "hy_AM", "tr", "ne_NP", "hr", "ms_MY", "lt", "ta_IN", "sq", "fr", "ja", "is", "si", "de", "es_US", "ca", "te", "az_AZ", "sl", "mr_IN", "zh_HK", "mn", "fi", "mk", "uz", "eu", "et_EE", "bs", "sw", "pt_PT", "th", "sq_AL", "uz_UZ", "bn", "ar", "ru", "eu_ES", "kn", "az", "bn_BD", "fa", "ms", "gu", "kk", "hi", "km_KH", "lo", "nl", "pa_IN", "hy", "en_AU", "vi", "fr_CA", "ky", "sr", "da", "si_LK", "gl_ES", "ne", "ro", "am", "ka_GE", "pl", "zh_CN", "my", "ka", "ur", "lo_LA", "ky_KG", "iw", "en_IN", "mk_MK", "be_BY", "nb", "te_IN", "ta", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.codemybrainsout.placesearchdialog\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"25\" />\n\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.3.1\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-feature android:glEsVersion=\"0x20000\" android:required=\"true\" />\n\t<application android:theme=\"resourceId:0x7f0900a6\" android:label=\"Place Search Dialog\" android:icon=\"res/mipmap-ldpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.codemybrainsout.placesearchdialog.MainActivity\" android:windowSoftInputMode=\"0x30\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<meta-data android:name=\"com.google.android.geo.API_KEY\" android:value=\"YOUR_API_KEY\" />\n\t\t<meta-data android:name=\"com.google.android.gms.version\" android:value=\"10084000\" />\n\t\t<activity android:theme=\"@android:style/Theme.Translucent.NoTitleBar\" android:name=\"com.google.android.gms.common.api.GoogleApiActivity\" android:exported=\"false\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2991548,
+  "crc32" : 1231697291,
+  "sha256" : "9d03ca575dfeefbb29e58049a93ca8364acf28056332b51dc4cbf32a24ea4c97",
+  "buildTime" : 1522044115000
+}

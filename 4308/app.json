@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "io.realm.examples.adapters",
+    "label" : "Android Adapters",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "28",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : "28",
+    "compileSdkVersionCodename" : "9",
+    "platformBuildVersionCode" : "1",
+    "platformBuildVersionName" : "{4:1065353216}",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAKk0lEQVRo3s2ae2xc1Z3HP79z7jz8jB2cNG2SpQ+SQh/rXWwIXciyqG9VlD62VFu20rb/oCC16wptm6bbjdEK0a62W6hoKX9spaqioY5EVlRaqlZqUiFI2NqkdFOMSUJISDCOx/F4Xp65957z2z/mjuM4NrHjAe1Pupq5M/fe8/2e83ufK6xSVFUAkxxeRNwlrreNa5PrdTXjyyqAG8CISLzIf+1AB5BNfqoCRREpLXJtkBDxbwqBxYCr6laKr93oC5PbfHHyaq3OvE2iaqfGUQZAglRNU9mCZLteNW09L5iudc/QseEpEXlxtURkheBTIhLNzXLh7Kd18tgdce7EjYTldtXla4NkOkpBz9ufknVXPULn+sdEpLxwjKYRaOi5iDhVFabP3BmdfnaA/Pi754HWRK8XFwfMKlpVCDE4BK8gYNZtHEu9r/9+Nm58WEQ0WQ23HPuQZYC3DcPUsLLNnXj6fj9x/IYEuFdVLyINI15wM1BWtKhQ0fr5ebnoXvvOLYeCbTcNSGvrMwvHviwCF4CfPj0QvXjg37VasvXBURHsojdG1EEXPSxDGRSc1LEY09bu7I1/fbfd/I4HlkNClgPenTnyQ/fSwbvUO1Q1FhF70b0eqChaUihfNNvL1FR1IhJgDGbbTQ+l3/P+uy5FQpbyNA1vED83/Ih74fdfIIMnjRJgEQHVul6H1PV6NjlfvbgEl9Hevj0t/TfckZBblIQsZrAN44mf/98fuUNP7lDVuYfy5ogHFBEb/cV1D3dce92OhIQsNOzFAFkA98rJf3S/f3qHqvo3GXwDlwh4eergnVPP/vFr87EtuQINH6zl8nXRf+876AszNllSu6iHUa0PI02Gr+ArMT4fOkJv4/Y2V/37T920YdOmQwvjRLBA7yOAaPiZH/jCjFXVWJBAaw6tOrTm0FhR58Hr+TkwIEYgMEggSMogKQMpgwRmeQQVtObwszFaitHYA1hFY1sqBfbAMw8AHxCRaL6NyvxQLiJxePLEnfrbX/3YlyPvS5H42Vhwq8i3rCC2TgxrwIJIfVj1Ck7R2KPh/Em5kJogGqua4idu+crmv9r2YAPrHIEGI1Vtre7bd9gdOb7V15xb0s+/yaKKMyK2/La3HD20sbvvtttuKzYwm/nGXD5x6jPu8LGtGjr//wU8dWu2gE+fGd/yvrdu+tv5mIPENcUAeuSFL6IeRb0gTfc6WjXorNQ/I4FYzgc8oxCApBTJeqTVI2md51e9D0RM5ujJO4CfikisqufzkJmZmas4/vIH6nrVPPAaCm4yIH4pQ3wijXsthc9btGzQmqBhclQNWjL4aYsbTxEfzxC/nMZPW/B1TEYMmVdevf7QoUNXN2gHCQEXj5+9OTOV70iSALNqN1iyaN7iy+Zy0or6Y2YNbtbgcwFmrTPS7TQoFDo6Q3cz8DxgzFwKfGLiBq17AX/ZuGPBT9Vn251O4UuXD37hc93ZgOhE2ptyQGZy+vrEAfkgyS/Ej+Wvjk9kMGtjzBoHBlxsqBQzVCspwlpAHFm8r7tAaz1BypFuiclmIjKzHopmFfSXqY6n09iTpa2N+kQAnnvuubZNe0cPy+hrWwBXNYEtp1OUK2nULy/MGpSsxLSaiFaJkGZM/SKJniC29K6uY4+sHe/fuXPnTJDEgS6dqXZGapn2LVTjAMKVZl9CRVNUXAqLp81EtEtISlzz3Wqh1rG5d3MXUCcQx3G2XLXpadeONiGxcRgKPkOBDK0S0WFqZC9uXlwgIUKOgDyWshpqGHyShKXxtIunE8d6HCaM05lMpmUuFwrDUAo+jdL82WqsSkocHRLSZkJMol4RwinSnNI0kwSvr3TaUFWhB6FarZo5AlNTU2FnJgh5AyVSyzltIe+zBCYiJ8pLpKmu0GMrUEwFYeHcZG0uHI+MjBSkM118o1OCGDhpDE9JhufJrhh8Q1IdtnTw4MGZOQKDg4OzrM1MvGHuDzgr8EcrnJHVVZ6KEnSlJ/fs2VNu5EL1WLAhexS4cWFdlxNlyigFUWrJ72mgU4UrVOjxr5/1TQucEaHUxKIn1S3HgUhVgyCJaHF1fTBs4B88mJeM1zHr5WWjlC7RW2pV2OwN7/SGq7zQqnWkeYFxEWaaB1wFMZGPiTujZ5NKMQgaBfSRiaNPd29sKfwmV+iclLk6+NJeRmDMesasJw1scYZutVhtfjJbMZiJdbYwc/KFpwHdu3evl3mVfvuPH3rivw4ceOWDSe8nWM1o7Sqs95Z1asjq6pahKMq4xPGE9UHvtV2/+8Y3bv8kUFBVCRq9SBGp9qyTfSAfTAoIXU37vSRKyca8DKxRwxXe0KWGVpVLPlSBsih58eSMJ49XY4z13tPdXXscqDTKygtKyt7e3o2fum33b8fGcluX7EasUrIqtKuQRUjreQfggFCUKnW7q15oew7EXnll5tjjv7zvQ6OjoycbmIN6ySY+YTQ1MKA/HRvjXhBT75s0t2lSvRjcvG6vx3mHq7cwURRB1BhrUMfGTfZno6OjE/OL+mCB16x+6Uuf/cl3v7Pv04cPT/Y3wxaWTP7UU42r1OIakYuIfETs3VKtxqC/d/3hr371y/8JVO+55x5zUV9o3ipMh9GL965d+9ZHz52rZUCbpkqqSiWqUI7KVOMal94Q8U7EBt1rMrU2M3EfkNu/f39wyy23xBcRSEjEqoqIHHjoRz/73pNP+l2q1njvvcjll5mRiyiFJcpRBeeXG4fVi1hjxLO9b80DO7/+z79JutfxpXqjbnBwsLDjri8+eP229p9HribGGFRXVmt59ZTCEhOlCV4tjlOoFVcI3oA6+cj2TY/u/PpX7h8cHCywSBZiLu7BiO7evRsgNzBwx7d6r808PlEcN6WoZGpxzXn1SwIOXUixVmSyPMmZwqtMVc5RjWsrtQ4nYgzqzEe2/9kv/2XXjl1AroFtpRscAbDx3u88/K9P/O7UF7waUGJjsFYCudB7eHRVZaQqiBORwIjnw9s37dm9a8e3gdNDQ0Px7bff7pZqYy/RDRM3NDQUA2e+tfPOXZ/4m7d8t6szVVM08Aqhi+LQhRq6uve4fPCqQFzfKiNY0x7UPra9599279rxzUuBh+Vt8pn+/n47MjKybmDg7ptjs+nu4SNn+0QsSRR3oKbeZ192zNBkxr2IWFUVVUfve3tGTHTyPx568AcH+vr6Jm+99VY3ODj4ura37G3WkZGRoL+/vx3YcM+93/+746fjz48dm9pqTHC+21zfyVlGr1Nsw616H7P1Hd0vXrXZ/GL3t//pUWB8eHi41NfXFzdlm3W+JD7YAt1dXV0bvnb3Nz9erLR+9E9Hp3rPzVS7jNhkIc630OfHgIbGqHq612Ty73n3FX/ozFZ+/f3v3fdEPp9/DZjev3+/m+/nm0qgsRqAFZEU0Ams+cznPrflL//8+msjWt97Lh9dmZue7SlVorZazaVUIZs2UXtHptzTnZ3s6kidypjKnw4f/p9nH3ts7zEgn2SWUdJkW5ExNeNlDwFa5h89PT0t11xzTUdPT08aIJfLhaOjo8VcLleh/uLHbOPQ+tJc9ssezUgPZGhoyA4PD6eGh4dTQCoh0kb9jZWO5HsLkBoeHk6pampoaMgmq7kq+T9nFfD7rCDAdgAAAABJRU5ErkJggg==",
+    "file" : true
+  },
+  "dexClasses" : 1946,
+  "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"io.realm.examples.adapters\" platformBuildVersionCode=\"1\" platformBuildVersionName=\"{4:1065353216}\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f0d0005\" android:label=\"Android Adapters\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:name=\"io.realm.examples.adapters.MyApplication\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:label=\"Android Adapters\" android:name=\"io.realm.examples.adapters.MainActivity\" android:configChanges=\"0x4a0\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"ListView Example\" android:name=\"io.realm.examples.adapters.ui.listview.ListViewExampleActivity\" />\n\t\t<activity android:label=\"RecyclerView Example\" android:name=\"io.realm.examples.adapters.ui.recyclerview.RecyclerViewExampleActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 7225960,
+  "crc32" : 144101448,
+  "sha256" : "93100535545218141ffedda2e7869a6b4a5caa6b6875a5e7c90a5c147c8c7a3f",
+  "buildTime" : 1544677717000
+}

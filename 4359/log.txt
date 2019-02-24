@@ -1,0 +1,217 @@
+2018-10-21 15:47:32,719 INFO  DownloadService - Downloading "https://github.com/instacart/truetime-android/archive/master.zip", attempt 3
+2018-10-21 15:47:33,349 INFO  DownloadService - Downloaded https://github.com/instacart/truetime-android/archive/master.zip, attempt 3
+2018-10-21 15:47:33,349 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111652714-0/master.zip": 140 KB
+2018-10-21 15:47:33,349 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-21 15:47:33,354 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111652714-0/master.zip: true
+2018-10-21 15:47:33,355 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111652714-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111652714-0/src'.
+2018-10-21 15:47:33,376 INFO  FullProcessService - Size of directory with sources: 185 KB
+2018-10-21 15:47:33,376 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111652714-0/src]
+2018-10-21 15:47:33,395 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111652714-0/src/.git/
+
+2018-10-21 15:47:33,397 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111652714-0/src/truetime-android-master/gradlew
+2018-10-21 15:47:33,401 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111652714-0/src/truetime-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111652714-0/src/truetime-android-master/library-extension-rx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111652714-0/src/truetime-android-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111652714-0/src/truetime-android-master/build.gradle
+2018-10-21 15:47:33,403 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111652714-0/src/truetime-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111652714-0/src/truetime-android-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111652714-0/src/truetime-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111652714-0/src/truetime-android-master/library-extension-rx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111652714-0/src/truetime-android-master/settings.gradle
+2018-10-21 15:47:33,404 INFO  ProjectBuildService - Remote scripts: none
+2018-10-21 15:47:33,404 INFO  ProjectFixService - Fixing project...
+2018-10-21 15:47:33,411 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111652714-0/src/truetime-android-master/app/local.properties
+2018-10-21 15:47:33,412 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111652714-0/src/truetime-android-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-10-21 15:47:33,412 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111652714-0/src/truetime-android-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-10-21 15:47:33,413 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111652714-0/src/truetime-android-master/library-extension-rx/local.properties
+2018-10-21 15:47:33,415 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111652714-0/src/truetime-android-master/library-extension-rx/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-10-21 15:47:33,415 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111652714-0/src/truetime-android-master/library-extension-rx/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-10-21 15:47:33,416 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111652714-0/src/truetime-android-master/library/local.properties
+2018-10-21 15:47:33,417 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111652714-0/src/truetime-android-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-10-21 15:47:33,417 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111652714-0/src/truetime-android-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-10-21 15:47:33,418 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111652714-0/src/truetime-android-master/local.properties
+2018-10-21 15:47:33,419 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-10-21 15:47:33,419 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-10-21 15:47:33,420 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111652714-0/src/truetime-android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
+2018-10-21 15:47:33,420 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111652714-0/src/truetime-android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
+2018-10-21 15:47:33,421 INFO  ProjectFixService - Project was maybe fixed
+2018-10-21 15:47:33,421 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-21 15:47:33,421 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111652714-0/src/truetime-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111652714-0/src/truetime-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-21 15:47:40,874 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-10-21 15:47:40,874 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-10-21 15:47:40,874 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111652714-0/src/truetime-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111652714-0/src/truetime-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-10-21 15:48:24,810 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:checkDebugManifest
+:library:processDebugManifest
+:library-extension-rx:preBuild UP-TO-DATE
+:library-extension-rx:preDebugBuild UP-TO-DATE
+:library-extension-rx:checkDebugManifest
+:library-extension-rx:processDebugManifest
+:app:preDebugBuild
+:library:compileDebugAidl
+:library-extension-rx:compileDebugAidl
+:app:compileDebugAidl
+:library:packageDebugRenderscript NO-SOURCE
+:library-extension-rx:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:library:compileDebugRenderscript
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:packageDebugResources
+:library-extension-rx:compileDebugRenderscript
+:library-extension-rx:generateDebugResValues
+:library-extension-rx:generateDebugResources
+:library-extension-rx:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:library:platformAttrExtractor
+:library-extension-rx:platformAttrExtractor
+:library:generateDebugBuildConfig SKIPPED
+:library:prepareLintJar
+:library:javaPreCompileDebug
+:library:processDebugJavaRes NO-SOURCE
+:library-extension-rx:generateDebugBuildConfig SKIPPED
+:library-extension-rx:prepareLintJar
+:library-extension-rx:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:library:mergeDebugShaders
+:library:compileDebugShaders
+:library:generateDebugAssets
+:library:packageDebugAssets
+:library-extension-rx:mergeDebugShaders
+:library-extension-rx:compileDebugShaders
+:library-extension-rx:generateDebugAssets
+:library-extension-rx:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:library:compileDebugNdk NO-SOURCE
+:library:mergeDebugJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForDebug
+:library:transformNativeLibsWithStripDebugSymbolForDebug
+:library:transformNativeLibsWithIntermediateJniLibsForDebug
+:library-extension-rx:compileDebugNdk NO-SOURCE
+:library-extension-rx:mergeDebugJniLibFolders
+:library-extension-rx:transformNativeLibsWithMergeJniLibsForDebug
+:library-extension-rx:transformNativeLibsWithStripDebugSymbolForDebug
+:library-extension-rx:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:library:preReleaseBuild UP-TO-DATE
+:library:checkReleaseManifest
+:library:processReleaseManifest
+:library-extension-rx:preReleaseBuild UP-TO-DATE
+:library-extension-rx:checkReleaseManifest
+:library-extension-rx:processReleaseManifest
+:app:preReleaseBuild
+:library:compileReleaseAidl
+:library-extension-rx:compileReleaseAidl
+:app:compileReleaseAidl
+:library:packageReleaseRenderscript NO-SOURCE
+:library-extension-rx:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:library:compileReleaseRenderscript
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:library-extension-rx:compileReleaseRenderscript
+:library-extension-rx:generateReleaseResValues
+:library-extension-rx:generateReleaseResources
+:library-extension-rx:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:library:generateReleaseBuildConfig SKIPPED
+:library:javaPreCompileRelease
+:library:processReleaseJavaRes NO-SOURCE
+:library-extension-rx:generateReleaseBuildConfig SKIPPED
+:library-extension-rx:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:packageReleaseAssets
+:library-extension-rx:mergeReleaseShaders
+:library-extension-rx:compileReleaseShaders
+:library-extension-rx:generateReleaseAssets
+:library-extension-rx:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:library:compileReleaseNdk NO-SOURCE
+:library:mergeReleaseJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForRelease
+:library:transformNativeLibsWithStripDebugSymbolForRelease
+:library:transformNativeLibsWithIntermediateJniLibsForRelease
+:library-extension-rx:compileReleaseNdk NO-SOURCE
+:library-extension-rx:mergeReleaseJniLibFolders
+:library-extension-rx:transformNativeLibsWithMergeJniLibsForRelease
+:library-extension-rx:transformNativeLibsWithStripDebugSymbolForRelease
+:library-extension-rx:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:library:generateDebugRFile
+:library:generateDebugSources
+:library:compileDebugJavaWithJavac
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:library-extension-rx:javaPreCompileDebug
+:library:generateReleaseRFile
+:library:generateReleaseSources
+:library:compileReleaseJavaWithJavac
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:library-extension-rx:javaPreCompileRelease
+:library-extension-rx:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:library-extension-rx:generateDebugSources
+:library-extension-rx:compileDebugJavaWithJavac
+:library-extension-rx:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:library-extension-rx:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:library-extension-rx:generateReleaseSources
+:library-extension-rx:compileReleaseJavaWithJavac
+:library-extension-rx:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 43s
+125 actionable tasks: 125 executed
+
+2018-10-21 15:48:24,885 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111652714-0/src/truetime-android-master/app/build/outputs/apk/debug/app-debug.apk

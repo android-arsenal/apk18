@@ -1,0 +1,4 @@
+{
+  "me.saket.bettermovementmethod" : [ "BetterLinkMovementMethod", "BetterLinkMovementMethod$1", "BetterLinkMovementMethod$ClickableSpanWithText", "BetterLinkMovementMethod$LongPressTimer", "BetterLinkMovementMethod$LongPressTimer$OnTimerReachedListener", "BetterLinkMovementMethod$OnLinkClickListener", "BetterLinkMovementMethod$OnLinkLongClickListener", "BuildConfig", "R", "R$id" ],
+  "me.saket.bettermovementmethod.sample" : [ "BuildConfig", "EmailLinkPopupMenu", "MainActivity", "MainActivity$$Lambda$0", "MainActivity$$Lambda$1", "MapLinkPopupMenu", "PhoneLinkPopupMenu", "PhoneLinkPopupMenu$$Lambda$0", "R", "R$color", "R$id", "R$layout", "R$menu", "R$mipmap", "R$string", "R$style" ]
+}

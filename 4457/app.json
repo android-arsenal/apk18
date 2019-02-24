@@ -1,0 +1,41 @@
+{
+  "meta" : {
+    "packageName" : "devliving.online.mvbarcodereadersample",
+    "label" : "MVBarcodeReader",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.1.1",
+    "versionCode" : 4,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : null,
+    "platformBuildVersionName" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.CAMERA" ],
+    "usesFeatures" : [ {
+      "name" : "android.hardware.camera",
+      "required" : false
+    } ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAADmklEQVR42u2Z3U+SURzHKU1NhCfEVTKh5ZREXo18SwMCfAAFBBWBJAidF77WaunCLlxbrfKuC9fmuqmsrM2Wa8v+o1ZpdtlFO53zPLxZwgNFnlPjbN/xbBw43885v/P7HTg8XrGR3Hy+Ep7JVIpVyEP+bfEgK1JaXn5SHQVtFrFIb5VVq2gpDqGxkYe9vGU1L9G7KikdvUxpez5QGnoLq5AH6AV5ygGCfRN+6CGlpQF8JUcq8wq0diAzQHyzCPSmGmj+I/tB+huche+UGpPQ2MgDnEyhyvKpUqGvTfe6u6EdD5tQYWikNNYvDAD6Etwzz3iA0aC27FQ1tDSne90TQFDfJofk20QCyLTKHAEIXQGpRlUE+K8BjnXaQHvUk1WSbjs+AJnZAYbuBnZJfCZVLxocfWDh/WhWqQad+ADkfXGDm6NgbCUEjFMDQNRCMzN/AsLpgm5OALQKqG82iVvpv7cCptlBIDU54Gz3AnpuCEw8DjNAXMbzkTbgLjzAEV0PaHI5QW/MB6afhQtqeF8AWi64cxr86nqEWRkEW9tlZ6RwO4Ftfghce30JH8DpEW6A4fsBcLTDljVLBZaCZAIM3vEzYYb6Hj9rB6aZAQgUZKCM8BmZT4Qiyl5EAUythkF1PJ2iNLlXqKDQavayKRSl3pnnYXIAOsY8ySw1t5E5zq9vRIHUyBayrnEvGQAxmEITce+55eeMb9ficDLMYpsEAMy+iCQHm17lTq8TTy4m+195FcEPMPk0nGaIO03OrqX6Z6on+wowB+M6kX0iyyOcAKEHQaYvOoLMv42SsYlPudjs0hrxcALoQ/1MX0W/k5wshPI6048jxw/c9ieN+ZcCBBUymE00w65koTJMecHltciujW6Y9CZDDRnMdgDEUolRjk8UqsRqSM7ZGFG61HECFbpstQLrWejGuyjoW/BB07/+6pIY7MB508f0IfYwl17cxh+FgO9egBF6jm1iPk7nA/CnQkf3ggPUwTMM1w/2QqnOaC/+rVIEwAzwL/+5K+9sInUF+PVqdWaA+KXB4QZNHaXu+cze0JB0wWHeqpDJ6zMDpK6YKoSK7peUhrmhIUMaKxDIO9bR/OZyR1ZSVlWtrGpsfyNUmrYppfkrpN9Br/upxJhC5fltfmPbRhlfhMKnJNebSkjKO1lKiS3lNTJXuUiCR3Bs6MGKvOQw+z9DKMvgAx9dm2EWn/XyOxfvaLPo9YewKvOGLTYi2g8iv9I/sokZDwAAAABJRU5ErkJggg==",
+    "file" : true
+  },
+  "dexClasses" : 3384,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"4\" android:versionName=\"1.1.1\" package=\"devliving.online.mvbarcodereadersample\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"27\" />\n\t<uses-feature android:name=\"android.hardware.camera\" />\n\t<uses-permission android:name=\"android.permission.CAMERA\" />\n\t<application android:theme=\"resourceId:0x7f0e0006\" android:label=\"MVBarcodeReader\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"devliving.online.mvbarcodereadersample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"devliving.online.mvbarcodereadersample.IssueDebugActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.DEFAULT\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"@android:style/Theme.Translucent.NoTitleBar\" android:name=\"com.google.android.gms.common.api.GoogleApiActivity\" android:exported=\"false\" />\n\t\t<meta-data android:name=\"com.google.android.gms.version\" android:value=\"12451000\" />\n\t\t<activity android:theme=\"resourceId:0x7f0e0115\" android:name=\"devliving.online.mvbarcodereader.BarcodeCaptureActivity\" android:configChanges=\"0x480\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2616559,
+  "crc32" : 177246927,
+  "sha256" : "55d2332403db1a5ba1cf97ffebb91bb17d81dde05feb1fe83f12803a7b6290cd",
+  "buildTime" : 1539876451000
+}

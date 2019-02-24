@@ -1,0 +1,170 @@
+2018-10-25 23:01:00,142 INFO  DownloadService - Downloading "https://github.com/sathley/CreditCardEditText/archive/master.zip", attempt 3
+2018-10-25 23:01:00,688 INFO  DownloadService - Downloaded https://github.com/sathley/CreditCardEditText/archive/master.zip, attempt 3
+2018-10-25 23:01:00,688 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/master.zip": 108 KB
+2018-10-25 23:01:00,688 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-25 23:01:00,693 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/master.zip: true
+2018-10-25 23:01:00,694 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src'.
+2018-10-25 23:01:00,704 INFO  FullProcessService - Size of directory with sources: 113 KB
+2018-10-25 23:01:00,704 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src]
+2018-10-25 23:01:00,723 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src/.git/
+
+2018-10-25 23:01:00,725 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src/CreditCardEditText-master/gradlew
+2018-10-25 23:01:00,727 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src/CreditCardEditText-master/CreditCardNumberEditText/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src/CreditCardEditText-master/build.gradle
+2018-10-25 23:01:00,728 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src/CreditCardEditText-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src/CreditCardEditText-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src/CreditCardEditText-master/CreditCardNumberEditText/build.gradle
+2018-10-25 23:01:00,729 INFO  ProjectBuildService - Remote scripts: none
+2018-10-25 23:01:00,729 INFO  ProjectFixService - Fixing project...
+2018-10-25 23:01:00,733 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src/CreditCardEditText-master/CreditCardNumberEditText/local.properties
+2018-10-25 23:01:00,734 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src/CreditCardEditText-master/CreditCardNumberEditText/build.gradle": [buildToolsVersion=20.0.0,compileSdkVersion=19,minSdkVersion=8,targetSdkVersion=19]
+2018-10-25 23:01:00,734 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src/CreditCardEditText-master/local.properties
+2018-10-25 23:01:00,734 INFO  WrapperPropertiesFixService - Gradle wrapper: http://services.gradle.org/distributions/gradle-1.12-all.zip
+2018-10-25 23:01:00,735 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (http://services.gradle.org/distributions/gradle-1.12-bin.zip)
+2018-10-25 23:01:00,736 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src/CreditCardEditText-master/build.gradle": [buildToolsVersion=20.0.0,compileSdkVersion=19,minSdkVersion=8,targetSdkVersion=19]
+2018-10-25 23:01:00,736 INFO  ProjectFixService - Project was maybe fixed
+2018-10-25 23:01:00,736 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-25 23:01:00,736 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src/CreditCardEditText-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src/CreditCardEditText-master/CreditCardNumberEditText/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-25 23:01:30,768 INFO  ProjectTaskService - Detected possible tasks: 55
+2018-10-25 23:01:30,768 INFO  ProjectTaskService - Excluded tasks (8): lintDebug deviceCheck lint connectedCheck uninstallAll check connectedAndroidTest lintRelease
+2018-10-25 23:01:30,768 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src/CreditCardEditText-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src/CreditCardEditText-master/CreditCardNumberEditText/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-10-25 23:01:39,004 INFO  SysUtils - Configuration on demand is an incubating feature.
+Relying on packaging to define the extension of the main artifact has been deprecated and is scheduled to be removed in Gradle 2.0
+:CreditCardNumberEditText:compileLint
+:CreditCardNumberEditText:copyDebugLint UP-TO-DATE
+:CreditCardNumberEditText:preBuild
+:CreditCardNumberEditText:preDebugBuild
+:CreditCardNumberEditText:checkDebugManifest
+:CreditCardNumberEditText:preDebugTestBuild
+:CreditCardNumberEditText:preReleaseBuild
+:CreditCardNumberEditText:prepareComAndroidSupportAppcompatV72000Library
+:CreditCardNumberEditText:prepareComAndroidSupportSupportV42000Library
+:CreditCardNumberEditText:prepareDebugDependencies
+:CreditCardNumberEditText:compileDebugAidl
+:CreditCardNumberEditText:compileDebugRenderscript
+:CreditCardNumberEditText:generateDebugBuildConfig
+:CreditCardNumberEditText:generateDebugAssets UP-TO-DATE
+:CreditCardNumberEditText:mergeDebugAssets
+:CreditCardNumberEditText:generateDebugResValues
+:CreditCardNumberEditText:generateDebugResources
+:CreditCardNumberEditText:mergeDebugResources
+:CreditCardNumberEditText:processDebugManifest
+:CreditCardNumberEditText:processDebugResources
+:CreditCardNumberEditText:generateDebugSources
+:CreditCardNumberEditText:compileDebugJava
+:CreditCardNumberEditText:extractDebugAnnotations
+:CreditCardNumberEditText:mergeDebugProguardFiles
+:CreditCardNumberEditText:processDebugJavaRes UP-TO-DATE
+:CreditCardNumberEditText:packageDebugJar
+:CreditCardNumberEditText:compileDebugNdk
+:CreditCardNumberEditText:packageDebugJniLibs UP-TO-DATE
+:CreditCardNumberEditText:packageDebugLocalJar UP-TO-DATE
+:CreditCardNumberEditText:packageDebugRenderscript UP-TO-DATE
+:CreditCardNumberEditText:packageDebugResources
+:CreditCardNumberEditText:bundleDebug
+:CreditCardNumberEditText:assembleDebug
+:CreditCardNumberEditText:copyReleaseLint UP-TO-DATE
+:CreditCardNumberEditText:checkReleaseManifest
+:CreditCardNumberEditText:prepareReleaseDependencies
+:CreditCardNumberEditText:compileReleaseAidl
+:CreditCardNumberEditText:compileReleaseRenderscript
+:CreditCardNumberEditText:generateReleaseBuildConfig
+:CreditCardNumberEditText:generateReleaseAssets UP-TO-DATE
+:CreditCardNumberEditText:mergeReleaseAssets
+:CreditCardNumberEditText:generateReleaseResValues
+:CreditCardNumberEditText:generateReleaseResources
+:CreditCardNumberEditText:mergeReleaseResources
+:CreditCardNumberEditText:processReleaseManifest
+:CreditCardNumberEditText:processReleaseResources
+:CreditCardNumberEditText:generateReleaseSources
+:CreditCardNumberEditText:compileReleaseJava
+:CreditCardNumberEditText:extractReleaseAnnotations
+:CreditCardNumberEditText:mergeReleaseProguardFiles
+:CreditCardNumberEditText:processReleaseJavaRes UP-TO-DATE
+:CreditCardNumberEditText:packageReleaseJar
+:CreditCardNumberEditText:compileReleaseNdk
+:CreditCardNumberEditText:packageReleaseJniLibs UP-TO-DATE
+:CreditCardNumberEditText:packageReleaseLocalJar UP-TO-DATE
+:CreditCardNumberEditText:packageReleaseRenderscript UP-TO-DATE
+:CreditCardNumberEditText:packageReleaseResources
+:CreditCardNumberEditText:bundleRelease
+:CreditCardNumberEditText:assembleRelease
+:CreditCardNumberEditText:assemble
+:CreditCardNumberEditText:build
+
+BUILD SUCCESSFUL
+
+Total time: 7.723 secs
+
+2018-10-25 23:01:39,044 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-25 23:01:39,045 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src/CreditCardEditText-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src/CreditCardEditText-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-25 23:01:44,077 INFO  ProjectTaskService - Detected possible tasks: 50
+2018-10-25 23:01:44,077 INFO  ProjectTaskService - Excluded tasks (8): lintDebug deviceCheck lint connectedCheck uninstallAll check connectedAndroidTest lintRelease
+2018-10-25 23:01:44,077 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src/CreditCardEditText-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src/CreditCardEditText-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-10-25 23:01:50,196 INFO  SysUtils - Configuration on demand is an incubating feature.
+Relying on packaging to define the extension of the main artifact has been deprecated and is scheduled to be removed in Gradle 2.0
+:CreditCardNumberEditText:compileLint
+:CreditCardNumberEditText:copyDebugLint UP-TO-DATE
+:CreditCardNumberEditText:preBuild
+:CreditCardNumberEditText:preDebugBuild
+:CreditCardNumberEditText:checkDebugManifest
+:CreditCardNumberEditText:preDebugTestBuild
+:CreditCardNumberEditText:preReleaseBuild
+:CreditCardNumberEditText:prepareComAndroidSupportAppcompatV72000Library UP-TO-DATE
+:CreditCardNumberEditText:prepareComAndroidSupportSupportV42000Library UP-TO-DATE
+:CreditCardNumberEditText:prepareDebugDependencies
+:CreditCardNumberEditText:compileDebugAidl UP-TO-DATE
+:CreditCardNumberEditText:compileDebugRenderscript UP-TO-DATE
+:CreditCardNumberEditText:generateDebugBuildConfig UP-TO-DATE
+:CreditCardNumberEditText:generateDebugAssets UP-TO-DATE
+:CreditCardNumberEditText:mergeDebugAssets UP-TO-DATE
+:CreditCardNumberEditText:generateDebugResValues UP-TO-DATE
+:CreditCardNumberEditText:generateDebugResources UP-TO-DATE
+:CreditCardNumberEditText:mergeDebugResources UP-TO-DATE
+:CreditCardNumberEditText:processDebugManifest UP-TO-DATE
+:CreditCardNumberEditText:processDebugResources UP-TO-DATE
+:CreditCardNumberEditText:generateDebugSources UP-TO-DATE
+:CreditCardNumberEditText:compileDebugJava UP-TO-DATE
+:CreditCardNumberEditText:extractDebugAnnotations
+:CreditCardNumberEditText:mergeDebugProguardFiles UP-TO-DATE
+:CreditCardNumberEditText:processDebugJavaRes UP-TO-DATE
+:CreditCardNumberEditText:packageDebugJar UP-TO-DATE
+:CreditCardNumberEditText:compileDebugNdk UP-TO-DATE
+:CreditCardNumberEditText:packageDebugJniLibs UP-TO-DATE
+:CreditCardNumberEditText:packageDebugLocalJar UP-TO-DATE
+:CreditCardNumberEditText:packageDebugRenderscript UP-TO-DATE
+:CreditCardNumberEditText:packageDebugResources UP-TO-DATE
+:CreditCardNumberEditText:bundleDebug
+:CreditCardNumberEditText:assembleDebug
+:CreditCardNumberEditText:copyReleaseLint UP-TO-DATE
+:CreditCardNumberEditText:checkReleaseManifest
+:CreditCardNumberEditText:prepareReleaseDependencies
+:CreditCardNumberEditText:compileReleaseAidl UP-TO-DATE
+:CreditCardNumberEditText:compileReleaseRenderscript UP-TO-DATE
+:CreditCardNumberEditText:generateReleaseBuildConfig UP-TO-DATE
+:CreditCardNumberEditText:generateReleaseAssets UP-TO-DATE
+:CreditCardNumberEditText:mergeReleaseAssets UP-TO-DATE
+:CreditCardNumberEditText:generateReleaseResValues UP-TO-DATE
+:CreditCardNumberEditText:generateReleaseResources UP-TO-DATE
+:CreditCardNumberEditText:mergeReleaseResources UP-TO-DATE
+:CreditCardNumberEditText:processReleaseManifest UP-TO-DATE
+:CreditCardNumberEditText:processReleaseResources UP-TO-DATE
+:CreditCardNumberEditText:generateReleaseSources UP-TO-DATE
+:CreditCardNumberEditText:compileReleaseJava UP-TO-DATE
+:CreditCardNumberEditText:extractReleaseAnnotations
+:CreditCardNumberEditText:mergeReleaseProguardFiles UP-TO-DATE
+:CreditCardNumberEditText:processReleaseJavaRes UP-TO-DATE
+:CreditCardNumberEditText:packageReleaseJar UP-TO-DATE
+:CreditCardNumberEditText:compileReleaseNdk UP-TO-DATE
+:CreditCardNumberEditText:packageReleaseJniLibs UP-TO-DATE
+:CreditCardNumberEditText:packageReleaseLocalJar UP-TO-DATE
+:CreditCardNumberEditText:packageReleaseRenderscript UP-TO-DATE
+:CreditCardNumberEditText:packageReleaseResources UP-TO-DATE
+:CreditCardNumberEditText:bundleRelease
+:CreditCardNumberEditText:assembleRelease
+:CreditCardNumberEditText:assemble
+:CreditCardNumberEditText:build
+
+BUILD SUCCESSFUL
+
+Total time: 5.605 secs
+
+2018-10-25 23:01:50,240 ERROR FullProcessService - Project build has not produced APK file
+2018-10-25 23:01:50,274 ERROR FullProcessService - Could not find generated or existed APK file
