@@ -1,43 +1,43 @@
-2019-04-18 22:07:58,812 INFO  DownloadService - Downloading "https://github.com/hummatli/SimpleEncryptionLib/archive/master.zip", attempt 3
-2019-04-18 22:08:59,378 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-04-18 22:09:00,787 INFO  GithubDownloadService - Default branch of this repository: master
-2019-04-18 22:09:00,787 INFO  DownloadService - Downloading "https://github.com/hummatli/SimpleEncryptionLib/archive/master.zip", attempt 3
-2019-04-18 22:10:02,085 DEBUG FullProcessService - Repository https://github.com/hummatli/SimpleEncryptionLib available: true
-2019-04-18 22:10:02,085 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-04-18 22:10:02,085 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/hummatli/SimpleEncryptionLib, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src]
-2019-04-18 22:10:08,649 INFO  SysUtils - 
-2019-04-18 22:10:08,660 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/.git": true
-2019-04-18 22:10:08,665 INFO  FullProcessService - Size of directory with sources: 11 MB
-2019-04-18 22:10:08,665 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src]
-2019-04-18 22:10:08,682 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/.git/
+2019-06-16 16:16:03,927 INFO  DownloadService - Downloading "https://github.com/hummatli/SimpleEncryptionLib/archive/master.zip", attempt 3
+2019-06-16 16:17:04,449 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-06-16 16:17:05,287 INFO  GithubDownloadService - Default branch of this repository: master
+2019-06-16 16:17:05,287 INFO  DownloadService - Downloading "https://github.com/hummatli/SimpleEncryptionLib/archive/master.zip", attempt 3
+2019-06-16 16:18:06,585 DEBUG FullProcessService - Repository https://github.com/hummatli/SimpleEncryptionLib available: true
+2019-06-16 16:18:06,585 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-06-16 16:18:06,585 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/hummatli/SimpleEncryptionLib, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src]
+2019-06-16 16:18:17,214 INFO  SysUtils - 
+2019-06-16 16:18:17,224 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/.git": true
+2019-06-16 16:18:17,228 INFO  FullProcessService - Size of directory with sources: 11 MB
+2019-06-16 16:18:17,228 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src]
+2019-06-16 16:18:17,247 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/.git/
 
-2019-04-18 22:10:08,687 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/gradlew
-2019-04-18 22:10:08,692 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/android-sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/java-sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/simple-encryptor-lib/build.gradle
-2019-04-18 22:10:08,697 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/simple-encryptor-lib/conf_for_maven/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/simple-encryptor-lib/conf_for_maven/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/simple-encryptor-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/java-sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/android-sample-app/signing_confs/sample_conf.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/android-sample-app/build.gradle
-2019-04-18 22:10:08,698 INFO  ProjectBuildService - Remote scripts: none
-2019-04-18 22:10:08,698 INFO  ProjectFixService - Fixing project...
-2019-04-18 22:10:08,709 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/android-sample-app/local.properties
-2019-04-18 22:10:08,710 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/android-sample-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-04-18 22:10:08,710 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/android-sample-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-04-18 22:10:08,711 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/local.properties
-2019-04-18 22:10:08,711 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-04-18 22:10:08,711 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-04-18 22:10:08,714 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-04-18 22:10:08,714 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-04-18 22:10:08,714 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/java-sample-app/local.properties
-2019-04-18 22:10:08,717 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/java-sample-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-04-18 22:10:08,717 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/java-sample-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-04-18 22:10:08,718 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/simple-encryptor-lib/local.properties
-2019-04-18 22:10:08,721 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/simple-encryptor-lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-04-18 22:10:08,721 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/simple-encryptor-lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-04-18 22:10:08,721 INFO  ProjectFixService - Project was maybe fixed
-2019-04-18 22:10:08,722 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 22:10:08,722 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/android-sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 22:10:15,046 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-18 22:10:15,046 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-18 22:10:15,046 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-18 22:10:15,046 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/android-sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-18 22:10:18,913 ERROR SysUtils - Could not process external command
+2019-06-16 16:18:17,251 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/gradlew
+2019-06-16 16:18:17,256 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/android-sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/java-sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/simple-encryptor-lib/build.gradle
+2019-06-16 16:18:17,259 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/simple-encryptor-lib/conf_for_maven/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/simple-encryptor-lib/conf_for_maven/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/simple-encryptor-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/java-sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/android-sample-app/signing_confs/sample_conf.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/android-sample-app/build.gradle
+2019-06-16 16:18:17,260 INFO  ProjectBuildService - Remote scripts: none
+2019-06-16 16:18:17,260 INFO  ProjectFixService - Fixing project...
+2019-06-16 16:18:17,269 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/android-sample-app/local.properties
+2019-06-16 16:18:17,271 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/android-sample-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-06-16 16:18:17,271 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/android-sample-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-06-16 16:18:17,272 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/local.properties
+2019-06-16 16:18:17,272 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-06-16 16:18:17,272 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-06-16 16:18:17,275 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-06-16 16:18:17,276 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-06-16 16:18:17,276 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/java-sample-app/local.properties
+2019-06-16 16:18:17,279 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/java-sample-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-06-16 16:18:17,280 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/java-sample-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-06-16 16:18:17,280 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/simple-encryptor-lib/local.properties
+2019-06-16 16:18:17,283 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/simple-encryptor-lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-06-16 16:18:17,283 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/simple-encryptor-lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-06-16 16:18:17,284 INFO  ProjectFixService - Project was maybe fixed
+2019-06-16 16:18:17,284 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-16 16:18:17,284 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/android-sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-16 16:18:22,743 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-06-16 16:18:22,743 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-06-16 16:18:22,743 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-06-16 16:18:22,743 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/android-sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-06-16 16:18:27,527 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -50,21 +50,22 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 22:10:18,913 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-16 16:18:27,527 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :android-sample-app
 Project evaluation failed including an error in afterEvaluate {}.
@@ -204,11 +205,11 @@ java.lang.IllegalStateException: compileSdkVersion is not specified.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/android-sample-app/build.gradle' line: 4
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/android-sample-app/build.gradle' line: 4
 
 * What went wrong:
 A problem occurred evaluating project ':android-sample-app'.
-> Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/android-sample-app/signing_confs/conf.gradle' as it does not exist.
+> Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/android-sample-app/signing_confs/conf.gradle' as it does not exist.
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -320,7 +321,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':an
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: org.gradle.api.UncheckedIOException: Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/android-sample-app/signing_confs/conf.gradle' as it does not exist.
+Caused by: org.gradle.api.UncheckedIOException: Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/android-sample-app/signing_confs/conf.gradle' as it does not exist.
 	at org.gradle.groovy.scripts.internal.DefaultScriptSourceHasher.hash(DefaultScriptSourceHasher.java:48)
 	at org.gradle.groovy.scripts.internal.CrossBuildInMemoryCachingScriptClassCache.getOrCompile(CrossBuildInMemoryCachingScriptClassCache.java:45)
 	at org.gradle.groovy.scripts.internal.BuildScopeInMemoryCachingScriptClassCompiler.compile(BuildScopeInMemoryCachingScriptClassCompiler.java:50)
@@ -343,10 +344,10 @@ Caused by: org.gradle.api.UncheckedIOException: Could not read script '/private/
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_ei0gaphwypgz418v526mh33tw.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/android-sample-app/build.gradle:4)
+	at build_ahw93o01hr4o9n43jv4orh50r.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/android-sample-app/build.gradle:4)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 104 more
-Caused by: java.io.FileNotFoundException: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/android-sample-app/signing_confs/conf.gradle (No such file or directory)
+Caused by: java.io.FileNotFoundException: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/android-sample-app/signing_confs/conf.gradle (No such file or directory)
 	at org.gradle.internal.hash.DefaultFileHasher.hash(DefaultFileHasher.java:38)
 	at org.gradle.api.internal.changedetection.state.CachingFileHasher.snapshot(CachingFileHasher.java:89)
 	at org.gradle.api.internal.changedetection.state.CachingFileHasher.snapshot(CachingFileHasher.java:72)
@@ -357,15 +358,15 @@ Caused by: java.io.FileNotFoundException: /private/var/folders/bq/vtzpc5ns5sg2ct
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 3s
+BUILD FAILED in 4s
 
-2019-04-18 22:10:18,920 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 22:10:18,920 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 22:10:22,901 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-18 22:10:22,901 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-18 22:10:22,901 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-18 22:10:22,901 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-18 22:10:26,716 ERROR SysUtils - Could not process external command
+2019-06-16 16:18:27,536 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-16 16:18:27,536 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-16 16:18:33,704 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-06-16 16:18:33,705 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-06-16 16:18:33,705 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-06-16 16:18:33,705 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-06-16 16:18:38,973 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -378,21 +379,22 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 22:10:26,716 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-16 16:18:38,973 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :android-sample-app
 Project evaluation failed including an error in afterEvaluate {}.
@@ -532,11 +534,11 @@ java.lang.IllegalStateException: compileSdkVersion is not specified.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/android-sample-app/build.gradle' line: 4
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/android-sample-app/build.gradle' line: 4
 
 * What went wrong:
 A problem occurred evaluating project ':android-sample-app'.
-> Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/android-sample-app/signing_confs/conf.gradle' as it does not exist.
+> Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/android-sample-app/signing_confs/conf.gradle' as it does not exist.
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -648,7 +650,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':an
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: org.gradle.api.UncheckedIOException: Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/android-sample-app/signing_confs/conf.gradle' as it does not exist.
+Caused by: org.gradle.api.UncheckedIOException: Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/android-sample-app/signing_confs/conf.gradle' as it does not exist.
 	at org.gradle.groovy.scripts.internal.DefaultScriptSourceHasher.hash(DefaultScriptSourceHasher.java:48)
 	at org.gradle.groovy.scripts.internal.CrossBuildInMemoryCachingScriptClassCache.getOrCompile(CrossBuildInMemoryCachingScriptClassCache.java:45)
 	at org.gradle.groovy.scripts.internal.BuildScopeInMemoryCachingScriptClassCompiler.compile(BuildScopeInMemoryCachingScriptClassCompiler.java:50)
@@ -671,10 +673,10 @@ Caused by: org.gradle.api.UncheckedIOException: Could not read script '/private/
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_ei0gaphwypgz418v526mh33tw.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/android-sample-app/build.gradle:4)
+	at build_ahw93o01hr4o9n43jv4orh50r.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/android-sample-app/build.gradle:4)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 104 more
-Caused by: java.io.FileNotFoundException: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/android-sample-app/signing_confs/conf.gradle (No such file or directory)
+Caused by: java.io.FileNotFoundException: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/android-sample-app/signing_confs/conf.gradle (No such file or directory)
 	at org.gradle.internal.hash.DefaultFileHasher.hash(DefaultFileHasher.java:38)
 	at org.gradle.api.internal.changedetection.state.CachingFileHasher.snapshot(CachingFileHasher.java:89)
 	at org.gradle.api.internal.changedetection.state.CachingFileHasher.snapshot(CachingFileHasher.java:72)
@@ -685,20 +687,20 @@ Caused by: java.io.FileNotFoundException: /private/var/folders/bq/vtzpc5ns5sg2ct
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 3s
+BUILD FAILED in 5s
 
-2019-04-18 22:10:26,723 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 22:10:26,723 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/java-sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 22:10:30,600 INFO  ProjectTaskService - Detected possible tasks: 39
-2019-04-18 22:10:30,600 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
-2019-04-18 22:10:30,600 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/java-sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
-2019-04-18 22:10:40,527 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-16 16:18:38,977 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-16 16:18:38,977 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/java-sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-16 16:18:42,757 INFO  ProjectTaskService - Detected possible tasks: 39
+2019-06-16 16:18:42,757 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
+2019-06-16 16:18:42,757 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/java-sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
+2019-06-16 16:18:54,171 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :java-sample-app:discoverMainScriptsExtensions
 
 > Task :simple-encryptor-lib:compileJava
 warning: [options] bootstrap class path not set in conjunction with -source 1.7
-
 1 warning
+
 > Task :simple-encryptor-lib:processResources NO-SOURCE
 > Task :simple-encryptor-lib:classes
 > Task :simple-encryptor-lib:jar
@@ -711,15 +713,15 @@ warning: [options] bootstrap class path not set in conjunction with -source 1.7
 > Task :java-sample-app:assemble
 > Task :java-sample-app:build
 
-BUILD SUCCESSFUL in 9s
+BUILD SUCCESSFUL in 10s
 7 actionable tasks: 7 executed
 
-2019-04-18 22:10:40,542 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 22:10:40,543 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/simple-encryptor-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 22:10:44,285 INFO  ProjectTaskService - Detected possible tasks: 42
-2019-04-18 22:10:44,285 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-04-18 22:10:44,285 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555600078809-0/src/simple-encryptor-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-04-18 22:10:48,084 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-16 16:18:54,178 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-16 16:18:54,178 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/simple-encryptor-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-16 16:18:58,273 INFO  ProjectTaskService - Detected possible tasks: 42
+2019-06-16 16:18:58,273 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-06-16 16:18:58,273 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676563923-0/src/simple-encryptor-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-06-16 16:19:02,500 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :simple-encryptor-lib:compileJava UP-TO-DATE
 > Task :simple-encryptor-lib:processResources NO-SOURCE
 > Task :simple-encryptor-lib:classes UP-TO-DATE
@@ -729,8 +731,8 @@ BUILD SUCCESSFUL in 9s
 > Task :simple-encryptor-lib:assemble
 > Task :simple-encryptor-lib:build
 
-BUILD SUCCESSFUL in 3s
+BUILD SUCCESSFUL in 4s
 4 actionable tasks: 2 executed, 2 up-to-date
 
-2019-04-18 22:10:48,093 ERROR FullProcessService - Project build has not produced APK file
-2019-04-18 22:10:48,101 ERROR FullProcessService - Could not find generated or existed APK file
+2019-06-16 16:19:02,506 ERROR FullProcessService - Project build has not produced APK file
+2019-06-16 16:19:02,512 ERROR FullProcessService - Could not find generated or existed APK file
