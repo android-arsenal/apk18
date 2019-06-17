@@ -1,36 +1,36 @@
-2018-10-18 22:07:05,993 INFO  DownloadService - Downloading "https://github.com/thepacific/mvc-android/archive/master.zip", attempt 3
-2018-10-18 22:07:06,729 INFO  DownloadService - Downloaded https://github.com/thepacific/mvc-android/archive/master.zip, attempt 3
-2018-10-18 22:07:06,729 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/master.zip": 293 KB
-2018-10-18 22:07:06,729 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-18 22:07:06,730 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/master.zip: true
-2018-10-18 22:07:06,730 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src'.
-2018-10-18 22:07:06,789 INFO  FullProcessService - Size of directory with sources: 472 KB
-2018-10-18 22:07:06,789 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src]
-2018-10-18 22:07:06,805 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src/.git/
+2019-06-17 21:36:20,737 INFO  DownloadService - Downloading "https://github.com/thepacific/mvc-android/archive/master.zip", attempt 3
+2019-06-17 21:36:21,720 INFO  DownloadService - Downloaded https://github.com/thepacific/mvc-android/archive/master.zip, attempt 3
+2019-06-17 21:36:21,720 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/master.zip": 293 KB
+2019-06-17 21:36:21,720 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-17 21:36:21,721 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/master.zip: true
+2019-06-17 21:36:21,721 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src'.
+2019-06-17 21:36:21,784 INFO  FullProcessService - Size of directory with sources: 472 KB
+2019-06-17 21:36:21,784 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src]
+2019-06-17 21:36:21,805 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/.git/
 
-2018-10-18 22:07:06,812 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src/android-architecture-master/architecture/gradlew
-2018-10-18 22:07:06,818 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src/android-architecture-master/architecture/arch/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src/android-architecture-master/architecture/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src/android-architecture-master/architecture/build.gradle
-2018-10-18 22:07:06,825 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src/android-architecture-master/architecture/config/doc_release.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src/android-architecture-master/architecture/config/lib_module_kotlin.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src/android-architecture-master/architecture/config/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src/android-architecture-master/architecture/config/bintray_push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src/android-architecture-master/architecture/config/app_module_kotlin.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src/android-architecture-master/architecture/config/check_style.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src/android-architecture-master/architecture/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src/android-architecture-master/architecture/arch/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src/android-architecture-master/architecture/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src/android-architecture-master/architecture/settings.gradle
-2018-10-18 22:07:06,826 INFO  ProjectBuildService - Remote scripts: none
-2018-10-18 22:07:06,826 INFO  ProjectFixService - Fixing project...
-2018-10-18 22:07:06,844 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src/android-architecture-master/architecture/arch/local.properties
-2018-10-18 22:07:06,853 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src/android-architecture-master/architecture/arch/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-10-18 22:07:06,853 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src/android-architecture-master/architecture/arch/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-10-18 22:07:06,854 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src/android-architecture-master/architecture/example/local.properties
-2018-10-18 22:07:06,861 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src/android-architecture-master/architecture/example/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-10-18 22:07:06,861 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src/android-architecture-master/architecture/example/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-10-18 22:07:06,862 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src/android-architecture-master/architecture/local.properties
-2018-10-18 22:07:06,863 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.5-all.zip
-2018-10-18 22:07:06,863 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.5-bin.zip)
-2018-10-18 22:07:06,869 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src/android-architecture-master/architecture/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-10-18 22:07:06,869 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src/android-architecture-master/architecture/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-10-18 22:07:06,870 INFO  ProjectFixService - Project was maybe fixed
-2018-10-18 22:07:06,870 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-18 22:07:06,870 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src/android-architecture-master/architecture/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src/android-architecture-master/architecture/arch/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-18 22:07:26,101 INFO  ProjectTaskService - Detected possible tasks: 66
-2018-10-18 22:07:26,101 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-10-18 22:07:26,102 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src/android-architecture-master/architecture/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src/android-architecture-master/architecture/arch/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-10-18 22:08:34,536 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-17 21:36:21,812 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/gradlew
+2019-06-17 21:36:21,818 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/arch/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/build.gradle
+2019-06-17 21:36:21,824 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/config/doc_release.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/config/lib_module_kotlin.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/config/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/config/bintray_push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/config/app_module_kotlin.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/config/check_style.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/arch/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/settings.gradle
+2019-06-17 21:36:21,824 INFO  ProjectBuildService - Remote scripts: none
+2019-06-17 21:36:21,824 INFO  ProjectFixService - Fixing project...
+2019-06-17 21:36:21,837 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/arch/local.properties
+2019-06-17 21:36:21,847 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/arch/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-06-17 21:36:21,847 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/arch/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-06-17 21:36:21,848 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/example/local.properties
+2019-06-17 21:36:21,856 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/example/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-06-17 21:36:21,856 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/example/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-06-17 21:36:21,857 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/local.properties
+2019-06-17 21:36:21,858 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.5-all.zip
+2019-06-17 21:36:21,858 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.5-bin.zip)
+2019-06-17 21:36:21,864 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-06-17 21:36:21,864 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-06-17 21:36:21,864 INFO  ProjectFixService - Project was maybe fixed
+2019-06-17 21:36:21,864 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-17 21:36:21,864 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/arch/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-17 21:36:39,520 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-06-17 21:36:39,520 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-06-17 21:36:39,520 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/arch/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-06-17 21:37:48,426 INFO  SysUtils - Configuration on demand is an incubating feature.
 arch: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.2.0-alpha08', 'com.android.databinding:compiler:3.2.0-alpha08'.
 :arch:preBuild UP-TO-DATE
 :arch:preDebugBuild UP-TO-DATE
@@ -39,54 +39,55 @@ arch: 'annotationProcessor' dependencies won't be recognized as kapt annotation 
 Download https://dl.google.com/dl/android/maven2/com/android/databinding/library/3.2.0-alpha08/library-3.2.0-alpha08.pom
 Download https://dl.google.com/dl/android/maven2/com/android/support/multidex/1.0.3/multidex-1.0.3.pom
 Download https://dl.google.com/dl/android/maven2/androidx/core/core-ktx/0.2/core-ktx-0.2.pom
-Download https://dl.google.com/dl/android/maven2/com/android/databinding/adapters/3.2.0-alpha08/adapters-3.2.0-alpha08.pom
-Download https://dl.google.com/dl/android/maven2/android/arch/paging/runtime/1.0.0-alpha7/runtime-1.0.0-alpha7.pom
 Download https://dl.google.com/dl/android/maven2/android/arch/persistence/room/rxjava2/1.1.0-beta1/rxjava2-1.1.0-beta1.pom
-Download https://dl.google.com/dl/android/maven2/android/arch/core/core-testing/1.1.1/core-testing-1.1.1.pom
 Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/reactivestreams/1.1.1/reactivestreams-1.1.1.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/paging/runtime/1.0.0-alpha7/runtime-1.0.0-alpha7.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/extensions/1.1.1/extensions-1.1.1.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/core/core-testing/1.1.1/core-testing-1.1.1.pom
 Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/common-java8/1.1.1/common-java8-1.1.1.pom
 Download https://dl.google.com/dl/android/maven2/android/arch/persistence/room/runtime/1.1.0-beta1/runtime-1.1.0-beta1.pom
 Download https://jcenter.bintray.com/javax/annotation/javax.annotation-api/1.3/javax.annotation-api-1.3.pom
-Download https://jcenter.bintray.com/com/google/auto/value/auto-value-annotations/1.6/auto-value-annotations-1.6.pom
+Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.1.12/rxjava-2.1.12.pom
 Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.2.30/kotlin-stdlib-jdk8-1.2.30.pom
-Download https://jcenter.bintray.com/com/uber/autodispose/autodispose-android/0.7.0/autodispose-android-0.7.0.pom
-Download https://jcenter.bintray.com/com/google/auto/value/auto-value-parent/1.6/auto-value-parent-1.6.pom
-Download https://jcenter.bintray.com/com/uber/autodispose/autodispose-android-archcomponents/0.7.0/autodispose-android-archcomponents-0.7.0.pom
 Download https://jcenter.bintray.com/com/uber/autodispose/autodispose-kotlin/0.7.0/autodispose-kotlin-0.7.0.pom
-Download https://jcenter.bintray.com/com/uber/autodispose/autodispose-android-archcomponents-kotlin/0.7.0/autodispose-android-archcomponents-kotlin-0.7.0.pom
 Download https://jcenter.bintray.com/com/uber/autodispose/autodispose-android-kotlin/0.7.0/autodispose-android-kotlin-0.7.0.pom
-Download https://jcenter.bintray.com/com/uber/autodispose/autodispose-android-archcomponents-test-kotlin/0.7.0/autodispose-android-archcomponents-test-kotlin-0.7.0.pom
-Download https://jcenter.bintray.com/com/google/dagger/dagger-android/2.15/dagger-android-2.15.pom
-Download https://jcenter.bintray.com/com/google/dagger/dagger-android-support/2.15/dagger-android-support-2.15.pom
-Download https://jcenter.bintray.com/com/jakewharton/process-phoenix/2.0.0/process-phoenix-2.0.0.pom
+Download https://jcenter.bintray.com/com/uber/autodispose/autodispose-android-archcomponents-kotlin/0.7.0/autodispose-android-archcomponents-kotlin-0.7.0.pom
 Download https://jcenter.bintray.com/com/uber/autodispose/autodispose/0.7.0/autodispose-0.7.0.pom
-Download https://jcenter.bintray.com/se/ansman/kotshi/api/1.0.0/api-1.0.0.pom
-Download https://jcenter.bintray.com/com/uber/autodispose/autodispose-android-archcomponents-test/0.7.0/autodispose-android-archcomponents-test-0.7.0.pom
+Download https://jcenter.bintray.com/com/uber/autodispose/autodispose-android-archcomponents-test-kotlin/0.7.0/autodispose-android-archcomponents-test-kotlin-0.7.0.pom
+Download https://jcenter.bintray.com/com/uber/autodispose/autodispose-android/0.7.0/autodispose-android-0.7.0.pom
+Download https://jcenter.bintray.com/com/uber/autodispose/autodispose-android-archcomponents/0.7.0/autodispose-android-archcomponents-0.7.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/databinding/adapters/3.2.0-alpha08/adapters-3.2.0-alpha08.pom
+Download https://jcenter.bintray.com/com/jakewharton/process-phoenix/2.0.0/process-phoenix-2.0.0.pom
 Download https://jcenter.bintray.com/com/squareup/moshi/moshi-kotlin/1.5.0/moshi-kotlin-1.5.0.pom
+Download https://jcenter.bintray.com/com/uber/autodispose/autodispose-android-archcomponents-test/0.7.0/autodispose-android-archcomponents-test-0.7.0.pom
 Download https://jcenter.bintray.com/org/jooq/joor-java-6/0.9.7/joor-java-6-0.9.7.pom
+Download https://jcenter.bintray.com/se/ansman/kotshi/api/1.0.0/api-1.0.0.pom
 Download https://dl.google.com/dl/android/maven2/android/arch/persistence/room/common/1.1.0-beta1/common-1.1.0-beta1.pom
 Download https://dl.google.com/dl/android/maven2/android/arch/paging/common/1.0.0-alpha7/common-1.0.0-alpha7.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/26.1.0/support-fragment-26.1.0.pom
+Download https://jcenter.bintray.com/org/mockito/mockito-core/2.17.0/mockito-core-2.17.0.pom
 Download https://dl.google.com/dl/android/maven2/android/arch/persistence/db/1.1.0-beta1/db-1.1.0-beta1.pom
 Download https://dl.google.com/dl/android/maven2/android/arch/persistence/db-framework/1.1.0-beta1/db-framework-1.1.0-beta1.pom
 Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.2.30/kotlin-stdlib-jdk7-1.2.30.pom
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jre7/1.2.21/kotlin-stdlib-jre7-1.2.21.pom
 Download https://dl.google.com/dl/android/maven2/com/android/databinding/library/3.2.0-alpha08/library-3.2.0-alpha08.aar
 Download https://dl.google.com/dl/android/maven2/com/android/databinding/adapters/3.2.0-alpha08/adapters-3.2.0-alpha08.aar
 Download https://dl.google.com/dl/android/maven2/androidx/core/core-ktx/0.2/core-ktx-0.2.aar
-Download https://jcenter.bintray.com/com/google/dagger/dagger-android-support/2.15/dagger-android-support-2.15.aar
-Download https://jcenter.bintray.com/com/google/dagger/dagger-android/2.15/dagger-android-2.15.aar
-Download https://jcenter.bintray.com/com/uber/autodispose/autodispose-android-archcomponents-kotlin/0.7.0/autodispose-android-archcomponents-kotlin-0.7.0.aar
 Download https://jcenter.bintray.com/com/uber/autodispose/autodispose-android-kotlin/0.7.0/autodispose-android-kotlin-0.7.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/multidex/1.0.3/multidex-1.0.3.aar
+Download https://dl.google.com/dl/android/maven2/android/arch/persistence/room/rxjava2/1.1.0-beta1/rxjava2-1.1.0-beta1.aar
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/reactivestreams/1.1.1/reactivestreams-1.1.1.aar
 Download https://jcenter.bintray.com/com/uber/autodispose/autodispose-android-archcomponents-test-kotlin/0.7.0/autodispose-android-archcomponents-test-kotlin-0.7.0.aar
 Download https://dl.google.com/dl/android/maven2/android/arch/paging/runtime/1.0.0-alpha7/runtime-1.0.0-alpha7.aar
 Download https://dl.google.com/dl/android/maven2/android/arch/core/core-testing/1.1.1/core-testing-1.1.1.aar
 Download https://dl.google.com/dl/android/maven2/android/arch/persistence/room/runtime/1.1.0-beta1/runtime-1.1.0-beta1.aar
-Download https://dl.google.com/dl/android/maven2/android/arch/persistence/room/rxjava2/1.1.0-beta1/rxjava2-1.1.0-beta1.aar
 Download https://jcenter.bintray.com/com/uber/autodispose/autodispose-android-archcomponents/0.7.0/autodispose-android-archcomponents-0.7.0.aar
 Download https://jcenter.bintray.com/com/uber/autodispose/autodispose-android/0.7.0/autodispose-android-0.7.0.aar
-Download https://jcenter.bintray.com/com/uber/autodispose/autodispose-android-archcomponents-test/0.7.0/autodispose-android-archcomponents-test-0.7.0.aar
 Download https://jcenter.bintray.com/com/jakewharton/process-phoenix/2.0.0/process-phoenix-2.0.0.aar
 Download https://dl.google.com/dl/android/maven2/android/arch/persistence/db-framework/1.1.0-beta1/db-framework-1.1.0-beta1.aar
 Download https://dl.google.com/dl/android/maven2/android/arch/persistence/db/1.1.0-beta1/db-1.1.0-beta1.aar
+Download https://jcenter.bintray.com/com/uber/autodispose/autodispose-android-archcomponents-test/0.7.0/autodispose-android-archcomponents-test-0.7.0.aar
+Download https://jcenter.bintray.com/com/uber/autodispose/autodispose-android-archcomponents-kotlin/0.7.0/autodispose-android-archcomponents-kotlin-0.7.0.aar
 :arch:generateDebugResValues
 :arch:generateDebugResources
 :arch:mergeDebugResources
@@ -123,40 +124,52 @@ Download https://dl.google.com/dl/android/maven2/android/arch/persistence/db/1.1
 :arch:generateReleaseBuildConfig
 :arch:packageReleaseResources
 :arch:processReleaseManifest
+:arch:transformDataBindingWithDataBindingMergeArtifactsForRelease
+:arch:mergeReleaseConsumerProguardFiles
+:arch:mergeReleaseShaders
+:arch:compileReleaseShaders
+:arch:generateReleaseAssets
+:arch:packageReleaseAssets
+:arch:packageReleaseRenderscript NO-SOURCE
+:arch:processReleaseJavaRes NO-SOURCE
+:arch:compileReleaseNdk NO-SOURCE
+:arch:mergeReleaseJniLibFolders
+:arch:transformNativeLibsWithMergeJniLibsForRelease
+:arch:transformNativeLibsWithStripDebugSymbolForRelease
+:arch:transformNativeLibsWithSyncJniLibsForRelease
+:arch:verifyReleaseResources
 :arch:generateDebugRFile
 :arch:generateDebugSources
 :arch:dataBindingExportBuildInfoDebug
-Download https://jcenter.bintray.com/com/uber/autodispose/autodispose-kotlin/0.7.0/autodispose-kotlin-0.7.0.jar
 Download https://jcenter.bintray.com/com/squareup/moshi/moshi-kotlin/1.5.0/moshi-kotlin-1.5.0.jar
+Download https://jcenter.bintray.com/com/uber/autodispose/autodispose-kotlin/0.7.0/autodispose-kotlin-0.7.0.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.2.30/kotlin-stdlib-jdk7-1.2.30.jar
 Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.2.30/kotlin-stdlib-jdk8-1.2.30.jar
 Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/common-java8/1.1.1/common-java8-1.1.1.jar
-Download https://jcenter.bintray.com/se/ansman/kotshi/api/1.0.0/api-1.0.0.jar
-Download https://jcenter.bintray.com/com/google/auto/value/auto-value-annotations/1.6/auto-value-annotations-1.6.jar
 Download https://jcenter.bintray.com/javax/annotation/javax.annotation-api/1.3/javax.annotation-api-1.3.jar
+Download https://jcenter.bintray.com/com/uber/autodispose/autodispose/0.7.0/autodispose-0.7.0.jar
 Download https://dl.google.com/dl/android/maven2/android/arch/persistence/room/common/1.1.0-beta1/common-1.1.0-beta1.jar
 Download https://dl.google.com/dl/android/maven2/android/arch/paging/common/1.0.0-alpha7/common-1.0.0-alpha7.jar
+Download https://jcenter.bintray.com/se/ansman/kotshi/api/1.0.0/api-1.0.0.jar
+Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.1.12/rxjava-2.1.12.jar
 Download https://jcenter.bintray.com/org/jooq/joor-java-6/0.9.7/joor-java-6-0.9.7.jar
-Download https://jcenter.bintray.com/com/uber/autodispose/autodispose/0.7.0/autodispose-0.7.0.jar
+Download https://jcenter.bintray.com/org/mockito/mockito-core/2.17.0/mockito-core-2.17.0.jar
 :arch:kaptGenerateStubsDebugKotlin
 Download https://dl.google.com/dl/android/maven2/android/arch/persistence/room/compiler/1.1.0-beta1/compiler-1.1.0-beta1.pom
 Download https://dl.google.com/dl/android/maven2/com/android/databinding/compiler/3.2.0-alpha08/compiler-3.2.0-alpha08.pom
 Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/compiler/1.1.1/compiler-1.1.1.pom
-Download https://jcenter.bintray.com/com/google/dagger/dagger-android-processor/2.15/dagger-android-processor-2.15.pom
 Download https://jcenter.bintray.com/com/google/auto/value/auto-value/1.6/auto-value-1.6.pom
 Download https://jcenter.bintray.com/se/ansman/kotshi/compiler/1.0.0/compiler-1.0.0.pom
 Download https://dl.google.com/dl/android/maven2/android/arch/persistence/room/migration/1.1.0-beta1/migration-1.1.0-beta1.pom
 Download https://jcenter.bintray.com/me/eugeniomarletti/kotlin-metadata/1.2.1/kotlin-metadata-1.2.1.pom
-Download https://jcenter.bintray.com/com/google/dagger/dagger-android-support-jarimpl/2.15/dagger-android-support-jarimpl-2.15.pom
-Download https://jcenter.bintray.com/com/google/dagger/dagger-android-jarimpl/2.15/dagger-android-jarimpl-2.15.pom
-Download https://dl.google.com/dl/android/maven2/com/android/databinding/compiler/3.2.0-alpha08/compiler-3.2.0-alpha08.jar
-Download https://jcenter.bintray.com/com/google/dagger/dagger-android-processor/2.15/dagger-android-processor-2.15.jar
-Download https://dl.google.com/dl/android/maven2/android/arch/persistence/room/compiler/1.1.0-beta1/compiler-1.1.0-beta1.jar
+Download https://jcenter.bintray.com/com/google/errorprone/javac-shaded/9-dev-r4023-3/javac-shaded-9-dev-r4023-3.pom
 Download https://jcenter.bintray.com/me/eugeniomarletti/kotlin-metadata/1.2.1/kotlin-metadata-1.2.1.jar
-Download https://jcenter.bintray.com/se/ansman/kotshi/compiler/1.0.0/compiler-1.0.0.jar
-Download https://jcenter.bintray.com/com/google/dagger/dagger-android-support-jarimpl/2.15/dagger-android-support-jarimpl-2.15.jar
-Download https://jcenter.bintray.com/com/google/dagger/dagger-android-jarimpl/2.15/dagger-android-jarimpl-2.15.jar
-Download https://dl.google.com/dl/android/maven2/android/arch/persistence/room/migration/1.1.0-beta1/migration-1.1.0-beta1.jar
+Download https://dl.google.com/dl/android/maven2/com/android/databinding/compiler/3.2.0-alpha08/compiler-3.2.0-alpha08.jar
+Download https://dl.google.com/dl/android/maven2/android/arch/persistence/room/compiler/1.1.0-beta1/compiler-1.1.0-beta1.jar
 Download https://jcenter.bintray.com/com/google/auto/value/auto-value/1.6/auto-value-1.6.jar
+Download https://dl.google.com/dl/android/maven2/android/arch/persistence/room/migration/1.1.0-beta1/migration-1.1.0-beta1.jar
+Download https://jcenter.bintray.com/com/google/guava/guava/23.3-jre/guava-23.3-jre.jar
+Download https://jcenter.bintray.com/se/ansman/kotshi/compiler/1.0.0/compiler-1.0.0.jar
 :arch:kaptDebugKotlin
 :arch:compileDebugKotlin
 :arch:javaPreCompileDebug
@@ -164,20 +177,20 @@ Download https://jcenter.bintray.com/com/google/auto/value/auto-value/1.6/auto-v
 :arch:extractDebugAnnotations
 Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.2.0-alpha08/lint-gradle-26.2.0-alpha08.pom
 Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.2.0-alpha08/intellij-core-26.2.0-alpha08.pom
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.2.0-alpha08/uast-26.2.0-alpha08.pom
 Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.2.0-alpha08/lint-26.2.0-alpha08.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.2.0-alpha08/uast-26.2.0-alpha08.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.2.0-alpha08/kotlin-compiler-26.2.0-alpha08.pom
 Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.2.0-alpha08/lint-kotlin-26.2.0-alpha08.pom
 Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.2.0-alpha08/lint-checks-26.2.0-alpha08.pom
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.2.0-alpha08/kotlin-compiler-26.2.0-alpha08.pom
 Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.2.0-alpha08/lint-api-26.2.0-alpha08.pom
 Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.2.0-alpha08/lint-gradle-26.2.0-alpha08.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.2.0-alpha08/lint-api-26.2.0-alpha08.jar
 Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.2.0-alpha08/lint-26.2.0-alpha08.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.2.0-alpha08/lint-kotlin-26.2.0-alpha08.jar
 Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.2.0-alpha08/lint-checks-26.2.0-alpha08.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.2.0-alpha08/lint-kotlin-26.2.0-alpha08.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.2.0-alpha08/kotlin-compiler-26.2.0-alpha08.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.2.0-alpha08/lint-api-26.2.0-alpha08.jar
 Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.2.0-alpha08/uast-26.2.0-alpha08.jar
 Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.2.0-alpha08/intellij-core-26.2.0-alpha08.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.2.0-alpha08/kotlin-compiler-26.2.0-alpha08.jar
 :arch:transformResourcesWithMergeJavaResForDebug
 :arch:transformClassesAndResourcesWithSyncLibJarsForDebug
 :arch:bundleDebug
@@ -187,42 +200,28 @@ Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-
 :arch:generateReleaseSources
 :arch:dataBindingExportBuildInfoRelease
 :arch:kaptGenerateStubsReleaseKotlin
-:arch:transformDataBindingWithDataBindingMergeArtifactsForRelease
 :arch:kaptReleaseKotlin
 :arch:compileReleaseKotlin
 :arch:javaPreCompileRelease
 :arch:compileReleaseJavaWithJavac
 :arch:extractReleaseAnnotations
-:arch:mergeReleaseConsumerProguardFiles
-:arch:mergeReleaseShaders
-:arch:compileReleaseShaders
-:arch:generateReleaseAssets
-:arch:packageReleaseAssets
-:arch:packageReleaseRenderscript NO-SOURCE
-:arch:processReleaseJavaRes NO-SOURCE
 :arch:transformResourcesWithMergeJavaResForRelease
 :arch:transformClassesAndResourcesWithSyncLibJarsForRelease
-:arch:compileReleaseNdk NO-SOURCE
-:arch:mergeReleaseJniLibFolders
-:arch:transformNativeLibsWithMergeJniLibsForRelease
-:arch:transformNativeLibsWithStripDebugSymbolForRelease
-:arch:transformNativeLibsWithSyncJniLibsForRelease
 :arch:bundleRelease
 :arch:compileReleaseSources
-:arch:verifyReleaseResources
 :arch:assembleRelease
 :arch:assemble
 :arch:build
 
-BUILD SUCCESSFUL in 1m 7s
+BUILD SUCCESSFUL in 1m 8s
 61 actionable tasks: 61 executed
 
-2018-10-18 22:08:34,655 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-18 22:08:34,656 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src/android-architecture-master/architecture/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src/android-architecture-master/architecture/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-18 22:08:42,078 INFO  ProjectTaskService - Detected possible tasks: 68
-2018-10-18 22:08:42,078 INFO  ProjectTaskService - Excluded tasks (20): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-10-18 22:08:42,078 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src/android-architecture-master/architecture/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src/android-architecture-master/architecture/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-10-18 22:10:12,626 ERROR SysUtils - Could not process external command
+2019-06-17 21:37:48,516 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-17 21:37:48,516 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-17 21:37:57,241 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-06-17 21:37:57,241 INFO  ProjectTaskService - Excluded tasks (20): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-06-17 21:37:57,241 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-06-17 21:38:44,884 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -243,14 +242,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-18 22:10:12,629 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-17 21:38:44,886 INFO  SysUtils - Configuration on demand is an incubating feature.
 example: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.2.0-alpha08'.
 arch: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.2.0-alpha08', 'com.android.databinding:compiler:3.2.0-alpha08'.
 :arch:preBuild UP-TO-DATE
@@ -282,22 +281,31 @@ arch: 'annotationProcessor' dependencies won't be recognized as kapt annotation 
 :example:preBuild UP-TO-DATE
 :example:preDebugBuild
 Download https://dl.google.com/dl/android/maven2/com/android/support/constraint/constraint-layout/1.1.0-beta6/constraint-layout-1.1.0-beta6.pom
+Download https://jcenter.bintray.com/com/squareup/retrofit2/converter-moshi/2.4.0/converter-moshi-2.4.0.pom
+Download https://jcenter.bintray.com/com/jakewharton/timber/timber/4.7.0/timber-4.7.0.pom
+Download https://jcenter.bintray.com/com/github/bumptech/glide/okhttp3-integration/4.6.1/okhttp3-integration-4.6.1.pom
+Download https://jcenter.bintray.com/com/evernote/android-job/1.2.5/android-job-1.2.5.pom
+Download https://jcenter.bintray.com/com/squareup/retrofit2/adapter-rxjava2/2.4.0/adapter-rxjava2-2.4.0.pom
 Download https://jcenter.bintray.com/org/parceler/parceler-api/1.1.10/parceler-api-1.1.10.pom
 Download https://jcenter.bintray.com/com/github/bumptech/glide/glide/4.6.1/glide-4.6.1.pom
-Download https://jcenter.bintray.com/com/squareup/retrofit2/converter-moshi/2.4.0/converter-moshi-2.4.0.pom
-Download https://jcenter.bintray.com/com/evernote/android-job/1.2.5/android-job-1.2.5.pom
-Download https://jcenter.bintray.com/com/github/bumptech/glide/okhttp3-integration/4.6.1/okhttp3-integration-4.6.1.pom
-Download https://jcenter.bintray.com/org/parceler/parceler-project/1.1.10/parceler-project-1.1.10.pom
 Download https://jcenter.bintray.com/com/facebook/network/connectionclass/connectionclass/1.0.1/connectionclass-1.0.1.pom
+Download https://jcenter.bintray.com/org/parceler/parceler-project/1.1.10/parceler-project-1.1.10.pom
+Download https://jcenter.bintray.com/com/squareup/retrofit2/retrofit-adapters/2.4.0/retrofit-adapters-2.4.0.pom
+Download https://jcenter.bintray.com/com/jakewharton/threetenabp/threetenabp/1.0.5/threetenabp-1.0.5.pom
+Download https://jcenter.bintray.com/org/threeten/threetenbp/1.3.6/threetenbp-1.3.6.pom
 Download https://jcenter.bintray.com/com/github/thepacific/adapter/2.1.1/adapter-2.1.1.pom
 Download https://dl.google.com/dl/android/maven2/com/android/support/constraint/constraint-layout-solver/1.1.0-beta6/constraint-layout-solver-1.1.0-beta6.pom
 Download https://jcenter.bintray.com/com/github/bumptech/glide/annotations/4.6.1/annotations-4.6.1.pom
-Download https://jcenter.bintray.com/com/github/bumptech/glide/disklrucache/4.6.1/disklrucache-4.6.1.pom
 Download https://jcenter.bintray.com/com/github/bumptech/glide/gifdecoder/4.6.1/gifdecoder-4.6.1.pom
+Download https://jcenter.bintray.com/com/github/bumptech/glide/disklrucache/4.6.1/disklrucache-4.6.1.pom
 Download https://dl.google.com/dl/android/maven2/com/android/support/constraint/constraint-layout/1.1.0-beta6/constraint-layout-1.1.0-beta6.aar
-Download https://jcenter.bintray.com/com/github/thepacific/adapter/2.1.1/adapter-2.1.1.aar
-Download https://jcenter.bintray.com/com/github/bumptech/glide/okhttp3-integration/4.6.1/okhttp3-integration-4.6.1.aar
 Download https://jcenter.bintray.com/com/evernote/android-job/1.2.5/android-job-1.2.5.aar
+Download https://jcenter.bintray.com/com/jakewharton/threetenabp/threetenabp/1.0.5/threetenabp-1.0.5.aar
+Download https://jcenter.bintray.com/com/github/bumptech/glide/gifdecoder/4.6.1/gifdecoder-4.6.1.aar
+Download https://jcenter.bintray.com/com/facebook/stetho/stetho-okhttp3/1.5.0/stetho-okhttp3-1.5.0.aar
+Download https://jcenter.bintray.com/com/facebook/stetho/stetho/1.5.0/stetho-1.5.0.aar
+Download https://jcenter.bintray.com/com/github/bumptech/glide/glide/4.6.1/glide-4.6.1.aar
+Download https://jcenter.bintray.com/com/github/thepacific/adapter/2.1.1/adapter-2.1.1.aar
 :example:compileDebugAidl NO-SOURCE
 :arch:packageDebugRenderscript NO-SOURCE
 :example:compileDebugRenderscript
@@ -313,18 +321,6 @@ Download https://jcenter.bintray.com/com/evernote/android-job/1.2.5/android-job-
 :example:processDebugManifest
 :example:splitsDiscoveryTaskDebug
 :example:dataBindingExportFeaturePackageIdsDebug
-:example:dataBindingGenBaseClassesDebug
-:example:processDebugResources
-:example:generateDebugSources
-:example:dataBindingExportBuildInfoDebug
-Download https://dl.google.com/dl/android/maven2/com/android/support/constraint/constraint-layout-solver/1.1.0-beta6/constraint-layout-solver-1.1.0-beta6.jar
-Download https://jcenter.bintray.com/org/parceler/parceler-api/1.1.10/parceler-api-1.1.10.jar
-Download https://jcenter.bintray.com/com/squareup/retrofit2/converter-moshi/2.4.0/converter-moshi-2.4.0.jar
-Download https://jcenter.bintray.com/com/facebook/network/connectionclass/connectionclass/1.0.1/connectionclass-1.0.1.jar
-:example:kaptGenerateStubsDebugKotlin
-Download https://jcenter.bintray.com/org/parceler/parceler/1.1.10/parceler-1.1.10.pom
-Download https://jcenter.bintray.com/com/github/bumptech/glide/compiler/4.6.1/compiler-4.6.1.pom
-Download https://jcenter.bintray.com/org/parceler/parceler/1.1.10/parceler-1.1.10.jar
 :example:transformDataBindingWithDataBindingMergeArtifactsForDebug
 :example:compileDebugNdk NO-SOURCE
 :arch:mergeDebugShaders UP-TO-DATE
@@ -342,6 +338,13 @@ Download https://jcenter.bintray.com/org/parceler/parceler/1.1.10/parceler-1.1.1
 :arch:transformNativeLibsWithIntermediateJniLibsForDebug
 :example:mergeDebugJniLibFolders
 :example:transformNativeLibsWithMergeJniLibsForDebug
+Download https://jcenter.bintray.com/com/squareup/retrofit2/converter-moshi/2.4.0/converter-moshi-2.4.0.jar
+Download https://jcenter.bintray.com/org/parceler/parceler-api/1.1.10/parceler-api-1.1.10.jar
+Download https://jcenter.bintray.com/com/facebook/network/connectionclass/connectionclass/1.0.1/connectionclass-1.0.1.jar
+Download https://dl.google.com/dl/android/maven2/com/android/support/constraint/constraint-layout-solver/1.1.0-beta6/constraint-layout-solver-1.1.0-beta6.jar
+Download https://jcenter.bintray.com/com/github/bumptech/glide/disklrucache/4.6.1/disklrucache-4.6.1.jar
+Download https://jcenter.bintray.com/com/github/bumptech/glide/annotations/4.6.1/annotations-4.6.1.jar
+Download https://jcenter.bintray.com/org/threeten/threetenbp/1.3.6/threetenbp-1.3.6-no-tzdb.jar
 :example:transformNativeLibsWithStripDebugSymbolForDebug
 :example:processDebugJavaRes NO-SOURCE
 :example:validateSigningDebug
@@ -375,6 +378,14 @@ Download https://jcenter.bintray.com/org/parceler/parceler/1.1.10/parceler-1.1.1
 :example:generateReleaseResValues
 :example:generateReleaseResources
 :example:mergeReleaseResources
+:example:dataBindingGenBaseClassesDebug
+:example:processDebugResources
+:example:generateDebugSources
+:example:dataBindingExportBuildInfoDebug
+:example:kaptGenerateStubsDebugKotlin
+Download https://jcenter.bintray.com/com/github/bumptech/glide/compiler/4.6.1/compiler-4.6.1.pom
+Download https://jcenter.bintray.com/org/parceler/parceler/1.1.10/parceler-1.1.10.pom
+Download https://jcenter.bintray.com/org/parceler/parceler/1.1.10/parceler-1.1.10.jar
 :example:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForRelease
 :example:checkReleaseManifest
 :example:generateReleaseBuildConfig
@@ -383,67 +394,7 @@ Download https://jcenter.bintray.com/org/parceler/parceler/1.1.10/parceler-1.1.1
 :example:processReleaseManifest
 :example:splitsDiscoveryTaskRelease
 :example:dataBindingExportFeaturePackageIdsRelease
-:example:kaptDebugKotlin
-w: Note: [1] Wrote GeneratedAppGlideModule with: [com.bumptech.glide.integration.okhttp3.OkHttpLibraryGlideModule]
-:example:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src/android-architecture-master/architecture/example/src/main/java/com/pacific/example/AppInitializer.kt: (91, 24): Parameter 'owner' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src/android-architecture-master/architecture/example/src/main/java/com/pacific/example/feature/search/SearchActivity.kt: (37, 17): Variable 'query' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src/android-architecture-master/architecture/example/src/main/java/com/pacific/example/model/UiModel.kt: (13, 13): Variable 'binding' is never used
-:example:javaPreCompileDebug
-:example:compileDebugJavaWithJavacNote: Some input files use unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-
-:example:compileDebugSources
-:example:transformClassesWithDexBuilderForDebug
-/Users/vbauer/.gradle/caches/transforms-1/files-1.1/android-job-1.2.5.aar/d88beb625d24a5dc1d1e3cb98a03e806/jars/classes.jar: D8: Type `com.google.android.gms.gcm.GcmNetworkManager` was not found, it is required for default or static interface methods desugaring of `void com.evernote.android.job.gcm.JobProxyGcm.<init>(android.content.Context)`
-/Users/vbauer/.gradle/caches/transforms-1/files-1.1/android-job-1.2.5.aar/d88beb625d24a5dc1d1e3cb98a03e806/jars/classes.jar: D8: Type `com.google.android.gms.common.GoogleApiAvailability` was not found, it is required for default or static interface methods desugaring of `boolean com.evernote.android.job.GcmAvailableHelper.isGcmApiSupported(android.content.Context)`
-/Users/vbauer/.gradle/caches/transforms-1/files-1.1/android-job-1.2.5.aar/d88beb625d24a5dc1d1e3cb98a03e806/jars/classes.jar: D8: Type `com.google.android.gms.gcm.GcmTaskService` was not found, it is required for default or static interface methods desugaring of `void com.evernote.android.job.gcm.PlatformGcmService.onInitializeTasks()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar: D8: Type `java.lang.management.ManagementFactory` was not found, it is required for default or static interface methods desugaring of `long org.junit.internal.runners.statements.FailOnTimeout.cpuTime(java.lang.Thread)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.10.0/7ef0f1d95bf4c0b3ba30bbae25e0e562b05cf75e/okhttp-3.10.0.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `okhttp3.internal.platform.Platform okhttp3.internal.platform.ConscryptPlatform.buildIfSupported()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.17.0/dbc47ed385a0b14665adf5dfe74007d9b5f5d034/mockito-core-2.17.0.jar: D8: Type `org.mockito.internal.creation.bytebuddy.MockMethodDispatcher` was not found, it is required for default or static interface methods desugaring of `java.lang.Object org.mockito.internal.creation.bytebuddy.MockMethodAdvice$SerializableRealMethodCall.invoke()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.17.0/dbc47ed385a0b14665adf5dfe74007d9b5f5d034/mockito-core-2.17.0.jar: D8: Type `net.bytebuddy.jar.asm.ClassVisitor` was not found, it is required for default or static interface methods desugaring of `net.bytebuddy.jar.asm.MethodVisitor org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator$ParameterWritingVisitorWrapper$ParameterAddingClassVisitor.visitMethod(int, java.lang.String, java.lang.String, java.lang.String, java.lang.String[])`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.17.0/dbc47ed385a0b14665adf5dfe74007d9b5f5d034/mockito-core-2.17.0.jar: D8: Type `net.bytebuddy.matcher.ElementMatchers` was not found, it is required for default or static interface methods desugaring of `net.bytebuddy.jar.asm.MethodVisitor org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator$ParameterWritingVisitorWrapper$ParameterAddingClassVisitor.visitMethod(int, java.lang.String, java.lang.String, java.lang.String, java.lang.String[])`
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.17.0/dbc47ed385a0b14665adf5dfe74007d9b5f5d034/mockito-core-2.17.0.jar: D8: Type `net.bytebuddy.utility.RandomString` was not found, it is required for default or static interface methods desugaring of `void org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator.<init>(java.lang.instrument.Instrumentation, org.mockito.internal.util.concurrent.WeakConcurrentMap)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.17.0/dbc47ed385a0b14665adf5dfe74007d9b5f5d034/mockito-core-2.17.0.jar: D8: Type `net.bytebuddy.implementation.MethodDelegation` was not found, it is required for default or static interface methods desugaring of `void org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator.<init>(java.lang.instrument.Instrumentation, org.mockito.internal.util.concurrent.WeakConcurrentMap)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.17.0/dbc47ed385a0b14665adf5dfe74007d9b5f5d034/mockito-core-2.17.0.jar: D8: Type `net.bytebuddy.implementation.bind.annotation.TargetMethodAnnotationDrivenBinder$ParameterBinder$ForFixedValue$OfConstant` was not found, it is required for default or static interface methods desugaring of `void org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator.<init>(java.lang.instrument.Instrumentation, org.mockito.internal.util.concurrent.WeakConcurrentMap)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.17.0/dbc47ed385a0b14665adf5dfe74007d9b5f5d034/mockito-core-2.17.0.jar: D8: Type `net.bytebuddy.dynamic.ClassFileLocator$Simple` was not found, it is required for default or static interface methods desugaring of `byte[] org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator.transform(java.lang.ClassLoader, java.lang.String, java.lang.Class, java.security.ProtectionDomain, byte[])`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.17.0/dbc47ed385a0b14665adf5dfe74007d9b5f5d034/mockito-core-2.17.0.jar: D8: Type `net.bytebuddy.asm.Advice` was not found, it is required for default or static interface methods desugaring of `byte[] org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator.transform(java.lang.ClassLoader, java.lang.String, java.lang.Class, java.security.ProtectionDomain, byte[])`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.17.0/dbc47ed385a0b14665adf5dfe74007d9b5f5d034/mockito-core-2.17.0.jar: D8: Type `net.bytebuddy.TypeCache$SimpleKey` was not found, it is required for default or static interface methods desugaring of `boolean org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator$MockitoMockKey.equals(java.lang.Object)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.17.0/dbc47ed385a0b14665adf5dfe74007d9b5f5d034/mockito-core-2.17.0.jar: D8: Type `net.bytebuddy.dynamic.scaffold.MethodGraph$Compiler$Default` was not found, it is required for default or static interface methods desugaring of `void org.mockito.internal.creation.bytebuddy.MockMethodAdvice.<init>(org.mockito.internal.util.concurrent.WeakConcurrentMap, java.lang.String)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.17.0/dbc47ed385a0b14665adf5dfe74007d9b5f5d034/mockito-core-2.17.0.jar: D8: Type `net.bytebuddy.dynamic.Transformer$ForMethod` was not found, it is required for default or static interface methods desugaring of `java.lang.Class org.mockito.internal.creation.bytebuddy.SubclassBytecodeGenerator.mockClass(org.mockito.internal.creation.bytebuddy.MockFeatures)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.17.0/dbc47ed385a0b14665adf5dfe74007d9b5f5d034/mockito-core-2.17.0.jar: D8: Type `net.bytebuddy.agent.ByteBuddyAgent` was not found, it is required for default or static interface methods desugaring of `void org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker.<clinit>()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.17.0/dbc47ed385a0b14665adf5dfe74007d9b5f5d034/mockito-core-2.17.0.jar: D8: Type `net.bytebuddy.implementation.FieldAccessor` was not found, it is required for default or static interface methods desugaring of `java.lang.Class org.mockito.internal.creation.bytebuddy.SubclassBytecodeGenerator.mockClass(org.mockito.internal.creation.bytebuddy.MockFeatures)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.17.0/dbc47ed385a0b14665adf5dfe74007d9b5f5d034/mockito-core-2.17.0.jar: D8: Interface `java.lang.instrument.ClassFileTransformer` not found. It's needed to make sure desugaring of `org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator` is correct. Desugaring will assume that this interface has no default method.
-D8: Stripped invalid locals information from 2 methods.
-:example:transformClassesWithMultidexlistForDebugWarning: The rule `-keep public class *extends java.lang.annotation.Annotation {
-  *;
-}` uses extends but actually matches implements.
-
-:example:transformDexArchiveWithDexMergerForDebug
-:example:transformResourcesWithMergeJavaResForDebug
-:example:packageDebug
-:example:assembleDebug
 :example:transformDataBindingWithDataBindingMergeArtifactsForRelease
-:example:compileReleaseNdk NO-SOURCE
-:arch:mergeReleaseShaders UP-TO-DATE
-:arch:compileReleaseShaders UP-TO-DATE
-:arch:generateReleaseAssets UP-TO-DATE
-:arch:packageReleaseAssets UP-TO-DATE
-:example:mergeReleaseShaders
-:example:compileReleaseShaders
-:example:generateReleaseAssets
-:example:mergeReleaseAssets
-:arch:compileReleaseNdk NO-SOURCE
-:arch:mergeReleaseJniLibFolders UP-TO-DATE
-:arch:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
-:arch:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
-:arch:transformNativeLibsWithIntermediateJniLibsForRelease
-:example:mergeReleaseJniLibFolders
-:example:transformNativeLibsWithMergeJniLibsForRelease
-:example:transformNativeLibsWithStripDebugSymbolForRelease
-:example:processReleaseJavaRes NO-SOURCE
-:example:validateSigningRelease
 :example:dataBindingGenBaseClassesRelease
 :example:processReleaseResources
 :example:generateReleaseSources
@@ -451,9 +402,9 @@ D8: Stripped invalid locals information from 2 methods.
 :example:kaptGenerateStubsReleaseKotlin
 :example:kaptReleaseKotlin
 w: Note: [1] Wrote GeneratedAppGlideModule with: [com.bumptech.glide.integration.okhttp3.OkHttpLibraryGlideModule]
-:example:compileReleaseKotline: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src/android-architecture-master/architecture/example/src/main/java/com/pacific/example/AppInitializer.kt: (24, 32): Unresolved reference: internal
-e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src/android-architecture-master/architecture/example/src/main/java/com/pacific/example/AppInitializer.kt: (100, 17): Unresolved reference: LeakCanaryInternals
-e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src/android-architecture-master/architecture/example/src/main/java/com/pacific/example/AppInitializer.kt: (101, 21): Unresolved reference: LeakCanaryInternals
+:example:compileReleaseKotline: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/example/src/main/java/com/pacific/example/AppInitializer.kt: (24, 32): Unresolved reference: internal
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/example/src/main/java/com/pacific/example/AppInitializer.kt: (100, 17): Unresolved reference: LeakCanaryInternals
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/example/src/main/java/com/pacific/example/AppInitializer.kt: (101, 21): Unresolved reference: LeakCanaryInternals
  FAILED
 
 FAILURE: Build failed with an exception.
@@ -523,7 +474,299 @@ Caused by: org.gradle.api.GradleException: Compilation error. See log for more d
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
 See https://docs.gradle.org/4.5/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD FAILED in 1m 29s
-112 actionable tasks: 64 executed, 48 up-to-date
+BUILD FAILED in 46s
+89 actionable tasks: 47 executed, 42 up-to-date
 
-2018-10-18 22:10:12,863 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539875225989-0/src/android-architecture-master/architecture/example/build/outputs/apk/debug/example-debug.apk
+2019-06-17 21:38:45,050 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-17 21:38:45,050 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-17 21:38:52,422 INFO  ProjectTaskService - Detected possible tasks: 71
+2019-06-17 21:38:52,423 INFO  ProjectTaskService - Excluded tasks (20): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-06-17 21:38:52,423 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-06-17 21:40:09,525 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-06-17 21:40:09,525 INFO  SysUtils - Configuration on demand is an incubating feature.
+arch: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.2.0-alpha08', 'com.android.databinding:compiler:3.2.0-alpha08'.
+example: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.2.0-alpha08'.
+:arch:preBuild UP-TO-DATE
+:arch:preDebugBuild UP-TO-DATE
+:arch:compileDebugAidl NO-SOURCE
+:arch:compileDebugRenderscript UP-TO-DATE
+:arch:generateDebugResValues UP-TO-DATE
+:arch:generateDebugResources UP-TO-DATE
+:arch:mergeDebugResources UP-TO-DATE
+:arch:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+:arch:dataBindingGenBaseClassesDebug UP-TO-DATE
+:arch:checkDebugManifest UP-TO-DATE
+:arch:generateDebugBuildConfig UP-TO-DATE
+:arch:packageDebugResources UP-TO-DATE
+:arch:platformAttrExtractor UP-TO-DATE
+:arch:processDebugManifest UP-TO-DATE
+:arch:generateDebugRFile UP-TO-DATE
+:arch:prepareLintJar UP-TO-DATE
+:arch:generateDebugSources UP-TO-DATE
+:arch:dataBindingExportBuildInfoDebug UP-TO-DATE
+:arch:kaptGenerateStubsDebugKotlin UP-TO-DATE
+:arch:transformDataBindingWithDataBindingMergeArtifactsForDebug UP-TO-DATE
+:arch:kaptDebugKotlin UP-TO-DATE
+:arch:compileDebugKotlin UP-TO-DATE
+:arch:javaPreCompileDebug UP-TO-DATE
+:arch:compileDebugJavaWithJavac UP-TO-DATE
+:arch:extractDebugAnnotations UP-TO-DATE
+:arch:mergeDebugConsumerProguardFiles UP-TO-DATE
+:arch:mergeDebugShaders UP-TO-DATE
+:arch:compileDebugShaders UP-TO-DATE
+:arch:generateDebugAssets UP-TO-DATE
+:arch:packageDebugAssets UP-TO-DATE
+:arch:packageDebugRenderscript NO-SOURCE
+:arch:processDebugJavaRes NO-SOURCE
+:arch:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:arch:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:arch:compileDebugNdk NO-SOURCE
+:arch:mergeDebugJniLibFolders UP-TO-DATE
+:arch:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:arch:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:arch:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:arch:bundleDebug UP-TO-DATE
+:arch:compileDebugSources UP-TO-DATE
+:arch:assembleDebug UP-TO-DATE
+:arch:preReleaseBuild UP-TO-DATE
+:arch:compileReleaseAidl NO-SOURCE
+:arch:compileReleaseRenderscript UP-TO-DATE
+:arch:generateReleaseResValues UP-TO-DATE
+:arch:generateReleaseResources UP-TO-DATE
+:arch:mergeReleaseResources UP-TO-DATE
+:arch:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForRelease UP-TO-DATE
+:arch:dataBindingGenBaseClassesRelease UP-TO-DATE
+:arch:checkReleaseManifest UP-TO-DATE
+:arch:generateReleaseBuildConfig UP-TO-DATE
+:arch:packageReleaseResources UP-TO-DATE
+:arch:processReleaseManifest UP-TO-DATE
+:arch:generateReleaseRFile UP-TO-DATE
+:arch:generateReleaseSources UP-TO-DATE
+:arch:dataBindingExportBuildInfoRelease UP-TO-DATE
+:arch:kaptGenerateStubsReleaseKotlin UP-TO-DATE
+:arch:transformDataBindingWithDataBindingMergeArtifactsForRelease UP-TO-DATE
+:arch:kaptReleaseKotlin UP-TO-DATE
+:arch:compileReleaseKotlin UP-TO-DATE
+:arch:javaPreCompileRelease UP-TO-DATE
+:arch:compileReleaseJavaWithJavac UP-TO-DATE
+:arch:extractReleaseAnnotations UP-TO-DATE
+:arch:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:arch:mergeReleaseShaders UP-TO-DATE
+:arch:compileReleaseShaders UP-TO-DATE
+:arch:generateReleaseAssets UP-TO-DATE
+:arch:packageReleaseAssets UP-TO-DATE
+:arch:packageReleaseRenderscript NO-SOURCE
+:arch:processReleaseJavaRes NO-SOURCE
+:arch:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:arch:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:arch:compileReleaseNdk NO-SOURCE
+:arch:mergeReleaseJniLibFolders UP-TO-DATE
+:arch:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:arch:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:arch:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:arch:bundleRelease UP-TO-DATE
+:arch:compileReleaseSources UP-TO-DATE
+:arch:verifyReleaseResources UP-TO-DATE
+:arch:assembleRelease UP-TO-DATE
+:arch:assemble UP-TO-DATE
+:arch:build
+:arch:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:example:preBuild UP-TO-DATE
+:example:preDebugBuild UP-TO-DATE
+:example:compileDebugAidl NO-SOURCE
+:example:compileDebugRenderscript UP-TO-DATE
+:example:generateDebugResValues UP-TO-DATE
+:example:generateDebugResources UP-TO-DATE
+:example:mergeDebugResources UP-TO-DATE
+:example:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+:example:dataBindingGenBaseClassesDebug UP-TO-DATE
+:example:checkDebugManifest UP-TO-DATE
+:example:generateDebugBuildConfig UP-TO-DATE
+:example:prepareLintJar UP-TO-DATE
+:example:mainApkListPersistenceDebug UP-TO-DATE
+:example:createDebugCompatibleScreenManifests UP-TO-DATE
+:example:processDebugManifest UP-TO-DATE
+:example:splitsDiscoveryTaskDebug UP-TO-DATE
+:example:processDebugResources UP-TO-DATE
+:example:generateDebugSources UP-TO-DATE
+:example:dataBindingExportBuildInfoDebug UP-TO-DATE
+:example:dataBindingExportFeaturePackageIdsDebug UP-TO-DATE
+:example:kaptGenerateStubsDebugKotlin UP-TO-DATE
+:example:transformDataBindingWithDataBindingMergeArtifactsForDebug UP-TO-DATE
+:example:kaptDebugKotlin
+w: Note: [1] Wrote GeneratedAppGlideModule with: [com.bumptech.glide.integration.okhttp3.OkHttpLibraryGlideModule]
+:example:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/example/src/main/java/com/pacific/example/AppInitializer.kt: (91, 24): Parameter 'owner' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/example/src/main/java/com/pacific/example/feature/search/SearchActivity.kt: (37, 17): Variable 'query' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/example/src/main/java/com/pacific/example/model/UiModel.kt: (13, 13): Variable 'binding' is never used
+:example:javaPreCompileDebug
+:example:compileDebugJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:example:compileDebugNdk NO-SOURCE
+:example:compileDebugSources
+:example:mergeDebugShaders UP-TO-DATE
+:example:compileDebugShaders UP-TO-DATE
+:example:generateDebugAssets UP-TO-DATE
+:example:mergeDebugAssets UP-TO-DATE
+:example:transformClassesWithDexBuilderForDebug
+/Users/vbauer/.gradle/caches/transforms-1/files-1.1/android-job-1.2.5.aar/d88beb625d24a5dc1d1e3cb98a03e806/jars/classes.jar: D8: Type `com.google.android.gms.gcm.GcmNetworkManager` was not found, it is required for default or static interface methods desugaring of `void com.evernote.android.job.gcm.JobProxyGcm.<init>(android.content.Context)`
+/Users/vbauer/.gradle/caches/transforms-1/files-1.1/android-job-1.2.5.aar/d88beb625d24a5dc1d1e3cb98a03e806/jars/classes.jar: D8: Type `com.google.android.gms.gcm.GcmTaskService` was not found, it is required for default or static interface methods desugaring of `void com.evernote.android.job.gcm.PlatformGcmService.onInitializeTasks()`
+/Users/vbauer/.gradle/caches/transforms-1/files-1.1/android-job-1.2.5.aar/d88beb625d24a5dc1d1e3cb98a03e806/jars/classes.jar: D8: Type `com.google.android.gms.common.GoogleApiAvailability` was not found, it is required for default or static interface methods desugaring of `boolean com.evernote.android.job.GcmAvailableHelper.isGcmApiSupported(android.content.Context)`
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.17.0/dbc47ed385a0b14665adf5dfe74007d9b5f5d034/mockito-core-2.17.0.jar: D8: Type `org.mockito.internal.creation.bytebuddy.MockMethodDispatcher` was not found, it is required for default or static interface methods desugaring of `java.lang.Object org.mockito.internal.creation.bytebuddy.MockMethodAdvice$SerializableRealMethodCall.invoke()`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.17.0/dbc47ed385a0b14665adf5dfe74007d9b5f5d034/mockito-core-2.17.0.jar: D8: Type `net.bytebuddy.jar.asm.ClassVisitor` was not found, it is required for default or static interface methods desugaring of `net.bytebuddy.jar.asm.MethodVisitor org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator$ParameterWritingVisitorWrapper$ParameterAddingClassVisitor.visitMethod(int, java.lang.String, java.lang.String, java.lang.String, java.lang.String[])`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.17.0/dbc47ed385a0b14665adf5dfe74007d9b5f5d034/mockito-core-2.17.0.jar: D8: Type `net.bytebuddy.utility.RandomString` was not found, it is required for default or static interface methods desugaring of `void org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator.<init>(java.lang.instrument.Instrumentation, org.mockito.internal.util.concurrent.WeakConcurrentMap)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.17.0/dbc47ed385a0b14665adf5dfe74007d9b5f5d034/mockito-core-2.17.0.jar: D8: Type `net.bytebuddy.matcher.ElementMatchers` was not found, it is required for default or static interface methods desugaring of `net.bytebuddy.jar.asm.MethodVisitor org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator$ParameterWritingVisitorWrapper$ParameterAddingClassVisitor.visitMethod(int, java.lang.String, java.lang.String, java.lang.String, java.lang.String[])`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.17.0/dbc47ed385a0b14665adf5dfe74007d9b5f5d034/mockito-core-2.17.0.jar: D8: Type `net.bytebuddy.implementation.MethodDelegation` was not found, it is required for default or static interface methods desugaring of `void org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator.<init>(java.lang.instrument.Instrumentation, org.mockito.internal.util.concurrent.WeakConcurrentMap)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.17.0/dbc47ed385a0b14665adf5dfe74007d9b5f5d034/mockito-core-2.17.0.jar: D8: Type `net.bytebuddy.implementation.bind.annotation.TargetMethodAnnotationDrivenBinder$ParameterBinder$ForFixedValue$OfConstant` was not found, it is required for default or static interface methods desugaring of `void org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator.<init>(java.lang.instrument.Instrumentation, org.mockito.internal.util.concurrent.WeakConcurrentMap)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.17.0/dbc47ed385a0b14665adf5dfe74007d9b5f5d034/mockito-core-2.17.0.jar: D8: Type `net.bytebuddy.dynamic.ClassFileLocator$Simple` was not found, it is required for default or static interface methods desugaring of `byte[] org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator.transform(java.lang.ClassLoader, java.lang.String, java.lang.Class, java.security.ProtectionDomain, byte[])`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.17.0/dbc47ed385a0b14665adf5dfe74007d9b5f5d034/mockito-core-2.17.0.jar: D8: Type `net.bytebuddy.asm.Advice` was not found, it is required for default or static interface methods desugaring of `byte[] org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator.transform(java.lang.ClassLoader, java.lang.String, java.lang.Class, java.security.ProtectionDomain, byte[])`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.17.0/dbc47ed385a0b14665adf5dfe74007d9b5f5d034/mockito-core-2.17.0.jar: D8: Type `net.bytebuddy.TypeCache$SimpleKey` was not found, it is required for default or static interface methods desugaring of `boolean org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator$MockitoMockKey.equals(java.lang.Object)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.17.0/dbc47ed385a0b14665adf5dfe74007d9b5f5d034/mockito-core-2.17.0.jar: D8: Type `net.bytebuddy.dynamic.scaffold.MethodGraph$Compiler$Default` was not found, it is required for default or static interface methods desugaring of `void org.mockito.internal.creation.bytebuddy.MockMethodAdvice.<init>(org.mockito.internal.util.concurrent.WeakConcurrentMap, java.lang.String)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.10.0/7ef0f1d95bf4c0b3ba30bbae25e0e562b05cf75e/okhttp-3.10.0.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `okhttp3.internal.platform.Platform okhttp3.internal.platform.ConscryptPlatform.buildIfSupported()`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.17.0/dbc47ed385a0b14665adf5dfe74007d9b5f5d034/mockito-core-2.17.0.jar: D8: Type `net.bytebuddy.dynamic.Transformer$ForMethod` was not found, it is required for default or static interface methods desugaring of `java.lang.Class org.mockito.internal.creation.bytebuddy.SubclassBytecodeGenerator.mockClass(org.mockito.internal.creation.bytebuddy.MockFeatures)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.17.0/dbc47ed385a0b14665adf5dfe74007d9b5f5d034/mockito-core-2.17.0.jar: D8: Type `net.bytebuddy.implementation.FieldAccessor` was not found, it is required for default or static interface methods desugaring of `java.lang.Class org.mockito.internal.creation.bytebuddy.SubclassBytecodeGenerator.mockClass(org.mockito.internal.creation.bytebuddy.MockFeatures)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar: D8: Type `java.lang.management.ManagementFactory` was not found, it is required for default or static interface methods desugaring of `long org.junit.internal.runners.statements.FailOnTimeout.cpuTime(java.lang.Thread)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.17.0/dbc47ed385a0b14665adf5dfe74007d9b5f5d034/mockito-core-2.17.0.jar: D8: Type `net.bytebuddy.agent.ByteBuddyAgent` was not found, it is required for default or static interface methods desugaring of `void org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker.<clinit>()`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.17.0/dbc47ed385a0b14665adf5dfe74007d9b5f5d034/mockito-core-2.17.0.jar: D8: Interface `java.lang.instrument.ClassFileTransformer` not found. It's needed to make sure desugaring of `org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator` is correct. Desugaring will assume that this interface has no default method.
+D8: Stripped invalid locals information from 2 methods.
+:example:transformClassesWithMultidexlistForDebugWarning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+
+:example:transformDexArchiveWithDexMergerForDebug
+:arch:transformNativeLibsWithIntermediateJniLibsForDebug UP-TO-DATE
+:example:mergeDebugJniLibFolders UP-TO-DATE
+:example:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:example:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:example:processDebugJavaRes NO-SOURCE
+:example:transformResourcesWithMergeJavaResForDebug
+:example:validateSigningDebug UP-TO-DATE
+:example:packageDebug
+:example:assembleDebug
+:arch:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+:example:preReleaseBuild UP-TO-DATE
+:example:compileReleaseAidl NO-SOURCE
+:example:compileReleaseRenderscript UP-TO-DATE
+:example:generateReleaseResValues UP-TO-DATE
+:example:generateReleaseResources UP-TO-DATE
+:example:mergeReleaseResources UP-TO-DATE
+:example:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForRelease UP-TO-DATE
+:example:dataBindingGenBaseClassesRelease UP-TO-DATE
+:example:checkReleaseManifest UP-TO-DATE
+:example:generateReleaseBuildConfig UP-TO-DATE
+:example:mainApkListPersistenceRelease UP-TO-DATE
+:example:createReleaseCompatibleScreenManifests UP-TO-DATE
+:example:processReleaseManifest UP-TO-DATE
+:example:splitsDiscoveryTaskRelease UP-TO-DATE
+:example:processReleaseResources UP-TO-DATE
+:example:generateReleaseSources UP-TO-DATE
+:example:dataBindingExportBuildInfoRelease UP-TO-DATE
+:example:dataBindingExportFeaturePackageIdsRelease UP-TO-DATE
+:example:kaptGenerateStubsReleaseKotlin UP-TO-DATE
+:example:transformDataBindingWithDataBindingMergeArtifactsForRelease UP-TO-DATE
+:example:kaptReleaseKotlin UP-TO-DATE
+:example:compileReleaseKotline: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/example/src/main/java/com/pacific/example/AppInitializer.kt: (24, 32): Unresolved reference: internal
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/example/src/main/java/com/pacific/example/AppInitializer.kt: (100, 17): Unresolved reference: LeakCanaryInternals
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/example/src/main/java/com/pacific/example/AppInitializer.kt: (101, 21): Unresolved reference: LeakCanaryInternals
+ FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':example:compileReleaseKotlin'.
+> Compilation error. See log for more details
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':example:compileReleaseKotlin'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:103)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:73)
+	at org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter.execute(OutputDirectoryCreatingTaskExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
+	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:88)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:248)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:241)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:230)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:123)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:104)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:623)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:578)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: org.gradle.api.GradleException: Compilation error. See log for more details
+	at org.jetbrains.kotlin.gradle.tasks.TasksUtilsKt.throwGradleExceptionIfError(tasksUtils.kt:8)
+	at org.jetbrains.kotlin.gradle.tasks.KotlinCompile.processCompilerExitCode(Tasks.kt:415)
+	at org.jetbrains.kotlin.gradle.tasks.KotlinCompile.callCompiler$kotlin_gradle_plugin(Tasks.kt:389)
+	at org.jetbrains.kotlin.gradle.tasks.KotlinCompile.callCompiler$kotlin_gradle_plugin(Tasks.kt:251)
+	at org.jetbrains.kotlin.gradle.tasks.AbstractKotlinCompile.execute(Tasks.kt:215)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.doExecute(IncrementalTaskAction.java:50)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:39)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:26)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:124)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:113)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:95)
+	... 30 more
+
+
+* Get more help at https://help.gradle.org
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+See https://docs.gradle.org/4.5/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD FAILED in 1m 16s
+117 actionable tasks: 10 executed, 107 up-to-date
+
+2019-06-17 21:40:09,711 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782180733-0/src/android-architecture-master/architecture/example/build/outputs/apk/debug/example-debug.apk
