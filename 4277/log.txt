@@ -1,34 +1,34 @@
-2018-10-25 23:03:55,344 INFO  DownloadService - Downloading "https://github.com/Devlight/AnimateFilterCalendarGridLayout/archive/master.zip", attempt 3
-2018-10-25 23:03:55,810 INFO  DownloadService - Downloaded https://github.com/Devlight/AnimateFilterCalendarGridLayout/archive/master.zip, attempt 3
-2018-10-25 23:03:55,810 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483435342-0/master.zip": 121 KB
-2018-10-25 23:03:55,810 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-25 23:03:55,815 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483435342-0/master.zip: true
-2018-10-25 23:03:55,816 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483435342-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483435342-0/src'.
-2018-10-25 23:03:55,835 INFO  FullProcessService - Size of directory with sources: 164 KB
-2018-10-25 23:03:55,835 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483435342-0/src]
-2018-10-25 23:03:55,857 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483435342-0/src/.git/
+2019-07-06 00:00:51,830 INFO  DownloadService - Downloading "https://github.com/Devlight/AnimateFilterCalendarGridLayout/archive/master.zip", attempt 3
+2019-07-06 00:00:52,371 INFO  DownloadService - Downloaded https://github.com/Devlight/AnimateFilterCalendarGridLayout/archive/master.zip, attempt 3
+2019-07-06 00:00:52,371 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346051822-0/master.zip": 121 KB
+2019-07-06 00:00:52,371 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-06 00:00:52,377 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346051822-0/master.zip: true
+2019-07-06 00:00:52,378 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346051822-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346051822-0/src'.
+2019-07-06 00:00:52,394 INFO  FullProcessService - Size of directory with sources: 164 KB
+2019-07-06 00:00:52,395 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346051822-0/src]
+2019-07-06 00:00:52,410 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346051822-0/src/.git/
 
-2018-10-25 23:03:55,861 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483435342-0/src/AnimateFilterCalendarGridLayout-master/gradlew
-2018-10-25 23:03:55,864 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483435342-0/src/AnimateFilterCalendarGridLayout-master/afgridlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483435342-0/src/AnimateFilterCalendarGridLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483435342-0/src/AnimateFilterCalendarGridLayout-master/build.gradle
-2018-10-25 23:03:55,867 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483435342-0/src/AnimateFilterCalendarGridLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483435342-0/src/AnimateFilterCalendarGridLayout-master/afgridlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483435342-0/src/AnimateFilterCalendarGridLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483435342-0/src/AnimateFilterCalendarGridLayout-master/settings.gradle
-2018-10-25 23:03:55,867 INFO  ProjectBuildService - Remote scripts: none
-2018-10-25 23:03:55,867 INFO  ProjectFixService - Fixing project...
-2018-10-25 23:03:55,875 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483435342-0/src/AnimateFilterCalendarGridLayout-master/afgridlayout/local.properties
-2018-10-25 23:03:55,876 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483435342-0/src/AnimateFilterCalendarGridLayout-master/afgridlayout/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=8,targetSdkVersion=23]
-2018-10-25 23:03:55,876 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483435342-0/src/AnimateFilterCalendarGridLayout-master/app/local.properties
-2018-10-25 23:03:55,876 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483435342-0/src/AnimateFilterCalendarGridLayout-master/app/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=11,targetSdkVersion=23]
-2018-10-25 23:03:55,877 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483435342-0/src/AnimateFilterCalendarGridLayout-master/local.properties
-2018-10-25 23:03:55,877 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-25 23:03:55,878 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-25 23:03:55,878 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483435342-0/src/AnimateFilterCalendarGridLayout-master/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=11,targetSdkVersion=23]
-2018-10-25 23:03:55,878 INFO  ProjectFixService - Project was maybe fixed
-2018-10-25 23:03:55,878 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-25 23:03:55,879 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483435342-0/src/AnimateFilterCalendarGridLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483435342-0/src/AnimateFilterCalendarGridLayout-master/afgridlayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-25 23:04:03,378 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-25 23:04:03,378 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-25 23:04:03,378 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-25 23:04:03,378 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483435342-0/src/AnimateFilterCalendarGridLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483435342-0/src/AnimateFilterCalendarGridLayout-master/afgridlayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-25 23:04:14,766 ERROR SysUtils - Could not process external command
+2019-07-06 00:00:52,412 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346051822-0/src/AnimateFilterCalendarGridLayout-master/gradlew
+2019-07-06 00:00:52,415 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346051822-0/src/AnimateFilterCalendarGridLayout-master/afgridlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346051822-0/src/AnimateFilterCalendarGridLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346051822-0/src/AnimateFilterCalendarGridLayout-master/build.gradle
+2019-07-06 00:00:52,417 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346051822-0/src/AnimateFilterCalendarGridLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346051822-0/src/AnimateFilterCalendarGridLayout-master/afgridlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346051822-0/src/AnimateFilterCalendarGridLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346051822-0/src/AnimateFilterCalendarGridLayout-master/settings.gradle
+2019-07-06 00:00:52,417 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 00:00:52,417 INFO  ProjectFixService - Fixing project...
+2019-07-06 00:00:52,422 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346051822-0/src/AnimateFilterCalendarGridLayout-master/afgridlayout/local.properties
+2019-07-06 00:00:52,422 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346051822-0/src/AnimateFilterCalendarGridLayout-master/afgridlayout/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=8,targetSdkVersion=23]
+2019-07-06 00:00:52,422 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346051822-0/src/AnimateFilterCalendarGridLayout-master/app/local.properties
+2019-07-06 00:00:52,422 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346051822-0/src/AnimateFilterCalendarGridLayout-master/app/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=11,targetSdkVersion=23]
+2019-07-06 00:00:52,423 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346051822-0/src/AnimateFilterCalendarGridLayout-master/local.properties
+2019-07-06 00:00:52,423 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-07-06 00:00:52,423 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-07-06 00:00:52,424 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346051822-0/src/AnimateFilterCalendarGridLayout-master/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=11,targetSdkVersion=23]
+2019-07-06 00:00:52,424 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 00:00:52,424 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 00:00:52,424 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346051822-0/src/AnimateFilterCalendarGridLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346051822-0/src/AnimateFilterCalendarGridLayout-master/afgridlayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 00:00:57,794 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 00:00:57,794 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 00:00:57,794 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 00:00:57,794 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346051822-0/src/AnimateFilterCalendarGridLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346051822-0/src/AnimateFilterCalendarGridLayout-master/afgridlayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 00:01:07,028 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -48,14 +48,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-25 23:04:14,766 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 00:01:07,028 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :afgridlayout:preBuild UP-TO-DATE
 :afgridlayout:preDebugBuild UP-TO-DATE
@@ -86,7 +86,7 @@ Incremental java compilation is an incubating feature.
 :afgridlayout:incrementalDebugJavaCompilationSafeguard
 :afgridlayout:compileDebugJavaWithJavac
 :afgridlayout:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483435342-0/src/AnimateFilterCalendarGridLayout-master/afgridlayout/src/main/java/com/liuzhuang/acgridlayout/AnimateCalendarGridLayout.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346051822-0/src/AnimateFilterCalendarGridLayout-master/afgridlayout/src/main/java/com/liuzhuang/acgridlayout/AnimateCalendarGridLayout.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 :afgridlayout:extractDebugAnnotations
 :afgridlayout:mergeDebugProguardFiles
@@ -121,7 +121,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :afgridlayout:incrementalReleaseJavaCompilationSafeguard
 :afgridlayout:compileReleaseJavaWithJavac
 :afgridlayout:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483435342-0/src/AnimateFilterCalendarGridLayout-master/afgridlayout/src/main/java/com/liuzhuang/acgridlayout/AnimateCalendarGridLayout.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346051822-0/src/AnimateFilterCalendarGridLayout-master/afgridlayout/src/main/java/com/liuzhuang/acgridlayout/AnimateCalendarGridLayout.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 :afgridlayout:extractReleaseAnnotations
 :afgridlayout:mergeReleaseProguardFiles
@@ -233,14 +233,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 10.864 secs
+Total time: 8.706 secs
 
-2018-10-25 23:04:14,819 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-25 23:04:14,819 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483435342-0/src/AnimateFilterCalendarGridLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483435342-0/src/AnimateFilterCalendarGridLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-25 23:04:20,982 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-10-25 23:04:20,982 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-10-25 23:04:20,982 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483435342-0/src/AnimateFilterCalendarGridLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483435342-0/src/AnimateFilterCalendarGridLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-10-25 23:04:37,741 ERROR SysUtils - Could not process external command
+2019-07-06 00:01:07,066 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 00:01:07,066 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346051822-0/src/AnimateFilterCalendarGridLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346051822-0/src/AnimateFilterCalendarGridLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 00:01:12,129 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-07-06 00:01:12,129 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-06 00:01:12,129 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346051822-0/src/AnimateFilterCalendarGridLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346051822-0/src/AnimateFilterCalendarGridLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-06 00:01:26,042 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -260,14 +260,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-25 23:04:37,741 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 00:01:26,043 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :afgridlayout:preBuild UP-TO-DATE
 :afgridlayout:preReleaseBuild UP-TO-DATE
@@ -334,7 +334,7 @@ Incremental java compilation is an incubating feature.
 :app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483435342-0/src/AnimateFilterCalendarGridLayout-master/app/src/main/java/com/liuzhuang/autofitgridlayout/activities/FilterActivity.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346051822-0/src/AnimateFilterCalendarGridLayout-master/app/src/main/java/com/liuzhuang/autofitgridlayout/activities/FilterActivity.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 :app:compileDebugNdk UP-TO-DATE
 :app:compileDebugSources
@@ -370,7 +370,7 @@ For faster builds update this project to use the latest build tools.
 :app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483435342-0/src/AnimateFilterCalendarGridLayout-master/app/src/main/java/com/liuzhuang/autofitgridlayout/activities/FilterActivity.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346051822-0/src/AnimateFilterCalendarGridLayout-master/app/src/main/java/com/liuzhuang/autofitgridlayout/activities/FilterActivity.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 :app:compileReleaseNdk UP-TO-DATE
 :app:compileReleaseSources
@@ -470,6 +470,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 16.222 secs
+Total time: 13.404 secs
 
-2018-10-25 23:04:37,860 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483435342-0/src/AnimateFilterCalendarGridLayout-master/app/build/outputs/apk/app-debug.apk
+2019-07-06 00:01:26,114 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346051822-0/src/AnimateFilterCalendarGridLayout-master/app/build/outputs/apk/app-debug.apk

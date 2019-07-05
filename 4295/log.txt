@@ -1,29 +1,29 @@
-2018-10-25 18:38:21,842 INFO  DownloadService - Downloading "https://github.com/tylerjroach/FloatingExpandableActionButton/archive/master.zip", attempt 3
-2018-10-25 18:38:22,311 INFO  DownloadService - Downloaded https://github.com/tylerjroach/FloatingExpandableActionButton/archive/master.zip, attempt 3
-2018-10-25 18:38:22,311 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467501839-0/master.zip": 72 KB
-2018-10-25 18:38:22,311 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-25 18:38:22,317 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467501839-0/master.zip: true
-2018-10-25 18:38:22,317 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467501839-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467501839-0/src'.
-2018-10-25 18:38:22,329 INFO  FullProcessService - Size of directory with sources: 102 KB
-2018-10-25 18:38:22,329 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467501839-0/src]
-2018-10-25 18:38:22,351 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467501839-0/src/.git/
+2019-07-05 23:52:49,199 INFO  DownloadService - Downloading "https://github.com/tylerjroach/FloatingExpandableActionButton/archive/master.zip", attempt 3
+2019-07-05 23:52:49,820 INFO  DownloadService - Downloaded https://github.com/tylerjroach/FloatingExpandableActionButton/archive/master.zip, attempt 3
+2019-07-05 23:52:49,821 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345569195-0/master.zip": 72 KB
+2019-07-05 23:52:49,821 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 23:52:49,821 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345569195-0/master.zip: true
+2019-07-05 23:52:49,821 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345569195-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345569195-0/src'.
+2019-07-05 23:52:49,830 INFO  FullProcessService - Size of directory with sources: 102 KB
+2019-07-05 23:52:49,830 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345569195-0/src]
+2019-07-05 23:52:49,845 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345569195-0/src/.git/
 
-2018-10-25 18:38:22,353 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467501839-0/src/FloatingExpandableActionButton-master/gradlew
-2018-10-25 18:38:22,355 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467501839-0/src/FloatingExpandableActionButton-master/build.gradle
-2018-10-25 18:38:22,356 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467501839-0/src/FloatingExpandableActionButton-master/build.gradle
-2018-10-25 18:38:22,356 INFO  ProjectBuildService - Remote scripts: none
-2018-10-25 18:38:22,356 INFO  ProjectFixService - Fixing project...
-2018-10-25 18:38:22,360 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467501839-0/src/FloatingExpandableActionButton-master/local.properties
-2018-10-25 18:38:22,360 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
-2018-10-25 18:38:22,360 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
-2018-10-25 18:38:22,361 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467501839-0/src/FloatingExpandableActionButton-master/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=19,minSdkVersion=14,targetSdkVersion=21]
-2018-10-25 18:38:22,361 INFO  ProjectFixService - Project was maybe fixed
-2018-10-25 18:38:22,361 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-25 18:38:22,361 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467501839-0/src/FloatingExpandableActionButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467501839-0/src/FloatingExpandableActionButton-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-25 18:38:28,285 INFO  ProjectTaskService - Detected possible tasks: 56
-2018-10-25 18:38:28,285 INFO  ProjectTaskService - Excluded tasks (8): lintDebug deviceCheck lint connectedCheck uninstallAll check connectedAndroidTest lintRelease
-2018-10-25 18:38:28,285 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467501839-0/src/FloatingExpandableActionButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540467501839-0/src/FloatingExpandableActionButton-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-10-25 18:38:34,582 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 23:52:49,846 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345569195-0/src/FloatingExpandableActionButton-master/gradlew
+2019-07-05 23:52:49,847 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345569195-0/src/FloatingExpandableActionButton-master/build.gradle
+2019-07-05 23:52:49,849 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345569195-0/src/FloatingExpandableActionButton-master/build.gradle
+2019-07-05 23:52:49,849 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 23:52:49,849 INFO  ProjectFixService - Fixing project...
+2019-07-05 23:52:49,851 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345569195-0/src/FloatingExpandableActionButton-master/local.properties
+2019-07-05 23:52:49,852 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2019-07-05 23:52:49,852 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2019-07-05 23:52:49,852 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345569195-0/src/FloatingExpandableActionButton-master/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=19,minSdkVersion=14,targetSdkVersion=21]
+2019-07-05 23:52:49,852 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 23:52:49,852 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 23:52:49,852 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345569195-0/src/FloatingExpandableActionButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345569195-0/src/FloatingExpandableActionButton-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 23:52:55,366 INFO  ProjectTaskService - Detected possible tasks: 56
+2019-07-05 23:52:55,366 INFO  ProjectTaskService - Excluded tasks (8): lintDebug deviceCheck lint connectedCheck uninstallAll check connectedAndroidTest lintRelease
+2019-07-05 23:52:55,366 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345569195-0/src/FloatingExpandableActionButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345569195-0/src/FloatingExpandableActionButton-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-05 23:53:01,145 INFO  SysUtils - Configuration on demand is an incubating feature.
 :compileLint
 :copyDebugLint UP-TO-DATE
 :preBuild
@@ -83,7 +83,7 @@
 
 BUILD SUCCESSFUL
 
-Total time: 5.801 secs
+Total time: 5.24 secs
 
-2018-10-25 18:38:34,591 ERROR FullProcessService - Project build has not produced APK file
-2018-10-25 18:38:34,600 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-05 23:53:01,151 ERROR FullProcessService - Project build has not produced APK file
+2019-07-05 23:53:01,157 ERROR FullProcessService - Could not find generated or existed APK file

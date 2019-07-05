@@ -1,10 +1,10 @@
-2018-10-21 15:51:42,617 INFO  DownloadService - Downloading "https://github.com/mathiazhagan01/DrawableColorChange/archive/master.zip", attempt 3
-2018-10-21 15:51:43,197 INFO  DownloadService - Downloaded https://github.com/mathiazhagan01/DrawableColorChange/archive/master.zip, attempt 3
-2018-10-21 15:51:43,197 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111902609-0/master.zip": 152 KB
-2018-10-21 15:51:43,197 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-21 15:51:43,203 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111902609-0/master.zip: false
-2018-10-21 15:51:43,203 INFO  FullProcessService - Archive with sources does not contain any build script
-2018-10-21 15:51:43,203 ERROR FullProcessService - Could not find directory with sources
-2018-10-21 15:51:43,203 ERROR FullProcessService - Project will not be processed
-2018-10-21 15:51:43,203 ERROR FullProcessService - Project build has not produced APK file
-2018-10-21 15:51:43,203 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-05 23:18:39,215 INFO  DownloadService - Downloading "https://github.com/mathiazhagan01/DrawableColorChange/archive/master.zip", attempt 3
+2019-07-05 23:18:39,760 INFO  DownloadService - Downloaded https://github.com/mathiazhagan01/DrawableColorChange/archive/master.zip, attempt 3
+2019-07-05 23:18:39,760 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343519211-0/master.zip": 152 KB
+2019-07-05 23:18:39,760 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 23:18:39,766 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343519211-0/master.zip: false
+2019-07-05 23:18:39,766 INFO  FullProcessService - Archive with sources does not contain any build script
+2019-07-05 23:18:39,766 ERROR FullProcessService - Could not find directory with sources
+2019-07-05 23:18:39,766 ERROR FullProcessService - Project will not be processed
+2019-07-05 23:18:39,766 ERROR FullProcessService - Project build has not produced APK file
+2019-07-05 23:18:39,767 ERROR FullProcessService - Could not find generated or existed APK file

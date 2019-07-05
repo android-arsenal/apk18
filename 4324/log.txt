@@ -1,39 +1,39 @@
-2018-10-22 10:56:37,311 INFO  DownloadService - Downloading "https://github.com/AllenCoder/UploaderPlugin/archive/master.zip", attempt 3
-2018-10-22 10:56:38,707 INFO  DownloadService - Downloaded https://github.com/AllenCoder/UploaderPlugin/archive/master.zip, attempt 3
-2018-10-22 10:56:38,707 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/master.zip": 766 KB
-2018-10-22 10:56:38,707 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-22 10:56:38,713 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/master.zip: true
-2018-10-22 10:56:38,713 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/src'.
-2018-10-22 10:56:38,747 INFO  FullProcessService - Size of directory with sources: 908 KB
-2018-10-22 10:56:38,747 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/src]
-2018-10-22 10:56:38,764 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/src/.git/
+2019-07-05 23:33:48,802 INFO  DownloadService - Downloading "https://github.com/AllenCoder/UploaderPlugin/archive/master.zip", attempt 3
+2019-07-05 23:33:49,548 INFO  DownloadService - Downloaded https://github.com/AllenCoder/UploaderPlugin/archive/master.zip, attempt 3
+2019-07-05 23:33:49,548 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/master.zip": 766 KB
+2019-07-05 23:33:49,548 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 23:33:49,554 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/master.zip: true
+2019-07-05 23:33:49,554 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/src'.
+2019-07-05 23:33:49,577 INFO  FullProcessService - Size of directory with sources: 908 KB
+2019-07-05 23:33:49,578 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/src]
+2019-07-05 23:33:49,594 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/src/.git/
 
-2018-10-22 10:56:38,767 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/src/UploaderPlugin-master/gradlew
-2018-10-22 10:56:38,771 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/src/UploaderPlugin-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/src/UploaderPlugin-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/src/UploaderPlugin-master/preuploader/build.gradle
-2018-10-22 10:56:38,774 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/src/UploaderPlugin-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/src/UploaderPlugin-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/src/UploaderPlugin-master/uploader.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/src/UploaderPlugin-master/preuploader/build.gradle
-2018-10-22 10:56:38,774 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle", attempt 3
-2018-10-22 10:56:38,958 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle, attempt 3
-2018-10-22 10:56:38,958 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle", attempt 3
-2018-10-22 10:56:39,136 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle, attempt 3
-2018-10-22 10:56:39,137 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle
-2018-10-22 10:56:39,137 INFO  ProjectFixService - Fixing project...
-2018-10-22 10:56:39,142 INFO  ManifestFixService - Found manifest(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/src/UploaderPlugin-master/buildSrc/build/tmp/jar/MANIFEST.MF
-2018-10-22 10:56:39,150 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/src/UploaderPlugin-master/app/local.properties
-2018-10-22 10:56:39,150 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/src/UploaderPlugin-master/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
-2018-10-22 10:56:39,151 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/src/UploaderPlugin-master/local.properties
-2018-10-22 10:56:39,151 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-22 10:56:39,151 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-22 10:56:39,152 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/src/UploaderPlugin-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
-2018-10-22 10:56:39,153 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/src/UploaderPlugin-master/preuploader/local.properties
-2018-10-22 10:56:39,153 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/src/UploaderPlugin-master/preuploader/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
-2018-10-22 10:56:39,153 INFO  ProjectFixService - Project was maybe fixed
-2018-10-22 10:56:39,154 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-22 10:56:39,154 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/src/UploaderPlugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/src/UploaderPlugin-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-22 10:56:40,921 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-22 10:56:40,921 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-10-22 10:56:40,921 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-10-22 10:56:40,921 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/src/UploaderPlugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/src/UploaderPlugin-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-10-22 10:56:42,429 ERROR SysUtils - Could not process external command
+2019-07-05 23:33:49,596 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/src/UploaderPlugin-master/gradlew
+2019-07-05 23:33:49,599 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/src/UploaderPlugin-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/src/UploaderPlugin-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/src/UploaderPlugin-master/preuploader/build.gradle
+2019-07-05 23:33:49,601 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/src/UploaderPlugin-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/src/UploaderPlugin-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/src/UploaderPlugin-master/uploader.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/src/UploaderPlugin-master/preuploader/build.gradle
+2019-07-05 23:33:49,602 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle", attempt 3
+2019-07-05 23:33:49,823 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle, attempt 3
+2019-07-05 23:33:49,823 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle", attempt 3
+2019-07-05 23:33:50,042 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle, attempt 3
+2019-07-05 23:33:50,043 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle
+2019-07-05 23:33:50,043 INFO  ProjectFixService - Fixing project...
+2019-07-05 23:33:50,047 INFO  ManifestFixService - Found manifest(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/src/UploaderPlugin-master/buildSrc/build/tmp/jar/MANIFEST.MF
+2019-07-05 23:33:50,057 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/src/UploaderPlugin-master/app/local.properties
+2019-07-05 23:33:50,057 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/src/UploaderPlugin-master/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2019-07-05 23:33:50,058 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/src/UploaderPlugin-master/local.properties
+2019-07-05 23:33:50,058 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-07-05 23:33:50,058 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-07-05 23:33:50,059 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/src/UploaderPlugin-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2019-07-05 23:33:50,059 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/src/UploaderPlugin-master/preuploader/local.properties
+2019-07-05 23:33:50,060 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/src/UploaderPlugin-master/preuploader/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2019-07-05 23:33:50,060 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 23:33:50,060 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 23:33:50,060 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/src/UploaderPlugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/src/UploaderPlugin-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 23:33:51,478 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 23:33:51,478 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-07-05 23:33:51,478 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-07-05 23:33:51,478 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/src/UploaderPlugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/src/UploaderPlugin-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-07-05 23:33:52,824 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -53,19 +53,19 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-22 10:56:42,429 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 23:33:52,824 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/src/UploaderPlugin-master/app/build.gradle' line: 1
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/src/UploaderPlugin-master/app/build.gradle' line: 1
 
 * What went wrong:
 A problem occurred evaluating root project 'app'.
@@ -136,21 +136,21 @@ Caused by: org.gradle.api.plugins.UnknownPluginException: Plugin with id 'com.an
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply.callCurrent(Unknown Source)
-	at build_5wja9jfmw0ehptjbl7vzr6on9.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/src/UploaderPlugin-master/app/build.gradle:1)
+	at build_bvhn55rfs5unc3rqxjt9qrrlk.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/src/UploaderPlugin-master/app/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 50 more
 
 
 BUILD FAILED
 
-Total time: 1.355 secs
+Total time: 1.203 secs
 
-2018-10-22 10:56:42,433 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-22 10:56:42,433 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/src/UploaderPlugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/src/UploaderPlugin-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-22 10:56:50,224 INFO  ProjectTaskService - Detected possible tasks: 43
-2018-10-22 10:56:50,224 INFO  ProjectTaskService - Excluded tasks (3): javadocJar javadoc sourcesJar
-2018-10-22 10:56:50,224 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/src/UploaderPlugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/src/UploaderPlugin-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocJar, -x, javadoc, -x, sourcesJar, build]
-2018-10-22 10:56:53,943 ERROR SysUtils - Could not process external command
+2019-07-05 23:33:52,827 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 23:33:52,827 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/src/UploaderPlugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/src/UploaderPlugin-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 23:33:58,469 INFO  ProjectTaskService - Detected possible tasks: 43
+2019-07-05 23:33:58,469 INFO  ProjectTaskService - Excluded tasks (3): javadocJar javadoc sourcesJar
+2019-07-05 23:33:58,469 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/src/UploaderPlugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/src/UploaderPlugin-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocJar, -x, javadoc, -x, sourcesJar, build]
+2019-07-05 23:34:01,765 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -170,14 +170,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-22 10:56:53,943 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 23:34:01,765 INFO  SysUtils - Configuration on demand is an incubating feature.
 :buildSrc:compileJava UP-TO-DATE
 :buildSrc:compileGroovy UP-TO-DATE
 :buildSrc:processResources UP-TO-DATE
@@ -250,11 +250,11 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in root
 
 BUILD FAILED
 
-Total time: 3.235 secs
+Total time: 2.777 secs
 
-2018-10-22 10:56:53,943 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2018-10-22 10:56:53,943 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/src/UploaderPlugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/src/UploaderPlugin-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-22 10:56:57,684 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 23:34:01,765 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-07-05 23:34:01,765 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/src/UploaderPlugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/src/UploaderPlugin-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 23:34:05,003 INFO  SysUtils - Configuration on demand is an incubating feature.
 :buildSrc:compileJava UP-TO-DATE
 :buildSrc:compileGroovy UP-TO-DATE
 :buildSrc:processResources UP-TO-DATE
@@ -462,15 +462,15 @@ classpath
 
 BUILD SUCCESSFUL
 
-Total time: 3.274 secs
+Total time: 2.746 secs
 
-2018-10-22 10:56:57,689 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-22 10:56:57,689 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/src/UploaderPlugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/src/UploaderPlugin-master/preuploader/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-22 10:57:00,435 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-22 10:57:00,435 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-10-22 10:57:00,435 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-10-22 10:57:00,436 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/src/UploaderPlugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/src/UploaderPlugin-master/preuploader/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-10-22 10:57:02,744 ERROR SysUtils - Could not process external command
+2019-07-05 23:34:05,007 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 23:34:05,007 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/src/UploaderPlugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/src/UploaderPlugin-master/preuploader/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 23:34:07,078 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 23:34:07,079 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-07-05 23:34:07,079 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-07-05 23:34:07,079 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/src/UploaderPlugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/src/UploaderPlugin-master/preuploader/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-07-05 23:34:09,058 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -490,19 +490,19 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-22 10:57:02,744 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 23:34:09,058 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/src/UploaderPlugin-master/uploader.gradle' line: 1
+Script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/src/UploaderPlugin-master/uploader.gradle' line: 1
 
 * What went wrong:
 A problem occurred evaluating script.
@@ -524,7 +524,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating script.
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply.callCurrent(Unknown Source)
-	at build_6kij18gr8c069ks3uzheb6w1y.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/src/UploaderPlugin-master/preuploader/build.gradle:3)
+	at build_fio1nvbzk57ncpjx1owm2ceu.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/src/UploaderPlugin-master/preuploader/build.gradle:3)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:177)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
@@ -584,14 +584,14 @@ Caused by: org.gradle.api.plugins.UnknownPluginException: Plugin with id 'com.jf
 	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.execute(DefaultObjectConfigurationAction.java:136)
 	at org.gradle.groovy.scripts.DefaultScript.apply(DefaultScript.java:111)
 	at org.gradle.api.Script$apply.callCurrent(Unknown Source)
-	at uploader_4uawckym0vfafg58ingla4ryy.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180597308-0/src/UploaderPlugin-master/uploader.gradle:1)
+	at uploader_3ry8n7mx647lg57g7hpmg0rrn.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344428799-0/src/UploaderPlugin-master/uploader.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 62 more
 
 
 BUILD FAILED
 
-Total time: 2.137 secs
+Total time: 1.853 secs
 
-2018-10-22 10:57:02,749 ERROR FullProcessService - Project build has not produced APK file
-2018-10-22 10:57:02,753 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-05 23:34:09,061 ERROR FullProcessService - Project build has not produced APK file
+2019-07-05 23:34:09,064 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,9 +1,177 @@
-2019-01-10 14:57:11,314 INFO  DownloadService - Downloading "https://github.com/jinatonic/confetti/archive/master.zip", attempt 3
-2019-01-10 14:57:11,314 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-01-10 14:57:11,752 INFO  GithubDownloadService - Default branch of this repository: master
-2019-01-10 14:57:11,752 INFO  DownloadService - Downloading "https://github.com/jinatonic/confetti/archive/master.zip", attempt 3
-2019-01-10 14:57:11,752 DEBUG FullProcessService - Repository https://github.com/jinatonic/confetti available: false
-2019-01-10 14:57:11,752 ERROR FullProcessService - Could not find directory with sources
-2019-01-10 14:57:11,753 ERROR FullProcessService - Project will not be processed
-2019-01-10 14:57:11,753 ERROR FullProcessService - Project build has not produced APK file
-2019-01-10 14:57:11,753 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-05 23:50:23,606 INFO  DownloadService - Downloading "https://github.com/jinatonic/confetti/archive/master.zip", attempt 3
+2019-07-05 23:50:25,939 INFO  DownloadService - Downloaded https://github.com/jinatonic/confetti/archive/master.zip, attempt 3
+2019-07-05 23:50:25,939 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/master.zip": 2 MB
+2019-07-05 23:50:25,939 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 23:50:25,940 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/master.zip: true
+2019-07-05 23:50:25,940 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src'.
+2019-07-05 23:50:25,978 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-07-05 23:50:25,979 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src]
+2019-07-05 23:50:25,994 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/.git/
+
+2019-07-05 23:50:25,996 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/gradlew
+2019-07-05 23:50:25,999 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/confetti-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/confetti/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/build.gradle
+2019-07-05 23:50:26,001 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/confetti-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/confetti/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/confetti/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/settings.gradle
+2019-07-05 23:50:26,001 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 23:50:26,001 INFO  ProjectFixService - Fixing project...
+2019-07-05 23:50:26,007 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/confetti-sample/local.properties
+2019-07-05 23:50:26,007 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/confetti-sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-05 23:50:26,008 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/confetti/local.properties
+2019-07-05 23:50:26,008 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/confetti/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=12,targetSdkVersion=28]
+2019-07-05 23:50:26,008 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/local.properties
+2019-07-05 23:50:26,008 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.2.1-all.zip
+2019-07-05 23:50:26,008 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.2.1-bin.zip)
+2019-07-05 23:50:26,009 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-05 23:50:26,009 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 23:50:26,009 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 23:50:26,009 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/confetti-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 23:50:41,471 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-05 23:50:41,471 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-05 23:50:41,471 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/confetti-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-05 23:51:15,401 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :confetti:preBuild UP-TO-DATE
+> Task :confetti:preDebugBuild UP-TO-DATE
+> Task :confetti:compileDebugAidl NO-SOURCE
+> Task :confetti:compileDebugRenderscript NO-SOURCE
+> Task :confetti:checkDebugManifest
+> Task :confetti:generateDebugBuildConfig
+> Task :confetti:generateDebugResValues
+> Task :confetti:generateDebugResources
+> Task :confetti:packageDebugResources
+> Task :confetti:processDebugManifest
+> Task :confetti:generateDebugRFile
+> Task :confetti:prepareLintJar
+> Task :confetti:generateDebugSources
+> Task :confetti:javaPreCompileDebug
+> Task :confetti:compileDebugJavaWithJavac
+> Task :confetti:bundleLibCompileDebug
+> Task :confetti-sample:preBuild UP-TO-DATE
+> Task :confetti-sample:preDebugBuild
+> Task :confetti-sample:compileDebugAidl NO-SOURCE
+> Task :confetti:packageDebugRenderscript NO-SOURCE
+> Task :confetti-sample:compileDebugRenderscript NO-SOURCE
+> Task :confetti-sample:checkDebugManifest
+> Task :confetti-sample:generateDebugBuildConfig
+> Task :confetti-sample:prepareLintJar
+> Task :confetti-sample:generateDebugSources
+> Task :confetti-sample:javaPreCompileDebug
+> Task :confetti-sample:mainApkListPersistenceDebug
+> Task :confetti-sample:generateDebugResValues
+> Task :confetti-sample:generateDebugResources
+> Task :confetti-sample:mergeDebugResources
+> Task :confetti-sample:createDebugCompatibleScreenManifests
+> Task :confetti-sample:processDebugManifest
+> Task :confetti-sample:processDebugResources
+
+> Task :confetti-sample:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/confetti-sample/src/main/java/com/github/jinatonic/confetti/sample/AbstractActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :confetti-sample:compileDebugSources
+> Task :confetti:mergeDebugShaders
+> Task :confetti:compileDebugShaders
+> Task :confetti:generateDebugAssets
+> Task :confetti:packageDebugAssets
+> Task :confetti-sample:mergeDebugShaders
+> Task :confetti-sample:compileDebugShaders
+> Task :confetti-sample:generateDebugAssets
+> Task :confetti-sample:mergeDebugAssets
+> Task :confetti:processDebugJavaRes NO-SOURCE
+> Task :confetti:bundleLibResDebug
+> Task :confetti:bundleLibRuntimeDebug
+> Task :confetti:createFullJarDebug
+> Task :confetti-sample:checkDebugDuplicateClasses
+> Task :confetti-sample:mergeExtDexDebug
+> Task :confetti-sample:transformClassesWithDexBuilderForDebug
+> Task :confetti-sample:mergeDexDebug
+> Task :confetti-sample:validateSigningDebug
+> Task :confetti-sample:signingConfigWriterDebug
+> Task :confetti:mergeDebugJniLibFolders
+> Task :confetti:transformNativeLibsWithMergeJniLibsForDebug
+> Task :confetti:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :confetti:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :confetti-sample:mergeDebugJniLibFolders
+> Task :confetti-sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :confetti-sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :confetti-sample:processDebugJavaRes NO-SOURCE
+> Task :confetti-sample:transformResourcesWithMergeJavaResForDebug
+> Task :confetti-sample:packageDebug
+> Task :confetti-sample:assembleDebug
+> Task :confetti:preReleaseBuild UP-TO-DATE
+> Task :confetti:compileReleaseAidl NO-SOURCE
+> Task :confetti:compileReleaseRenderscript NO-SOURCE
+> Task :confetti:checkReleaseManifest
+> Task :confetti:generateReleaseBuildConfig
+> Task :confetti:generateReleaseResValues
+> Task :confetti:generateReleaseResources
+> Task :confetti:packageReleaseResources
+> Task :confetti:processReleaseManifest
+> Task :confetti:generateReleaseRFile
+> Task :confetti:generateReleaseSources
+> Task :confetti:javaPreCompileRelease
+> Task :confetti:compileReleaseJavaWithJavac
+> Task :confetti:bundleLibCompileRelease
+> Task :confetti-sample:preReleaseBuild
+> Task :confetti-sample:compileReleaseAidl NO-SOURCE
+> Task :confetti:packageReleaseRenderscript NO-SOURCE
+> Task :confetti-sample:compileReleaseRenderscript NO-SOURCE
+> Task :confetti-sample:checkReleaseManifest
+> Task :confetti-sample:generateReleaseBuildConfig
+> Task :confetti-sample:generateReleaseSources
+> Task :confetti-sample:javaPreCompileRelease
+> Task :confetti-sample:mainApkListPersistenceRelease
+> Task :confetti-sample:generateReleaseResValues
+> Task :confetti-sample:generateReleaseResources
+> Task :confetti-sample:mergeReleaseResources
+> Task :confetti-sample:createReleaseCompatibleScreenManifests
+> Task :confetti-sample:processReleaseManifest
+> Task :confetti-sample:processReleaseResources
+
+> Task :confetti-sample:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/confetti-sample/src/main/java/com/github/jinatonic/confetti/sample/AbstractActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :confetti-sample:compileReleaseSources
+> Task :confetti:prepareLintJarForPublish
+
+> Task :confetti-sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/d2168d6a1760630b0dbf43573262c36c/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :confetti:processReleaseJavaRes NO-SOURCE
+> Task :confetti:bundleLibResRelease
+> Task :confetti:bundleLibRuntimeRelease
+> Task :confetti:createFullJarRelease
+> Task :confetti-sample:checkReleaseDuplicateClasses
+> Task :confetti-sample:mergeExtDexRelease
+> Task :confetti-sample:transformClassesWithDexBuilderForRelease
+> Task :confetti-sample:mergeDexRelease
+> Task :confetti:mergeReleaseShaders
+> Task :confetti:compileReleaseShaders
+> Task :confetti:generateReleaseAssets
+> Task :confetti:packageReleaseAssets
+> Task :confetti-sample:mergeReleaseShaders
+> Task :confetti-sample:compileReleaseShaders
+> Task :confetti-sample:generateReleaseAssets
+> Task :confetti-sample:mergeReleaseAssets
+> Task :confetti-sample:signingConfigWriterRelease
+> Task :confetti:mergeReleaseJniLibFolders
+> Task :confetti:transformNativeLibsWithMergeJniLibsForRelease
+> Task :confetti:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :confetti:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :confetti-sample:mergeReleaseJniLibFolders
+> Task :confetti-sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :confetti-sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :confetti-sample:processReleaseJavaRes NO-SOURCE
+> Task :confetti-sample:transformResourcesWithMergeJavaResForRelease
+> Task :confetti-sample:packageRelease
+> Task :confetti-sample:assembleRelease
+> Task :confetti-sample:assemble
+> Task :confetti-sample:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.2.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 33s
+91 actionable tasks: 91 executed
+
+2019-07-05 23:51:15,454 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/confetti-sample/build/outputs/apk/release/confetti-sample-release-unsigned.apk

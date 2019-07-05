@@ -1,33 +1,33 @@
-2018-10-27 20:02:07,804 INFO  DownloadService - Downloading "https://github.com/ViHtarb/Tooltip/archive/master.zip", attempt 3
-2018-10-27 20:02:08,843 INFO  DownloadService - Downloaded https://github.com/ViHtarb/Tooltip/archive/master.zip, attempt 3
-2018-10-27 20:02:08,844 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540645327800-0/master.zip": 382 KB
-2018-10-27 20:02:08,844 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-27 20:02:08,849 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540645327800-0/master.zip: true
-2018-10-27 20:02:08,849 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540645327800-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540645327800-0/src'.
-2018-10-27 20:02:08,871 INFO  FullProcessService - Size of directory with sources: 443 KB
-2018-10-27 20:02:08,871 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540645327800-0/src]
-2018-10-27 20:02:09,775 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540645327800-0/src/.git/
+2019-07-06 00:16:00,503 INFO  DownloadService - Downloading "https://github.com/ViHtarb/Tooltip/archive/master.zip", attempt 3
+2019-07-06 00:16:01,244 INFO  DownloadService - Downloaded https://github.com/ViHtarb/Tooltip/archive/master.zip, attempt 3
+2019-07-06 00:16:01,244 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346960495-0/master.zip": 383 KB
+2019-07-06 00:16:01,244 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-06 00:16:01,250 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346960495-0/master.zip: true
+2019-07-06 00:16:01,250 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346960495-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346960495-0/src'.
+2019-07-06 00:16:01,271 INFO  FullProcessService - Size of directory with sources: 443 KB
+2019-07-06 00:16:01,271 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346960495-0/src]
+2019-07-06 00:16:01,286 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346960495-0/src/.git/
 
-2018-10-27 20:02:09,779 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540645327800-0/src/Tooltip-master/gradlew
-2018-10-27 20:02:09,783 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540645327800-0/src/Tooltip-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540645327800-0/src/Tooltip-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540645327800-0/src/Tooltip-master/build.gradle
-2018-10-27 20:02:09,787 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540645327800-0/src/Tooltip-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540645327800-0/src/Tooltip-master/maven_push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540645327800-0/src/Tooltip-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540645327800-0/src/Tooltip-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540645327800-0/src/Tooltip-master/settings.gradle
-2018-10-27 20:02:09,787 INFO  ProjectBuildService - Remote scripts: none
-2018-10-27 20:02:09,787 INFO  ProjectFixService - Fixing project...
-2018-10-27 20:02:09,797 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540645327800-0/src/Tooltip-master/app/local.properties
-2018-10-27 20:02:09,799 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540645327800-0/src/Tooltip-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-10-27 20:02:09,799 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540645327800-0/src/Tooltip-master/library/local.properties
-2018-10-27 20:02:09,801 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540645327800-0/src/Tooltip-master/library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-10-27 20:02:09,802 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540645327800-0/src/Tooltip-master/local.properties
-2018-10-27 20:02:09,802 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2018-10-27 20:02:09,803 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2018-10-27 20:02:09,803 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540645327800-0/src/Tooltip-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-10-27 20:02:09,803 INFO  ProjectFixService - Project was maybe fixed
-2018-10-27 20:02:09,803 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-27 20:02:09,803 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540645327800-0/src/Tooltip-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540645327800-0/src/Tooltip-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-27 20:02:29,776 INFO  ProjectTaskService - Detected possible tasks: 66
-2018-10-27 20:02:29,776 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-10-27 20:02:29,776 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540645327800-0/src/Tooltip-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540645327800-0/src/Tooltip-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-10-27 20:03:14,136 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 00:16:01,289 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346960495-0/src/Tooltip-master/gradlew
+2019-07-06 00:16:01,291 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346960495-0/src/Tooltip-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346960495-0/src/Tooltip-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346960495-0/src/Tooltip-master/build.gradle
+2019-07-06 00:16:01,294 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346960495-0/src/Tooltip-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346960495-0/src/Tooltip-master/maven_push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346960495-0/src/Tooltip-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346960495-0/src/Tooltip-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346960495-0/src/Tooltip-master/settings.gradle
+2019-07-06 00:16:01,294 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 00:16:01,294 INFO  ProjectFixService - Fixing project...
+2019-07-06 00:16:01,300 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346960495-0/src/Tooltip-master/app/local.properties
+2019-07-06 00:16:01,302 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346960495-0/src/Tooltip-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-06 00:16:01,302 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346960495-0/src/Tooltip-master/library/local.properties
+2019-07-06 00:16:01,304 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346960495-0/src/Tooltip-master/library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-06 00:16:01,304 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346960495-0/src/Tooltip-master/local.properties
+2019-07-06 00:16:01,304 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-07-06 00:16:01,305 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-07-06 00:16:01,305 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346960495-0/src/Tooltip-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-06 00:16:01,305 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 00:16:01,305 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 00:16:01,305 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346960495-0/src/Tooltip-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346960495-0/src/Tooltip-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 00:16:13,216 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-06 00:16:13,216 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-06 00:16:13,216 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346960495-0/src/Tooltip-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346960495-0/src/Tooltip-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-06 00:16:47,124 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :library
 RELEASE BUILD
@@ -57,7 +57,7 @@ RELEASE BUILD
 > Task :library:javaPreCompileDebug
 
 > Task :library:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540645327800-0/src/Tooltip-master/library/src/main/java/android/support/v4/view/ViewTreeObserverCompat.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346960495-0/src/Tooltip-master/library/src/main/java/android/support/v4/view/ViewTreeObserverCompat.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :library:processDebugJavaRes NO-SOURCE
@@ -121,7 +121,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :library:javaPreCompileRelease
 
 > Task :library:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540645327800-0/src/Tooltip-master/library/src/main/java/android/support/v4/view/ViewTreeObserverCompat.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346960495-0/src/Tooltip-master/library/src/main/java/android/support/v4/view/ViewTreeObserverCompat.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :library:processReleaseJavaRes NO-SOURCE
@@ -170,7 +170,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 43s
+BUILD SUCCESSFUL in 33s
 86 actionable tasks: 86 executed
 
-2018-10-27 20:03:14,227 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540645327800-0/src/Tooltip-master/app/build/outputs/apk/debug/app-debug.apk
+2019-07-06 00:16:47,187 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346960495-0/src/Tooltip-master/app/build/outputs/apk/debug/app-debug.apk

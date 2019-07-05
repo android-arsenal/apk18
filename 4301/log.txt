@@ -1,38 +1,38 @@
-2018-10-23 15:59:48,605 INFO  DownloadService - Downloading "https://github.com/imperial-crystalline-recursion/abtestgen/archive/master.zip", attempt 3
-2018-10-23 15:59:50,794 INFO  DownloadService - Downloaded https://github.com/imperial-crystalline-recursion/abtestgen/archive/master.zip, attempt 3
-2018-10-23 15:59:50,794 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/master.zip": 126 KB
-2018-10-23 15:59:50,794 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-23 15:59:50,800 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/master.zip: true
-2018-10-23 15:59:50,801 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src'.
-2018-10-23 15:59:50,827 INFO  FullProcessService - Size of directory with sources: 161 KB
-2018-10-23 15:59:50,827 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src]
-2018-10-23 15:59:50,844 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/.git/
+2019-07-05 23:48:56,500 INFO  DownloadService - Downloading "https://github.com/imperial-crystalline-recursion/abtestgen/archive/master.zip", attempt 3
+2019-07-05 23:48:57,010 INFO  DownloadService - Downloaded https://github.com/imperial-crystalline-recursion/abtestgen/archive/master.zip, attempt 3
+2019-07-05 23:48:57,010 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/master.zip": 126 KB
+2019-07-05 23:48:57,010 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 23:48:57,011 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/master.zip: true
+2019-07-05 23:48:57,011 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src'.
+2019-07-05 23:48:57,034 INFO  FullProcessService - Size of directory with sources: 161 KB
+2019-07-05 23:48:57,034 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src]
+2019-07-05 23:48:57,051 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/.git/
 
-2018-10-23 15:59:50,848 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/gradlew
-2018-10-23 15:59:50,852 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/ab-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/ab-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/ab-compiler/build.gradle
-2018-10-23 15:59:50,856 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/ab-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/ab-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/ab-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/settings.gradle
-2018-10-23 15:59:50,856 INFO  ProjectBuildService - Remote scripts: none
-2018-10-23 15:59:50,856 INFO  ProjectFixService - Fixing project...
-2018-10-23 15:59:50,865 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/ab-lib/local.properties
-2018-10-23 15:59:50,865 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/ab-lib/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=8,targetSdkVersion=25]
-2018-10-23 15:59:50,866 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/app/local.properties
-2018-10-23 15:59:50,866 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
-2018-10-23 15:59:50,866 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/local.properties
-2018-10-23 15:59:50,867 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-23 15:59:50,867 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-23 15:59:50,868 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=8,targetSdkVersion=25]
-2018-10-23 15:59:50,868 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/ab-annotations/local.properties
-2018-10-23 15:59:50,869 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/ab-annotations/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=8,targetSdkVersion=25]
-2018-10-23 15:59:50,869 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/ab-compiler/local.properties
-2018-10-23 15:59:50,870 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/ab-compiler/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=8,targetSdkVersion=25]
-2018-10-23 15:59:50,870 INFO  ProjectFixService - Project was maybe fixed
-2018-10-23 15:59:50,870 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-23 15:59:50,870 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/ab-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-23 16:00:05,427 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-23 16:00:05,427 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-23 16:00:05,427 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-23 16:00:05,427 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/ab-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-23 16:00:14,220 ERROR SysUtils - Could not process external command
+2019-07-05 23:48:57,056 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/gradlew
+2019-07-05 23:48:57,060 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/ab-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/ab-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/ab-compiler/build.gradle
+2019-07-05 23:48:57,064 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/ab-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/ab-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/ab-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/settings.gradle
+2019-07-05 23:48:57,064 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 23:48:57,064 INFO  ProjectFixService - Fixing project...
+2019-07-05 23:48:57,072 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/ab-lib/local.properties
+2019-07-05 23:48:57,072 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/ab-lib/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=8,targetSdkVersion=25]
+2019-07-05 23:48:57,073 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/app/local.properties
+2019-07-05 23:48:57,073 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2019-07-05 23:48:57,073 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/local.properties
+2019-07-05 23:48:57,073 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-07-05 23:48:57,074 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-07-05 23:48:57,075 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=8,targetSdkVersion=25]
+2019-07-05 23:48:57,075 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/ab-annotations/local.properties
+2019-07-05 23:48:57,075 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/ab-annotations/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=8,targetSdkVersion=25]
+2019-07-05 23:48:57,076 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/ab-compiler/local.properties
+2019-07-05 23:48:57,076 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/ab-compiler/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=8,targetSdkVersion=25]
+2019-07-05 23:48:57,076 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 23:48:57,076 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 23:48:57,076 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/ab-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 23:49:04,401 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 23:49:04,401 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 23:49:04,401 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 23:49:04,402 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/ab-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 23:49:11,255 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -52,14 +52,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-23 16:00:14,220 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 23:49:11,255 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :ab-lib:preBuild UP-TO-DATE
 :ab-lib:preDebugBuild UP-TO-DATE
@@ -231,15 +231,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 7.977 secs
+Total time: 5.997 secs
 
-2018-10-23 16:00:14,233 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-23 16:00:14,234 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-23 16:00:20,732 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-23 16:00:20,733 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-23 16:00:20,733 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-23 16:00:20,733 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-23 16:00:27,102 ERROR SysUtils - Could not process external command
+2019-07-05 23:49:11,266 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 23:49:11,266 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 23:49:17,256 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 23:49:17,256 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 23:49:17,256 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 23:49:17,256 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 23:49:23,368 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -259,14 +259,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-23 16:00:27,103 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 23:49:23,368 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -370,22 +370,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 5.765 secs
+Total time: 5.454 secs
 
-2018-10-23 16:00:27,115 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-23 16:00:27,116 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-23 16:00:33,532 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-23 16:00:33,532 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-23 16:00:33,533 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-23 16:00:33,533 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-23 16:00:39,882 ERROR SysUtils - Could not process external command
+2019-07-05 23:49:23,380 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 23:49:23,380 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 23:49:29,406 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 23:49:29,406 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 23:49:29,406 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 23:49:29,406 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 23:49:35,636 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -405,14 +405,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-23 16:00:39,883 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 23:49:35,636 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -523,15 +523,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.754 secs
+Total time: 5.61 secs
 
-2018-10-23 16:00:39,895 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-23 16:00:39,896 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/ab-annotations/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-23 16:00:46,639 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-23 16:00:46,639 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-23 16:00:46,639 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-23 16:00:46,639 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/ab-annotations/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-23 16:00:50,151 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 23:49:35,646 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 23:49:35,646 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/ab-annotations/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 23:49:41,804 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 23:49:41,804 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 23:49:41,804 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 23:49:41,804 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/ab-annotations/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 23:49:45,179 INFO  SysUtils - Configuration on demand is an incubating feature.
 :ab-annotations:compileJava UP-TO-DATE
 :ab-annotations:processResources UP-TO-DATE
 :ab-annotations:classes UP-TO-DATE
@@ -547,15 +547,15 @@ Total time: 5.754 secs
 
 BUILD SUCCESSFUL
 
-Total time: 3.017 secs
+Total time: 2.855 secs
 
-2018-10-23 16:00:50,163 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-23 16:00:50,164 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/ab-compiler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-23 16:00:57,231 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-23 16:00:57,231 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-23 16:00:57,231 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-23 16:00:57,232 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540285188597-0/src/abtestgen-master/ab-compiler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-23 16:01:07,341 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 23:49:45,191 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 23:49:45,191 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/ab-compiler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 23:49:51,525 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 23:49:51,525 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 23:49:51,525 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 23:49:51,525 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345336496-0/src/abtestgen-master/ab-compiler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 23:49:57,133 INFO  SysUtils - Configuration on demand is an incubating feature.
 :ab-annotations:compileJava UP-TO-DATE
 :ab-annotations:processResources UP-TO-DATE
 :ab-annotations:classes UP-TO-DATE
@@ -577,7 +577,7 @@ Total time: 3.017 secs
 
 BUILD SUCCESSFUL
 
-Total time: 9.576 secs
+Total time: 5.067 secs
 
-2018-10-23 16:01:07,355 ERROR FullProcessService - Project build has not produced APK file
-2018-10-23 16:01:07,369 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-05 23:49:57,141 ERROR FullProcessService - Project build has not produced APK file
+2019-07-05 23:49:57,150 ERROR FullProcessService - Could not find generated or existed APK file

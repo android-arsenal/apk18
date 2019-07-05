@@ -1,34 +1,34 @@
-2018-10-22 11:03:21,312 INFO  DownloadService - Downloading "https://github.com/gjiazhe/WaveSideBar/archive/master.zip", attempt 3
-2018-10-22 11:03:23,268 INFO  DownloadService - Downloaded https://github.com/gjiazhe/WaveSideBar/archive/master.zip, attempt 3
-2018-10-22 11:03:23,268 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181001309-0/master.zip": 617 KB
-2018-10-22 11:03:23,268 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-22 11:03:23,269 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181001309-0/master.zip: true
-2018-10-22 11:03:23,269 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181001309-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181001309-0/src'.
-2018-10-22 11:03:23,290 INFO  FullProcessService - Size of directory with sources: 693 KB
-2018-10-22 11:03:23,290 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181001309-0/src]
-2018-10-22 11:03:23,307 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181001309-0/src/.git/
+2019-07-05 23:39:51,138 INFO  DownloadService - Downloading "https://github.com/gjiazhe/WaveSideBar/archive/master.zip", attempt 3
+2019-07-05 23:39:52,375 INFO  DownloadService - Downloaded https://github.com/gjiazhe/WaveSideBar/archive/master.zip, attempt 3
+2019-07-05 23:39:52,375 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344791136-0/master.zip": 617 KB
+2019-07-05 23:39:52,375 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 23:39:52,376 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344791136-0/master.zip: true
+2019-07-05 23:39:52,376 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344791136-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344791136-0/src'.
+2019-07-05 23:39:52,392 INFO  FullProcessService - Size of directory with sources: 693 KB
+2019-07-05 23:39:52,392 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344791136-0/src]
+2019-07-05 23:39:52,409 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344791136-0/src/.git/
 
-2018-10-22 11:03:23,309 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181001309-0/src/WaveSideBar-master/gradlew
-2018-10-22 11:03:23,311 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181001309-0/src/WaveSideBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181001309-0/src/WaveSideBar-master/wavesidebar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181001309-0/src/WaveSideBar-master/build.gradle
-2018-10-22 11:03:23,314 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181001309-0/src/WaveSideBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181001309-0/src/WaveSideBar-master/wavesidebar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181001309-0/src/WaveSideBar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181001309-0/src/WaveSideBar-master/settings.gradle
-2018-10-22 11:03:23,314 INFO  ProjectBuildService - Remote scripts: none
-2018-10-22 11:03:23,314 INFO  ProjectFixService - Fixing project...
-2018-10-22 11:03:23,319 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181001309-0/src/WaveSideBar-master/app/local.properties
-2018-10-22 11:03:23,320 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181001309-0/src/WaveSideBar-master/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
-2018-10-22 11:03:23,320 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181001309-0/src/WaveSideBar-master/wavesidebar/local.properties
-2018-10-22 11:03:23,320 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181001309-0/src/WaveSideBar-master/wavesidebar/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=10,targetSdkVersion=25]
-2018-10-22 11:03:23,320 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181001309-0/src/WaveSideBar-master/local.properties
-2018-10-22 11:03:23,321 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2018-10-22 11:03:23,321 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2018-10-22 11:03:23,322 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181001309-0/src/WaveSideBar-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
-2018-10-22 11:03:23,322 INFO  ProjectFixService - Project was maybe fixed
-2018-10-22 11:03:23,322 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-22 11:03:23,322 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181001309-0/src/WaveSideBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181001309-0/src/WaveSideBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-22 11:03:29,384 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-22 11:03:29,384 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-22 11:03:29,384 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-22 11:03:29,384 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181001309-0/src/WaveSideBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181001309-0/src/WaveSideBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-22 11:03:35,066 ERROR SysUtils - Could not process external command
+2019-07-05 23:39:52,411 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344791136-0/src/WaveSideBar-master/gradlew
+2019-07-05 23:39:52,412 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344791136-0/src/WaveSideBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344791136-0/src/WaveSideBar-master/wavesidebar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344791136-0/src/WaveSideBar-master/build.gradle
+2019-07-05 23:39:52,414 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344791136-0/src/WaveSideBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344791136-0/src/WaveSideBar-master/wavesidebar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344791136-0/src/WaveSideBar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344791136-0/src/WaveSideBar-master/settings.gradle
+2019-07-05 23:39:52,414 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 23:39:52,414 INFO  ProjectFixService - Fixing project...
+2019-07-05 23:39:52,418 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344791136-0/src/WaveSideBar-master/app/local.properties
+2019-07-05 23:39:52,419 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344791136-0/src/WaveSideBar-master/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2019-07-05 23:39:52,419 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344791136-0/src/WaveSideBar-master/wavesidebar/local.properties
+2019-07-05 23:39:52,419 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344791136-0/src/WaveSideBar-master/wavesidebar/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=10,targetSdkVersion=25]
+2019-07-05 23:39:52,419 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344791136-0/src/WaveSideBar-master/local.properties
+2019-07-05 23:39:52,420 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-07-05 23:39:52,420 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-07-05 23:39:52,420 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344791136-0/src/WaveSideBar-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2019-07-05 23:39:52,420 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 23:39:52,421 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 23:39:52,421 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344791136-0/src/WaveSideBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344791136-0/src/WaveSideBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 23:39:57,830 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 23:39:57,830 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 23:39:57,830 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 23:39:57,830 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344791136-0/src/WaveSideBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344791136-0/src/WaveSideBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 23:40:02,710 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -48,14 +48,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-22 11:03:35,066 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 23:40:02,710 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -241,15 +241,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.309 secs
+Total time: 4.56 secs
 
-2018-10-22 11:03:35,069 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-22 11:03:35,070 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181001309-0/src/WaveSideBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181001309-0/src/WaveSideBar-master/wavesidebar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-22 11:03:40,727 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-22 11:03:40,727 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-22 11:03:40,727 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-22 11:03:40,727 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181001309-0/src/WaveSideBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181001309-0/src/WaveSideBar-master/wavesidebar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-22 11:03:46,095 ERROR SysUtils - Could not process external command
+2019-07-05 23:40:02,713 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 23:40:02,713 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344791136-0/src/WaveSideBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344791136-0/src/WaveSideBar-master/wavesidebar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 23:40:07,695 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 23:40:07,695 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 23:40:07,695 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 23:40:07,695 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344791136-0/src/WaveSideBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344791136-0/src/WaveSideBar-master/wavesidebar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 23:40:12,497 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -269,14 +269,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-22 11:03:46,095 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 23:40:12,497 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -384,15 +384,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.085 secs
+Total time: 4.539 secs
 
-2018-10-22 11:03:46,098 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-22 11:03:46,098 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181001309-0/src/WaveSideBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181001309-0/src/WaveSideBar-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-22 11:03:51,719 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-22 11:03:51,719 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-22 11:03:51,719 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-22 11:03:51,719 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181001309-0/src/WaveSideBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181001309-0/src/WaveSideBar-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-22 11:03:57,476 ERROR SysUtils - Could not process external command
+2019-07-05 23:40:12,499 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 23:40:12,499 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344791136-0/src/WaveSideBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344791136-0/src/WaveSideBar-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 23:40:17,393 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 23:40:17,393 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 23:40:17,393 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 23:40:17,393 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344791136-0/src/WaveSideBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344791136-0/src/WaveSideBar-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 23:40:22,459 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -412,14 +412,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-22 11:03:57,476 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 23:40:22,459 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -605,7 +605,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.421 secs
+Total time: 4.733 secs
 
-2018-10-22 11:03:57,479 ERROR FullProcessService - Project build has not produced APK file
-2018-10-22 11:03:57,482 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-05 23:40:22,462 ERROR FullProcessService - Project build has not produced APK file
+2019-07-05 23:40:22,465 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,29 +1,29 @@
-2018-12-16 20:04:12,471 INFO  DownloadService - Downloading "https://github.com/Jamling/Android-ORM/archive/master.zip", attempt 3
-2018-12-16 20:04:13,245 INFO  DownloadService - Downloaded https://github.com/Jamling/Android-ORM/archive/master.zip, attempt 3
-2018-12-16 20:04:13,246 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965452463-0/master.zip": 427 KB
-2018-12-16 20:04:13,246 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-16 20:04:13,251 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965452463-0/master.zip: true
-2018-12-16 20:04:13,252 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965452463-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965452463-0/src'.
-2018-12-16 20:04:13,294 INFO  FullProcessService - Size of directory with sources: 739 KB
-2018-12-16 20:04:13,295 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965452463-0/src]
-2018-12-16 20:04:13,312 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965452463-0/src/.git/
+2019-07-05 23:48:05,046 INFO  DownloadService - Downloading "https://github.com/Jamling/Android-ORM/archive/master.zip", attempt 3
+2019-07-05 23:48:06,119 INFO  DownloadService - Downloaded https://github.com/Jamling/Android-ORM/archive/master.zip, attempt 3
+2019-07-05 23:48:06,119 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345285038-0/master.zip": 427 KB
+2019-07-05 23:48:06,119 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 23:48:06,125 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345285038-0/master.zip: true
+2019-07-05 23:48:06,125 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345285038-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345285038-0/src'.
+2019-07-05 23:48:06,160 INFO  FullProcessService - Size of directory with sources: 739 KB
+2019-07-05 23:48:06,160 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345285038-0/src]
+2019-07-05 23:48:06,175 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345285038-0/src/.git/
 
-2018-12-16 20:04:13,316 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965452463-0/src/Android-ORM-master/cn.ieclipse.aorm.core/gradlew
-2018-12-16 20:04:13,321 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965452463-0/src/Android-ORM-master/cn.ieclipse.aorm.core/build.gradle
-2018-12-16 20:04:13,325 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965452463-0/src/Android-ORM-master/cn.ieclipse.aorm.core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965452463-0/src/Android-ORM-master/cn.ieclipse.aorm.core/settings.gradle
-2018-12-16 20:04:13,325 INFO  ProjectBuildService - Remote scripts: none
-2018-12-16 20:04:13,325 INFO  ProjectFixService - Fixing project...
-2018-12-16 20:04:13,336 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965452463-0/src/Android-ORM-master/cn.ieclipse.aorm.core/local.properties
-2018-12-16 20:04:13,337 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-bin.zip
-2018-12-16 20:04:13,338 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965452463-0/src/Android-ORM-master/cn.ieclipse.aorm.core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-12-16 20:04:13,339 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965452463-0/src/Android-ORM-master/cn.ieclipse.aorm.core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-12-16 20:04:13,340 INFO  ProjectFixService - Project was maybe fixed
-2018-12-16 20:04:13,340 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-16 20:04:13,340 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965452463-0/src/Android-ORM-master/cn.ieclipse.aorm.core/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965452463-0/src/Android-ORM-master/cn.ieclipse.aorm.core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-16 20:04:17,305 INFO  ProjectTaskService - Detected possible tasks: 44
-2018-12-16 20:04:17,305 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2018-12-16 20:04:17,305 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965452463-0/src/Android-ORM-master/cn.ieclipse.aorm.core/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544965452463-0/src/Android-ORM-master/cn.ieclipse.aorm.core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2018-12-16 20:04:22,252 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 23:48:06,178 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345285038-0/src/Android-ORM-master/cn.ieclipse.aorm.core/gradlew
+2019-07-05 23:48:06,181 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345285038-0/src/Android-ORM-master/cn.ieclipse.aorm.core/build.gradle
+2019-07-05 23:48:06,184 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345285038-0/src/Android-ORM-master/cn.ieclipse.aorm.core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345285038-0/src/Android-ORM-master/cn.ieclipse.aorm.core/settings.gradle
+2019-07-05 23:48:06,184 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 23:48:06,184 INFO  ProjectFixService - Fixing project...
+2019-07-05 23:48:06,191 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345285038-0/src/Android-ORM-master/cn.ieclipse.aorm.core/local.properties
+2019-07-05 23:48:06,191 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-bin.zip
+2019-07-05 23:48:06,192 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345285038-0/src/Android-ORM-master/cn.ieclipse.aorm.core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-05 23:48:06,192 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345285038-0/src/Android-ORM-master/cn.ieclipse.aorm.core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-05 23:48:06,193 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 23:48:06,193 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 23:48:06,193 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345285038-0/src/Android-ORM-master/cn.ieclipse.aorm.core/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345285038-0/src/Android-ORM-master/cn.ieclipse.aorm.core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 23:48:09,296 INFO  ProjectTaskService - Detected possible tasks: 44
+2019-07-05 23:48:09,296 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-07-05 23:48:09,296 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345285038-0/src/Android-ORM-master/cn.ieclipse.aorm.core/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345285038-0/src/Android-ORM-master/cn.ieclipse.aorm.core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-07-05 23:48:13,220 INFO  SysUtils - Configuration on demand is an incubating feature.
 :compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
 1 warning
 
@@ -37,7 +37,7 @@
 
 BUILD SUCCESSFUL
 
-Total time: 4.728 secs
+Total time: 3.739 secs
 
-2018-12-16 20:04:22,261 ERROR FullProcessService - Project build has not produced APK file
-2018-12-16 20:04:22,274 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-05 23:48:13,225 ERROR FullProcessService - Project build has not produced APK file
+2019-07-05 23:48:13,228 ERROR FullProcessService - Could not find generated or existed APK file

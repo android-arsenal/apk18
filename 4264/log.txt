@@ -1,36 +1,36 @@
-2018-11-17 23:51:48,551 INFO  DownloadService - Downloading "https://github.com/rubensousa/RecyclerViewSnap/archive/master.zip", attempt 3
-2018-11-17 23:51:52,163 INFO  DownloadService - Downloaded https://github.com/rubensousa/RecyclerViewSnap/archive/master.zip, attempt 3
-2018-11-17 23:51:52,164 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/master.zip": 8 MB
-2018-11-17 23:51:52,164 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-17 23:51:52,164 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/master.zip: true
-2018-11-17 23:51:52,164 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src'.
-2018-11-17 23:51:52,256 INFO  FullProcessService - Size of directory with sources: 8 MB
-2018-11-17 23:51:52,257 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src]
-2018-11-17 23:51:52,274 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/.git/
+2019-07-06 00:08:34,928 INFO  DownloadService - Downloading "https://github.com/rubensousa/RecyclerViewSnap/archive/master.zip", attempt 3
+2019-07-06 00:08:42,137 INFO  DownloadService - Downloaded https://github.com/rubensousa/RecyclerViewSnap/archive/master.zip, attempt 3
+2019-07-06 00:08:42,137 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346514922-0/master.zip": 8 MB
+2019-07-06 00:08:42,137 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-06 00:08:42,138 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346514922-0/master.zip: true
+2019-07-06 00:08:42,138 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346514922-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346514922-0/src'.
+2019-07-06 00:08:42,217 INFO  FullProcessService - Size of directory with sources: 8 MB
+2019-07-06 00:08:42,217 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346514922-0/src]
+2019-07-06 00:08:42,234 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346514922-0/src/.git/
 
-2018-11-17 23:51:52,277 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/gradlew
-2018-11-17 23:51:52,281 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/gravitysnaphelper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/build.gradle
-2018-11-17 23:51:52,285 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/gradle/gradle-bintray-upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/gravitysnaphelper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/settings.gradle
-2018-11-17 23:51:52,286 INFO  ProjectBuildService - Remote scripts: none
-2018-11-17 23:51:52,286 INFO  ProjectFixService - Fixing project...
-2018-11-17 23:51:52,297 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/app/local.properties
-2018-11-17 23:51:52,300 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
-2018-11-17 23:51:52,301 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-11-17 23:51:52,302 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/gravitysnaphelper/local.properties
-2018-11-17 23:51:52,305 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/gravitysnaphelper/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
-2018-11-17 23:51:52,306 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/gravitysnaphelper/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-11-17 23:51:52,307 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/local.properties
-2018-11-17 23:51:52,307 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-11-17 23:51:52,308 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-11-17 23:51:52,310 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
-2018-11-17 23:51:52,311 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-11-17 23:51:52,311 INFO  ProjectFixService - Project was maybe fixed
-2018-11-17 23:51:52,311 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-17 23:51:52,311 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-17 23:51:59,503 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-11-17 23:51:59,503 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-17 23:51:59,503 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-17 23:52:39,561 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 00:08:42,236 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346514922-0/src/RecyclerViewSnap-master/gradlew
+2019-07-06 00:08:42,239 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346514922-0/src/RecyclerViewSnap-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346514922-0/src/RecyclerViewSnap-master/gravitysnaphelper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346514922-0/src/RecyclerViewSnap-master/build.gradle
+2019-07-06 00:08:42,241 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346514922-0/src/RecyclerViewSnap-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346514922-0/src/RecyclerViewSnap-master/gradle/gradle-bintray-upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346514922-0/src/RecyclerViewSnap-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346514922-0/src/RecyclerViewSnap-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346514922-0/src/RecyclerViewSnap-master/gravitysnaphelper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346514922-0/src/RecyclerViewSnap-master/settings.gradle
+2019-07-06 00:08:42,241 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 00:08:42,241 INFO  ProjectFixService - Fixing project...
+2019-07-06 00:08:42,247 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346514922-0/src/RecyclerViewSnap-master/app/local.properties
+2019-07-06 00:08:42,250 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346514922-0/src/RecyclerViewSnap-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
+2019-07-06 00:08:42,250 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346514922-0/src/RecyclerViewSnap-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=29]
+2019-07-06 00:08:42,250 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346514922-0/src/RecyclerViewSnap-master/gravitysnaphelper/local.properties
+2019-07-06 00:08:42,253 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346514922-0/src/RecyclerViewSnap-master/gravitysnaphelper/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
+2019-07-06 00:08:42,253 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346514922-0/src/RecyclerViewSnap-master/gravitysnaphelper/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=29]
+2019-07-06 00:08:42,253 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346514922-0/src/RecyclerViewSnap-master/local.properties
+2019-07-06 00:08:42,253 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-07-06 00:08:42,253 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-07-06 00:08:42,255 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346514922-0/src/RecyclerViewSnap-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
+2019-07-06 00:08:42,255 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346514922-0/src/RecyclerViewSnap-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=29]
+2019-07-06 00:08:42,256 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 00:08:42,256 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 00:08:42,256 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346514922-0/src/RecyclerViewSnap-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346514922-0/src/RecyclerViewSnap-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 00:08:48,359 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-07-06 00:08:48,360 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-06 00:08:48,360 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346514922-0/src/RecyclerViewSnap-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346514922-0/src/RecyclerViewSnap-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-06 00:09:25,585 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:checkDebugClasspath
 :app:preBuild UP-TO-DATE
 :gravitysnaphelper:preBuild UP-TO-DATE
@@ -159,7 +159,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 39s
+BUILD SUCCESSFUL in 36s
 90 actionable tasks: 90 executed
 
-2018-11-17 23:52:39,671 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542473508543-0/src/RecyclerViewSnap-master/app/build/outputs/apk/debug/app-debug.apk
+2019-07-06 00:09:25,658 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346514922-0/src/RecyclerViewSnap-master/app/build/outputs/apk/debug/app-debug.apk

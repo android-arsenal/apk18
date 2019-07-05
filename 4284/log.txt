@@ -1,31 +1,31 @@
-2018-10-25 23:01:00,142 INFO  DownloadService - Downloading "https://github.com/sathley/CreditCardEditText/archive/master.zip", attempt 3
-2018-10-25 23:01:00,688 INFO  DownloadService - Downloaded https://github.com/sathley/CreditCardEditText/archive/master.zip, attempt 3
-2018-10-25 23:01:00,688 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/master.zip": 108 KB
-2018-10-25 23:01:00,688 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-25 23:01:00,693 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/master.zip: true
-2018-10-25 23:01:00,694 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src'.
-2018-10-25 23:01:00,704 INFO  FullProcessService - Size of directory with sources: 113 KB
-2018-10-25 23:01:00,704 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src]
-2018-10-25 23:01:00,723 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src/.git/
+2019-07-05 23:58:59,749 INFO  DownloadService - Downloading "https://github.com/sathley/CreditCardEditText/archive/master.zip", attempt 3
+2019-07-05 23:59:00,249 INFO  DownloadService - Downloaded https://github.com/sathley/CreditCardEditText/archive/master.zip, attempt 3
+2019-07-05 23:59:00,249 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345939747-0/master.zip": 108 KB
+2019-07-05 23:59:00,249 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 23:59:00,255 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345939747-0/master.zip: true
+2019-07-05 23:59:00,255 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345939747-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345939747-0/src'.
+2019-07-05 23:59:00,264 INFO  FullProcessService - Size of directory with sources: 113 KB
+2019-07-05 23:59:00,264 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345939747-0/src]
+2019-07-05 23:59:00,281 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345939747-0/src/.git/
 
-2018-10-25 23:01:00,725 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src/CreditCardEditText-master/gradlew
-2018-10-25 23:01:00,727 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src/CreditCardEditText-master/CreditCardNumberEditText/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src/CreditCardEditText-master/build.gradle
-2018-10-25 23:01:00,728 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src/CreditCardEditText-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src/CreditCardEditText-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src/CreditCardEditText-master/CreditCardNumberEditText/build.gradle
-2018-10-25 23:01:00,729 INFO  ProjectBuildService - Remote scripts: none
-2018-10-25 23:01:00,729 INFO  ProjectFixService - Fixing project...
-2018-10-25 23:01:00,733 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src/CreditCardEditText-master/CreditCardNumberEditText/local.properties
-2018-10-25 23:01:00,734 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src/CreditCardEditText-master/CreditCardNumberEditText/build.gradle": [buildToolsVersion=20.0.0,compileSdkVersion=19,minSdkVersion=8,targetSdkVersion=19]
-2018-10-25 23:01:00,734 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src/CreditCardEditText-master/local.properties
-2018-10-25 23:01:00,734 INFO  WrapperPropertiesFixService - Gradle wrapper: http://services.gradle.org/distributions/gradle-1.12-all.zip
-2018-10-25 23:01:00,735 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (http://services.gradle.org/distributions/gradle-1.12-bin.zip)
-2018-10-25 23:01:00,736 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src/CreditCardEditText-master/build.gradle": [buildToolsVersion=20.0.0,compileSdkVersion=19,minSdkVersion=8,targetSdkVersion=19]
-2018-10-25 23:01:00,736 INFO  ProjectFixService - Project was maybe fixed
-2018-10-25 23:01:00,736 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-25 23:01:00,736 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src/CreditCardEditText-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src/CreditCardEditText-master/CreditCardNumberEditText/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-25 23:01:30,768 INFO  ProjectTaskService - Detected possible tasks: 55
-2018-10-25 23:01:30,768 INFO  ProjectTaskService - Excluded tasks (8): lintDebug deviceCheck lint connectedCheck uninstallAll check connectedAndroidTest lintRelease
-2018-10-25 23:01:30,768 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src/CreditCardEditText-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src/CreditCardEditText-master/CreditCardNumberEditText/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-10-25 23:01:39,004 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 23:59:00,282 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345939747-0/src/CreditCardEditText-master/gradlew
+2019-07-05 23:59:00,284 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345939747-0/src/CreditCardEditText-master/CreditCardNumberEditText/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345939747-0/src/CreditCardEditText-master/build.gradle
+2019-07-05 23:59:00,285 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345939747-0/src/CreditCardEditText-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345939747-0/src/CreditCardEditText-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345939747-0/src/CreditCardEditText-master/CreditCardNumberEditText/build.gradle
+2019-07-05 23:59:00,285 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 23:59:00,285 INFO  ProjectFixService - Fixing project...
+2019-07-05 23:59:00,288 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345939747-0/src/CreditCardEditText-master/CreditCardNumberEditText/local.properties
+2019-07-05 23:59:00,288 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345939747-0/src/CreditCardEditText-master/CreditCardNumberEditText/build.gradle": [buildToolsVersion=20.0.0,compileSdkVersion=19,minSdkVersion=8,targetSdkVersion=19]
+2019-07-05 23:59:00,289 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345939747-0/src/CreditCardEditText-master/local.properties
+2019-07-05 23:59:00,289 INFO  WrapperPropertiesFixService - Gradle wrapper: http://services.gradle.org/distributions/gradle-1.12-all.zip
+2019-07-05 23:59:00,289 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (http://services.gradle.org/distributions/gradle-1.12-bin.zip)
+2019-07-05 23:59:00,290 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345939747-0/src/CreditCardEditText-master/build.gradle": [buildToolsVersion=20.0.0,compileSdkVersion=19,minSdkVersion=8,targetSdkVersion=19]
+2019-07-05 23:59:00,290 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 23:59:00,290 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 23:59:00,290 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345939747-0/src/CreditCardEditText-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345939747-0/src/CreditCardEditText-master/CreditCardNumberEditText/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 23:59:16,283 INFO  ProjectTaskService - Detected possible tasks: 51
+2019-07-05 23:59:16,283 INFO  ProjectTaskService - Excluded tasks (8): lintDebug deviceCheck lint connectedCheck uninstallAll check connectedAndroidTest lintRelease
+2019-07-05 23:59:16,283 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345939747-0/src/CreditCardEditText-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345939747-0/src/CreditCardEditText-master/CreditCardNumberEditText/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-05 23:59:23,087 INFO  SysUtils - Configuration on demand is an incubating feature.
 Relying on packaging to define the extension of the main artifact has been deprecated and is scheduled to be removed in Gradle 2.0
 :CreditCardNumberEditText:compileLint
 :CreditCardNumberEditText:copyDebugLint UP-TO-DATE
@@ -91,14 +91,14 @@ Relying on packaging to define the extension of the main artifact has been depre
 
 BUILD SUCCESSFUL
 
-Total time: 7.723 secs
+Total time: 6.307 secs
 
-2018-10-25 23:01:39,044 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-25 23:01:39,045 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src/CreditCardEditText-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src/CreditCardEditText-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-25 23:01:44,077 INFO  ProjectTaskService - Detected possible tasks: 50
-2018-10-25 23:01:44,077 INFO  ProjectTaskService - Excluded tasks (8): lintDebug deviceCheck lint connectedCheck uninstallAll check connectedAndroidTest lintRelease
-2018-10-25 23:01:44,077 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src/CreditCardEditText-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483260138-0/src/CreditCardEditText-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-10-25 23:01:50,196 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 23:59:23,116 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 23:59:23,116 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345939747-0/src/CreditCardEditText-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345939747-0/src/CreditCardEditText-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 23:59:27,298 INFO  ProjectTaskService - Detected possible tasks: 50
+2019-07-05 23:59:27,298 INFO  ProjectTaskService - Excluded tasks (8): lintDebug deviceCheck lint connectedCheck uninstallAll check connectedAndroidTest lintRelease
+2019-07-05 23:59:27,298 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345939747-0/src/CreditCardEditText-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345939747-0/src/CreditCardEditText-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-05 23:59:32,319 INFO  SysUtils - Configuration on demand is an incubating feature.
 Relying on packaging to define the extension of the main artifact has been deprecated and is scheduled to be removed in Gradle 2.0
 :CreditCardNumberEditText:compileLint
 :CreditCardNumberEditText:copyDebugLint UP-TO-DATE
@@ -164,7 +164,7 @@ Relying on packaging to define the extension of the main artifact has been depre
 
 BUILD SUCCESSFUL
 
-Total time: 5.605 secs
+Total time: 4.529 secs
 
-2018-10-25 23:01:50,240 ERROR FullProcessService - Project build has not produced APK file
-2018-10-25 23:01:50,274 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-05 23:59:32,349 ERROR FullProcessService - Project build has not produced APK file
+2019-07-05 23:59:32,373 ERROR FullProcessService - Could not find generated or existed APK file

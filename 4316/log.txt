@@ -1,46 +1,46 @@
-2018-10-22 11:03:57,509 INFO  DownloadService - Downloading "https://github.com/jksiezni/permissive/archive/master.zip", attempt 3
-2018-10-22 11:03:58,350 INFO  DownloadService - Downloaded https://github.com/jksiezni/permissive/archive/master.zip, attempt 3
-2018-10-22 11:03:58,350 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/master.zip": 156 KB
-2018-10-22 11:03:58,350 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-22 11:03:58,356 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/master.zip: true
-2018-10-22 11:03:58,356 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src'.
-2018-10-22 11:03:58,388 INFO  FullProcessService - Size of directory with sources: 242 KB
-2018-10-22 11:03:58,388 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src]
-2018-10-22 11:03:58,405 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/.git/
+2019-07-05 23:40:22,488 INFO  DownloadService - Downloading "https://github.com/jksiezni/permissive/archive/master.zip", attempt 3
+2019-07-05 23:40:23,043 INFO  DownloadService - Downloaded https://github.com/jksiezni/permissive/archive/master.zip, attempt 3
+2019-07-05 23:40:23,043 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/master.zip": 156 KB
+2019-07-05 23:40:23,043 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 23:40:23,049 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/master.zip: true
+2019-07-05 23:40:23,050 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src'.
+2019-07-05 23:40:23,072 INFO  FullProcessService - Size of directory with sources: 242 KB
+2019-07-05 23:40:23,072 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src]
+2019-07-05 23:40:23,088 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/.git/
 
-2018-10-22 11:03:58,409 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/gradlew
-2018-10-22 11:03:58,416 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/permissive-fragments-v13/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/permissive-fragments/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/permissive-testing/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/permissive/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/build.gradle
-2018-10-22 11:03:58,420 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/permissive-fragments/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/permissive-testing/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/permissive/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/permissive-fragments-v13/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/settings.gradle
-2018-10-22 11:03:58,421 INFO  ProjectBuildService - Remote scripts: none
-2018-10-22 11:03:58,421 INFO  ProjectFixService - Fixing project...
-2018-10-22 11:03:58,429 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/permissive-fragments-v13/local.properties
-2018-10-22 11:03:58,430 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/permissive-fragments-v13/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=24,minSdkVersion=11,targetSdkVersion=24]
-2018-10-22 11:03:58,430 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/permissive-fragments-v13/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=24,minSdkVersion=11,targetSdkVersion=24]
-2018-10-22 11:03:58,431 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/permissive-fragments/local.properties
-2018-10-22 11:03:58,432 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/permissive-fragments/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=23,minSdkVersion=8,targetSdkVersion=23]
-2018-10-22 11:03:58,432 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/permissive-fragments/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=23,minSdkVersion=8,targetSdkVersion=23]
-2018-10-22 11:03:58,433 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/permissive-testing/local.properties
-2018-10-22 11:03:58,434 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/permissive-testing/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=25,minSdkVersion=8,targetSdkVersion=25]
-2018-10-22 11:03:58,434 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/permissive-testing/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=25,minSdkVersion=8,targetSdkVersion=25]
-2018-10-22 11:03:58,435 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/permissive/local.properties
-2018-10-22 11:03:58,436 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/permissive/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=24,minSdkVersion=8,targetSdkVersion=24]
-2018-10-22 11:03:58,436 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/permissive/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=24,minSdkVersion=8,targetSdkVersion=24]
-2018-10-22 11:03:58,437 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/sample/local.properties
-2018-10-22 11:03:58,438 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
-2018-10-22 11:03:58,438 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
-2018-10-22 11:03:58,439 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/local.properties
-2018-10-22 11:03:58,440 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-22 11:03:58,440 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-22 11:03:58,441 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=23,minSdkVersion=8,targetSdkVersion=23]
-2018-10-22 11:03:58,441 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=23,minSdkVersion=8,targetSdkVersion=23]
-2018-10-22 11:03:58,442 INFO  ProjectFixService - Project was maybe fixed
-2018-10-22 11:03:58,442 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-22 11:03:58,442 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/permissive-fragments-v13/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-22 11:04:05,959 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-22 11:04:05,960 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-22 11:04:05,960 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-22 11:04:05,960 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/permissive-fragments-v13/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-22 11:04:13,863 ERROR SysUtils - Could not process external command
+2019-07-05 23:40:23,091 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/gradlew
+2019-07-05 23:40:23,096 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/permissive-fragments-v13/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/permissive-fragments/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/permissive-testing/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/permissive/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/build.gradle
+2019-07-05 23:40:23,099 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/permissive-fragments/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/permissive-testing/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/permissive/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/permissive-fragments-v13/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/settings.gradle
+2019-07-05 23:40:23,099 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 23:40:23,099 INFO  ProjectFixService - Fixing project...
+2019-07-05 23:40:23,107 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/permissive-fragments-v13/local.properties
+2019-07-05 23:40:23,108 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/permissive-fragments-v13/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=24,minSdkVersion=11,targetSdkVersion=24]
+2019-07-05 23:40:23,108 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/permissive-fragments-v13/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=24,minSdkVersion=11,targetSdkVersion=24]
+2019-07-05 23:40:23,108 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/permissive-fragments/local.properties
+2019-07-05 23:40:23,109 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/permissive-fragments/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=23,minSdkVersion=8,targetSdkVersion=23]
+2019-07-05 23:40:23,109 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/permissive-fragments/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=23,minSdkVersion=8,targetSdkVersion=23]
+2019-07-05 23:40:23,110 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/permissive-testing/local.properties
+2019-07-05 23:40:23,111 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/permissive-testing/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=25,minSdkVersion=8,targetSdkVersion=25]
+2019-07-05 23:40:23,111 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/permissive-testing/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=25,minSdkVersion=8,targetSdkVersion=25]
+2019-07-05 23:40:23,111 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/permissive/local.properties
+2019-07-05 23:40:23,112 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/permissive/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=24,minSdkVersion=8,targetSdkVersion=24]
+2019-07-05 23:40:23,112 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/permissive/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=24,minSdkVersion=8,targetSdkVersion=24]
+2019-07-05 23:40:23,113 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/sample/local.properties
+2019-07-05 23:40:23,114 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2019-07-05 23:40:23,114 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2019-07-05 23:40:23,114 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/local.properties
+2019-07-05 23:40:23,115 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-07-05 23:40:23,115 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-07-05 23:40:23,116 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=23,minSdkVersion=8,targetSdkVersion=23]
+2019-07-05 23:40:23,116 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=23,minSdkVersion=8,targetSdkVersion=23]
+2019-07-05 23:40:23,117 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 23:40:23,117 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 23:40:23,117 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/permissive-fragments-v13/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 23:40:30,637 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 23:40:30,637 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 23:40:30,637 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 23:40:30,637 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/permissive-fragments-v13/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 23:40:37,583 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -60,14 +60,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-22 11:04:13,863 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 23:40:37,583 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :permissive-fragments-v13:preBuild UP-TO-DATE
 :permissive-fragments-v13:preDebugBuild UP-TO-DATE
@@ -259,8 +259,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.java:288)
 	at com.android.build.gradle.tasks.Lint.lint(Lint.java:105)
 	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
-	at org.gradle.api.intern
-al.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:228)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:228)
 	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:221)
 	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:210)
 	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:621)
@@ -269,17 +268,18 @@ al.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExec
 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
 	... 60 more
 
+
 BUILD FAILED
 
-Total time: 7.077 secs
+Total time: 6.164 secs
 
-2018-10-22 11:04:13,881 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-22 11:04:13,881 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/permissive-fragments/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-22 11:04:20,864 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-22 11:04:20,864 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-22 11:04:20,864 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-22 11:04:20,864 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/permissive-fragments/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-22 11:04:29,203 ERROR SysUtils - Could not process external command
+2019-07-05 23:40:37,597 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 23:40:37,597 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/permissive-fragments/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 23:40:43,774 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 23:40:43,774 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 23:40:43,774 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 23:40:43,774 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/permissive-fragments/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 23:40:51,115 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -299,14 +299,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-22 11:04:29,203 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 23:40:51,115 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :permissive-fragments:preBuild UP-TO-DATE
 :permissive-fragments:preDebugBuild UP-TO-DATE
@@ -512,15 +512,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 7.712 secs
+Total time: 6.78 secs
 
-2018-10-22 11:04:29,227 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-22 11:04:29,227 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/permissive-testing/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-22 11:04:36,235 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-22 11:04:36,235 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-22 11:04:36,235 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-22 11:04:36,235 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/permissive-testing/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-22 11:04:46,874 ERROR SysUtils - Could not process external command
+2019-07-05 23:40:51,130 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 23:40:51,130 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/permissive-testing/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 23:40:57,181 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 23:40:57,181 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 23:40:57,181 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 23:40:57,181 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/permissive-testing/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 23:41:04,957 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -540,14 +540,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-22 11:04:46,874 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 23:41:04,958 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :permissive-testing:preBuild UP-TO-DATE
 :permissive-testing:preDebugBuild UP-TO-DATE
@@ -725,15 +725,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 9.998 secs
+Total time: 7.205 secs
 
-2018-10-22 11:04:46,940 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-22 11:04:46,940 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/permissive/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-22 11:04:53,629 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-22 11:04:53,629 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-22 11:04:53,629 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-22 11:04:53,629 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/permissive/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-22 11:05:00,633 ERROR SysUtils - Could not process external command
+2019-07-05 23:41:04,987 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 23:41:04,987 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/permissive/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 23:41:11,190 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 23:41:11,190 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 23:41:11,190 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 23:41:11,190 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/permissive/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 23:41:17,637 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -753,14 +753,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-22 11:05:00,633 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 23:41:17,637 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :permissive:preBuild UP-TO-DATE
 :permissive:preDebugBuild UP-TO-DATE
@@ -927,15 +927,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.369 secs
+Total time: 5.883 secs
 
-2018-10-22 11:05:00,709 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-22 11:05:00,709 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-22 11:05:07,452 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-22 11:05:07,452 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-22 11:05:07,452 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-22 11:05:07,452 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-22 11:05:14,124 ERROR SysUtils - Could not process external command
+2019-07-05 23:41:17,668 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 23:41:17,668 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 23:41:23,560 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 23:41:23,560 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 23:41:23,560 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 23:41:23,560 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 23:41:29,544 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -955,14 +955,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-22 11:05:14,124 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 23:41:29,544 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 Jack is disabled, but one of the plugins you are using supports Java 8 language features.
 
@@ -1067,22 +1067,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 6.049 secs
+Total time: 5.408 secs
 
-2018-10-22 11:05:14,198 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-22 11:05:14,198 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-22 11:05:21,010 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-22 11:05:21,010 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-22 11:05:21,010 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-22 11:05:21,010 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540181037507-0/src/permissive-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-22 11:05:27,657 ERROR SysUtils - Could not process external command
+2019-07-05 23:41:29,573 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 23:41:29,573 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 23:41:35,608 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 23:41:35,608 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 23:41:35,609 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 23:41:35,609 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562344822486-0/src/permissive-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 23:41:41,677 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1102,14 +1102,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-22 11:05:27,657 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 23:41:41,677 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 Jack is disabled, but one of the plugins you are using supports Java 8 language features.
 
@@ -1214,14 +1214,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 6.021 secs
+Total time: 5.487 secs
 
-2018-10-22 11:05:27,732 ERROR FullProcessService - Project build has not produced APK file
-2018-10-22 11:05:27,800 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-05 23:41:41,708 ERROR FullProcessService - Project build has not produced APK file
+2019-07-05 23:41:41,733 ERROR FullProcessService - Could not find generated or existed APK file

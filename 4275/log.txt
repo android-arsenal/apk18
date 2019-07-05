@@ -1,34 +1,34 @@
-2018-10-25 23:06:34,611 INFO  DownloadService - Downloading "https://github.com/tamir7/Bleep/archive/master.zip", attempt 3
-2018-10-25 23:06:36,825 INFO  DownloadService - Downloaded https://github.com/tamir7/Bleep/archive/master.zip, attempt 3
-2018-10-25 23:06:36,826 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483594608-0/master.zip": 96 KB
-2018-10-25 23:06:36,826 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-25 23:06:36,831 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483594608-0/master.zip: true
-2018-10-25 23:06:36,831 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483594608-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483594608-0/src'.
-2018-10-25 23:06:36,850 INFO  FullProcessService - Size of directory with sources: 124 KB
-2018-10-25 23:06:36,850 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483594608-0/src]
-2018-10-25 23:06:36,873 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483594608-0/src/.git/
+2019-07-06 00:02:38,449 INFO  DownloadService - Downloading "https://github.com/tamir7/Bleep/archive/master.zip", attempt 3
+2019-07-06 00:02:40,869 INFO  DownloadService - Downloaded https://github.com/tamir7/Bleep/archive/master.zip, attempt 3
+2019-07-06 00:02:40,870 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346158441-0/master.zip": 96 KB
+2019-07-06 00:02:40,870 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-06 00:02:40,875 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346158441-0/master.zip: true
+2019-07-06 00:02:40,876 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346158441-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346158441-0/src'.
+2019-07-06 00:02:40,890 INFO  FullProcessService - Size of directory with sources: 124 KB
+2019-07-06 00:02:40,890 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346158441-0/src]
+2019-07-06 00:02:40,909 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346158441-0/src/.git/
 
-2018-10-25 23:06:36,875 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483594608-0/src/Bleep-master/gradlew
-2018-10-25 23:06:36,878 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483594608-0/src/Bleep-master/bleep-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483594608-0/src/Bleep-master/bleep/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483594608-0/src/Bleep-master/build.gradle
-2018-10-25 23:06:36,880 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483594608-0/src/Bleep-master/bleep/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483594608-0/src/Bleep-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483594608-0/src/Bleep-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483594608-0/src/Bleep-master/bleep-sample/build.gradle
-2018-10-25 23:06:36,880 INFO  ProjectBuildService - Remote scripts: none
-2018-10-25 23:06:36,880 INFO  ProjectFixService - Fixing project...
-2018-10-25 23:06:36,886 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483594608-0/src/Bleep-master/bleep-sample/local.properties
-2018-10-25 23:06:36,886 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483594608-0/src/Bleep-master/bleep-sample/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=18,targetSdkVersion=22]
-2018-10-25 23:06:36,886 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483594608-0/src/Bleep-master/bleep/local.properties
-2018-10-25 23:06:36,887 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483594608-0/src/Bleep-master/bleep/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=18,targetSdkVersion=22]
-2018-10-25 23:06:36,887 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483594608-0/src/Bleep-master/local.properties
-2018-10-25 23:06:36,887 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
-2018-10-25 23:06:36,888 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
-2018-10-25 23:06:36,888 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483594608-0/src/Bleep-master/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=18,targetSdkVersion=22]
-2018-10-25 23:06:36,888 INFO  ProjectFixService - Project was maybe fixed
-2018-10-25 23:06:36,888 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-25 23:06:36,888 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483594608-0/src/Bleep-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483594608-0/src/Bleep-master/bleep-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-25 23:06:56,210 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-25 23:06:56,211 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-25 23:06:56,211 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-25 23:06:56,211 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483594608-0/src/Bleep-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483594608-0/src/Bleep-master/bleep-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-25 23:07:22,348 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 00:02:40,912 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346158441-0/src/Bleep-master/gradlew
+2019-07-06 00:02:40,914 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346158441-0/src/Bleep-master/bleep-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346158441-0/src/Bleep-master/bleep/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346158441-0/src/Bleep-master/build.gradle
+2019-07-06 00:02:40,916 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346158441-0/src/Bleep-master/bleep/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346158441-0/src/Bleep-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346158441-0/src/Bleep-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346158441-0/src/Bleep-master/bleep-sample/build.gradle
+2019-07-06 00:02:40,916 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 00:02:40,916 INFO  ProjectFixService - Fixing project...
+2019-07-06 00:02:40,921 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346158441-0/src/Bleep-master/bleep-sample/local.properties
+2019-07-06 00:02:40,921 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346158441-0/src/Bleep-master/bleep-sample/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=18,targetSdkVersion=22]
+2019-07-06 00:02:40,921 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346158441-0/src/Bleep-master/bleep/local.properties
+2019-07-06 00:02:40,921 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346158441-0/src/Bleep-master/bleep/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=18,targetSdkVersion=22]
+2019-07-06 00:02:40,922 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346158441-0/src/Bleep-master/local.properties
+2019-07-06 00:02:40,922 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2019-07-06 00:02:40,922 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2019-07-06 00:02:40,922 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346158441-0/src/Bleep-master/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=18,targetSdkVersion=22]
+2019-07-06 00:02:40,922 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 00:02:40,922 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 00:02:40,923 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346158441-0/src/Bleep-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346158441-0/src/Bleep-master/bleep-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 00:02:47,965 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 00:02:47,965 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 00:02:47,965 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 00:02:47,965 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346158441-0/src/Bleep-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346158441-0/src/Bleep-master/bleep-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 00:03:08,708 INFO  SysUtils - Configuration on demand is an incubating feature.
 :bleep-sample:preBuild UP-TO-DATE
 :bleep-sample:preDebugBuild UP-TO-DATE
 :bleep-sample:checkDebugManifest
@@ -84,8 +84,8 @@
 :bleep-sample:lint
 Ran lint on variant debug: 4 issues found
 Ran lint on variant release: 4 issues found
-Wrote HTML report to file:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483594608-0/src/Bleep-master/bleep-sample/build/outputs/lint-results.html
-Wrote XML report to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483594608-0/src/Bleep-master/bleep-sample/build/outputs/lint-results.xml
+Wrote HTML report to file:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346158441-0/src/Bleep-master/bleep-sample/build/outputs/lint-results.html
+Wrote XML report to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346158441-0/src/Bleep-master/bleep-sample/build/outputs/lint-results.xml
 :bleep-sample:preCompileDebugUnitTestJava
 :bleep-sample:preDebugUnitTestBuild UP-TO-DATE
 :bleep-sample:prepareDebugUnitTestDependencies
@@ -109,6 +109,6 @@ Wrote XML report to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/154
 
 BUILD SUCCESSFUL
 
-Total time: 25.597 secs
+Total time: 20.158 secs
 
-2018-10-25 23:07:22,392 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540483594608-0/src/Bleep-master/bleep-sample/build/outputs/apk/bleep-sample-debug.apk
+2019-07-06 00:03:08,741 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346158441-0/src/Bleep-master/bleep-sample/build/outputs/apk/bleep-sample-debug.apk

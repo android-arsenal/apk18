@@ -1,34 +1,34 @@
-2018-10-21 15:50:45,687 INFO  DownloadService - Downloading "https://github.com/u3breeze/android-RecyclerView-WithHeaderAndFooter/archive/master.zip", attempt 3
-2018-10-21 15:50:46,168 INFO  DownloadService - Downloaded https://github.com/u3breeze/android-RecyclerView-WithHeaderAndFooter/archive/master.zip, attempt 3
-2018-10-21 15:50:46,169 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111845679-0/master.zip": 185 KB
-2018-10-21 15:50:46,169 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-21 15:50:46,169 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111845679-0/master.zip: true
-2018-10-21 15:50:46,169 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111845679-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111845679-0/src'.
-2018-10-21 15:50:46,191 INFO  FullProcessService - Size of directory with sources: 225 KB
-2018-10-21 15:50:46,192 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111845679-0/src]
-2018-10-21 15:50:46,211 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111845679-0/src/.git/
+2019-07-05 23:17:58,753 INFO  DownloadService - Downloading "https://github.com/u3breeze/android-RecyclerView-WithHeaderAndFooter/archive/master.zip", attempt 3
+2019-07-05 23:17:59,466 INFO  DownloadService - Downloaded https://github.com/u3breeze/android-RecyclerView-WithHeaderAndFooter/archive/master.zip, attempt 3
+2019-07-05 23:17:59,466 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343478746-0/master.zip": 185 KB
+2019-07-05 23:17:59,467 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 23:17:59,472 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343478746-0/master.zip: true
+2019-07-05 23:17:59,473 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343478746-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343478746-0/src'.
+2019-07-05 23:17:59,493 INFO  FullProcessService - Size of directory with sources: 225 KB
+2019-07-05 23:17:59,493 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343478746-0/src]
+2019-07-05 23:17:59,511 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343478746-0/src/.git/
 
-2018-10-21 15:50:46,214 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111845679-0/src/android-RecyclerView-WithHeaderAndFooter-master/gradlew
-2018-10-21 15:50:46,218 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111845679-0/src/android-RecyclerView-WithHeaderAndFooter-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111845679-0/src/android-RecyclerView-WithHeaderAndFooter-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111845679-0/src/android-RecyclerView-WithHeaderAndFooter-master/build.gradle
-2018-10-21 15:50:46,222 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111845679-0/src/android-RecyclerView-WithHeaderAndFooter-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111845679-0/src/android-RecyclerView-WithHeaderAndFooter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111845679-0/src/android-RecyclerView-WithHeaderAndFooter-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111845679-0/src/android-RecyclerView-WithHeaderAndFooter-master/settings.gradle
-2018-10-21 15:50:46,222 INFO  ProjectBuildService - Remote scripts: none
-2018-10-21 15:50:46,222 INFO  ProjectFixService - Fixing project...
-2018-10-21 15:50:46,230 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111845679-0/src/android-RecyclerView-WithHeaderAndFooter-master/library/local.properties
-2018-10-21 15:50:46,230 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111845679-0/src/android-RecyclerView-WithHeaderAndFooter-master/library/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=19,targetSdkVersion=22]
-2018-10-21 15:50:46,231 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111845679-0/src/android-RecyclerView-WithHeaderAndFooter-master/sample/local.properties
-2018-10-21 15:50:46,231 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111845679-0/src/android-RecyclerView-WithHeaderAndFooter-master/sample/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=23,minSdkVersion=19,targetSdkVersion=23]
-2018-10-21 15:50:46,232 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111845679-0/src/android-RecyclerView-WithHeaderAndFooter-master/local.properties
-2018-10-21 15:50:46,232 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-all.zip
-2018-10-21 15:50:46,233 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.4-bin.zip)
-2018-10-21 15:50:46,234 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111845679-0/src/android-RecyclerView-WithHeaderAndFooter-master/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=19,targetSdkVersion=22]
-2018-10-21 15:50:46,234 INFO  ProjectFixService - Project was maybe fixed
-2018-10-21 15:50:46,234 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-21 15:50:46,234 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111845679-0/src/android-RecyclerView-WithHeaderAndFooter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111845679-0/src/android-RecyclerView-WithHeaderAndFooter-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-21 15:51:03,209 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-21 15:51:03,209 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-21 15:51:03,210 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-21 15:51:03,210 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111845679-0/src/android-RecyclerView-WithHeaderAndFooter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111845679-0/src/android-RecyclerView-WithHeaderAndFooter-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-21 15:51:10,746 ERROR SysUtils - Could not process external command
+2019-07-05 23:17:59,513 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343478746-0/src/android-RecyclerView-WithHeaderAndFooter-master/gradlew
+2019-07-05 23:17:59,516 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343478746-0/src/android-RecyclerView-WithHeaderAndFooter-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343478746-0/src/android-RecyclerView-WithHeaderAndFooter-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343478746-0/src/android-RecyclerView-WithHeaderAndFooter-master/build.gradle
+2019-07-05 23:17:59,518 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343478746-0/src/android-RecyclerView-WithHeaderAndFooter-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343478746-0/src/android-RecyclerView-WithHeaderAndFooter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343478746-0/src/android-RecyclerView-WithHeaderAndFooter-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343478746-0/src/android-RecyclerView-WithHeaderAndFooter-master/settings.gradle
+2019-07-05 23:17:59,519 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 23:17:59,519 INFO  ProjectFixService - Fixing project...
+2019-07-05 23:17:59,525 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343478746-0/src/android-RecyclerView-WithHeaderAndFooter-master/library/local.properties
+2019-07-05 23:17:59,525 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343478746-0/src/android-RecyclerView-WithHeaderAndFooter-master/library/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=19,targetSdkVersion=22]
+2019-07-05 23:17:59,525 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343478746-0/src/android-RecyclerView-WithHeaderAndFooter-master/sample/local.properties
+2019-07-05 23:17:59,526 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343478746-0/src/android-RecyclerView-WithHeaderAndFooter-master/sample/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=23,minSdkVersion=19,targetSdkVersion=23]
+2019-07-05 23:17:59,526 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343478746-0/src/android-RecyclerView-WithHeaderAndFooter-master/local.properties
+2019-07-05 23:17:59,526 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-all.zip
+2019-07-05 23:17:59,527 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.4-bin.zip)
+2019-07-05 23:17:59,527 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343478746-0/src/android-RecyclerView-WithHeaderAndFooter-master/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=19,targetSdkVersion=22]
+2019-07-05 23:17:59,527 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 23:17:59,527 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 23:17:59,527 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343478746-0/src/android-RecyclerView-WithHeaderAndFooter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343478746-0/src/android-RecyclerView-WithHeaderAndFooter-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 23:18:12,547 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 23:18:12,548 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 23:18:12,548 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 23:18:12,548 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343478746-0/src/android-RecyclerView-WithHeaderAndFooter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343478746-0/src/android-RecyclerView-WithHeaderAndFooter-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 23:18:18,151 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -48,14 +48,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-21 15:51:10,747 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 23:18:18,151 INFO  SysUtils - Configuration on demand is an incubating feature.
 :library:compileLint
 :library:copyDebugLint UP-TO-DATE
 :library:preBuild UP-TO-DATE
@@ -80,7 +80,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 :library:processDebugResources
 :library:generateDebugSources
 :library:processDebugJavaRes UP-TO-DATE
-:library:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111845679-0/src/android-RecyclerView-WithHeaderAndFooter-master/library/src/main/java/com/willfng/hfrvadapter/HFRecyclerViewAdapter.java uses unchecked or unsafe operations.
+:library:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343478746-0/src/android-RecyclerView-WithHeaderAndFooter-master/library/src/main/java/com/willfng/hfrvadapter/HFRecyclerViewAdapter.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :library:extractDebugAnnotations
@@ -109,7 +109,7 @@ Note: Recompile with -Xlint:unchecked for details.
 :library:processReleaseResources
 :library:generateReleaseSources
 :library:processReleaseJavaRes UP-TO-DATE
-:library:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111845679-0/src/android-RecyclerView-WithHeaderAndFooter-master/library/src/main/java/com/willfng/hfrvadapter/HFRecyclerViewAdapter.java uses unchecked or unsafe operations.
+:library:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343478746-0/src/android-RecyclerView-WithHeaderAndFooter-master/library/src/main/java/com/willfng/hfrvadapter/HFRecyclerViewAdapter.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :library:extractReleaseAnnotations
@@ -211,14 +211,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 7.039 secs
+Total time: 5.078 secs
 
-2018-10-21 15:51:10,757 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-21 15:51:10,757 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111845679-0/src/android-RecyclerView-WithHeaderAndFooter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111845679-0/src/android-RecyclerView-WithHeaderAndFooter-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-21 15:51:17,891 INFO  ProjectTaskService - Detected possible tasks: 66
-2018-10-21 15:51:17,891 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-10-21 15:51:17,892 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111845679-0/src/android-RecyclerView-WithHeaderAndFooter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111845679-0/src/android-RecyclerView-WithHeaderAndFooter-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-10-21 15:51:28,015 ERROR SysUtils - Could not process external command
+2019-07-05 23:18:18,160 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 23:18:18,160 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343478746-0/src/android-RecyclerView-WithHeaderAndFooter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343478746-0/src/android-RecyclerView-WithHeaderAndFooter-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 23:18:22,724 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-05 23:18:22,724 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-05 23:18:22,724 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343478746-0/src/android-RecyclerView-WithHeaderAndFooter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343478746-0/src/android-RecyclerView-WithHeaderAndFooter-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-05 23:18:29,114 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -238,14 +238,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-21 15:51:28,015 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 23:18:29,114 INFO  SysUtils - Configuration on demand is an incubating feature.
 :library:compileLint
 :library:copyReleaseLint UP-TO-DATE
 :library:preBuild UP-TO-DATE
@@ -301,7 +301,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 :sample:processDebugResources
 :sample:generateDebugSources
 :sample:processDebugJavaRes UP-TO-DATE
-:sample:compileDebugJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111845679-0/src/android-RecyclerView-WithHeaderAndFooter-master/sample/src/main/java/com/willfng/recyclerview_withheaderandfooter/MainActivity.java:73: error: MainActivity.HFAdapter is not abstract and does not override abstract method footerOnVisibleItem() in HFRecyclerViewAdapter
+:sample:compileDebugJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343478746-0/src/android-RecyclerView-WithHeaderAndFooter-master/sample/src/main/java/com/willfng/recyclerview_withheaderandfooter/MainActivity.java:73: error: MainActivity.HFAdapter is not abstract and does not override abstract method footerOnVisibleItem() in HFRecyclerViewAdapter
     class HFAdapter extends HFRecyclerViewAdapter<String, HFAdapter.DataViewHolder>{
     ^
 1 error
@@ -391,14 +391,14 @@ Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Com
 
 BUILD FAILED
 
-Total time: 9.63 secs
+Total time: 5.849 secs
 
-2018-10-21 15:51:28,058 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-21 15:51:28,058 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111845679-0/src/android-RecyclerView-WithHeaderAndFooter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111845679-0/src/android-RecyclerView-WithHeaderAndFooter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-21 15:51:34,744 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-10-21 15:51:34,744 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-10-21 15:51:34,745 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111845679-0/src/android-RecyclerView-WithHeaderAndFooter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111845679-0/src/android-RecyclerView-WithHeaderAndFooter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-10-21 15:51:42,297 ERROR SysUtils - Could not process external command
+2019-07-05 23:18:29,144 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 23:18:29,144 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343478746-0/src/android-RecyclerView-WithHeaderAndFooter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343478746-0/src/android-RecyclerView-WithHeaderAndFooter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 23:18:33,757 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-07-05 23:18:33,757 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-05 23:18:33,758 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343478746-0/src/android-RecyclerView-WithHeaderAndFooter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343478746-0/src/android-RecyclerView-WithHeaderAndFooter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-05 23:18:39,015 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -418,14 +418,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-21 15:51:42,297 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 23:18:39,015 INFO  SysUtils - Configuration on demand is an incubating feature.
 :library:compileLint
 :library:copyDebugLint UP-TO-DATE
 :library:preBuild UP-TO-DATE
@@ -512,7 +512,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 :sample:processDebugResources UP-TO-DATE
 :sample:generateDebugSources UP-TO-DATE
 :sample:processDebugJavaRes UP-TO-DATE
-:sample:compileDebugJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111845679-0/src/android-RecyclerView-WithHeaderAndFooter-master/sample/src/main/java/com/willfng/recyclerview_withheaderandfooter/MainActivity.java:73: error: MainActivity.HFAdapter is not abstract and does not override abstract method footerOnVisibleItem() in HFRecyclerViewAdapter
+:sample:compileDebugJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343478746-0/src/android-RecyclerView-WithHeaderAndFooter-master/sample/src/main/java/com/willfng/recyclerview_withheaderandfooter/MainActivity.java:73: error: MainActivity.HFAdapter is not abstract and does not override abstract method footerOnVisibleItem() in HFRecyclerViewAdapter
     class HFAdapter extends HFRecyclerViewAdapter<String, HFAdapter.DataViewHolder>{
     ^
 1 error
@@ -602,7 +602,7 @@ Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Com
 
 BUILD FAILED
 
-Total time: 7.025 secs
+Total time: 4.7 secs
 
-2018-10-21 15:51:42,337 ERROR FullProcessService - Project build has not produced APK file
-2018-10-21 15:51:42,371 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-05 23:18:39,037 ERROR FullProcessService - Project build has not produced APK file
+2019-07-05 23:18:39,059 ERROR FullProcessService - Could not find generated or existed APK file

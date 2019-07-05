@@ -1,37 +1,37 @@
-2018-10-21 14:56:42,550 INFO  DownloadService - Downloading "https://github.com/aykuttasil/PercentBarView/archive/master.zip", attempt 3
-2018-10-21 14:56:43,403 INFO  DownloadService - Downloaded https://github.com/aykuttasil/PercentBarView/archive/master.zip, attempt 3
-2018-10-21 14:56:43,404 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/master.zip": 116 KB
-2018-10-21 14:56:43,404 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-21 14:56:43,410 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/master.zip: true
-2018-10-21 14:56:43,410 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src'.
-2018-10-21 14:56:43,431 INFO  FullProcessService - Size of directory with sources: 155 KB
-2018-10-21 14:56:43,431 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src]
-2018-10-21 14:56:43,448 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/.git/
+2019-07-05 23:07:59,865 INFO  DownloadService - Downloading "https://github.com/aykuttasil/PercentBarView/archive/master.zip", attempt 3
+2019-07-05 23:08:00,383 INFO  DownloadService - Downloaded https://github.com/aykuttasil/PercentBarView/archive/master.zip, attempt 3
+2019-07-05 23:08:00,383 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/master.zip": 116 KB
+2019-07-05 23:08:00,383 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 23:08:00,389 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/master.zip: true
+2019-07-05 23:08:00,389 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src'.
+2019-07-05 23:08:00,407 INFO  FullProcessService - Size of directory with sources: 155 KB
+2019-07-05 23:08:00,407 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src]
+2019-07-05 23:08:00,423 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/.git/
 
-2018-10-21 14:56:43,452 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/gradlew
-2018-10-21 14:56:43,457 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/percentbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/build.gradle
-2018-10-21 14:56:43,460 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/gradle/install-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/gradle/bintray-java-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/gradle/bintray-android-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/percentbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/settings.gradle
-2018-10-21 14:56:43,460 INFO  ProjectBuildService - Remote scripts: none
-2018-10-21 14:56:43,460 INFO  ProjectFixService - Fixing project...
-2018-10-21 14:56:43,468 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/app/local.properties
-2018-10-21 14:56:43,470 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/app/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=<null>,minSdkVersion=17,targetSdkVersion=<null>]
-2018-10-21 14:56:43,470 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/app/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2018-10-21 14:56:43,471 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/percentbar/local.properties
-2018-10-21 14:56:43,474 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/percentbar/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=<null>,minSdkVersion=17,targetSdkVersion=<null>]
-2018-10-21 14:56:43,474 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/percentbar/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2018-10-21 14:56:43,475 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/local.properties
-2018-10-21 14:56:43,475 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-21 14:56:43,476 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-21 14:56:43,477 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=<null>,minSdkVersion=17,targetSdkVersion=<null>]
-2018-10-21 14:56:43,477 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2018-10-21 14:56:43,477 INFO  ProjectFixService - Project was maybe fixed
-2018-10-21 14:56:43,477 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-21 14:56:43,478 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-21 14:57:27,631 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-21 14:57:27,631 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-21 14:57:27,631 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-21 14:57:27,631 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-21 14:57:34,451 ERROR SysUtils - Could not process external command
+2019-07-05 23:08:00,426 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/gradlew
+2019-07-05 23:08:00,431 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/percentbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/build.gradle
+2019-07-05 23:08:00,433 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/gradle/install-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/gradle/bintray-java-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/gradle/bintray-android-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/percentbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/settings.gradle
+2019-07-05 23:08:00,434 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 23:08:00,434 INFO  ProjectFixService - Fixing project...
+2019-07-05 23:08:00,441 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/app/local.properties
+2019-07-05 23:08:00,444 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/app/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=<null>,minSdkVersion=17,targetSdkVersion=<null>]
+2019-07-05 23:08:00,444 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/app/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2019-07-05 23:08:00,445 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/percentbar/local.properties
+2019-07-05 23:08:00,448 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/percentbar/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=<null>,minSdkVersion=17,targetSdkVersion=<null>]
+2019-07-05 23:08:00,449 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/percentbar/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2019-07-05 23:08:00,450 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/local.properties
+2019-07-05 23:08:00,450 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-07-05 23:08:00,451 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-07-05 23:08:00,452 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=<null>,minSdkVersion=17,targetSdkVersion=<null>]
+2019-07-05 23:08:00,452 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2019-07-05 23:08:00,453 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 23:08:00,453 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 23:08:00,453 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 23:08:19,587 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 23:08:19,587 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 23:08:19,587 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 23:08:19,588 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 23:08:25,843 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -44,21 +44,22 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-21 14:57:34,452 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 23:08:25,844 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -162,22 +163,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 6.179 secs
+Total time: 5.661 secs
 
-2018-10-21 14:57:34,456 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-21 14:57:34,456 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/percentbar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-21 14:57:41,525 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-21 14:57:41,526 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-21 14:57:41,526 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-21 14:57:41,526 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/percentbar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-21 14:57:59,695 ERROR SysUtils - Could not process external command
+2019-07-05 23:08:25,847 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 23:08:25,848 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/percentbar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 23:08:32,192 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 23:08:32,192 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 23:08:32,192 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 23:08:32,193 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/percentbar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 23:08:47,322 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -190,21 +191,22 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-21 14:57:59,695 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 23:08:47,322 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :percentbar:preBuild UP-TO-DATE
 :percentbar:preDebugBuild UP-TO-DATE
@@ -309,56 +311,56 @@ Incremental java compilation is an incubating feature.
 :percentbar:bundleRelease
 :percentbar:compileReleaseSources
 :percentbar:assembleRelease
-:percentbar:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/percentbar/src/main/java/com/aykuttasil/percentbar/util/adapter/MaterialListAdapter.java:10: error: package com.afollestad.materialdialogs does not exist
+:percentbar:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/percentbar/src/main/java/com/aykuttasil/percentbar/util/adapter/MaterialListAdapter.java:10: error: package com.afollestad.materialdialogs does not exist
 import com.afollestad.materialdialogs.MaterialDialog;
                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/percentbar/src/main/java/com/aykuttasil/percentbar/util/adapter/MaterialListAdapter.java:11: error: package com.afollestad.materialdialogs.internal does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/percentbar/src/main/java/com/aykuttasil/percentbar/util/adapter/MaterialListAdapter.java:11: error: package com.afollestad.materialdialogs.internal does not exist
 import com.afollestad.materialdialogs.internal.MDAdapter;
                                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/percentbar/src/main/java/com/aykuttasil/percentbar/util/adapter/MaterialListAdapter.java:12: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/percentbar/src/main/java/com/aykuttasil/percentbar/util/adapter/MaterialListAdapter.java:12: error: cannot find symbol
 import com.aykuttasil.percentbar.R;
                                 ^
   symbol:   class R
   location: package com.aykuttasil.percentbar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/percentbar/src/main/java/com/aykuttasil/percentbar/util/adapter/MaterialListAdapter.java:15: error: package com.squareup.picasso does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/percentbar/src/main/java/com/aykuttasil/percentbar/util/adapter/MaterialListAdapter.java:15: error: package com.squareup.picasso does not exist
 import com.squareup.picasso.Picasso;
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/percentbar/src/main/java/com/aykuttasil/percentbar/util/adapter/MaterialListAdapter.java:23: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/percentbar/src/main/java/com/aykuttasil/percentbar/util/adapter/MaterialListAdapter.java:23: error: cannot find symbol
 public class MaterialListAdapter extends ArrayAdapter<BarImageModel> implements MDAdapter {
                                                                                 ^
   symbol: class MDAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/percentbar/src/main/java/com/aykuttasil/percentbar/util/adapter/MaterialListAdapter.java:26: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/percentbar/src/main/java/com/aykuttasil/percentbar/util/adapter/MaterialListAdapter.java:26: error: cannot find symbol
     private MaterialDialog dialog;
             ^
   symbol:   class MaterialDialog
   location: class MaterialListAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/percentbar/src/main/java/com/aykuttasil/percentbar/util/adapter/MaterialListAdapter.java:33: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/percentbar/src/main/java/com/aykuttasil/percentbar/util/adapter/MaterialListAdapter.java:33: error: cannot find symbol
     public void setDialog(MaterialDialog dialog) {
                           ^
   symbol:   class MaterialDialog
   location: class MaterialListAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/percentbar/src/main/java/com/aykuttasil/percentbar/PercentBarView.java:20: error: package com.afollestad.materialdialogs does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/percentbar/src/main/java/com/aykuttasil/percentbar/PercentBarView.java:20: error: package com.afollestad.materialdialogs does not exist
 import com.afollestad.materialdialogs.MaterialDialog;
                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/percentbar/src/main/java/com/aykuttasil/percentbar/PercentBarView.java:24: error: package com.squareup.picasso does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/percentbar/src/main/java/com/aykuttasil/percentbar/PercentBarView.java:24: error: package com.squareup.picasso does not exist
 import com.squareup.picasso.Picasso;
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/percentbar/src/main/java/com/aykuttasil/percentbar/PercentBarView.java:29: error: package rx does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/percentbar/src/main/java/com/aykuttasil/percentbar/PercentBarView.java:29: error: package rx does not exist
 import rx.Observable;
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/percentbar/src/main/java/com/aykuttasil/percentbar/PercentBarView.java:30: error: package rx.android.schedulers does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/percentbar/src/main/java/com/aykuttasil/percentbar/PercentBarView.java:30: error: package rx.android.schedulers does not exist
 import rx.android.schedulers.AndroidSchedulers;
                             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/percentbar/src/main/java/com/aykuttasil/percentbar/PercentBarView.java:31: error: package rx.functions does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/percentbar/src/main/java/com/aykuttasil/percentbar/PercentBarView.java:31: error: package rx.functions does not exist
 import rx.functions.Action1;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/percentbar/src/main/java/com/aykuttasil/percentbar/PercentBarView.java:32: error: package rx.functions does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/percentbar/src/main/java/com/aykuttasil/percentbar/PercentBarView.java:32: error: package rx.functions does not exist
 import rx.functions.Func1;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/percentbar/src/main/java/com/aykuttasil/percentbar/util/PicassoCircleTransform.java:8: error: package com.squareup.picasso does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/percentbar/src/main/java/com/aykuttasil/percentbar/util/PicassoCircleTransform.java:8: error: package com.squareup.picasso does not exist
 import com.squareup.picasso.Transformation;
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/percentbar/src/main/java/com/aykuttasil/percentbar/util/PicassoCircleTransform.java:13: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/percentbar/src/main/java/com/aykuttasil/percentbar/util/PicassoCircleTransform.java:13: error: cannot find symbol
 public class PicassoCircleTransform implements Transformation {
                                                ^
   symbol: class Transformation
@@ -463,15 +465,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 17.56 secs
+Total time: 14.535 secs
 
-2018-10-21 14:57:59,843 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-21 14:57:59,843 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-21 14:58:06,431 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-21 14:58:06,431 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-21 14:58:06,431 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-21 14:58:06,431 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540108602546-0/src/PercentBarView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-21 14:58:13,152 ERROR SysUtils - Could not process external command
+2019-07-05 23:08:47,414 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 23:08:47,415 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 23:08:53,594 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 23:08:53,594 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 23:08:53,594 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 23:08:53,594 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562342879856-0/src/PercentBarView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 23:08:59,968 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -484,21 +486,22 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-21 14:58:13,152 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 23:08:59,968 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -602,14 +605,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 6.122 secs
+Total time: 5.787 secs
 
-2018-10-21 14:58:13,303 ERROR FullProcessService - Project build has not produced APK file
-2018-10-21 14:58:13,447 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-05 23:09:00,064 ERROR FullProcessService - Project build has not produced APK file
+2019-07-05 23:09:00,144 ERROR FullProcessService - Could not find generated or existed APK file

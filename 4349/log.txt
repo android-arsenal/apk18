@@ -1,31 +1,31 @@
-2018-10-21 15:52:52,393 INFO  DownloadService - Downloading "https://github.com/Sunzxyong/Android-ScalingActivityAnimator/archive/master.zip", attempt 3
-2018-10-21 15:52:53,710 INFO  DownloadService - Downloaded https://github.com/Sunzxyong/Android-ScalingActivityAnimator/archive/master.zip, attempt 3
-2018-10-21 15:52:53,710 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111972386-0/master.zip": 2 MB
-2018-10-21 15:52:53,710 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-21 15:52:53,716 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111972386-0/master.zip: true
-2018-10-21 15:52:53,717 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111972386-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111972386-0/src'.
-2018-10-21 15:52:53,759 INFO  FullProcessService - Size of directory with sources: 2 MB
-2018-10-21 15:52:53,759 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111972386-0/src]
-2018-10-21 15:52:53,777 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111972386-0/src/.git/
+2019-07-05 23:19:23,445 INFO  DownloadService - Downloading "https://github.com/Sunzxyong/Android-ScalingActivityAnimator/archive/master.zip", attempt 3
+2019-07-05 23:19:25,443 INFO  DownloadService - Downloaded https://github.com/Sunzxyong/Android-ScalingActivityAnimator/archive/master.zip, attempt 3
+2019-07-05 23:19:25,443 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343563438-0/master.zip": 2 MB
+2019-07-05 23:19:25,443 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 23:19:25,444 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343563438-0/master.zip: true
+2019-07-05 23:19:25,444 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343563438-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343563438-0/src'.
+2019-07-05 23:19:25,475 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-07-05 23:19:25,475 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343563438-0/src]
+2019-07-05 23:19:25,490 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343563438-0/src/.git/
 
-2018-10-21 15:52:53,780 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111972386-0/src/Android-ScalingActivityAnimator-master/gradlew
-2018-10-21 15:52:53,783 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111972386-0/src/Android-ScalingActivityAnimator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111972386-0/src/Android-ScalingActivityAnimator-master/build.gradle
-2018-10-21 15:52:53,785 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111972386-0/src/Android-ScalingActivityAnimator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111972386-0/src/Android-ScalingActivityAnimator-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111972386-0/src/Android-ScalingActivityAnimator-master/settings.gradle
-2018-10-21 15:52:53,786 INFO  ProjectBuildService - Remote scripts: none
-2018-10-21 15:52:53,786 INFO  ProjectFixService - Fixing project...
-2018-10-21 15:52:53,792 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111972386-0/src/Android-ScalingActivityAnimator-master/app/local.properties
-2018-10-21 15:52:53,792 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111972386-0/src/Android-ScalingActivityAnimator-master/app/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=16,targetSdkVersion=22]
-2018-10-21 15:52:53,793 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111972386-0/src/Android-ScalingActivityAnimator-master/local.properties
-2018-10-21 15:52:53,793 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-all.zip
-2018-10-21 15:52:53,793 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.4-bin.zip)
-2018-10-21 15:52:53,794 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111972386-0/src/Android-ScalingActivityAnimator-master/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=16,targetSdkVersion=22]
-2018-10-21 15:52:53,794 INFO  ProjectFixService - Project was maybe fixed
-2018-10-21 15:52:53,794 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-21 15:52:53,794 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111972386-0/src/Android-ScalingActivityAnimator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111972386-0/src/Android-ScalingActivityAnimator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-21 15:53:07,503 INFO  ProjectTaskService - Detected possible tasks: 65
-2018-10-21 15:53:07,504 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug connectedAndroidTestDebug uninstallDebug
-2018-10-21 15:53:07,504 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111972386-0/src/Android-ScalingActivityAnimator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111972386-0/src/Android-ScalingActivityAnimator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, connectedAndroidTestDebug, -x, uninstallDebug, build]
-2018-10-21 15:53:27,495 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 23:19:25,494 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343563438-0/src/Android-ScalingActivityAnimator-master/gradlew
+2019-07-05 23:19:25,496 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343563438-0/src/Android-ScalingActivityAnimator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343563438-0/src/Android-ScalingActivityAnimator-master/build.gradle
+2019-07-05 23:19:25,498 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343563438-0/src/Android-ScalingActivityAnimator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343563438-0/src/Android-ScalingActivityAnimator-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343563438-0/src/Android-ScalingActivityAnimator-master/settings.gradle
+2019-07-05 23:19:25,498 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 23:19:25,498 INFO  ProjectFixService - Fixing project...
+2019-07-05 23:19:25,503 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343563438-0/src/Android-ScalingActivityAnimator-master/app/local.properties
+2019-07-05 23:19:25,503 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343563438-0/src/Android-ScalingActivityAnimator-master/app/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=16,targetSdkVersion=22]
+2019-07-05 23:19:25,503 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343563438-0/src/Android-ScalingActivityAnimator-master/local.properties
+2019-07-05 23:19:25,503 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-all.zip
+2019-07-05 23:19:25,504 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.4-bin.zip)
+2019-07-05 23:19:25,504 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343563438-0/src/Android-ScalingActivityAnimator-master/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=16,targetSdkVersion=22]
+2019-07-05 23:19:25,504 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 23:19:25,504 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 23:19:25,504 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343563438-0/src/Android-ScalingActivityAnimator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343563438-0/src/Android-ScalingActivityAnimator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 23:19:36,725 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-05 23:19:36,725 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug connectedAndroidTestDebug uninstallDebug
+2019-07-05 23:19:36,726 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343563438-0/src/Android-ScalingActivityAnimator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343563438-0/src/Android-ScalingActivityAnimator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, connectedAndroidTestDebug, -x, uninstallDebug, build]
+2019-07-05 23:19:52,020 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
 :app:checkDebugManifest
@@ -45,7 +45,7 @@
 :app:processDebugResources
 :app:generateDebugSources
 :app:processDebugJavaRes UP-TO-DATE
-:app:compileDebugJavaNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111972386-0/src/Android-ScalingActivityAnimator-master/app/src/main/java/com/sunzxyong/android_scalingactivityanimator/ScalingActivityAnimator.java uses or overrides a deprecated API.
+:app:compileDebugJavaNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343563438-0/src/Android-ScalingActivityAnimator-master/app/src/main/java/com/sunzxyong/android_scalingactivityanimator/ScalingActivityAnimator.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :app:compileDebugNdk UP-TO-DATE
@@ -70,7 +70,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :app:processReleaseResources
 :app:generateReleaseSources
 :app:processReleaseJavaRes UP-TO-DATE
-:app:compileReleaseJavaNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111972386-0/src/Android-ScalingActivityAnimator-master/app/src/main/java/com/sunzxyong/android_scalingactivityanimator/ScalingActivityAnimator.java uses or overrides a deprecated API.
+:app:compileReleaseJavaNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343563438-0/src/Android-ScalingActivityAnimator-master/app/src/main/java/com/sunzxyong/android_scalingactivityanimator/ScalingActivityAnimator.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :app:compileReleaseNdk UP-TO-DATE
@@ -85,6 +85,6 @@ Note: Recompile with -Xlint:deprecation for details.
 
 BUILD SUCCESSFUL
 
-Total time: 19.465 secs
+Total time: 14.763 secs
 
-2018-10-21 15:53:27,541 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540111972386-0/src/Android-ScalingActivityAnimator-master/app/build/outputs/apk/app-debug.apk
+2019-07-05 23:19:52,053 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343563438-0/src/Android-ScalingActivityAnimator-master/app/build/outputs/apk/app-debug.apk

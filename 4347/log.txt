@@ -1,36 +1,33 @@
-2018-10-21 18:54:57,362 INFO  DownloadService - Downloading "https://github.com/lypeer/GoogleClock/archive/master.zip", attempt 3
-2018-10-21 18:55:58,019 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-10-21 18:55:59,323 INFO  GithubDownloadService - Default branch of this repository: master
-2018-10-21 18:55:59,324 INFO  DownloadService - Downloading "https://github.com/lypeer/GoogleClock/archive/master.zip", attempt 3
-2018-10-21 18:57:01,130 DEBUG FullProcessService - Repository https://github.com/lypeer/GoogleClock available: true
-2018-10-21 18:57:01,130 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-10-21 18:57:01,130 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/lypeer/GoogleClock, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540122897359-0/src]
-2018-10-21 18:57:06,028 INFO  SysUtils - 
-2018-10-21 18:57:06,037 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540122897359-0/src/.git": true
-2018-10-21 18:57:06,041 INFO  FullProcessService - Size of directory with sources: 754 KB
-2018-10-21 18:57:06,041 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540122897359-0/src]
-2018-10-21 18:57:06,058 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540122897359-0/src/.git/
+2019-07-05 23:20:18,763 INFO  DownloadService - Downloading "https://github.com/lypeer/GoogleClock/archive/master.zip", attempt 3
+2019-07-05 23:20:19,707 INFO  DownloadService - Downloaded https://github.com/lypeer/GoogleClock/archive/master.zip, attempt 3
+2019-07-05 23:20:19,707 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343618760-0/master.zip": 632 KB
+2019-07-05 23:20:19,707 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 23:20:19,712 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343618760-0/master.zip: true
+2019-07-05 23:20:19,713 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343618760-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343618760-0/src'.
+2019-07-05 23:20:19,740 INFO  FullProcessService - Size of directory with sources: 754 KB
+2019-07-05 23:20:19,740 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343618760-0/src]
+2019-07-05 23:20:19,756 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343618760-0/src/.git/
 
-2018-10-21 18:57:06,061 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540122897359-0/src/gradlew
-2018-10-21 18:57:06,064 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540122897359-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540122897359-0/src/googleioclock/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540122897359-0/src/build.gradle
-2018-10-21 18:57:06,067 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540122897359-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540122897359-0/src/googleioclock/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540122897359-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540122897359-0/src/settings.gradle
-2018-10-21 18:57:06,068 INFO  ProjectBuildService - Remote scripts: none
-2018-10-21 18:57:06,068 INFO  ProjectFixService - Fixing project...
-2018-10-21 18:57:06,076 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540122897359-0/src/app/local.properties
-2018-10-21 18:57:06,077 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540122897359-0/src/app/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=21,targetSdkVersion=24]
-2018-10-21 18:57:06,077 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540122897359-0/src/googleioclock/local.properties
-2018-10-21 18:57:06,077 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540122897359-0/src/googleioclock/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=21,targetSdkVersion=24]
-2018-10-21 18:57:06,078 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540122897359-0/src/local.properties
-2018-10-21 18:57:06,078 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-10-21 18:57:06,078 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-10-21 18:57:06,079 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540122897359-0/src/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=21,targetSdkVersion=24]
-2018-10-21 18:57:06,080 INFO  ProjectFixService - Project was maybe fixed
-2018-10-21 18:57:06,080 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-21 18:57:06,080 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540122897359-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540122897359-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-21 18:57:13,046 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-10-21 18:57:13,046 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-10-21 18:57:13,046 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540122897359-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540122897359-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-10-21 18:57:31,555 ERROR SysUtils - Could not process external command
+2019-07-05 23:20:19,760 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343618760-0/src/GoogleClock-master/gradlew
+2019-07-05 23:20:19,762 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343618760-0/src/GoogleClock-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343618760-0/src/GoogleClock-master/googleioclock/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343618760-0/src/GoogleClock-master/build.gradle
+2019-07-05 23:20:19,765 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343618760-0/src/GoogleClock-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343618760-0/src/GoogleClock-master/googleioclock/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343618760-0/src/GoogleClock-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343618760-0/src/GoogleClock-master/settings.gradle
+2019-07-05 23:20:19,765 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 23:20:19,765 INFO  ProjectFixService - Fixing project...
+2019-07-05 23:20:19,771 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343618760-0/src/GoogleClock-master/app/local.properties
+2019-07-05 23:20:19,771 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343618760-0/src/GoogleClock-master/app/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=21,targetSdkVersion=24]
+2019-07-05 23:20:19,772 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343618760-0/src/GoogleClock-master/googleioclock/local.properties
+2019-07-05 23:20:19,772 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343618760-0/src/GoogleClock-master/googleioclock/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=21,targetSdkVersion=24]
+2019-07-05 23:20:19,772 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343618760-0/src/GoogleClock-master/local.properties
+2019-07-05 23:20:19,772 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-07-05 23:20:19,773 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-07-05 23:20:19,773 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343618760-0/src/GoogleClock-master/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=21,targetSdkVersion=24]
+2019-07-05 23:20:19,773 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 23:20:19,773 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 23:20:19,773 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343618760-0/src/GoogleClock-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343618760-0/src/GoogleClock-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 23:20:27,283 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-07-05 23:20:27,283 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-05 23:20:27,283 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343618760-0/src/GoogleClock-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343618760-0/src/GoogleClock-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-05 23:20:41,569 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -43,22 +40,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-21 18:57:31,555 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 23:20:41,569 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
@@ -111,7 +107,7 @@ Incremental java compilation is an incubating feature.
 :app:prepareComAndroidSupportSupportV42411Library
 :app:prepareComAndroidSupportSupportVectorDrawable2411Library
 :app:prepareComJakewhartonButterknife821Library
-:app:prepareSrcGoogleioclockUnspecifiedLibrary
+:app:prepareGoogleClockMasterGoogleioclockUnspecifiedLibrary
 :app:prepareDebugDependencies
 :app:compileDebugAidl
 :app:compileDebugRenderscript
@@ -132,16 +128,16 @@ Incremental java compilation is an incubating feature.
 :app:compileDebugSources
 :app:prePackageMarkerForDebug
 :app:transformClassesWithDexForDebug
-Merged dex #1 (28 defs/10.4KiB)
-Merged dex #2 (5 defs/15.3KiB)
-Merged dex #3 (355 defs/574.2KiB)
-Merged dex #4 (819 defs/997.1KiB)
-Merged dex #5 (17 defs/48.5KiB)
-Merged dex #6 (17 defs/18.3KiB)
-Merged dex #7 (44 defs/116.8KiB)
-Merged dex #8 (42 defs/46.7KiB)
-Merged dex #9 (363 defs/280.8KiB)
-Merged dex #10 (8 defs/12.6KiB)
+Merged dex #1 (8 defs/12.6KiB)
+Merged dex #2 (28 defs/10.4KiB)
+Merged dex #3 (5 defs/15.3KiB)
+Merged dex #4 (355 defs/574.2KiB)
+Merged dex #5 (819 defs/997.1KiB)
+Merged dex #6 (17 defs/48.5KiB)
+Merged dex #7 (17 defs/18.3KiB)
+Merged dex #8 (44 defs/116.8KiB)
+Merged dex #9 (42 defs/46.7KiB)
+Merged dex #10 (363 defs/280.8KiB)
 Merged dex #11 (46 defs/7.4KiB)
 Result is 1744 defs/2574.7KiB. Took 0.2s
 :app:mergeDebugJniLibFolders
@@ -267,6 +263,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 17.937 secs
+Total time: 13.716 secs
 
-2018-10-21 18:57:31,646 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540122897359-0/src/app/build/outputs/apk/app-debug.apk
+2019-07-05 23:20:41,625 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562343618760-0/src/GoogleClock-master/app/build/outputs/apk/app-debug.apk

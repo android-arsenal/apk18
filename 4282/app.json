@@ -30,9 +30,9 @@
   },
   "dexClasses" : 688,
   "locales" : [ "" ],
-  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"org.codeandmagic.android.wink\">\n\t<uses-sdk android:minSdkVersion=\"8\" android:targetSdkVersion=\"18\" />\n\t<application android:theme=\"resourceId:0x7f0c0000\" android:label=\"Wink Demo\" android:icon=\"res/drawable-mdpi/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:name=\"org.codeandmagic.android.wink.ActivityDemo\">\n\t\t\t<intent-filter>\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"org.codeandmagic.android.wink\">\n\t<uses-sdk android:minSdkVersion=\"8\" android:targetSdkVersion=\"18\" />\n\t<application android:theme=\"resourceId:0x7f0c0000\" android:label=\"Wink Demo\" android:icon=\"res/drawable-xhdpi/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:name=\"org.codeandmagic.android.wink.ActivityDemo\">\n\t\t\t<intent-filter>\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
   "fileSize" : 739831,
   "crc32" : 1941801934,
   "sha256" : "93aa0a255dd4fb421903c04a8b3889ade410eb26e2603eb215eb3c505ca8ef0a",
-  "buildTime" : 1540483312000
+  "buildTime" : 1562345974000
 }

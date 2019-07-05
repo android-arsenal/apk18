@@ -1,33 +1,33 @@
-2019-01-19 19:08:42,877 INFO  DownloadService - Downloading "https://github.com/codinguser/android_contact_picker/archive/master.zip", attempt 3
-2019-01-19 19:08:44,758 INFO  DownloadService - Downloaded https://github.com/codinguser/android_contact_picker/archive/master.zip, attempt 3
-2019-01-19 19:08:44,759 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/master.zip": 102 KB
-2019-01-19 19:08:44,759 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-19 19:08:44,759 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/master.zip: true
-2019-01-19 19:08:44,759 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src'.
-2019-01-19 19:08:44,777 INFO  FullProcessService - Size of directory with sources: 126 KB
-2019-01-19 19:08:44,777 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src]
-2019-01-19 19:08:44,801 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/.git/
+2019-07-06 00:03:14,237 INFO  DownloadService - Downloading "https://github.com/codinguser/android_contact_picker/archive/master.zip", attempt 3
+2019-07-06 00:03:14,953 INFO  DownloadService - Downloaded https://github.com/codinguser/android_contact_picker/archive/master.zip, attempt 3
+2019-07-06 00:03:14,953 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/master.zip": 102 KB
+2019-07-06 00:03:14,953 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-06 00:03:14,959 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/master.zip: true
+2019-07-06 00:03:14,959 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src'.
+2019-07-06 00:03:14,973 INFO  FullProcessService - Size of directory with sources: 126 KB
+2019-07-06 00:03:14,973 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src]
+2019-07-06 00:03:14,988 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/.git/
 
-2019-01-19 19:08:44,804 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/gradlew
-2019-01-19 19:08:44,808 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/build.gradle
-2019-01-19 19:08:44,811 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/settings.gradle
-2019-01-19 19:08:44,811 INFO  ProjectBuildService - Remote scripts: none
-2019-01-19 19:08:44,812 INFO  ProjectFixService - Fixing project...
-2019-01-19 19:08:44,820 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/library/local.properties
-2019-01-19 19:08:44,823 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/library/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=8,targetSdkVersion=22]
-2019-01-19 19:08:44,824 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/sample/local.properties
-2019-01-19 19:08:44,826 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/sample/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=8,targetSdkVersion=22]
-2019-01-19 19:08:44,827 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/local.properties
-2019-01-19 19:08:44,827 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-bin.zip
-2019-01-19 19:08:44,828 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=8,targetSdkVersion=22]
-2019-01-19 19:08:44,828 INFO  ProjectFixService - Project was maybe fixed
-2019-01-19 19:08:44,828 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-19 19:08:44,828 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-19 19:08:51,358 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-19 19:08:51,358 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-19 19:08:51,358 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-19 19:08:51,358 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-19 19:08:55,678 ERROR SysUtils - Could not process external command
+2019-07-06 00:03:14,990 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/gradlew
+2019-07-06 00:03:14,992 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/build.gradle
+2019-07-06 00:03:14,994 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/settings.gradle
+2019-07-06 00:03:14,994 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 00:03:14,994 INFO  ProjectFixService - Fixing project...
+2019-07-06 00:03:14,998 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/library/local.properties
+2019-07-06 00:03:14,999 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/library/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=8,targetSdkVersion=22]
+2019-07-06 00:03:15,000 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/sample/local.properties
+2019-07-06 00:03:15,001 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/sample/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=8,targetSdkVersion=22]
+2019-07-06 00:03:15,002 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/local.properties
+2019-07-06 00:03:15,002 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-bin.zip
+2019-07-06 00:03:15,002 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=8,targetSdkVersion=22]
+2019-07-06 00:03:15,002 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 00:03:15,002 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 00:03:15,002 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 00:03:20,706 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 00:03:20,706 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 00:03:20,706 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 00:03:20,706 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 00:03:24,275 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -40,8 +40,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -55,12 +54,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-19 19:08:55,678 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 00:03:24,275 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/library/build.gradle' line: 83
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/library/build.gradle' line: 83
 
 * What went wrong:
 A problem occurred evaluating project ':library'.
@@ -124,11 +123,11 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':li
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:127)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
 Caused by: groovy.lang.MissingPropertyException: No such property: ossrhUsername for class: org.gradle.api.publication.maven.internal.deployer.DefaultGroovyMavenDeployer
-	at build_bdomfamn2ltgjj2o88yeixcpk$_run_closure5_closure15_closure16_closure18.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/library/build.gradle:83)
-	at build_bdomfamn2ltgjj2o88yeixcpk$_run_closure5_closure15_closure16_closure18.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/library/build.gradle)
+	at build_dq4j6pgg3km28pa1uk5n7c36w$_run_closure5_closure15_closure16_closure18.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/library/build.gradle:83)
+	at build_dq4j6pgg3km28pa1uk5n7c36w$_run_closure5_closure15_closure16_closure18.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/library/build.gradle)
 	at org.gradle.api.publication.maven.internal.deployer.DefaultGroovyMavenDeployer.methodMissing(DefaultGroovyMavenDeployer.groovy:38)
 	at org.gradle.api.publication.maven.internal.deployer.DefaultGroovyMavenDeployer.invokeMethod(DefaultGroovyMavenDeployer.groovy)
-	at build_bdomfamn2ltgjj2o88yeixcpk$_run_closure5_closure15_closure16.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/library/build.gradle:82)
+	at build_dq4j6pgg3km28pa1uk5n7c36w$_run_closure5_closure15_closure16.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/library/build.gradle:82)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.api.internal.artifacts.DefaultArtifactRepositoryContainer.addRepository(DefaultArtifactRepositoryContainer.java:87)
 	at org.gradle.api.publication.maven.internal.DefaultMavenRepositoryHandlerConvention.mavenDeployer(DefaultMavenRepositoryHandlerConvention.java:43)
@@ -138,7 +137,7 @@ Caused by: groovy.lang.MissingPropertyException: No such property: ossrhUsername
 	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:150)
 	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:150)
 	at org.gradle.api.internal.artifacts.dsl.DefaultRepositoryHandler_Decorated.invokeMethod(Unknown Source)
-	at build_bdomfamn2ltgjj2o88yeixcpk$_run_closure5_closure15.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/library/build.gradle:77)
+	at build_dq4j6pgg3km28pa1uk5n7c36w$_run_closure5_closure15.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/library/build.gradle:77)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:110)
@@ -148,7 +147,7 @@ Caused by: groovy.lang.MissingPropertyException: No such property: ossrhUsername
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:91)
 	at org.gradle.api.tasks.Upload.repositories(Upload.java:118)
-	at build_bdomfamn2ltgjj2o88yeixcpk$_run_closure5.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/library/build.gradle:76)
+	at build_dq4j6pgg3km28pa1uk5n7c36w$_run_closure5.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/library/build.gradle:76)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:110)
@@ -160,22 +159,22 @@ Caused by: groovy.lang.MissingPropertyException: No such property: ossrhUsername
 	at org.gradle.api.internal.DefaultNamedDomainObjectCollection$ContainerElementsDynamicObject.invokeMethod(DefaultNamedDomainObjectCollection.java:341)
 	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:150)
 	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:79)
-	at build_bdomfamn2ltgjj2o88yeixcpk.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/library/build.gradle:75)
+	at build_dq4j6pgg3km28pa1uk5n7c36w.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/library/build.gradle:75)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:74)
 	... 51 more
 
 
 BUILD FAILED
 
-Total time: 3.806 secs
+Total time: 3.028 secs
 
-2019-01-19 19:08:55,682 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-19 19:08:55,682 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-19 19:09:01,033 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-19 19:09:01,033 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-19 19:09:01,033 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-19 19:09:01,034 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-19 19:09:05,430 ERROR SysUtils - Could not process external command
+2019-07-06 00:03:24,278 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 00:03:24,278 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 00:03:28,567 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 00:03:28,568 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 00:03:28,568 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 00:03:28,568 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 00:03:32,294 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -188,8 +187,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -203,12 +201,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-19 19:09:05,431 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 00:03:32,294 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/library/build.gradle' line: 83
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/library/build.gradle' line: 83
 
 * What went wrong:
 A problem occurred evaluating project ':library'.
@@ -308,11 +306,11 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':li
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:127)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
 Caused by: groovy.lang.MissingPropertyException: No such property: ossrhUsername for class: org.gradle.api.publication.maven.internal.deployer.DefaultGroovyMavenDeployer
-	at build_bdomfamn2ltgjj2o88yeixcpk$_run_closure5_closure15_closure16_closure18.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/library/build.gradle:83)
-	at build_bdomfamn2ltgjj2o88yeixcpk$_run_closure5_closure15_closure16_closure18.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/library/build.gradle)
+	at build_dq4j6pgg3km28pa1uk5n7c36w$_run_closure5_closure15_closure16_closure18.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/library/build.gradle:83)
+	at build_dq4j6pgg3km28pa1uk5n7c36w$_run_closure5_closure15_closure16_closure18.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/library/build.gradle)
 	at org.gradle.api.publication.maven.internal.deployer.DefaultGroovyMavenDeployer.methodMissing(DefaultGroovyMavenDeployer.groovy:38)
 	at org.gradle.api.publication.maven.internal.deployer.DefaultGroovyMavenDeployer.invokeMethod(DefaultGroovyMavenDeployer.groovy)
-	at build_bdomfamn2ltgjj2o88yeixcpk$_run_closure5_closure15_closure16.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/library/build.gradle:82)
+	at build_dq4j6pgg3km28pa1uk5n7c36w$_run_closure5_closure15_closure16.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/library/build.gradle:82)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.api.internal.artifacts.DefaultArtifactRepositoryContainer.addRepository(DefaultArtifactRepositoryContainer.java:87)
 	at org.gradle.api.publication.maven.internal.DefaultMavenRepositoryHandlerConvention.mavenDeployer(DefaultMavenRepositoryHandlerConvention.java:43)
@@ -322,7 +320,7 @@ Caused by: groovy.lang.MissingPropertyException: No such property: ossrhUsername
 	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:150)
 	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:150)
 	at org.gradle.api.internal.artifacts.dsl.DefaultRepositoryHandler_Decorated.invokeMethod(Unknown Source)
-	at build_bdomfamn2ltgjj2o88yeixcpk$_run_closure5_closure15.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/library/build.gradle:77)
+	at build_dq4j6pgg3km28pa1uk5n7c36w$_run_closure5_closure15.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/library/build.gradle:77)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:110)
@@ -332,7 +330,7 @@ Caused by: groovy.lang.MissingPropertyException: No such property: ossrhUsername
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:91)
 	at org.gradle.api.tasks.Upload.repositories(Upload.java:118)
-	at build_bdomfamn2ltgjj2o88yeixcpk$_run_closure5.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/library/build.gradle:76)
+	at build_dq4j6pgg3km28pa1uk5n7c36w$_run_closure5.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/library/build.gradle:76)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:110)
@@ -344,22 +342,22 @@ Caused by: groovy.lang.MissingPropertyException: No such property: ossrhUsername
 	at org.gradle.api.internal.DefaultNamedDomainObjectCollection$ContainerElementsDynamicObject.invokeMethod(DefaultNamedDomainObjectCollection.java:341)
 	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:150)
 	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:79)
-	at build_bdomfamn2ltgjj2o88yeixcpk.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/library/build.gradle:75)
+	at build_dq4j6pgg3km28pa1uk5n7c36w.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/library/build.gradle:75)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:74)
 	... 87 more
 
 
 BUILD FAILED
 
-Total time: 3.823 secs
+Total time: 3.083 secs
 
-2019-01-19 19:09:05,434 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-19 19:09:05,434 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-19 19:09:09,573 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-19 19:09:09,573 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-19 19:09:09,573 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-19 19:09:09,573 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-19 19:09:13,979 ERROR SysUtils - Could not process external command
+2019-07-06 00:03:32,297 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 00:03:32,297 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 00:03:35,715 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 00:03:35,715 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 00:03:35,715 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 00:03:35,715 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 00:03:39,187 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -372,8 +370,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -387,12 +384,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-19 19:09:13,979 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 00:03:39,188 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/library/build.gradle' line: 83
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/library/build.gradle' line: 83
 
 * What went wrong:
 A problem occurred evaluating project ':library'.
@@ -456,11 +453,11 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':li
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:127)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
 Caused by: groovy.lang.MissingPropertyException: No such property: ossrhUsername for class: org.gradle.api.publication.maven.internal.deployer.DefaultGroovyMavenDeployer
-	at build_bdomfamn2ltgjj2o88yeixcpk$_run_closure5_closure15_closure16_closure18.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/library/build.gradle:83)
-	at build_bdomfamn2ltgjj2o88yeixcpk$_run_closure5_closure15_closure16_closure18.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/library/build.gradle)
+	at build_dq4j6pgg3km28pa1uk5n7c36w$_run_closure5_closure15_closure16_closure18.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/library/build.gradle:83)
+	at build_dq4j6pgg3km28pa1uk5n7c36w$_run_closure5_closure15_closure16_closure18.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/library/build.gradle)
 	at org.gradle.api.publication.maven.internal.deployer.DefaultGroovyMavenDeployer.methodMissing(DefaultGroovyMavenDeployer.groovy:38)
 	at org.gradle.api.publication.maven.internal.deployer.DefaultGroovyMavenDeployer.invokeMethod(DefaultGroovyMavenDeployer.groovy)
-	at build_bdomfamn2ltgjj2o88yeixcpk$_run_closure5_closure15_closure16.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/library/build.gradle:82)
+	at build_dq4j6pgg3km28pa1uk5n7c36w$_run_closure5_closure15_closure16.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/library/build.gradle:82)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.api.internal.artifacts.DefaultArtifactRepositoryContainer.addRepository(DefaultArtifactRepositoryContainer.java:87)
 	at org.gradle.api.publication.maven.internal.DefaultMavenRepositoryHandlerConvention.mavenDeployer(DefaultMavenRepositoryHandlerConvention.java:43)
@@ -470,7 +467,7 @@ Caused by: groovy.lang.MissingPropertyException: No such property: ossrhUsername
 	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:150)
 	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:150)
 	at org.gradle.api.internal.artifacts.dsl.DefaultRepositoryHandler_Decorated.invokeMethod(Unknown Source)
-	at build_bdomfamn2ltgjj2o88yeixcpk$_run_closure5_closure15.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/library/build.gradle:77)
+	at build_dq4j6pgg3km28pa1uk5n7c36w$_run_closure5_closure15.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/library/build.gradle:77)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:110)
@@ -480,7 +477,7 @@ Caused by: groovy.lang.MissingPropertyException: No such property: ossrhUsername
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:91)
 	at org.gradle.api.tasks.Upload.repositories(Upload.java:118)
-	at build_bdomfamn2ltgjj2o88yeixcpk$_run_closure5.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/library/build.gradle:76)
+	at build_dq4j6pgg3km28pa1uk5n7c36w$_run_closure5.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/library/build.gradle:76)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:110)
@@ -492,14 +489,14 @@ Caused by: groovy.lang.MissingPropertyException: No such property: ossrhUsername
 	at org.gradle.api.internal.DefaultNamedDomainObjectCollection$ContainerElementsDynamicObject.invokeMethod(DefaultNamedDomainObjectCollection.java:341)
 	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:150)
 	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:79)
-	at build_bdomfamn2ltgjj2o88yeixcpk.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899722869-0/src/android_contact_picker-master/library/build.gradle:75)
+	at build_dq4j6pgg3km28pa1uk5n7c36w.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346194229-0/src/android_contact_picker-master/library/build.gradle:75)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:74)
 	... 51 more
 
 
 BUILD FAILED
 
-Total time: 3.902 secs
+Total time: 2.928 secs
 
-2019-01-19 19:09:13,983 ERROR FullProcessService - Project build has not produced APK file
-2019-01-19 19:09:13,986 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-06 00:03:39,190 ERROR FullProcessService - Project build has not produced APK file
+2019-07-06 00:03:39,192 ERROR FullProcessService - Could not find generated or existed APK file
