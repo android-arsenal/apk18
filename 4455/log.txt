@@ -1,40 +1,40 @@
-2018-12-13 11:51:53,847 INFO  DownloadService - Downloading "https://github.com/saket/Better-Link-Movement-Method/archive/master.zip", attempt 3
-2018-12-13 11:51:56,894 INFO  DownloadService - Downloaded https://github.com/saket/Better-Link-Movement-Method/archive/master.zip, attempt 3
-2018-12-13 11:51:56,894 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544676713839-0/master.zip": 583 KB
-2018-12-13 11:51:56,894 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-13 11:51:56,896 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544676713839-0/master.zip: true
-2018-12-13 11:51:56,896 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544676713839-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544676713839-0/src'.
-2018-12-13 11:51:56,914 INFO  FullProcessService - Size of directory with sources: 622 KB
-2018-12-13 11:51:56,915 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544676713839-0/src]
-2018-12-13 11:51:56,932 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544676713839-0/src/.git/
+2019-07-05 20:20:44,609 INFO  DownloadService - Downloading "https://github.com/saket/Better-Link-Movement-Method/archive/master.zip", attempt 3
+2019-07-05 20:20:45,192 INFO  DownloadService - Downloaded https://github.com/saket/Better-Link-Movement-Method/archive/master.zip, attempt 3
+2019-07-05 20:20:45,192 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332844607-0/master.zip": 583 KB
+2019-07-05 20:20:45,192 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 20:20:45,198 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332844607-0/master.zip: true
+2019-07-05 20:20:45,198 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332844607-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332844607-0/src'.
+2019-07-05 20:20:45,215 INFO  FullProcessService - Size of directory with sources: 622 KB
+2019-07-05 20:20:45,215 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332844607-0/src]
+2019-07-05 20:20:45,231 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332844607-0/src/.git/
 
-2018-12-13 11:51:56,935 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544676713839-0/src/Better-Link-Movement-Method-master/gradlew
-2018-12-13 11:51:56,937 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544676713839-0/src/Better-Link-Movement-Method-master/better-link-movement-method/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544676713839-0/src/Better-Link-Movement-Method-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544676713839-0/src/Better-Link-Movement-Method-master/build.gradle
-2018-12-13 11:51:56,940 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544676713839-0/src/Better-Link-Movement-Method-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544676713839-0/src/Better-Link-Movement-Method-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544676713839-0/src/Better-Link-Movement-Method-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544676713839-0/src/Better-Link-Movement-Method-master/better-link-movement-method/build.gradle
-2018-12-13 11:51:56,944 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2018-12-13 11:51:57,673 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2018-12-13 11:51:57,674 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2018-12-13 11:51:57,857 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2018-12-13 11:51:57,858 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2018-12-13 11:51:57,858 INFO  ProjectFixService - Fixing project...
-2018-12-13 11:51:57,867 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544676713839-0/src/Better-Link-Movement-Method-master/better-link-movement-method/local.properties
-2018-12-13 11:51:57,870 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544676713839-0/src/Better-Link-Movement-Method-master/better-link-movement-method/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=23,targetSdkVersion=<null>]
-2018-12-13 11:51:57,870 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544676713839-0/src/Better-Link-Movement-Method-master/better-link-movement-method/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=23,targetSdkVersion=28]
-2018-12-13 11:51:57,872 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544676713839-0/src/Better-Link-Movement-Method-master/sample/local.properties
-2018-12-13 11:51:57,874 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544676713839-0/src/Better-Link-Movement-Method-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=23,targetSdkVersion=<null>]
-2018-12-13 11:51:57,874 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544676713839-0/src/Better-Link-Movement-Method-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=23,targetSdkVersion=28]
-2018-12-13 11:51:57,876 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544676713839-0/src/Better-Link-Movement-Method-master/local.properties
-2018-12-13 11:51:57,876 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-12-13 11:51:57,876 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-12-13 11:51:57,878 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544676713839-0/src/Better-Link-Movement-Method-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=23,targetSdkVersion=<null>]
-2018-12-13 11:51:57,878 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544676713839-0/src/Better-Link-Movement-Method-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=23,targetSdkVersion=28]
-2018-12-13 11:51:57,879 INFO  ProjectFixService - Project was maybe fixed
-2018-12-13 11:51:57,879 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-13 11:51:57,879 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544676713839-0/src/Better-Link-Movement-Method-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544676713839-0/src/Better-Link-Movement-Method-master/better-link-movement-method/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-13 11:52:05,608 INFO  ProjectTaskService - Detected possible tasks: 70
-2018-12-13 11:52:05,608 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-12-13 11:52:05,608 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544676713839-0/src/Better-Link-Movement-Method-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544676713839-0/src/Better-Link-Movement-Method-master/better-link-movement-method/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-12-13 11:52:15,726 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 20:20:45,232 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332844607-0/src/Better-Link-Movement-Method-master/gradlew
+2019-07-05 20:20:45,234 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332844607-0/src/Better-Link-Movement-Method-master/better-link-movement-method/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332844607-0/src/Better-Link-Movement-Method-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332844607-0/src/Better-Link-Movement-Method-master/build.gradle
+2019-07-05 20:20:45,236 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332844607-0/src/Better-Link-Movement-Method-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332844607-0/src/Better-Link-Movement-Method-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332844607-0/src/Better-Link-Movement-Method-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332844607-0/src/Better-Link-Movement-Method-master/better-link-movement-method/build.gradle
+2019-07-05 20:20:45,236 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-07-05 20:20:45,319 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-07-05 20:20:45,319 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-07-05 20:20:45,401 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-07-05 20:20:45,401 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-07-05 20:20:45,401 INFO  ProjectFixService - Fixing project...
+2019-07-05 20:20:45,408 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332844607-0/src/Better-Link-Movement-Method-master/better-link-movement-method/local.properties
+2019-07-05 20:20:45,409 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332844607-0/src/Better-Link-Movement-Method-master/better-link-movement-method/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=23,targetSdkVersion=<null>]
+2019-07-05 20:20:45,409 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332844607-0/src/Better-Link-Movement-Method-master/better-link-movement-method/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=29]
+2019-07-05 20:20:45,410 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332844607-0/src/Better-Link-Movement-Method-master/sample/local.properties
+2019-07-05 20:20:45,414 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332844607-0/src/Better-Link-Movement-Method-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=23,targetSdkVersion=<null>]
+2019-07-05 20:20:45,414 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332844607-0/src/Better-Link-Movement-Method-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=29]
+2019-07-05 20:20:45,415 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332844607-0/src/Better-Link-Movement-Method-master/local.properties
+2019-07-05 20:20:45,416 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-07-05 20:20:45,416 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-07-05 20:20:45,418 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332844607-0/src/Better-Link-Movement-Method-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=23,targetSdkVersion=<null>]
+2019-07-05 20:20:45,418 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332844607-0/src/Better-Link-Movement-Method-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=29]
+2019-07-05 20:20:45,418 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 20:20:45,418 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 20:20:45,418 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332844607-0/src/Better-Link-Movement-Method-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332844607-0/src/Better-Link-Movement-Method-master/better-link-movement-method/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 20:20:53,063 INFO  ProjectTaskService - Detected possible tasks: 71
+2019-07-05 20:20:53,063 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-05 20:20:53,063 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332844607-0/src/Better-Link-Movement-Method-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332844607-0/src/Better-Link-Movement-Method-master/better-link-movement-method/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-05 20:21:01,770 INFO  SysUtils - Configuration on demand is an incubating feature.
 :better-link-movement-method:preBuild UP-TO-DATE
 :better-link-movement-method:preDebugBuild UP-TO-DATE
 :better-link-movement-method:compileDebugAidl
@@ -105,15 +105,15 @@
 :better-link-movement-method:assemble
 :better-link-movement-method:build
 
-BUILD SUCCESSFUL in 9s
+BUILD SUCCESSFUL in 8s
 48 actionable tasks: 48 executed
 
-2018-12-13 11:52:15,741 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-13 11:52:15,741 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544676713839-0/src/Better-Link-Movement-Method-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544676713839-0/src/Better-Link-Movement-Method-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-13 11:52:22,125 INFO  ProjectTaskService - Detected possible tasks: 71
-2018-12-13 11:52:22,125 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-13 11:52:22,126 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544676713839-0/src/Better-Link-Movement-Method-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544676713839-0/src/Better-Link-Movement-Method-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-13 11:52:29,024 ERROR SysUtils - Could not process external command
+2019-07-05 20:21:01,778 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 20:21:01,778 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332844607-0/src/Better-Link-Movement-Method-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332844607-0/src/Better-Link-Movement-Method-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 20:21:06,867 INFO  ProjectTaskService - Detected possible tasks: 71
+2019-07-05 20:21:06,867 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-05 20:21:06,867 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332844607-0/src/Better-Link-Movement-Method-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332844607-0/src/Better-Link-Movement-Method-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-05 20:21:11,797 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -126,8 +126,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -141,7 +140,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-13 11:52:29,025 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 20:21:11,797 INFO  SysUtils - Configuration on demand is an incubating feature.
 WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
 It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
 
@@ -221,13 +220,14 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 6s
+BUILD FAILED in 4s
 
-2018-12-13 11:52:29,025 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2018-12-13 11:52:29,025 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544676713839-0/src/Better-Link-Movement-Method-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544676713839-0/src/Better-Link-Movement-Method-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-13 11:52:49,451 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 20:21:11,797 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-07-05 20:21:11,797 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332844607-0/src/Better-Link-Movement-Method-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332844607-0/src/Better-Link-Movement-Method-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 20:21:28,111 INFO  SysUtils - Configuration on demand is an incubating feature.
 WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
 It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+Download https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle
 :better-link-movement-method:preBuild UP-TO-DATE
 :better-link-movement-method:preDebugBuild UP-TO-DATE
 :better-link-movement-method:compileDebugAidl UP-TO-DATE
@@ -264,7 +264,7 @@ It will be removed at the end of 2018. For more information see: http://d.androi
 :sample:processDebugResources
 :sample:generateDebugSources
 :sample:javaPreCompileDebug
-:sample:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544676713839-0/src/Better-Link-Movement-Method-master/sample/src/main/java/me/saket/bettermovementmethod/sample/MainActivity.java uses or overrides a deprecated API.
+:sample:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332844607-0/src/Better-Link-Movement-Method-master/sample/src/main/java/me/saket/bettermovementmethod/sample/MainActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :sample:compileDebugNdk NO-SOURCE
@@ -326,7 +326,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :sample:processReleaseResources
 :sample:generateReleaseSources
 :sample:javaPreCompileRelease
-:sample:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544676713839-0/src/Better-Link-Movement-Method-master/sample/src/main/java/me/saket/bettermovementmethod/sample/MainActivity.java uses or overrides a deprecated API.
+:sample:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332844607-0/src/Better-Link-Movement-Method-master/sample/src/main/java/me/saket/bettermovementmethod/sample/MainActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :sample:compileReleaseNdk NO-SOURCE
@@ -361,8 +361,8 @@ Note: Recompile with -Xlint:deprecation for details.
 :sample:lint
 Ran lint on variant debug: 3 issues found
 Ran lint on variant release: 3 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544676713839-0/src/Better-Link-Movement-Method-master/sample/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544676713839-0/src/Better-Link-Movement-Method-master/sample/build/reports/lint-results.xml
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332844607-0/src/Better-Link-Movement-Method-master/sample/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332844607-0/src/Better-Link-Movement-Method-master/sample/build/reports/lint-results.xml
 :sample:preDebugUnitTestBuild UP-TO-DATE
 :sample:javaPreCompileDebugUnitTest
 :sample:compileDebugUnitTestJavaWithJavac NO-SOURCE
@@ -378,7 +378,7 @@ Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgby
 :sample:check
 :sample:build
 
-BUILD SUCCESSFUL in 19s
+BUILD SUCCESSFUL in 15s
 98 actionable tasks: 64 executed, 34 up-to-date
 
-2018-12-13 11:52:49,480 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544676713839-0/src/Better-Link-Movement-Method-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-07-05 20:21:28,132 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332844607-0/src/Better-Link-Movement-Method-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

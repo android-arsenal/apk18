@@ -1,36 +1,36 @@
-2018-10-18 22:24:01,111 INFO  DownloadService - Downloading "https://github.com/explodes/android-sql-logging/archive/master.zip", attempt 3
-2018-10-18 22:24:01,639 INFO  DownloadService - Downloaded https://github.com/explodes/android-sql-logging/archive/master.zip, attempt 3
-2018-10-18 22:24:01,639 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/master.zip": 123 KB
-2018-10-18 22:24:01,639 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-18 22:24:01,645 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/master.zip: true
-2018-10-18 22:24:01,645 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src'.
-2018-10-18 22:24:01,669 INFO  FullProcessService - Size of directory with sources: 153 KB
-2018-10-18 22:24:01,669 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src]
-2018-10-18 22:24:01,694 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/.git/
+2019-07-05 20:18:54,790 INFO  DownloadService - Downloading "https://github.com/explodes/android-sql-logging/archive/master.zip", attempt 3
+2019-07-05 20:18:55,364 INFO  DownloadService - Downloaded https://github.com/explodes/android-sql-logging/archive/master.zip, attempt 3
+2019-07-05 20:18:55,364 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/master.zip": 123 KB
+2019-07-05 20:18:55,364 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 20:18:55,370 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/master.zip: true
+2019-07-05 20:18:55,370 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src'.
+2019-07-05 20:18:55,388 INFO  FullProcessService - Size of directory with sources: 153 KB
+2019-07-05 20:18:55,388 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src]
+2019-07-05 20:18:55,403 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/.git/
 
-2018-10-18 22:24:01,699 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/gradlew
-2018-10-18 22:24:01,706 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/sqllog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/timbersql/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/build.gradle
-2018-10-18 22:24:01,710 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/sqllog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/timbersql/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/settings.gradle
-2018-10-18 22:24:01,711 INFO  ProjectBuildService - Remote scripts: none
-2018-10-18 22:24:01,711 INFO  ProjectFixService - Fixing project...
-2018-10-18 22:24:01,722 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/sample/local.properties
-2018-10-18 22:24:01,723 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/sample/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
-2018-10-18 22:24:01,723 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/sqllog/local.properties
-2018-10-18 22:24:01,724 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/sqllog/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
-2018-10-18 22:24:01,724 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/timbersql/local.properties
-2018-10-18 22:24:01,724 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/timbersql/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
-2018-10-18 22:24:01,725 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/local.properties
-2018-10-18 22:24:01,725 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-18 22:24:01,725 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-18 22:24:01,726 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
-2018-10-18 22:24:01,726 INFO  ProjectFixService - Project was maybe fixed
-2018-10-18 22:24:01,726 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-18 22:24:01,726 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-18 22:24:06,579 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-18 22:24:06,579 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-18 22:24:06,579 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-18 22:24:06,579 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-18 22:24:10,075 ERROR SysUtils - Could not process external command
+2019-07-05 20:18:55,406 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/gradlew
+2019-07-05 20:18:55,408 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/sqllog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/timbersql/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/build.gradle
+2019-07-05 20:18:55,411 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/sqllog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/timbersql/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/settings.gradle
+2019-07-05 20:18:55,411 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 20:18:55,411 INFO  ProjectFixService - Fixing project...
+2019-07-05 20:18:55,417 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/sample/local.properties
+2019-07-05 20:18:55,417 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/sample/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2019-07-05 20:18:55,417 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/sqllog/local.properties
+2019-07-05 20:18:55,417 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/sqllog/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2019-07-05 20:18:55,418 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/timbersql/local.properties
+2019-07-05 20:18:55,418 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/timbersql/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2019-07-05 20:18:55,418 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/local.properties
+2019-07-05 20:18:55,419 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-07-05 20:18:55,419 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-07-05 20:18:55,419 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2019-07-05 20:18:55,419 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 20:18:55,419 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 20:18:55,419 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 20:18:58,443 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 20:18:58,443 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 20:18:58,443 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 20:18:58,444 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 20:19:01,425 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -43,26 +43,26 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-18 22:24:10,075 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 20:19:01,425 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/sample/build.gradle' line: 1
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/sample/build.gradle' line: 1
 
 * What went wrong:
 A problem occurred evaluating project ':sample'.
@@ -148,7 +148,7 @@ Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_5iint25xo0rhe9eu6j53l5zyr.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/sample/build.gradle:1)
+	at build_8qlwgx9rolwaq0yu9yoozh8bn.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/sample/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 63 more
 Caused by: java.lang.RuntimeException: Minimum supported Gradle version is 3.3. Current version is 2.14.1. If using the gradle wrapper, try editing the distributionUrl in /Users/vbauer/Documents/workspace/java/bloodhound/gradle/wrapper/gradle-wrapper.properties to gradle-3.3-all.zip
@@ -166,15 +166,15 @@ Caused by: java.lang.RuntimeException: Minimum supported Gradle version is 3.3. 
 
 BUILD FAILED
 
-Total time: 2.954 secs
+Total time: 2.443 secs
 
-2018-10-18 22:24:10,079 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-18 22:24:10,079 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/sqllog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-18 22:24:13,586 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-18 22:24:13,586 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-18 22:24:13,586 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-18 22:24:13,586 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/sqllog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-18 22:24:17,304 ERROR SysUtils - Could not process external command
+2019-07-05 20:19:01,428 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 20:19:01,428 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/sqllog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 20:19:04,275 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 20:19:04,275 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 20:19:04,275 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 20:19:04,275 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/sqllog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 20:19:07,114 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -187,26 +187,26 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-18 22:24:17,304 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 20:19:07,114 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/sqllog/build.gradle' line: 1
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/sqllog/build.gradle' line: 1
 
 * What went wrong:
 A problem occurred evaluating project ':sqllog'.
@@ -292,7 +292,7 @@ Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_341m9ztpm001fa35mcz3gxnpl.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/sqllog/build.gradle:1)
+	at build_azpay9rzx8qibahagq7tnqosg.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/sqllog/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 63 more
 Caused by: java.lang.RuntimeException: Minimum supported Gradle version is 3.3. Current version is 2.14.1. If using the gradle wrapper, try editing the distributionUrl in /Users/vbauer/Documents/workspace/java/bloodhound/gradle/wrapper/gradle-wrapper.properties to gradle-3.3-all.zip
@@ -310,15 +310,15 @@ Caused by: java.lang.RuntimeException: Minimum supported Gradle version is 3.3. 
 
 BUILD FAILED
 
-Total time: 3.18 secs
+Total time: 2.31 secs
 
-2018-10-18 22:24:17,308 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-18 22:24:17,308 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/timbersql/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-18 22:24:22,076 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-18 22:24:22,076 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-18 22:24:22,076 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-18 22:24:22,076 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/timbersql/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-18 22:24:26,070 ERROR SysUtils - Could not process external command
+2019-07-05 20:19:07,118 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 20:19:07,118 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/timbersql/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 20:19:09,947 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 20:19:09,947 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 20:19:09,947 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 20:19:09,947 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/timbersql/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 20:19:12,873 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -331,26 +331,26 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-18 22:24:26,070 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 20:19:12,873 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/timbersql/build.gradle' line: 1
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/timbersql/build.gradle' line: 1
 
 * What went wrong:
 A problem occurred evaluating project ':timbersql'.
@@ -436,7 +436,7 @@ Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_2jtlx23dq0l5goqq3pxyxh0s1.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/timbersql/build.gradle:1)
+	at build_9j5zax4z9afqt17u8x9qky3ew.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/timbersql/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 63 more
 Caused by: java.lang.RuntimeException: Minimum supported Gradle version is 3.3. Current version is 2.14.1. If using the gradle wrapper, try editing the distributionUrl in /Users/vbauer/Documents/workspace/java/bloodhound/gradle/wrapper/gradle-wrapper.properties to gradle-3.3-all.zip
@@ -454,15 +454,15 @@ Caused by: java.lang.RuntimeException: Minimum supported Gradle version is 3.3. 
 
 BUILD FAILED
 
-Total time: 3.447 secs
+Total time: 2.414 secs
 
-2018-10-18 22:24:26,075 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-18 22:24:26,075 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-18 22:24:29,335 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-18 22:24:29,335 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-18 22:24:29,335 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-18 22:24:29,335 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-18 22:24:32,661 ERROR SysUtils - Could not process external command
+2019-07-05 20:19:12,876 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 20:19:12,876 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 20:19:15,739 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 20:19:15,739 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 20:19:15,739 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 20:19:15,739 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 20:19:18,675 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -475,26 +475,26 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-18 22:24:32,661 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 20:19:18,675 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/sample/build.gradle' line: 1
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/sample/build.gradle' line: 1
 
 * What went wrong:
 A problem occurred evaluating project ':sample'.
@@ -580,7 +580,7 @@ Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_5iint25xo0rhe9eu6j53l5zyr.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539876241107-0/src/android-sql-logging-master/sample/build.gradle:1)
+	at build_8qlwgx9rolwaq0yu9yoozh8bn.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332734786-0/src/android-sql-logging-master/sample/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 63 more
 Caused by: java.lang.RuntimeException: Minimum supported Gradle version is 3.3. Current version is 2.14.1. If using the gradle wrapper, try editing the distributionUrl in /Users/vbauer/Documents/workspace/java/bloodhound/gradle/wrapper/gradle-wrapper.properties to gradle-3.3-all.zip
@@ -598,7 +598,7 @@ Caused by: java.lang.RuntimeException: Minimum supported Gradle version is 3.3. 
 
 BUILD FAILED
 
-Total time: 2.786 secs
+Total time: 2.395 secs
 
-2018-10-18 22:24:32,666 ERROR FullProcessService - Project build has not produced APK file
-2018-10-18 22:24:32,671 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-05 20:19:18,679 ERROR FullProcessService - Project build has not produced APK file
+2019-07-05 20:19:18,683 ERROR FullProcessService - Could not find generated or existed APK file

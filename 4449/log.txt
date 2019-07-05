@@ -1,38 +1,38 @@
-2018-10-19 01:43:23,954 INFO  DownloadService - Downloading "https://github.com/jeancsanchez/PhotoViewSlider/archive/master.zip", attempt 3
-2018-10-19 01:43:26,092 INFO  DownloadService - Downloaded https://github.com/jeancsanchez/PhotoViewSlider/archive/master.zip, attempt 3
-2018-10-19 01:43:26,092 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539888203941-0/master.zip": 1 MB
-2018-10-19 01:43:26,093 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-19 01:43:26,098 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539888203941-0/master.zip: true
-2018-10-19 01:43:26,099 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539888203941-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539888203941-0/src'.
-2018-10-19 01:43:26,134 INFO  FullProcessService - Size of directory with sources: 1 MB
-2018-10-19 01:43:26,135 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539888203941-0/src]
-2018-10-19 01:43:26,150 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539888203941-0/src/.git/
+2019-07-05 20:23:43,611 INFO  DownloadService - Downloading "https://github.com/jeancsanchez/PhotoViewSlider/archive/master.zip", attempt 3
+2019-07-05 20:23:44,575 INFO  DownloadService - Downloaded https://github.com/jeancsanchez/PhotoViewSlider/archive/master.zip, attempt 3
+2019-07-05 20:23:44,575 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333023608-0/master.zip": 1 MB
+2019-07-05 20:23:44,575 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 20:23:44,581 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333023608-0/master.zip: true
+2019-07-05 20:23:44,582 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333023608-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333023608-0/src'.
+2019-07-05 20:23:44,612 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-07-05 20:23:44,612 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333023608-0/src]
+2019-07-05 20:23:44,632 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333023608-0/src/.git/
 
-2018-10-19 01:43:26,154 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539888203941-0/src/PhotoViewSlider-master/gradlew
-2018-10-19 01:43:26,157 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539888203941-0/src/PhotoViewSlider-master/photoviewslider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539888203941-0/src/PhotoViewSlider-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539888203941-0/src/PhotoViewSlider-master/build.gradle
-2018-10-19 01:43:26,160 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539888203941-0/src/PhotoViewSlider-master/photoviewslider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539888203941-0/src/PhotoViewSlider-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539888203941-0/src/PhotoViewSlider-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539888203941-0/src/PhotoViewSlider-master/settings.gradle
-2018-10-19 01:43:26,161 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2018-10-19 01:43:26,558 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2018-10-19 01:43:26,558 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2018-10-19 01:43:26,644 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2018-10-19 01:43:26,645 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2018-10-19 01:43:26,645 INFO  ProjectFixService - Fixing project...
-2018-10-19 01:43:26,655 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539888203941-0/src/PhotoViewSlider-master/photoviewslider/local.properties
-2018-10-19 01:43:26,655 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539888203941-0/src/PhotoViewSlider-master/photoviewslider/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=17,targetSdkVersion=24]
-2018-10-19 01:43:26,656 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539888203941-0/src/PhotoViewSlider-master/sample/local.properties
-2018-10-19 01:43:26,656 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539888203941-0/src/PhotoViewSlider-master/sample/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=19,targetSdkVersion=24]
-2018-10-19 01:43:26,657 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539888203941-0/src/PhotoViewSlider-master/local.properties
-2018-10-19 01:43:26,657 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-19 01:43:26,657 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-19 01:43:26,658 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539888203941-0/src/PhotoViewSlider-master/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=17,targetSdkVersion=24]
-2018-10-19 01:43:26,658 INFO  ProjectFixService - Project was maybe fixed
-2018-10-19 01:43:26,658 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-19 01:43:26,658 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539888203941-0/src/PhotoViewSlider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539888203941-0/src/PhotoViewSlider-master/photoviewslider/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-19 01:43:57,323 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-19 01:43:57,323 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-10-19 01:43:57,323 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-10-19 01:43:57,323 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539888203941-0/src/PhotoViewSlider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539888203941-0/src/PhotoViewSlider-master/photoviewslider/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-10-19 01:44:10,166 ERROR SysUtils - Could not process external command
+2019-07-05 20:23:44,634 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333023608-0/src/PhotoViewSlider-master/gradlew
+2019-07-05 20:23:44,638 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333023608-0/src/PhotoViewSlider-master/photoviewslider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333023608-0/src/PhotoViewSlider-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333023608-0/src/PhotoViewSlider-master/build.gradle
+2019-07-05 20:23:44,640 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333023608-0/src/PhotoViewSlider-master/photoviewslider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333023608-0/src/PhotoViewSlider-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333023608-0/src/PhotoViewSlider-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333023608-0/src/PhotoViewSlider-master/settings.gradle
+2019-07-05 20:23:44,641 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-07-05 20:23:44,726 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-07-05 20:23:44,726 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-07-05 20:23:44,808 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-07-05 20:23:44,808 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-07-05 20:23:44,808 INFO  ProjectFixService - Fixing project...
+2019-07-05 20:23:44,818 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333023608-0/src/PhotoViewSlider-master/photoviewslider/local.properties
+2019-07-05 20:23:44,819 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333023608-0/src/PhotoViewSlider-master/photoviewslider/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=17,targetSdkVersion=24]
+2019-07-05 20:23:44,819 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333023608-0/src/PhotoViewSlider-master/sample/local.properties
+2019-07-05 20:23:44,819 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333023608-0/src/PhotoViewSlider-master/sample/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=19,targetSdkVersion=24]
+2019-07-05 20:23:44,819 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333023608-0/src/PhotoViewSlider-master/local.properties
+2019-07-05 20:23:44,820 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-07-05 20:23:44,820 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-07-05 20:23:44,820 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333023608-0/src/PhotoViewSlider-master/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=17,targetSdkVersion=24]
+2019-07-05 20:23:44,821 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 20:23:44,821 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 20:23:44,821 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333023608-0/src/PhotoViewSlider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333023608-0/src/PhotoViewSlider-master/photoviewslider/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 20:24:16,749 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 20:24:16,750 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-07-05 20:24:16,750 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-07-05 20:24:16,750 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333023608-0/src/PhotoViewSlider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333023608-0/src/PhotoViewSlider-master/photoviewslider/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-07-05 20:24:27,917 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -45,22 +45,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-19 01:44:10,166 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 20:24:27,917 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :photoviewslider:preBuild UP-TO-DATE
 :photoviewslider:preDebugBuild UP-TO-DATE
@@ -239,15 +238,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 12.202 secs
+Total time: 10.552 secs
 
-2018-10-19 01:44:10,225 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-19 01:44:10,226 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539888203941-0/src/PhotoViewSlider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539888203941-0/src/PhotoViewSlider-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-19 01:44:17,876 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-19 01:44:17,876 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-10-19 01:44:17,876 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-10-19 01:44:17,876 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539888203941-0/src/PhotoViewSlider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539888203941-0/src/PhotoViewSlider-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-10-19 01:44:25,359 ERROR SysUtils - Could not process external command
+2019-07-05 20:24:27,958 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 20:24:27,959 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333023608-0/src/PhotoViewSlider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333023608-0/src/PhotoViewSlider-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 20:24:34,774 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 20:24:34,774 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-07-05 20:24:34,774 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-07-05 20:24:34,774 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333023608-0/src/PhotoViewSlider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333023608-0/src/PhotoViewSlider-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-07-05 20:24:41,336 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -260,22 +259,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-19 01:44:25,360 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 20:24:41,336 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -369,22 +367,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 47 more
 
 
 BUILD FAILED
 
-Total time: 6.813 secs
+Total time: 5.962 secs
 
-2018-10-19 01:44:25,418 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-19 01:44:25,418 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539888203941-0/src/PhotoViewSlider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539888203941-0/src/PhotoViewSlider-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-19 01:44:33,295 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-19 01:44:33,295 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-10-19 01:44:33,296 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-10-19 01:44:33,296 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539888203941-0/src/PhotoViewSlider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539888203941-0/src/PhotoViewSlider-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-10-19 01:44:41,815 ERROR SysUtils - Could not process external command
+2019-07-05 20:24:41,373 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 20:24:41,373 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333023608-0/src/PhotoViewSlider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333023608-0/src/PhotoViewSlider-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 20:24:47,920 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 20:24:47,920 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-07-05 20:24:47,920 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-07-05 20:24:47,920 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333023608-0/src/PhotoViewSlider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333023608-0/src/PhotoViewSlider-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-07-05 20:24:54,520 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -397,22 +395,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-19 01:44:41,815 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 20:24:54,520 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -514,7 +511,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 7.879 secs
+Total time: 5.964 secs
 
-2018-10-19 01:44:41,875 ERROR FullProcessService - Project build has not produced APK file
-2018-10-19 01:44:41,927 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-05 20:24:54,561 ERROR FullProcessService - Project build has not produced APK file
+2019-07-05 20:24:54,598 ERROR FullProcessService - Could not find generated or existed APK file

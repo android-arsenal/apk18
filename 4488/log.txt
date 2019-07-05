@@ -1,34 +1,31 @@
-2019-06-16 16:33:04,769 INFO  DownloadService - Downloading "https://github.com/LateNightProductions/CardKeeper/archive/master.zip", attempt 3
-2019-06-16 16:34:05,327 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-06-16 16:34:06,231 INFO  GithubDownloadService - Default branch of this repository: master
-2019-06-16 16:34:06,231 INFO  DownloadService - Downloading "https://github.com/LateNightProductions/CardKeeper/archive/master.zip", attempt 3
-2019-06-16 16:35:07,682 DEBUG FullProcessService - Repository https://github.com/LateNightProductions/CardKeeper available: true
-2019-06-16 16:35:07,682 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-06-16 16:35:07,682 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/LateNightProductions/CardKeeper, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560677584764-0/src]
-2019-06-16 16:35:11,633 INFO  SysUtils - 
-2019-06-16 16:35:11,642 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560677584764-0/src/.git": true
-2019-06-16 16:35:11,645 INFO  FullProcessService - Size of directory with sources: 6 MB
-2019-06-16 16:35:11,646 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560677584764-0/src]
-2019-06-16 16:35:11,662 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560677584764-0/src/.git/
+2019-07-05 20:10:04,558 INFO  DownloadService - Downloading "https://github.com/LateNightProductions/CardKeeper/archive/master.zip", attempt 3
+2019-07-05 20:10:09,666 INFO  DownloadService - Downloaded https://github.com/LateNightProductions/CardKeeper/archive/master.zip, attempt 3
+2019-07-05 20:10:09,666 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332204556-0/master.zip": 6 MB
+2019-07-05 20:10:09,666 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 20:10:09,674 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332204556-0/master.zip: true
+2019-07-05 20:10:09,675 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332204556-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332204556-0/src'.
+2019-07-05 20:10:09,733 INFO  FullProcessService - Size of directory with sources: 6 MB
+2019-07-05 20:10:09,733 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332204556-0/src]
+2019-07-05 20:10:09,750 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332204556-0/src/.git/
 
-2019-06-16 16:35:11,667 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560677584764-0/src/gradlew
-2019-06-16 16:35:11,671 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560677584764-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560677584764-0/src/build.gradle
-2019-06-16 16:35:11,675 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560677584764-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560677584764-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560677584764-0/src/settings.gradle
-2019-06-16 16:35:11,675 INFO  ProjectBuildService - Remote scripts: none
-2019-06-16 16:35:11,675 INFO  ProjectFixService - Fixing project...
-2019-06-16 16:35:11,683 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560677584764-0/src/app/local.properties
-2019-06-16 16:35:11,684 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560677584764-0/src/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-06-16 16:35:11,685 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560677584764-0/src/local.properties
-2019-06-16 16:35:11,685 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-06-16 16:35:11,685 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-06-16 16:35:11,686 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560677584764-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-06-16 16:35:11,686 INFO  ProjectFixService - Project was maybe fixed
-2019-06-16 16:35:11,686 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-16 16:35:11,686 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560677584764-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560677584764-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-16 16:35:37,452 INFO  ProjectTaskService - Detected possible tasks: 91
-2019-06-16 16:35:37,452 INFO  ProjectTaskService - Excluded tasks (8): deviceCheck lint deviceAndroidTest connectedCheck uninstallAll test check connectedAndroidTest
-2019-06-16 16:35:37,452 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560677584764-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560677584764-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, build]
-2019-06-16 16:37:50,015 ERROR SysUtils - Could not process external command
+2019-07-05 20:10:09,753 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332204556-0/src/CardKeeper-master/gradlew
+2019-07-05 20:10:09,757 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332204556-0/src/CardKeeper-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332204556-0/src/CardKeeper-master/build.gradle
+2019-07-05 20:10:09,760 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332204556-0/src/CardKeeper-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332204556-0/src/CardKeeper-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332204556-0/src/CardKeeper-master/settings.gradle
+2019-07-05 20:10:09,760 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 20:10:09,760 INFO  ProjectFixService - Fixing project...
+2019-07-05 20:10:09,768 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332204556-0/src/CardKeeper-master/app/local.properties
+2019-07-05 20:10:09,769 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332204556-0/src/CardKeeper-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-07-05 20:10:09,769 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332204556-0/src/CardKeeper-master/local.properties
+2019-07-05 20:10:09,769 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-07-05 20:10:09,769 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-07-05 20:10:09,770 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332204556-0/src/CardKeeper-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-07-05 20:10:09,770 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 20:10:09,770 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 20:10:09,770 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332204556-0/src/CardKeeper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332204556-0/src/CardKeeper-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 20:10:17,764 INFO  ProjectTaskService - Detected possible tasks: 91
+2019-07-05 20:10:17,764 INFO  ProjectTaskService - Excluded tasks (8): deviceCheck lint deviceAndroidTest connectedCheck uninstallAll test check connectedAndroidTest
+2019-07-05 20:10:17,765 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332204556-0/src/CardKeeper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332204556-0/src/CardKeeper-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, build]
+2019-07-05 20:11:26,636 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -41,7 +38,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -55,7 +52,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-06-16 16:37:50,021 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 20:11:26,636 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :app
 'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
@@ -82,8 +79,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDevDebugBuild
 > Task :app:compileDevDebugAidl NO-SOURCE
-> Task :app:compileDevDebugRenderscript NO-SOURCE
 > Task :app:checkDevDebugManifest
+> Task :app:compileDevDebugRenderscript NO-SOURCE
 > Task :app:generateDevDebugBuildConfig
 > Task :app:writeDevDebugApplicationId
 > Task :app:generateSafeArgsDevDebug
@@ -110,7 +107,6 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :app:validateSigningDevDebug
 > Task :app:signingConfigWriterDevDebug
 > Task :app:checkDevDebugDuplicateClasses
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/4369543f29e4380f2a0c57541a1a2b28/jars/classes.jar: D8: Type `androidx.paging.PositionalDataSource` was not found, it is required for default or static interface methods desugaring of `boolean androidx.room.paging.LimitOffsetDataSource.isInvalid()`
 > Task :app:transformClassesWithDexBuilderForDevDebug
 > Task :app:transformDexArchiveWithExternalLibsDexMergerForDevDebug
 > Task :app:transformDexArchiveWithDexMergerForDevDebug
@@ -199,113 +195,113 @@ Execution failed for task ':app:lintVitalDevRelease'.
      Required by:
          project :app
       > Cannot find a version of 'androidx.test:core' that satisfies the version constraints: 
-           Dependency path 'src:app:unspecified' --> 'androidx.test.ext:junit:1.1.1' --> 'androidx.test:core:1.2.0'
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Dependency path 'src:app:unspecified' --> 'androidx.fragment:fragment-testing:1.1.0-beta01' --> 'androidx.test:core:1.1.0'
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Dependency path 'CardKeeper-master:app:unspecified' --> 'androidx.test.ext:junit:1.1.1' --> 'androidx.test:core:1.2.0'
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Dependency path 'CardKeeper-master:app:unspecified' --> 'androidx.fragment:fragment-testing:1.1.0-beta01' --> 'androidx.test:core:1.1.0'
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
 
    > Could not resolve androidx.test:monitor:{strictly 1.1.1}.
      Required by:
          project :app
       > Cannot find a version of 'androidx.test:monitor' that satisfies the version constraints: 
-           Dependency path 'src:app:unspecified' --> 'androidx.test.ext:junit:1.1.1' --> 'androidx.test:monitor:1.2.0'
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Dependency path 'src:app:unspecified' --> 'androidx.test:runner:1.2.0' --> 'androidx.test:monitor:1.2.0'
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Dependency path 'src:app:unspecified' --> 'androidx.test.ext:junit:1.1.1' --> 'androidx.test:core:1.2.0' --> 'androidx.test:monitor:1.2.0'
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Dependency path 'CardKeeper-master:app:unspecified' --> 'androidx.test.ext:junit:1.1.1' --> 'androidx.test:monitor:1.2.0'
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Dependency path 'CardKeeper-master:app:unspecified' --> 'androidx.test:runner:1.2.0' --> 'androidx.test:monitor:1.2.0'
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Dependency path 'CardKeeper-master:app:unspecified' --> 'androidx.test.ext:junit:1.1.1' --> 'androidx.test:core:1.2.0' --> 'androidx.test:monitor:1.2.0'
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
 
    > Could not resolve androidx.test:core:1.2.0.
      Required by:
          project :app > androidx.test.ext:junit:1.1.1
       > Cannot find a version of 'androidx.test:core' that satisfies the version constraints: 
-           Dependency path 'src:app:unspecified' --> 'androidx.test.ext:junit:1.1.1' --> 'androidx.test:core:1.2.0'
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Dependency path 'src:app:unspecified' --> 'androidx.fragment:fragment-testing:1.1.0-beta01' --> 'androidx.test:core:1.1.0'
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Dependency path 'CardKeeper-master:app:unspecified' --> 'androidx.test.ext:junit:1.1.1' --> 'androidx.test:core:1.2.0'
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Dependency path 'CardKeeper-master:app:unspecified' --> 'androidx.fragment:fragment-testing:1.1.0-beta01' --> 'androidx.test:core:1.1.0'
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
 
    > Could not resolve androidx.test:monitor:1.2.0.
      Required by:
@@ -313,76 +309,76 @@ Execution failed for task ':app:lintVitalDevRelease'.
          project :app > androidx.test:runner:1.2.0
          project :app > androidx.test:core:1.2.0
       > Cannot find a version of 'androidx.test:monitor' that satisfies the version constraints: 
-           Dependency path 'src:app:unspecified' --> 'androidx.test.ext:junit:1.1.1' --> 'androidx.test:monitor:1.2.0'
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Dependency path 'src:app:unspecified' --> 'androidx.test:runner:1.2.0' --> 'androidx.test:monitor:1.2.0'
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Dependency path 'src:app:unspecified' --> 'androidx.test.ext:junit:1.1.1' --> 'androidx.test:core:1.2.0' --> 'androidx.test:monitor:1.2.0'
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
-           Constraint path 'src:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Dependency path 'CardKeeper-master:app:unspecified' --> 'androidx.test.ext:junit:1.1.1' --> 'androidx.test:monitor:1.2.0'
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Dependency path 'CardKeeper-master:app:unspecified' --> 'androidx.test:runner:1.2.0' --> 'androidx.test:monitor:1.2.0'
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Dependency path 'CardKeeper-master:app:unspecified' --> 'androidx.test.ext:junit:1.1.1' --> 'androidx.test:core:1.2.0' --> 'androidx.test:monitor:1.2.0'
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:monitor:{strictly 1.1.1}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.1
 
    > Could not resolve androidx.test:core:1.1.0.
      Required by:
          project :app > androidx.fragment:fragment-testing:1.1.0-beta01
       > Cannot find a version of 'androidx.test:core' that satisfies the version constraints: 
-           Dependency path 'src:app:unspecified' --> 'androidx.test.ext:junit:1.1.1' --> 'androidx.test:core:1.2.0'
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Dependency path 'src:app:unspecified' --> 'androidx.fragment:fragment-testing:1.1.0-beta01' --> 'androidx.test:core:1.1.0'
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-           Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Dependency path 'CardKeeper-master:app:unspecified' --> 'androidx.test.ext:junit:1.1.1' --> 'androidx.test:core:1.2.0'
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Dependency path 'CardKeeper-master:app:unspecified' --> 'androidx.fragment:fragment-testing:1.1.0-beta01' --> 'androidx.test:core:1.1.0'
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+           Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
 
 
 * Try:
@@ -517,38 +513,38 @@ Required by:
 	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationArtifactCollection.ensureResolved(DefaultConfiguration.java:1624)
 	... 92 more
 Caused by: org.gradle.api.GradleException: Cannot find a version of 'androidx.test:core' that satisfies the version constraints: 
-   Dependency path 'src:app:unspecified' --> 'androidx.test.ext:junit:1.1.1' --> 'androidx.test:core:1.2.0'
-   Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-   Dependency path 'src:app:unspecified' --> 'androidx.fragment:fragment-testing:1.1.0-beta01' --> 'androidx.test:core:1.1.0'
-   Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-   Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-   Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-   Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-   Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-   Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-   Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-   Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-   Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-   Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-   Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-   Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-   Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-   Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-   Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-   Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-   Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-   Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-   Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-   Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-   Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-   Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-   Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-   Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-   Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-   Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-   Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-   Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
-   Constraint path 'src:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+   Dependency path 'CardKeeper-master:app:unspecified' --> 'androidx.test.ext:junit:1.1.1' --> 'androidx.test:core:1.2.0'
+   Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+   Dependency path 'CardKeeper-master:app:unspecified' --> 'androidx.fragment:fragment-testing:1.1.0-beta01' --> 'androidx.test:core:1.1.0'
+   Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+   Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+   Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+   Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+   Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+   Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+   Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+   Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+   Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+   Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+   Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+   Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+   Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+   Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+   Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+   Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+   Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+   Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+   Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+   Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+   Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+   Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+   Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+   Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+   Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+   Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+   Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+   Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
+   Constraint path 'CardKeeper-master:app:unspecified' --> 'androidx.test:core:{strictly 1.1.0}' because of the following reason: prodDebugRuntimeClasspath uses version 1.1.0
 
 	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder.validateGraph(DependencyGraphBuilder.java:325)
 	... 113 more
@@ -560,7 +556,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD FAILED in 2m 11s
+BUILD FAILED in 1m 8s
 85 actionable tasks: 85 executed
 
-2019-06-16 16:37:50,175 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560677584764-0/src/app/app-prod-release.apk
+2019-07-05 20:11:26,773 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332204556-0/src/CardKeeper-master/app/app-prod-release.apk
