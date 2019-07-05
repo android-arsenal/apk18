@@ -1,34 +1,34 @@
-2018-12-13 11:59:15,900 INFO  DownloadService - Downloading "https://github.com/armcha/AutoLinkTextView/archive/master.zip", attempt 3
-2018-12-13 11:59:22,002 INFO  DownloadService - Downloaded https://github.com/armcha/AutoLinkTextView/archive/master.zip, attempt 3
-2018-12-13 11:59:22,002 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677155893-0/master.zip": 2 MB
-2018-12-13 11:59:22,002 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-13 11:59:22,008 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677155893-0/master.zip: true
-2018-12-13 11:59:22,009 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677155893-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677155893-0/src'.
-2018-12-13 11:59:22,046 INFO  FullProcessService - Size of directory with sources: 2 MB
-2018-12-13 11:59:22,046 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677155893-0/src]
-2018-12-13 11:59:22,063 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677155893-0/src/.git/
+2019-07-05 20:54:37,901 INFO  DownloadService - Downloading "https://github.com/armcha/AutoLinkTextView/archive/master.zip", attempt 3
+2019-07-05 20:54:40,429 INFO  DownloadService - Downloaded https://github.com/armcha/AutoLinkTextView/archive/master.zip, attempt 3
+2019-07-05 20:54:40,429 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334877893-0/master.zip": 2 MB
+2019-07-05 20:54:40,429 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 20:54:40,430 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334877893-0/master.zip: true
+2019-07-05 20:54:40,430 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334877893-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334877893-0/src'.
+2019-07-05 20:54:40,464 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-07-05 20:54:40,464 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334877893-0/src]
+2019-07-05 20:54:40,480 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334877893-0/src/.git/
 
-2018-12-13 11:59:22,066 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677155893-0/src/AutoLinkTextView-master/gradlew
-2018-12-13 11:59:22,069 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677155893-0/src/AutoLinkTextView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677155893-0/src/AutoLinkTextView-master/autolinklibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677155893-0/src/AutoLinkTextView-master/build.gradle
-2018-12-13 11:59:22,071 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677155893-0/src/AutoLinkTextView-master/autolinklibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677155893-0/src/AutoLinkTextView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677155893-0/src/AutoLinkTextView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677155893-0/src/AutoLinkTextView-master/settings.gradle
-2018-12-13 11:59:22,072 INFO  ProjectBuildService - Remote scripts: none
-2018-12-13 11:59:22,072 INFO  ProjectFixService - Fixing project...
-2018-12-13 11:59:22,079 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677155893-0/src/AutoLinkTextView-master/app/local.properties
-2018-12-13 11:59:22,080 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677155893-0/src/AutoLinkTextView-master/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2018-12-13 11:59:22,080 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677155893-0/src/AutoLinkTextView-master/autolinklibrary/local.properties
-2018-12-13 11:59:22,080 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677155893-0/src/AutoLinkTextView-master/autolinklibrary/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2018-12-13 11:59:22,081 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677155893-0/src/AutoLinkTextView-master/local.properties
-2018-12-13 11:59:22,081 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2018-12-13 11:59:22,081 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2018-12-13 11:59:22,082 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677155893-0/src/AutoLinkTextView-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2018-12-13 11:59:22,082 INFO  ProjectFixService - Project was maybe fixed
-2018-12-13 11:59:22,082 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-13 11:59:22,082 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677155893-0/src/AutoLinkTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677155893-0/src/AutoLinkTextView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-13 11:59:28,567 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-13 11:59:28,567 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-13 11:59:28,568 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-13 11:59:28,568 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677155893-0/src/AutoLinkTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677155893-0/src/AutoLinkTextView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-13 11:59:34,008 ERROR SysUtils - Could not process external command
+2019-07-05 20:54:40,482 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334877893-0/src/AutoLinkTextView-master/gradlew
+2019-07-05 20:54:40,484 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334877893-0/src/AutoLinkTextView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334877893-0/src/AutoLinkTextView-master/autolinklibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334877893-0/src/AutoLinkTextView-master/build.gradle
+2019-07-05 20:54:40,487 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334877893-0/src/AutoLinkTextView-master/autolinklibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334877893-0/src/AutoLinkTextView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334877893-0/src/AutoLinkTextView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334877893-0/src/AutoLinkTextView-master/settings.gradle
+2019-07-05 20:54:40,487 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 20:54:40,487 INFO  ProjectFixService - Fixing project...
+2019-07-05 20:54:40,492 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334877893-0/src/AutoLinkTextView-master/app/local.properties
+2019-07-05 20:54:40,493 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334877893-0/src/AutoLinkTextView-master/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-07-05 20:54:40,493 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334877893-0/src/AutoLinkTextView-master/autolinklibrary/local.properties
+2019-07-05 20:54:40,493 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334877893-0/src/AutoLinkTextView-master/autolinklibrary/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-07-05 20:54:40,494 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334877893-0/src/AutoLinkTextView-master/local.properties
+2019-07-05 20:54:40,494 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-07-05 20:54:40,494 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-07-05 20:54:40,495 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334877893-0/src/AutoLinkTextView-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-07-05 20:54:40,495 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 20:54:40,495 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 20:54:40,495 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334877893-0/src/AutoLinkTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334877893-0/src/AutoLinkTextView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 20:54:45,442 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 20:54:45,443 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 20:54:45,443 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 20:54:45,443 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334877893-0/src/AutoLinkTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334877893-0/src/AutoLinkTextView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 20:54:50,247 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -41,8 +41,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -56,7 +55,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-13 11:59:34,008 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 20:54:50,247 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -242,6 +241,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.184 secs
+Total time: 4.565 secs
 
-2018-12-13 11:59:34,013 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677155893-0/src/AutoLinkTextView-master/screens/AutoLinkTextView.apk
+2019-07-05 20:54:50,250 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334877893-0/src/AutoLinkTextView-master/screens/AutoLinkTextView.apk

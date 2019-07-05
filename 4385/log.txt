@@ -1,32 +1,35 @@
-2018-10-20 19:11:44,934 INFO  DownloadService - Downloading "https://github.com/androidmads/JavaMailwithGmailApi/archive/master.zip", attempt 3
-2018-10-20 19:11:50,872 INFO  DownloadService - Downloaded https://github.com/androidmads/JavaMailwithGmailApi/archive/master.zip, attempt 3
-2018-10-20 19:11:50,872 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037504932-0/master.zip": 3 MB
-2018-10-20 19:11:50,872 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-20 19:11:50,879 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037504932-0/master.zip: true
-2018-10-20 19:11:50,879 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037504932-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037504932-0/src'.
-2018-10-20 19:11:50,925 INFO  FullProcessService - Size of directory with sources: 4 MB
-2018-10-20 19:11:50,925 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037504932-0/src]
-2018-10-20 19:11:50,941 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037504932-0/src/.git/
+2019-07-05 22:12:48,861 INFO  DownloadService - Downloading "https://github.com/androidmads/JavaMailwithGmailApi/archive/master.zip", attempt 3
+2019-07-05 22:13:49,396 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-05 22:13:50,204 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-05 22:13:50,204 INFO  DownloadService - Downloading "https://github.com/androidmads/JavaMailwithGmailApi/archive/master.zip", attempt 3
+2019-07-05 22:14:51,968 DEBUG FullProcessService - Repository https://github.com/androidmads/JavaMailwithGmailApi available: true
+2019-07-05 22:14:51,968 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-05 22:14:51,968 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/androidmads/JavaMailwithGmailApi, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339568857-0/src]
+2019-07-05 22:14:55,103 INFO  SysUtils - 
+2019-07-05 22:14:55,125 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339568857-0/src/.git": true
+2019-07-05 22:14:55,127 INFO  FullProcessService - Size of directory with sources: 4 MB
+2019-07-05 22:14:55,127 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339568857-0/src]
+2019-07-05 22:14:55,141 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339568857-0/src/.git/
 
-2018-10-20 19:11:50,943 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037504932-0/src/JavaMailwithGmailApi-master/gradlew
-2018-10-20 19:11:50,945 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037504932-0/src/JavaMailwithGmailApi-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037504932-0/src/JavaMailwithGmailApi-master/build.gradle
-2018-10-20 19:11:50,947 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037504932-0/src/JavaMailwithGmailApi-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037504932-0/src/JavaMailwithGmailApi-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037504932-0/src/JavaMailwithGmailApi-master/settings.gradle
-2018-10-20 19:11:50,947 INFO  ProjectBuildService - Remote scripts: none
-2018-10-20 19:11:50,947 INFO  ProjectFixService - Fixing project...
-2018-10-20 19:11:50,952 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037504932-0/src/JavaMailwithGmailApi-master/app/local.properties
-2018-10-20 19:11:50,952 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037504932-0/src/JavaMailwithGmailApi-master/app/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-10-20 19:11:50,953 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037504932-0/src/JavaMailwithGmailApi-master/local.properties
-2018-10-20 19:11:50,953 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2018-10-20 19:11:50,953 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2018-10-20 19:11:50,954 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037504932-0/src/JavaMailwithGmailApi-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-10-20 19:11:50,954 INFO  ProjectFixService - Project was maybe fixed
-2018-10-20 19:11:50,954 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-20 19:11:50,954 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037504932-0/src/JavaMailwithGmailApi-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037504932-0/src/JavaMailwithGmailApi-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-20 19:12:04,638 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-20 19:12:04,638 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-20 19:12:04,638 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-20 19:12:04,638 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037504932-0/src/JavaMailwithGmailApi-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037504932-0/src/JavaMailwithGmailApi-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-20 19:12:09,742 ERROR SysUtils - Could not process external command
+2019-07-05 22:14:55,143 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339568857-0/src/gradlew
+2019-07-05 22:14:55,144 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339568857-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339568857-0/src/build.gradle
+2019-07-05 22:14:55,146 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339568857-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339568857-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339568857-0/src/settings.gradle
+2019-07-05 22:14:55,146 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 22:14:55,146 INFO  ProjectFixService - Fixing project...
+2019-07-05 22:14:55,150 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339568857-0/src/app/local.properties
+2019-07-05 22:14:55,150 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339568857-0/src/app/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-07-05 22:14:55,150 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339568857-0/src/local.properties
+2019-07-05 22:14:55,150 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-07-05 22:14:55,151 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-07-05 22:14:55,151 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339568857-0/src/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-07-05 22:14:55,151 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 22:14:55,151 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 22:14:55,151 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339568857-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339568857-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 22:15:04,457 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 22:15:04,457 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 22:15:04,457 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 22:15:04,457 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339568857-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339568857-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 22:15:09,097 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -46,14 +49,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-20 19:12:09,742 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 22:15:09,097 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -161,6 +164,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 4.775 secs
+Total time: 4.421 secs
 
-2018-10-20 19:12:09,745 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037504932-0/src/JavaMailwithGmailApi-master/app/gmail-api-sample.apk
+2019-07-05 22:15:09,099 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339568857-0/src/app/gmail-api-sample.apk

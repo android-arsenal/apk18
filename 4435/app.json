@@ -30,9 +30,9 @@
   },
   "dexClasses" : 910,
   "locales" : [ "" ],
-  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"org.kaerdan.example\" platformBuildVersionCode=\"21\" platformBuildVersionName=\"5.0.1-1624448\">\n\t<uses-sdk android:minSdkVersion=\"7\" android:targetSdkVersion=\"21\" />\n\t<application android:theme=\"resourceId:0x7f060000\" android:label=\"Two Level Expandable RecyclerView Example\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"Two Level Expandable RecyclerView Example\" android:name=\"org.kaerdan.example.ui.activities.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"RecyclerViewTestActivity\" android:name=\"android.support.v7.widget.TestActivity\" />\n\t</application>\n</manifest>\n",
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"org.kaerdan.example\" platformBuildVersionCode=\"21\" platformBuildVersionName=\"5.0.1-1624448\">\n\t<uses-sdk android:minSdkVersion=\"7\" android:targetSdkVersion=\"21\" />\n\t<application android:theme=\"resourceId:0x7f060000\" android:label=\"Two Level Expandable RecyclerView Example\" android:icon=\"res/mipmap-xxhdpi-v4/ic_launcher.png\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"Two Level Expandable RecyclerView Example\" android:name=\"org.kaerdan.example.ui.activities.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"RecyclerViewTestActivity\" android:name=\"android.support.v7.widget.TestActivity\" />\n\t</application>\n</manifest>\n",
   "fileSize" : 455842,
-  "crc32" : 4028857551,
-  "sha256" : "b6edbe438999c24e757cfdbd852db207c73536081039d2c2a1ba4659a7dd15dd",
-  "buildTime" : 1539931501000
+  "crc32" : 1058563339,
+  "sha256" : "b17ea0df894acd9a54ca0de3ce9c3d4e012301c746bbb378918118a0f189b4d4",
+  "buildTime" : 1562334296000
 }

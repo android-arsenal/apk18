@@ -1,33 +1,33 @@
-2018-10-19 13:44:03,271 INFO  DownloadService - Downloading "https://github.com/NikitaKozlov/TwoLevelExpandableRecyclerView/archive/master.zip", attempt 3
-2018-10-19 13:44:03,765 INFO  DownloadService - Downloaded https://github.com/NikitaKozlov/TwoLevelExpandableRecyclerView/archive/master.zip, attempt 3
-2018-10-19 13:44:03,766 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931443269-0/master.zip": 92 KB
-2018-10-19 13:44:03,766 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-19 13:44:03,771 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931443269-0/master.zip: true
-2018-10-19 13:44:03,772 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931443269-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931443269-0/src'.
-2018-10-19 13:44:03,788 INFO  FullProcessService - Size of directory with sources: 92 KB
-2018-10-19 13:44:03,788 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931443269-0/src]
-2018-10-19 13:44:03,805 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931443269-0/src/.git/
+2019-07-05 20:44:21,176 INFO  DownloadService - Downloading "https://github.com/NikitaKozlov/TwoLevelExpandableRecyclerView/archive/master.zip", attempt 3
+2019-07-05 20:44:21,700 INFO  DownloadService - Downloaded https://github.com/NikitaKozlov/TwoLevelExpandableRecyclerView/archive/master.zip, attempt 3
+2019-07-05 20:44:21,700 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334261174-0/master.zip": 92 KB
+2019-07-05 20:44:21,700 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 20:44:21,701 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334261174-0/master.zip: true
+2019-07-05 20:44:21,701 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334261174-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334261174-0/src'.
+2019-07-05 20:44:21,715 INFO  FullProcessService - Size of directory with sources: 92 KB
+2019-07-05 20:44:21,715 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334261174-0/src]
+2019-07-05 20:44:21,732 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334261174-0/src/.git/
 
-2018-10-19 13:44:03,807 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931443269-0/src/TwoLevelExpandableRecyclerView-master/gradlew
-2018-10-19 13:44:03,810 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931443269-0/src/TwoLevelExpandableRecyclerView-master/TwoLevelExpandableRecyclerView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931443269-0/src/TwoLevelExpandableRecyclerView-master/twolevelexpandablerecyclerview.example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931443269-0/src/TwoLevelExpandableRecyclerView-master/build.gradle
-2018-10-19 13:44:03,812 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931443269-0/src/TwoLevelExpandableRecyclerView-master/TwoLevelExpandableRecyclerView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931443269-0/src/TwoLevelExpandableRecyclerView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931443269-0/src/TwoLevelExpandableRecyclerView-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931443269-0/src/TwoLevelExpandableRecyclerView-master/twolevelexpandablerecyclerview.example/build.gradle
-2018-10-19 13:44:03,812 INFO  ProjectBuildService - Remote scripts: none
-2018-10-19 13:44:03,813 INFO  ProjectFixService - Fixing project...
-2018-10-19 13:44:03,819 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931443269-0/src/TwoLevelExpandableRecyclerView-master/TwoLevelExpandableRecyclerView/local.properties
-2018-10-19 13:44:03,820 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931443269-0/src/TwoLevelExpandableRecyclerView-master/TwoLevelExpandableRecyclerView/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=7,targetSdkVersion=21]
-2018-10-19 13:44:03,820 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931443269-0/src/TwoLevelExpandableRecyclerView-master/twolevelexpandablerecyclerview.example/local.properties
-2018-10-19 13:44:03,820 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931443269-0/src/TwoLevelExpandableRecyclerView-master/twolevelexpandablerecyclerview.example/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=7,targetSdkVersion=21]
-2018-10-19 13:44:03,821 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931443269-0/src/TwoLevelExpandableRecyclerView-master/local.properties
-2018-10-19 13:44:03,821 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
-2018-10-19 13:44:03,821 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
-2018-10-19 13:44:03,822 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931443269-0/src/TwoLevelExpandableRecyclerView-master/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=7,targetSdkVersion=21]
-2018-10-19 13:44:03,822 INFO  ProjectFixService - Project was maybe fixed
-2018-10-19 13:44:03,822 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-19 13:44:03,822 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931443269-0/src/TwoLevelExpandableRecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931443269-0/src/TwoLevelExpandableRecyclerView-master/TwoLevelExpandableRecyclerView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-19 13:44:38,093 INFO  ProjectTaskService - Detected possible tasks: 61
-2018-10-19 13:44:38,093 INFO  ProjectTaskService - Excluded tasks (14): lintDebug mockableAndroidJar deviceCheck lint uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest lintRelease testDebug
-2018-10-19 13:44:38,094 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931443269-0/src/TwoLevelExpandableRecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931443269-0/src/TwoLevelExpandableRecyclerView-master/TwoLevelExpandableRecyclerView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, lintRelease, -x, testDebug, build]
-2018-10-19 13:44:44,050 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 20:44:21,734 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334261174-0/src/TwoLevelExpandableRecyclerView-master/gradlew
+2019-07-05 20:44:21,736 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334261174-0/src/TwoLevelExpandableRecyclerView-master/TwoLevelExpandableRecyclerView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334261174-0/src/TwoLevelExpandableRecyclerView-master/twolevelexpandablerecyclerview.example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334261174-0/src/TwoLevelExpandableRecyclerView-master/build.gradle
+2019-07-05 20:44:21,738 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334261174-0/src/TwoLevelExpandableRecyclerView-master/TwoLevelExpandableRecyclerView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334261174-0/src/TwoLevelExpandableRecyclerView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334261174-0/src/TwoLevelExpandableRecyclerView-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334261174-0/src/TwoLevelExpandableRecyclerView-master/twolevelexpandablerecyclerview.example/build.gradle
+2019-07-05 20:44:21,738 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 20:44:21,738 INFO  ProjectFixService - Fixing project...
+2019-07-05 20:44:21,744 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334261174-0/src/TwoLevelExpandableRecyclerView-master/TwoLevelExpandableRecyclerView/local.properties
+2019-07-05 20:44:21,745 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334261174-0/src/TwoLevelExpandableRecyclerView-master/TwoLevelExpandableRecyclerView/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=7,targetSdkVersion=21]
+2019-07-05 20:44:21,745 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334261174-0/src/TwoLevelExpandableRecyclerView-master/twolevelexpandablerecyclerview.example/local.properties
+2019-07-05 20:44:21,745 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334261174-0/src/TwoLevelExpandableRecyclerView-master/twolevelexpandablerecyclerview.example/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=7,targetSdkVersion=21]
+2019-07-05 20:44:21,746 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334261174-0/src/TwoLevelExpandableRecyclerView-master/local.properties
+2019-07-05 20:44:21,746 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2019-07-05 20:44:21,746 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2019-07-05 20:44:21,747 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334261174-0/src/TwoLevelExpandableRecyclerView-master/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=7,targetSdkVersion=21]
+2019-07-05 20:44:21,747 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 20:44:21,747 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 20:44:21,747 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334261174-0/src/TwoLevelExpandableRecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334261174-0/src/TwoLevelExpandableRecyclerView-master/TwoLevelExpandableRecyclerView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 20:44:35,260 INFO  ProjectTaskService - Detected possible tasks: 61
+2019-07-05 20:44:35,260 INFO  ProjectTaskService - Excluded tasks (14): lintDebug mockableAndroidJar deviceCheck lint uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest lintRelease testDebug
+2019-07-05 20:44:35,261 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334261174-0/src/TwoLevelExpandableRecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334261174-0/src/TwoLevelExpandableRecyclerView-master/TwoLevelExpandableRecyclerView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, lintRelease, -x, testDebug, build]
+2019-07-05 20:44:40,908 INFO  SysUtils - Configuration on demand is an incubating feature.
 :TwoLevelExpandableRecyclerView:compileLint
 :TwoLevelExpandableRecyclerView:copyDebugLint UP-TO-DATE
 :TwoLevelExpandableRecyclerView:preBuild UP-TO-DATE
@@ -49,7 +49,7 @@
 :TwoLevelExpandableRecyclerView:processDebugManifest
 :TwoLevelExpandableRecyclerView:processDebugResources
 :TwoLevelExpandableRecyclerView:generateDebugSources
-:TwoLevelExpandableRecyclerView:compileDebugJavaNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931443269-0/src/TwoLevelExpandableRecyclerView-master/TwoLevelExpandableRecyclerView/src/main/java/org/kaerdan/twolevelexpandablerecyclerview/TwoLevelExpandableAdapter.java uses unchecked or unsafe operations.
+:TwoLevelExpandableRecyclerView:compileDebugJavaNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334261174-0/src/TwoLevelExpandableRecyclerView-master/TwoLevelExpandableRecyclerView/src/main/java/org/kaerdan/twolevelexpandablerecyclerview/TwoLevelExpandableAdapter.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :TwoLevelExpandableRecyclerView:extractDebugAnnotations
@@ -77,7 +77,7 @@ Note: Recompile with -Xlint:unchecked for details.
 :TwoLevelExpandableRecyclerView:processReleaseManifest
 :TwoLevelExpandableRecyclerView:processReleaseResources
 :TwoLevelExpandableRecyclerView:generateReleaseSources
-:TwoLevelExpandableRecyclerView:compileReleaseJavaNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931443269-0/src/TwoLevelExpandableRecyclerView-master/TwoLevelExpandableRecyclerView/src/main/java/org/kaerdan/twolevelexpandablerecyclerview/TwoLevelExpandableAdapter.java uses unchecked or unsafe operations.
+:TwoLevelExpandableRecyclerView:compileReleaseJavaNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334261174-0/src/TwoLevelExpandableRecyclerView-master/TwoLevelExpandableRecyclerView/src/main/java/org/kaerdan/twolevelexpandablerecyclerview/TwoLevelExpandableAdapter.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :TwoLevelExpandableRecyclerView:extractReleaseAnnotations
@@ -96,14 +96,14 @@ Note: Recompile with -Xlint:unchecked for details.
 
 BUILD SUCCESSFUL
 
-Total time: 5.465 secs
+Total time: 5.09 secs
 
-2018-10-19 13:44:44,059 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-19 13:44:44,059 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931443269-0/src/TwoLevelExpandableRecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931443269-0/src/TwoLevelExpandableRecyclerView-master/twolevelexpandablerecyclerview.example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-19 13:44:49,160 INFO  ProjectTaskService - Detected possible tasks: 59
-2018-10-19 13:44:49,160 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug uninstallDebug
-2018-10-19 13:44:49,160 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931443269-0/src/TwoLevelExpandableRecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931443269-0/src/TwoLevelExpandableRecyclerView-master/twolevelexpandablerecyclerview.example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, uninstallDebug, build]
-2018-10-19 13:45:01,664 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 20:44:40,916 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 20:44:40,916 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334261174-0/src/TwoLevelExpandableRecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334261174-0/src/TwoLevelExpandableRecyclerView-master/twolevelexpandablerecyclerview.example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 20:44:45,264 INFO  ProjectTaskService - Detected possible tasks: 59
+2019-07-05 20:44:45,264 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug uninstallDebug
+2019-07-05 20:44:45,265 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334261174-0/src/TwoLevelExpandableRecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334261174-0/src/TwoLevelExpandableRecyclerView-master/twolevelexpandablerecyclerview.example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, uninstallDebug, build]
+2019-07-05 20:44:56,782 INFO  SysUtils - Configuration on demand is an incubating feature.
 :twolevelexpandablerecyclerview.example:preBuild UP-TO-DATE
 :twolevelexpandablerecyclerview.example:preDebugBuild UP-TO-DATE
 :twolevelexpandablerecyclerview.example:compileDebugNdk UP-TO-DATE
@@ -158,6 +158,6 @@ Total time: 5.465 secs
 
 BUILD SUCCESSFUL
 
-Total time: 11.989 secs
+Total time: 10.981 secs
 
-2018-10-19 13:45:01,682 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931443269-0/src/TwoLevelExpandableRecyclerView-master/twolevelexpandablerecyclerview.example/build/outputs/apk/twolevelexpandablerecyclerview.example-release-unsigned.apk
+2019-07-05 20:44:56,798 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334261174-0/src/TwoLevelExpandableRecyclerView-master/twolevelexpandablerecyclerview.example/build/outputs/apk/twolevelexpandablerecyclerview.example-release-unsigned.apk

@@ -1,42 +1,42 @@
-2018-10-19 16:04:02,773 INFO  DownloadService - Downloading "https://github.com/janishar/PlaceHolderView/archive/master.zip", attempt 3
-2018-10-19 16:04:08,851 INFO  DownloadService - Downloading "https://github.com/janishar/PlaceHolderView/archive/master.zip", attempt 2
-2018-10-19 16:04:14,728 INFO  DownloadService - Downloading "https://github.com/janishar/PlaceHolderView/archive/master.zip", attempt 1
-2018-10-19 16:05:14,988 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-10-19 16:05:16,124 INFO  GithubDownloadService - Default branch of this repository: 2.x
-2018-10-19 16:05:16,124 INFO  DownloadService - Downloading "https://github.com/janishar/PlaceHolderView/archive/2.x.zip", attempt 3
-2018-10-19 16:06:18,082 DEBUG FullProcessService - Repository https://github.com/janishar/PlaceHolderView available: true
-2018-10-19 16:06:18,082 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-10-19 16:06:18,082 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/janishar/PlaceHolderView, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src]
-2018-10-19 16:06:21,703 INFO  SysUtils - 
-2018-10-19 16:06:21,715 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/.git": true
-2018-10-19 16:06:21,724 INFO  FullProcessService - Size of directory with sources: 517 KB
-2018-10-19 16:06:21,724 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src]
-2018-10-19 16:06:21,740 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/.git/
+2019-07-05 20:56:29,607 INFO  DownloadService - Downloading "https://github.com/janishar/PlaceHolderView/archive/master.zip", attempt 3
+2019-07-05 20:56:35,153 INFO  DownloadService - Downloading "https://github.com/janishar/PlaceHolderView/archive/master.zip", attempt 2
+2019-07-05 20:56:41,179 INFO  DownloadService - Downloading "https://github.com/janishar/PlaceHolderView/archive/master.zip", attempt 1
+2019-07-05 20:57:41,466 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-05 20:57:42,432 INFO  GithubDownloadService - Default branch of this repository: 2.x
+2019-07-05 20:57:42,432 INFO  DownloadService - Downloading "https://github.com/janishar/PlaceHolderView/archive/2.x.zip", attempt 3
+2019-07-05 20:58:43,945 DEBUG FullProcessService - Repository https://github.com/janishar/PlaceHolderView available: true
+2019-07-05 20:58:43,946 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-05 20:58:43,946 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/janishar/PlaceHolderView, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src]
+2019-07-05 20:58:46,294 INFO  SysUtils - 
+2019-07-05 20:58:46,303 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/.git": true
+2019-07-05 20:58:46,309 INFO  FullProcessService - Size of directory with sources: 517 KB
+2019-07-05 20:58:46,309 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src]
+2019-07-05 20:58:46,325 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/.git/
 
-2018-10-19 16:06:21,747 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/gradlew
-2018-10-19 16:06:21,754 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/placeholderview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/placeholderview-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/placeholderview-compiler/build.gradle
-2018-10-19 16:06:21,760 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/placeholderview-compiler/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/placeholderview-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/placeholderview/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/placeholderview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/placeholderview-annotations/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/placeholderview-annotations/build.gradle
-2018-10-19 16:06:21,761 INFO  ProjectBuildService - Remote scripts: none
-2018-10-19 16:06:21,761 INFO  ProjectFixService - Fixing project...
-2018-10-19 16:06:21,775 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/app/local.properties
-2018-10-19 16:06:21,776 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2018-10-19 16:06:21,776 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/placeholderview/local.properties
-2018-10-19 16:06:21,778 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/placeholderview/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2018-10-19 16:06:21,778 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/local.properties
-2018-10-19 16:06:21,779 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.5.1-all.zip
-2018-10-19 16:06:21,779 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.5.1-bin.zip)
-2018-10-19 16:06:21,780 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2018-10-19 16:06:21,781 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/placeholderview-annotations/local.properties
-2018-10-19 16:06:21,782 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/placeholderview-annotations/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2018-10-19 16:06:21,783 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/placeholderview-compiler/local.properties
-2018-10-19 16:06:21,784 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/placeholderview-compiler/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2018-10-19 16:06:21,784 INFO  ProjectFixService - Project was maybe fixed
-2018-10-19 16:06:21,784 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-19 16:06:21,785 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-19 16:06:45,225 INFO  ProjectTaskService - Detected possible tasks: 67
-2018-10-19 16:06:45,225 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-10-19 16:06:45,226 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-10-19 16:07:58,331 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 20:58:46,330 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/gradlew
+2019-07-05 20:58:46,335 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/placeholderview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/placeholderview-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/placeholderview-compiler/build.gradle
+2019-07-05 20:58:46,340 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/placeholderview-compiler/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/placeholderview-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/placeholderview/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/placeholderview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/placeholderview-annotations/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/placeholderview-annotations/build.gradle
+2019-07-05 20:58:46,340 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 20:58:46,340 INFO  ProjectFixService - Fixing project...
+2019-07-05 20:58:46,352 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/app/local.properties
+2019-07-05 20:58:46,352 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-07-05 20:58:46,352 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/placeholderview/local.properties
+2019-07-05 20:58:46,354 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/placeholderview/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-07-05 20:58:46,354 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/local.properties
+2019-07-05 20:58:46,355 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.5.1-all.zip
+2019-07-05 20:58:46,355 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.5.1-bin.zip)
+2019-07-05 20:58:46,356 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-07-05 20:58:46,357 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/placeholderview-annotations/local.properties
+2019-07-05 20:58:46,358 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/placeholderview-annotations/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-07-05 20:58:46,358 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/placeholderview-compiler/local.properties
+2019-07-05 20:58:46,359 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/placeholderview-compiler/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-07-05 20:58:46,359 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 20:58:46,359 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 20:58:46,359 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 20:59:10,501 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-07-05 20:59:10,501 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-05 20:59:10,501 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-05 21:00:17,116 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :placeholderview:preBuild UP-TO-DATE
 :placeholderview:preDebugBuild UP-TO-DATE
@@ -44,15 +44,25 @@
 :placeholderview:processDebugManifest
 :app:preDebugBuild
 Download https://jcenter.bintray.com/com/mindorks/butterknifelite/0.0.4/butterknifelite-0.0.4.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/cardview-v7/27.1.0/cardview-v7-27.1.0.pom
 Download https://dl.google.com/dl/android/maven2/com/android/support/recyclerview-v7/27.1.0/recyclerview-v7-27.1.0.pom
 Download https://dl.google.com/dl/android/maven2/com/android/support/design/27.1.0/design-27.1.0.pom
-Download https://jcenter.bintray.com/com/android/support/support-core-utils/27.1.0/support-core-utils-27.1.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/transition/27.1.0/transition-27.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/27.1.0/appcompat-v7-27.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/27.1.0/support-core-utils-27.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/27.1.0/support-annotations-27.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/27.1.0/animated-vector-drawable-27.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/27.1.0/support-fragment-27.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/27.1.0/support-vector-drawable-27.1.0.pom
 Download https://dl.google.com/dl/android/maven2/com/android/support/support-v4/27.1.0/support-v4-27.1.0.pom
-Download https://jcenter.bintray.com/com/android/support/support-compat/27.1.0/support-compat-27.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/transition/27.1.0/transition-27.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/27.1.0/support-compat-27.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/27.1.0/support-core-ui-27.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-media-compat/27.1.0/support-media-compat-27.1.0.pom
 Download https://jcenter.bintray.com/com/mindorks/butterknifelite/0.0.4/butterknifelite-0.0.4.aar
 :placeholderview:compileDebugAidl
 Download https://dl.google.com/dl/android/maven2/com/android/support/recyclerview-v7/25.4.0/recyclerview-v7-25.4.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/25.4.0/support-annotations-25.4.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/recyclerview-v7/25.4.0/recyclerview-v7-25.4.0.aar
 :app:compileDebugAidl
 :placeholderview:packageDebugRenderscript NO-SOURCE
 :app:compileDebugRenderscript
@@ -81,9 +91,10 @@ Download https://dl.google.com/dl/android/maven2/com/android/support/recyclervie
 :placeholderview-annotations:jar
 :placeholderview:javaPreCompileDebug
 :placeholderview:processDebugJavaRes NO-SOURCE
-:placeholderview-compiler:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+:placeholderview-compiler:compileJava
+Download https://jcenter.bintray.com/com/squareup/javapoet/1.10.0/javapoet-1.10.0.pom
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
 1 warning
-
 :placeholderview-compiler:processResources
 :placeholderview-compiler:classes
 :placeholderview-compiler:jar
@@ -181,39 +192,47 @@ Note: Recompile with -Xlint:deprecation for details.
 
 :app:compileReleaseSources
 :app:lintVitalRelease
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.1.0/lint-gradle-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.1.0/lint-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.1.0/uast-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.1.0/intellij-core-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.1.0/lint-checks-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.1.0/kotlin-compiler-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.1.0/lint-kotlin-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.1.0/lint-api-26.1.0.pom
 :app:transformResourcesWithMergeJavaResForRelease
 :app:transformClassesAndResourcesWithProguardForRelease
 Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
 thread-pool size=4
 ProGuard, version 5.3.3
 Reading input...
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/e1f996af75b447dd201f5a4f5bdec72b/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/butterknifelite-0.0.4.aar/0f7be68eb0bd3c191b4e1a7dd5c10084/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/91b9497186a65853fe2e9916c941b416/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.0.aar/df9e3f9fa8580039139cb325da0abe3d/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/ba9a5e894994d11fe316e9f757253d19/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/butterknifelite-0.0.4.aar/6010c9bcdfdf16c41eb1a56837dd2fd8/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/c40f4fb3660d6cb06071462a7be866c6/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.0.aar/93657197235783a4b70ae338f2252abf/jars/classes.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.2/3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf/gson-2.8.2.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/bc2c661febc4f14704a535eaa33faec8/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/c09afbf62da459a22dfb9a2bc1472113/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/86fa5b4fc0ec53196cefd1bd29f5e527/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/2f6424d6319d721144d34ef88bee99ed/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/b8e27004d52eebe02df5653b7e3acbe9/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/a72d75846e97aa7e4b9d9fc595c9b73a/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/aca4197762bcb0a00e2d177b81b8a139/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/c93626e9d1fb9a99fd93f61f693d03b7/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/8216c3bfdf496fa22695f7dde7f02b15/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/15f2984d79637c7b66fa20b7c17828c3/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/eeed4aac0c45f8afaaf0dd0d17921f7c/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/b4141a4e0f3ba20fd9bb28a60edd0e43/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/358e9b78871c7721637e5c9ecd5163c1/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/700f6496c4a1efe62b839bc5c7173fa3/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/aa2d187f5fa944f5246bb779908648d6/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/df3870c58a2142173e3baa14becbfac1/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/f555ac8d7ebe555707bfe0eac72e3e12/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/39748c200006f27ed9043d3c987a2ed2/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/308d52066c4903d4bb6566092c780a12/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/bd0e8ba3389941597d5e1ce568632929/jars/classes.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.1.0/39ded76b5e1ce1c5b2688e1d25cdc20ecee32007/support-annotations-27.1.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/899be6fb8f0c8d7a7b8d795e779a00ac/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/c3bd906d814fae0103c5acf77d3fe613/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/307a2c2dea9a92c05d6833d2b719bd54/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/89f3e9d261b69b23d088cb518fdbc1fc/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/c4df0a8309a3b19e8639de896c3b35b5/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/103d79f8b6e73aa1211d07b01af34234/jars/classes.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.0/edf3f7bfb84a7521d0599efa3b0113a0ee90f85/common-1.1.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/3d3fa501f8146ae91761055be50953b0/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/0fd6869797f213d4d9e04e282ed3bf59/jars/classes.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.0/8007981f7d7540d89cd18471b8e5dcd2b4f99167/common-1.1.0.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/placeholderview/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/placeholderview-annotations/build/libs/placeholderview-annotations-1.0.3.jar] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/app/build/intermediates/classes/release] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/placeholderview/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/placeholderview-annotations/build/libs/placeholderview-annotations-1.0.3.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/app/build/intermediates/classes/release] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
 Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar]
 Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/optional/org.apache.http.legacy.jar]
 Note: duplicate definition of library class [org.apache.http.params.HttpConnectionParams]
@@ -461,44 +480,44 @@ Ignoring unused library classes...
   Final number of library classes:    1177
 Printing kept classes, fields, and methods...
 Shrinking...
-Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/app/build/outputs/mapping/release/usage.txt]...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/app/build/outputs/mapping/release/usage.txt]...
 Removing unused program classes and class elements...
   Original number of program classes: 2962
   Final number of program classes:    1590
 Inlining subroutines...
 Obfuscating...
-Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/app/build/outputs/mapping/release/mapping.txt]...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/app/build/outputs/mapping/release/mapping.txt]...
 Preverifying...
 Writing output...
-Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/app/build/intermediates/transforms/proguard/release/0.jar]
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/e1f996af75b447dd201f5a4f5bdec72b/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/butterknifelite-0.0.4.aar/0f7be68eb0bd3c191b4e1a7dd5c10084/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/91b9497186a65853fe2e9916c941b416/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.0.aar/df9e3f9fa8580039139cb325da0abe3d/jars/classes.jar] (filtered)
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/app/build/intermediates/transforms/proguard/release/0.jar]
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/ba9a5e894994d11fe316e9f757253d19/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/butterknifelite-0.0.4.aar/6010c9bcdfdf16c41eb1a56837dd2fd8/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/c40f4fb3660d6cb06071462a7be866c6/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.0.aar/93657197235783a4b70ae338f2252abf/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.2/3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf/gson-2.8.2.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/bc2c661febc4f14704a535eaa33faec8/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/c09afbf62da459a22dfb9a2bc1472113/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/86fa5b4fc0ec53196cefd1bd29f5e527/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/2f6424d6319d721144d34ef88bee99ed/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/b8e27004d52eebe02df5653b7e3acbe9/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/a72d75846e97aa7e4b9d9fc595c9b73a/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/aca4197762bcb0a00e2d177b81b8a139/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/c93626e9d1fb9a99fd93f61f693d03b7/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/8216c3bfdf496fa22695f7dde7f02b15/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/15f2984d79637c7b66fa20b7c17828c3/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/eeed4aac0c45f8afaaf0dd0d17921f7c/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/b4141a4e0f3ba20fd9bb28a60edd0e43/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/358e9b78871c7721637e5c9ecd5163c1/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/700f6496c4a1efe62b839bc5c7173fa3/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/aa2d187f5fa944f5246bb779908648d6/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/df3870c58a2142173e3baa14becbfac1/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/f555ac8d7ebe555707bfe0eac72e3e12/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/39748c200006f27ed9043d3c987a2ed2/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/308d52066c4903d4bb6566092c780a12/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/bd0e8ba3389941597d5e1ce568632929/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.1.0/39ded76b5e1ce1c5b2688e1d25cdc20ecee32007/support-annotations-27.1.0.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/899be6fb8f0c8d7a7b8d795e779a00ac/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/c3bd906d814fae0103c5acf77d3fe613/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/307a2c2dea9a92c05d6833d2b719bd54/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/89f3e9d261b69b23d088cb518fdbc1fc/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/c4df0a8309a3b19e8639de896c3b35b5/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/103d79f8b6e73aa1211d07b01af34234/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.0/edf3f7bfb84a7521d0599efa3b0113a0ee90f85/common-1.1.0.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/3d3fa501f8146ae91761055be50953b0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/0fd6869797f213d4d9e04e282ed3bf59/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.0/8007981f7d7540d89cd18471b8e5dcd2b4f99167/common-1.1.0.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/placeholderview/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/placeholderview-annotations/build/libs/placeholderview-annotations-1.0.3.jar] (filtered)
-  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/app/build/intermediates/classes/release] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
-Printing classes to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/app/build/outputs/mapping/release/dump.txt]...
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/placeholderview/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/placeholderview-annotations/build/libs/placeholderview-annotations-1.0.3.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/app/build/intermediates/classes/release] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Printing classes to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/app/build/outputs/mapping/release/dump.txt]...
 :app:transformClassesWithDexBuilderForRelease
 :app:transformDexArchiveWithDexMergerForRelease
 :app:transformNativeLibsWithMergeJniLibsForRelease
@@ -508,7 +527,7 @@ Printing classes to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/15
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 1m 12s
+BUILD SUCCESSFUL in 1m 6s
 98 actionable tasks: 98 executed
 
-2018-10-19 16:07:58,421 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539939842770-0/src/app/build/outputs/apk/debug/app-debug.apk
+2019-07-05 21:00:17,178 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/app/build/outputs/apk/debug/app-debug.apk

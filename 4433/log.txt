@@ -1,37 +1,37 @@
-2018-10-19 13:45:05,183 INFO  DownloadService - Downloading "https://github.com/WesleyElliott/Camera2-Video/archive/master.zip", attempt 3
-2018-10-19 13:45:06,817 INFO  DownloadService - Downloaded https://github.com/WesleyElliott/Camera2-Video/archive/master.zip, attempt 3
-2018-10-19 13:45:06,817 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931505178-0/master.zip": 72 KB
-2018-10-19 13:45:06,817 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-19 13:45:06,823 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931505178-0/master.zip: true
-2018-10-19 13:45:06,823 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931505178-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931505178-0/src'.
-2018-10-19 13:45:06,844 INFO  FullProcessService - Size of directory with sources: 86 KB
-2018-10-19 13:45:06,845 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931505178-0/src]
-2018-10-19 13:45:06,862 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931505178-0/src/.git/
+2019-07-05 20:44:59,890 INFO  DownloadService - Downloading "https://github.com/WesleyElliott/Camera2-Video/archive/master.zip", attempt 3
+2019-07-05 20:45:00,430 INFO  DownloadService - Downloaded https://github.com/WesleyElliott/Camera2-Video/archive/master.zip, attempt 3
+2019-07-05 20:45:00,430 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334299886-0/master.zip": 72 KB
+2019-07-05 20:45:00,430 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 20:45:00,436 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334299886-0/master.zip: true
+2019-07-05 20:45:00,436 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334299886-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334299886-0/src'.
+2019-07-05 20:45:00,452 INFO  FullProcessService - Size of directory with sources: 86 KB
+2019-07-05 20:45:00,452 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334299886-0/src]
+2019-07-05 20:45:00,468 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334299886-0/src/.git/
 
-2018-10-19 13:45:06,866 INFO  ProjectBuildService - Gradle wrapper(s): none
-2018-10-19 13:45:06,866 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
-2018-10-19 13:45:06,869 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931505178-0/src/Camera2-Video-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931505178-0/src/Camera2-Video-master/camera2-video/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931505178-0/src/Camera2-Video-master/build.gradle
-2018-10-19 13:45:06,872 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931505178-0/src/Camera2-Video-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931505178-0/src/Camera2-Video-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931505178-0/src/Camera2-Video-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931505178-0/src/Camera2-Video-master/camera2-video/build.gradle
-2018-10-19 13:45:06,872 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2018-10-19 13:45:06,969 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2018-10-19 13:45:06,969 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2018-10-19 13:45:07,064 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2018-10-19 13:45:07,064 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2018-10-19 13:45:07,065 INFO  ProjectFixService - Fixing project...
-2018-10-19 13:45:07,075 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931505178-0/src/Camera2-Video-master/app/local.properties
-2018-10-19 13:45:07,076 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931505178-0/src/Camera2-Video-master/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=21,targetSdkVersion=23]
-2018-10-19 13:45:07,076 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931505178-0/src/Camera2-Video-master/camera2-video/local.properties
-2018-10-19 13:45:07,077 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931505178-0/src/Camera2-Video-master/camera2-video/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=21,targetSdkVersion=23]
-2018-10-19 13:45:07,077 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931505178-0/src/Camera2-Video-master/local.properties
-2018-10-19 13:45:07,078 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931505178-0/src/Camera2-Video-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=21,targetSdkVersion=23]
-2018-10-19 13:45:07,078 INFO  ProjectFixService - Project was maybe fixed
-2018-10-19 13:45:07,078 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-19 13:45:07,078 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931505178-0/src/Camera2-Video-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-19 13:45:07,084 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2018-10-19 13:45:07,084 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-10-19 13:45:07,084 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-10-19 13:45:07,085 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931505178-0/src/Camera2-Video-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-10-19 13:45:07,090 ERROR SysUtils - Could not process external command
+2019-07-05 20:45:00,471 INFO  ProjectBuildService - Gradle wrapper(s): none
+2019-07-05 20:45:00,471 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2019-07-05 20:45:00,475 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334299886-0/src/Camera2-Video-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334299886-0/src/Camera2-Video-master/camera2-video/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334299886-0/src/Camera2-Video-master/build.gradle
+2019-07-05 20:45:00,477 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334299886-0/src/Camera2-Video-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334299886-0/src/Camera2-Video-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334299886-0/src/Camera2-Video-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334299886-0/src/Camera2-Video-master/camera2-video/build.gradle
+2019-07-05 20:45:00,478 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-07-05 20:45:00,564 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-07-05 20:45:00,564 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-07-05 20:45:00,646 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-07-05 20:45:00,646 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-07-05 20:45:00,647 INFO  ProjectFixService - Fixing project...
+2019-07-05 20:45:00,655 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334299886-0/src/Camera2-Video-master/app/local.properties
+2019-07-05 20:45:00,655 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334299886-0/src/Camera2-Video-master/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=21,targetSdkVersion=23]
+2019-07-05 20:45:00,656 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334299886-0/src/Camera2-Video-master/camera2-video/local.properties
+2019-07-05 20:45:00,656 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334299886-0/src/Camera2-Video-master/camera2-video/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=21,targetSdkVersion=23]
+2019-07-05 20:45:00,657 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334299886-0/src/Camera2-Video-master/local.properties
+2019-07-05 20:45:00,657 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334299886-0/src/Camera2-Video-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=21,targetSdkVersion=23]
+2019-07-05 20:45:00,657 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 20:45:00,658 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 20:45:00,658 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334299886-0/src/Camera2-Video-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 20:45:00,691 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-07-05 20:45:00,691 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-07-05 20:45:00,691 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-07-05 20:45:00,691 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334299886-0/src/Camera2-Video-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-07-05 20:45:00,697 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -56,7 +56,7 @@ java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
@@ -69,14 +69,14 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 29 common frames omitted
-2018-10-19 13:45:07,090 INFO  SysUtils - 
-2018-10-19 13:45:07,094 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-19 13:45:07,094 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931505178-0/src/Camera2-Video-master/camera2-video/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-19 13:45:07,099 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2018-10-19 13:45:07,099 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-10-19 13:45:07,099 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-10-19 13:45:07,099 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931505178-0/src/Camera2-Video-master/camera2-video/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-10-19 13:45:07,104 ERROR SysUtils - Could not process external command
+2019-07-05 20:45:00,697 INFO  SysUtils - 
+2019-07-05 20:45:00,700 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 20:45:00,700 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334299886-0/src/Camera2-Video-master/camera2-video/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 20:45:00,704 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-07-05 20:45:00,705 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-07-05 20:45:00,705 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-07-05 20:45:00,705 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334299886-0/src/Camera2-Video-master/camera2-video/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-07-05 20:45:00,709 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -101,7 +101,7 @@ java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
@@ -114,14 +114,14 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 29 common frames omitted
-2018-10-19 13:45:07,104 INFO  SysUtils - 
-2018-10-19 13:45:07,108 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-19 13:45:07,108 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931505178-0/src/Camera2-Video-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-19 13:45:07,112 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2018-10-19 13:45:07,113 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-10-19 13:45:07,113 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-10-19 13:45:07,113 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931505178-0/src/Camera2-Video-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-10-19 13:45:07,117 ERROR SysUtils - Could not process external command
+2019-07-05 20:45:00,709 INFO  SysUtils - 
+2019-07-05 20:45:00,711 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 20:45:00,712 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334299886-0/src/Camera2-Video-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 20:45:00,716 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-07-05 20:45:00,716 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-07-05 20:45:00,716 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-07-05 20:45:00,716 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334299886-0/src/Camera2-Video-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-07-05 20:45:00,720 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -146,7 +146,7 @@ java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
@@ -159,6 +159,6 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 29 common frames omitted
-2018-10-19 13:45:07,117 INFO  SysUtils - 
-2018-10-19 13:45:07,124 ERROR FullProcessService - Project build has not produced APK file
-2018-10-19 13:45:07,127 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-05 20:45:00,720 INFO  SysUtils - 
+2019-07-05 20:45:00,723 ERROR FullProcessService - Project build has not produced APK file
+2019-07-05 20:45:00,725 ERROR FullProcessService - Could not find generated or existed APK file

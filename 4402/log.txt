@@ -1,44 +1,47 @@
-2018-11-04 00:52:55,520 INFO  DownloadService - Downloading "https://github.com/Yarikx/reductor/archive/master.zip", attempt 3
-2018-11-04 00:52:58,283 INFO  DownloadService - Downloaded https://github.com/Yarikx/reductor/archive/master.zip, attempt 3
-2018-11-04 00:52:58,284 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/master.zip": 193 KB
-2018-11-04 00:52:58,284 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-04 00:52:58,289 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/master.zip: true
-2018-11-04 00:52:58,289 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src'.
-2018-11-04 00:52:58,329 INFO  FullProcessService - Size of directory with sources: 356 KB
-2018-11-04 00:52:58,329 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src]
-2018-11-04 00:52:58,347 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/.git/
+2019-07-05 21:24:42,877 INFO  DownloadService - Downloading "https://github.com/Yarikx/reductor/archive/master.zip", attempt 3
+2019-07-05 21:25:43,445 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-05 21:25:44,260 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-05 21:25:44,260 INFO  DownloadService - Downloading "https://github.com/Yarikx/reductor/archive/master.zip", attempt 3
+2019-07-05 21:26:45,785 DEBUG FullProcessService - Repository https://github.com/Yarikx/reductor available: true
+2019-07-05 21:26:45,785 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-05 21:26:45,785 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Yarikx/reductor, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src]
+2019-07-05 21:26:47,871 INFO  SysUtils - 
+2019-07-05 21:26:47,881 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/.git": true
+2019-07-05 21:26:47,886 INFO  FullProcessService - Size of directory with sources: 356 KB
+2019-07-05 21:26:47,886 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src]
+2019-07-05 21:26:47,901 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/.git/
 
-2018-11-04 00:52:58,353 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/gradlew
-2018-11-04 00:52:58,360 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/compiller/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/reductor-observable-rxjava2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/reductor-observable/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/reductor-rxjava/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/reductor-rxjava2/build.gradle
-2018-11-04 00:52:58,366 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/reductor-rxjava2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/compiller/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/reductor-observable-rxjava2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/gradle/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/gradle/publishing.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/reductor-rxjava/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/reductor-observable/build.gradle
-2018-11-04 00:52:58,368 INFO  ProjectBuildService - Remote scripts: none
-2018-11-04 00:52:58,368 INFO  ProjectFixService - Fixing project...
-2018-11-04 00:52:58,389 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/example/local.properties
-2018-11-04 00:52:58,390 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/example/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-11-04 00:52:58,391 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/local.properties
-2018-11-04 00:52:58,391 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.1-all.zip
-2018-11-04 00:52:58,392 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.1-bin.zip)
-2018-11-04 00:52:58,393 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-11-04 00:52:58,394 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/compiller/local.properties
-2018-11-04 00:52:58,395 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/compiller/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-11-04 00:52:58,395 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/lib/local.properties
-2018-11-04 00:52:58,397 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/lib/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-11-04 00:52:58,397 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/reductor-observable-rxjava2/local.properties
-2018-11-04 00:52:58,399 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/reductor-observable-rxjava2/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-11-04 00:52:58,399 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/reductor-observable/local.properties
-2018-11-04 00:52:58,401 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/reductor-observable/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-11-04 00:52:58,402 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/reductor-rxjava/local.properties
-2018-11-04 00:52:58,403 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/reductor-rxjava/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-11-04 00:52:58,404 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/reductor-rxjava2/local.properties
-2018-11-04 00:52:58,405 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/reductor-rxjava2/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-11-04 00:52:58,405 INFO  ProjectFixService - Project was maybe fixed
-2018-11-04 00:52:58,405 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-04 00:52:58,405 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-04 00:53:06,235 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-04 00:53:06,235 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-04 00:53:06,235 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-04 00:53:06,235 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-04 00:53:13,319 ERROR SysUtils - Could not process external command
+2019-07-05 21:26:47,906 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/gradlew
+2019-07-05 21:26:47,910 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/compiller/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/reductor-observable-rxjava2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/reductor-observable/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/reductor-rxjava/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/reductor-rxjava2/build.gradle
+2019-07-05 21:26:47,914 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/reductor-rxjava2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/compiller/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/reductor-observable-rxjava2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/gradle/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/gradle/publishing.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/reductor-rxjava/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/reductor-observable/build.gradle
+2019-07-05 21:26:47,915 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 21:26:47,915 INFO  ProjectFixService - Fixing project...
+2019-07-05 21:26:47,927 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/example/local.properties
+2019-07-05 21:26:47,927 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/example/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-07-05 21:26:47,928 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/local.properties
+2019-07-05 21:26:47,928 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.1-all.zip
+2019-07-05 21:26:47,928 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.1-bin.zip)
+2019-07-05 21:26:47,929 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-07-05 21:26:47,929 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/compiller/local.properties
+2019-07-05 21:26:47,930 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/compiller/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-07-05 21:26:47,931 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/lib/local.properties
+2019-07-05 21:26:47,931 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/lib/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-07-05 21:26:47,932 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/reductor-observable-rxjava2/local.properties
+2019-07-05 21:26:47,933 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/reductor-observable-rxjava2/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-07-05 21:26:47,933 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/reductor-observable/local.properties
+2019-07-05 21:26:47,934 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/reductor-observable/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-07-05 21:26:47,934 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/reductor-rxjava/local.properties
+2019-07-05 21:26:47,935 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/reductor-rxjava/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-07-05 21:26:47,935 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/reductor-rxjava2/local.properties
+2019-07-05 21:26:47,936 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/reductor-rxjava2/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-07-05 21:26:47,936 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 21:26:47,936 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 21:26:47,936 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 21:26:59,490 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 21:26:59,490 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 21:26:59,490 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 21:26:59,490 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 21:27:04,800 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -51,22 +54,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-04 00:53:13,320 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 21:27:04,800 INFO  SysUtils - Configuration on demand is an incubating feature.
 Jack is disabled, but one of the plugins you are using supports Java 8 language features.
 
 FAILURE: Build failed with an exception.
@@ -175,15 +177,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.805 secs
+Total time: 5.079 secs
 
-2018-11-04 00:53:13,327 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-04 00:53:13,327 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-04 00:53:20,169 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-04 00:53:20,169 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-04 00:53:20,169 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-04 00:53:20,169 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-04 00:53:26,999 ERROR SysUtils - Could not process external command
+2019-07-05 21:27:04,806 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 21:27:04,806 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 21:27:09,993 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 21:27:09,993 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 21:27:09,994 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 21:27:09,994 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 21:27:15,232 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -196,22 +198,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-04 00:53:26,999 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 21:27:15,232 INFO  SysUtils - Configuration on demand is an incubating feature.
 Jack is disabled, but one of the plugins you are using supports Java 8 language features.
 
 FAILURE: Build failed with an exception.
@@ -320,19 +321,20 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.555 secs
+Total time: 5.008 secs
 
-2018-11-04 00:53:27,007 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-04 00:53:27,007 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/compiller/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-04 00:53:34,959 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-04 00:53:34,960 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-04 00:53:34,960 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-04 00:53:34,960 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/compiller/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-04 00:53:47,391 INFO  SysUtils - Configuration on demand is an incubating feature.
-:lib:compileJavaNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/lib/src/main/java/com/yheriatovych/reductor/Actions.java uses unchecked or unsafe operations.
+2019-07-05 21:27:15,238 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 21:27:15,238 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/compiller/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 21:27:20,772 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 21:27:20,772 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 21:27:20,772 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 21:27:20,772 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/compiller/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 21:27:36,024 INFO  SysUtils - Configuration on demand is an incubating feature.
+:lib:compileJavaNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/lib/src/main/java/com/yheriatovych/reductor/Actions.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :lib:compileRetrolambdaMain
+Download https://jcenter.bintray.com/net/orfjackal/retrolambda/retrolambda/2.5.1/retrolambda-2.5.1.jar
 :lib:processResources UP-TO-DATE
 :lib:classes
 :lib:jar
@@ -342,26 +344,33 @@ Note: Recompile with -Xlint:unchecked for details.
 :compiller:classes
 :compiller:jar
 :compiller:assemble
-:compiller:compileTestJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
-
+:compiller:compileTestJava
+Download https://jcenter.bintray.com/com/google/testing/compile/compile-testing/0.9/compile-testing-0.9.jar
+Download https://jcenter.bintray.com/com/google/truth/truth/0.28/truth-0.28.jar
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
 :compiller:processTestResources UP-TO-DATE
 :compiller:testClasses
 :compiller:test
+Download https://jcenter.bintray.com/org/jacoco/org.jacoco.agent/0.7.7.201606060606/org.jacoco.agent-0.7.7.201606060606.jar
 :compiller:jacocoTestReport
+Download https://jcenter.bintray.com/org/jacoco/org.jacoco.ant/0.7.7.201606060606/org.jacoco.ant-0.7.7.201606060606.jar
+Download https://jcenter.bintray.com/org/jacoco/org.jacoco.core/0.7.7.201606060606/org.jacoco.core-0.7.7.201606060606.jar
+Download https://jcenter.bintray.com/org/jacoco/org.jacoco.report/0.7.7.201606060606/org.jacoco.report-0.7.7.201606060606.jar
+Download https://jcenter.bintray.com/org/ow2/asm/asm-debug-all/5.1/asm-debug-all-5.1.jar
 :compiller:check
 :compiller:build
 
 BUILD SUCCESSFUL
 
-Total time: 12.289 secs
+Total time: 15.07 secs
 
-2018-11-04 00:53:47,405 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-04 00:53:47,405 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-04 00:53:54,904 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-04 00:53:54,905 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-04 00:53:54,905 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-04 00:53:54,905 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-04 00:54:00,552 ERROR SysUtils - Could not process external command
+2019-07-05 21:27:36,034 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 21:27:36,034 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 21:27:41,494 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 21:27:41,494 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 21:27:41,494 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 21:27:41,494 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 21:27:45,827 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -374,22 +383,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-04 00:54:00,552 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 21:27:45,827 INFO  SysUtils - Configuration on demand is an incubating feature.
 :lib:compileJava UP-TO-DATE
 :lib:compileRetrolambdaMain UP-TO-DATE
 :lib:processResources UP-TO-DATE
@@ -486,15 +494,15 @@ Caused by: org.gradle.api.ProjectConfigurationException: When running gradle wit
 
 BUILD FAILED
 
-Total time: 5.512 secs
+Total time: 4.21 secs
 
-2018-11-04 00:54:00,566 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-04 00:54:00,566 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/reductor-observable-rxjava2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-04 00:54:08,346 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-04 00:54:08,347 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-04 00:54:08,347 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-04 00:54:08,347 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/reductor-observable-rxjava2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-04 00:54:14,280 ERROR SysUtils - Could not process external command
+2019-07-05 21:27:45,838 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 21:27:45,838 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/reductor-observable-rxjava2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 21:27:51,385 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 21:27:51,385 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 21:27:51,385 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 21:27:51,385 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/reductor-observable-rxjava2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 21:27:56,023 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -507,22 +515,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-04 00:54:14,280 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 21:27:56,023 INFO  SysUtils - Configuration on demand is an incubating feature.
 :lib:compileJava UP-TO-DATE
 :lib:compileRetrolambdaMain UP-TO-DATE
 :lib:processResources UP-TO-DATE
@@ -622,15 +629,15 @@ Caused by: org.gradle.api.ProjectConfigurationException: When running gradle wit
 
 BUILD FAILED
 
-Total time: 5.792 secs
+Total time: 4.519 secs
 
-2018-11-04 00:54:14,295 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-04 00:54:14,296 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/reductor-observable/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-04 00:54:21,612 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-04 00:54:21,612 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-04 00:54:21,612 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-04 00:54:21,612 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/reductor-observable/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-04 00:54:27,498 ERROR SysUtils - Could not process external command
+2019-07-05 21:27:56,036 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 21:27:56,036 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/reductor-observable/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 21:28:01,640 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 21:28:01,640 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 21:28:01,641 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 21:28:01,641 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/reductor-observable/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 21:28:06,291 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -643,22 +650,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-04 00:54:27,499 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 21:28:06,291 INFO  SysUtils - Configuration on demand is an incubating feature.
 :lib:compileJava UP-TO-DATE
 :lib:compileRetrolambdaMain UP-TO-DATE
 :lib:processResources UP-TO-DATE
@@ -758,15 +764,15 @@ Caused by: org.gradle.api.ProjectConfigurationException: When running gradle wit
 
 BUILD FAILED
 
-Total time: 5.748 secs
+Total time: 4.512 secs
 
-2018-11-04 00:54:27,517 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-04 00:54:27,517 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/reductor-rxjava/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-04 00:54:34,714 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-04 00:54:34,714 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-04 00:54:34,714 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-04 00:54:34,714 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/reductor-rxjava/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-04 00:54:40,094 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 21:28:06,305 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 21:28:06,305 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/reductor-rxjava/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 21:28:11,960 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 21:28:11,960 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 21:28:11,960 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 21:28:11,960 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/reductor-rxjava/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 21:28:16,299 INFO  SysUtils - Configuration on demand is an incubating feature.
 :lib:compileJava UP-TO-DATE
 :lib:compileRetrolambdaMain UP-TO-DATE
 :lib:processResources UP-TO-DATE
@@ -788,15 +794,15 @@ Total time: 5.748 secs
 
 BUILD SUCCESSFUL
 
-Total time: 5.242 secs
+Total time: 4.19 secs
 
-2018-11-04 00:54:40,112 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-04 00:54:40,112 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/reductor-rxjava2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-04 00:54:47,575 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-04 00:54:47,575 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-04 00:54:47,575 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-04 00:54:47,575 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267575512-0/src/reductor-master/reductor-rxjava2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-04 00:54:52,960 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 21:28:16,314 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 21:28:16,314 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/reductor-rxjava2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 21:28:21,919 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 21:28:21,919 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 21:28:21,919 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 21:28:21,919 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336682873-0/src/reductor-rxjava2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 21:28:26,197 INFO  SysUtils - Configuration on demand is an incubating feature.
 :lib:compileJava UP-TO-DATE
 :lib:compileRetrolambdaMain UP-TO-DATE
 :lib:processResources UP-TO-DATE
@@ -818,7 +824,7 @@ Total time: 5.242 secs
 
 BUILD SUCCESSFUL
 
-Total time: 5.248 secs
+Total time: 4.141 secs
 
-2018-11-04 00:54:52,981 ERROR FullProcessService - Project build has not produced APK file
-2018-11-04 00:54:53,001 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-05 21:28:26,212 ERROR FullProcessService - Project build has not produced APK file
+2019-07-05 21:28:26,223 ERROR FullProcessService - Could not find generated or existed APK file

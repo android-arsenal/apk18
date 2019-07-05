@@ -1,101 +1,101 @@
-2018-10-19 16:34:11,975 INFO  DownloadService - Downloading "https://github.com/apptik/jus/archive/master.zip", attempt 3
-2018-10-19 16:44:02,680 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-10-19 16:44:03,753 INFO  GithubDownloadService - Default branch of this repository: master
-2018-10-19 16:44:03,753 INFO  DownloadService - Downloading "https://github.com/apptik/jus/archive/master.zip", attempt 3
-2018-10-19 16:45:05,782 DEBUG FullProcessService - Repository https://github.com/apptik/jus available: true
-2018-10-19 16:45:05,783 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-10-19 16:45:05,783 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/apptik/jus, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src]
-2018-10-19 16:45:16,253 INFO  SysUtils - 
-2018-10-19 16:45:16,284 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/.git": true
-2018-10-19 16:45:16,333 INFO  FullProcessService - Size of directory with sources: 7 MB
-2018-10-19 16:45:16,333 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src]
-2018-10-19 16:45:16,349 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/.git/
+2019-07-05 21:18:37,999 INFO  DownloadService - Downloading "https://github.com/apptik/jus/archive/master.zip", attempt 3
+2019-07-05 21:19:38,591 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-05 21:19:39,593 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-05 21:19:39,593 INFO  DownloadService - Downloading "https://github.com/apptik/jus/archive/master.zip", attempt 3
+2019-07-05 21:20:41,137 DEBUG FullProcessService - Repository https://github.com/apptik/jus available: true
+2019-07-05 21:20:41,137 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-05 21:20:41,137 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/apptik/jus, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src]
+2019-07-05 21:20:43,964 INFO  SysUtils - 
+2019-07-05 21:20:43,989 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/.git": true
+2019-07-05 21:20:44,021 INFO  FullProcessService - Size of directory with sources: 7 MB
+2019-07-05 21:20:44,021 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src]
+2019-07-05 21:20:44,039 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/.git/
 
-2018-10-19 16:45:16,384 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew
-2018-10-19 16:45:16,420 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/android/jus-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/demo-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/examples-android-volley-migration/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/examples-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/benchmark/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-gson/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-jackson/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-jjson-wrapper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-jjson/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-moshi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-protobuf/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-simplexml/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-wire/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/examples-java/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/jus-java/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/retro-jus/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/rx-jus/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/stack/jus-apachehttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/stack/jus-netty/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/stack/jus-okhttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/stack/jus-okhttp3/build.gradle
-2018-10-19 16:45:16,459 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/benchmark/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-jjson-wrapper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-simplexml/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-jackson/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-jjson/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-protobuf/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-gson/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-wire/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-moshi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/retro-jus/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/examples-android-volley-migration/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/jus-java/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/examples-java/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/android/jus-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/examples-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/demo-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/stack/jus-netty/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/stack/jus-apachehttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/stack/jus-okhttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/stack/jus-okhttp3/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/rx-jus/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/perf.gradle
-2018-10-19 16:45:16,462 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/djodjoni/gradle-mvn-push/master/gradle-mvn-push-android.gradle", attempt 3
-2018-10-19 16:45:17,325 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/djodjoni/gradle-mvn-push/master/gradle-mvn-push-android.gradle, attempt 3
-2018-10-19 16:45:17,325 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/djodjoni/gradle-mvn-push/master/gradle-mvn-push.gradle", attempt 3
-2018-10-19 16:45:17,573 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/djodjoni/gradle-mvn-push/master/gradle-mvn-push.gradle, attempt 3
-2018-10-19 16:45:17,573 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/djodjoni/gradle-mvn-push/master/gradle-mvn-push-android.gradle https://raw.githubusercontent.com/djodjoni/gradle-mvn-push/master/gradle-mvn-push.gradle
-2018-10-19 16:45:17,573 INFO  ProjectFixService - Fixing project...
-2018-10-19 16:45:17,670 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/android/jus-android/local.properties
-2018-10-19 16:45:17,678 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/android/jus-android/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
-2018-10-19 16:45:17,678 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/android/jus-android/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=28]
-2018-10-19 16:45:17,679 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/demo-android/local.properties
-2018-10-19 16:45:17,688 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/demo-android/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
-2018-10-19 16:45:17,688 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/demo-android/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=28]
-2018-10-19 16:45:17,689 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/examples-android-volley-migration/local.properties
-2018-10-19 16:45:17,698 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/examples-android-volley-migration/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
-2018-10-19 16:45:17,698 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/examples-android-volley-migration/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=28]
-2018-10-19 16:45:17,699 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/examples-android/local.properties
-2018-10-19 16:45:17,707 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/examples-android/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
-2018-10-19 16:45:17,707 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/examples-android/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=28]
-2018-10-19 16:45:17,708 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/local.properties
-2018-10-19 16:45:17,709 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2018-10-19 16:45:17,710 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2018-10-19 16:45:17,713 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
-2018-10-19 16:45:17,713 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=28]
-2018-10-19 16:45:17,714 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/benchmark/local.properties
-2018-10-19 16:45:17,722 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/benchmark/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
-2018-10-19 16:45:17,722 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/benchmark/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=28]
-2018-10-19 16:45:17,723 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-gson/local.properties
-2018-10-19 16:45:17,731 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-gson/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
-2018-10-19 16:45:17,731 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-gson/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=28]
-2018-10-19 16:45:17,732 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-jackson/local.properties
-2018-10-19 16:45:17,739 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-jackson/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
-2018-10-19 16:45:17,739 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-jackson/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=28]
-2018-10-19 16:45:17,740 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-jjson-wrapper/local.properties
-2018-10-19 16:45:17,748 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-jjson-wrapper/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
-2018-10-19 16:45:17,748 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-jjson-wrapper/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=28]
-2018-10-19 16:45:17,749 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-jjson/local.properties
-2018-10-19 16:45:17,756 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-jjson/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
-2018-10-19 16:45:17,756 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-jjson/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=28]
-2018-10-19 16:45:17,758 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-moshi/local.properties
-2018-10-19 16:45:17,765 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-moshi/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
-2018-10-19 16:45:17,765 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-moshi/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=28]
-2018-10-19 16:45:17,766 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-protobuf/local.properties
-2018-10-19 16:45:17,773 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-protobuf/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
-2018-10-19 16:45:17,773 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-protobuf/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=28]
-2018-10-19 16:45:17,774 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-simplexml/local.properties
-2018-10-19 16:45:17,781 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-simplexml/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
-2018-10-19 16:45:17,781 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-simplexml/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=28]
-2018-10-19 16:45:17,782 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-wire/local.properties
-2018-10-19 16:45:17,789 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-wire/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
-2018-10-19 16:45:17,789 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-wire/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=28]
-2018-10-19 16:45:17,790 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/examples-java/local.properties
-2018-10-19 16:45:17,797 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/examples-java/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
-2018-10-19 16:45:17,797 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/examples-java/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=28]
-2018-10-19 16:45:17,798 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/jus-java/local.properties
-2018-10-19 16:45:17,805 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/jus-java/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
-2018-10-19 16:45:17,805 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/jus-java/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=28]
-2018-10-19 16:45:17,806 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/retro-jus/local.properties
-2018-10-19 16:45:17,813 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/retro-jus/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
-2018-10-19 16:45:17,813 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/retro-jus/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=28]
-2018-10-19 16:45:17,814 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/rx-jus/local.properties
-2018-10-19 16:45:17,822 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/rx-jus/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
-2018-10-19 16:45:17,822 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/rx-jus/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=28]
-2018-10-19 16:45:17,823 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/stack/jus-apachehttp/local.properties
-2018-10-19 16:45:17,831 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/stack/jus-apachehttp/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
-2018-10-19 16:45:17,831 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/stack/jus-apachehttp/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=28]
-2018-10-19 16:45:17,832 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/stack/jus-netty/local.properties
-2018-10-19 16:45:17,840 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/stack/jus-netty/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
-2018-10-19 16:45:17,840 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/stack/jus-netty/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=28]
-2018-10-19 16:45:17,840 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/stack/jus-okhttp/local.properties
-2018-10-19 16:45:17,848 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/stack/jus-okhttp/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
-2018-10-19 16:45:17,848 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/stack/jus-okhttp/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=28]
-2018-10-19 16:45:17,849 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/stack/jus-okhttp3/local.properties
-2018-10-19 16:45:17,856 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/stack/jus-okhttp3/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
-2018-10-19 16:45:17,856 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/stack/jus-okhttp3/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=28]
-2018-10-19 16:45:17,857 INFO  ProjectFixService - Project was maybe fixed
-2018-10-19 16:45:17,857 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-19 16:45:17,857 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/android/jus-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-19 16:45:58,507 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-19 16:45:58,509 INFO  ProjectTaskService - Detected possible tasks: 5
-2018-10-19 16:45:58,509 INFO  ProjectTaskService - Excluded tasks (2): javadocs sourcesJar
-2018-10-19 16:45:58,510 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/android/jus-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, sourcesJar, build]
-2018-10-19 16:46:05,599 ERROR SysUtils - Could not process external command
+2019-07-05 21:20:44,062 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew
+2019-07-05 21:20:44,087 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/android/jus-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/demo-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/examples-android-volley-migration/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/examples-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/benchmark/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-gson/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-jackson/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-jjson-wrapper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-jjson/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-moshi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-protobuf/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-simplexml/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-wire/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/examples-java/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/jus-java/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/retro-jus/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/rx-jus/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/stack/jus-apachehttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/stack/jus-netty/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/stack/jus-okhttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/stack/jus-okhttp3/build.gradle
+2019-07-05 21:20:44,109 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/benchmark/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-jjson-wrapper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-simplexml/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-jackson/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-jjson/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-protobuf/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-gson/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-wire/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-moshi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/retro-jus/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/examples-android-volley-migration/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/jus-java/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/examples-java/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/android/jus-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/examples-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/demo-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/stack/jus-netty/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/stack/jus-apachehttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/stack/jus-okhttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/stack/jus-okhttp3/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/rx-jus/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/perf.gradle
+2019-07-05 21:20:44,111 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/djodjoni/gradle-mvn-push/master/gradle-mvn-push-android.gradle", attempt 3
+2019-07-05 21:20:44,340 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/djodjoni/gradle-mvn-push/master/gradle-mvn-push-android.gradle, attempt 3
+2019-07-05 21:20:44,340 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/djodjoni/gradle-mvn-push/master/gradle-mvn-push.gradle", attempt 3
+2019-07-05 21:20:44,577 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/djodjoni/gradle-mvn-push/master/gradle-mvn-push.gradle, attempt 3
+2019-07-05 21:20:44,577 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/djodjoni/gradle-mvn-push/master/gradle-mvn-push-android.gradle https://raw.githubusercontent.com/djodjoni/gradle-mvn-push/master/gradle-mvn-push.gradle
+2019-07-05 21:20:44,577 INFO  ProjectFixService - Fixing project...
+2019-07-05 21:20:44,653 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/android/jus-android/local.properties
+2019-07-05 21:20:44,660 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/android/jus-android/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
+2019-07-05 21:20:44,660 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/android/jus-android/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=29]
+2019-07-05 21:20:44,661 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/demo-android/local.properties
+2019-07-05 21:20:44,667 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/demo-android/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
+2019-07-05 21:20:44,667 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/demo-android/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=29]
+2019-07-05 21:20:44,668 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/examples-android-volley-migration/local.properties
+2019-07-05 21:20:44,674 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/examples-android-volley-migration/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
+2019-07-05 21:20:44,674 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/examples-android-volley-migration/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=29]
+2019-07-05 21:20:44,674 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/examples-android/local.properties
+2019-07-05 21:20:44,681 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/examples-android/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
+2019-07-05 21:20:44,681 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/examples-android/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=29]
+2019-07-05 21:20:44,682 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/local.properties
+2019-07-05 21:20:44,682 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-07-05 21:20:44,682 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-07-05 21:20:44,685 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
+2019-07-05 21:20:44,685 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=29]
+2019-07-05 21:20:44,686 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/benchmark/local.properties
+2019-07-05 21:20:44,692 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/benchmark/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
+2019-07-05 21:20:44,692 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/benchmark/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=29]
+2019-07-05 21:20:44,692 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-gson/local.properties
+2019-07-05 21:20:44,698 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-gson/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
+2019-07-05 21:20:44,698 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-gson/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=29]
+2019-07-05 21:20:44,699 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-jackson/local.properties
+2019-07-05 21:20:44,705 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-jackson/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
+2019-07-05 21:20:44,705 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-jackson/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=29]
+2019-07-05 21:20:44,707 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-jjson-wrapper/local.properties
+2019-07-05 21:20:44,713 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-jjson-wrapper/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
+2019-07-05 21:20:44,713 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-jjson-wrapper/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=29]
+2019-07-05 21:20:44,714 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-jjson/local.properties
+2019-07-05 21:20:44,720 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-jjson/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
+2019-07-05 21:20:44,720 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-jjson/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=29]
+2019-07-05 21:20:44,720 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-moshi/local.properties
+2019-07-05 21:20:44,726 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-moshi/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
+2019-07-05 21:20:44,726 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-moshi/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=29]
+2019-07-05 21:20:44,727 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-protobuf/local.properties
+2019-07-05 21:20:44,733 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-protobuf/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
+2019-07-05 21:20:44,733 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-protobuf/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=29]
+2019-07-05 21:20:44,733 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-simplexml/local.properties
+2019-07-05 21:20:44,739 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-simplexml/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
+2019-07-05 21:20:44,739 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-simplexml/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=29]
+2019-07-05 21:20:44,739 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-wire/local.properties
+2019-07-05 21:20:44,745 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-wire/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
+2019-07-05 21:20:44,745 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-wire/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=29]
+2019-07-05 21:20:44,745 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/examples-java/local.properties
+2019-07-05 21:20:44,753 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/examples-java/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
+2019-07-05 21:20:44,754 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/examples-java/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=29]
+2019-07-05 21:20:44,754 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/jus-java/local.properties
+2019-07-05 21:20:44,760 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/jus-java/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
+2019-07-05 21:20:44,760 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/jus-java/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=29]
+2019-07-05 21:20:44,760 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/retro-jus/local.properties
+2019-07-05 21:20:44,766 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/retro-jus/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
+2019-07-05 21:20:44,766 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/retro-jus/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=29]
+2019-07-05 21:20:44,767 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/rx-jus/local.properties
+2019-07-05 21:20:44,773 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/rx-jus/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
+2019-07-05 21:20:44,773 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/rx-jus/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=29]
+2019-07-05 21:20:44,774 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/stack/jus-apachehttp/local.properties
+2019-07-05 21:20:44,784 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/stack/jus-apachehttp/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
+2019-07-05 21:20:44,784 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/stack/jus-apachehttp/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=29]
+2019-07-05 21:20:44,785 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/stack/jus-netty/local.properties
+2019-07-05 21:20:44,792 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/stack/jus-netty/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
+2019-07-05 21:20:44,792 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/stack/jus-netty/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=29]
+2019-07-05 21:20:44,793 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/stack/jus-okhttp/local.properties
+2019-07-05 21:20:44,799 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/stack/jus-okhttp/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
+2019-07-05 21:20:44,799 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/stack/jus-okhttp/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=29]
+2019-07-05 21:20:44,800 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/stack/jus-okhttp3/local.properties
+2019-07-05 21:20:44,806 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/stack/jus-okhttp3/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=<null>]
+2019-07-05 21:20:44,806 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/stack/jus-okhttp3/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=29]
+2019-07-05 21:20:44,806 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 21:20:44,806 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 21:20:44,806 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/android/jus-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 21:21:15,825 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 21:21:15,825 INFO  ProjectTaskService - Detected possible tasks: 5
+2019-07-05 21:21:15,825 INFO  ProjectTaskService - Excluded tasks (2): javadocs sourcesJar
+2019-07-05 21:21:15,825 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/android/jus-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, sourcesJar, build]
+2019-07-05 21:21:21,620 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -115,14 +115,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-19 16:46:05,599 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 21:21:21,621 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -219,15 +219,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.795 secs
+Total time: 5.558 secs
 
-2018-10-19 16:46:05,635 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-19 16:46:05,635 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/demo-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-19 16:46:12,102 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-19 16:46:12,102 INFO  ProjectTaskService - Detected possible tasks: 5
-2018-10-19 16:46:12,102 INFO  ProjectTaskService - Excluded tasks (2): javadocs sourcesJar
-2018-10-19 16:46:12,103 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/demo-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, sourcesJar, build]
-2018-10-19 16:46:18,615 ERROR SysUtils - Could not process external command
+2019-07-05 21:21:21,648 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 21:21:21,648 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/demo-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 21:21:27,426 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 21:21:27,426 INFO  ProjectTaskService - Detected possible tasks: 5
+2019-07-05 21:21:27,426 INFO  ProjectTaskService - Excluded tasks (2): javadocs sourcesJar
+2019-07-05 21:21:27,426 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/demo-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, sourcesJar, build]
+2019-07-05 21:21:33,109 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -247,14 +247,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-19 16:46:18,615 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 21:21:33,109 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -429,15 +429,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.236 secs
+Total time: 5.452 secs
 
-2018-10-19 16:46:18,652 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-19 16:46:18,652 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/examples-android-volley-migration/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-19 16:46:25,177 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-19 16:46:25,177 INFO  ProjectTaskService - Detected possible tasks: 5
-2018-10-19 16:46:25,177 INFO  ProjectTaskService - Excluded tasks (2): javadocs sourcesJar
-2018-10-19 16:46:25,177 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/examples-android-volley-migration/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, sourcesJar, build]
-2018-10-19 16:46:32,003 ERROR SysUtils - Could not process external command
+2019-07-05 21:21:33,136 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 21:21:33,136 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/examples-android-volley-migration/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 21:21:38,944 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 21:21:38,945 INFO  ProjectTaskService - Detected possible tasks: 5
+2019-07-05 21:21:38,945 INFO  ProjectTaskService - Excluded tasks (2): javadocs sourcesJar
+2019-07-05 21:21:38,945 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/examples-android-volley-migration/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, sourcesJar, build]
+2019-07-05 21:21:44,577 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -457,14 +457,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-19 16:46:32,003 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 21:21:44,577 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -639,15 +639,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.546 secs
+Total time: 5.422 secs
 
-2018-10-19 16:46:32,043 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-19 16:46:32,043 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/examples-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-19 16:46:39,929 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-19 16:46:39,929 INFO  ProjectTaskService - Detected possible tasks: 5
-2018-10-19 16:46:39,929 INFO  ProjectTaskService - Excluded tasks (2): javadocs sourcesJar
-2018-10-19 16:46:39,929 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/examples-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, sourcesJar, build]
-2018-10-19 16:46:47,585 ERROR SysUtils - Could not process external command
+2019-07-05 21:21:44,600 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 21:21:44,601 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/examples-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 21:21:50,542 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 21:21:50,542 INFO  ProjectTaskService - Detected possible tasks: 5
+2019-07-05 21:21:50,542 INFO  ProjectTaskService - Excluded tasks (2): javadocs sourcesJar
+2019-07-05 21:21:50,542 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/examples-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, sourcesJar, build]
+2019-07-05 21:21:56,174 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -667,14 +667,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-19 16:46:47,586 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 21:21:56,174 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -849,15 +849,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 7.23 secs
+Total time: 5.383 secs
 
-2018-10-19 16:46:47,628 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-19 16:46:47,628 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-19 16:46:55,542 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-19 16:46:55,542 INFO  ProjectTaskService - Detected possible tasks: 5
-2018-10-19 16:46:55,542 INFO  ProjectTaskService - Excluded tasks (2): javadocs sourcesJar
-2018-10-19 16:46:55,542 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, sourcesJar, build]
-2018-10-19 16:47:02,528 ERROR SysUtils - Could not process external command
+2019-07-05 21:21:56,198 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 21:21:56,198 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 21:22:03,041 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 21:22:03,041 INFO  ProjectTaskService - Detected possible tasks: 5
+2019-07-05 21:22:03,042 INFO  ProjectTaskService - Excluded tasks (2): javadocs sourcesJar
+2019-07-05 21:22:03,042 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, sourcesJar, build]
+2019-07-05 21:22:09,382 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -877,14 +877,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-19 16:47:02,528 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 21:22:09,382 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -1061,14 +1061,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.704 secs
+Total time: 6.078 secs
 
-2018-10-19 16:47:02,564 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-19 16:47:02,565 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/benchmark/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-19 16:47:05,903 INFO  ProjectTaskService - Detected possible tasks: 53
-2018-10-19 16:47:05,903 INFO  ProjectTaskService - Excluded tasks (5): javadocs javadoc sourcesJar test check
-2018-10-19 16:47:05,903 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/benchmark/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
-2018-10-19 16:47:09,043 ERROR SysUtils - Could not process external command
+2019-07-05 21:22:09,412 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 21:22:09,412 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/benchmark/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 21:22:12,404 INFO  ProjectTaskService - Detected possible tasks: 53
+2019-07-05 21:22:12,404 INFO  ProjectTaskService - Excluded tasks (5): javadocs javadoc sourcesJar test check
+2019-07-05 21:22:12,404 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/benchmark/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
+2019-07-05 21:22:15,383 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1088,14 +1088,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-19 16:47:09,044 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 21:22:15,384 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -1151,11 +1151,11 @@ org.gradle.execution.TaskSelectionException: Task 'javadocs' not found in projec
 
 BUILD FAILED
 
-Total time: 2.987 secs
+Total time: 2.803 secs
 
-2018-10-19 16:47:09,044 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2018-10-19 16:47:09,044 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/benchmark/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-19 16:47:12,928 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 21:22:15,384 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-07-05 21:22:15,384 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/benchmark/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 21:22:18,765 INFO  SysUtils - Configuration on demand is an incubating feature.
 :benchmark:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
 1 warning
 
@@ -1172,14 +1172,14 @@ Total time: 2.987 secs
 
 BUILD SUCCESSFUL
 
-Total time: 3.671 secs
+Total time: 3.203 secs
 
-2018-10-19 16:47:12,960 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-19 16:47:12,960 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-gson/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-19 16:47:17,176 INFO  ProjectTaskService - Detected possible tasks: 47
-2018-10-19 16:47:17,176 INFO  ProjectTaskService - Excluded tasks (5): javadocs javadoc sourcesJar test check
-2018-10-19 16:47:17,176 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-gson/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
-2018-10-19 16:47:24,158 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 21:22:18,793 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 21:22:18,793 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-gson/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 21:22:22,351 INFO  ProjectTaskService - Detected possible tasks: 47
+2019-07-05 21:22:22,351 INFO  ProjectTaskService - Excluded tasks (5): javadocs javadoc sourcesJar test check
+2019-07-05 21:22:22,351 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-gson/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
+2019-07-05 21:22:27,523 INFO  SysUtils - Configuration on demand is an incubating feature.
 :jus-java:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
@@ -1189,7 +1189,7 @@ Note: Recompile with -Xlint:unchecked for details.
 :jus-java:classes
 :jus-java:jar
 :converter:jus-gson:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-gson/src/main/java/io/apptik/comm/jus/request/GsonRequest.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-gson/src/main/java/io/apptik/comm/jus/request/GsonRequest.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 1 warning
 
@@ -1203,20 +1203,20 @@ Note: Recompile with -Xlint:unchecked for details.
 
 BUILD SUCCESSFUL
 
-Total time: 6.842 secs
+Total time: 5.051 secs
 
-2018-10-19 16:47:24,198 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-19 16:47:24,198 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-jackson/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-19 16:47:28,478 INFO  ProjectTaskService - Detected possible tasks: 47
-2018-10-19 16:47:28,478 INFO  ProjectTaskService - Excluded tasks (5): javadocs javadoc sourcesJar test check
-2018-10-19 16:47:28,478 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-jackson/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
-2018-10-19 16:47:34,869 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 21:22:27,556 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 21:22:27,556 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-jackson/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 21:22:31,110 INFO  ProjectTaskService - Detected possible tasks: 47
+2019-07-05 21:22:31,110 INFO  ProjectTaskService - Excluded tasks (5): javadocs javadoc sourcesJar test check
+2019-07-05 21:22:31,110 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-jackson/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
+2019-07-05 21:22:36,025 INFO  SysUtils - Configuration on demand is an incubating feature.
 :jus-java:compileJava UP-TO-DATE
 :jus-java:processResources UP-TO-DATE
 :jus-java:classes UP-TO-DATE
 :jus-java:jar UP-TO-DATE
 :converter:jus-jackson:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-jackson/src/main/java/io/apptik/comm/jus/converter/JacksonConverterFactory.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-jackson/src/main/java/io/apptik/comm/jus/converter/JacksonConverterFactory.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 1 warning
 
@@ -1230,21 +1230,19 @@ Note: Recompile with -Xlint:deprecation for details.
 
 BUILD SUCCESSFUL
 
-Total time: 6.262 secs
+Total time: 4.797 secs
 
-2018-10-19 16:47:34,915 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-19 16:47:34,915 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-jjson-wrapper/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-19 16:47:38,902 INFO  ProjectTaskService - Detected possible tasks: 47
-2018-10-19 16:47:38,902 INFO  ProjectTaskService - Excluded tasks (5): javadocs javadoc sourcesJar test check
-2018-10-19 16:47:38,902 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-jjson-wrapper/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
-2018-10-19 16:47:44,848 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 21:22:36,057 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 21:22:36,057 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-jjson-wrapper/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 21:22:39,550 INFO  ProjectTaskService - Detected possible tasks: 47
+2019-07-05 21:22:39,550 INFO  ProjectTaskService - Excluded tasks (5): javadocs javadoc sourcesJar test check
+2019-07-05 21:22:39,550 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-jjson-wrapper/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
+2019-07-05 21:22:44,918 INFO  SysUtils - Configuration on demand is an incubating feature.
 :jus-java:compileJava UP-TO-DATE
 :jus-java:processResources UP-TO-DATE
 :jus-java:classes UP-TO-DATE
 :jus-java:jar UP-TO-DATE
 :converter:jus-jjson-wrapper:compileJava
-Download https://repo1.maven.org/maven2/io/apptik/json/json-core/1.0.4/json-core-1.0.4.pom
-Download https://repo1.maven.org/maven2/io/apptik/json/json-wrapper/1.0.4/json-wrapper-1.0.4.pom
 Download https://repo1.maven.org/maven2/io/apptik/json/json-core/1.0.4/json-core-1.0.4.jar
 Download https://repo1.maven.org/maven2/io/apptik/json/json-wrapper/1.0.4/json-wrapper-1.0.4.jar
 warning: [options] bootstrap class path not set in conjunction with -source 1.7
@@ -1261,14 +1259,14 @@ Note: Recompile with -Xlint:unchecked for details.
 
 BUILD SUCCESSFUL
 
-Total time: 5.827 secs
+Total time: 5.242 secs
 
-2018-10-19 16:47:44,883 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-19 16:47:44,884 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-jjson/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-19 16:47:48,913 INFO  ProjectTaskService - Detected possible tasks: 47
-2018-10-19 16:47:48,913 INFO  ProjectTaskService - Excluded tasks (5): javadocs javadoc sourcesJar test check
-2018-10-19 16:47:48,913 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-jjson/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
-2018-10-19 16:47:53,498 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 21:22:44,950 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 21:22:44,950 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-jjson/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 21:22:48,563 INFO  ProjectTaskService - Detected possible tasks: 47
+2019-07-05 21:22:48,563 INFO  ProjectTaskService - Excluded tasks (5): javadocs javadoc sourcesJar test check
+2019-07-05 21:22:48,563 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-jjson/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
+2019-07-05 21:22:52,922 INFO  SysUtils - Configuration on demand is an incubating feature.
 :jus-java:compileJava UP-TO-DATE
 :jus-java:processResources UP-TO-DATE
 :jus-java:classes UP-TO-DATE
@@ -1286,21 +1284,19 @@ Total time: 5.827 secs
 
 BUILD SUCCESSFUL
 
-Total time: 4.42 secs
+Total time: 4.226 secs
 
-2018-10-19 16:47:53,539 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-19 16:47:53,539 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-moshi/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-19 16:47:57,693 INFO  ProjectTaskService - Detected possible tasks: 47
-2018-10-19 16:47:57,693 INFO  ProjectTaskService - Excluded tasks (5): javadocs javadoc sourcesJar test check
-2018-10-19 16:47:57,693 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-moshi/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
-2018-10-19 16:48:03,735 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 21:22:52,956 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 21:22:52,956 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-moshi/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 21:22:56,576 INFO  ProjectTaskService - Detected possible tasks: 47
+2019-07-05 21:22:56,576 INFO  ProjectTaskService - Excluded tasks (5): javadocs javadoc sourcesJar test check
+2019-07-05 21:22:56,576 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-moshi/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
+2019-07-05 21:23:01,469 INFO  SysUtils - Configuration on demand is an incubating feature.
 :jus-java:compileJava UP-TO-DATE
 :jus-java:processResources UP-TO-DATE
 :jus-java:classes UP-TO-DATE
 :jus-java:jar UP-TO-DATE
 :converter:jus-moshi:compileJava
-Download https://repo1.maven.org/maven2/com/squareup/moshi/moshi/1.3.1/moshi-1.3.1.pom
-Download https://repo1.maven.org/maven2/com/squareup/moshi/moshi-parent/1.3.1/moshi-parent-1.3.1.pom
 Download https://repo1.maven.org/maven2/com/squareup/moshi/moshi/1.3.1/moshi-1.3.1.jar
 warning: [options] bootstrap class path not set in conjunction with -source 1.7
 1 warning
@@ -1314,14 +1310,14 @@ warning: [options] bootstrap class path not set in conjunction with -source 1.7
 
 BUILD SUCCESSFUL
 
-Total time: 5.839 secs
+Total time: 4.773 secs
 
-2018-10-19 16:48:03,779 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-19 16:48:03,779 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-protobuf/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-19 16:48:07,961 INFO  ProjectTaskService - Detected possible tasks: 47
-2018-10-19 16:48:07,962 INFO  ProjectTaskService - Excluded tasks (5): javadocs javadoc sourcesJar test check
-2018-10-19 16:48:07,962 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-protobuf/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
-2018-10-19 16:48:13,767 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 21:23:01,502 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 21:23:01,502 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-protobuf/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 21:23:04,997 INFO  ProjectTaskService - Detected possible tasks: 47
+2019-07-05 21:23:04,998 INFO  ProjectTaskService - Excluded tasks (5): javadocs javadoc sourcesJar test check
+2019-07-05 21:23:04,998 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-protobuf/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
+2019-07-05 21:23:10,623 INFO  SysUtils - Configuration on demand is an incubating feature.
 :jus-java:compileJava UP-TO-DATE
 :jus-java:processResources UP-TO-DATE
 :jus-java:classes UP-TO-DATE
@@ -1329,7 +1325,7 @@ Total time: 5.839 secs
 :converter:jus-protobuf:compileJava
 Download https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.1.0/protobuf-java-3.1.0.jar
 warning: [options] bootstrap class path not set in conjunction with -source 1.7
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-protobuf/src/main/java/io/apptik/comm/jus/converter/ProtoConverterFactory.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-protobuf/src/main/java/io/apptik/comm/jus/converter/ProtoConverterFactory.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 1 warning
 :converter:jus-protobuf:processResources UP-TO-DATE
@@ -1342,14 +1338,14 @@ Note: Recompile with -Xlint:unchecked for details.
 
 BUILD SUCCESSFUL
 
-Total time: 5.62 secs
+Total time: 5.458 secs
 
-2018-10-19 16:48:13,812 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-19 16:48:13,813 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-simplexml/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-19 16:48:17,868 INFO  ProjectTaskService - Detected possible tasks: 47
-2018-10-19 16:48:17,868 INFO  ProjectTaskService - Excluded tasks (5): javadocs javadoc sourcesJar test check
-2018-10-19 16:48:17,868 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-simplexml/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
-2018-10-19 16:48:23,854 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 21:23:10,657 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 21:23:10,657 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-simplexml/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 21:23:14,201 INFO  ProjectTaskService - Detected possible tasks: 47
+2019-07-05 21:23:14,201 INFO  ProjectTaskService - Excluded tasks (5): javadocs javadoc sourcesJar test check
+2019-07-05 21:23:14,201 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-simplexml/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
+2019-07-05 21:23:18,444 INFO  SysUtils - Configuration on demand is an incubating feature.
 :jus-java:compileJava UP-TO-DATE
 :jus-java:processResources UP-TO-DATE
 :jus-java:classes UP-TO-DATE
@@ -1367,23 +1363,24 @@ Total time: 5.62 secs
 
 BUILD SUCCESSFUL
 
-Total time: 5.817 secs
+Total time: 4.065 secs
 
-2018-10-19 16:48:23,898 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-19 16:48:23,899 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-wire/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-19 16:48:27,968 INFO  ProjectTaskService - Detected possible tasks: 47
-2018-10-19 16:48:27,969 INFO  ProjectTaskService - Excluded tasks (5): javadocs javadoc sourcesJar test check
-2018-10-19 16:48:27,969 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/converter/jus-wire/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
-2018-10-19 16:48:33,562 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 21:23:18,478 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 21:23:18,478 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-wire/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 21:23:22,051 INFO  ProjectTaskService - Detected possible tasks: 47
+2019-07-05 21:23:22,052 INFO  ProjectTaskService - Excluded tasks (5): javadocs javadoc sourcesJar test check
+2019-07-05 21:23:22,052 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/converter/jus-wire/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
+2019-07-05 21:23:26,871 INFO  SysUtils - Configuration on demand is an incubating feature.
 :jus-java:compileJava UP-TO-DATE
 :jus-java:processResources UP-TO-DATE
 :jus-java:classes UP-TO-DATE
 :jus-java:jar UP-TO-DATE
-:converter:jus-wire:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+:converter:jus-wire:compileJava
+Download https://repo1.maven.org/maven2/com/squareup/wire/wire-runtime/2.2.0/wire-runtime-2.2.0.jar
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 1 warning
-
 :converter:jus-wire:processResources UP-TO-DATE
 :converter:jus-wire:classes
 :converter:jus-wire:jar
@@ -1394,14 +1391,14 @@ Note: Recompile with -Xlint:unchecked for details.
 
 BUILD SUCCESSFUL
 
-Total time: 5.429 secs
+Total time: 4.719 secs
 
-2018-10-19 16:48:33,607 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-19 16:48:33,608 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/examples-java/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-19 16:48:36,803 INFO  ProjectTaskService - Detected possible tasks: 44
-2018-10-19 16:48:36,803 INFO  ProjectTaskService - Excluded tasks (5): javadocs javadoc sourcesJar test check
-2018-10-19 16:48:36,803 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/examples-java/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
-2018-10-19 16:48:39,705 ERROR SysUtils - Could not process external command
+2019-07-05 21:23:26,903 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 21:23:26,904 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/examples-java/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 21:23:29,749 INFO  ProjectTaskService - Detected possible tasks: 44
+2019-07-05 21:23:29,750 INFO  ProjectTaskService - Excluded tasks (5): javadocs javadoc sourcesJar test check
+2019-07-05 21:23:29,750 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/examples-java/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
+2019-07-05 21:23:32,415 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1421,14 +1418,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-19 16:48:39,705 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 21:23:32,415 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -1484,11 +1481,11 @@ org.gradle.execution.TaskSelectionException: Task 'javadocs' not found in projec
 
 BUILD FAILED
 
-Total time: 2.766 secs
+Total time: 2.526 secs
 
-2018-10-19 16:48:39,705 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2018-10-19 16:48:39,705 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/examples-java/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-19 16:48:48,562 ERROR SysUtils - Could not process external command
+2019-07-05 21:23:32,415 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-07-05 21:23:32,415 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/examples-java/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 21:23:40,378 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1508,21 +1505,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-19 16:48:48,563 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 21:23:40,378 INFO  SysUtils - Configuration on demand is an incubating feature.
 The Task.leftShift(Closure) method has been deprecated and is scheduled to be removed in Gradle 5.0. Please use Task.doLast(Action) instead.
 	at org.gradle.api.internal.AbstractTask.leftShift(AbstractTask.java:513)
 	at org.gradle.api.Task$leftShift.call(Unknown Source)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-	at build_1noq6xs0ziridb7t5mzbp4xks.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/rx-jus/build.gradle:30)
+	at build_esv701jfor2m9bq0ifbby8buj.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/rx-jus/build.gradle:30)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:176)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
@@ -1642,11 +1639,7 @@ Note: Recompile with -Xlint:unchecked for details.
 :retro-jus:classes
 :retro-jus:jar
 :rx-jus:compileJava
-Download https://repo1.maven.org/maven2/io/apptik/rhub/rxjava-v1/0.2.0-alpha1/rxjava-v1-0.2.0-alpha1.pom
-Download https://repo1.maven.org/maven2/io/apptik/rhub/core/0.2.0-alpha1/core-0.2.0-alpha1.pom
-Download https://repo1.maven.org/maven2/io/apptik/rhub/roxy-rxjava1/0.2.0-alpha1/roxy-rxjava1-0.2.0-alpha1.pom
-Download https://repo1.maven.org/maven2/com/jakewharton/rxrelay/rxrelay/1.2.0/rxrelay-1.2.0.pom
-Download https://repo1.maven.org/maven2/io/apptik/rhub/roxy-core/0.2.0-alpha1/roxy-core-0.2.0-alpha1.pom
+Download https://repo1.maven.org/maven2/io/reactivex/rxjava/1.2.5/rxjava-1.2.5.jar
 Download https://repo1.maven.org/maven2/io/apptik/rhub/rxjava-v1/0.2.0-alpha1/rxjava-v1-0.2.0-alpha1.jar
 Download https://repo1.maven.org/maven2/io/apptik/rhub/core/0.2.0-alpha1/core-0.2.0-alpha1.jar
 Download https://repo1.maven.org/maven2/io/apptik/rhub/roxy-rxjava1/0.2.0-alpha1/roxy-rxjava1-0.2.0-alpha1.jar
@@ -1663,7 +1656,7 @@ Note: Recompile with -Xlint:unchecked for details.
 :converter:jus-jjson:processResources UP-TO-DATE
 :converter:jus-jjson:classes UP-TO-DATE
 :converter:jus-jjson:jar UP-TO-DATE
-:examples-java:compileJava/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/examples-java/src/main/java/io/apptik/comm/jus/examples/Customizations.java:33: error: no suitable constructor found for Request(String,HttpUrl,Converter<NetworkResponse,TT#1>)
+:examples-java:compileJava/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/examples-java/src/main/java/io/apptik/comm/jus/examples/Customizations.java:33: error: no suitable constructor found for Request(String,HttpUrl,Converter<NetworkResponse,TT#1>)
                     new Converters.StringResponseConverter()) {
                                                               ^
     constructor Request.<TT#2>Request(String,String,Class<TT#2>) is not applicable
@@ -1680,7 +1673,7 @@ Note: Recompile with -Xlint:unchecked for details.
     TT#2 extends String declared in constructor <TT#2>Request(String,String,Class<TT#2>)
     TT#3 extends String declared in constructor <TT#3>Request(String,HttpUrl,Class<TT#3>)
     TT#4 extends String declared in constructor <TT#4>Request(String,String,Converter<NetworkResponse,TT#4>)
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/examples-java/src/main/java/io/apptik/comm/jus/examples/Customizations.java:30: error: constructor  in class <anonymous Request<String>> cannot be applied to given types;
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/examples-java/src/main/java/io/apptik/comm/jus/examples/Customizations.java:30: error: constructor  in class <anonymous Request<String>> cannot be applied to given types;
             queue.add(new Request<String>(
                       ^
   required: String,HttpUrl,Converter<NetworkResponse,TT>
@@ -1790,14 +1783,14 @@ Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Com
 
 BUILD FAILED
 
-Total time: 8.733 secs
+Total time: 7.834 secs
 
-2018-10-19 16:48:48,608 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-19 16:48:48,608 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/jus-java/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-19 16:48:52,684 INFO  ProjectTaskService - Detected possible tasks: 47
-2018-10-19 16:48:52,684 INFO  ProjectTaskService - Excluded tasks (5): javadocs javadoc sourcesJar test check
-2018-10-19 16:48:52,684 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/jus-java/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
-2018-10-19 16:48:56,846 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 21:23:40,415 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 21:23:40,415 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/jus-java/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 21:23:44,142 INFO  ProjectTaskService - Detected possible tasks: 47
+2019-07-05 21:23:44,142 INFO  ProjectTaskService - Excluded tasks (5): javadocs javadoc sourcesJar test check
+2019-07-05 21:23:44,142 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/jus-java/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
+2019-07-05 21:23:48,020 INFO  SysUtils - Configuration on demand is an incubating feature.
 :jus-java:compileJava UP-TO-DATE
 :jus-java:processResources UP-TO-DATE
 :jus-java:classes UP-TO-DATE
@@ -1809,14 +1802,14 @@ Total time: 8.733 secs
 
 BUILD SUCCESSFUL
 
-Total time: 3.913 secs
+Total time: 3.683 secs
 
-2018-10-19 16:48:56,892 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-19 16:48:56,892 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/retro-jus/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-19 16:49:00,744 INFO  ProjectTaskService - Detected possible tasks: 47
-2018-10-19 16:49:00,745 INFO  ProjectTaskService - Excluded tasks (5): javadocs javadoc sourcesJar test check
-2018-10-19 16:49:00,745 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/retro-jus/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
-2018-10-19 16:49:04,927 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 21:23:48,055 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 21:23:48,056 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/retro-jus/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 21:23:51,752 INFO  ProjectTaskService - Detected possible tasks: 47
+2019-07-05 21:23:51,752 INFO  ProjectTaskService - Excluded tasks (5): javadocs javadoc sourcesJar test check
+2019-07-05 21:23:51,752 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/retro-jus/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
+2019-07-05 21:23:55,688 INFO  SysUtils - Configuration on demand is an incubating feature.
 :jus-java:compileJava UP-TO-DATE
 :jus-java:processResources UP-TO-DATE
 :jus-java:classes UP-TO-DATE
@@ -1832,21 +1825,21 @@ Total time: 3.913 secs
 
 BUILD SUCCESSFUL
 
-Total time: 3.988 secs
+Total time: 3.739 secs
 
-2018-10-19 16:49:04,973 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-19 16:49:04,973 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/rx-jus/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-19 16:49:08,795 INFO  ProjectTaskService - Detected possible tasks: 49
-2018-10-19 16:49:08,796 INFO  ProjectTaskService - Excluded tasks (5): javadocs javadoc sourcesJar test check
-2018-10-19 16:49:08,796 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/rx-jus/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
-2018-10-19 16:49:12,990 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 21:23:55,727 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 21:23:55,728 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/rx-jus/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 21:23:59,318 INFO  ProjectTaskService - Detected possible tasks: 49
+2019-07-05 21:23:59,318 INFO  ProjectTaskService - Excluded tasks (5): javadocs javadoc sourcesJar test check
+2019-07-05 21:23:59,319 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/rx-jus/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
+2019-07-05 21:24:03,340 INFO  SysUtils - Configuration on demand is an incubating feature.
 The Task.leftShift(Closure) method has been deprecated and is scheduled to be removed in Gradle 5.0. Please use Task.doLast(Action) instead.
 	at org.gradle.api.internal.AbstractTask.leftShift(AbstractTask.java:513)
 	at org.gradle.api.Task$leftShift.call(Unknown Source)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-	at build_1noq6xs0ziridb7t5mzbp4xks.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/rx-jus/build.gradle:30)
+	at build_esv701jfor2m9bq0ifbby8buj.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/rx-jus/build.gradle:30)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:176)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
@@ -1927,14 +1920,14 @@ The Task.leftShift(Closure) method has been deprecated and is scheduled to be re
 
 BUILD SUCCESSFUL
 
-Total time: 4.06 secs
+Total time: 3.817 secs
 
-2018-10-19 16:49:13,035 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-19 16:49:13,035 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/stack/jus-apachehttp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-19 16:49:17,132 INFO  ProjectTaskService - Detected possible tasks: 47
-2018-10-19 16:49:17,132 INFO  ProjectTaskService - Excluded tasks (5): javadocs javadoc sourcesJar test check
-2018-10-19 16:49:17,132 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/stack/jus-apachehttp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
-2018-10-19 16:49:23,551 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 21:24:03,375 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 21:24:03,375 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/stack/jus-apachehttp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 21:24:07,080 INFO  ProjectTaskService - Detected possible tasks: 47
+2019-07-05 21:24:07,080 INFO  ProjectTaskService - Excluded tasks (5): javadocs javadoc sourcesJar test check
+2019-07-05 21:24:07,080 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/stack/jus-apachehttp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
+2019-07-05 21:24:11,923 INFO  SysUtils - Configuration on demand is an incubating feature.
 :jus-java:compileJava UP-TO-DATE
 :jus-java:processResources UP-TO-DATE
 :jus-java:classes UP-TO-DATE
@@ -1952,28 +1945,19 @@ Total time: 4.06 secs
 
 BUILD SUCCESSFUL
 
-Total time: 6.286 secs
+Total time: 4.694 secs
 
-2018-10-19 16:49:23,601 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-19 16:49:23,601 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/stack/jus-netty/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-19 16:49:27,709 INFO  ProjectTaskService - Detected possible tasks: 47
-2018-10-19 16:49:27,709 INFO  ProjectTaskService - Excluded tasks (5): javadocs javadoc sourcesJar test check
-2018-10-19 16:49:27,709 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/stack/jus-netty/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
-2018-10-19 16:49:36,708 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 21:24:11,959 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 21:24:11,959 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/stack/jus-netty/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 21:24:15,663 INFO  ProjectTaskService - Detected possible tasks: 47
+2019-07-05 21:24:15,663 INFO  ProjectTaskService - Excluded tasks (5): javadocs javadoc sourcesJar test check
+2019-07-05 21:24:15,663 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/stack/jus-netty/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
+2019-07-05 21:24:25,052 INFO  SysUtils - Configuration on demand is an incubating feature.
 :jus-java:compileJava UP-TO-DATE
 :jus-java:processResources UP-TO-DATE
 :jus-java:classes UP-TO-DATE
 :jus-java:jar UP-TO-DATE
 :stack:jus-netty:compileJava
-Download https://repo1.maven.org/maven2/io/netty/netty-transport/4.1.6.Final/netty-transport-4.1.6.Final.pom
-Download https://repo1.maven.org/maven2/io/netty/netty-parent/4.1.6.Final/netty-parent-4.1.6.Final.pom
-Download https://repo1.maven.org/maven2/io/netty/netty-handler/4.1.6.Final/netty-handler-4.1.6.Final.pom
-Download https://repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.6.Final/netty-codec-http-4.1.6.Final.pom
-Download https://repo1.maven.org/maven2/io/netty/netty-codec-http2/4.1.6.Final/netty-codec-http2-4.1.6.Final.pom
-Download https://repo1.maven.org/maven2/io/netty/netty-common/4.1.6.Final/netty-common-4.1.6.Final.pom
-Download https://repo1.maven.org/maven2/io/netty/netty-buffer/4.1.6.Final/netty-buffer-4.1.6.Final.pom
-Download https://repo1.maven.org/maven2/io/netty/netty-resolver/4.1.6.Final/netty-resolver-4.1.6.Final.pom
-Download https://repo1.maven.org/maven2/io/netty/netty-codec/4.1.6.Final/netty-codec-4.1.6.Final.pom
 Download https://repo1.maven.org/maven2/io/netty/netty-transport/4.1.6.Final/netty-transport-4.1.6.Final.jar
 Download https://repo1.maven.org/maven2/io/netty/netty-handler/4.1.6.Final/netty-handler-4.1.6.Final.jar
 Download https://repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.6.Final/netty-codec-http-4.1.6.Final.jar
@@ -1983,7 +1967,7 @@ Download https://repo1.maven.org/maven2/io/netty/netty-buffer/4.1.6.Final/netty-
 Download https://repo1.maven.org/maven2/io/netty/netty-resolver/4.1.6.Final/netty-resolver-4.1.6.Final.jar
 Download https://repo1.maven.org/maven2/io/netty/netty-codec/4.1.6.Final/netty-codec-4.1.6.Final.jar
 warning: [options] bootstrap class path not set in conjunction with -source 1.7
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/stack/jus-netty/src/main/java/io/apptik/comm/jus/netty/NettyHttpStack.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/stack/jus-netty/src/main/java/io/apptik/comm/jus/netty/NettyHttpStack.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 1 warning
 :stack:jus-netty:processResources UP-TO-DATE
@@ -1996,14 +1980,14 @@ Note: Recompile with -Xlint:deprecation for details.
 
 BUILD SUCCESSFUL
 
-Total time: 8.833 secs
+Total time: 9.254 secs
 
-2018-10-19 16:49:36,753 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-19 16:49:36,753 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/stack/jus-okhttp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-19 16:49:41,066 INFO  ProjectTaskService - Detected possible tasks: 47
-2018-10-19 16:49:41,066 INFO  ProjectTaskService - Excluded tasks (5): javadocs javadoc sourcesJar test check
-2018-10-19 16:49:41,066 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/stack/jus-okhttp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
-2018-10-19 16:49:46,529 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 21:24:25,090 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 21:24:25,090 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/stack/jus-okhttp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 21:24:28,777 INFO  ProjectTaskService - Detected possible tasks: 47
+2019-07-05 21:24:28,777 INFO  ProjectTaskService - Excluded tasks (5): javadocs javadoc sourcesJar test check
+2019-07-05 21:24:28,777 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/stack/jus-okhttp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
+2019-07-05 21:24:33,775 INFO  SysUtils - Configuration on demand is an incubating feature.
 :jus-java:compileJava UP-TO-DATE
 :jus-java:processResources UP-TO-DATE
 :jus-java:classes UP-TO-DATE
@@ -2021,21 +2005,22 @@ Total time: 8.833 secs
 
 BUILD SUCCESSFUL
 
-Total time: 5.313 secs
+Total time: 4.863 secs
 
-2018-10-19 16:49:46,574 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-19 16:49:46,574 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/stack/jus-okhttp3/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-19 16:49:50,871 INFO  ProjectTaskService - Detected possible tasks: 47
-2018-10-19 16:49:50,871 INFO  ProjectTaskService - Excluded tasks (5): javadocs javadoc sourcesJar test check
-2018-10-19 16:49:50,871 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539941651972-0/src/stack/jus-okhttp3/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
-2018-10-19 16:49:56,279 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 21:24:33,811 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 21:24:33,811 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/stack/jus-okhttp3/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 21:24:37,552 INFO  ProjectTaskService - Detected possible tasks: 47
+2019-07-05 21:24:37,552 INFO  ProjectTaskService - Excluded tasks (5): javadocs javadoc sourcesJar test check
+2019-07-05 21:24:37,552 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562336317997-0/src/stack/jus-okhttp3/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocs, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
+2019-07-05 21:24:42,574 INFO  SysUtils - Configuration on demand is an incubating feature.
 :jus-java:compileJava UP-TO-DATE
 :jus-java:processResources UP-TO-DATE
 :jus-java:classes UP-TO-DATE
 :jus-java:jar UP-TO-DATE
-:stack:jus-okhttp3:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+:stack:jus-okhttp3:compileJava
+Download https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.5.0/okhttp-3.5.0.jar
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
 1 warning
-
 :stack:jus-okhttp3:processResources UP-TO-DATE
 :stack:jus-okhttp3:classes
 :stack:jus-okhttp3:jar
@@ -2046,7 +2031,7 @@ Total time: 5.313 secs
 
 BUILD SUCCESSFUL
 
-Total time: 5.237 secs
+Total time: 4.902 secs
 
-2018-10-19 16:49:56,321 ERROR FullProcessService - Project build has not produced APK file
-2018-10-19 16:49:56,362 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-05 21:24:42,612 ERROR FullProcessService - Project build has not produced APK file
+2019-07-05 21:24:42,646 ERROR FullProcessService - Could not find generated or existed APK file

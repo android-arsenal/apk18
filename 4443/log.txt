@@ -1,34 +1,34 @@
-2018-10-19 13:37:10,904 INFO  DownloadService - Downloading "https://github.com/klaszlo8207/StretchTopViewExample/archive/master.zip", attempt 3
-2018-10-19 13:37:13,666 INFO  DownloadService - Downloaded https://github.com/klaszlo8207/StretchTopViewExample/archive/master.zip, attempt 3
-2018-10-19 13:37:13,666 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931030896-0/master.zip": 1001 KB
-2018-10-19 13:37:13,666 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-19 13:37:13,667 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931030896-0/master.zip: true
-2018-10-19 13:37:13,667 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931030896-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931030896-0/src'.
-2018-10-19 13:37:13,687 INFO  FullProcessService - Size of directory with sources: 1013 KB
-2018-10-19 13:37:13,687 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931030896-0/src]
-2018-10-19 13:37:13,704 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931030896-0/src/.git/
+2019-07-05 20:38:07,407 INFO  DownloadService - Downloading "https://github.com/klaszlo8207/StretchTopViewExample/archive/master.zip", attempt 3
+2019-07-05 20:38:08,317 INFO  DownloadService - Downloaded https://github.com/klaszlo8207/StretchTopViewExample/archive/master.zip, attempt 3
+2019-07-05 20:38:08,318 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333887399-0/master.zip": 1001 KB
+2019-07-05 20:38:08,318 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 20:38:08,323 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333887399-0/master.zip: true
+2019-07-05 20:38:08,324 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333887399-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333887399-0/src'.
+2019-07-05 20:38:08,341 INFO  FullProcessService - Size of directory with sources: 1013 KB
+2019-07-05 20:38:08,341 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333887399-0/src]
+2019-07-05 20:38:08,357 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333887399-0/src/.git/
 
-2018-10-19 13:37:13,707 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931030896-0/src/StretchTopViewExample-master/gradlew
-2018-10-19 13:37:13,710 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931030896-0/src/StretchTopViewExample-master/stretchTopViewExamples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931030896-0/src/StretchTopViewExample-master/stretchTopViewLibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931030896-0/src/StretchTopViewExample-master/build.gradle
-2018-10-19 13:37:13,712 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931030896-0/src/StretchTopViewExample-master/stretchTopViewLibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931030896-0/src/StretchTopViewExample-master/stretchTopViewExamples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931030896-0/src/StretchTopViewExample-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931030896-0/src/StretchTopViewExample-master/settings.gradle
-2018-10-19 13:37:13,712 INFO  ProjectBuildService - Remote scripts: none
-2018-10-19 13:37:13,712 INFO  ProjectFixService - Fixing project...
-2018-10-19 13:37:13,719 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931030896-0/src/StretchTopViewExample-master/stretchTopViewExamples/local.properties
-2018-10-19 13:37:13,719 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931030896-0/src/StretchTopViewExample-master/stretchTopViewExamples/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2018-10-19 13:37:13,720 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931030896-0/src/StretchTopViewExample-master/stretchTopViewLibrary/local.properties
-2018-10-19 13:37:13,720 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931030896-0/src/StretchTopViewExample-master/stretchTopViewLibrary/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2018-10-19 13:37:13,721 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931030896-0/src/StretchTopViewExample-master/local.properties
-2018-10-19 13:37:13,722 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-19 13:37:13,722 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-19 13:37:13,723 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931030896-0/src/StretchTopViewExample-master/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2018-10-19 13:37:13,723 INFO  ProjectFixService - Project was maybe fixed
-2018-10-19 13:37:13,723 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-19 13:37:13,723 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931030896-0/src/StretchTopViewExample-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931030896-0/src/StretchTopViewExample-master/stretchTopViewExamples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-19 13:37:24,969 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-19 13:37:24,970 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-19 13:37:24,970 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-19 13:37:24,970 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931030896-0/src/StretchTopViewExample-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931030896-0/src/StretchTopViewExample-master/stretchTopViewExamples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-19 13:37:31,328 ERROR SysUtils - Could not process external command
+2019-07-05 20:38:08,359 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333887399-0/src/StretchTopViewExample-master/gradlew
+2019-07-05 20:38:08,362 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333887399-0/src/StretchTopViewExample-master/stretchTopViewExamples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333887399-0/src/StretchTopViewExample-master/stretchTopViewLibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333887399-0/src/StretchTopViewExample-master/build.gradle
+2019-07-05 20:38:08,364 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333887399-0/src/StretchTopViewExample-master/stretchTopViewLibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333887399-0/src/StretchTopViewExample-master/stretchTopViewExamples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333887399-0/src/StretchTopViewExample-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333887399-0/src/StretchTopViewExample-master/settings.gradle
+2019-07-05 20:38:08,365 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 20:38:08,365 INFO  ProjectFixService - Fixing project...
+2019-07-05 20:38:08,371 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333887399-0/src/StretchTopViewExample-master/stretchTopViewExamples/local.properties
+2019-07-05 20:38:08,371 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333887399-0/src/StretchTopViewExample-master/stretchTopViewExamples/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-07-05 20:38:08,372 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333887399-0/src/StretchTopViewExample-master/stretchTopViewLibrary/local.properties
+2019-07-05 20:38:08,372 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333887399-0/src/StretchTopViewExample-master/stretchTopViewLibrary/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-07-05 20:38:08,373 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333887399-0/src/StretchTopViewExample-master/local.properties
+2019-07-05 20:38:08,373 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-07-05 20:38:08,374 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-07-05 20:38:08,374 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333887399-0/src/StretchTopViewExample-master/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-07-05 20:38:08,375 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 20:38:08,375 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 20:38:08,375 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333887399-0/src/StretchTopViewExample-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333887399-0/src/StretchTopViewExample-master/stretchTopViewExamples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 20:38:15,424 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 20:38:15,425 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 20:38:15,425 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 20:38:15,425 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333887399-0/src/StretchTopViewExample-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333887399-0/src/StretchTopViewExample-master/stretchTopViewExamples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 20:38:20,915 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -49,14 +49,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-19 13:37:31,328 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 20:38:20,915 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -167,15 +167,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.767 secs
+Total time: 4.909 secs
 
-2018-10-19 13:37:31,331 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-19 13:37:31,331 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931030896-0/src/StretchTopViewExample-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931030896-0/src/StretchTopViewExample-master/stretchTopViewLibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-19 13:37:37,804 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-19 13:37:37,804 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-19 13:37:37,804 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-19 13:37:37,804 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931030896-0/src/StretchTopViewExample-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931030896-0/src/StretchTopViewExample-master/stretchTopViewLibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-19 13:37:49,442 ERROR SysUtils - Could not process external command
+2019-07-05 20:38:20,918 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 20:38:20,918 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333887399-0/src/StretchTopViewExample-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333887399-0/src/StretchTopViewExample-master/stretchTopViewLibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 20:38:26,721 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 20:38:26,721 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 20:38:26,721 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 20:38:26,722 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333887399-0/src/StretchTopViewExample-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333887399-0/src/StretchTopViewExample-master/stretchTopViewLibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 20:38:36,311 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -196,14 +196,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-19 13:37:49,442 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 20:38:36,311 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :stretchTopViewLibrary:preBuild UP-TO-DATE
 :stretchTopViewLibrary:preDebugBuild UP-TO-DATE
@@ -384,15 +384,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 10.999 secs
+Total time: 9.027 secs
 
-2018-10-19 13:37:49,521 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-19 13:37:49,521 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931030896-0/src/StretchTopViewExample-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931030896-0/src/StretchTopViewExample-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-19 13:37:56,770 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-19 13:37:56,770 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-19 13:37:56,770 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-19 13:37:56,770 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931030896-0/src/StretchTopViewExample-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539931030896-0/src/StretchTopViewExample-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-19 13:38:02,912 ERROR SysUtils - Could not process external command
+2019-07-05 20:38:36,361 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 20:38:36,361 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333887399-0/src/StretchTopViewExample-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333887399-0/src/StretchTopViewExample-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 20:38:42,040 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 20:38:42,040 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 20:38:42,040 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 20:38:42,040 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333887399-0/src/StretchTopViewExample-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562333887399-0/src/StretchTopViewExample-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 20:38:47,626 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -413,14 +413,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-19 13:38:02,913 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 20:38:47,626 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -524,14 +524,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 5.532 secs
+Total time: 4.997 secs
 
-2018-10-19 13:38:02,978 ERROR FullProcessService - Project build has not produced APK file
-2018-10-19 13:38:03,033 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-05 20:38:47,676 ERROR FullProcessService - Project build has not produced APK file
+2019-07-05 20:38:47,720 ERROR FullProcessService - Could not find generated or existed APK file

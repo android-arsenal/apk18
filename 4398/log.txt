@@ -1,34 +1,34 @@
-2018-10-19 17:03:04,986 INFO  DownloadService - Downloading "https://github.com/xmuSistone/android-page-transition/archive/master.zip", attempt 3
-2018-10-19 17:04:06,762 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-10-19 17:04:08,298 INFO  GithubDownloadService - Default branch of this repository: master
-2018-10-19 17:04:08,298 INFO  DownloadService - Downloading "https://github.com/xmuSistone/android-page-transition/archive/master.zip", attempt 3
-2018-10-19 17:05:10,894 DEBUG FullProcessService - Repository https://github.com/xmuSistone/android-page-transition available: true
-2018-10-19 17:05:10,894 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-10-19 17:05:10,895 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/xmuSistone/android-page-transition, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539943384983-0/src]
-2018-10-19 17:05:22,960 INFO  SysUtils - 
-2018-10-19 17:05:23,003 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539943384983-0/src/.git": true
-2018-10-19 17:05:23,006 INFO  FullProcessService - Size of directory with sources: 9 MB
-2018-10-19 17:05:23,006 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539943384983-0/src]
-2018-10-19 17:05:23,021 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539943384983-0/src/.git/
+2019-07-05 21:34:16,922 INFO  DownloadService - Downloading "https://github.com/xmuSistone/android-page-transition/archive/master.zip", attempt 3
+2019-07-05 21:35:17,732 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-05 21:35:19,176 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-05 21:35:19,176 INFO  DownloadService - Downloading "https://github.com/xmuSistone/android-page-transition/archive/master.zip", attempt 3
+2019-07-05 21:36:21,288 DEBUG FullProcessService - Repository https://github.com/xmuSistone/android-page-transition available: true
+2019-07-05 21:36:21,288 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-05 21:36:21,288 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/xmuSistone/android-page-transition, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562337256919-0/src]
+2019-07-05 21:36:25,756 INFO  SysUtils - 
+2019-07-05 21:36:25,787 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562337256919-0/src/.git": true
+2019-07-05 21:36:25,789 INFO  FullProcessService - Size of directory with sources: 9 MB
+2019-07-05 21:36:25,789 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562337256919-0/src]
+2019-07-05 21:36:25,804 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562337256919-0/src/.git/
 
-2018-10-19 17:05:23,023 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539943384983-0/src/android-page-transition/gradlew
-2018-10-19 17:05:23,026 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539943384983-0/src/android-page-transition/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539943384983-0/src/android-page-transition/build.gradle
-2018-10-19 17:05:23,028 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539943384983-0/src/android-page-transition/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539943384983-0/src/android-page-transition/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539943384983-0/src/android-page-transition/settings.gradle
-2018-10-19 17:05:23,028 INFO  ProjectBuildService - Remote scripts: none
-2018-10-19 17:05:23,028 INFO  ProjectFixService - Fixing project...
-2018-10-19 17:05:23,034 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539943384983-0/src/android-page-transition/app/local.properties
-2018-10-19 17:05:23,034 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539943384983-0/src/android-page-transition/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-10-19 17:05:23,035 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539943384983-0/src/android-page-transition/local.properties
-2018-10-19 17:05:23,035 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-10-19 17:05:23,036 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-10-19 17:05:23,036 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539943384983-0/src/android-page-transition/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-10-19 17:05:23,036 INFO  ProjectFixService - Project was maybe fixed
-2018-10-19 17:05:23,036 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-19 17:05:23,037 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539943384983-0/src/android-page-transition/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539943384983-0/src/android-page-transition/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-19 17:05:33,817 INFO  ProjectTaskService - Detected possible tasks: 70
-2018-10-19 17:05:33,817 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-10-19 17:05:33,817 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539943384983-0/src/android-page-transition/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539943384983-0/src/android-page-transition/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-10-19 17:05:50,734 ERROR SysUtils - Could not process external command
+2019-07-05 21:36:25,807 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562337256919-0/src/android-page-transition/gradlew
+2019-07-05 21:36:25,809 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562337256919-0/src/android-page-transition/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562337256919-0/src/android-page-transition/build.gradle
+2019-07-05 21:36:25,811 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562337256919-0/src/android-page-transition/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562337256919-0/src/android-page-transition/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562337256919-0/src/android-page-transition/settings.gradle
+2019-07-05 21:36:25,811 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 21:36:25,811 INFO  ProjectFixService - Fixing project...
+2019-07-05 21:36:25,819 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562337256919-0/src/android-page-transition/app/local.properties
+2019-07-05 21:36:25,819 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562337256919-0/src/android-page-transition/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-07-05 21:36:25,820 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562337256919-0/src/android-page-transition/local.properties
+2019-07-05 21:36:25,820 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-07-05 21:36:25,820 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-07-05 21:36:25,821 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562337256919-0/src/android-page-transition/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-07-05 21:36:25,821 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 21:36:25,821 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 21:36:25,821 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562337256919-0/src/android-page-transition/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562337256919-0/src/android-page-transition/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 21:36:32,676 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-07-05 21:36:32,676 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-05 21:36:32,676 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562337256919-0/src/android-page-transition/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562337256919-0/src/android-page-transition/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-05 21:36:45,867 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -48,14 +48,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-19 17:05:50,736 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 21:36:45,867 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
@@ -83,7 +83,7 @@ Incremental java compilation is an incubating feature.
 :app:incrementalDebugJavaCompilationSafeguard
 :app:compileDebugJavaWithJavac
 :app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539943384983-0/src/android-page-transition/app/src/main/java/com/stone/transition/CommonFragment.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562337256919-0/src/android-page-transition/app/src/main/java/com/stone/transition/CommonFragment.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 :app:compileDebugNdk UP-TO-DATE
 :app:compileDebugSources
@@ -125,7 +125,7 @@ Result is 1657 defs/2506.2KiB. Took 0.2s
 :app:incrementalReleaseJavaCompilationSafeguard
 :app:compileReleaseJavaWithJavac
 :app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539943384983-0/src/android-page-transition/app/src/main/java/com/stone/transition/CommonFragment.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562337256919-0/src/android-page-transition/app/src/main/java/com/stone/transition/CommonFragment.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 :app:compileReleaseNdk UP-TO-DATE
 :app:compileReleaseSources
@@ -225,6 +225,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 16.357 secs
+Total time: 12.596 secs
 
-2018-10-19 17:05:50,816 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539943384983-0/src/android-page-transition/app/build/outputs/apk/app-debug.apk
+2019-07-05 21:36:45,904 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562337256919-0/src/android-page-transition/app/build/outputs/apk/app-debug.apk

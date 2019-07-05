@@ -1,38 +1,38 @@
-2018-10-19 13:56:50,117 INFO  DownloadService - Downloading "https://github.com/janishar/ButterKnifeLite/archive/master.zip", attempt 3
-2018-10-19 13:56:50,759 INFO  DownloadService - Downloaded https://github.com/janishar/ButterKnifeLite/archive/master.zip, attempt 3
-2018-10-19 13:56:50,759 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/master.zip": 112 KB
-2018-10-19 13:56:50,759 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-19 13:56:50,760 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/master.zip: true
-2018-10-19 13:56:50,760 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/src'.
-2018-10-19 13:56:50,778 INFO  FullProcessService - Size of directory with sources: 122 KB
-2018-10-19 13:56:50,778 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/src]
-2018-10-19 13:56:50,794 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/src/.git/
+2019-07-05 20:55:09,002 INFO  DownloadService - Downloading "https://github.com/janishar/ButterKnifeLite/archive/master.zip", attempt 3
+2019-07-05 20:55:09,860 INFO  DownloadService - Downloaded https://github.com/janishar/ButterKnifeLite/archive/master.zip, attempt 3
+2019-07-05 20:55:09,861 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/master.zip": 112 KB
+2019-07-05 20:55:09,861 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 20:55:09,862 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/master.zip: true
+2019-07-05 20:55:09,862 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/src'.
+2019-07-05 20:55:09,876 INFO  FullProcessService - Size of directory with sources: 122 KB
+2019-07-05 20:55:09,876 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/src]
+2019-07-05 20:55:09,891 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/src/.git/
 
-2018-10-19 13:56:50,797 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/src/ButterKnifeLite-master/ButterKnifeLite/gradlew
-2018-10-19 13:56:50,800 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/src/ButterKnifeLite-master/ButterKnifeLite/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/src/ButterKnifeLite-master/ButterKnifeLite/butterknifelite/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/src/ButterKnifeLite-master/ButterKnifeLite/build.gradle
-2018-10-19 13:56:50,803 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/src/ButterKnifeLite-master/ButterKnifeLite/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/src/ButterKnifeLite-master/ButterKnifeLite/butterknifelite/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/src/ButterKnifeLite-master/ButterKnifeLite/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/src/ButterKnifeLite-master/ButterKnifeLite/settings.gradle
-2018-10-19 13:56:50,803 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2018-10-19 13:56:50,899 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2018-10-19 13:56:50,899 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2018-10-19 13:56:50,992 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2018-10-19 13:56:50,992 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2018-10-19 13:56:50,993 INFO  ProjectFixService - Fixing project...
-2018-10-19 13:56:51,002 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/src/ButterKnifeLite-master/ButterKnifeLite/app/local.properties
-2018-10-19 13:56:51,002 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/src/ButterKnifeLite-master/ButterKnifeLite/app/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
-2018-10-19 13:56:51,003 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/src/ButterKnifeLite-master/ButterKnifeLite/butterknifelite/local.properties
-2018-10-19 13:56:51,003 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/src/ButterKnifeLite-master/ButterKnifeLite/butterknifelite/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
-2018-10-19 13:56:51,003 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/src/ButterKnifeLite-master/ButterKnifeLite/local.properties
-2018-10-19 13:56:51,004 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-19 13:56:51,004 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-19 13:56:51,005 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/src/ButterKnifeLite-master/ButterKnifeLite/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
-2018-10-19 13:56:51,005 INFO  ProjectFixService - Project was maybe fixed
-2018-10-19 13:56:51,005 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-19 13:56:51,005 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/src/ButterKnifeLite-master/ButterKnifeLite/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/src/ButterKnifeLite-master/ButterKnifeLite/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-19 13:57:00,764 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-19 13:57:00,765 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-10-19 13:57:00,765 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-10-19 13:57:00,765 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/src/ButterKnifeLite-master/ButterKnifeLite/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/src/ButterKnifeLite-master/ButterKnifeLite/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-10-19 13:57:06,896 ERROR SysUtils - Could not process external command
+2019-07-05 20:55:09,894 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/src/ButterKnifeLite-master/ButterKnifeLite/gradlew
+2019-07-05 20:55:09,896 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/src/ButterKnifeLite-master/ButterKnifeLite/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/src/ButterKnifeLite-master/ButterKnifeLite/butterknifelite/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/src/ButterKnifeLite-master/ButterKnifeLite/build.gradle
+2019-07-05 20:55:09,898 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/src/ButterKnifeLite-master/ButterKnifeLite/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/src/ButterKnifeLite-master/ButterKnifeLite/butterknifelite/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/src/ButterKnifeLite-master/ButterKnifeLite/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/src/ButterKnifeLite-master/ButterKnifeLite/settings.gradle
+2019-07-05 20:55:09,899 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-07-05 20:55:09,996 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-07-05 20:55:09,996 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-07-05 20:55:10,089 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-07-05 20:55:10,090 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-07-05 20:55:10,090 INFO  ProjectFixService - Fixing project...
+2019-07-05 20:55:10,098 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/src/ButterKnifeLite-master/ButterKnifeLite/app/local.properties
+2019-07-05 20:55:10,099 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/src/ButterKnifeLite-master/ButterKnifeLite/app/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2019-07-05 20:55:10,099 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/src/ButterKnifeLite-master/ButterKnifeLite/butterknifelite/local.properties
+2019-07-05 20:55:10,099 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/src/ButterKnifeLite-master/ButterKnifeLite/butterknifelite/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2019-07-05 20:55:10,100 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/src/ButterKnifeLite-master/ButterKnifeLite/local.properties
+2019-07-05 20:55:10,100 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-07-05 20:55:10,100 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-07-05 20:55:10,101 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/src/ButterKnifeLite-master/ButterKnifeLite/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2019-07-05 20:55:10,101 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 20:55:10,101 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 20:55:10,101 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/src/ButterKnifeLite-master/ButterKnifeLite/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/src/ButterKnifeLite-master/ButterKnifeLite/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 20:55:16,844 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 20:55:16,844 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-07-05 20:55:16,844 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-07-05 20:55:16,844 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/src/ButterKnifeLite-master/ButterKnifeLite/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/src/ButterKnifeLite-master/ButterKnifeLite/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-07-05 20:55:21,979 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -52,14 +52,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-19 13:57:06,896 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 20:55:21,979 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -153,22 +153,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 47 more
 
 
 BUILD FAILED
 
-Total time: 5.54 secs
+Total time: 4.514 secs
 
-2018-10-19 13:57:06,900 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-19 13:57:06,900 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/src/ButterKnifeLite-master/ButterKnifeLite/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/src/ButterKnifeLite-master/ButterKnifeLite/butterknifelite/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-19 13:57:15,748 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-19 13:57:15,749 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-10-19 13:57:15,749 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-10-19 13:57:15,749 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/src/ButterKnifeLite-master/ButterKnifeLite/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/src/ButterKnifeLite-master/ButterKnifeLite/butterknifelite/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-10-19 13:57:25,593 ERROR SysUtils - Could not process external command
+2019-07-05 20:55:21,983 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 20:55:21,983 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/src/ButterKnifeLite-master/ButterKnifeLite/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/src/ButterKnifeLite-master/ButterKnifeLite/butterknifelite/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 20:55:28,659 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 20:55:28,659 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-07-05 20:55:28,659 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-07-05 20:55:28,659 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/src/ButterKnifeLite-master/ButterKnifeLite/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/src/ButterKnifeLite-master/ButterKnifeLite/butterknifelite/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-07-05 20:55:36,876 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -188,14 +188,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-19 13:57:25,593 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 20:55:36,876 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :butterknifelite:preBuild UP-TO-DATE
 :butterknifelite:preDebugBuild UP-TO-DATE
@@ -219,9 +219,9 @@ Incremental java compilation is an incubating feature.
 :butterknifelite:generateDebugResources
 :butterknifelite:mergeDebugResources
 :butterknifelite:processDebugManifest
-:butterknifelite:processDebugResources/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/src/ButterKnifeLite-master/ButterKnifeLite/butterknifelite/build/intermediates/manifests/aapt/debug/AndroidManifest.xml:13:24-40: AAPT: No resource found that matches the given name (at 'label' with value '@string/app_name').
+:butterknifelite:processDebugResources/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/src/ButterKnifeLite-master/ButterKnifeLite/butterknifelite/build/intermediates/manifests/aapt/debug/AndroidManifest.xml:13:24-40: AAPT: No resource found that matches the given name (at 'label' with value '@string/app_name').
     
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/src/ButterKnifeLite-master/ButterKnifeLite/butterknifelite/build/intermediates/manifests/aapt/debug/AndroidManifest.xml:11: error: Error: No resource found that matches the given name (at 'label' with value '@string/app_name').
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/src/ButterKnifeLite-master/ButterKnifeLite/butterknifelite/build/intermediates/manifests/aapt/debug/AndroidManifest.xml:11: error: Error: No resource found that matches the given name (at 'label' with value '@string/app_name').
 
 
  FAILED
@@ -313,13 +313,13 @@ Caused by: com.android.ide.common.process.ProcessException: Failed to execute aa
 	at com.android.builder.core.AndroidBuilder.processResources(AndroidBuilder.java:909)
 	at com.android.build.gradle.tasks.ProcessAndroidResources.doFullTaskAction(ProcessAndroidResources.java:178)
 	... 68 more
-Caused by: java.util.concurrent.ExecutionException: com.android.ide.common.process.ProcessException: Error while executing '/Users/vbauer/Library/Android/sdk/build-tools/24.0.1/aapt' with arguments {package -f --no-crunch -I /Users/vbauer/Library/Android/sdk/platforms/android-23/android.jar -M /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/src/ButterKnifeLite-master/ButterKnifeLite/butterknifelite/build/intermediates/manifests/aapt/debug/AndroidManifest.xml -S /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/src/ButterKnifeLite-master/ButterKnifeLite/butterknifelite/build/intermediates/res/merged/debug -m -J /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/src/ButterKnifeLite-master/ButterKnifeLite/butterknifelite/build/generated/source/r/debug --debug-mode --custom-package com.mindorks.butterknifelite --non-constant-id -0 apk --output-text-symbols /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/src/ButterKnifeLite-master/ButterKnifeLite/butterknifelite/build/intermediates/bundles/debug --no-version-vectors}
+Caused by: java.util.concurrent.ExecutionException: com.android.ide.common.process.ProcessException: Error while executing '/Users/vbauer/Library/Android/sdk/build-tools/24.0.1/aapt' with arguments {package -f --no-crunch -I /Users/vbauer/Library/Android/sdk/platforms/android-23/android.jar -M /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/src/ButterKnifeLite-master/ButterKnifeLite/butterknifelite/build/intermediates/manifests/aapt/debug/AndroidManifest.xml -S /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/src/ButterKnifeLite-master/ButterKnifeLite/butterknifelite/build/intermediates/res/merged/debug -m -J /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/src/ButterKnifeLite-master/ButterKnifeLite/butterknifelite/build/generated/source/r/debug --debug-mode --custom-package com.mindorks.butterknifelite --non-constant-id -0 apk --output-text-symbols /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/src/ButterKnifeLite-master/ButterKnifeLite/butterknifelite/build/intermediates/bundles/debug --no-version-vectors}
 	at com.google.common.util.concurrent.AbstractFuture$Sync.getValue(AbstractFuture.java:299)
 	at com.google.common.util.concurrent.AbstractFuture$Sync.get(AbstractFuture.java:286)
 	at com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:116)
 	at com.android.builder.core.AndroidBuilder.processResources(AndroidBuilder.java:907)
 	... 69 more
-Caused by: com.android.ide.common.process.ProcessException: Error while executing '/Users/vbauer/Library/Android/sdk/build-tools/24.0.1/aapt' with arguments {package -f --no-crunch -I /Users/vbauer/Library/Android/sdk/platforms/android-23/android.jar -M /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/src/ButterKnifeLite-master/ButterKnifeLite/butterknifelite/build/intermediates/manifests/aapt/debug/AndroidManifest.xml -S /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/src/ButterKnifeLite-master/ButterKnifeLite/butterknifelite/build/intermediates/res/merged/debug -m -J /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/src/ButterKnifeLite-master/ButterKnifeLite/butterknifelite/build/generated/source/r/debug --debug-mode --custom-package com.mindorks.butterknifelite --non-constant-id -0 apk --output-text-symbols /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/src/ButterKnifeLite-master/ButterKnifeLite/butterknifelite/build/intermediates/bundles/debug --no-version-vectors}
+Caused by: com.android.ide.common.process.ProcessException: Error while executing '/Users/vbauer/Library/Android/sdk/build-tools/24.0.1/aapt' with arguments {package -f --no-crunch -I /Users/vbauer/Library/Android/sdk/platforms/android-23/android.jar -M /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/src/ButterKnifeLite-master/ButterKnifeLite/butterknifelite/build/intermediates/manifests/aapt/debug/AndroidManifest.xml -S /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/src/ButterKnifeLite-master/ButterKnifeLite/butterknifelite/build/intermediates/res/merged/debug -m -J /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/src/ButterKnifeLite-master/ButterKnifeLite/butterknifelite/build/generated/source/r/debug --debug-mode --custom-package com.mindorks.butterknifelite --non-constant-id -0 apk --output-text-symbols /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/src/ButterKnifeLite-master/ButterKnifeLite/butterknifelite/build/intermediates/bundles/debug --no-version-vectors}
 	at com.android.build.gradle.internal.process.GradleProcessResult.buildProcessException(GradleProcessResult.java:75)
 	at com.android.build.gradle.internal.process.GradleProcessResult.assertNormalExitValue(GradleProcessResult.java:49)
 	at com.android.builder.internal.aapt.AbstractProcessExecutionAapt$1.onSuccess(AbstractProcessExecutionAapt.java:78)
@@ -339,15 +339,15 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command '/Users/v
 
 BUILD FAILED
 
-Total time: 9.094 secs
+Total time: 7.417 secs
 
-2018-10-19 13:57:25,631 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-19 13:57:25,631 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/src/ButterKnifeLite-master/ButterKnifeLite/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/src/ButterKnifeLite-master/ButterKnifeLite/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-19 13:57:31,522 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-19 13:57:31,522 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-10-19 13:57:31,522 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-10-19 13:57:31,522 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/src/ButterKnifeLite-master/ButterKnifeLite/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539932210114-0/src/ButterKnifeLite-master/ButterKnifeLite/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-10-19 13:57:37,233 ERROR SysUtils - Could not process external command
+2019-07-05 20:55:36,908 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 20:55:36,909 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/src/ButterKnifeLite-master/ButterKnifeLite/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/src/ButterKnifeLite-master/ButterKnifeLite/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 20:55:42,075 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 20:55:42,075 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-07-05 20:55:42,075 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-07-05 20:55:42,076 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/src/ButterKnifeLite-master/ButterKnifeLite/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334909000-0/src/ButterKnifeLite-master/ButterKnifeLite/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-07-05 20:55:47,174 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -367,14 +367,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-19 13:57:37,233 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 20:55:47,174 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -476,7 +476,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.103 secs
+Total time: 4.468 secs
 
-2018-10-19 13:57:37,275 ERROR FullProcessService - Project build has not produced APK file
-2018-10-19 13:57:37,312 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-05 20:55:47,205 ERROR FullProcessService - Project build has not produced APK file
+2019-07-05 20:55:47,230 ERROR FullProcessService - Could not find generated or existed APK file

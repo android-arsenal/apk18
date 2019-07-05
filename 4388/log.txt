@@ -1,40 +1,43 @@
-2018-10-20 19:09:13,087 INFO  DownloadService - Downloading "https://github.com/NateWickstrom/RxActivityResult/archive/master.zip", attempt 3
-2018-10-20 19:09:13,617 INFO  DownloadService - Downloaded https://github.com/NateWickstrom/RxActivityResult/archive/master.zip, attempt 3
-2018-10-20 19:09:13,617 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/master.zip": 107 KB
-2018-10-20 19:09:13,617 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-20 19:09:13,617 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/master.zip: true
-2018-10-20 19:09:13,617 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src'.
-2018-10-20 19:09:13,630 INFO  FullProcessService - Size of directory with sources: 125 KB
-2018-10-20 19:09:13,630 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src]
-2018-10-20 19:09:13,647 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/.git/
+2019-07-05 22:04:28,904 INFO  DownloadService - Downloading "https://github.com/NateWickstrom/RxActivityResult/archive/master.zip", attempt 3
+2019-07-05 22:05:29,471 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-05 22:05:30,500 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-05 22:05:30,500 INFO  DownloadService - Downloading "https://github.com/NateWickstrom/RxActivityResult/archive/master.zip", attempt 3
+2019-07-05 22:06:32,042 DEBUG FullProcessService - Repository https://github.com/NateWickstrom/RxActivityResult available: true
+2019-07-05 22:06:32,042 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-05 22:06:32,042 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/NateWickstrom/RxActivityResult, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src]
+2019-07-05 22:06:34,068 INFO  SysUtils - 
+2019-07-05 22:06:34,091 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/.git": true
+2019-07-05 22:06:34,093 INFO  FullProcessService - Size of directory with sources: 125 KB
+2019-07-05 22:06:34,093 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src]
+2019-07-05 22:06:34,108 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/.git/
 
-2018-10-20 19:09:13,649 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/gradlew
-2018-10-20 19:09:13,652 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/build.gradle
-2018-10-20 19:09:13,654 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/settings.gradle
-2018-10-20 19:09:13,655 INFO  ProjectBuildService - Remote scripts: none
-2018-10-20 19:09:13,655 INFO  ProjectFixService - Fixing project...
-2018-10-20 19:09:13,662 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/local.properties
-2018-10-20 19:09:13,663 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=10,targetSdkVersion=<null>]
-2018-10-20 19:09:13,663 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=10,targetSdkVersion=28]
-2018-10-20 19:09:13,664 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/local.properties
-2018-10-20 19:09:13,665 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=10,targetSdkVersion=<null>]
-2018-10-20 19:09:13,666 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=10,targetSdkVersion=28]
-2018-10-20 19:09:13,666 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/sample/local.properties
-2018-10-20 19:09:13,668 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/sample/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=<null>]
-2018-10-20 19:09:13,668 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/sample/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=28]
-2018-10-20 19:09:13,668 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/local.properties
-2018-10-20 19:09:13,669 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-20 19:09:13,669 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-20 19:09:13,670 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=10,targetSdkVersion=<null>]
-2018-10-20 19:09:13,671 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=10,targetSdkVersion=28]
-2018-10-20 19:09:13,671 INFO  ProjectFixService - Project was maybe fixed
-2018-10-20 19:09:13,671 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-20 19:09:13,671 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-20 19:09:26,708 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-20 19:09:26,708 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-20 19:09:26,708 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-20 19:09:26,708 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-20 19:09:37,006 ERROR SysUtils - Could not process external command
+2019-07-05 22:06:34,110 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/gradlew
+2019-07-05 22:06:34,112 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult-support-v4/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/build.gradle
+2019-07-05 22:06:34,113 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult-support-v4/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/settings.gradle
+2019-07-05 22:06:34,114 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 22:06:34,114 INFO  ProjectFixService - Fixing project...
+2019-07-05 22:06:34,119 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult-support-v4/local.properties
+2019-07-05 22:06:34,120 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult-support-v4/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=10,targetSdkVersion=<null>]
+2019-07-05 22:06:34,120 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult-support-v4/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=10,targetSdkVersion=29]
+2019-07-05 22:06:34,121 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult/local.properties
+2019-07-05 22:06:34,122 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=10,targetSdkVersion=<null>]
+2019-07-05 22:06:34,122 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=10,targetSdkVersion=29]
+2019-07-05 22:06:34,122 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/sample/local.properties
+2019-07-05 22:06:34,124 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/sample/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=<null>]
+2019-07-05 22:06:34,124 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/sample/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=29]
+2019-07-05 22:06:34,124 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/local.properties
+2019-07-05 22:06:34,125 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-07-05 22:06:34,125 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-07-05 22:06:34,126 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=10,targetSdkVersion=<null>]
+2019-07-05 22:06:34,126 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=10,targetSdkVersion=29]
+2019-07-05 22:06:34,126 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 22:06:34,127 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 22:06:34,127 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult-support-v4/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 22:06:44,157 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 22:06:44,158 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 22:06:44,158 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 22:06:44,158 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult-support-v4/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 22:06:53,248 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -54,14 +57,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-20 19:09:37,006 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 22:06:53,248 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :rxactivityresult-support-v4:preBuild UP-TO-DATE
 :rxactivityresult-support-v4:preDebugBuild UP-TO-DATE
@@ -176,118 +179,118 @@ Incremental java compilation is an incubating feature.
 :rxactivityresult-support-v4:bundleRelease
 :rxactivityresult-support-v4:compileReleaseSources
 :rxactivityresult-support-v4:assembleRelease
-:rxactivityresult-support-v4:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:8: error: package android.support.annotation does not exist
+:rxactivityresult-support-v4:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:8: error: package android.support.annotation does not exist
 import android.support.annotation.CheckResult;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:9: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:9: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:10: error: package android.support.v4.app does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:10: error: package android.support.v4.app does not exist
 import android.support.v4.app.Fragment;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:12: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:12: error: cannot find symbol
 import com.natewickstrom.rxactivityresult.Launchable;
                                          ^
   symbol:   class Launchable
   location: package com.natewickstrom.rxactivityresult
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:13: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:13: error: cannot find symbol
 import com.natewickstrom.rxactivityresult.RxActivityResult;
                                          ^
   symbol:   class RxActivityResult
   location: package com.natewickstrom.rxactivityresult
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:22: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:22: error: cannot find symbol
     private RxActivityResult rxActivityResult;
             ^
   symbol:   class RxActivityResult
   location: class RxFragmentActivityResult
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:31: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:31: error: cannot find symbol
     private RxFragmentActivityResult(RxActivityResult rxActivityResult) {
                                      ^
   symbol:   class RxActivityResult
   location: class RxFragmentActivityResult
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:42: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:42: error: cannot find symbol
     public Launchable from(@NonNull Activity activity) {
            ^
   symbol:   class Launchable
   location: class RxFragmentActivityResult
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:54: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:54: error: cannot find symbol
     public Launchable from(@NonNull final android.app.Fragment fragment) {
            ^
   symbol:   class Launchable
   location: class RxFragmentActivityResult
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:72: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:72: error: cannot find symbol
     public Launchable from(@NonNull final Fragment fragment) {
                                           ^
   symbol:   class Fragment
   location: class RxFragmentActivityResult
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:72: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:72: error: cannot find symbol
     public Launchable from(@NonNull final Fragment fragment) {
            ^
   symbol:   class Launchable
   location: class RxFragmentActivityResult
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:42: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:42: error: cannot find symbol
     public Launchable from(@NonNull Activity activity) {
                             ^
   symbol:   class NonNull
   location: class RxFragmentActivityResult
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:41: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:41: error: cannot find symbol
     @CheckResult
      ^
   symbol:   class CheckResult
   location: class RxFragmentActivityResult
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:54: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:54: error: cannot find symbol
     public Launchable from(@NonNull final android.app.Fragment fragment) {
                             ^
   symbol:   class NonNull
   location: class RxFragmentActivityResult
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:53: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:53: error: cannot find symbol
     @CheckResult
      ^
   symbol:   class CheckResult
   location: class RxFragmentActivityResult
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:72: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:72: error: cannot find symbol
     public Launchable from(@NonNull final Fragment fragment) {
                             ^
   symbol:   class NonNull
   location: class RxFragmentActivityResult
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:71: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:71: error: cannot find symbol
     @CheckResult
      ^
   symbol:   class CheckResult
   location: class RxFragmentActivityResult
 javadoc: warning - Class CheckResult not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:42: warning - Tag @link: reference not found: Launchable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:42: warning - Tag @link: reference not found: Launchable
 javadoc: warning - Class CheckResult not found.
 javadoc: warning - Class CheckResult not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:54: warning - Tag @link: reference not found: Launchable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:54: warning - Tag @link: reference not found: Launchable
 javadoc: warning - Class CheckResult not found.
 javadoc: warning - Class CheckResult not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:72: warning - Tag @link: reference not found: Launchable
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:72: warning - Tag @link: reference not found: Fragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:72: warning - Tag @link: reference not found: Launchable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:72: warning - Tag @link: reference not found: Fragment
 javadoc: warning - Class CheckResult not found.
 javadoc: warning - Class CheckResult not found.
 javadoc: warning - Class NonNull not found.
 javadoc: warning - Class CheckResult not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:42: warning - Tag @link: reference not found: Launchable
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:42: warning - Tag @link: reference not found: Launchable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:42: warning - Tag @link: reference not found: Launchable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:42: warning - Tag @link: reference not found: Launchable
 javadoc: warning - Class CheckResult not found.
 javadoc: warning - Class NonNull not found.
 javadoc: warning - Class CheckResult not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:54: warning - Tag @link: reference not found: Launchable
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:54: warning - Tag @link: reference not found: Launchable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:54: warning - Tag @link: reference not found: Launchable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:54: warning - Tag @link: reference not found: Launchable
 javadoc: warning - Class CheckResult not found.
 javadoc: warning - Class NonNull not found.
 javadoc: warning - Class CheckResult not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:72: warning - Tag @link: reference not found: Launchable
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:72: warning - Tag @link: reference not found: Fragment
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:72: warning - Tag @link: reference not found: Launchable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:72: warning - Tag @link: reference not found: Launchable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:72: warning - Tag @link: reference not found: Fragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:72: warning - Tag @link: reference not found: Launchable
 javadoc: warning - Class CheckResult not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:42: warning - Tag @link: reference not found: Launchable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:42: warning - Tag @link: reference not found: Launchable
 javadoc: warning - Class CheckResult not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:54: warning - Tag @link: reference not found: Launchable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:54: warning - Tag @link: reference not found: Launchable
 javadoc: warning - Class CheckResult not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:72: warning - Tag @link: reference not found: Launchable
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:72: warning - Tag @link: reference not found: Fragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:72: warning - Tag @link: reference not found: Launchable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult-support-v4/src/main/java/com/natewickstrom/rxactivityresult/support/v4/RxFragmentActivityResult.java:72: warning - Tag @link: reference not found: Fragment
 javadoc: warning - Class CheckResult not found.
 javadoc: warning - Class CheckResult not found.
 javadoc: warning - Class CheckResult not found.
@@ -392,15 +395,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 9.703 secs
+Total time: 8.529 secs
 
-2018-10-20 19:09:37,040 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-20 19:09:37,040 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-20 19:09:43,891 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-20 19:09:43,891 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-20 19:09:43,891 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-20 19:09:43,891 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-20 19:09:53,081 ERROR SysUtils - Could not process external command
+2019-07-05 22:06:53,263 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 22:06:53,263 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 22:06:59,509 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 22:06:59,509 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 22:06:59,509 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 22:06:59,510 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 22:07:07,787 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -420,14 +423,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-20 19:09:53,081 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 22:07:07,787 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :rxactivityresult:preBuild UP-TO-DATE
 :rxactivityresult:preDebugBuild UP-TO-DATE
@@ -496,119 +499,119 @@ Incremental java compilation is an incubating feature.
 :rxactivityresult:bundleRelease UP-TO-DATE
 :rxactivityresult:compileReleaseSources UP-TO-DATE
 :rxactivityresult:assembleRelease UP-TO-DATE
-:rxactivityresult:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:8: error: package android.support.annotation does not exist
+:rxactivityresult:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:8: error: package android.support.annotation does not exist
 import android.support.annotation.CheckResult;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:9: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:9: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:10: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:10: error: package android.support.annotation does not exist
 import android.support.annotation.Nullable;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:15: error: package rx does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:15: error: package rx does not exist
 import rx.Observable;
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:16: error: package rx.subjects does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:16: error: package rx.subjects does not exist
 import rx.subjects.PublishSubject;
                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:30: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:30: error: cannot find symbol
     private Map<Integer, PublishSubject<ActivityResult>> results = new HashMap<>();
                          ^
   symbol:   class PublishSubject
   location: class RxActivityResult
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:6: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:6: error: package android.support.annotation does not exist
 import android.support.annotation.CheckResult;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:7: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:7: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:8: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:8: error: package android.support.annotation does not exist
 import android.support.annotation.Nullable;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:10: error: package rx does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:10: error: package rx does not exist
 import rx.Observable;
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:80: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:80: error: cannot find symbol
     private PublishSubject<ActivityResult> prepareSubject(final int requestCode) {
             ^
   symbol:   class PublishSubject
   location: class RxActivityResult
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:45: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:45: error: cannot find symbol
     Observable<ActivityResult> startActivityForResult(@NonNull Intent intent, int requestCode,
     ^
   symbol:   class Observable
   location: interface Launchable
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:60: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:60: error: cannot find symbol
     Observable<ActivityResult> startActivityForResult(@NonNull Intent intent, int requestCode);
     ^
   symbol:   class Observable
   location: interface Launchable
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:99: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:99: error: cannot find symbol
         public Observable<ActivityResult> startActivityForResult(@NonNull Intent intent, int requestCode) {
                ^
   symbol:   class Observable
   location: class Launcher
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:104: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:104: error: cannot find symbol
         public Observable<ActivityResult> startActivityForResult(@NonNull Intent intent, int requestCode,
                ^
   symbol:   class Observable
   location: class Launcher
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:50: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:50: error: cannot find symbol
     public Launchable from(@NonNull final Activity activity) {
                             ^
   symbol:   class NonNull
   location: class RxActivityResult
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:49: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:49: error: cannot find symbol
     @CheckResult
      ^
   symbol:   class CheckResult
   location: class RxActivityResult
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:71: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:71: error: cannot find symbol
     private Intent prepareIntent(final Intent intent, final int requestCode, @Nullable final Bundle options) {
                                                                               ^
   symbol:   class Nullable
   location: class RxActivityResult
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:45: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:45: error: cannot find symbol
     Observable<ActivityResult> startActivityForResult(@NonNull Intent intent, int requestCode,
                                                        ^
   symbol:   class NonNull
   location: interface Launchable
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:46: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:46: error: cannot find symbol
                                                       @Nullable Bundle options);
                                                        ^
   symbol:   class Nullable
   location: interface Launchable
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:44: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:44: error: cannot find symbol
     @CheckResult
      ^
   symbol:   class CheckResult
   location: interface Launchable
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:60: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:60: error: cannot find symbol
     Observable<ActivityResult> startActivityForResult(@NonNull Intent intent, int requestCode);
                                                        ^
   symbol:   class NonNull
   location: interface Launchable
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:59: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:59: error: cannot find symbol
     @CheckResult
      ^
   symbol:   class CheckResult
   location: interface Launchable
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:99: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:99: error: cannot find symbol
         public Observable<ActivityResult> startActivityForResult(@NonNull Intent intent, int requestCode) {
                                                                   ^
   symbol:   class NonNull
   location: class Launcher
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:104: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:104: error: cannot find symbol
         public Observable<ActivityResult> startActivityForResult(@NonNull Intent intent, int requestCode,
                                                                   ^
   symbol:   class NonNull
   location: class Launcher
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:105: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/RxActivityResult.java:105: error: cannot find symbol
                                                                  @Nullable Bundle options) {
                                                                   ^
   symbol:   class Nullable
   location: class Launcher
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:15: warning - Tag @link: reference not found: Observable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:15: warning - Tag @link: reference not found: Observable
 javadoc: warning - Class CheckResult not found.
 javadoc: warning - Class CheckResult not found.
 javadoc: warning - Class CheckResult not found.
@@ -617,7 +620,7 @@ javadoc: warning - Class CheckResult not found.
 javadoc: warning - Class NonNull not found.
 javadoc: warning - Class Nullable not found.
 javadoc: warning - Class CheckResult not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:45: warning - Tag @link: reference not found: Observable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:45: warning - Tag @link: reference not found: Observable
 javadoc: warning - Class CheckResult not found.
 javadoc: warning - Class NonNull not found.
 javadoc: warning - Class CheckResult not found.
@@ -629,10 +632,10 @@ javadoc: warning - Class CheckResult not found.
 javadoc: warning - Class NonNull not found.
 javadoc: warning - Class NonNull not found.
 javadoc: warning - Class Nullable not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:45: warning - Tag @link: reference not found: Observable
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:15: warning - Tag @link: reference not found: Observable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:45: warning - Tag @link: reference not found: Observable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:15: warning - Tag @link: reference not found: Observable
 javadoc: warning - Class CheckResult not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:15: warning - Tag @link: reference not found: Observable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/rxactivityresult/src/main/java/com/natewickstrom/rxactivityresult/Launchable.java:15: warning - Tag @link: reference not found: Observable
 javadoc: warning - Class CheckResult not found.
 javadoc: warning - Class CheckResult not found.
 javadoc: warning - Class CheckResult not found.
@@ -739,15 +742,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 8.619 secs
+Total time: 7.704 secs
 
-2018-10-20 19:09:53,120 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-20 19:09:53,120 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-20 19:09:59,608 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-20 19:09:59,608 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-20 19:09:59,608 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-20 19:09:59,608 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-20 19:10:06,244 ERROR SysUtils - Could not process external command
+2019-07-05 22:07:07,804 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 22:07:07,804 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 22:07:13,772 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 22:07:13,772 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 22:07:13,772 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 22:07:13,772 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 22:07:19,735 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -767,14 +770,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-20 19:10:06,244 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 22:07:19,735 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -885,15 +888,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.038 secs
+Total time: 5.307 secs
 
-2018-10-20 19:10:06,281 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-20 19:10:06,281 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-20 19:10:13,143 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-20 19:10:13,143 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-20 19:10:13,143 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-20 19:10:13,144 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540037353085-0/src/RxActivityResult-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-20 19:10:19,822 ERROR SysUtils - Could not process external command
+2019-07-05 22:07:19,752 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 22:07:19,752 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 22:07:25,918 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 22:07:25,918 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 22:07:25,918 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 22:07:25,918 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562339068902-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 22:07:32,071 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -913,14 +916,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-20 19:10:19,823 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 22:07:32,071 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -1031,7 +1034,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.049 secs
+Total time: 5.516 secs
 
-2018-10-20 19:10:19,858 ERROR FullProcessService - Project build has not produced APK file
-2018-10-20 19:10:19,888 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-05 22:07:32,089 ERROR FullProcessService - Project build has not produced APK file
+2019-07-05 22:07:32,103 ERROR FullProcessService - Could not find generated or existed APK file

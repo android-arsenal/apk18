@@ -1,48 +1,48 @@
-2018-12-13 11:57:30,595 INFO  DownloadService - Downloading "https://github.com/yjfnypeu/Router/archive/master.zip", attempt 3
-2018-12-13 11:57:37,690 INFO  DownloadService - Downloaded https://github.com/yjfnypeu/Router/archive/master.zip, attempt 3
-2018-12-13 11:57:37,691 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/master.zip": 2 MB
-2018-12-13 11:57:37,691 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-13 11:57:37,691 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/master.zip: true
-2018-12-13 11:57:37,692 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src'.
-2018-12-13 11:57:37,764 INFO  FullProcessService - Size of directory with sources: 2 MB
-2018-12-13 11:57:37,764 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src]
-2018-12-13 11:57:37,793 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/.git/
+2019-07-05 20:51:15,140 INFO  DownloadService - Downloading "https://github.com/yjfnypeu/Router/archive/master.zip", attempt 3
+2019-07-05 20:51:18,977 INFO  DownloadService - Downloaded https://github.com/yjfnypeu/Router/archive/master.zip, attempt 3
+2019-07-05 20:51:18,977 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/master.zip": 2 MB
+2019-07-05 20:51:18,978 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 20:51:18,984 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/master.zip: true
+2019-07-05 20:51:18,984 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src'.
+2019-07-05 20:51:19,032 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-07-05 20:51:19,032 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src]
+2019-07-05 20:51:19,049 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/.git/
 
-2018-12-13 11:57:37,800 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/gradlew
-2018-12-13 11:57:37,809 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/router-api/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/router-host/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/router-anno/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/router-compiler/build.gradle
-2018-12-13 11:57:37,815 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/router-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/router-host/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/javadoc.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/router-api/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/router-anno/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/settings.gradle
-2018-12-13 11:57:37,816 INFO  ProjectBuildService - Remote scripts: none
-2018-12-13 11:57:37,816 INFO  ProjectFixService - Fixing project...
-2018-12-13 11:57:37,830 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/router-api/local.properties
-2018-12-13 11:57:37,832 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/router-api/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
-2018-12-13 11:57:37,833 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/router-api/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-13 11:57:37,834 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/router-host/local.properties
-2018-12-13 11:57:37,837 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/router-host/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
-2018-12-13 11:57:37,837 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/router-host/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-13 11:57:37,838 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/sample/local.properties
-2018-12-13 11:57:37,841 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
-2018-12-13 11:57:37,841 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2018-12-13 11:57:37,843 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/local.properties
-2018-12-13 11:57:37,843 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-12-13 11:57:37,844 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-12-13 11:57:37,846 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
-2018-12-13 11:57:37,846 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-13 11:57:37,847 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/router-anno/local.properties
-2018-12-13 11:57:37,851 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/router-anno/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
-2018-12-13 11:57:37,851 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/router-anno/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-13 11:57:37,852 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/router-compiler/local.properties
-2018-12-13 11:57:37,855 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/router-compiler/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
-2018-12-13 11:57:37,855 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/router-compiler/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-13 11:57:37,855 INFO  ProjectFixService - Project was maybe fixed
-2018-12-13 11:57:37,855 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-13 11:57:37,856 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/router-api/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-13 11:57:46,368 INFO  ProjectTaskService - Detected possible tasks: 64
-2018-12-13 11:57:46,369 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-12-13 11:57:46,369 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/router-api/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-12-13 11:57:57,980 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 20:51:19,054 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/gradlew
+2019-07-05 20:51:19,060 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/router-api/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/router-host/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/router-anno/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/router-compiler/build.gradle
+2019-07-05 20:51:19,064 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/router-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/router-host/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/javadoc.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/router-api/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/router-anno/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/settings.gradle
+2019-07-05 20:51:19,065 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 20:51:19,065 INFO  ProjectFixService - Fixing project...
+2019-07-05 20:51:19,075 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/router-api/local.properties
+2019-07-05 20:51:19,076 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/router-api/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-07-05 20:51:19,077 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/router-api/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-07-05 20:51:19,077 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/router-host/local.properties
+2019-07-05 20:51:19,079 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/router-host/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-07-05 20:51:19,079 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/router-host/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-07-05 20:51:19,080 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/sample/local.properties
+2019-07-05 20:51:19,082 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
+2019-07-05 20:51:19,082 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-07-05 20:51:19,083 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/local.properties
+2019-07-05 20:51:19,083 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-07-05 20:51:19,083 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-07-05 20:51:19,085 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-07-05 20:51:19,085 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-07-05 20:51:19,086 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/router-anno/local.properties
+2019-07-05 20:51:19,088 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/router-anno/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-07-05 20:51:19,089 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/router-anno/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-07-05 20:51:19,089 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/router-compiler/local.properties
+2019-07-05 20:51:19,095 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/router-compiler/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-07-05 20:51:19,095 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/router-compiler/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-07-05 20:51:19,095 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 20:51:19,095 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 20:51:19,095 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/router-api/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 20:51:24,872 INFO  ProjectTaskService - Detected possible tasks: 64
+2019-07-05 20:51:24,872 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-05 20:51:24,872 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/router-api/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-05 20:51:34,782 INFO  SysUtils - Configuration on demand is an incubating feature.
 :router-api:preBuild UP-TO-DATE
 :router-api:preDebugBuild UP-TO-DATE
-:router-api:compileDebugAidlaidl E 12-13 11:57:52 89431 2699487 aidl.cpp:580] refusing to generate code from aidl file defining parcelable
+:router-api:compileDebugAidlaidl E 07-05 20:51:30 50843 1589005 aidl.cpp:580] refusing to generate code from aidl file defining parcelable
 
 
 :router-anno:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
@@ -62,32 +62,19 @@
 :router-api:prepareLintJar
 :router-api:javaPreCompileDebug
 :router-api:mergeDebugConsumerProguardFiles
-:router-api:generateDebugRFile
-:router-api:generateDebugSources
-:router-api:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/router-api/src/main/java/com/lzh/nonview/router/parser/URIParser.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-Note: Some input files use unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-
-:router-api:extractDebugAnnotations
 :router-api:mergeDebugShaders
 :router-api:compileDebugShaders
 :router-api:generateDebugAssets
 :router-api:packageDebugAssets
 :router-api:packageDebugRenderscript NO-SOURCE
 :router-api:processDebugJavaRes NO-SOURCE
-:router-api:transformResourcesWithMergeJavaResForDebug
-:router-api:transformClassesAndResourcesWithSyncLibJarsForDebug
 :router-api:compileDebugNdk NO-SOURCE
 :router-api:mergeDebugJniLibFolders
 :router-api:transformNativeLibsWithMergeJniLibsForDebug
 :router-api:transformNativeLibsWithStripDebugSymbolForDebug
 :router-api:transformNativeLibsWithSyncJniLibsForDebug
-:router-api:bundleDebug
-:router-api:compileDebugSources
-:router-api:assembleDebug
 :router-api:preReleaseBuild UP-TO-DATE
-:router-api:compileReleaseAidlaidl E 12-13 11:57:55 89433 2699511 aidl.cpp:580] refusing to generate code from aidl file defining parcelable
+:router-api:compileReleaseAidlaidl E 07-05 20:51:31 50845 1589024 aidl.cpp:580] refusing to generate code from aidl file defining parcelable
 
 
 :router-api:compileReleaseRenderscript
@@ -97,15 +84,7 @@ Note: Recompile with -Xlint:unchecked for details.
 :router-api:generateReleaseResources
 :router-api:packageReleaseResources
 :router-api:processReleaseManifest
-:router-api:generateReleaseRFile
-:router-api:generateReleaseSources
 :router-api:javaPreCompileRelease
-:router-api:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/router-api/src/main/java/com/lzh/nonview/router/parser/URIParser.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-Note: Some input files use unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-
-:router-api:extractReleaseAnnotations
 :router-api:mergeReleaseConsumerProguardFiles
 :router-api:mergeReleaseShaders
 :router-api:compileReleaseShaders
@@ -113,42 +92,63 @@ Note: Recompile with -Xlint:unchecked for details.
 :router-api:packageReleaseAssets
 :router-api:packageReleaseRenderscript NO-SOURCE
 :router-api:processReleaseJavaRes NO-SOURCE
-:router-api:transformResourcesWithMergeJavaResForRelease
-:router-api:transformClassesAndResourcesWithSyncLibJarsForRelease
 :router-api:compileReleaseNdk NO-SOURCE
 :router-api:mergeReleaseJniLibFolders
 :router-api:transformNativeLibsWithMergeJniLibsForRelease
 :router-api:transformNativeLibsWithStripDebugSymbolForRelease
 :router-api:transformNativeLibsWithSyncJniLibsForRelease
-:router-api:bundleRelease
-:router-api:compileReleaseSources
 :router-api:mergeReleaseResources
 :router-api:verifyReleaseResources
-:router-api:assembleRelease
-:router-api:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/router-api/src/main/java/com/lzh/nonview/router/protocol/HostServiceWrapper.java:43: error: cannot find symbol
+:router-api:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/router-api/src/main/java/com/lzh/nonview/router/protocol/HostServiceWrapper.java:43: error: cannot find symbol
     private static IService service;
                    ^
   symbol:   class IService
   location: class HostServiceWrapper
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/router-api/src/main/java/com/lzh/nonview/router/launcher/Launcher.java:61: warning: no @param for remote
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/router-api/src/main/java/com/lzh/nonview/router/launcher/Launcher.java:61: warning: no @param for remote
     public final void set(Uri uri, Bundle bundle, RouteBundleExtras extras,  RouteRule rule, Bundle remote) {
                       ^
 
 2 warnings
 :router-api:javadocJar
 :router-api:sourcesJar
+:router-api:generateDebugRFile
+:router-api:generateDebugSources
+:router-api:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/router-api/src/main/java/com/lzh/nonview/router/parser/URIParser.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:router-api:extractDebugAnnotations
+:router-api:transformResourcesWithMergeJavaResForDebug
+:router-api:transformClassesAndResourcesWithSyncLibJarsForDebug
+:router-api:bundleDebug
+:router-api:compileDebugSources
+:router-api:assembleDebug
+:router-api:generateReleaseRFile
+:router-api:generateReleaseSources
+:router-api:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/router-api/src/main/java/com/lzh/nonview/router/parser/URIParser.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:router-api:extractReleaseAnnotations
+:router-api:transformResourcesWithMergeJavaResForRelease
+:router-api:transformClassesAndResourcesWithSyncLibJarsForRelease
+:router-api:bundleRelease
+:router-api:compileReleaseSources
+:router-api:assembleRelease
 :router-api:assemble
 :router-api:build
 
-BUILD SUCCESSFUL in 11s
+BUILD SUCCESSFUL in 9s
 53 actionable tasks: 53 executed
 
-2018-12-13 11:57:58,003 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-13 11:57:58,003 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/router-host/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-13 11:58:03,820 INFO  ProjectTaskService - Detected possible tasks: 64
-2018-12-13 11:58:03,820 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-12-13 11:58:03,821 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/router-host/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-12-13 11:58:12,769 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 20:51:34,798 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 20:51:34,798 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/router-host/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 20:51:40,211 INFO  ProjectTaskService - Detected possible tasks: 64
+2019-07-05 20:51:40,211 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-05 20:51:40,211 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/router-host/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-05 20:51:48,328 INFO  SysUtils - Configuration on demand is an incubating feature.
 :router-api:preBuild UP-TO-DATE
 :router-api:preDebugBuild UP-TO-DATE
 :router-api:compileDebugAidl UP-TO-DATE
@@ -237,21 +237,21 @@ BUILD SUCCESSFUL in 11s
 :router-host:transformNativeLibsWithSyncJniLibsForRelease
 :router-host:mergeReleaseResources
 :router-host:verifyReleaseResources
-:router-host:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/router-host/src/main/java/com/lzh/nonview/router/host/RouterHostService.java:24: error: package com.lzh.nonview.router.module does not exist
+:router-host:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/router-host/src/main/java/com/lzh/nonview/router/host/RouterHostService.java:24: error: package com.lzh.nonview.router.module does not exist
 import com.lzh.nonview.router.module.RemoteRule;
                                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/router-host/src/main/java/com/lzh/nonview/router/host/RouterHostService.java:25: error: package com.lzh.nonview.router.protocol does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/router-host/src/main/java/com/lzh/nonview/router/host/RouterHostService.java:25: error: package com.lzh.nonview.router.protocol does not exist
 import com.lzh.nonview.router.protocol.IService;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/router-host/src/main/java/com/lzh/nonview/router/host/RouterHostService.java:44: error: package IService does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/router-host/src/main/java/com/lzh/nonview/router/host/RouterHostService.java:44: error: package IService does not exist
     IService.Stub stub = new IService.Stub() {
             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/router-host/src/main/java/com/lzh/nonview/router/host/RouterHostService.java:96: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/router-host/src/main/java/com/lzh/nonview/router/host/RouterHostService.java:96: error: cannot find symbol
     private RemoteRule findRule(Uri uri, Map<String, RemoteRule> rules) {
                                                      ^
   symbol:   class RemoteRule
   location: class RouterHostService
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/router-host/src/main/java/com/lzh/nonview/router/host/RouterHostService.java:96: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/router-host/src/main/java/com/lzh/nonview/router/host/RouterHostService.java:96: error: cannot find symbol
     private RemoteRule findRule(Uri uri, Map<String, RemoteRule> rules) {
             ^
   symbol:   class RemoteRule
@@ -262,7 +262,7 @@ import com.lzh.nonview.router.protocol.IService;
 :router-host:sourcesJar
 :router-host:generateDebugRFile
 :router-host:generateDebugSources
-:router-host:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/router-host/src/main/java/com/lzh/nonview/router/host/RouterHostService.java uses unchecked or unsafe operations.
+:router-host:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/router-host/src/main/java/com/lzh/nonview/router/host/RouterHostService.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :router-host:extractDebugAnnotations
@@ -273,7 +273,7 @@ Note: Recompile with -Xlint:unchecked for details.
 :router-host:assembleDebug
 :router-host:generateReleaseRFile
 :router-host:generateReleaseSources
-:router-host:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/router-host/src/main/java/com/lzh/nonview/router/host/RouterHostService.java uses unchecked or unsafe operations.
+:router-host:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/router-host/src/main/java/com/lzh/nonview/router/host/RouterHostService.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :router-host:extractReleaseAnnotations
@@ -285,15 +285,15 @@ Note: Recompile with -Xlint:unchecked for details.
 :router-host:assemble
 :router-host:build
 
-BUILD SUCCESSFUL in 8s
+BUILD SUCCESSFUL in 7s
 77 actionable tasks: 53 executed, 24 up-to-date
 
-2018-12-13 11:58:12,802 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-13 11:58:12,803 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-13 11:58:20,179 INFO  ProjectTaskService - Detected possible tasks: 66
-2018-12-13 11:58:20,180 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-13 11:58:20,180 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-13 11:59:07,598 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 20:51:48,350 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 20:51:48,350 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 20:51:53,839 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-05 20:51:53,839 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-05 20:51:53,839 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-05 20:52:38,857 INFO  SysUtils - Configuration on demand is an incubating feature.
 :router-anno:compileJava UP-TO-DATE
 :router-anno:processResources NO-SOURCE
 :router-anno:classes UP-TO-DATE
@@ -318,10 +318,10 @@ BUILD SUCCESSFUL in 8s
 :router-api:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
 :sample:preBuild UP-TO-DATE
 :sample:preDebugBuild
-Download https://jitpack.io/com/github/yjfnypeu/EasyAndroid/1.2.5/EasyAndroid-1.2.5.pom
 Download https://jcenter.bintray.com/com/jakewharton/butterknife/8.0.1/butterknife-8.0.1.aar
 Download https://jitpack.io/com/github/yjfnypeu/EasyAndroid/1.2.5/EasyAndroid-1.2.5.aar
 Download https://jitpack.io/com/github/yjfnypeu/Parceler/api/1.4.0/api-1.4.0.aar
+Download https://jitpack.io/com/github/longshihan1/AopBrocad/broca-api/1.1.7/broca-api-1.1.7.aar
 :sample:compileDebugAidl
 :router-api:packageDebugRenderscript NO-SOURCE
 :sample:compileDebugRenderscript
@@ -343,14 +343,17 @@ Download https://jitpack.io/com/github/yjfnypeu/Parceler/api/1.4.0/api-1.4.0.aar
 :sample:processDebugResources
 :sample:kaptGenerateStubsDebugKotlin
 Download https://jcenter.bintray.com/com/jakewharton/butterknife-annotations/8.0.1/butterknife-annotations-8.0.1.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.2.41/kotlin-stdlib-jdk7-1.2.41.jar
 Download https://jitpack.io/com/github/yjfnypeu/Parceler/annotation/1.4.0/annotation-1.4.0.jar
-Download https://jcenter.bintray.com/com/google/auto/service/auto-service/1.0-rc2/auto-service-1.0-rc2.jar
-Download https://jitpack.io/com/github/yjfnypeu/Parceler/compiler/1.4.0/compiler-1.4.0.jar
+Download https://jitpack.io/com/github/longshihan1/AopBrocad/broca-annotation/1.1.7/broca-annotation-1.1.7.jar
+Download https://jcenter.bintray.com/com/alibaba/fastjson/1.2.47/fastjson-1.2.47.jar
 Download https://jcenter.bintray.com/com/jakewharton/butterknife-compiler/8.0.1/butterknife-compiler-8.0.1.jar
+Download https://jitpack.io/com/github/yjfnypeu/Parceler/compiler/1.4.0/compiler-1.4.0.jar
 Download https://jcenter.bintray.com/io/reactivex/rxjava/1.1.3/rxjava-1.1.3.jar
+Download https://jitpack.io/com/github/longshihan1/AopBrocad/broca-compiler/1.1.7/broca-compiler-1.1.7.jar
 :sample:kaptDebugKotlin
 :sample:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/sample/src/main/java/com/lzh/nonview/router/demo/MainActivity.kt: (99, 47): Parameter 'data' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/sample/src/main/java/com/lzh/nonview/router/demo/MainActivity.kt: (99, 47): Parameter 'data' is never used, could be renamed to _
 :sample:prepareLintJar
 :sample:generateDebugSources
 :sample:javaPreCompileDebug
@@ -417,7 +420,7 @@ D8: Stripped invalid locals information from 1 method.
 :sample:kaptGenerateStubsReleaseKotlin
 :sample:kaptReleaseKotlin
 :sample:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/sample/src/main/java/com/lzh/nonview/router/demo/MainActivity.kt: (99, 47): Parameter 'data' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/sample/src/main/java/com/lzh/nonview/router/demo/MainActivity.kt: (99, 47): Parameter 'data' is never used, could be renamed to _
 :sample:generateReleaseSources
 :sample:javaPreCompileRelease
 :sample:compileReleaseJavaWithJavacNote: Some input files use unchecked or unsafe operations.
@@ -452,7 +455,7 @@ Note: Recompile with -Xlint:unchecked for details.
 :sample:assemble
 :sample:build
 
-BUILD SUCCESSFUL in 46s
+BUILD SUCCESSFUL in 44s
 102 actionable tasks: 64 executed, 38 up-to-date
 
-2018-12-13 11:59:07,686 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544677050587-0/src/Router-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-07-05 20:52:38,923 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334675132-0/src/Router-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
