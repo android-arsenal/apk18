@@ -1,30 +1,30 @@
-2019-07-06 00:05:07,156 INFO  DownloadService - Downloading "https://github.com/ChrisRM/material-theme-jetbrains/archive/master.zip", attempt 3
-2019-07-06 00:05:16,622 INFO  DownloadService - Downloaded https://github.com/ChrisRM/material-theme-jetbrains/archive/master.zip, attempt 3
-2019-07-06 00:05:16,622 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346307153-0/master.zip": 9 MB
-2019-07-06 00:05:16,623 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-06 00:05:16,635 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346307153-0/master.zip: true
-2019-07-06 00:05:16,635 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346307153-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346307153-0/src'.
-2019-07-06 00:05:17,610 INFO  FullProcessService - Size of directory with sources: 16 MB
-2019-07-06 00:05:17,610 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346307153-0/src]
-2019-07-06 00:05:17,628 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346307153-0/src/.git/
+2019-07-21 20:15:49,188 INFO  DownloadService - Downloading "https://github.com/ChrisRM/material-theme-jetbrains/archive/master.zip", attempt 3
+2019-07-21 20:15:56,846 INFO  DownloadService - Downloaded https://github.com/ChrisRM/material-theme-jetbrains/archive/master.zip, attempt 3
+2019-07-21 20:15:56,846 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714949180-0/master.zip": 9 MB
+2019-07-21 20:15:56,846 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-21 20:15:56,853 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714949180-0/master.zip: true
+2019-07-21 20:15:56,853 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714949180-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714949180-0/src'.
+2019-07-21 20:15:57,744 INFO  FullProcessService - Size of directory with sources: 16 MB
+2019-07-21 20:15:57,744 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714949180-0/src]
+2019-07-21 20:15:57,776 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714949180-0/src/.git/
 
-2019-07-06 00:05:17,672 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346307153-0/src/material-theme-jetbrains-master/gradlew
-2019-07-06 00:05:17,716 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346307153-0/src/material-theme-jetbrains-master/build.gradle
-2019-07-06 00:05:17,757 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346307153-0/src/material-theme-jetbrains-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346307153-0/src/material-theme-jetbrains-master/settings.gradle
-2019-07-06 00:05:17,757 INFO  ProjectBuildService - Remote scripts: none
-2019-07-06 00:05:17,757 INFO  ProjectFixService - Fixing project...
-2019-07-06 00:05:17,849 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346307153-0/src/material-theme-jetbrains-master/local.properties
-2019-07-06 00:05:17,850 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.0-all.zip
-2019-07-06 00:05:17,850 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.0-bin.zip)
-2019-07-06 00:05:17,852 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346307153-0/src/material-theme-jetbrains-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-06 00:05:17,852 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346307153-0/src/material-theme-jetbrains-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-06 00:05:17,853 INFO  ProjectFixService - Project was maybe fixed
-2019-07-06 00:05:17,854 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-06 00:05:17,854 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346307153-0/src/material-theme-jetbrains-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346307153-0/src/material-theme-jetbrains-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-06 00:07:23,183 INFO  ProjectTaskService - Detected possible tasks: 58
-2019-07-06 00:07:23,184 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-07-06 00:07:23,184 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346307153-0/src/material-theme-jetbrains-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346307153-0/src/material-theme-jetbrains-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-07-06 00:08:33,785 ERROR SysUtils - Could not process external command
+2019-07-21 20:15:57,841 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714949180-0/src/material-theme-jetbrains-master/gradlew
+2019-07-21 20:15:57,896 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714949180-0/src/material-theme-jetbrains-master/build.gradle
+2019-07-21 20:15:57,947 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714949180-0/src/material-theme-jetbrains-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714949180-0/src/material-theme-jetbrains-master/settings.gradle
+2019-07-21 20:15:57,947 INFO  ProjectBuildService - Remote scripts: none
+2019-07-21 20:15:57,948 INFO  ProjectFixService - Fixing project...
+2019-07-21 20:15:58,055 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714949180-0/src/material-theme-jetbrains-master/local.properties
+2019-07-21 20:15:58,055 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.0-all.zip
+2019-07-21 20:15:58,056 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.0-bin.zip)
+2019-07-21 20:15:58,057 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714949180-0/src/material-theme-jetbrains-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-21 20:15:58,057 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714949180-0/src/material-theme-jetbrains-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-21 20:15:58,058 INFO  ProjectFixService - Project was maybe fixed
+2019-07-21 20:15:58,058 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-21 20:15:58,058 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714949180-0/src/material-theme-jetbrains-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714949180-0/src/material-theme-jetbrains-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-21 20:19:01,091 INFO  ProjectTaskService - Detected possible tasks: 56
+2019-07-21 20:19:01,093 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-07-21 20:19:01,093 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714949180-0/src/material-theme-jetbrains-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714949180-0/src/material-theme-jetbrains-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-07-21 20:19:53,356 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -51,7 +51,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-06 00:08:33,786 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.0/userguide/gradle_daemon.html.
+2019-07-21 20:19:53,358 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.0/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 
@@ -59,61 +59,61 @@ Configuration on demand is an incubating feature.
 w: API version 1.1 is deprecated and its support will be removed in a future version of Kotlin
 
 > Task :compileJava
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346307153-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/ui/MTDarculaButtonUI.java:34: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714949180-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/ui/MTDarculaButtonUI.java:34: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
 import sun.swing.SwingUtilities2;
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346307153-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/ui/MTButtonUI.java:43: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714949180-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/ui/MTButtonUI.java:43: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
 import sun.swing.SwingUtilities2;
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346307153-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/ui/MTCheckBoxUI.java:35: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714949180-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/ui/MTCheckBoxUI.java:35: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
 import sun.swing.SwingUtilities2;
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346307153-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/utils/MTUI.java:40: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714949180-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/utils/MTUI.java:40: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
 import sun.swing.SwingUtilities2;
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346307153-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/MTThemeManager.java:67: warning: AppContext is internal proprietary API and may be removed in a future release
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714949180-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/MTThemeManager.java:69: warning: AppContext is internal proprietary API and may be removed in a future release
 import sun.awt.AppContext;
               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346307153-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/panes/MTFrameComponentExtension.java:41: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714949180-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/panes/MTFrameComponentExtension.java:41: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
 import sun.swing.SwingUtilities2;
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346307153-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/ui/MTDarculaButtonUI.java:60: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714949180-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/ui/MTDarculaButtonUI.java:60: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
     final FontMetrics metrics = SwingUtilities2.getFontMetrics(c, g);
                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346307153-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/ui/MTDarculaButtonUI.java:69: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714949180-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/ui/MTDarculaButtonUI.java:69: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
       SwingUtilities2.drawStringUnderlineCharAt(c, g, textToPrint, mnemonicIndex, x, y);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346307153-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/ui/MTDarculaButtonUI.java:87: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714949180-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/ui/MTDarculaButtonUI.java:87: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
     SwingUtilities2.drawStringUnderlineCharAt(c, g, textToPrint, -1, x + 1, textRect.y + metrics.getAscent() + 1);
     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346307153-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/ui/MTButtonUI.java:272: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714949180-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/ui/MTButtonUI.java:272: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
     final FontMetrics metrics = SwingUtilities2.getFontMetrics(c, g);
                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346307153-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/ui/MTButtonUI.java:281: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714949180-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/ui/MTButtonUI.java:281: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
       SwingUtilities2.drawStringUnderlineCharAt(c, g, textToPrint, mnemonicIndex, x, y);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346307153-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/ui/MTButtonUI.java:307: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714949180-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/ui/MTButtonUI.java:307: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
     SwingUtilities2.drawStringUnderlineCharAt(c, g, textToPrint, -1, x + 1, textRect.y + metrics.getAscent() + 1);
     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346307153-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/ui/MTButtonUI.java:310: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714949180-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/ui/MTButtonUI.java:310: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
     SwingUtilities2.drawStringUnderlineCharAt(c, g, textToPrint, -1, x, textRect.y + metrics.getAscent());
     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346307153-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/ui/MTCheckBoxUI.java:79: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714949180-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/ui/MTCheckBoxUI.java:79: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
     final FontMetrics fm = SwingUtilities2.getFontMetrics(c, g, font);
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346307153-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/ui/MTCheckBoxUI.java:205: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714949180-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/ui/MTCheckBoxUI.java:205: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
         SwingUtilities2.drawStringUnderlineCharAt(c, g, text,
         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346307153-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/utils/MTUI.java:589: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714949180-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/utils/MTUI.java:590: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
       SwingUtilities2.drawStringUnderlineCharAt(label, g, s, mnemIndex, textX, textY);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346307153-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/MTThemeManager.java:817: warning: AppContext is internal proprietary API and may be removed in a future release
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714949180-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/MTThemeManager.java:840: warning: AppContext is internal proprietary API and may be removed in a future release
       AppContext.getAppContext().put(keyField.get(null), styleSheet);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346307153-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/panes/MTFrameComponentExtension.java:172: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714949180-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/panes/MTFrameComponentExtension.java:172: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
       final FontMetrics metrics = SwingUtilities2.getFontMetrics(this, g);
                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562346307153-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/panes/MTFrameComponentExtension.java:180: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714949180-0/src/material-theme-jetbrains-master/src/main/java/com/chrisrm/idea/panes/MTFrameComponentExtension.java:180: warning: SwingUtilities2 is internal proprietary API and may be removed in a future release
       SwingUtilities2.drawString(this, g, textToDraw, r.x + getXOffset(), r.y + metrics.getAscent() - 2);
       ^
 Note: Some input files use or override a deprecated API.
@@ -123,7 +123,7 @@ Note: Recompile with -Xlint:unchecked for details.
 19 warnings
 
 > Task :patchPluginXml
-Patching plugin.xml: attribute `since-build=[191.4212.0]` of `idea-version` tag will be set to `192.4205.45`
+Patching plugin.xml: attribute `since-build=[191.4212.0]` of `idea-version` tag will be set to `192.5728.12`
 Patching plugin.xml: value of `change-notes[]` tag will be set to `<!--
   ~ The MIT License (MIT)
   ~
@@ -1303,7 +1303,7 @@ Patching plugin.xml: value of `change-notes[]` tag will be set to `<!--
 <ul>
     <li>Fix issues with the color schemes.</li>
 </ul>`
-Patching plugin.xml: value of `version[@version@]` tag will be set to `4.0.5`
+Patching plugin.xml: value of `version[@version@]` tag will be set to `4.1`
 
 > Task :processResources
 > Task :classes
@@ -1312,7 +1312,6 @@ Patching plugin.xml: value of `version[@version@]` tag will be set to `4.0.5`
 > Task :postInstrumentCode
 > Task :jar
 > Task :prepareSandbox
-Download https://cache-redirector.jetbrains.com/jetbrains.bintray.com/intellij-jbr/jbr-11_0_3-osx-x64-b304.10.tar.gz
 
 > Task :buildSearchableOptions
 Cannot find java executable in /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.jetbrains/jbre/jbr-11_0_3-osx-x64-b304.10
@@ -1321,14 +1320,14 @@ Cannot find java executable in /Users/vbauer/.gradle/caches/modules-2/files-2.1/
 Cannot resolve builtin JBR 11_0_3b304.10. Falling local Java.
 Cannot find java executable in /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.jetbrains/jbre/jbr-11_0_3-osx-x64-b304.10
 Cannot resolve builtin JBR 11_0_3b304.10. Falling local Java.
-2019-07-06 00:08:32,746 [   4471]  ERROR - llij.ide.plugins.PluginManager - Fatal error initializing plugin com.chrisrm.idea.MaterialThemeUI 
+2019-07-21 20:19:52,365 [   5347]  ERROR - llij.ide.plugins.PluginManager - Fatal error initializing plugin com.chrisrm.idea.MaterialThemeUI 
 com.intellij.ide.plugins.MainRunner$StartupAbortedException: Fatal error initializing plugin com.chrisrm.idea.MaterialThemeUI
 	at com.intellij.ide.plugins.PluginManager.handleComponentError(PluginManager.java:118)
 	at com.intellij.openapi.components.impl.PlatformComponentManagerImpl.handleInitComponentError(PlatformComponentManagerImpl.java:33)
 	at com.intellij.openapi.components.impl.ComponentManagerImpl$ComponentConfigComponentAdapter.getComponentInstance(ComponentManagerImpl.java:520)
 	at com.intellij.openapi.components.impl.ComponentManagerImpl.createComponents(ComponentManagerImpl.java:126)
-	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:410)
-	at com.intellij.idea.IdeaApplication.lambda$executeInitAppInEdt$5(IdeaApplication.java:149)
+	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:411)
+	at com.intellij.idea.IdeaApplication.lambda$executeInitAppInEdt$5(IdeaApplication.java:150)
 	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
 	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
 	at java.awt.EventQueue.access$500(EventQueue.java:97)
@@ -1337,7 +1336,7 @@ com.intellij.ide.plugins.MainRunner$StartupAbortedException: Fatal error initial
 	at java.security.AccessController.doPrivileged(Native Method)
 	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
 	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
-	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:377)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:433)
 	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
 	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
 	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
@@ -1357,10 +1356,10 @@ Caused by: java.lang.IllegalArgumentException: Argument for @NotNull parameter '
 	at com.chrisrm.idea.MTApplicationComponent.initComponent(MTApplicationComponent.java:71)
 	at com.intellij.openapi.components.impl.ComponentManagerImpl$ComponentConfigComponentAdapter.getComponentInstance(ComponentManagerImpl.java:503)
 	... 18 more
-2019-07-06 00:08:32,748 [   4473]  ERROR - llij.ide.plugins.PluginManager - IntelliJ IDEA 2019.2 EAP  Build #IC-192.5587.17 
-2019-07-06 00:08:32,748 [   4473]  ERROR - llij.ide.plugins.PluginManager - JDK: 1.8.0_172; VM: Java HotSpot(TM) 64-Bit Server VM; Vendor: Oracle Corporation 
-2019-07-06 00:08:32,748 [   4473]  ERROR - llij.ide.plugins.PluginManager - OS: Mac OS X 
-2019-07-06 00:08:32,755 [   4480]  ERROR - llij.ide.plugins.PluginManager - Plugin to blame: Material Theme UI version: 4.0.5 
+2019-07-21 20:19:52,368 [   5350]  ERROR - llij.ide.plugins.PluginManager - IntelliJ IDEA 2019.2  Build #IC-192.5728.74 
+2019-07-21 20:19:52,368 [   5350]  ERROR - llij.ide.plugins.PluginManager - JDK: 1.8.0_172; VM: Java HotSpot(TM) 64-Bit Server VM; Vendor: Oracle Corporation 
+2019-07-21 20:19:52,368 [   5350]  ERROR - llij.ide.plugins.PluginManager - OS: Mac OS X 
+2019-07-21 20:19:52,376 [   5358]  ERROR - llij.ide.plugins.PluginManager - Plugin to blame: Material Theme UI version: 4.1 
 
 Plugin Error: Plugin 'com.chrisrm.idea.MaterialThemeUI' failed to initialize and will be disabled.  Please restart IntelliJ IDEA.
 
@@ -1375,8 +1374,8 @@ java.lang.IllegalArgumentException: Argument for @NotNull parameter 'window' of 
 	at com.chrisrm.idea.MTApplicationComponent.initComponent(MTApplicationComponent.java:71)
 	at com.intellij.openapi.components.impl.ComponentManagerImpl$ComponentConfigComponentAdapter.getComponentInstance(ComponentManagerImpl.java:503)
 	at com.intellij.openapi.components.impl.ComponentManagerImpl.createComponents(ComponentManagerImpl.java:126)
-	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:410)
-	at com.intellij.idea.IdeaApplication.lambda$executeInitAppInEdt$5(IdeaApplication.java:149)
+	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:411)
+	at com.intellij.idea.IdeaApplication.lambda$executeInitAppInEdt$5(IdeaApplication.java:150)
 	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
 	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
 	at java.awt.EventQueue.access$500(EventQueue.java:97)
@@ -1385,7 +1384,7 @@ java.lang.IllegalArgumentException: Argument for @NotNull parameter 'window' of 
 	at java.security.AccessController.doPrivileged(Native Method)
 	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
 	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
-	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:377)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:433)
 	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
 	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
 	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
@@ -1440,6 +1439,89 @@ org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':buildSe
 	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:202)
 	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.executeNextNode(DefaultPlanExecutor.java:193)
 	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:129)
+	at org.gradle.execution.plan.DefaultPlanExecutor.process(DefaultPlanExecutor.java:74)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph.executeWithServices(DefaultTaskExecutionGraph.java:167)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph.execute(DefaultTaskExecutionGraph.java:150)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:41)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:40)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:24)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:46)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:49)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:40)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:33)
+	at org.gradle.initialization.DefaultGradleLauncher$ExecuteTasks.run(DefaultGradleLauncher.java:367)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.initialization.DefaultGradleLauncher.runTasks(DefaultGradleLauncher.java:231)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:158)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:133)
+	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:79)
+	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:76)
+	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:103)
+	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:96)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:183)
+	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:40)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:96)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:76)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.run(RunAsBuildOperationBuildActionRunner.java:49)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:44)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:47)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:44)
+	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:79)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:44)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:52)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:62)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:34)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:31)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:46)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
+	at org.gradle.launcher.daemon.server.exec.ExecuteBuild.doBuild(ExecuteBuild.java:67)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDisconnection.java:37)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDeprecationLogger.java:26)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon.execute(RequestStopIfSingleUsedDaemon.java:34)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:74)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:72)
+	at org.gradle.util.Swapper.swap(Swapper.java:38)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput.execute(ForwardClientInput.java:72)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.LogAndCheckHealth.execute(LogAndCheckHealth.java:50)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.LogToClient.doBuild(LogToClient.java:62)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment.doBuild(EstablishBuildEnvironment.java:81)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy$1.run(StartBuildOrRespondWithBusy.java:50)
+	at org.gradle.launcher.daemon.server.DaemonStateCoordinator$1.run(DaemonStateCoordinator.java:295)
 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
 	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
@@ -1463,13 +1545,13 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command '/Library
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:106)
 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:85)
-	... 35 more
+	... 118 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 1m 10s
+BUILD FAILED in 51s
 10 actionable tasks: 10 executed
 
-2019-07-06 00:08:33,927 ERROR FullProcessService - Project build has not produced APK file
-2019-07-06 00:08:34,025 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-21 20:19:53,517 ERROR FullProcessService - Project build has not produced APK file
+2019-07-21 20:19:53,643 ERROR FullProcessService - Could not find generated or existed APK file
