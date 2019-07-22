@@ -1,40 +1,37 @@
-2019-07-05 21:48:27,018 INFO  DownloadService - Downloading "https://github.com/ligi/SnackEngage/archive/master.zip", attempt 3
-2019-07-05 21:49:27,580 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-07-05 21:49:28,452 INFO  GithubDownloadService - Default branch of this repository: master
-2019-07-05 21:49:28,452 INFO  DownloadService - Downloading "https://github.com/ligi/SnackEngage/archive/master.zip", attempt 3
-2019-07-05 21:50:30,216 DEBUG FullProcessService - Repository https://github.com/ligi/SnackEngage available: true
-2019-07-05 21:50:30,216 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-07-05 21:50:30,216 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/ligi/SnackEngage, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src]
-2019-07-05 21:50:32,462 INFO  SysUtils - 
-2019-07-05 21:50:32,469 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/.git": true
-2019-07-05 21:50:32,472 INFO  FullProcessService - Size of directory with sources: 383 KB
-2019-07-05 21:50:32,472 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src]
-2019-07-05 21:50:32,487 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/.git/
+2019-07-22 15:13:26,152 INFO  DownloadService - Downloading "https://github.com/ligi/SnackEngage/archive/master.zip", attempt 3
+2019-07-22 15:13:28,491 INFO  DownloadService - Downloaded https://github.com/ligi/SnackEngage/archive/master.zip, attempt 3
+2019-07-22 15:13:28,491 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/master.zip": 308 KB
+2019-07-22 15:13:28,491 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-22 15:13:28,493 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/master.zip: true
+2019-07-22 15:13:28,493 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src'.
+2019-07-22 15:13:28,521 INFO  FullProcessService - Size of directory with sources: 383 KB
+2019-07-22 15:13:28,521 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src]
+2019-07-22 15:13:28,538 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/.git/
 
-2019-07-05 21:50:32,490 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/gradlew
-2019-07-05 21:50:32,494 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/demo_app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/snackengage-amazonrate/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/snackengage-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/snackengage-playrate/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/build.gradle
-2019-07-05 21:50:32,497 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/snackengage-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/snackengage-playrate/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/snackengage-amazonrate/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/demo_app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/settings.gradle
-2019-07-05 21:50:32,497 INFO  ProjectBuildService - Remote scripts: none
-2019-07-05 21:50:32,497 INFO  ProjectFixService - Fixing project...
-2019-07-05 21:50:32,504 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/demo_app/local.properties
-2019-07-05 21:50:32,504 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/demo_app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2019-07-05 21:50:32,504 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/snackengage-amazonrate/local.properties
-2019-07-05 21:50:32,505 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/snackengage-amazonrate/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2019-07-05 21:50:32,505 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/snackengage-core/local.properties
-2019-07-05 21:50:32,505 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/snackengage-core/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2019-07-05 21:50:32,505 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/snackengage-playrate/local.properties
-2019-07-05 21:50:32,505 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/snackengage-playrate/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2019-07-05 21:50:32,506 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/local.properties
-2019-07-05 21:50:32,506 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.3-all.zip
-2019-07-05 21:50:32,506 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.3-bin.zip)
-2019-07-05 21:50:32,507 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2019-07-05 21:50:32,507 INFO  ProjectFixService - Project was maybe fixed
-2019-07-05 21:50:32,507 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-05 21:50:32,507 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/demo_app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-05 21:50:40,026 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-07-05 21:50:40,026 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-05 21:50:40,026 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/demo_app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-05 21:50:58,106 ERROR SysUtils - Could not process external command
+2019-07-22 15:13:28,541 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/gradlew
+2019-07-22 15:13:28,545 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/demo_app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/snackengage-amazonrate/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/snackengage-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/snackengage-playrate/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/build.gradle
+2019-07-22 15:13:28,549 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/snackengage-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/snackengage-playrate/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/snackengage-amazonrate/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/demo_app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/settings.gradle
+2019-07-22 15:13:28,549 INFO  ProjectBuildService - Remote scripts: none
+2019-07-22 15:13:28,549 INFO  ProjectFixService - Fixing project...
+2019-07-22 15:13:28,557 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/demo_app/local.properties
+2019-07-22 15:13:28,557 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/demo_app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-22 15:13:28,558 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/snackengage-amazonrate/local.properties
+2019-07-22 15:13:28,558 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/snackengage-amazonrate/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-22 15:13:28,559 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/snackengage-core/local.properties
+2019-07-22 15:13:28,559 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/snackengage-core/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-22 15:13:28,559 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/snackengage-playrate/local.properties
+2019-07-22 15:13:28,560 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/snackengage-playrate/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-22 15:13:28,560 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/local.properties
+2019-07-22 15:13:28,560 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.3-all.zip
+2019-07-22 15:13:28,561 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.3-bin.zip)
+2019-07-22 15:13:28,561 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-22 15:13:28,561 INFO  ProjectFixService - Project was maybe fixed
+2019-07-22 15:13:28,561 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-22 15:13:28,561 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/demo_app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-22 15:13:36,554 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-22 15:13:36,554 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-22 15:13:36,554 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/demo_app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-22 15:13:55,885 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -47,7 +44,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -61,7 +59,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-05 21:50:58,106 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-22 15:13:55,885 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :demo_app:preBuild UP-TO-DATE
 > Task :snackengage-core:preBuild UP-TO-DATE
 > Task :snackengage-core:preDebugBuild UP-TO-DATE
@@ -156,8 +154,9 @@ org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':demo_ap
 	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 Caused by: java.lang.OutOfMemoryError: Java heap space
-	at com.android.utils.XmlUtils$PositionAwareStringBuilder.append(XmlUtils.java:782)
-	at com.android.utils.XmlUtils.append(XmlUtils.java:709)
+	at com.android.utils.XmlUtils$PositionAwareStringBuilder.append(XmlUtils.java:766)
+	at com.android.utils.XmlUtils.append(XmlUtils.java:710)
+	at com.android.utils.XmlUtils.append(XmlUtils.java:722)
 	at com.android.utils.XmlUtils.append(XmlUtils.java:722)
 	at com.android.utils.XmlUtils.append(XmlUtils.java:722)
 	at com.android.utils.XmlUtils.append(XmlUtils.java:722)
@@ -179,20 +178,19 @@ Caused by: java.lang.OutOfMemoryError: Java heap space
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:120)
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 17s
+BUILD FAILED in 18s
 31 actionable tasks: 31 executed
 
-2019-07-05 21:50:58,125 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-05 21:50:58,125 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/snackengage-amazonrate/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-05 21:51:03,797 INFO  ProjectTaskService - Detected possible tasks: 63
-2019-07-05 21:51:03,798 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-07-05 21:51:03,798 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/snackengage-amazonrate/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-07-05 21:51:18,817 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-22 15:13:55,909 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-22 15:13:55,909 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/snackengage-amazonrate/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-22 15:14:01,550 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-07-22 15:14:01,551 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-22 15:14:01,551 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/snackengage-amazonrate/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-22 15:14:17,129 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :snackengage-amazonrate:preBuild UP-TO-DATE
 > Task :snackengage-amazonrate:preDebugBuild UP-TO-DATE
 > Task :snackengage-core:preBuild UP-TO-DATE
@@ -296,15 +294,15 @@ BUILD FAILED in 17s
 > Task :snackengage-amazonrate:assemble
 > Task :snackengage-amazonrate:build
 
-BUILD SUCCESSFUL in 14s
+BUILD SUCCESSFUL in 15s
 66 actionable tasks: 55 executed, 11 up-to-date
 
-2019-07-05 21:51:18,864 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-05 21:51:18,864 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/snackengage-core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-05 21:51:24,414 INFO  ProjectTaskService - Detected possible tasks: 63
-2019-07-05 21:51:24,414 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-07-05 21:51:24,414 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/snackengage-core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-07-05 21:51:44,818 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-22 15:14:17,180 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-22 15:14:17,181 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/snackengage-core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-22 15:14:22,811 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-07-22 15:14:22,811 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-22 15:14:22,811 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/snackengage-core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-22 15:14:43,255 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :snackengage-core:preBuild UP-TO-DATE
 > Task :snackengage-core:preDebugBuild UP-TO-DATE
 > Task :snackengage-core:compileDebugAidl NO-SOURCE
@@ -377,12 +375,12 @@ BUILD SUCCESSFUL in 14s
 BUILD SUCCESSFUL in 20s
 45 actionable tasks: 26 executed, 19 up-to-date
 
-2019-07-05 21:51:44,881 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-05 21:51:44,881 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/snackengage-playrate/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-05 21:51:50,395 INFO  ProjectTaskService - Detected possible tasks: 63
-2019-07-05 21:51:50,395 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-07-05 21:51:50,395 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/snackengage-playrate/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-07-05 21:52:00,937 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-22 15:14:43,328 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-22 15:14:43,328 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/snackengage-playrate/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-22 15:14:48,833 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-07-22 15:14:48,833 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-22 15:14:48,833 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/snackengage-playrate/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-22 15:15:02,237 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :snackengage-core:preBuild UP-TO-DATE
 > Task :snackengage-core:preDebugBuild UP-TO-DATE
 > Task :snackengage-core:compileDebugAidl NO-SOURCE
@@ -486,15 +484,15 @@ BUILD SUCCESSFUL in 20s
 > Task :snackengage-playrate:assemble
 > Task :snackengage-playrate:build
 
-BUILD SUCCESSFUL in 10s
+BUILD SUCCESSFUL in 13s
 66 actionable tasks: 35 executed, 31 up-to-date
 
-2019-07-05 21:52:01,018 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-05 21:52:01,019 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-05 21:52:06,762 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-07-05 21:52:06,762 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-05 21:52:06,762 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562338107010-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-05 21:52:20,188 ERROR SysUtils - Could not process external command
+2019-07-22 15:15:02,334 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-22 15:15:02,335 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-22 15:15:08,406 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-07-22 15:15:08,406 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-22 15:15:08,406 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-22 15:15:22,186 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -507,7 +505,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -521,7 +520,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-05 21:52:20,188 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-22 15:15:22,186 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :demo_app:preBuild UP-TO-DATE
 > Task :snackengage-core:preBuild UP-TO-DATE
 > Task :snackengage-core:preDebugBuild UP-TO-DATE
@@ -617,8 +616,7 @@ org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':demo_ap
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 Caused by: java.lang.OutOfMemoryError: Java heap space
 	at com.android.utils.XmlUtils$PositionAwareStringBuilder.append(XmlUtils.java:782)
-	at com.android.utils.XmlUtils.append(XmlUtils.java:709)
-	at com.android.utils.XmlUtils.append(XmlUtils.java:722)
+	at com.android.utils.XmlUtils.append(XmlUtils.java:726)
 	at com.android.utils.XmlUtils.append(XmlUtils.java:722)
 	at com.android.utils.XmlUtils.append(XmlUtils.java:722)
 	at com.android.utils.XmlUtils.append(XmlUtils.java:722)
@@ -640,6 +638,7 @@ Caused by: java.lang.OutOfMemoryError: Java heap space
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:120)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:99)
 
 
 * Get more help at https://help.gradle.org
@@ -647,5 +646,5 @@ Caused by: java.lang.OutOfMemoryError: Java heap space
 BUILD FAILED in 13s
 31 actionable tasks: 1 executed, 30 up-to-date
 
-2019-07-05 21:52:20,279 ERROR FullProcessService - Project build has not produced APK file
-2019-07-05 21:52:20,359 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-22 15:15:22,282 ERROR FullProcessService - Project build has not produced APK file
+2019-07-22 15:15:22,371 ERROR FullProcessService - Could not find generated or existed APK file
