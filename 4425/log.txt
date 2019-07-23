@@ -1,54 +1,53 @@
-2019-07-05 20:49:40,244 INFO  DownloadService - Downloading "https://github.com/lisawray/groupie/archive/master.zip", attempt 3
-2019-07-05 20:49:41,092 INFO  DownloadService - Downloaded https://github.com/lisawray/groupie/archive/master.zip, attempt 3
-2019-07-05 20:49:41,092 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/master.zip": 198 KB
-2019-07-05 20:49:41,092 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-05 20:49:41,098 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/master.zip: true
-2019-07-05 20:49:41,098 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src'.
-2019-07-05 20:49:41,140 INFO  FullProcessService - Size of directory with sources: 327 KB
-2019-07-05 20:49:41,140 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src]
-2019-07-05 20:49:41,157 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/.git/
+2019-07-23 12:37:01,316 INFO  DownloadService - Downloading "https://github.com/lisawray/groupie/archive/master.zip", attempt 3
+2019-07-23 12:37:03,744 INFO  DownloadService - Downloaded https://github.com/lisawray/groupie/archive/master.zip, attempt 3
+2019-07-23 12:37:03,744 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/master.zip": 198 KB
+2019-07-23 12:37:03,744 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-23 12:37:03,750 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/master.zip: true
+2019-07-23 12:37:03,750 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src'.
+2019-07-23 12:37:03,795 INFO  FullProcessService - Size of directory with sources: 327 KB
+2019-07-23 12:37:03,795 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src]
+2019-07-23 12:37:03,812 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/.git/
 
-2019-07-05 20:49:41,161 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/gradlew
-2019-07-05 20:49:41,165 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/example-databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/example-shared/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/library-databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/library-kotlin-android-extensions/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/library/build.gradle
-2019-07-05 20:49:41,169 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/example-shared/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/library-databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/jcenter/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/jcenter/maven-install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/library-kotlin-android-extensions/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/release-bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/example-databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/settings.gradle
-2019-07-05 20:49:41,170 INFO  ProjectBuildService - Remote scripts: none
-2019-07-05 20:49:41,170 INFO  ProjectFixService - Fixing project...
-2019-07-05 20:49:41,183 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/local.properties
-2019-07-05 20:49:41,183 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-07-05 20:49:41,183 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-07-05 20:49:41,187 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-05 20:49:41,187 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-05 20:49:41,188 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/example-databinding/local.properties
-2019-07-05 20:49:41,193 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/example-databinding/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-05 20:49:41,193 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/example-databinding/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-05 20:49:41,193 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/example-shared/local.properties
-2019-07-05 20:49:41,197 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/example-shared/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-05 20:49:41,197 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/example-shared/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-05 20:49:41,198 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/example/local.properties
-2019-07-05 20:49:41,202 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-05 20:49:41,202 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-05 20:49:41,203 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/library-databinding/local.properties
-2019-07-05 20:49:41,207 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/library-databinding/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-05 20:49:41,207 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/library-databinding/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-05 20:49:41,207 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/library-kotlin-android-extensions/local.properties
-2019-07-05 20:49:41,211 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/library-kotlin-android-extensions/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-05 20:49:41,211 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/library-kotlin-android-extensions/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-05 20:49:41,212 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/library/local.properties
-2019-07-05 20:49:41,216 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-05 20:49:41,216 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-05 20:49:41,216 INFO  ProjectFixService - Project was maybe fixed
-2019-07-05 20:49:41,216 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-05 20:49:41,216 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-05 20:49:49,956 INFO  ProjectTaskService - Detected possible tasks: 81
-2019-07-05 20:49:49,956 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-05 20:49:49,956 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-05 20:51:03,507 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-23 12:37:03,816 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/gradlew
+2019-07-23 12:37:03,821 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/example-databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/example-shared/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/library-databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/library-kotlin-android-extensions/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/library/build.gradle
+2019-07-23 12:37:03,825 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/example-shared/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/library-databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/jcenter/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/jcenter/maven-install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/library-kotlin-android-extensions/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/release-bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/example-databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/settings.gradle
+2019-07-23 12:37:03,826 INFO  ProjectBuildService - Remote scripts: none
+2019-07-23 12:37:03,826 INFO  ProjectFixService - Fixing project...
+2019-07-23 12:37:03,838 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/local.properties
+2019-07-23 12:37:03,838 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-07-23 12:37:03,839 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-07-23 12:37:03,843 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-23 12:37:03,843 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-23 12:37:03,844 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/example-databinding/local.properties
+2019-07-23 12:37:03,848 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/example-databinding/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-23 12:37:03,848 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/example-databinding/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-23 12:37:03,849 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/example-shared/local.properties
+2019-07-23 12:37:03,853 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/example-shared/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-23 12:37:03,853 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/example-shared/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-23 12:37:03,853 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/example/local.properties
+2019-07-23 12:37:03,857 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-23 12:37:03,857 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-23 12:37:03,858 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/library-databinding/local.properties
+2019-07-23 12:37:03,862 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/library-databinding/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-23 12:37:03,862 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/library-databinding/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-23 12:37:03,863 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/library-kotlin-android-extensions/local.properties
+2019-07-23 12:37:03,866 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/library-kotlin-android-extensions/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-23 12:37:03,866 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/library-kotlin-android-extensions/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-23 12:37:03,867 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/library/local.properties
+2019-07-23 12:37:03,871 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-23 12:37:03,871 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-23 12:37:03,871 INFO  ProjectFixService - Project was maybe fixed
+2019-07-23 12:37:03,871 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-23 12:37:03,872 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-23 12:37:13,146 INFO  ProjectTaskService - Detected possible tasks: 80
+2019-07-23 12:37:13,147 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-23 12:37:13,147 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-23 12:38:17,889 INFO  SysUtils - Configuration on demand is an incubating feature.
 WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
 It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
 WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
 It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
 :example:checkDebugClasspath
-Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-android-extensions-runtime/1.2.71/kotlin-android-extensions-runtime-1.2.71.jar
 :example:preBuild UP-TO-DATE
 :example-shared:preBuild UP-TO-DATE
 :example-shared:preDebugBuild UP-TO-DATE
@@ -97,14 +96,6 @@ Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-android-extensi
 :example-shared:packageDebugAssets
 :example:mergeDebugAssets
 :example:transformClassesWithDexBuilderForDebug
-D8: Stripped invalid locals information from 1 method.
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.71/d9717625bb3c731561251f8dd2c67a1011d6764c/kotlin-stdlib-1.2.71.jar: D8: Methods with invalid locals information:
-  java.lang.Object kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2.doResume(java.lang.Object, java.lang.Throwable)
-  Attempt to read local this but no local information was associated with the value being read.
-D8: Stripped invalid locals information from 1 method.
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.71/d9717625bb3c731561251f8dd2c67a1011d6764c/kotlin-stdlib-1.2.71.jar: D8: Methods with invalid locals information:
-  java.lang.Object kotlin.collections.SlidingWindowKt$windowedIterator$1.doResume(java.lang.Object, java.lang.Throwable)
-  Attempt to read local this but no local information was associated with the value being read.
 :example:transformDexArchiveWithExternalLibsDexMergerForDebug
 :example:transformDexArchiveWithDexMergerForDebug
 :example:mergeDebugJniLibFolders
@@ -186,7 +177,6 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 :example:assemble
 :example:build
 :example-databinding:checkDebugClasspath
-Download https://dl.bintray.com/lisawray/maven/com/xwray/groupie-databinding/2.2.0/groupie-databinding-2.2.0.aar
 :example-databinding:preBuild UP-TO-DATE
 :example-databinding:preDebugBuild
 :example-databinding:compileDebugAidl NO-SOURCE
@@ -373,7 +363,6 @@ No source directories found: skipping dokka generation
 :library-databinding:compileDebugAidl NO-SOURCE
 :library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 :library-databinding:compileDebugRenderscript
-Download https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-runtime/3.2.0/databinding-runtime-3.2.0.aar
 :library-databinding:checkDebugManifest
 :library-databinding:generateDebugBuildConfig
 :library-databinding:generateDebugResValues
@@ -512,28 +501,28 @@ No source directories found: skipping dokka generation
 :library-kotlin-android-extensions:verifyReleaseResources
 :library-kotlin-android-extensions:assembleRelease
 :library-kotlin-android-extensions:dokkaJavadoc
-No documentation for com.xwray.groupie.groupiex$plusAssign(com.xwray.groupie.Section, com.xwray.groupie.Group) (SectionExt.kt:8)
-No documentation for com.xwray.groupie.groupiex$plusAssign(com.xwray.groupie.Section, kotlin.collections.Collection((com.xwray.groupie.Group))) (SectionExt.kt:11)
-No documentation for com.xwray.groupie.groupiex$minusAssign(com.xwray.groupie.Section, com.xwray.groupie.Group) (SectionExt.kt:14)
-No documentation for com.xwray.groupie.groupiex$minusAssign(com.xwray.groupie.Section, kotlin.collections.Collection((com.xwray.groupie.Group))) (SectionExt.kt:17)
 No documentation for com.xwray.groupie.groupiex$plusAssign(com.xwray.groupie.GroupAdapter((com.xwray.groupie.ViewHolder)), com.xwray.groupie.Group) (GroupAdapterExt.kt:8)
 No documentation for com.xwray.groupie.groupiex$plusAssign(com.xwray.groupie.GroupAdapter((com.xwray.groupie.ViewHolder)), kotlin.collections.Collection((com.xwray.groupie.Group))) (GroupAdapterExt.kt:11)
 No documentation for com.xwray.groupie.groupiex$minusAssign(com.xwray.groupie.GroupAdapter((com.xwray.groupie.ViewHolder)), com.xwray.groupie.Group) (GroupAdapterExt.kt:14)
 No documentation for com.xwray.groupie.groupiex$minusAssign(com.xwray.groupie.GroupAdapter((com.xwray.groupie.ViewHolder)), kotlin.collections.Collection((com.xwray.groupie.Group))) (GroupAdapterExt.kt:17)
-No documentation for com.xwray.groupie.kotlinandroidextensions.Item (Item.kt:6)
-No documentation for com.xwray.groupie.kotlinandroidextensions.Item$createViewHolder(android.view.View) (Item.kt:11)
-No documentation for com.xwray.groupie.kotlinandroidextensions.Item$<init>() (Item.kt:8)
-No documentation for com.xwray.groupie.kotlinandroidextensions.Item$<init>(kotlin.Long) (Item.kt:9)
+No documentation for com.xwray.groupie.groupiex$plusAssign(com.xwray.groupie.Section, com.xwray.groupie.Group) (SectionExt.kt:8)
+No documentation for com.xwray.groupie.groupiex$plusAssign(com.xwray.groupie.Section, kotlin.collections.Collection((com.xwray.groupie.Group))) (SectionExt.kt:11)
+No documentation for com.xwray.groupie.groupiex$minusAssign(com.xwray.groupie.Section, com.xwray.groupie.Group) (SectionExt.kt:14)
+No documentation for com.xwray.groupie.groupiex$minusAssign(com.xwray.groupie.Section, kotlin.collections.Collection((com.xwray.groupie.Group))) (SectionExt.kt:17)
 No documentation for com.xwray.groupie.kotlinandroidextensions.ViewHolder (ViewHolder.kt:6)
 No documentation for com.xwray.groupie.kotlinandroidextensions.ViewHolder$containerView (ViewHolder.kt:6)
 No documentation for com.xwray.groupie.kotlinandroidextensions.ViewHolder$<init>(android.view.View) (ViewHolder.kt:6)
 No documentation for com.xwray.groupie.kotlinandroidextensions.ViewHolder$containerView (ViewHolder.kt:6)
+No documentation for com.xwray.groupie.kotlinandroidextensions.Item (Item.kt:6)
+No documentation for com.xwray.groupie.kotlinandroidextensions.Item$createViewHolder(android.view.View) (Item.kt:11)
+No documentation for com.xwray.groupie.kotlinandroidextensions.Item$<init>() (Item.kt:8)
+No documentation for com.xwray.groupie.kotlinandroidextensions.Item$<init>(kotlin.Long) (Item.kt:9)
 :library-kotlin-android-extensions:javadocJar
 :library-kotlin-android-extensions:sourcesJar
 :library-kotlin-android-extensions:assemble
 :library-kotlin-android-extensions:build
 
-BUILD SUCCESSFUL in 1m 12s
+BUILD SUCCESSFUL in 1m 4s
 319 actionable tasks: 319 executed
 
-2019-07-05 20:51:03,701 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334580242-0/src/groupie-master/example/build/outputs/apk/release/example-release-unsigned.apk
+2019-07-23 12:38:18,082 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563860221313-0/src/groupie-master/example/build/outputs/apk/release/example-release-unsigned.apk
