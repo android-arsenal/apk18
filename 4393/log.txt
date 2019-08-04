@@ -1,65 +1,39 @@
-2019-07-22 15:13:26,152 INFO  DownloadService - Downloading "https://github.com/ligi/SnackEngage/archive/master.zip", attempt 3
-2019-07-22 15:13:28,491 INFO  DownloadService - Downloaded https://github.com/ligi/SnackEngage/archive/master.zip, attempt 3
-2019-07-22 15:13:28,491 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/master.zip": 308 KB
-2019-07-22 15:13:28,491 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-22 15:13:28,493 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/master.zip: true
-2019-07-22 15:13:28,493 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src'.
-2019-07-22 15:13:28,521 INFO  FullProcessService - Size of directory with sources: 383 KB
-2019-07-22 15:13:28,521 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src]
-2019-07-22 15:13:28,538 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/.git/
+2019-08-04 20:33:38,779 INFO  DownloadService - Downloading "https://github.com/ligi/SnackEngage/archive/master.zip", attempt 3
+2019-08-04 20:33:41,262 INFO  DownloadService - Downloaded https://github.com/ligi/SnackEngage/archive/master.zip, attempt 3
+2019-08-04 20:33:41,263 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925618776-0/master.zip": 308 KB
+2019-08-04 20:33:41,263 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-04 20:33:41,268 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925618776-0/master.zip: true
+2019-08-04 20:33:41,268 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925618776-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925618776-0/src'.
+2019-08-04 20:33:41,297 INFO  FullProcessService - Size of directory with sources: 384 KB
+2019-08-04 20:33:41,297 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925618776-0/src]
+2019-08-04 20:33:41,316 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925618776-0/src/.git/
 
-2019-07-22 15:13:28,541 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/gradlew
-2019-07-22 15:13:28,545 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/demo_app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/snackengage-amazonrate/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/snackengage-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/snackengage-playrate/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/build.gradle
-2019-07-22 15:13:28,549 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/snackengage-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/snackengage-playrate/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/snackengage-amazonrate/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/demo_app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/settings.gradle
-2019-07-22 15:13:28,549 INFO  ProjectBuildService - Remote scripts: none
-2019-07-22 15:13:28,549 INFO  ProjectFixService - Fixing project...
-2019-07-22 15:13:28,557 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/demo_app/local.properties
-2019-07-22 15:13:28,557 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/demo_app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2019-07-22 15:13:28,558 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/snackengage-amazonrate/local.properties
-2019-07-22 15:13:28,558 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/snackengage-amazonrate/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2019-07-22 15:13:28,559 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/snackengage-core/local.properties
-2019-07-22 15:13:28,559 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/snackengage-core/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2019-07-22 15:13:28,559 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/snackengage-playrate/local.properties
-2019-07-22 15:13:28,560 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/snackengage-playrate/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2019-07-22 15:13:28,560 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/local.properties
-2019-07-22 15:13:28,560 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.3-all.zip
-2019-07-22 15:13:28,561 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.3-bin.zip)
-2019-07-22 15:13:28,561 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2019-07-22 15:13:28,561 INFO  ProjectFixService - Project was maybe fixed
-2019-07-22 15:13:28,561 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-22 15:13:28,561 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/demo_app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-22 15:13:36,554 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-07-22 15:13:36,554 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-22 15:13:36,554 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/demo_app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-22 15:13:55,885 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2019-07-22 15:13:55,885 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-04 20:33:41,320 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925618776-0/src/SnackEngage-master/gradlew
+2019-08-04 20:33:41,323 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925618776-0/src/SnackEngage-master/demo_app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925618776-0/src/SnackEngage-master/snackengage-amazonrate/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925618776-0/src/SnackEngage-master/snackengage-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925618776-0/src/SnackEngage-master/snackengage-playrate/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925618776-0/src/SnackEngage-master/build.gradle
+2019-08-04 20:33:41,327 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925618776-0/src/SnackEngage-master/snackengage-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925618776-0/src/SnackEngage-master/snackengage-playrate/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925618776-0/src/SnackEngage-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925618776-0/src/SnackEngage-master/snackengage-amazonrate/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925618776-0/src/SnackEngage-master/demo_app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925618776-0/src/SnackEngage-master/settings.gradle
+2019-08-04 20:33:41,328 INFO  ProjectBuildService - Remote scripts: none
+2019-08-04 20:33:41,329 INFO  ProjectFixService - Fixing project...
+2019-08-04 20:33:41,336 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925618776-0/src/SnackEngage-master/demo_app/local.properties
+2019-08-04 20:33:41,337 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925618776-0/src/SnackEngage-master/demo_app/build.gradle": [buildToolsVersion=29.0.1,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-08-04 20:33:41,337 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925618776-0/src/SnackEngage-master/snackengage-amazonrate/local.properties
+2019-08-04 20:33:41,337 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925618776-0/src/SnackEngage-master/snackengage-amazonrate/build.gradle": [buildToolsVersion=29.0.1,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-08-04 20:33:41,338 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925618776-0/src/SnackEngage-master/snackengage-core/local.properties
+2019-08-04 20:33:41,338 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925618776-0/src/SnackEngage-master/snackengage-core/build.gradle": [buildToolsVersion=29.0.1,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-08-04 20:33:41,339 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925618776-0/src/SnackEngage-master/snackengage-playrate/local.properties
+2019-08-04 20:33:41,339 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925618776-0/src/SnackEngage-master/snackengage-playrate/build.gradle": [buildToolsVersion=29.0.1,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-08-04 20:33:41,339 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925618776-0/src/SnackEngage-master/local.properties
+2019-08-04 20:33:41,339 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.5.1-all.zip
+2019-08-04 20:33:41,340 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.5.1-bin.zip)
+2019-08-04 20:33:41,340 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925618776-0/src/SnackEngage-master/build.gradle": [buildToolsVersion=29.0.1,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-08-04 20:33:41,341 INFO  ProjectFixService - Project was maybe fixed
+2019-08-04 20:33:41,341 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-04 20:33:41,341 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925618776-0/src/SnackEngage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925618776-0/src/SnackEngage-master/demo_app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-04 20:33:53,144 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-08-04 20:33:53,144 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-04 20:33:53,144 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925618776-0/src/SnackEngage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925618776-0/src/SnackEngage-master/demo_app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-04 20:34:40,475 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.5.1/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+Configuration on demand is an incubating feature.
 > Task :demo_app:preBuild UP-TO-DATE
 > Task :snackengage-core:preBuild UP-TO-DATE
 > Task :snackengage-core:preDebugBuild UP-TO-DATE
@@ -75,12 +49,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :demo_app:compileDebugAidl NO-SOURCE
 > Task :snackengage-core:packageDebugRenderscript NO-SOURCE
 > Task :snackengage-playrate:packageDebugRenderscript NO-SOURCE
-> Task :demo_app:compileDebugRenderscript
+> Task :demo_app:compileDebugRenderscript NO-SOURCE
 > Task :demo_app:checkDebugManifest
 > Task :demo_app:generateDebugBuildConfig
 > Task :demo_app:prepareLintJar
 > Task :demo_app:generateDebugSources
-> Task :snackengage-core:compileDebugRenderscript
+> Task :snackengage-core:compileDebugRenderscript NO-SOURCE
 > Task :snackengage-core:generateDebugBuildConfig
 > Task :snackengage-core:generateDebugResValues
 > Task :snackengage-core:generateDebugResources
@@ -89,10 +63,13 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :snackengage-core:prepareLintJar
 > Task :snackengage-core:generateDebugSources
 > Task :snackengage-core:javaPreCompileDebug
+
 > Task :snackengage-core:compileDebugJavaWithJavac
-> Task :snackengage-core:processDebugJavaRes NO-SOURCE
-> Task :snackengage-core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-> Task :snackengage-playrate:compileDebugRenderscript
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :snackengage-core:bundleLibCompileDebug
+> Task :snackengage-playrate:compileDebugRenderscript NO-SOURCE
 > Task :snackengage-playrate:generateDebugBuildConfig
 > Task :snackengage-playrate:generateDebugResValues
 > Task :snackengage-playrate:generateDebugResources
@@ -102,549 +79,162 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :snackengage-playrate:generateDebugSources
 > Task :snackengage-playrate:javaPreCompileDebug
 > Task :snackengage-playrate:compileDebugJavaWithJavac
-> Task :snackengage-playrate:processDebugJavaRes NO-SOURCE
-> Task :snackengage-playrate:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :snackengage-playrate:bundleLibCompileDebug
 > Task :demo_app:javaPreCompileDebug
 > Task :demo_app:mainApkListPersistenceDebug
 > Task :demo_app:generateDebugResValues
 > Task :demo_app:generateDebugResources
-> Task :demo_app:mergeDebugResources FAILED
-
-FAILURE: Build failed with an exception.
-
-* What went wrong:
-Execution failed for task ':demo_app:mergeDebugResources'.
-> Java heap space
-
-* Try:
-Run with --info or --debug option to get more log output. Run with --scan to get full insights.
-
-* Exception is:
-org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':demo_app:mergeDebugResources'.
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:110)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:77)
-	at org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter.execute(OutputDirectoryCreatingTaskExecuter.java:51)
-	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:59)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
-	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
-	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
-	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
-	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:91)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
-	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:59)
-	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
-	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
-	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.run(EventFiringTaskExecuter.java:51)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:46)
-	at org.gradle.execution.taskgraph.LocalTaskInfoExecutor.execute(LocalTaskInfoExecutor.java:42)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareWorkItemExecutor.execute(DefaultTaskExecutionGraph.java:277)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareWorkItemExecutor.execute(DefaultTaskExecutionGraph.java:262)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:135)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:130)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.execute(DefaultTaskPlanExecutor.java:200)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.executeWithWork(DefaultTaskPlanExecutor.java:191)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.run(DefaultTaskPlanExecutor.java:130)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
-Caused by: java.lang.OutOfMemoryError: Java heap space
-	at com.android.utils.XmlUtils$PositionAwareStringBuilder.append(XmlUtils.java:766)
-	at com.android.utils.XmlUtils.append(XmlUtils.java:710)
-	at com.android.utils.XmlUtils.append(XmlUtils.java:722)
-	at com.android.utils.XmlUtils.append(XmlUtils.java:722)
-	at com.android.utils.XmlUtils.append(XmlUtils.java:722)
-	at com.android.utils.XmlUtils.append(XmlUtils.java:722)
-	at com.android.utils.XmlUtils.append(XmlUtils.java:722)
-	at com.android.utils.XmlUtils.append(XmlUtils.java:675)
-	at com.android.utils.XmlUtils.toXml(XmlUtils.java:656)
-	at com.android.utils.XmlUtils.toXml(XmlUtils.java:649)
-	at com.android.ide.common.resources.DataMerger.writeBlobTo(DataMerger.java:339)
-	at com.android.ide.common.resources.ResourceMerger.writeBlobTo(ResourceMerger.java:54)
-	at com.android.build.gradle.tasks.MergeResources.doFullTaskAction(MergeResources.java:267)
-	at com.android.build.gradle.internal.tasks.IncrementalTask.taskAction(IncrementalTask.java:106)
-	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
-	at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.doExecute(IncrementalTaskAction.java:50)
-	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:39)
-	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:26)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:131)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-
-
-* Get more help at https://help.gradle.org
-
-BUILD FAILED in 18s
-31 actionable tasks: 31 executed
-
-2019-07-22 15:13:55,909 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-22 15:13:55,909 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/snackengage-amazonrate/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-22 15:14:01,550 INFO  ProjectTaskService - Detected possible tasks: 63
-2019-07-22 15:14:01,551 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-07-22 15:14:01,551 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/snackengage-amazonrate/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-07-22 15:14:17,129 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :snackengage-amazonrate:preBuild UP-TO-DATE
-> Task :snackengage-amazonrate:preDebugBuild UP-TO-DATE
-> Task :snackengage-core:preBuild UP-TO-DATE
-> Task :snackengage-core:preDebugBuild UP-TO-DATE
-> Task :snackengage-core:compileDebugAidl NO-SOURCE
-> Task :snackengage-amazonrate:compileDebugAidl NO-SOURCE
-> Task :snackengage-core:packageDebugRenderscript NO-SOURCE
-> Task :snackengage-amazonrate:compileDebugRenderscript
-> Task :snackengage-amazonrate:checkDebugManifest
-> Task :snackengage-amazonrate:generateDebugBuildConfig
-> Task :snackengage-amazonrate:generateDebugResValues
-> Task :snackengage-amazonrate:generateDebugResources
-> Task :snackengage-amazonrate:packageDebugResources
-> Task :snackengage-amazonrate:processDebugManifest
-> Task :snackengage-core:compileDebugRenderscript UP-TO-DATE
-> Task :snackengage-core:generateDebugResValues UP-TO-DATE
-> Task :snackengage-core:generateDebugResources UP-TO-DATE
-> Task :snackengage-core:packageDebugResources UP-TO-DATE
-> Task :snackengage-core:checkDebugManifest UP-TO-DATE
-> Task :snackengage-core:processDebugManifest UP-TO-DATE
-> Task :snackengage-core:generateDebugRFile UP-TO-DATE
-> Task :snackengage-amazonrate:generateDebugRFile
-> Task :snackengage-amazonrate:prepareLintJar
-> Task :snackengage-amazonrate:generateDebugSources
-> Task :snackengage-core:generateDebugBuildConfig UP-TO-DATE
-> Task :snackengage-core:prepareLintJar UP-TO-DATE
-> Task :snackengage-core:generateDebugSources UP-TO-DATE
-> Task :snackengage-core:javaPreCompileDebug UP-TO-DATE
-> Task :snackengage-core:compileDebugJavaWithJavac UP-TO-DATE
-> Task :snackengage-core:processDebugJavaRes NO-SOURCE
-> Task :snackengage-core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
-> Task :snackengage-amazonrate:javaPreCompileDebug
-> Task :snackengage-amazonrate:compileDebugJavaWithJavac
-> Task :snackengage-amazonrate:extractDebugAnnotations
-> Task :snackengage-amazonrate:mergeDebugConsumerProguardFiles
-> Task :snackengage-amazonrate:mergeDebugShaders
-> Task :snackengage-amazonrate:compileDebugShaders
-> Task :snackengage-amazonrate:generateDebugAssets
-> Task :snackengage-amazonrate:packageDebugAssets
-> Task :snackengage-amazonrate:packageDebugRenderscript NO-SOURCE
-> Task :snackengage-amazonrate:processDebugJavaRes NO-SOURCE
-> Task :snackengage-amazonrate:transformResourcesWithMergeJavaResForDebug
-> Task :snackengage-amazonrate:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :snackengage-amazonrate:compileDebugNdk NO-SOURCE
-> Task :snackengage-amazonrate:mergeDebugJniLibFolders
-> Task :snackengage-amazonrate:transformNativeLibsWithMergeJniLibsForDebug
-> Task :snackengage-amazonrate:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :snackengage-amazonrate:transformNativeLibsWithSyncJniLibsForDebug
-> Task :snackengage-amazonrate:bundleDebugAar
-> Task :snackengage-amazonrate:compileDebugSources
-> Task :snackengage-amazonrate:assembleDebug
-> Task :snackengage-amazonrate:preReleaseBuild UP-TO-DATE
-> Task :snackengage-core:preReleaseBuild UP-TO-DATE
-> Task :snackengage-core:compileReleaseAidl NO-SOURCE
-> Task :snackengage-amazonrate:compileReleaseAidl NO-SOURCE
-> Task :snackengage-core:packageReleaseRenderscript NO-SOURCE
-> Task :snackengage-amazonrate:compileReleaseRenderscript
-> Task :snackengage-amazonrate:checkReleaseManifest
-> Task :snackengage-amazonrate:generateReleaseBuildConfig
-> Task :snackengage-amazonrate:generateReleaseResValues
-> Task :snackengage-amazonrate:generateReleaseResources
-> Task :snackengage-amazonrate:packageReleaseResources
-> Task :snackengage-amazonrate:processReleaseManifest
-> Task :snackengage-core:compileReleaseRenderscript
-> Task :snackengage-core:generateReleaseResValues
-> Task :snackengage-core:generateReleaseResources
-> Task :snackengage-core:packageReleaseResources
-> Task :snackengage-core:checkReleaseManifest
-> Task :snackengage-core:processReleaseManifest
-> Task :snackengage-core:generateReleaseRFile
-> Task :snackengage-amazonrate:generateReleaseRFile
-> Task :snackengage-amazonrate:generateReleaseSources
-> Task :snackengage-core:generateReleaseBuildConfig
-> Task :snackengage-core:generateReleaseSources
-> Task :snackengage-core:javaPreCompileRelease
-> Task :snackengage-core:compileReleaseJavaWithJavac
-> Task :snackengage-core:processReleaseJavaRes NO-SOURCE
-> Task :snackengage-core:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-> Task :snackengage-amazonrate:javaPreCompileRelease
-> Task :snackengage-amazonrate:compileReleaseJavaWithJavac
-> Task :snackengage-amazonrate:extractReleaseAnnotations
-> Task :snackengage-amazonrate:mergeReleaseConsumerProguardFiles
-> Task :snackengage-amazonrate:mergeReleaseShaders
-> Task :snackengage-amazonrate:compileReleaseShaders
-> Task :snackengage-amazonrate:generateReleaseAssets
-> Task :snackengage-amazonrate:packageReleaseAssets
-> Task :snackengage-amazonrate:packageReleaseRenderscript NO-SOURCE
-> Task :snackengage-amazonrate:processReleaseJavaRes NO-SOURCE
-> Task :snackengage-amazonrate:transformResourcesWithMergeJavaResForRelease
-> Task :snackengage-amazonrate:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :snackengage-amazonrate:compileReleaseNdk NO-SOURCE
-> Task :snackengage-amazonrate:mergeReleaseJniLibFolders
-> Task :snackengage-amazonrate:transformNativeLibsWithMergeJniLibsForRelease
-> Task :snackengage-amazonrate:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :snackengage-amazonrate:transformNativeLibsWithSyncJniLibsForRelease
-> Task :snackengage-amazonrate:bundleReleaseAar
-> Task :snackengage-amazonrate:compileReleaseSources
-> Task :snackengage-amazonrate:mergeReleaseResources
-> Task :snackengage-amazonrate:verifyReleaseResources
-> Task :snackengage-amazonrate:assembleRelease
-> Task :snackengage-amazonrate:assemble
-> Task :snackengage-amazonrate:build
-
-BUILD SUCCESSFUL in 15s
-66 actionable tasks: 55 executed, 11 up-to-date
-
-2019-07-22 15:14:17,180 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-22 15:14:17,181 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/snackengage-core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-22 15:14:22,811 INFO  ProjectTaskService - Detected possible tasks: 63
-2019-07-22 15:14:22,811 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-07-22 15:14:22,811 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/snackengage-core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-07-22 15:14:43,255 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :snackengage-core:preBuild UP-TO-DATE
-> Task :snackengage-core:preDebugBuild UP-TO-DATE
-> Task :snackengage-core:compileDebugAidl NO-SOURCE
-> Task :snackengage-core:compileDebugRenderscript UP-TO-DATE
-> Task :snackengage-core:checkDebugManifest UP-TO-DATE
-> Task :snackengage-core:generateDebugBuildConfig UP-TO-DATE
-> Task :snackengage-core:generateDebugResValues UP-TO-DATE
-> Task :snackengage-core:generateDebugResources UP-TO-DATE
-> Task :snackengage-core:packageDebugResources UP-TO-DATE
-> Task :snackengage-core:processDebugManifest UP-TO-DATE
-> Task :snackengage-core:generateDebugRFile UP-TO-DATE
-> Task :snackengage-core:prepareLintJar UP-TO-DATE
-> Task :snackengage-core:generateDebugSources UP-TO-DATE
-> Task :snackengage-core:javaPreCompileDebug UP-TO-DATE
-> Task :snackengage-core:compileDebugJavaWithJavac UP-TO-DATE
-> Task :snackengage-core:extractDebugAnnotations
-> Task :snackengage-core:mergeDebugConsumerProguardFiles
+> Task :demo_app:mergeDebugResources
+> Task :demo_app:createDebugCompatibleScreenManifests
+> Task :demo_app:processDebugManifest
+> Task :demo_app:processDebugResources
+> Task :demo_app:compileDebugJavaWithJavac
+> Task :demo_app:compileDebugSources
+> Task :demo_app:mergeDebugShaders
+> Task :demo_app:compileDebugShaders
+> Task :demo_app:generateDebugAssets
 > Task :snackengage-core:mergeDebugShaders
 > Task :snackengage-core:compileDebugShaders
 > Task :snackengage-core:generateDebugAssets
 > Task :snackengage-core:packageDebugAssets
-> Task :snackengage-core:packageDebugRenderscript NO-SOURCE
-> Task :snackengage-core:processDebugJavaRes NO-SOURCE
-> Task :snackengage-core:transformResourcesWithMergeJavaResForDebug
-> Task :snackengage-core:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :snackengage-core:compileDebugNdk NO-SOURCE
-> Task :snackengage-core:mergeDebugJniLibFolders
-> Task :snackengage-core:transformNativeLibsWithMergeJniLibsForDebug
-> Task :snackengage-core:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :snackengage-core:transformNativeLibsWithSyncJniLibsForDebug
-> Task :snackengage-core:bundleDebugAar
-> Task :snackengage-core:compileDebugSources UP-TO-DATE
-> Task :snackengage-core:assembleDebug
-> Task :snackengage-core:preReleaseBuild UP-TO-DATE
-> Task :snackengage-core:compileReleaseAidl NO-SOURCE
-> Task :snackengage-core:compileReleaseRenderscript UP-TO-DATE
-> Task :snackengage-core:checkReleaseManifest UP-TO-DATE
-> Task :snackengage-core:generateReleaseBuildConfig UP-TO-DATE
-> Task :snackengage-core:generateReleaseResValues UP-TO-DATE
-> Task :snackengage-core:generateReleaseResources UP-TO-DATE
-> Task :snackengage-core:packageReleaseResources UP-TO-DATE
-> Task :snackengage-core:processReleaseManifest UP-TO-DATE
-> Task :snackengage-core:generateReleaseRFile UP-TO-DATE
-> Task :snackengage-core:generateReleaseSources UP-TO-DATE
-> Task :snackengage-core:javaPreCompileRelease UP-TO-DATE
-> Task :snackengage-core:compileReleaseJavaWithJavac UP-TO-DATE
-> Task :snackengage-core:extractReleaseAnnotations
-> Task :snackengage-core:mergeReleaseConsumerProguardFiles
-> Task :snackengage-core:mergeReleaseShaders
-> Task :snackengage-core:compileReleaseShaders
-> Task :snackengage-core:generateReleaseAssets
-> Task :snackengage-core:packageReleaseAssets
-> Task :snackengage-core:packageReleaseRenderscript NO-SOURCE
-> Task :snackengage-core:processReleaseJavaRes NO-SOURCE
-> Task :snackengage-core:transformResourcesWithMergeJavaResForRelease
-> Task :snackengage-core:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :snackengage-core:compileReleaseNdk NO-SOURCE
-> Task :snackengage-core:mergeReleaseJniLibFolders
-> Task :snackengage-core:transformNativeLibsWithMergeJniLibsForRelease
-> Task :snackengage-core:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :snackengage-core:transformNativeLibsWithSyncJniLibsForRelease
-> Task :snackengage-core:bundleReleaseAar
-> Task :snackengage-core:compileReleaseSources UP-TO-DATE
-> Task :snackengage-core:mergeReleaseResources
-> Task :snackengage-core:verifyReleaseResources
-> Task :snackengage-core:assembleRelease
-> Task :snackengage-core:assemble
-> Task :snackengage-core:build
-
-BUILD SUCCESSFUL in 20s
-45 actionable tasks: 26 executed, 19 up-to-date
-
-2019-07-22 15:14:43,328 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-22 15:14:43,328 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/snackengage-playrate/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-22 15:14:48,833 INFO  ProjectTaskService - Detected possible tasks: 63
-2019-07-22 15:14:48,833 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-07-22 15:14:48,833 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/snackengage-playrate/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-07-22 15:15:02,237 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :snackengage-core:preBuild UP-TO-DATE
-> Task :snackengage-core:preDebugBuild UP-TO-DATE
-> Task :snackengage-core:compileDebugAidl NO-SOURCE
-> Task :snackengage-playrate:preBuild UP-TO-DATE
-> Task :snackengage-playrate:preDebugBuild UP-TO-DATE
-> Task :snackengage-playrate:compileDebugAidl NO-SOURCE
-> Task :snackengage-core:compileDebugRenderscript UP-TO-DATE
-> Task :snackengage-core:checkDebugManifest UP-TO-DATE
-> Task :snackengage-core:generateDebugBuildConfig UP-TO-DATE
-> Task :snackengage-core:generateDebugResValues UP-TO-DATE
-> Task :snackengage-core:generateDebugResources UP-TO-DATE
-> Task :snackengage-core:packageDebugResources UP-TO-DATE
-> Task :snackengage-core:processDebugManifest UP-TO-DATE
-> Task :snackengage-core:generateDebugRFile UP-TO-DATE
-> Task :snackengage-core:prepareLintJar UP-TO-DATE
-> Task :snackengage-core:generateDebugSources UP-TO-DATE
-> Task :snackengage-core:javaPreCompileDebug UP-TO-DATE
-> Task :snackengage-core:compileDebugJavaWithJavac UP-TO-DATE
-> Task :snackengage-core:processDebugJavaRes NO-SOURCE
-> Task :snackengage-core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
-> Task :snackengage-core:packageDebugRenderscript NO-SOURCE
-> Task :snackengage-playrate:compileDebugRenderscript UP-TO-DATE
-> Task :snackengage-playrate:checkDebugManifest UP-TO-DATE
-> Task :snackengage-playrate:generateDebugBuildConfig UP-TO-DATE
-> Task :snackengage-playrate:generateDebugResValues UP-TO-DATE
-> Task :snackengage-playrate:generateDebugResources UP-TO-DATE
-> Task :snackengage-playrate:packageDebugResources UP-TO-DATE
-> Task :snackengage-playrate:processDebugManifest UP-TO-DATE
-> Task :snackengage-playrate:generateDebugRFile UP-TO-DATE
-> Task :snackengage-playrate:prepareLintJar UP-TO-DATE
-> Task :snackengage-playrate:generateDebugSources UP-TO-DATE
-> Task :snackengage-playrate:javaPreCompileDebug UP-TO-DATE
-> Task :snackengage-playrate:compileDebugJavaWithJavac UP-TO-DATE
-> Task :snackengage-playrate:extractDebugAnnotations
-> Task :snackengage-playrate:mergeDebugConsumerProguardFiles
 > Task :snackengage-playrate:mergeDebugShaders
 > Task :snackengage-playrate:compileDebugShaders
 > Task :snackengage-playrate:generateDebugAssets
 > Task :snackengage-playrate:packageDebugAssets
-> Task :snackengage-playrate:packageDebugRenderscript NO-SOURCE
+> Task :demo_app:mergeDebugAssets
+> Task :snackengage-core:processDebugJavaRes NO-SOURCE
+> Task :snackengage-core:bundleLibResDebug
+> Task :snackengage-core:bundleLibRuntimeDebug
+> Task :snackengage-core:createFullJarDebug
 > Task :snackengage-playrate:processDebugJavaRes NO-SOURCE
-> Task :snackengage-playrate:transformResourcesWithMergeJavaResForDebug
-> Task :snackengage-playrate:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :snackengage-playrate:compileDebugNdk NO-SOURCE
+> Task :snackengage-playrate:bundleLibResDebug
+> Task :snackengage-playrate:bundleLibRuntimeDebug
+> Task :snackengage-playrate:createFullJarDebug
+> Task :demo_app:checkDebugDuplicateClasses
+> Task :demo_app:mergeExtDexDebug
+> Task :demo_app:transformClassesWithDexBuilderForDebug
+> Task :demo_app:mergeDexDebug
+> Task :demo_app:validateSigningDebug
+> Task :demo_app:signingConfigWriterDebug
+> Task :demo_app:mergeDebugJniLibFolders
+> Task :snackengage-core:mergeDebugJniLibFolders
+> Task :snackengage-core:transformNativeLibsWithMergeJniLibsForDebug
+> Task :snackengage-core:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :snackengage-core:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :snackengage-playrate:mergeDebugJniLibFolders
 > Task :snackengage-playrate:transformNativeLibsWithMergeJniLibsForDebug
 > Task :snackengage-playrate:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :snackengage-playrate:transformNativeLibsWithSyncJniLibsForDebug
-> Task :snackengage-playrate:bundleDebugAar
-> Task :snackengage-playrate:compileDebugSources UP-TO-DATE
-> Task :snackengage-playrate:assembleDebug
+> Task :snackengage-playrate:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :demo_app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :demo_app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :demo_app:processDebugJavaRes NO-SOURCE
+> Task :demo_app:transformResourcesWithMergeJavaResForDebug
+> Task :demo_app:packageDebug
+> Task :demo_app:assembleDebug
 > Task :snackengage-core:preReleaseBuild UP-TO-DATE
-> Task :snackengage-core:compileReleaseAidl NO-SOURCE
+> Task :snackengage-core:checkReleaseManifest
+> Task :snackengage-core:processReleaseManifest
 > Task :snackengage-playrate:preReleaseBuild UP-TO-DATE
-> Task :snackengage-playrate:compileReleaseAidl NO-SOURCE
-> Task :snackengage-core:compileReleaseRenderscript UP-TO-DATE
-> Task :snackengage-core:checkReleaseManifest UP-TO-DATE
-> Task :snackengage-core:generateReleaseBuildConfig UP-TO-DATE
-> Task :snackengage-core:generateReleaseResValues UP-TO-DATE
-> Task :snackengage-core:generateReleaseResources UP-TO-DATE
-> Task :snackengage-core:packageReleaseResources UP-TO-DATE
-> Task :snackengage-core:processReleaseManifest UP-TO-DATE
-> Task :snackengage-core:generateReleaseRFile UP-TO-DATE
-> Task :snackengage-core:generateReleaseSources UP-TO-DATE
-> Task :snackengage-core:javaPreCompileRelease UP-TO-DATE
-> Task :snackengage-core:compileReleaseJavaWithJavac UP-TO-DATE
-> Task :snackengage-core:processReleaseJavaRes NO-SOURCE
-> Task :snackengage-core:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
-> Task :snackengage-core:packageReleaseRenderscript NO-SOURCE
-> Task :snackengage-playrate:compileReleaseRenderscript
 > Task :snackengage-playrate:checkReleaseManifest
+> Task :snackengage-playrate:processReleaseManifest
+> Task :demo_app:preReleaseBuild
+> Task :snackengage-core:compileReleaseAidl NO-SOURCE
+> Task :snackengage-playrate:compileReleaseAidl NO-SOURCE
+> Task :demo_app:compileReleaseAidl NO-SOURCE
+> Task :snackengage-core:packageReleaseRenderscript NO-SOURCE
+> Task :snackengage-playrate:packageReleaseRenderscript NO-SOURCE
+> Task :demo_app:compileReleaseRenderscript NO-SOURCE
+> Task :demo_app:checkReleaseManifest
+> Task :demo_app:generateReleaseBuildConfig
+> Task :demo_app:generateReleaseSources
+> Task :snackengage-core:compileReleaseRenderscript NO-SOURCE
+> Task :snackengage-core:generateReleaseBuildConfig
+> Task :snackengage-core:generateReleaseResValues
+> Task :snackengage-core:generateReleaseResources
+> Task :snackengage-core:packageReleaseResources
+> Task :snackengage-core:generateReleaseRFile
+> Task :snackengage-core:generateReleaseSources
+> Task :snackengage-core:javaPreCompileRelease
+
+> Task :snackengage-core:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :snackengage-core:bundleLibCompileRelease
+> Task :snackengage-playrate:compileReleaseRenderscript NO-SOURCE
 > Task :snackengage-playrate:generateReleaseBuildConfig
 > Task :snackengage-playrate:generateReleaseResValues
 > Task :snackengage-playrate:generateReleaseResources
 > Task :snackengage-playrate:packageReleaseResources
-> Task :snackengage-playrate:processReleaseManifest
 > Task :snackengage-playrate:generateReleaseRFile
 > Task :snackengage-playrate:generateReleaseSources
 > Task :snackengage-playrate:javaPreCompileRelease
 > Task :snackengage-playrate:compileReleaseJavaWithJavac
-> Task :snackengage-playrate:extractReleaseAnnotations
-> Task :snackengage-playrate:mergeReleaseConsumerProguardFiles
+> Task :snackengage-playrate:bundleLibCompileRelease
+> Task :demo_app:javaPreCompileRelease
+> Task :demo_app:mainApkListPersistenceRelease
+> Task :demo_app:generateReleaseResValues
+> Task :demo_app:generateReleaseResources
+> Task :demo_app:mergeReleaseResources
+> Task :demo_app:createReleaseCompatibleScreenManifests
+> Task :demo_app:processReleaseManifest
+> Task :demo_app:processReleaseResources
+> Task :demo_app:compileReleaseJavaWithJavac
+> Task :demo_app:compileReleaseSources
+> Task :snackengage-core:prepareLintJarForPublish
+> Task :snackengage-playrate:prepareLintJarForPublish
+
+> Task :demo_app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/33c69f73025c16de94e92c7c00707188/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :snackengage-core:processReleaseJavaRes NO-SOURCE
+> Task :snackengage-core:bundleLibResRelease
+> Task :snackengage-core:bundleLibRuntimeRelease
+> Task :snackengage-core:createFullJarRelease
+> Task :snackengage-playrate:processReleaseJavaRes NO-SOURCE
+> Task :snackengage-playrate:bundleLibResRelease
+> Task :snackengage-playrate:bundleLibRuntimeRelease
+> Task :snackengage-playrate:createFullJarRelease
+> Task :demo_app:checkReleaseDuplicateClasses
+> Task :demo_app:mergeExtDexRelease
+> Task :demo_app:transformClassesWithDexBuilderForRelease
+> Task :demo_app:mergeDexRelease
+> Task :demo_app:mergeReleaseShaders
+> Task :demo_app:compileReleaseShaders
+> Task :demo_app:generateReleaseAssets
+> Task :snackengage-core:mergeReleaseShaders
+> Task :snackengage-core:compileReleaseShaders
+> Task :snackengage-core:generateReleaseAssets
+> Task :snackengage-core:packageReleaseAssets
 > Task :snackengage-playrate:mergeReleaseShaders
 > Task :snackengage-playrate:compileReleaseShaders
 > Task :snackengage-playrate:generateReleaseAssets
 > Task :snackengage-playrate:packageReleaseAssets
-> Task :snackengage-playrate:packageReleaseRenderscript NO-SOURCE
-> Task :snackengage-playrate:processReleaseJavaRes NO-SOURCE
-> Task :snackengage-playrate:transformResourcesWithMergeJavaResForRelease
-> Task :snackengage-playrate:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :snackengage-playrate:compileReleaseNdk NO-SOURCE
+> Task :demo_app:mergeReleaseAssets
+> Task :demo_app:signingConfigWriterRelease
+> Task :demo_app:mergeReleaseJniLibFolders
+> Task :snackengage-core:mergeReleaseJniLibFolders
+> Task :snackengage-core:transformNativeLibsWithMergeJniLibsForRelease
+> Task :snackengage-core:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :snackengage-core:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :snackengage-playrate:mergeReleaseJniLibFolders
 > Task :snackengage-playrate:transformNativeLibsWithMergeJniLibsForRelease
 > Task :snackengage-playrate:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :snackengage-playrate:transformNativeLibsWithSyncJniLibsForRelease
-> Task :snackengage-playrate:bundleReleaseAar
-> Task :snackengage-playrate:compileReleaseSources
-> Task :snackengage-playrate:mergeReleaseResources
-> Task :snackengage-playrate:verifyReleaseResources
-> Task :snackengage-playrate:assembleRelease
-> Task :snackengage-playrate:assemble
-> Task :snackengage-playrate:build
+> Task :snackengage-playrate:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :demo_app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :demo_app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :demo_app:processReleaseJavaRes NO-SOURCE
+> Task :demo_app:transformResourcesWithMergeJavaResForRelease
+> Task :demo_app:packageRelease
+> Task :demo_app:assembleRelease
+> Task :demo_app:assemble
+> Task :demo_app:build
 
-BUILD SUCCESSFUL in 13s
-66 actionable tasks: 35 executed, 31 up-to-date
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.5.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-2019-07-22 15:15:02,334 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-22 15:15:02,335 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-22 15:15:08,406 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-07-22 15:15:08,406 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-22 15:15:08,406 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783206150-0/src/SnackEngage-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-22 15:15:22,186 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2019-07-22 15:15:22,186 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :demo_app:preBuild UP-TO-DATE
-> Task :snackengage-core:preBuild UP-TO-DATE
-> Task :snackengage-core:preDebugBuild UP-TO-DATE
-> Task :snackengage-core:checkDebugManifest UP-TO-DATE
-> Task :snackengage-core:processDebugManifest UP-TO-DATE
-> Task :snackengage-playrate:preBuild UP-TO-DATE
-> Task :snackengage-playrate:preDebugBuild UP-TO-DATE
-> Task :snackengage-playrate:checkDebugManifest UP-TO-DATE
-> Task :snackengage-playrate:processDebugManifest UP-TO-DATE
-> Task :demo_app:preDebugBuild UP-TO-DATE
-> Task :snackengage-core:compileDebugAidl NO-SOURCE
-> Task :snackengage-playrate:compileDebugAidl NO-SOURCE
-> Task :demo_app:compileDebugAidl NO-SOURCE
-> Task :snackengage-core:packageDebugRenderscript NO-SOURCE
-> Task :snackengage-playrate:packageDebugRenderscript NO-SOURCE
-> Task :demo_app:compileDebugRenderscript UP-TO-DATE
-> Task :demo_app:checkDebugManifest UP-TO-DATE
-> Task :demo_app:generateDebugBuildConfig UP-TO-DATE
-> Task :demo_app:prepareLintJar UP-TO-DATE
-> Task :demo_app:generateDebugSources UP-TO-DATE
-> Task :snackengage-core:compileDebugRenderscript UP-TO-DATE
-> Task :snackengage-core:generateDebugBuildConfig UP-TO-DATE
-> Task :snackengage-core:generateDebugResValues UP-TO-DATE
-> Task :snackengage-core:generateDebugResources UP-TO-DATE
-> Task :snackengage-core:packageDebugResources UP-TO-DATE
-> Task :snackengage-core:generateDebugRFile UP-TO-DATE
-> Task :snackengage-core:prepareLintJar UP-TO-DATE
-> Task :snackengage-core:generateDebugSources UP-TO-DATE
-> Task :snackengage-core:javaPreCompileDebug UP-TO-DATE
-> Task :snackengage-core:compileDebugJavaWithJavac UP-TO-DATE
-> Task :snackengage-core:processDebugJavaRes NO-SOURCE
-> Task :snackengage-core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
-> Task :snackengage-playrate:compileDebugRenderscript UP-TO-DATE
-> Task :snackengage-playrate:generateDebugBuildConfig UP-TO-DATE
-> Task :snackengage-playrate:generateDebugResValues UP-TO-DATE
-> Task :snackengage-playrate:generateDebugResources UP-TO-DATE
-> Task :snackengage-playrate:packageDebugResources UP-TO-DATE
-> Task :snackengage-playrate:generateDebugRFile UP-TO-DATE
-> Task :snackengage-playrate:prepareLintJar UP-TO-DATE
-> Task :snackengage-playrate:generateDebugSources UP-TO-DATE
-> Task :snackengage-playrate:javaPreCompileDebug UP-TO-DATE
-> Task :snackengage-playrate:compileDebugJavaWithJavac UP-TO-DATE
-> Task :snackengage-playrate:processDebugJavaRes NO-SOURCE
-> Task :snackengage-playrate:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
-> Task :demo_app:javaPreCompileDebug UP-TO-DATE
-> Task :demo_app:mainApkListPersistenceDebug UP-TO-DATE
-> Task :demo_app:generateDebugResValues UP-TO-DATE
-> Task :demo_app:generateDebugResources UP-TO-DATE
-> Task :demo_app:mergeDebugResources FAILED
+BUILD SUCCESSFUL in 46s
+131 actionable tasks: 131 executed
 
-FAILURE: Build failed with an exception.
-
-* What went wrong:
-Execution failed for task ':demo_app:mergeDebugResources'.
-> Java heap space
-
-* Try:
-Run with --info or --debug option to get more log output. Run with --scan to get full insights.
-
-* Exception is:
-org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':demo_app:mergeDebugResources'.
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:110)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:77)
-	at org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter.execute(OutputDirectoryCreatingTaskExecuter.java:51)
-	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:59)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
-	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
-	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
-	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
-	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:91)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
-	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:59)
-	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
-	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
-	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.run(EventFiringTaskExecuter.java:51)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:46)
-	at org.gradle.execution.taskgraph.LocalTaskInfoExecutor.execute(LocalTaskInfoExecutor.java:42)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareWorkItemExecutor.execute(DefaultTaskExecutionGraph.java:277)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareWorkItemExecutor.execute(DefaultTaskExecutionGraph.java:262)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:135)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:130)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.execute(DefaultTaskPlanExecutor.java:200)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.executeWithWork(DefaultTaskPlanExecutor.java:191)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.run(DefaultTaskPlanExecutor.java:130)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
-Caused by: java.lang.OutOfMemoryError: Java heap space
-	at com.android.utils.XmlUtils$PositionAwareStringBuilder.append(XmlUtils.java:782)
-	at com.android.utils.XmlUtils.append(XmlUtils.java:726)
-	at com.android.utils.XmlUtils.append(XmlUtils.java:722)
-	at com.android.utils.XmlUtils.append(XmlUtils.java:722)
-	at com.android.utils.XmlUtils.append(XmlUtils.java:722)
-	at com.android.utils.XmlUtils.append(XmlUtils.java:675)
-	at com.android.utils.XmlUtils.toXml(XmlUtils.java:656)
-	at com.android.utils.XmlUtils.toXml(XmlUtils.java:649)
-	at com.android.ide.common.resources.DataMerger.writeBlobTo(DataMerger.java:339)
-	at com.android.ide.common.resources.ResourceMerger.writeBlobTo(ResourceMerger.java:54)
-	at com.android.build.gradle.tasks.MergeResources.doFullTaskAction(MergeResources.java:267)
-	at com.android.build.gradle.internal.tasks.IncrementalTask.taskAction(IncrementalTask.java:106)
-	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
-	at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.doExecute(IncrementalTaskAction.java:50)
-	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:39)
-	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:26)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:131)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:120)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:99)
-
-
-* Get more help at https://help.gradle.org
-
-BUILD FAILED in 13s
-31 actionable tasks: 1 executed, 30 up-to-date
-
-2019-07-22 15:15:22,282 ERROR FullProcessService - Project build has not produced APK file
-2019-07-22 15:15:22,371 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-04 20:34:40,553 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925618776-0/src/SnackEngage-master/demo_app/build/outputs/apk/release/demo_app-release-unsigned.apk

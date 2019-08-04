@@ -1,55 +1,55 @@
-2019-07-22 15:12:08,017 INFO  DownloadService - Downloading "https://github.com/Tencent/tinker/archive/master.zip", attempt 3
-2019-07-22 15:12:10,901 INFO  DownloadService - Downloaded https://github.com/Tencent/tinker/archive/master.zip, attempt 3
-2019-07-22 15:12:10,901 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/master.zip": 868 KB
-2019-07-22 15:12:10,901 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-22 15:12:10,908 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/master.zip: true
-2019-07-22 15:12:10,909 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src'.
-2019-07-22 15:12:11,011 INFO  FullProcessService - Size of directory with sources: 2 MB
-2019-07-22 15:12:11,011 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src]
-2019-07-22 15:12:11,036 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/.git/
+2019-08-04 20:31:58,161 INFO  DownloadService - Downloading "https://github.com/Tencent/tinker/archive/master.zip", attempt 3
+2019-08-04 20:32:01,344 INFO  DownloadService - Downloaded https://github.com/Tencent/tinker/archive/master.zip, attempt 3
+2019-08-04 20:32:01,345 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/master.zip": 868 KB
+2019-08-04 20:32:01,345 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-04 20:32:01,351 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/master.zip: true
+2019-08-04 20:32:01,351 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src'.
+2019-08-04 20:32:01,474 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-08-04 20:32:01,474 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src]
+2019-08-04 20:32:01,504 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/.git/
 
-2019-07-22 15:12:11,047 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-sample-android/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/gradlew
-2019-07-22 15:12:11,059 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-android/tinker-android-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-android/tinker-android-loader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-sample-android/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-sample-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/third-party/aosp-dexutils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/third-party/bsdiff-util/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/third-party/tinker-ziputils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-android/tinker-android-anno/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-build/tinker-patch-cli/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-build/tinker-patch-gradle-plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-build/tinker-patch-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-commons/build.gradle
-2019-07-22 15:12:11,069 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-commons/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-sample-android/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-sample-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-sample-android/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-build/tinker-patch-gradle-plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-build/tinker-patch-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-build/tinker-patch-cli/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/gradle/java-artifacts.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/gradle/android-artifacts.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/gradle/check.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/third-party/bsdiff-util/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/third-party/tinker-ziputils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/third-party/aosp-dexutils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-android/tinker-android-anno/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-android/tinker-android-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-android/tinker-android-loader/build.gradle
-2019-07-22 15:12:11,070 INFO  ProjectBuildService - Remote scripts: none
-2019-07-22 15:12:11,070 INFO  ProjectFixService - Fixing project...
-2019-07-22 15:12:11,110 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-android/tinker-android-lib/local.properties
-2019-07-22 15:12:11,112 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-android/tinker-android-lib/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
-2019-07-22 15:12:11,112 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-android/tinker-android-loader/local.properties
-2019-07-22 15:12:11,114 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-android/tinker-android-loader/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
-2019-07-22 15:12:11,114 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-sample-android/app/local.properties
-2019-07-22 15:12:11,115 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-sample-android/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
-2019-07-22 15:12:11,115 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/local.properties
-2019-07-22 15:12:11,116 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-07-22 15:12:11,116 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-07-22 15:12:11,117 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=26,minSdkVersion=10,targetSdkVersion=23]
-2019-07-22 15:12:11,117 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-sample-android/local.properties
-2019-07-22 15:12:11,117 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-07-22 15:12:11,118 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-07-22 15:12:11,119 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-sample-android/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
-2019-07-22 15:12:11,120 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/third-party/aosp-dexutils/local.properties
-2019-07-22 15:12:11,121 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/third-party/aosp-dexutils/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
-2019-07-22 15:12:11,122 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/third-party/bsdiff-util/local.properties
-2019-07-22 15:12:11,123 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/third-party/bsdiff-util/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
-2019-07-22 15:12:11,124 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/third-party/tinker-ziputils/local.properties
-2019-07-22 15:12:11,125 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/third-party/tinker-ziputils/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
-2019-07-22 15:12:11,126 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-android/tinker-android-anno/local.properties
-2019-07-22 15:12:11,127 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-android/tinker-android-anno/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
-2019-07-22 15:12:11,128 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-build/tinker-patch-cli/local.properties
-2019-07-22 15:12:11,129 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-build/tinker-patch-cli/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
-2019-07-22 15:12:11,129 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-build/tinker-patch-gradle-plugin/local.properties
-2019-07-22 15:12:11,131 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-build/tinker-patch-gradle-plugin/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
-2019-07-22 15:12:11,131 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-build/tinker-patch-lib/local.properties
-2019-07-22 15:12:11,133 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-build/tinker-patch-lib/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
-2019-07-22 15:12:11,133 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-commons/local.properties
-2019-07-22 15:12:11,134 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-commons/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
-2019-07-22 15:12:11,134 INFO  ProjectFixService - Project was maybe fixed
-2019-07-22 15:12:11,134 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-22 15:12:11,134 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-android/tinker-android-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-22 15:12:20,333 INFO  ProjectTaskService - Detected possible tasks: 83
-2019-07-22 15:12:20,333 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-07-22 15:12:20,333 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-android/tinker-android-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-07-22 15:12:32,859 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-04 20:32:01,515 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-sample-android/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/gradlew
+2019-08-04 20:32:01,527 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-android/tinker-android-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-android/tinker-android-loader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-sample-android/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-sample-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/third-party/aosp-dexutils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/third-party/bsdiff-util/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/third-party/tinker-ziputils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-android/tinker-android-anno/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-build/tinker-patch-cli/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-build/tinker-patch-gradle-plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-build/tinker-patch-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-commons/build.gradle
+2019-08-04 20:32:01,537 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-commons/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-sample-android/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-sample-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-sample-android/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-build/tinker-patch-gradle-plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-build/tinker-patch-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-build/tinker-patch-cli/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/gradle/java-artifacts.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/gradle/android-artifacts.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/gradle/check.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/third-party/bsdiff-util/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/third-party/tinker-ziputils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/third-party/aosp-dexutils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-android/tinker-android-anno/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-android/tinker-android-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-android/tinker-android-loader/build.gradle
+2019-08-04 20:32:01,539 INFO  ProjectBuildService - Remote scripts: none
+2019-08-04 20:32:01,539 INFO  ProjectFixService - Fixing project...
+2019-08-04 20:32:01,585 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-android/tinker-android-lib/local.properties
+2019-08-04 20:32:01,587 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-android/tinker-android-lib/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
+2019-08-04 20:32:01,587 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-android/tinker-android-loader/local.properties
+2019-08-04 20:32:01,589 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-android/tinker-android-loader/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
+2019-08-04 20:32:01,589 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-sample-android/app/local.properties
+2019-08-04 20:32:01,590 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-sample-android/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
+2019-08-04 20:32:01,590 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/local.properties
+2019-08-04 20:32:01,591 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-08-04 20:32:01,591 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-08-04 20:32:01,592 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=26,minSdkVersion=10,targetSdkVersion=23]
+2019-08-04 20:32:01,592 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-sample-android/local.properties
+2019-08-04 20:32:01,592 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-08-04 20:32:01,593 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-08-04 20:32:01,595 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-sample-android/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
+2019-08-04 20:32:01,596 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/third-party/aosp-dexutils/local.properties
+2019-08-04 20:32:01,597 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/third-party/aosp-dexutils/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
+2019-08-04 20:32:01,598 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/third-party/bsdiff-util/local.properties
+2019-08-04 20:32:01,599 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/third-party/bsdiff-util/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
+2019-08-04 20:32:01,599 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/third-party/tinker-ziputils/local.properties
+2019-08-04 20:32:01,601 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/third-party/tinker-ziputils/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
+2019-08-04 20:32:01,601 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-android/tinker-android-anno/local.properties
+2019-08-04 20:32:01,603 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-android/tinker-android-anno/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
+2019-08-04 20:32:01,603 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-build/tinker-patch-cli/local.properties
+2019-08-04 20:32:01,604 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-build/tinker-patch-cli/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
+2019-08-04 20:32:01,605 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-build/tinker-patch-gradle-plugin/local.properties
+2019-08-04 20:32:01,606 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-build/tinker-patch-gradle-plugin/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
+2019-08-04 20:32:01,607 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-build/tinker-patch-lib/local.properties
+2019-08-04 20:32:01,608 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-build/tinker-patch-lib/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
+2019-08-04 20:32:01,609 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-commons/local.properties
+2019-08-04 20:32:01,611 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-commons/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
+2019-08-04 20:32:01,611 INFO  ProjectFixService - Project was maybe fixed
+2019-08-04 20:32:01,611 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-04 20:32:01,611 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-android/tinker-android-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-04 20:32:12,286 INFO  ProjectTaskService - Detected possible tasks: 83
+2019-08-04 20:32:12,286 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-08-04 20:32:12,286 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-android/tinker-android-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-08-04 20:32:29,404 INFO  SysUtils - Configuration on demand is an incubating feature.
 Analyze code of module ':tinker-android:tinker-android-lib':
 Reading changed files...
 Check git-diff changed files
@@ -137,7 +137,7 @@ Note: Recompile with -Xlint:unchecked for details.
 :tinker-android:tinker-android-loader:processDebugJavaRes NO-SOURCE
 :tinker-android:tinker-android-loader:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 :tinker-android:tinker-android-lib:javaPreCompileDebug
-:tinker-android:tinker-android-lib:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-android/tinker-android-lib/src/main/java/com/tencent/tinker/lib/library/TinkerLoadLibrary.java uses unchecked or unsafe operations.
+:tinker-android:tinker-android-lib:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-android/tinker-android-lib/src/main/java/com/tencent/tinker/lib/library/TinkerLoadLibrary.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :tinker-android:tinker-android-lib:extractDebugAnnotations
@@ -190,7 +190,7 @@ Note: Recompile with -Xlint:unchecked for details.
 :tinker-android:tinker-android-loader:processReleaseJavaRes NO-SOURCE
 :tinker-android:tinker-android-loader:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
 :tinker-android:tinker-android-lib:javaPreCompileRelease
-:tinker-android:tinker-android-lib:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-android/tinker-android-lib/src/main/java/com/tencent/tinker/lib/library/TinkerLoadLibrary.java uses unchecked or unsafe operations.
+:tinker-android:tinker-android-lib:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-android/tinker-android-lib/src/main/java/com/tencent/tinker/lib/library/TinkerLoadLibrary.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :tinker-android:tinker-android-lib:extractReleaseAnnotations
@@ -217,15 +217,15 @@ Note: Recompile with -Xlint:unchecked for details.
 :tinker-android:tinker-android-lib:assemble
 :tinker-android:tinker-android-lib:build
 
-BUILD SUCCESSFUL in 12s
+BUILD SUCCESSFUL in 16s
 76 actionable tasks: 76 executed
 
-2019-07-22 15:12:32,893 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-22 15:12:32,893 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-android/tinker-android-loader/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-22 15:12:40,017 INFO  ProjectTaskService - Detected possible tasks: 83
-2019-07-22 15:12:40,017 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-07-22 15:12:40,017 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-android/tinker-android-loader/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-07-22 15:12:48,040 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-04 20:32:29,444 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-04 20:32:29,444 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-android/tinker-android-loader/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-04 20:32:38,885 INFO  ProjectTaskService - Detected possible tasks: 83
+2019-08-04 20:32:38,886 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-08-04 20:32:38,886 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-android/tinker-android-loader/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-08-04 20:32:49,741 INFO  SysUtils - Configuration on demand is an incubating feature.
 Analyze code of module ':tinker-android:tinker-android-loader':
 Reading changed files...
 Check git-diff changed files
@@ -303,15 +303,15 @@ No files changed found, skip analyzing.
 :tinker-android:tinker-android-loader:assemble
 :tinker-android:tinker-android-loader:build
 
-BUILD SUCCESSFUL in 7s
+BUILD SUCCESSFUL in 10s
 47 actionable tasks: 28 executed, 19 up-to-date
 
-2019-07-22 15:12:48,077 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-22 15:12:48,077 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-sample-android/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-sample-android/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-22 15:12:54,259 INFO  ProjectTaskService - Detected possible tasks: 73
-2019-07-22 15:12:54,259 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-22 15:12:54,259 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-sample-android/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-sample-android/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-22 15:13:18,346 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-04 20:32:49,782 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-04 20:32:49,782 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-sample-android/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-sample-android/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-04 20:32:58,014 INFO  ProjectTaskService - Detected possible tasks: 73
+2019-08-04 20:32:58,014 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-04 20:32:58,014 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-sample-android/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-sample-android/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-04 20:33:30,591 INFO  SysUtils - Configuration on demand is an incubating feature.
 WARNING: The option 'android.enableAapt2' is deprecated and should not be used anymore.
 Use 'android.enableAapt2=true' to remove this warning.
 It will be removed at the end of 2018..
@@ -333,7 +333,7 @@ It will be removed at the end of 2018..
 :app:processDebugResources
 :app:generateDebugSources
 :app:javaPreCompileDebug
-:app:compileDebugJavaWithJavacNote: Creating file:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-sample-android/app/build/generated/source/apt/debug/tinker/sample/android/app/SampleApplication.java
+:app:compileDebugJavaWithJavacNote: Creating file:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-sample-android/app/build/generated/source/apt/debug/tinker/sample/android/app/SampleApplication.java
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
@@ -372,7 +372,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :app:processReleaseResources
 :app:generateReleaseSources
 :app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavacNote: Creating file:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-sample-android/app/build/generated/source/apt/release/tinker/sample/android/app/SampleApplication.java
+:app:compileReleaseJavaWithJavacNote: Creating file:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-sample-android/app/build/generated/source/apt/release/tinker/sample/android/app/SampleApplication.java
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
@@ -403,8 +403,8 @@ Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.tencen
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.tencent.tinker/bsdiff-util/1.9.13.2/e374c723a2700a950d8f75c185d147e675eb7944/bsdiff-util-1.9.13.2.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.tencent.tinker/tinker-ziputils/1.9.13.2/3c033d22a2987ecdf35597faf3aa05b99df6373c/tinker-ziputils-1.9.13.2.jar] (filtered)
 Reading program jar [/Users/vbauer/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-sample-android/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-sample-android/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-sample-android/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-sample-android/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
 Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.tencent.tinker/tinker-android-anno/1.9.13.2/be7d7ae38f3f00c9f00ecd693556919ce61dfeb4/tinker-android-anno-1.9.13.2.jar] (filtered)
 Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar]
 Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar]
@@ -442,15 +442,15 @@ Ignoring unused library classes...
 Printing kept classes, fields, and methods...
 Inlining subroutines...
 Shrinking...
-Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-sample-android/app/build/outputs/mapping/release/usage.txt]...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-sample-android/app/build/outputs/mapping/release/usage.txt]...
 Removing unused program classes and class elements...
   Original number of program classes: 1782
   Final number of program classes:    730
 Obfuscating...
-Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-sample-android/app/build/outputs/mapping/release/mapping.txt]...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-sample-android/app/build/outputs/mapping/release/mapping.txt]...
 Preverifying...
 Writing output...
-Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-sample-android/app/build/intermediates/transforms/proguard/release/0.jar]
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-sample-android/app/build/intermediates/transforms/proguard/release/0.jar]
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/tinker-android-lib-1.9.13.2.aar/1fd87701d0f9cabb36a139d8f34d6342/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.1.1.aar/bd1319048af65120400bec9e3d34b6a2/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.13.2.aar/a737942724ed233dc494d57474a84ad8/jars/classes.jar] (filtered)
@@ -462,8 +462,8 @@ Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.tencent.tinker/bsdiff-util/1.9.13.2/e374c723a2700a950d8f75c185d147e675eb7944/bsdiff-util-1.9.13.2.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.tencent.tinker/tinker-ziputils/1.9.13.2/3c033d22a2987ecdf35597faf3aa05b99df6373c/tinker-ziputils-1.9.13.2.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar] (filtered)
-  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-sample-android/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-sample-android/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-sample-android/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-sample-android/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
 :app:transformClassesWithDexBuilderForRelease
 :app:transformClassesWithMultidexlistForRelease
 :app:transformDexArchiveWithDexMergerForRelease
@@ -476,7 +476,7 @@ Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 23s
+BUILD SUCCESSFUL in 32s
 58 actionable tasks: 58 executed
 
-2019-07-22 15:13:18,425 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783128013-0/src/tinker-master/tinker-sample-android/app/build/outputs/apk/debug/app-debug.apk
+2019-08-04 20:33:30,675 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925518157-0/src/tinker-master/tinker-sample-android/app/build/outputs/apk/debug/app-debug.apk

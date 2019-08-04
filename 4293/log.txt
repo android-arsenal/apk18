@@ -1,55 +1,55 @@
-2019-07-23 13:07:36,534 INFO  DownloadService - Downloading "https://github.com/grandcentrix/ThirtyInch/archive/master.zip", attempt 3
-2019-07-23 13:07:37,377 INFO  DownloadService - Downloaded https://github.com/grandcentrix/ThirtyInch/archive/master.zip, attempt 3
-2019-07-23 13:07:37,377 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/master.zip": 306 KB
-2019-07-23 13:07:37,377 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-23 13:07:37,383 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/master.zip: true
-2019-07-23 13:07:37,383 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src'.
-2019-07-23 13:07:37,436 INFO  FullProcessService - Size of directory with sources: 741 KB
-2019-07-23 13:07:37,436 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src]
-2019-07-23 13:07:37,453 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/.git/
+2019-08-04 20:37:16,691 INFO  DownloadService - Downloading "https://github.com/grandcentrix/ThirtyInch/archive/master.zip", attempt 3
+2019-08-04 20:37:18,938 INFO  DownloadService - Downloaded https://github.com/grandcentrix/ThirtyInch/archive/master.zip, attempt 3
+2019-08-04 20:37:18,939 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/master.zip": 306 KB
+2019-08-04 20:37:18,939 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-04 20:37:18,944 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/master.zip: true
+2019-08-04 20:37:18,945 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src'.
+2019-08-04 20:37:19,009 INFO  FullProcessService - Size of directory with sources: 742 KB
+2019-08-04 20:37:19,009 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src]
+2019-08-04 20:37:19,027 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/.git/
 
-2019-07-23 13:07:37,460 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/gradlew
-2019-07-23 13:07:37,467 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-kotlin-coroutines/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-logginginterceptor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-rx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-rx2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-lint/build.gradle
-2019-07-23 13:07:37,474 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-logginginterceptor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-rx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-lint/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-kotlin-coroutines/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-rx2/build.gradle
-2019-07-23 13:07:37,474 INFO  ProjectBuildService - Remote scripts: none
-2019-07-23 13:07:37,474 INFO  ProjectFixService - Fixing project...
-2019-07-23 13:07:37,489 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/sample/local.properties
-2019-07-23 13:07:37,492 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
-2019-07-23 13:07:37,492 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2019-07-23 13:07:37,493 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-kotlin-coroutines/local.properties
-2019-07-23 13:07:37,497 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-kotlin-coroutines/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
-2019-07-23 13:07:37,498 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-kotlin-coroutines/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2019-07-23 13:07:37,498 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-kotlin/local.properties
-2019-07-23 13:07:37,502 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-kotlin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
-2019-07-23 13:07:37,502 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-kotlin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2019-07-23 13:07:37,503 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-logginginterceptor/local.properties
-2019-07-23 13:07:37,506 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-logginginterceptor/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
-2019-07-23 13:07:37,506 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-logginginterceptor/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2019-07-23 13:07:37,507 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-rx/local.properties
-2019-07-23 13:07:37,510 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-rx/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
-2019-07-23 13:07:37,511 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-rx/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2019-07-23 13:07:37,512 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-rx2/local.properties
-2019-07-23 13:07:37,515 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-rx2/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
-2019-07-23 13:07:37,515 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-rx2/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2019-07-23 13:07:37,516 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch/local.properties
-2019-07-23 13:07:37,519 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
-2019-07-23 13:07:37,520 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2019-07-23 13:07:37,520 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/local.properties
-2019-07-23 13:07:37,521 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
-2019-07-23 13:07:37,521 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
-2019-07-23 13:07:37,524 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
-2019-07-23 13:07:37,524 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2019-07-23 13:07:37,525 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-lint/local.properties
-2019-07-23 13:07:37,529 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-lint/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
-2019-07-23 13:07:37,529 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-lint/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2019-07-23 13:07:37,529 INFO  ProjectFixService - Project was maybe fixed
-2019-07-23 13:07:37,529 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-23 13:07:37,529 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-23 13:07:47,670 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-23 13:07:47,670 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-23 13:07:47,670 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-23 13:07:47,670 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-23 13:07:51,964 ERROR SysUtils - Could not process external command
+2019-08-04 20:37:19,036 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/gradlew
+2019-08-04 20:37:19,045 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-kotlin-coroutines/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-logginginterceptor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-rx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-rx2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-lint/build.gradle
+2019-08-04 20:37:19,053 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-logginginterceptor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-rx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-lint/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-kotlin-coroutines/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-rx2/build.gradle
+2019-08-04 20:37:19,054 INFO  ProjectBuildService - Remote scripts: none
+2019-08-04 20:37:19,054 INFO  ProjectFixService - Fixing project...
+2019-08-04 20:37:19,074 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/sample/local.properties
+2019-08-04 20:37:19,078 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
+2019-08-04 20:37:19,078 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2019-08-04 20:37:19,079 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-kotlin-coroutines/local.properties
+2019-08-04 20:37:19,083 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-kotlin-coroutines/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
+2019-08-04 20:37:19,083 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-kotlin-coroutines/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2019-08-04 20:37:19,084 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-kotlin/local.properties
+2019-08-04 20:37:19,088 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-kotlin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
+2019-08-04 20:37:19,088 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-kotlin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2019-08-04 20:37:19,089 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-logginginterceptor/local.properties
+2019-08-04 20:37:19,095 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-logginginterceptor/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
+2019-08-04 20:37:19,095 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-logginginterceptor/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2019-08-04 20:37:19,096 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-rx/local.properties
+2019-08-04 20:37:19,099 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-rx/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
+2019-08-04 20:37:19,100 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-rx/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2019-08-04 20:37:19,101 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-rx2/local.properties
+2019-08-04 20:37:19,104 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-rx2/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
+2019-08-04 20:37:19,104 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-rx2/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2019-08-04 20:37:19,106 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch/local.properties
+2019-08-04 20:37:19,111 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
+2019-08-04 20:37:19,111 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2019-08-04 20:37:19,112 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/local.properties
+2019-08-04 20:37:19,112 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
+2019-08-04 20:37:19,113 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
+2019-08-04 20:37:19,117 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
+2019-08-04 20:37:19,117 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2019-08-04 20:37:19,118 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-lint/local.properties
+2019-08-04 20:37:19,122 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-lint/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
+2019-08-04 20:37:19,122 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-lint/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2019-08-04 20:37:19,123 INFO  ProjectFixService - Project was maybe fixed
+2019-08-04 20:37:19,123 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-04 20:37:19,123 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-04 20:37:33,116 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-04 20:37:33,116 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-04 20:37:33,116 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-04 20:37:33,116 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-04 20:37:39,225 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -77,7 +77,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-23 13:07:51,965 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
+2019-08-04 20:37:39,225 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
 > Task :buildSrc:compileJava NO-SOURCE
 > Task :buildSrc:compileGroovy NO-SOURCE
 > Task :buildSrc:pluginDescriptors UP-TO-DATE
@@ -101,7 +101,7 @@ Configuration on demand is an incubating feature.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/sample/build.gradle' line: 1
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/sample/build.gradle' line: 1
 
 * What went wrong:
 A problem occurred evaluating project ':sample'.
@@ -228,7 +228,7 @@ Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_adqthdntbydi5qoow89k2p555.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/sample/build.gradle:1)
+	at build_3uwvmu49187tsfth3jx4uolaf.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/sample/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 104 more
 Caused by: org.gradle.api.tasks.StopExecutionException: Configuration on demand is not supported by the current version of the Android Gradle plugin since you are using Gradle version 4.6 or above. Suggestion: disable configuration on demand by setting org.gradle.configureondemand=false in your gradle.properties file or use a Gradle version less than 4.6.
@@ -255,15 +255,15 @@ Caused by: org.gradle.api.tasks.StopExecutionException: Configuration on demand 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 4s
+BUILD FAILED in 5s
 
-2019-07-23 13:07:51,975 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-23 13:07:51,975 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-kotlin-coroutines/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-23 13:07:56,537 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-23 13:07:56,537 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-23 13:07:56,537 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-23 13:07:56,537 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-kotlin-coroutines/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-23 13:08:01,900 ERROR SysUtils - Could not process external command
+2019-08-04 20:37:39,237 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-04 20:37:39,237 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-kotlin-coroutines/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-04 20:37:45,033 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-04 20:37:45,034 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-04 20:37:45,034 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-04 20:37:45,034 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-kotlin-coroutines/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-04 20:37:50,999 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -291,7 +291,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-23 13:08:01,900 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
+2019-08-04 20:37:50,999 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
 > Task :buildSrc:compileJava NO-SOURCE
 > Task :buildSrc:compileGroovy NO-SOURCE
 > Task :buildSrc:pluginDescriptors UP-TO-DATE
@@ -315,7 +315,7 @@ Configuration on demand is an incubating feature.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-kotlin-coroutines/build.gradle' line: 1
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-kotlin-coroutines/build.gradle' line: 1
 
 * What went wrong:
 A problem occurred evaluating project ':thirtyinch-kotlin-coroutines'.
@@ -442,7 +442,7 @@ Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_3blzvd7q0dogasm5rqurzfa6t.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-kotlin-coroutines/build.gradle:1)
+	at build_97blkoniyc0hra4rzual3085g.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-kotlin-coroutines/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 104 more
 Caused by: org.gradle.api.tasks.StopExecutionException: Configuration on demand is not supported by the current version of the Android Gradle plugin since you are using Gradle version 4.6 or above. Suggestion: disable configuration on demand by setting org.gradle.configureondemand=false in your gradle.properties file or use a Gradle version less than 4.6.
@@ -471,13 +471,13 @@ Caused by: org.gradle.api.tasks.StopExecutionException: Configuration on demand 
 
 BUILD FAILED in 5s
 
-2019-07-23 13:08:01,911 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-23 13:08:01,911 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-23 13:08:07,390 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-23 13:08:07,390 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-23 13:08:07,390 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-23 13:08:07,390 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-23 13:08:12,899 ERROR SysUtils - Could not process external command
+2019-08-04 20:37:51,012 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-04 20:37:51,012 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-04 20:37:57,645 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-04 20:37:57,645 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-04 20:37:57,645 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-04 20:37:57,646 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-04 20:38:03,559 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -505,7 +505,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-23 13:08:12,899 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
+2019-08-04 20:38:03,559 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
 > Task :buildSrc:compileJava NO-SOURCE
 > Task :buildSrc:compileGroovy NO-SOURCE
 > Task :buildSrc:pluginDescriptors UP-TO-DATE
@@ -529,7 +529,7 @@ Configuration on demand is an incubating feature.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-kotlin/build.gradle' line: 1
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-kotlin/build.gradle' line: 1
 
 * What went wrong:
 A problem occurred evaluating project ':thirtyinch-kotlin'.
@@ -656,7 +656,7 @@ Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_92j8vz67ap3d7vjtlej5qcdys.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-kotlin/build.gradle:1)
+	at build_8t0zugxxi0g1nwyp2lc1felri.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-kotlin/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 104 more
 Caused by: org.gradle.api.tasks.StopExecutionException: Configuration on demand is not supported by the current version of the Android Gradle plugin since you are using Gradle version 4.6 or above. Suggestion: disable configuration on demand by setting org.gradle.configureondemand=false in your gradle.properties file or use a Gradle version less than 4.6.
@@ -685,13 +685,13 @@ Caused by: org.gradle.api.tasks.StopExecutionException: Configuration on demand 
 
 BUILD FAILED in 5s
 
-2019-07-23 13:08:12,910 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-23 13:08:12,911 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-logginginterceptor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-23 13:08:18,253 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-23 13:08:18,253 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-23 13:08:18,253 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-23 13:08:18,254 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-logginginterceptor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-23 13:08:23,494 ERROR SysUtils - Could not process external command
+2019-08-04 20:38:03,571 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-04 20:38:03,571 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-logginginterceptor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-04 20:38:09,613 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-04 20:38:09,613 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-04 20:38:09,613 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-04 20:38:09,613 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-logginginterceptor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-04 20:38:15,320 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -719,7 +719,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-23 13:08:23,494 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
+2019-08-04 20:38:15,321 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
 > Task :buildSrc:compileJava NO-SOURCE
 > Task :buildSrc:compileGroovy NO-SOURCE
 > Task :buildSrc:pluginDescriptors UP-TO-DATE
@@ -743,7 +743,7 @@ Configuration on demand is an incubating feature.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-logginginterceptor/build.gradle' line: 1
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-logginginterceptor/build.gradle' line: 1
 
 * What went wrong:
 A problem occurred evaluating project ':thirtyinch-logginginterceptor'.
@@ -870,7 +870,7 @@ Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_aq7718l7oozvmjaj6brspemfe.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-logginginterceptor/build.gradle:1)
+	at build_cfoorke69p9wv48wlb2b3y4ab.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-logginginterceptor/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 104 more
 Caused by: org.gradle.api.tasks.StopExecutionException: Configuration on demand is not supported by the current version of the Android Gradle plugin since you are using Gradle version 4.6 or above. Suggestion: disable configuration on demand by setting org.gradle.configureondemand=false in your gradle.properties file or use a Gradle version less than 4.6.
@@ -899,13 +899,13 @@ Caused by: org.gradle.api.tasks.StopExecutionException: Configuration on demand 
 
 BUILD FAILED in 5s
 
-2019-07-23 13:08:23,506 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-23 13:08:23,506 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-rx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-23 13:08:28,435 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-23 13:08:28,435 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-23 13:08:28,435 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-23 13:08:28,435 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-rx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-23 13:08:33,534 ERROR SysUtils - Could not process external command
+2019-08-04 20:38:15,333 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-04 20:38:15,333 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-rx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-04 20:38:21,162 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-04 20:38:21,162 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-04 20:38:21,162 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-04 20:38:21,162 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-rx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-04 20:38:26,839 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -933,7 +933,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-23 13:08:33,534 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
+2019-08-04 20:38:26,840 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
 > Task :buildSrc:compileJava NO-SOURCE
 > Task :buildSrc:compileGroovy NO-SOURCE
 > Task :buildSrc:pluginDescriptors UP-TO-DATE
@@ -957,7 +957,7 @@ Configuration on demand is an incubating feature.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-rx/build.gradle' line: 1
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-rx/build.gradle' line: 1
 
 * What went wrong:
 A problem occurred evaluating project ':thirtyinch-rx'.
@@ -1084,7 +1084,7 @@ Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_7r97drgpauz9w8vylzcfb1s3w.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-rx/build.gradle:1)
+	at build_caxdeuadg0yujzpgxa93z0pk7.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-rx/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 104 more
 Caused by: org.gradle.api.tasks.StopExecutionException: Configuration on demand is not supported by the current version of the Android Gradle plugin since you are using Gradle version 4.6 or above. Suggestion: disable configuration on demand by setting org.gradle.configureondemand=false in your gradle.properties file or use a Gradle version less than 4.6.
@@ -1111,15 +1111,15 @@ Caused by: org.gradle.api.tasks.StopExecutionException: Configuration on demand 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 4s
+BUILD FAILED in 5s
 
-2019-07-23 13:08:33,546 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-23 13:08:33,546 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-rx2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-23 13:08:38,737 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-23 13:08:38,737 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-23 13:08:38,737 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-23 13:08:38,737 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-rx2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-23 13:08:43,552 ERROR SysUtils - Could not process external command
+2019-08-04 20:38:26,855 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-04 20:38:26,855 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-rx2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-04 20:38:32,487 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-04 20:38:32,487 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-04 20:38:32,487 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-04 20:38:32,487 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-rx2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-04 20:38:37,766 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1147,7 +1147,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-23 13:08:43,553 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
+2019-08-04 20:38:37,767 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
 > Task :buildSrc:compileJava NO-SOURCE
 > Task :buildSrc:compileGroovy NO-SOURCE
 > Task :buildSrc:pluginDescriptors UP-TO-DATE
@@ -1171,7 +1171,7 @@ Configuration on demand is an incubating feature.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-rx2/build.gradle' line: 1
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-rx2/build.gradle' line: 1
 
 * What went wrong:
 A problem occurred evaluating project ':thirtyinch-rx2'.
@@ -1298,7 +1298,7 @@ Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_5pqnpjuk8ga80191h91eiph32.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-rx2/build.gradle:1)
+	at build_9508fbl6wpq6ej7at1jfhw7sg.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-rx2/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 104 more
 Caused by: org.gradle.api.tasks.StopExecutionException: Configuration on demand is not supported by the current version of the Android Gradle plugin since you are using Gradle version 4.6 or above. Suggestion: disable configuration on demand by setting org.gradle.configureondemand=false in your gradle.properties file or use a Gradle version less than 4.6.
@@ -1325,15 +1325,15 @@ Caused by: org.gradle.api.tasks.StopExecutionException: Configuration on demand 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 4s
+BUILD FAILED in 5s
 
-2019-07-23 13:08:43,562 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-23 13:08:43,563 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-23 13:08:48,938 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-23 13:08:48,938 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-23 13:08:48,938 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-23 13:08:48,938 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-23 13:08:54,723 ERROR SysUtils - Could not process external command
+2019-08-04 20:38:37,779 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-04 20:38:37,779 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-04 20:38:43,329 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-04 20:38:43,329 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-04 20:38:43,329 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-04 20:38:43,329 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-04 20:38:49,272 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1361,7 +1361,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-23 13:08:54,723 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
+2019-08-04 20:38:49,272 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
 > Task :buildSrc:compileJava NO-SOURCE
 > Task :buildSrc:compileGroovy NO-SOURCE
 > Task :buildSrc:pluginDescriptors UP-TO-DATE
@@ -1385,7 +1385,7 @@ Configuration on demand is an incubating feature.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch/build.gradle' line: 1
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch/build.gradle' line: 1
 
 * What went wrong:
 A problem occurred evaluating project ':thirtyinch'.
@@ -1512,7 +1512,7 @@ Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_15p8q4cjj3cfwxar6nceo6bkh.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch/build.gradle:1)
+	at build_eg3ff9s61s5ia1cq60ff7bhc8.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 104 more
 Caused by: org.gradle.api.tasks.StopExecutionException: Configuration on demand is not supported by the current version of the Android Gradle plugin since you are using Gradle version 4.6 or above. Suggestion: disable configuration on demand by setting org.gradle.configureondemand=false in your gradle.properties file or use a Gradle version less than 4.6.
@@ -1541,13 +1541,13 @@ Caused by: org.gradle.api.tasks.StopExecutionException: Configuration on demand 
 
 BUILD FAILED in 5s
 
-2019-07-23 13:08:54,734 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-23 13:08:54,734 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-23 13:09:00,322 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-23 13:09:00,322 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-23 13:09:00,322 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-23 13:09:00,322 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-23 13:09:05,823 ERROR SysUtils - Could not process external command
+2019-08-04 20:38:49,284 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-04 20:38:49,285 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-04 20:38:54,977 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-04 20:38:54,977 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-04 20:38:54,977 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-04 20:38:54,977 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-04 20:39:00,722 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1575,7 +1575,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-23 13:09:05,823 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
+2019-08-04 20:39:00,723 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
 > Task :buildSrc:compileJava NO-SOURCE
 > Task :buildSrc:compileGroovy NO-SOURCE
 > Task :buildSrc:pluginDescriptors UP-TO-DATE
@@ -1599,7 +1599,7 @@ Configuration on demand is an incubating feature.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/sample/build.gradle' line: 1
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/sample/build.gradle' line: 1
 
 * What went wrong:
 A problem occurred evaluating project ':sample'.
@@ -1726,7 +1726,7 @@ Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_adqthdntbydi5qoow89k2p555.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/sample/build.gradle:1)
+	at build_3uwvmu49187tsfth3jx4uolaf.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/sample/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 104 more
 Caused by: org.gradle.api.tasks.StopExecutionException: Configuration on demand is not supported by the current version of the Android Gradle plugin since you are using Gradle version 4.6 or above. Suggestion: disable configuration on demand by setting org.gradle.configureondemand=false in your gradle.properties file or use a Gradle version less than 4.6.
@@ -1755,12 +1755,12 @@ Caused by: org.gradle.api.tasks.StopExecutionException: Configuration on demand 
 
 BUILD FAILED in 5s
 
-2019-07-23 13:09:05,834 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-23 13:09:05,835 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-lint/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-23 13:09:11,901 INFO  ProjectTaskService - Detected possible tasks: 43
-2019-07-23 13:09:11,901 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-07-23 13:09:11,901 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-lint/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-07-23 13:09:23,508 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
+2019-08-04 20:39:00,735 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-04 20:39:00,735 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-lint/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-04 20:39:06,738 INFO  ProjectTaskService - Detected possible tasks: 43
+2019-08-04 20:39:06,738 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-08-04 20:39:06,738 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-lint/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-08-04 20:39:20,560 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
 > Task :buildSrc:compileJava NO-SOURCE
 > Task :buildSrc:compileGroovy NO-SOURCE
 > Task :buildSrc:pluginDescriptors UP-TO-DATE
@@ -1782,8 +1782,8 @@ BUILD FAILED in 5s
 Configuration on demand is an incubating feature.
 
 > Task :thirtyinch-lint:compileKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-lint/src/main/kotlin/net/grandcentrix/thirtyinch/lint/detector/BaseMissingViewDetector.kt: (44, 49): 'psi: PsiElement?' is deprecated. Overrides deprecated member in 'org.jetbrains.uast.UElement'. ambiguous psi element, use `sourcePsi` or `javaPsi`
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/ThirtyInch-master/thirtyinch-lint/src/main/kotlin/net/grandcentrix/thirtyinch/lint/detector/MissingViewInCompositeDetector.kt: (71, 61): 'psi: PsiElement?' is deprecated. ambiguous psi element, use `sourcePsi` or `javaPsi`
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-lint/src/main/kotlin/net/grandcentrix/thirtyinch/lint/detector/BaseMissingViewDetector.kt: (44, 49): 'psi: PsiElement?' is deprecated. Overrides deprecated member in 'org.jetbrains.uast.UElement'. ambiguous psi element, use `sourcePsi` or `javaPsi`
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925836685-0/src/ThirtyInch-master/thirtyinch-lint/src/main/kotlin/net/grandcentrix/thirtyinch/lint/detector/MissingViewInCompositeDetector.kt: (71, 61): 'psi: PsiElement?' is deprecated. ambiguous psi element, use `sourcePsi` or `javaPsi`
 
 > Task :thirtyinch-lint:compileJava NO-SOURCE
 > Task :thirtyinch-lint:processResources NO-SOURCE
@@ -1793,8 +1793,8 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862056531-0/src/
 > Task :thirtyinch-lint:assemble
 > Task :thirtyinch-lint:build
 
-BUILD SUCCESSFUL in 11s
+BUILD SUCCESSFUL in 13s
 3 actionable tasks: 3 executed
 
-2019-07-23 13:09:23,522 ERROR FullProcessService - Project build has not produced APK file
-2019-07-23 13:09:23,534 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-04 20:39:20,576 ERROR FullProcessService - Project build has not produced APK file
+2019-08-04 20:39:20,589 ERROR FullProcessService - Could not find generated or existed APK file

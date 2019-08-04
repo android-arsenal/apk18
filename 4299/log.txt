@@ -1,33 +1,33 @@
-2019-07-05 23:50:23,606 INFO  DownloadService - Downloading "https://github.com/jinatonic/confetti/archive/master.zip", attempt 3
-2019-07-05 23:50:25,939 INFO  DownloadService - Downloaded https://github.com/jinatonic/confetti/archive/master.zip, attempt 3
-2019-07-05 23:50:25,939 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/master.zip": 2 MB
-2019-07-05 23:50:25,939 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-05 23:50:25,940 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/master.zip: true
-2019-07-05 23:50:25,940 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src'.
-2019-07-05 23:50:25,978 INFO  FullProcessService - Size of directory with sources: 2 MB
-2019-07-05 23:50:25,979 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src]
-2019-07-05 23:50:25,994 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/.git/
+2019-08-04 20:36:10,371 INFO  DownloadService - Downloading "https://github.com/jinatonic/confetti/archive/master.zip", attempt 3
+2019-08-04 20:36:13,927 INFO  DownloadService - Downloaded https://github.com/jinatonic/confetti/archive/master.zip, attempt 3
+2019-08-04 20:36:13,927 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925770363-0/master.zip": 2 MB
+2019-08-04 20:36:13,927 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-04 20:36:13,928 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925770363-0/master.zip: true
+2019-08-04 20:36:13,928 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925770363-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925770363-0/src'.
+2019-08-04 20:36:13,968 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-08-04 20:36:13,968 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925770363-0/src]
+2019-08-04 20:36:13,992 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925770363-0/src/.git/
 
-2019-07-05 23:50:25,996 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/gradlew
-2019-07-05 23:50:25,999 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/confetti-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/confetti/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/build.gradle
-2019-07-05 23:50:26,001 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/confetti-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/confetti/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/confetti/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/settings.gradle
-2019-07-05 23:50:26,001 INFO  ProjectBuildService - Remote scripts: none
-2019-07-05 23:50:26,001 INFO  ProjectFixService - Fixing project...
-2019-07-05 23:50:26,007 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/confetti-sample/local.properties
-2019-07-05 23:50:26,007 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/confetti-sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-07-05 23:50:26,008 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/confetti/local.properties
-2019-07-05 23:50:26,008 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/confetti/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=12,targetSdkVersion=28]
-2019-07-05 23:50:26,008 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/local.properties
-2019-07-05 23:50:26,008 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.2.1-all.zip
-2019-07-05 23:50:26,008 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.2.1-bin.zip)
-2019-07-05 23:50:26,009 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-07-05 23:50:26,009 INFO  ProjectFixService - Project was maybe fixed
-2019-07-05 23:50:26,009 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-05 23:50:26,009 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/confetti-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-05 23:50:41,471 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-07-05 23:50:41,471 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-05 23:50:41,471 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/confetti-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-05 23:51:15,401 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-04 20:36:13,995 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925770363-0/src/confetti-master/gradlew
+2019-08-04 20:36:13,998 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925770363-0/src/confetti-master/confetti-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925770363-0/src/confetti-master/confetti/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925770363-0/src/confetti-master/build.gradle
+2019-08-04 20:36:14,001 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925770363-0/src/confetti-master/confetti-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925770363-0/src/confetti-master/confetti/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925770363-0/src/confetti-master/confetti/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925770363-0/src/confetti-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925770363-0/src/confetti-master/settings.gradle
+2019-08-04 20:36:14,002 INFO  ProjectBuildService - Remote scripts: none
+2019-08-04 20:36:14,002 INFO  ProjectFixService - Fixing project...
+2019-08-04 20:36:14,011 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925770363-0/src/confetti-master/confetti-sample/local.properties
+2019-08-04 20:36:14,011 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925770363-0/src/confetti-master/confetti-sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-08-04 20:36:14,011 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925770363-0/src/confetti-master/confetti/local.properties
+2019-08-04 20:36:14,012 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925770363-0/src/confetti-master/confetti/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=12,targetSdkVersion=28]
+2019-08-04 20:36:14,012 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925770363-0/src/confetti-master/local.properties
+2019-08-04 20:36:14,012 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.2.1-all.zip
+2019-08-04 20:36:14,013 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.2.1-bin.zip)
+2019-08-04 20:36:14,013 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925770363-0/src/confetti-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-08-04 20:36:14,013 INFO  ProjectFixService - Project was maybe fixed
+2019-08-04 20:36:14,014 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-04 20:36:14,014 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925770363-0/src/confetti-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925770363-0/src/confetti-master/confetti-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-04 20:36:23,771 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-08-04 20:36:23,772 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-04 20:36:23,772 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925770363-0/src/confetti-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925770363-0/src/confetti-master/confetti-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-04 20:37:09,880 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :confetti:preBuild UP-TO-DATE
 > Task :confetti:preDebugBuild UP-TO-DATE
 > Task :confetti:compileDebugAidl NO-SOURCE
@@ -63,8 +63,6 @@
 > Task :confetti-sample:processDebugResources
 
 > Task :confetti-sample:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/confetti-sample/src/main/java/com/github/jinatonic/confetti/sample/AbstractActivity.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
 
 > Task :confetti-sample:compileDebugSources
 > Task :confetti:mergeDebugShaders
@@ -72,6 +70,8 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :confetti:generateDebugAssets
 > Task :confetti:packageDebugAssets
 > Task :confetti-sample:mergeDebugShaders
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925770363-0/src/confetti-master/confetti-sample/src/main/java/com/github/jinatonic/confetti/sample/AbstractActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
 > Task :confetti-sample:compileDebugShaders
 > Task :confetti-sample:generateDebugAssets
 > Task :confetti-sample:mergeDebugAssets
@@ -127,7 +127,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :confetti-sample:processReleaseResources
 
 > Task :confetti-sample:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/confetti-sample/src/main/java/com/github/jinatonic/confetti/sample/AbstractActivity.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925770363-0/src/confetti-master/confetti-sample/src/main/java/com/github/jinatonic/confetti/sample/AbstractActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :confetti-sample:compileReleaseSources
@@ -171,7 +171,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.2.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 33s
+BUILD SUCCESSFUL in 45s
 91 actionable tasks: 91 executed
 
-2019-07-05 23:51:15,454 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562345423604-0/src/confetti-master/confetti-sample/build/outputs/apk/release/confetti-sample-release-unsigned.apk
+2019-08-04 20:37:09,951 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925770363-0/src/confetti-master/confetti-sample/build/outputs/apk/release/confetti-sample-release-unsigned.apk
