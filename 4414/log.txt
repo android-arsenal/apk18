@@ -1,42 +1,42 @@
-2019-07-05 20:56:29,607 INFO  DownloadService - Downloading "https://github.com/janishar/PlaceHolderView/archive/master.zip", attempt 3
-2019-07-05 20:56:35,153 INFO  DownloadService - Downloading "https://github.com/janishar/PlaceHolderView/archive/master.zip", attempt 2
-2019-07-05 20:56:41,179 INFO  DownloadService - Downloading "https://github.com/janishar/PlaceHolderView/archive/master.zip", attempt 1
-2019-07-05 20:57:41,466 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-07-05 20:57:42,432 INFO  GithubDownloadService - Default branch of this repository: 2.x
-2019-07-05 20:57:42,432 INFO  DownloadService - Downloading "https://github.com/janishar/PlaceHolderView/archive/2.x.zip", attempt 3
-2019-07-05 20:58:43,945 DEBUG FullProcessService - Repository https://github.com/janishar/PlaceHolderView available: true
-2019-07-05 20:58:43,946 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-07-05 20:58:43,946 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/janishar/PlaceHolderView, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src]
-2019-07-05 20:58:46,294 INFO  SysUtils - 
-2019-07-05 20:58:46,303 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/.git": true
-2019-07-05 20:58:46,309 INFO  FullProcessService - Size of directory with sources: 517 KB
-2019-07-05 20:58:46,309 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src]
-2019-07-05 20:58:46,325 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/.git/
+2019-08-28 13:59:30,336 INFO  DownloadService - Downloading "https://github.com/janishar/PlaceHolderView/archive/master.zip", attempt 3
+2019-08-28 13:59:36,833 INFO  DownloadService - Downloading "https://github.com/janishar/PlaceHolderView/archive/master.zip", attempt 2
+2019-08-28 13:59:42,802 INFO  DownloadService - Downloading "https://github.com/janishar/PlaceHolderView/archive/master.zip", attempt 1
+2019-08-28 14:00:43,085 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-08-28 14:00:44,390 INFO  GithubDownloadService - Default branch of this repository: 2.x
+2019-08-28 14:00:44,391 INFO  DownloadService - Downloading "https://github.com/janishar/PlaceHolderView/archive/2.x.zip", attempt 3
+2019-08-28 14:01:45,863 DEBUG FullProcessService - Repository https://github.com/janishar/PlaceHolderView available: true
+2019-08-28 14:01:45,863 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-08-28 14:01:45,863 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/janishar/PlaceHolderView, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src]
+2019-08-28 14:01:47,971 INFO  SysUtils - 
+2019-08-28 14:01:47,981 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/.git": true
+2019-08-28 14:01:47,988 INFO  FullProcessService - Size of directory with sources: 517 KB
+2019-08-28 14:01:47,988 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src]
+2019-08-28 14:01:48,005 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/.git/
 
-2019-07-05 20:58:46,330 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/gradlew
-2019-07-05 20:58:46,335 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/placeholderview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/placeholderview-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/placeholderview-compiler/build.gradle
-2019-07-05 20:58:46,340 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/placeholderview-compiler/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/placeholderview-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/placeholderview/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/placeholderview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/placeholderview-annotations/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/placeholderview-annotations/build.gradle
-2019-07-05 20:58:46,340 INFO  ProjectBuildService - Remote scripts: none
-2019-07-05 20:58:46,340 INFO  ProjectFixService - Fixing project...
-2019-07-05 20:58:46,352 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/app/local.properties
-2019-07-05 20:58:46,352 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-07-05 20:58:46,352 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/placeholderview/local.properties
-2019-07-05 20:58:46,354 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/placeholderview/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-07-05 20:58:46,354 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/local.properties
-2019-07-05 20:58:46,355 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.5.1-all.zip
-2019-07-05 20:58:46,355 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.5.1-bin.zip)
-2019-07-05 20:58:46,356 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-07-05 20:58:46,357 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/placeholderview-annotations/local.properties
-2019-07-05 20:58:46,358 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/placeholderview-annotations/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-07-05 20:58:46,358 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/placeholderview-compiler/local.properties
-2019-07-05 20:58:46,359 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/placeholderview-compiler/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-07-05 20:58:46,359 INFO  ProjectFixService - Project was maybe fixed
-2019-07-05 20:58:46,359 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-05 20:58:46,359 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-05 20:59:10,501 INFO  ProjectTaskService - Detected possible tasks: 67
-2019-07-05 20:59:10,501 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-05 20:59:10,501 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-05 21:00:17,116 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-28 14:01:48,011 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/gradlew
+2019-08-28 14:01:48,017 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/placeholderview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/placeholderview-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/placeholderview-compiler/build.gradle
+2019-08-28 14:01:48,022 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/placeholderview-compiler/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/placeholderview-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/placeholderview/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/placeholderview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/placeholderview-annotations/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/placeholderview-annotations/build.gradle
+2019-08-28 14:01:48,023 INFO  ProjectBuildService - Remote scripts: none
+2019-08-28 14:01:48,023 INFO  ProjectFixService - Fixing project...
+2019-08-28 14:01:48,036 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/app/local.properties
+2019-08-28 14:01:48,036 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-08-28 14:01:48,037 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/placeholderview/local.properties
+2019-08-28 14:01:48,039 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/placeholderview/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-08-28 14:01:48,039 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/local.properties
+2019-08-28 14:01:48,039 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.5.1-all.zip
+2019-08-28 14:01:48,040 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.5.1-bin.zip)
+2019-08-28 14:01:48,041 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-08-28 14:01:48,042 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/placeholderview-annotations/local.properties
+2019-08-28 14:01:48,043 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/placeholderview-annotations/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-08-28 14:01:48,043 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/placeholderview-compiler/local.properties
+2019-08-28 14:01:48,044 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/placeholderview-compiler/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-08-28 14:01:48,045 INFO  ProjectFixService - Project was maybe fixed
+2019-08-28 14:01:48,045 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-28 14:01:48,045 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-28 14:02:32,143 INFO  ProjectTaskService - Detected possible tasks: 71
+2019-08-28 14:02:32,143 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-28 14:02:32,144 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-28 14:03:50,668 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :placeholderview:preBuild UP-TO-DATE
 :placeholderview:preDebugBuild UP-TO-DATE
@@ -44,25 +44,32 @@
 :placeholderview:processDebugManifest
 :app:preDebugBuild
 Download https://jcenter.bintray.com/com/mindorks/butterknifelite/0.0.4/butterknifelite-0.0.4.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/design/27.1.0/design-27.1.0.pom
 Download https://dl.google.com/dl/android/maven2/com/android/support/cardview-v7/27.1.0/cardview-v7-27.1.0.pom
 Download https://dl.google.com/dl/android/maven2/com/android/support/recyclerview-v7/27.1.0/recyclerview-v7-27.1.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/design/27.1.0/design-27.1.0.pom
 Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/27.1.0/appcompat-v7-27.1.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/27.1.0/support-core-utils-27.1.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/27.1.0/support-annotations-27.1.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/27.1.0/animated-vector-drawable-27.1.0.pom
 Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/27.1.0/support-fragment-27.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/27.1.0/support-core-utils-27.1.0.pom
 Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/27.1.0/support-vector-drawable-27.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/27.1.0/animated-vector-drawable-27.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/27.1.0/support-annotations-27.1.0.pom
 Download https://dl.google.com/dl/android/maven2/com/android/support/support-v4/27.1.0/support-v4-27.1.0.pom
 Download https://dl.google.com/dl/android/maven2/com/android/support/transition/27.1.0/transition-27.1.0.pom
 Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/27.1.0/support-compat-27.1.0.pom
 Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/27.1.0/support-core-ui-27.1.0.pom
 Download https://dl.google.com/dl/android/maven2/com/android/support/support-media-compat/27.1.0/support-media-compat-27.1.0.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/runtime/1.1.0/runtime-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/viewmodel/1.1.0/viewmodel-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/livedata-core/1.1.0/livedata-core-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/common/1.1.0/common-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/core/common/1.1.0/common-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/core/runtime/1.1.0/runtime-1.1.0.pom
 Download https://jcenter.bintray.com/com/mindorks/butterknifelite/0.0.4/butterknifelite-0.0.4.aar
 :placeholderview:compileDebugAidl
 Download https://dl.google.com/dl/android/maven2/com/android/support/recyclerview-v7/25.4.0/recyclerview-v7-25.4.0.pom
 Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/25.4.0/support-annotations-25.4.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/recyclerview-v7/25.4.0/recyclerview-v7-25.4.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/25.4.0/support-core-ui-25.4.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/25.4.0/support-compat-25.4.0.pom
 :app:compileDebugAidl
 :placeholderview:packageDebugRenderscript NO-SOURCE
 :app:compileDebugRenderscript
@@ -101,20 +108,41 @@ warning: [options] bootstrap class path not set in conjunction with -source 1.7
 :app:compileDebugNdk NO-SOURCE
 :app:mergeDebugShaders
 :app:compileDebugShaders
+:placeholderview:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:placeholderview:generateDebugSources
+:placeholderview:compileDebugJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:placeholderview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileDebugSources
 :app:generateDebugAssets
 :placeholderview:mergeDebugShaders
 :placeholderview:compileDebugShaders
 :placeholderview:generateDebugAssets
 :placeholderview:packageDebugAssets
 :app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
 :app:mergeDebugJniLibFolders
 :placeholderview:compileDebugNdk NO-SOURCE
 :placeholderview:mergeDebugJniLibFolders
 :placeholderview:transformNativeLibsWithMergeJniLibsForDebug
 :placeholderview:transformNativeLibsWithStripDebugSymbolForDebug
 :placeholderview:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
 :app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
 :app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
 :app:extractProguardFiles
 :placeholderview:preReleaseBuild UP-TO-DATE
 :placeholderview:checkReleaseManifest
@@ -137,10 +165,40 @@ warning: [options] bootstrap class path not set in conjunction with -source 1.7
 :app:createReleaseCompatibleScreenManifests
 :app:processReleaseManifest
 :app:splitsDiscoveryTaskRelease
+:placeholderview:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
 :placeholderview:generateReleaseBuildConfig
+:placeholderview:generateReleaseSources
 :placeholderview:javaPreCompileRelease
+:placeholderview:compileReleaseJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
 :placeholderview:processReleaseJavaRes NO-SOURCE
+:placeholderview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
 :app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.1.0/lint-gradle-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.1.0/intellij-core-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.1.0/lint-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.1.0/uast-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.1.0/kotlin-compiler-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.1.0/lint-kotlin-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.1.0/lint-checks-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.1.0/lint-api-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.1.0/lint-kotlin-26.1.0.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.1.0/lint-api-26.1.0.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.1.0/uast-26.1.0.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.1.0/kotlin-compiler-26.1.0.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.1.0/lint-26.1.0.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.1.0/lint-checks-26.1.0.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.1.0/lint-gradle-26.1.0.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.1.0/intellij-core-26.1.0.jar
 :app:mergeReleaseShaders
 :app:compileReleaseShaders
 :app:generateReleaseAssets
@@ -150,57 +208,8 @@ warning: [options] bootstrap class path not set in conjunction with -source 1.7
 :placeholderview:packageReleaseAssets
 :app:mergeReleaseAssets
 :app:processReleaseJavaRes NO-SOURCE
-:placeholderview:mergeReleaseConsumerProguardFiles
-:app:mergeReleaseJniLibFolders
-:placeholderview:compileReleaseNdk NO-SOURCE
-:placeholderview:mergeReleaseJniLibFolders
-:placeholderview:transformNativeLibsWithMergeJniLibsForRelease
-:placeholderview:transformNativeLibsWithStripDebugSymbolForRelease
-:placeholderview:transformNativeLibsWithIntermediateJniLibsForRelease
-:placeholderview:generateDebugRFile
-:app:processDebugResources
-:app:generateDebugSources
-:placeholderview:generateDebugSources
-:placeholderview:compileDebugJavaWithJavacNote: Some input files use unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-
-:placeholderview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:app:javaPreCompileDebug
-:app:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
-:app:compileDebugSources
-:app:transformClassesWithDexBuilderForDebug
-:app:transformDexArchiveWithExternalLibsDexMergerForDebug
-:app:transformDexArchiveWithDexMergerForDebug
-:app:transformNativeLibsWithMergeJniLibsForDebug
-:app:transformNativeLibsWithStripDebugSymbolForDebug
-:app:transformResourcesWithMergeJavaResForDebug
-:app:packageDebug
-:app:assembleDebug
-:placeholderview:generateReleaseRFile
-:app:processReleaseResources
-:app:generateReleaseSources
-:placeholderview:generateReleaseSources
-:placeholderview:compileReleaseJavaWithJavacNote: Some input files use unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-
-:placeholderview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
-:app:compileReleaseSources
-:app:lintVitalRelease
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.1.0/lint-gradle-26.1.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.1.0/lint-26.1.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.1.0/uast-26.1.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.1.0/intellij-core-26.1.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.1.0/lint-checks-26.1.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.1.0/kotlin-compiler-26.1.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.1.0/lint-kotlin-26.1.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.1.0/lint-api-26.1.0.pom
 :app:transformResourcesWithMergeJavaResForRelease
+:placeholderview:mergeReleaseConsumerProguardFiles
 :app:transformClassesAndResourcesWithProguardForRelease
 Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
 thread-pool size=4
@@ -229,10 +238,10 @@ Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmod
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.0/edf3f7bfb84a7521d0599efa3b0113a0ee90f85/common-1.1.0.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/0fd6869797f213d4d9e04e282ed3bf59/jars/classes.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.0/8007981f7d7540d89cd18471b8e5dcd2b4f99167/common-1.1.0.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/placeholderview/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/placeholderview-annotations/build/libs/placeholderview-annotations-1.0.3.jar] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/app/build/intermediates/classes/release] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/placeholderview/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/placeholderview-annotations/build/libs/placeholderview-annotations-1.0.3.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/app/build/intermediates/classes/release] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
 Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar]
 Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/optional/org.apache.http.legacy.jar]
 Note: duplicate definition of library class [org.apache.http.params.HttpConnectionParams]
@@ -480,16 +489,16 @@ Ignoring unused library classes...
   Final number of library classes:    1177
 Printing kept classes, fields, and methods...
 Shrinking...
-Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/app/build/outputs/mapping/release/usage.txt]...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/app/build/outputs/mapping/release/usage.txt]...
 Removing unused program classes and class elements...
   Original number of program classes: 2962
   Final number of program classes:    1590
 Inlining subroutines...
 Obfuscating...
-Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/app/build/outputs/mapping/release/mapping.txt]...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/app/build/outputs/mapping/release/mapping.txt]...
 Preverifying...
 Writing output...
-Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/app/build/intermediates/transforms/proguard/release/0.jar]
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/app/build/intermediates/transforms/proguard/release/0.jar]
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/ba9a5e894994d11fe316e9f757253d19/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/butterknifelite-0.0.4.aar/6010c9bcdfdf16c41eb1a56837dd2fd8/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/c40f4fb3660d6cb06071462a7be866c6/jars/classes.jar] (filtered)
@@ -513,13 +522,19 @@ Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.0/edf3f7bfb84a7521d0599efa3b0113a0ee90f85/common-1.1.0.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/0fd6869797f213d4d9e04e282ed3bf59/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.0/8007981f7d7540d89cd18471b8e5dcd2b4f99167/common-1.1.0.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/placeholderview/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/placeholderview-annotations/build/libs/placeholderview-annotations-1.0.3.jar] (filtered)
-  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/app/build/intermediates/classes/release] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
-Printing classes to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/app/build/outputs/mapping/release/dump.txt]...
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/placeholderview/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/placeholderview-annotations/build/libs/placeholderview-annotations-1.0.3.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/app/build/intermediates/classes/release] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Printing classes to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/app/build/outputs/mapping/release/dump.txt]...
 :app:transformClassesWithDexBuilderForRelease
 :app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:placeholderview:compileReleaseNdk NO-SOURCE
+:placeholderview:mergeReleaseJniLibFolders
+:placeholderview:transformNativeLibsWithMergeJniLibsForRelease
+:placeholderview:transformNativeLibsWithStripDebugSymbolForRelease
+:placeholderview:transformNativeLibsWithIntermediateJniLibsForRelease
 :app:transformNativeLibsWithMergeJniLibsForRelease
 :app:transformNativeLibsWithStripDebugSymbolForRelease
 :app:packageRelease
@@ -527,7 +542,7 @@ Printing classes to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/15
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 1m 6s
+BUILD SUCCESSFUL in 1m 18s
 98 actionable tasks: 98 executed
 
-2019-07-05 21:00:17,178 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562334989603-0/src/app/build/outputs/apk/debug/app-debug.apk
+2019-08-28 14:03:50,743 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975570333-0/src/app/build/outputs/apk/debug/app-debug.apk
