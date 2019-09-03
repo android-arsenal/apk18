@@ -1,610 +1,109 @@
-2019-07-21 20:13:49,716 INFO  DownloadService - Downloading "https://github.com/PierfrancescoSoffritti/android-youtube-player/archive/master.zip", attempt 3
-2019-07-21 20:13:54,047 INFO  DownloadService - Downloaded https://github.com/PierfrancescoSoffritti/android-youtube-player/archive/master.zip, attempt 3
-2019-07-21 20:13:54,048 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/master.zip": 4 MB
-2019-07-21 20:13:54,048 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-21 20:13:54,055 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/master.zip: true
-2019-07-21 20:13:54,056 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src'.
-2019-07-21 20:13:54,168 INFO  FullProcessService - Size of directory with sources: 6 MB
-2019-07-21 20:13:54,168 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src]
-2019-07-21 20:13:54,187 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/.git/
+2019-09-03 20:00:07,341 INFO  DownloadService - Downloading "https://github.com/PierfrancescoSoffritti/android-youtube-player/archive/master.zip", attempt 3
+2019-09-03 20:00:15,811 INFO  DownloadService - Downloaded https://github.com/PierfrancescoSoffritti/android-youtube-player/archive/master.zip, attempt 3
+2019-09-03 20:00:15,812 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/master.zip": 4 MB
+2019-09-03 20:00:15,812 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-03 20:00:15,814 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/master.zip: true
+2019-09-03 20:00:15,814 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src'.
+2019-09-03 20:00:15,919 INFO  FullProcessService - Size of directory with sources: 6 MB
+2019-09-03 20:00:15,919 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src]
+2019-09-03 20:00:15,943 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/.git/
 
-2019-07-21 20:13:54,196 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/gradlew
-2019-07-21 20:13:54,204 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/chromecast-sender-sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/chromecast-sender/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/core-sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/build.gradle
-2019-07-21 20:13:54,212 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/chromecast-sender/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/core-sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/bintrayconfig.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/chromecast-sender-sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/settings.gradle
-2019-07-21 20:13:54,213 INFO  ProjectBuildService - Remote scripts: none
-2019-07-21 20:13:54,213 INFO  ProjectFixService - Fixing project...
-2019-07-21 20:13:54,230 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/chromecast-sender-sample-app/local.properties
-2019-07-21 20:13:54,234 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/chromecast-sender-sample-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-21 20:13:54,235 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/chromecast-sender-sample-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-21 20:13:54,236 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/chromecast-sender/local.properties
-2019-07-21 20:13:54,242 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/chromecast-sender/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-21 20:13:54,243 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/chromecast-sender/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-21 20:13:54,243 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/core-sample-app/local.properties
-2019-07-21 20:13:54,246 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/core-sample-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-21 20:13:54,246 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/core-sample-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-21 20:13:54,247 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/core/local.properties
-2019-07-21 20:13:54,251 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-21 20:13:54,251 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-21 20:13:54,252 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/local.properties
-2019-07-21 20:13:54,252 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
-2019-07-21 20:13:54,253 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
-2019-07-21 20:13:54,256 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-21 20:13:54,256 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-21 20:13:54,256 INFO  ProjectFixService - Project was maybe fixed
-2019-07-21 20:13:54,256 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-21 20:13:54,257 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/chromecast-sender-sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-21 20:14:01,665 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-07-21 20:14:01,665 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-21 20:14:01,665 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/chromecast-sender-sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-21 20:15:34,464 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-03 20:00:15,952 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/gradlew
+2019-09-03 20:00:15,961 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/chromecast-sender-sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/chromecast-sender/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/core-sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/build.gradle
+2019-09-03 20:00:15,970 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/chromecast-sender/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/core-sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/bintrayconfig.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/chromecast-sender-sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/settings.gradle
+2019-09-03 20:00:15,971 INFO  ProjectBuildService - Remote scripts: none
+2019-09-03 20:00:15,971 INFO  ProjectFixService - Fixing project...
+2019-09-03 20:00:15,992 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/chromecast-sender-sample-app/local.properties
+2019-09-03 20:00:15,995 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/chromecast-sender-sample-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-09-03 20:00:15,995 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/chromecast-sender-sample-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-09-03 20:00:15,996 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/chromecast-sender/local.properties
+2019-09-03 20:00:15,999 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/chromecast-sender/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-09-03 20:00:15,999 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/chromecast-sender/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-09-03 20:00:16,000 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/core-sample-app/local.properties
+2019-09-03 20:00:16,004 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/core-sample-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-09-03 20:00:16,004 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/core-sample-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-09-03 20:00:16,005 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/core/local.properties
+2019-09-03 20:00:16,008 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-09-03 20:00:16,008 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-09-03 20:00:16,009 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/local.properties
+2019-09-03 20:00:16,009 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-09-03 20:00:16,009 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-09-03 20:00:16,012 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-09-03 20:00:16,012 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-09-03 20:00:16,013 INFO  ProjectFixService - Project was maybe fixed
+2019-09-03 20:00:16,013 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-03 20:00:16,013 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/chromecast-sender-sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-03 20:00:24,699 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-09-03 20:00:24,699 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-09-03 20:00:24,699 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/chromecast-sender-sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-09-03 20:02:06,145 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :core
 WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
 It will be removed at the end of 2019.
 For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variant.getJavaCompiler(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
+To determine what is calling variant.getJavaCompiler(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
 WARNING: API 'variantOutput.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
 It will be removed at the end of 2019.
 For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
+To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
 
-> Transform annotations.jar (org.jetbrains:annotations:13.0) with JetifyTransform
-> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21) with JetifyTransform
-> Transform google-oauth-client.jar (com.google.oauth-client:google-oauth-client:1.23.0) with JetifyTransform
-> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21) with IdentityTransform
-> Transform annotations.jar (org.jetbrains:annotations:13.0) with IdentityTransform
-> Transform google-oauth-client.jar (com.google.oauth-client:google-oauth-client:1.23.0) with IdentityTransform
-> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.21) with JetifyTransform
-> Transform google-api-client.jar (com.google.api-client:google-api-client:1.23.0) with JetifyTransform
-> Transform reactive-streams.jar (org.reactivestreams:reactive-streams:1.0.2) with JetifyTransform
-> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.21) with IdentityTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
-> Transform google-http-client-android.jar (com.google.http-client:google-http-client-android:1.23.0) with JetifyTransform
-> Transform google-api-client.jar (com.google.api-client:google-api-client:1.23.0) with IdentityTransform
-> Transform google-http-client.jar (com.google.http-client:google-http-client:1.23.0) with JetifyTransform
-> Transform reactive-streams.jar (org.reactivestreams:reactive-streams:1.0.2) with IdentityTransform
-> Transform annotation.jar (androidx.annotation:annotation:1.0.2) with JetifyTransform
-> Transform google-http-client-android.jar (com.google.http-client:google-http-client-android:1.23.0) with IdentityTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
-> Transform google-http-client.jar (com.google.http-client:google-http-client:1.23.0) with IdentityTransform
-> Transform annotation.jar (androidx.annotation:annotation:1.0.2) with IdentityTransform
-> Transform constraintlayout-solver.jar (androidx.constraintlayout:constraintlayout-solver:1.1.3) with JetifyTransform
-> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
-> Transform constraintlayout-solver.jar (androidx.constraintlayout:constraintlayout-solver:1.1.3) with IdentityTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
-> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with JetifyTransform
-> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with JetifyTransform
-> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with IdentityTransform
-> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with IdentityTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with ExtractAarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with ExtractAarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with ExtractAarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with ExtractAarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with ExtractAarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with ExtractAarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with ExtractAarTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with ExtractAarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarCompileClassesTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarCompileClassesTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarCompileClassesTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarCompileClassesTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarCompileClassesTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarCompileClassesTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with JetifyTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
-> Transform collection.jar (androidx.collection:collection:1.0.0) with JetifyTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarCompileClassesTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
-> Transform core.aar (androidx.core:core:1.0.1) with JetifyTransform
-> Transform collection.jar (androidx.collection:collection:1.0.0) with IdentityTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with JetifyTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with ExtractAarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with ExtractAarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with ExtractAarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarCompileClassesTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarCompileClassesTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with ExtractAarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with ExtractAarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with ExtractAarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarCompileClassesTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarCompileClassesTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with ExtractAarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with ExtractAarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarCompileClassesTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarCompileClassesTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with ExtractAarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarCompileClassesTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarCompileClassesTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with ExtractAarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with ExtractAarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarCompileClassesTransform
-> Transform transition.aar (androidx.transition:transition:1.0.0) with JetifyTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with ExtractAarTransform
-> Transform media.aar (androidx.media:media:1.0.0) with JetifyTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarCompileClassesTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarCompileClassesTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarCompileClassesTransform
-> Transform transition.aar (androidx.transition:transition:1.0.0) with ExtractAarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarCompileClassesTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with ExtractAarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with JetifyTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarCompileClassesTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
-> Transform transition.aar (androidx.transition:transition:1.0.0) with AarCompileClassesTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with ExtractAarTransform
-> Transform legacy-support-v4.aar (androidx.legacy:legacy-support-v4:1.0.0) with JetifyTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with ExtractAarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with ExtractAarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarCompileClassesTransform
-> Transform media.aar (androidx.media:media:1.0.0) with ExtractAarTransform
-> Transform legacy-support-v4.aar (androidx.legacy:legacy-support-v4:1.0.0) with ExtractAarTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarCompileClassesTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarCompileClassesTransform
-> Transform legacy-support-v4.aar (androidx.legacy:legacy-support-v4:1.0.0) with AarCompileClassesTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with ExtractAarTransform
-> Transform play-services-flags.aar (com.google.android.gms:play-services-flags:16.0.1) with JetifyTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarCompileClassesTransform
-> Transform play-services-flags.aar (com.google.android.gms:play-services-flags:16.0.1) with ExtractAarTransform
-> Transform play-services-flags.aar (com.google.android.gms:play-services-flags:16.0.1) with AarCompileClassesTransform
-> Transform media.aar (androidx.media:media:1.0.0) with AarCompileClassesTransform
-> Transform google-api-client-android.jar (com.google.api-client:google-api-client-android:1.23.0) with JetifyTransform
-> Transform google-api-client-android.jar (com.google.api-client:google-api-client-android:1.23.0) with IdentityTransform
-> Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with JetifyTransform
-> Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with ExtractAarTransform
-> Transform palette.aar (androidx.palette:palette:1.0.0) with JetifyTransform
-> Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with AarCompileClassesTransform
-> Transform constraintlayout.aar (androidx.constraintlayout:constraintlayout:1.1.3) with JetifyTransform
-> Transform rxjava.jar (io.reactivex.rxjava2:rxjava:2.2.2) with JetifyTransform
-> Transform rxjava.jar (io.reactivex.rxjava2:rxjava:2.2.2) with IdentityTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with JetifyTransform
-> Transform constraintlayout.aar (androidx.constraintlayout:constraintlayout:1.1.3) with ExtractAarTransform
-> Transform palette.aar (androidx.palette:palette:1.0.0) with ExtractAarTransform
-> Transform constraintlayout.aar (androidx.constraintlayout:constraintlayout:1.1.3) with AarCompileClassesTransform
-> Transform palette.aar (androidx.palette:palette:1.0.0) with AarCompileClassesTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with JetifyTransform
-> Transform mediarouter.aar (androidx.mediarouter:mediarouter:1.0.0) with JetifyTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with ExtractAarTransform
-> Transform core.aar (androidx.core:core:1.0.1) with ExtractAarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarCompileClassesTransform
-> Transform play-services-tasks.aar (com.google.android.gms:play-services-tasks:16.0.1) with JetifyTransform
-> Transform play-services-tasks.aar (com.google.android.gms:play-services-tasks:16.0.1) with ExtractAarTransform
-> Transform play-services-tasks.aar (com.google.android.gms:play-services-tasks:16.0.1) with AarCompileClassesTransform
-> Transform core.aar (androidx.core:core:1.0.1) with AarCompileClassesTransform
-> Transform material.aar (com.google.android.material:material:1.0.0) with JetifyTransform
-> Transform material.aar (com.google.android.material:material:1.0.0) with ExtractAarTransform
-> Transform material.aar (com.google.android.material:material:1.0.0) with AarCompileClassesTransform
-> Transform taptargetview.aar (com.getkeepsafe.taptargetview:taptargetview:1.12.0) with JetifyTransform
-> Transform taptargetview.aar (com.getkeepsafe.taptargetview:taptargetview:1.12.0) with ExtractAarTransform
-> Transform taptargetview.aar (com.getkeepsafe.taptargetview:taptargetview:1.12.0) with AarCompileClassesTransform
-> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21) with JetifyTransform
-> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21) with IdentityTransform
-> Transform core.aar (com.psoffritti.librarysampleapptemplate:core:1.0.1) with JetifyTransform
-> Transform core.aar (com.psoffritti.librarysampleapptemplate:core:1.0.1) with ExtractAarTransform
-> Transform mediarouter.aar (androidx.mediarouter:mediarouter:1.0.0) with ExtractAarTransform
-> Transform core.aar (com.psoffritti.librarysampleapptemplate:core:1.0.1) with AarCompileClassesTransform
-> Transform media2.aar (androidx.media2:media2:1.0.0-alpha02) with JetifyTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with ExtractAarTransform
-> Transform media2.aar (androidx.media2:media2:1.0.0-alpha02) with ExtractAarTransform
-> Transform media2.aar (androidx.media2:media2:1.0.0-alpha02) with AarCompileClassesTransform
-> Transform palette.aar (androidx.palette:palette:1.0.0-rc01) with JetifyTransform
-> Transform palette.aar (androidx.palette:palette:1.0.0-rc01) with ExtractAarTransform
-> Transform palette.aar (androidx.palette:palette:1.0.0-rc01) with AarCompileClassesTransform
-> Transform mediarouter.aar (androidx.mediarouter:mediarouter:1.0.0-alpha5) with JetifyTransform
-> Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.0.1) with JetifyTransform
-> Transform google-api-services-youtube.jar (com.google.apis:google-api-services-youtube:v3-rev198-1.23.0) with JetifyTransform
-> Transform google-api-services-youtube.jar (com.google.apis:google-api-services-youtube:v3-rev198-1.23.0) with IdentityTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
-> Transform play-services-cast.aar (com.google.android.gms:play-services-cast:16.1.2) with JetifyTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform media.aar (androidx.media:media:1.0.0) with AarTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
-> Transform legacy-support-v4.aar (androidx.legacy:legacy-support-v4:1.0.0) with AarTransform
-> Transform play-services-tasks.aar (com.google.android.gms:play-services-tasks:16.0.1) with AarTransform
-> Transform play-services-flags.aar (com.google.android.gms:play-services-flags:16.0.1) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
-> Transform play-services-cast.aar (com.google.android.gms:play-services-cast:16.1.2) with ExtractAarTransform
-> Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.0.1) with ExtractAarTransform
-> Transform mediarouter.aar (androidx.mediarouter:mediarouter:1.0.0) with AarCompileClassesTransform
-> Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.0.1) with AarTransform
-> Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.0.1) with AarCompileClassesTransform
-> Transform media2.aar (androidx.media2:media2:1.0.0-alpha02) with AarTransform
-> Transform palette.aar (androidx.palette:palette:1.0.0-rc01) with AarTransform
-> Transform play-services-cast.aar (com.google.android.gms:play-services-cast:16.1.2) with AarTransform
-> Transform play-services-cast.aar (com.google.android.gms:play-services-cast:16.1.2) with AarCompileClassesTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarCompileClassesTransform
-> Transform play-services-base.aar (com.google.android.gms:play-services-base:16.0.1) with JetifyTransform
 > Task :chromecast-sender:preBuild UP-TO-DATE
 > Task :chromecast-sender:preDebugBuild UP-TO-DATE
 > Task :core:preBuild UP-TO-DATE
 > Task :core:preDebugBuild UP-TO-DATE
-> Transform mediarouter.aar (androidx.mediarouter:mediarouter:1.0.0-alpha5) with ExtractAarTransform
 > Task :core:compileDebugAidl NO-SOURCE
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform play-services-cast-framework.aar (com.google.android.gms:play-services-cast-framework:16.1.2) with JetifyTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform media.aar (androidx.media:media:1.0.0) with AarTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
-> Transform legacy-support-v4.aar (androidx.legacy:legacy-support-v4:1.0.0) with AarTransform
-> Transform play-services-flags.aar (com.google.android.gms:play-services-flags:16.0.1) with AarTransform
-> Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.0.1) with AarTransform
-> Transform play-services-tasks.aar (com.google.android.gms:play-services-tasks:16.0.1) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
-> Transform play-services-cast.aar (com.google.android.gms:play-services-cast:16.1.2) with AarTransform
-> Transform media2.aar (androidx.media2:media2:1.0.0-alpha02) with AarTransform
-> Transform palette.aar (androidx.palette:palette:1.0.0-rc01) with AarTransform
 > Task :core:packageDebugRenderscript NO-SOURCE
 > Task :chromecast-sender:checkDebugManifest
 > Task :chromecast-sender:generateDebugBuildConfig
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with LibrarySymbolTableTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with LibrarySymbolTableTransform
-> Transform print.aar (androidx.print:print:1.0.0) with LibrarySymbolTableTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with LibrarySymbolTableTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with LibrarySymbolTableTransform
-> Transform play-services-base.aar (com.google.android.gms:play-services-base:16.0.1) with ExtractAarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with LibrarySymbolTableTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with LibrarySymbolTableTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with LibrarySymbolTableTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with LibrarySymbolTableTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with LibrarySymbolTableTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with LibrarySymbolTableTransform
-> Transform core.aar (androidx.core:core:1.0.1) with LibrarySymbolTableTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with LibrarySymbolTableTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with LibrarySymbolTableTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with LibrarySymbolTableTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with LibrarySymbolTableTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with LibrarySymbolTableTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with LibrarySymbolTableTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with LibrarySymbolTableTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with LibrarySymbolTableTransform
-> Transform media.aar (androidx.media:media:1.0.0) with LibrarySymbolTableTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with LibrarySymbolTableTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with LibrarySymbolTableTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with LibrarySymbolTableTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with LibrarySymbolTableTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with LibrarySymbolTableTransform
-> Transform legacy-support-v4.aar (androidx.legacy:legacy-support-v4:1.0.0) with LibrarySymbolTableTransform
-> Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.0.1) with LibrarySymbolTableTransform
-> Transform play-services-tasks.aar (com.google.android.gms:play-services-tasks:16.0.1) with LibrarySymbolTableTransform
-> Transform play-services-base.aar (com.google.android.gms:play-services-base:16.0.1) with AarTransform
-> Transform play-services-base.aar (com.google.android.gms:play-services-base:16.0.1) with AarTransform
-> Transform play-services-flags.aar (com.google.android.gms:play-services-flags:16.0.1) with LibrarySymbolTableTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with LibrarySymbolTableTransform
-> Transform play-services-base.aar (com.google.android.gms:play-services-base:16.0.1) with AarCompileClassesTransform
-> Transform play-services-base.aar (com.google.android.gms:play-services-base:16.0.1) with LibrarySymbolTableTransform
-> Transform play-services-cast.aar (com.google.android.gms:play-services-cast:16.1.2) with LibrarySymbolTableTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with LibrarySymbolTableTransform
-> Transform palette.aar (androidx.palette:palette:1.0.0-rc01) with LibrarySymbolTableTransform
-> Transform media2.aar (androidx.media2:media2:1.0.0-alpha02) with LibrarySymbolTableTransform
 > Task :chromecast-sender:generateDebugResValues
-> Transform mediarouter.aar (androidx.mediarouter:mediarouter:1.0.0-alpha5) with AarCompileClassesTransform
-> Transform mediarouter.aar (androidx.mediarouter:mediarouter:1.0.0-alpha5) with AarTransform
-> Transform mediarouter.aar (androidx.mediarouter:mediarouter:1.0.0-alpha5) with AarTransform
-> Transform mediarouter.aar (androidx.mediarouter:mediarouter:1.0.0-alpha5) with LibrarySymbolTableTransform
-> Transform aapt2-osx.jar (com.android.tools.build:aapt2:3.3.2-5309881) with Aapt2Extractor
-> Transform play-services-cast-framework.aar (com.google.android.gms:play-services-cast-framework:16.1.2) with ExtractAarTransform
-> Task :chromecast-sender:processDebugManifest
-> Task :core:compileDebugRenderscript
 > Task :core:generateDebugResValues
+> Task :core:compileDebugRenderscript NO-SOURCE
 > Task :core:generateDebugResources
-> Transform play-services-cast-framework.aar (com.google.android.gms:play-services-cast-framework:16.1.2) with AarTransform
-> Transform play-services-cast-framework.aar (com.google.android.gms:play-services-cast-framework:16.1.2) with AarTransform
-> Transform play-services-cast-framework.aar (com.google.android.gms:play-services-cast-framework:16.1.2) with AarCompileClassesTransform
-> Transform play-services-cast-framework.aar (com.google.android.gms:play-services-cast-framework:16.1.2) with LibrarySymbolTableTransform
 > Task :core:packageDebugResources
-> Task :chromecast-sender:compileDebugAidl NO-SOURCE
-> Task :chromecast-sender:compileDebugRenderscript
-> Task :chromecast-sender:generateDebugResources
-> Task :chromecast-sender:packageDebugResources
+> Task :chromecast-sender:processDebugManifest
 > Task :core:checkDebugManifest
-> Task :core:processDebugManifest
-> Task :core:generateDebugRFile
-> Task :chromecast-sender:generateDebugRFile
 > Task :core:generateDebugBuildConfig
-
-> Task :core:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/core/src/main/java/com/pierfrancescosoffritti/androidyoutubeplayer/core/player/views/LegacyYouTubePlayerView.kt: (100, 88): 'CONNECTIVITY_ACTION: String' is deprecated. Deprecated in Java
-
-> Task :core:prepareLintJar
-> Task :core:generateDebugSources
-> Task :core:javaPreCompileDebug
-> Task :core:compileDebugJavaWithJavac
-> Task :core:processDebugJavaRes NO-SOURCE
-> Task :core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-> Task :chromecast-sender:compileDebugKotlin
-> Task :chromecast-sender:prepareLintJar
-> Task :chromecast-sender:generateDebugSources
-> Task :chromecast-sender:javaPreCompileDebug
-> Task :chromecast-sender:compileDebugJavaWithJavac
-> Task :chromecast-sender:processDebugJavaRes NO-SOURCE
-> Task :chromecast-sender:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
-> Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with AarTransform
-> Transform palette.aar (androidx.palette:palette:1.0.0) with AarTransform
-> Transform constraintlayout.aar (androidx.constraintlayout:constraintlayout:1.1.3) with AarTransform
-> Transform mediarouter.aar (androidx.mediarouter:mediarouter:1.0.0) with AarTransform
-> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
-> Transform core.aar (com.psoffritti.librarysampleapptemplate:core:1.0.1) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform taptargetview.aar (com.getkeepsafe.taptargetview:taptargetview:1.12.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform media.aar (androidx.media:media:1.0.0) with AarTransform
-> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
-> Transform legacy-support-v4.aar (androidx.legacy:legacy-support-v4:1.0.0) with AarTransform
-> Transform play-services-tasks.aar (com.google.android.gms:play-services-tasks:16.0.1) with AarTransform
-> Transform play-services-base.aar (com.google.android.gms:play-services-base:16.0.1) with AarTransform
-> Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.0.1) with AarTransform
-> Transform play-services-flags.aar (com.google.android.gms:play-services-flags:16.0.1) with AarTransform
-> Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with AarTransform
-> Transform palette.aar (androidx.palette:palette:1.0.0) with AarTransform
-> Transform constraintlayout.aar (androidx.constraintlayout:constraintlayout:1.1.3) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
-> Transform mediarouter.aar (androidx.mediarouter:mediarouter:1.0.0) with AarTransform
-> Transform play-services-cast.aar (com.google.android.gms:play-services-cast:16.1.2) with AarTransform
-> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
-> Transform play-services-cast-framework.aar (com.google.android.gms:play-services-cast-framework:16.1.2) with AarTransform
-> Transform core.aar (com.psoffritti.librarysampleapptemplate:core:1.0.1) with AarTransform
-> Transform taptargetview.aar (com.getkeepsafe.taptargetview:taptargetview:1.12.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform media.aar (androidx.media:media:1.0.0) with AarTransform
-> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
-> Transform legacy-support-v4.aar (androidx.legacy:legacy-support-v4:1.0.0) with AarTransform
-> Transform play-services-tasks.aar (com.google.android.gms:play-services-tasks:16.0.1) with AarTransform
-> Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.0.1) with AarTransform
-> Transform play-services-base.aar (com.google.android.gms:play-services-base:16.0.1) with AarTransform
-> Transform play-services-flags.aar (com.google.android.gms:play-services-flags:16.0.1) with AarTransform
-> Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with AarTransform
-> Transform palette.aar (androidx.palette:palette:1.0.0) with AarTransform
-> Transform constraintlayout.aar (androidx.constraintlayout:constraintlayout:1.1.3) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
 > Task :chromecast-sender-sample-app:preBuild UP-TO-DATE
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
-> Transform mediarouter.aar (androidx.mediarouter:mediarouter:1.0.0) with AarTransform
-> Transform play-services-cast.aar (com.google.android.gms:play-services-cast:16.1.2) with AarTransform
-> Transform play-services-cast-framework.aar (com.google.android.gms:play-services-cast-framework:16.1.2) with AarTransform
-> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
-> Transform taptargetview.aar (com.getkeepsafe.taptargetview:taptargetview:1.12.0) with AarTransform
-> Transform core.aar (com.psoffritti.librarysampleapptemplate:core:1.0.1) with AarTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
-> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
-> Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with AarTransform
-> Transform palette.aar (androidx.palette:palette:1.0.0) with AarTransform
-> Transform constraintlayout.aar (androidx.constraintlayout:constraintlayout:1.1.3) with AarTransform
-> Transform mediarouter.aar (androidx.mediarouter:mediarouter:1.0.0) with AarTransform
-> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
-> Task :chromecast-sender-sample-app:preDebugBuild
-> Task :chromecast-sender-sample-app:compileDebugAidl NO-SOURCE
-> Transform core.aar (com.psoffritti.librarysampleapptemplate:core:1.0.1) with AarTransform
+> Task :chromecast-sender-sample-app:preDebugBuild UP-TO-DATE
+> Task :core:processDebugManifest
 > Task :chromecast-sender:packageDebugRenderscript NO-SOURCE
-> Transform taptargetview.aar (com.getkeepsafe.taptargetview:taptargetview:1.12.0) with AarTransform
+> Task :chromecast-sender-sample-app:compileDebugRenderscript NO-SOURCE
 > Task :chromecast-sender-sample-app:checkDebugManifest
-> Task :chromecast-sender-sample-app:compileDebugRenderscript
 > Task :chromecast-sender-sample-app:generateDebugBuildConfig
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with LibrarySymbolTableTransform
-> Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with LibrarySymbolTableTransform
-> Transform transition.aar (androidx.transition:transition:1.0.0) with LibrarySymbolTableTransform
-> Transform constraintlayout.aar (androidx.constraintlayout:constraintlayout:1.1.3) with LibrarySymbolTableTransform
-> Transform palette.aar (androidx.palette:palette:1.0.0) with LibrarySymbolTableTransform
-> Transform taptargetview.aar (com.getkeepsafe.taptargetview:taptargetview:1.12.0) with LibrarySymbolTableTransform
-> Transform mediarouter.aar (androidx.mediarouter:mediarouter:1.0.0) with LibrarySymbolTableTransform
-> Transform material.aar (com.google.android.material:material:1.0.0) with LibrarySymbolTableTransform
-> Transform core.aar (com.psoffritti.librarysampleapptemplate:core:1.0.1) with LibrarySymbolTableTransform
 > Task :chromecast-sender-sample-app:mainApkListPersistenceDebug
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform media.aar (androidx.media:media:1.0.0) with AarTransform
-> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
-> Transform legacy-support-v4.aar (androidx.legacy:legacy-support-v4:1.0.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
-> Transform play-services-tasks.aar (com.google.android.gms:play-services-tasks:16.0.1) with AarTransform
-> Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.0.1) with AarTransform
-> Transform play-services-base.aar (com.google.android.gms:play-services-base:16.0.1) with AarTransform
-> Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with AarTransform
-> Transform play-services-flags.aar (com.google.android.gms:play-services-flags:16.0.1) with AarTransform
-> Transform palette.aar (androidx.palette:palette:1.0.0) with AarTransform
-> Transform constraintlayout.aar (androidx.constraintlayout:constraintlayout:1.1.3) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
-> Transform taptargetview.aar (com.getkeepsafe.taptargetview:taptargetview:1.12.0) with AarTransform
-> Transform core.aar (com.psoffritti.librarysampleapptemplate:core:1.0.1) with AarTransform
-> Transform play-services-cast-framework.aar (com.google.android.gms:play-services-cast-framework:16.1.2) with AarTransform
-> Transform play-services-cast.aar (com.google.android.gms:play-services-cast:16.1.2) with AarTransform
-> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
-> Transform mediarouter.aar (androidx.mediarouter:mediarouter:1.0.0) with AarTransform
+> Task :core:parseDebugLibraryResources
 > Task :chromecast-sender-sample-app:generateDebugResValues
 > Task :chromecast-sender-sample-app:generateDebugResources
+> Task :chromecast-sender:compileDebugAidl NO-SOURCE
+> Task :chromecast-sender:compileDebugRenderscript NO-SOURCE
+> Task :chromecast-sender:generateDebugResources
+> Task :chromecast-sender:packageDebugResources
+> Task :chromecast-sender-sample-app:compileDebugAidl NO-SOURCE
+> Task :core:generateDebugRFile
+
+> Task :core:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/core/src/main/java/com/pierfrancescosoffritti/androidyoutubeplayer/core/player/utils/Utils.kt: (12, 47): 'getter for activeNetworkInfo: NetworkInfo!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/core/src/main/java/com/pierfrancescosoffritti/androidyoutubeplayer/core/player/utils/Utils.kt: (13, 51): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/core/src/main/java/com/pierfrancescosoffritti/androidyoutubeplayer/core/player/views/LegacyYouTubePlayerView.kt: (99, 88): 'CONNECTIVITY_ACTION: String' is deprecated. Deprecated in Java
+
 > Task :chromecast-sender-sample-app:mergeDebugResources
+> Task :chromecast-sender:parseDebugLibraryResources
+> Task :core:javaPreCompileDebug
+> Task :core:compileDebugJavaWithJavac
+> Task :chromecast-sender:generateDebugRFile
 > Task :chromecast-sender-sample-app:createDebugCompatibleScreenManifests
 > Task :chromecast-sender-sample-app:processDebugManifest
 > Task :chromecast-sender-sample-app:processDebugResources
-
+> Task :core:bundleLibCompileDebug
+> Task :chromecast-sender:compileDebugKotlin
+> Task :chromecast-sender:javaPreCompileDebug
+> Task :chromecast-sender:compileDebugJavaWithJavac
+> Task :chromecast-sender:bundleLibCompileDebug
 > Task :chromecast-sender-sample-app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/chromecast-sender-sample-app/src/main/java/com/pierfrancescosoffritti/androidyoutubeplayer/chromecast/sampleapp/utils/MediaRouteButtonUtils.kt: (43, 32): Type mismatch: inferred type is Drawable? but Drawable was expected
-
-> Task :chromecast-sender-sample-app:prepareLintJar
-> Task :chromecast-sender-sample-app:generateDebugSources
 > Task :chromecast-sender-sample-app:javaPreCompileDebug
 > Task :chromecast-sender-sample-app:compileDebugJavaWithJavac
-> Task :chromecast-sender-sample-app:compileDebugNdk NO-SOURCE
 > Task :chromecast-sender-sample-app:compileDebugSources
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform media.aar (androidx.media:media:1.0.0) with AarTransform
-> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
-> Transform legacy-support-v4.aar (androidx.legacy:legacy-support-v4:1.0.0) with AarTransform
-> Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.0.1) with AarTransform
-> Transform play-services-flags.aar (com.google.android.gms:play-services-flags:16.0.1) with AarTransform
-> Transform play-services-tasks.aar (com.google.android.gms:play-services-tasks:16.0.1) with AarTransform
-> Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with AarTransform
-> Transform play-services-base.aar (com.google.android.gms:play-services-base:16.0.1) with AarTransform
-> Transform palette.aar (androidx.palette:palette:1.0.0) with AarTransform
-> Transform constraintlayout.aar (androidx.constraintlayout:constraintlayout:1.1.3) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
-> Transform mediarouter.aar (androidx.mediarouter:mediarouter:1.0.0) with AarTransform
-> Transform play-services-cast.aar (com.google.android.gms:play-services-cast:16.1.2) with AarTransform
-> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
-> Transform core.aar (com.psoffritti.librarysampleapptemplate:core:1.0.1) with AarTransform
-> Transform play-services-cast-framework.aar (com.google.android.gms:play-services-cast-framework:16.1.2) with AarTransform
-> Transform taptargetview.aar (com.getkeepsafe.taptargetview:taptargetview:1.12.0) with AarTransform
 > Task :chromecast-sender:mergeDebugShaders
 > Task :chromecast-sender:compileDebugShaders
 > Task :chromecast-sender:generateDebugAssets
@@ -617,440 +116,75 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/
 > Task :core:generateDebugAssets
 > Task :core:packageDebugAssets
 > Task :chromecast-sender-sample-app:mergeDebugAssets
-> Task :core:createFullJarDebug
+> Task :chromecast-sender:processDebugJavaRes NO-SOURCE
+> Task :chromecast-sender-sample-app:processDebugJavaRes NO-SOURCE
+> Task :core:processDebugJavaRes NO-SOURCE
+> Task :core:bundleLibResDebug
+> Task :chromecast-sender:bundleLibResDebug
+> Task :chromecast-sender:bundleLibRuntimeDebug
 > Task :chromecast-sender:createFullJarDebug
-> Transform full.jar (project :chromecast-sender) with JetifyTransform
-> Transform full.jar (project :core) with JetifyTransform
-> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21) with DexingTransform
-> Transform reactive-streams.jar (org.reactivestreams:reactive-streams:1.0.2) with DexingTransform
-> Transform annotations.jar (org.jetbrains:annotations:13.0) with DexingTransform
-> Transform google-http-client-android.jar (com.google.http-client:google-http-client-android:1.23.0) with DexingTransform
-> Transform annotation.jar (androidx.annotation:annotation:1.0.2) with DexingTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
-> Transform full.jar (project :chromecast-sender) with DexingTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with DexingTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with DexingTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
-> Transform print.aar (androidx.print:print:1.0.0) with DexingTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with DexingTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
-> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with DexingTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with DexingTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with DexingTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
-> Transform google-oauth-client.jar (com.google.oauth-client:google-oauth-client:1.23.0) with DexingTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with DexingTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with JetifyTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with DexingTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
-> Transform full.jar (project :core) with DexingTransform
-> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with DexingTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with JetifyTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with DexingTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with DexingTransform
-> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with DexingTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with DexingTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with DexingTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
-> Transform core.aar (androidx.core:core:1.0.1) with JetifyTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with DexingTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
-> Transform collection.jar (androidx.collection:collection:1.0.0) with DexingTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
-> Transform google-api-client.jar (com.google.api-client:google-api-client:1.23.0) with DexingTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with DexingTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with DexingTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with DexingTransform
-> Transform media.aar (androidx.media:media:1.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with DexingTransform
-> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
-> Transform transition.aar (androidx.transition:transition:1.0.0) with JetifyTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with DexingTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
-> Transform media.aar (androidx.media:media:1.0.0) with JetifyTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with DexingTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with DexingTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with DexingTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with DexingTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with JetifyTransform
-> Transform constraintlayout-solver.jar (androidx.constraintlayout:constraintlayout-solver:1.1.3) with DexingTransform
-> Transform legacy-support-v4.aar (androidx.legacy:legacy-support-v4:1.0.0) with AarTransform
-> Transform legacy-support-v4.aar (androidx.legacy:legacy-support-v4:1.0.0) with JetifyTransform
-> Transform legacy-support-v4.aar (androidx.legacy:legacy-support-v4:1.0.0) with DexingTransform
-> Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.0.1) with AarTransform
-> Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.0.1) with JetifyTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with DexingTransform
-> Transform play-services-tasks.aar (com.google.android.gms:play-services-tasks:16.0.1) with AarTransform
-> Transform play-services-tasks.aar (com.google.android.gms:play-services-tasks:16.0.1) with JetifyTransform
-> Transform play-services-tasks.aar (com.google.android.gms:play-services-tasks:16.0.1) with DexingTransform
-> Transform play-services-base.aar (com.google.android.gms:play-services-base:16.0.1) with AarTransform
-> Transform play-services-base.aar (com.google.android.gms:play-services-base:16.0.1) with JetifyTransform
-> Transform google-http-client.jar (com.google.http-client:google-http-client:1.23.0) with DexingTransform
-> Transform play-services-flags.aar (com.google.android.gms:play-services-flags:16.0.1) with AarTransform
-> Transform play-services-flags.aar (com.google.android.gms:play-services-flags:16.0.1) with JetifyTransform
-> Transform play-services-flags.aar (com.google.android.gms:play-services-flags:16.0.1) with DexingTransform
-> Transform transition.aar (androidx.transition:transition:1.0.0) with DexingTransform
-> Transform google-api-client-android.jar (com.google.api-client:google-api-client-android:1.23.0) with DexingTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with DexingTransform
-> Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with AarTransform
-> Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with JetifyTransform
-> Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with DexingTransform
-> Transform palette.aar (androidx.palette:palette:1.0.0) with AarTransform
-> Transform palette.aar (androidx.palette:palette:1.0.0) with JetifyTransform
-> Transform palette.aar (androidx.palette:palette:1.0.0) with DexingTransform
-> Transform constraintlayout.aar (androidx.constraintlayout:constraintlayout:1.1.3) with AarTransform
-> Transform constraintlayout.aar (androidx.constraintlayout:constraintlayout:1.1.3) with JetifyTransform
-> Transform media.aar (androidx.media:media:1.0.0) with DexingTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with JetifyTransform
-> Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.0.1) with DexingTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with JetifyTransform
-> Transform constraintlayout.aar (androidx.constraintlayout:constraintlayout:1.1.3) with DexingTransform
-> Transform mediarouter.aar (androidx.mediarouter:mediarouter:1.0.0) with AarTransform
-> Transform mediarouter.aar (androidx.mediarouter:mediarouter:1.0.0) with JetifyTransform
-> Transform play-services-base.aar (com.google.android.gms:play-services-base:16.0.1) with DexingTransform
-> Transform play-services-cast.aar (com.google.android.gms:play-services-cast:16.1.2) with AarTransform
-> Transform google-api-services-youtube.jar (com.google.apis:google-api-services-youtube:v3-rev198-1.23.0) with DexingTransform
-> Transform play-services-cast-framework.aar (com.google.android.gms:play-services-cast-framework:16.1.2) with AarTransform
-> Transform play-services-cast.aar (com.google.android.gms:play-services-cast:16.1.2) with JetifyTransform
-> Transform play-services-cast-framework.aar (com.google.android.gms:play-services-cast-framework:16.1.2) with JetifyTransform
-> Transform core.aar (androidx.core:core:1.0.1) with DexingTransform
-> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
-> Transform material.aar (com.google.android.material:material:1.0.0) with JetifyTransform
-> Transform mediarouter.aar (androidx.mediarouter:mediarouter:1.0.0) with DexingTransform
-> Transform taptargetview.aar (com.getkeepsafe.taptargetview:taptargetview:1.12.0) with AarTransform
-> Transform taptargetview.aar (com.getkeepsafe.taptargetview:taptargetview:1.12.0) with JetifyTransform
-> Transform taptargetview.aar (com.getkeepsafe.taptargetview:taptargetview:1.12.0) with DexingTransform
-> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21) with DexingTransform
-> Transform core.aar (com.psoffritti.librarysampleapptemplate:core:1.0.1) with AarTransform
-> Transform core.aar (com.psoffritti.librarysampleapptemplate:core:1.0.1) with JetifyTransform
-> Transform core.aar (com.psoffritti.librarysampleapptemplate:core:1.0.1) with DexingTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform media.aar (androidx.media:media:1.0.0) with AarTransform
-> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
-> Transform legacy-support-v4.aar (androidx.legacy:legacy-support-v4:1.0.0) with AarTransform
-> Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.0.1) with AarTransform
-> Transform play-services-tasks.aar (com.google.android.gms:play-services-tasks:16.0.1) with AarTransform
-> Transform play-services-base.aar (com.google.android.gms:play-services-base:16.0.1) with AarTransform
-> Transform play-services-flags.aar (com.google.android.gms:play-services-flags:16.0.1) with AarTransform
-> Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with AarTransform
-> Transform palette.aar (androidx.palette:palette:1.0.0) with AarTransform
-> Transform constraintlayout.aar (androidx.constraintlayout:constraintlayout:1.1.3) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
-> Transform mediarouter.aar (androidx.mediarouter:mediarouter:1.0.0) with AarTransform
-> Transform play-services-cast.aar (com.google.android.gms:play-services-cast:16.1.2) with AarTransform
-> Transform play-services-cast-framework.aar (com.google.android.gms:play-services-cast-framework:16.1.2) with AarTransform
-> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
-> Transform taptargetview.aar (com.getkeepsafe.taptargetview:taptargetview:1.12.0) with AarTransform
-> Transform core.aar (com.psoffritti.librarysampleapptemplate:core:1.0.1) with AarTransform
-> Transform play-services-cast-framework.aar (com.google.android.gms:play-services-cast-framework:16.1.2) with DexingTransform
-> Transform play-services-cast.aar (com.google.android.gms:play-services-cast:16.1.2) with DexingTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with DexingTransform
+> Task :core:bundleLibRuntimeDebug
+> Task :core:createFullJarDebug
+> Task :chromecast-sender-sample-app:checkDebugDuplicateClasses
+> Task :chromecast-sender-sample-app:mergeDebugJavaResource
 > Task :chromecast-sender-sample-app:transformClassesWithDexBuilderForDebug
 > Task :chromecast-sender-sample-app:validateSigningDebug
 > Task :chromecast-sender-sample-app:signingConfigWriterDebug
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform media.aar (androidx.media:media:1.0.0) with AarTransform
-> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
-> Transform legacy-support-v4.aar (androidx.legacy:legacy-support-v4:1.0.0) with AarTransform
-> Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.0.1) with AarTransform
-> Transform play-services-flags.aar (com.google.android.gms:play-services-flags:16.0.1) with AarTransform
-> Transform play-services-base.aar (com.google.android.gms:play-services-base:16.0.1) with AarTransform
-> Transform play-services-tasks.aar (com.google.android.gms:play-services-tasks:16.0.1) with AarTransform
-> Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with AarTransform
-> Transform palette.aar (androidx.palette:palette:1.0.0) with AarTransform
-> Transform constraintlayout.aar (androidx.constraintlayout:constraintlayout:1.1.3) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
-> Transform mediarouter.aar (androidx.mediarouter:mediarouter:1.0.0) with AarTransform
-> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
-> Transform play-services-cast.aar (com.google.android.gms:play-services-cast:16.1.2) with AarTransform
-> Transform play-services-cast-framework.aar (com.google.android.gms:play-services-cast-framework:16.1.2) with AarTransform
-> Transform google-oauth-client.jar (com.google.oauth-client:google-oauth-client:1.23.0) with IdentityTransform
-> Transform google-http-client.jar (com.google.http-client:google-http-client:1.23.0) with IdentityTransform
-> Transform annotations.jar (org.jetbrains:annotations:13.0) with IdentityTransform
-> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21) with IdentityTransform
-> Transform google-http-client-android.jar (com.google.http-client:google-http-client-android:1.23.0) with IdentityTransform
-> Transform google-api-client.jar (com.google.api-client:google-api-client:1.23.0) with IdentityTransform
-> Transform reactive-streams.jar (org.reactivestreams:reactive-streams:1.0.2) with IdentityTransform
-> Transform core.aar (com.psoffritti.librarysampleapptemplate:core:1.0.1) with AarTransform
-> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.21) with IdentityTransform
-> Transform constraintlayout-solver.jar (androidx.constraintlayout:constraintlayout-solver:1.1.3) with IdentityTransform
-> Transform annotation.jar (androidx.annotation:annotation:1.0.2) with IdentityTransform
-> Transform taptargetview.aar (com.getkeepsafe.taptargetview:taptargetview:1.12.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with IdentityTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
-> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with IdentityTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform collection.jar (androidx.collection:collection:1.0.0) with IdentityTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
-> Transform media.aar (androidx.media:media:1.0.0) with AarTransform
-> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
-> Transform legacy-support-v4.aar (androidx.legacy:legacy-support-v4:1.0.0) with AarTransform
-> Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.0.1) with AarTransform
-> Transform google-api-services-youtube.jar (com.google.apis:google-api-services-youtube:v3-rev198-1.23.0) with IdentityTransform
-> Transform google-api-client-android.jar (com.google.api-client:google-api-client-android:1.23.0) with IdentityTransform
-> Transform rxjava.jar (io.reactivex.rxjava2:rxjava:2.2.2) with IdentityTransform
-> Transform play-services-tasks.aar (com.google.android.gms:play-services-tasks:16.0.1) with AarTransform
-> Transform play-services-flags.aar (com.google.android.gms:play-services-flags:16.0.1) with AarTransform
-> Transform play-services-base.aar (com.google.android.gms:play-services-base:16.0.1) with AarTransform
-> Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with AarTransform
-> Transform palette.aar (androidx.palette:palette:1.0.0) with AarTransform
-> Transform constraintlayout.aar (androidx.constraintlayout:constraintlayout:1.1.3) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
-> Transform mediarouter.aar (androidx.mediarouter:mediarouter:1.0.0) with AarTransform
-> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
-> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21) with IdentityTransform
-> Transform play-services-cast.aar (com.google.android.gms:play-services-cast:16.1.2) with AarTransform
-> Transform play-services-cast-framework.aar (com.google.android.gms:play-services-cast-framework:16.1.2) with AarTransform
-> Transform core.aar (com.psoffritti.librarysampleapptemplate:core:1.0.1) with AarTransform
-> Transform taptargetview.aar (com.getkeepsafe.taptargetview:taptargetview:1.12.0) with AarTransform
-> Task :chromecast-sender:compileDebugNdk NO-SOURCE
 > Task :chromecast-sender:mergeDebugJniLibFolders
-> Task :chromecast-sender:transformNativeLibsWithMergeJniLibsForDebug
-> Task :chromecast-sender:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :chromecast-sender:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :chromecast-sender-sample-app:mergeDebugJniLibFolders
-> Task :core:compileDebugNdk NO-SOURCE
 > Task :core:mergeDebugJniLibFolders
-> Task :core:transformNativeLibsWithMergeJniLibsForDebug
-> Task :core:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :core:transformNativeLibsWithIntermediateJniLibsForDebug
-> Transform material.aar (com.google.android.material:material:1.0.0) with DexingTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with DexingTransform
-> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.21) with DexingTransform
-> Task :chromecast-sender-sample-app:transformNativeLibsWithMergeJniLibsForDebug
-> Task :chromecast-sender-sample-app:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :chromecast-sender-sample-app:processDebugJavaRes NO-SOURCE
-> Task :chromecast-sender-sample-app:transformResourcesWithMergeJavaResForDebug
+> Task :chromecast-sender:mergeDebugNativeLibs
+> Task :chromecast-sender:stripDebugDebugSymbols
+> Task :chromecast-sender:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :chromecast-sender:preReleaseBuild UP-TO-DATE
 > Task :core:preReleaseBuild UP-TO-DATE
 > Task :core:compileReleaseAidl NO-SOURCE
 > Task :chromecast-sender:compileReleaseAidl NO-SOURCE
 > Task :core:packageReleaseRenderscript NO-SOURCE
-> Task :chromecast-sender:compileReleaseRenderscript
+> Task :chromecast-sender:compileReleaseRenderscript NO-SOURCE
 > Task :chromecast-sender:checkReleaseManifest
 > Task :chromecast-sender:generateReleaseBuildConfig
 > Task :chromecast-sender:generateReleaseResValues
 > Task :chromecast-sender:generateReleaseResources
 > Task :chromecast-sender:packageReleaseResources
-> Task :chromecast-sender:processReleaseManifest
-> Task :core:compileReleaseRenderscript
+> Task :core:mergeDebugNativeLibs
+> Task :core:stripDebugDebugSymbols
+> Task :core:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :core:compileReleaseRenderscript NO-SOURCE
 > Task :core:generateReleaseResValues
 > Task :core:generateReleaseResources
 > Task :core:packageReleaseResources
+> Task :chromecast-sender:processReleaseManifest
 > Task :core:checkReleaseManifest
-> Task :core:processReleaseManifest
-> Task :core:generateReleaseRFile
-> Task :chromecast-sender:generateReleaseRFile
+> Task :chromecast-sender:parseReleaseLibraryResources
 > Task :core:generateReleaseBuildConfig
-> Transform rxjava.jar (io.reactivex.rxjava2:rxjava:2.2.2) with DexingTransform
-
-> Task :core:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/core/src/main/java/com/pierfrancescosoffritti/androidyoutubeplayer/core/player/views/LegacyYouTubePlayerView.kt: (100, 88): 'CONNECTIVITY_ACTION: String' is deprecated. Deprecated in Java
-
-> Task :chromecast-sender-sample-app:mergeExtDexDebug
-> Task :chromecast-sender-sample-app:mergeDexDebug
-> Task :chromecast-sender-sample-app:packageDebug
-> Task :chromecast-sender-sample-app:assembleDebug
-> Task :core:generateReleaseSources
-> Task :core:javaPreCompileRelease
-> Task :core:compileReleaseJavaWithJavac
-> Task :core:processReleaseJavaRes NO-SOURCE
-> Task :core:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-> Task :chromecast-sender:compileReleaseKotlin
-> Task :chromecast-sender:generateReleaseSources
-> Task :chromecast-sender:javaPreCompileRelease
-> Task :chromecast-sender:compileReleaseJavaWithJavac
-> Task :chromecast-sender:processReleaseJavaRes NO-SOURCE
-> Task :chromecast-sender:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
 > Task :chromecast-sender-sample-app:extractProguardFiles
 > Task :chromecast-sender-sample-app:preReleaseBuild
+> Task :core:parseReleaseLibraryResources
 > Task :chromecast-sender-sample-app:compileReleaseAidl NO-SOURCE
 > Task :chromecast-sender:packageReleaseRenderscript NO-SOURCE
-> Task :chromecast-sender-sample-app:compileReleaseRenderscript
+> Task :chromecast-sender-sample-app:compileReleaseRenderscript NO-SOURCE
 > Task :chromecast-sender-sample-app:checkReleaseManifest
 > Task :chromecast-sender-sample-app:generateReleaseBuildConfig
 > Task :chromecast-sender-sample-app:mainApkListPersistenceRelease
 > Task :chromecast-sender-sample-app:generateReleaseResValues
 > Task :chromecast-sender-sample-app:generateReleaseResources
-> Task :chromecast-sender-sample-app:mergeReleaseResources
 > Task :chromecast-sender-sample-app:createReleaseCompatibleScreenManifests
+> Task :core:processReleaseManifest
+> Task :chromecast-sender-sample-app:mergeDebugNativeLibs
+> Task :chromecast-sender-sample-app:stripDebugDebugSymbols
 > Task :chromecast-sender-sample-app:processReleaseManifest
-> Task :chromecast-sender-sample-app:processReleaseResources
+> Task :chromecast-sender-sample-app:prepareLintJar
+> Task :core:generateReleaseRFile
 
-> Task :chromecast-sender-sample-app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/chromecast-sender-sample-app/src/main/java/com/pierfrancescosoffritti/androidyoutubeplayer/chromecast/sampleapp/utils/MediaRouteButtonUtils.kt: (43, 32): Type mismatch: inferred type is Drawable? but Drawable was expected
+> Task :core:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/core/src/main/java/com/pierfrancescosoffritti/androidyoutubeplayer/core/player/utils/Utils.kt: (12, 47): 'getter for activeNetworkInfo: NetworkInfo!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/core/src/main/java/com/pierfrancescosoffritti/androidyoutubeplayer/core/player/utils/Utils.kt: (13, 51): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/core/src/main/java/com/pierfrancescosoffritti/androidyoutubeplayer/core/player/views/LegacyYouTubePlayerView.kt: (99, 88): 'CONNECTIVITY_ACTION: String' is deprecated. Deprecated in Java
 
-> Task :chromecast-sender-sample-app:generateReleaseSources
-> Task :chromecast-sender-sample-app:javaPreCompileRelease
-> Task :chromecast-sender-sample-app:compileReleaseJavaWithJavac
-> Task :chromecast-sender-sample-app:compileReleaseNdk NO-SOURCE
-> Task :chromecast-sender-sample-app:compileReleaseSources
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform media.aar (androidx.media:media:1.0.0) with AarTransform
-> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
-> Transform legacy-support-v4.aar (androidx.legacy:legacy-support-v4:1.0.0) with AarTransform
-> Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.0.1) with AarTransform
-> Transform play-services-tasks.aar (com.google.android.gms:play-services-tasks:16.0.1) with AarTransform
-> Transform play-services-flags.aar (com.google.android.gms:play-services-flags:16.0.1) with AarTransform
-> Transform play-services-base.aar (com.google.android.gms:play-services-base:16.0.1) with AarTransform
-> Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with AarTransform
-> Transform palette.aar (androidx.palette:palette:1.0.0) with AarTransform
-> Transform constraintlayout.aar (androidx.constraintlayout:constraintlayout:1.1.3) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
-> Transform mediarouter.aar (androidx.mediarouter:mediarouter:1.0.0) with AarTransform
-> Transform play-services-cast-framework.aar (com.google.android.gms:play-services-cast-framework:16.1.2) with AarTransform
-> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
-> Transform play-services-cast.aar (com.google.android.gms:play-services-cast:16.1.2) with AarTransform
-> Transform core.aar (com.psoffritti.librarysampleapptemplate:core:1.0.1) with AarTransform
-> Transform taptargetview.aar (com.getkeepsafe.taptargetview:taptargetview:1.12.0) with AarTransform
+> Task :chromecast-sender-sample-app:mergeReleaseResources
 > Task :chromecast-sender:mergeReleaseShaders
-
-> Task :chromecast-sender-sample-app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/4fef4f25b0c8ff40726d544ad18b0593/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-
+> Task :chromecast-sender:prepareLintJarForPublish
 > Task :chromecast-sender:compileReleaseShaders
 > Task :chromecast-sender:generateReleaseAssets
 > Task :chromecast-sender:packageReleaseAssets
@@ -1063,302 +197,66 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :core:packageReleaseAssets
 > Task :chromecast-sender-sample-app:mergeReleaseAssets
 > Task :chromecast-sender-sample-app:signingConfigWriterRelease
-> Transform annotations.jar (org.jetbrains:annotations:13.0) with ExtractProGuardRulesTransform
-> Transform google-http-client-android.jar (com.google.http-client:google-http-client-android:1.23.0) with ExtractProGuardRulesTransform
-> Transform google-oauth-client.jar (com.google.oauth-client:google-oauth-client:1.23.0) with ExtractProGuardRulesTransform
-> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21) with ExtractProGuardRulesTransform
-> Transform google-http-client.jar (com.google.http-client:google-http-client:1.23.0) with ExtractProGuardRulesTransform
-> Transform google-api-client.jar (com.google.api-client:google-api-client:1.23.0) with ExtractProGuardRulesTransform
-> Transform reactive-streams.jar (org.reactivestreams:reactive-streams:1.0.2) with ExtractProGuardRulesTransform
-> Transform constraintlayout-solver.jar (androidx.constraintlayout:constraintlayout-solver:1.1.3) with ExtractProGuardRulesTransform
-> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.21) with ExtractProGuardRulesTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with ExtractProGuardRulesTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with ExtractProGuardRulesTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform collection.jar (androidx.collection:collection:1.0.0) with ExtractProGuardRulesTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
-> Transform annotation.jar (androidx.annotation:annotation:1.0.2) with ExtractProGuardRulesTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform media.aar (androidx.media:media:1.0.0) with AarTransform
-> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
-> Transform legacy-support-v4.aar (androidx.legacy:legacy-support-v4:1.0.0) with AarTransform
-> Transform play-services-flags.aar (com.google.android.gms:play-services-flags:16.0.1) with AarTransform
-> Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.0.1) with AarTransform
-> Transform play-services-tasks.aar (com.google.android.gms:play-services-tasks:16.0.1) with AarTransform
-> Transform play-services-base.aar (com.google.android.gms:play-services-base:16.0.1) with AarTransform
-> Transform google-api-client-android.jar (com.google.api-client:google-api-client-android:1.23.0) with ExtractProGuardRulesTransform
-> Transform rxjava.jar (io.reactivex.rxjava2:rxjava:2.2.2) with ExtractProGuardRulesTransform
-> Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with AarTransform
-> Transform google-api-services-youtube.jar (com.google.apis:google-api-services-youtube:v3-rev198-1.23.0) with ExtractProGuardRulesTransform
-> Transform palette.aar (androidx.palette:palette:1.0.0) with AarTransform
-> Transform constraintlayout.aar (androidx.constraintlayout:constraintlayout:1.1.3) with AarTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
-> Transform mediarouter.aar (androidx.mediarouter:mediarouter:1.0.0) with AarTransform
-> Transform play-services-cast.aar (com.google.android.gms:play-services-cast:16.1.2) with AarTransform
-> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
-> Transform taptargetview.aar (com.getkeepsafe.taptargetview:taptargetview:1.12.0) with AarTransform
-> Transform play-services-cast-framework.aar (com.google.android.gms:play-services-cast-framework:16.1.2) with AarTransform
-> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21) with ExtractProGuardRulesTransform
-> Transform core.aar (com.psoffritti.librarysampleapptemplate:core:1.0.1) with AarTransform
-> Task :chromecast-sender:mergeReleaseConsumerProguardFiles
-> Task :chromecast-sender-sample-app:processReleaseJavaRes NO-SOURCE
-> Task :chromecast-sender-sample-app:transformResourcesWithMergeJavaResForRelease
-> Task :core:mergeReleaseConsumerProguardFiles
-ProGuard, version 6.0.3
-Reading input...
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/ec9f3af61f3cdd83b88b6e34f8dc10d5/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.21/d207ce2c9bcf17dc8e51bab4dbfdac4d013e7138/kotlin-stdlib-jdk7-1.3.21.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/jetified-taptargetview-1.12.0.aar/e615f8504f20513cede6712b6975181a/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/558eb96257bcf144193e7ce9fd974e21/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/jetified-play-services-cast-framework-16.1.2.aar/e4aacc9279aec73e5e5ab1919f14f7df/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/jetified-play-services-cast-16.1.2.aar/cd0d69c1da678b270dade493b551a442/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/mediarouter-1.0.0.aar/fba43e891a4d8a208ddb207257ca206e/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.2.aar/7ba91d98e4c684806c4e528abcefc825/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/55f5dc96d7df998e12b2621cf85e30aa/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/537742a3b282d995ac558defe64ec86d/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/palette-1.0.0.aar/09e951bdd96c16fa88464e2ac7fe68a5/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/rxandroid-2.1.0.aar/cb60621bf0eeab4d1a0b2f02d2ca7615/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.2.2/db2277cb0641bd8bd2f491fab555d37345351d6/rxjava-2.2.2.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client-android/1.23.0/b95521559faf49989ff036a5b15fd16476bdc955/google-api-client-android-1.23.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/google-api-services-youtube-v3-rev198-1.23.0.jar/b429697f3fdd44e7af01ba56942ba184/jetified-google-api-services-youtube-v3-rev198-1.23.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/a431a0470addd1971887c662921d0eab/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c54f76352f0d4f89b8564584ac31e32/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/5a92c5451414b7ea3bbf3eff02d8b90b/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/8fd1143e7bd12183440ccbeddbe93cfd/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/60852c66936b450d7a87ece754b23e5b/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/bbf2b029347694a1380c7c761a18327f/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/e807dbde33046da9c2ba9a0d638294eb/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/e3046118813af9f0873cdaf7991a1da2/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/d3085efd43673dbe767b4d59777fe642/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.1.aar/8883d6a4cbc9d36702b42692475f1cd8/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/0696aa9517c1bd5adb0f85e0f8a7477d/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/fe9c173547b935a25e4d0833293106ca/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/cdd7f143b79ea1ae6bcbab7b14d2bd53/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/642e357d2e3cbbc729518040cf3dbc75/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/d20b368a2f000332d19cb12912a317dd/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/f2f79e4f8b668c69ca320a180570bf02/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/96dafd8dfc1c8bffc50a1d439d2dcbf7/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/1c1a069836a860fade6ec5e07c361051/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/ea18bffcbcf7add50c19b271e36be91c/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/63b4952ffb83640b05022a89b1a5a88d/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/4fd64324bcacfec58cfdd8b6ea3f892a/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/58c60a5310e87116563ff0d0db5dd132/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/83197c790686721dfc986e13c32fdbf5/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.0.0/42858b26cafdaa69b6149f45dfc2894007bc2c7a/collection-1.0.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/ef5748305f4907be527ea89325ae548c/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/8583e8033d02aa7d59369b6a593a6dd2/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/e8d5c8c7cd092b111134c88e51a1605b/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/3709a5663f2537fddb49d52c397ca7fd/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0/e070ffae07452331bc5684734fce6831d531785c/lifecycle-common-2.0.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/b99b1bce442003e6db8150f143d9504e/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.0.0/bb21b9a11761451b51624ac428d1f1bb5deeac38/core-common-2.0.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/8575b572229e0817905ce9e66a06f2fe/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/6b42b560161bb04a531ab0a7ccc45718/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/6e0d95784cc38c623a9f66031ef89c85/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/d964cd9dcfb093ab15e3378d6cd7f8ea/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/39043bed19254286203f323cf799cd30/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.0.2/2f1d597d48e5309e935ce1212eedf5ae69d3f97/annotation-1.0.2.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.21/4bcc2012b84840e19e1e28074284cac908be0295/kotlin-stdlib-1.3.21.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout-solver/1.1.3/54abe9ffb22cc9019b0b6fcc10f185cc4e67b34e/constraintlayout-solver-1.1.3.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.2/323964c36556eb0e6209f65c1cef72b53b461ab8/reactive-streams-1.0.2.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client/1.23.0/522ea860eb48dee71dfe2c61a1fd09663539f556/google-api-client-1.23.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-android/1.23.0/1bbe77a8594d7892571266392b8a7dd0a5980664/google-http-client-android-1.23.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.21/f30e4a9897913e53d778f564110bafa1fef46643/kotlin-stdlib-common-1.3.21.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client/1.23.0/e57ea1e2220bda5a2bd24ff17860212861f3c5cf/google-oauth-client-1.23.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.23.0/8e86c84ff3c98eca6423e97780325b299133d858/google-http-client-1.23.0.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/chromecast-sender/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/core/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/chromecast-sender-sample-app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/chromecast-sender-sample-app/build/tmp/kotlin-classes/release] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/chromecast-sender-sample-app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/org.apache.http.legacy.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.mock.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.base.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.runner.jar]
-Initializing...
-Note: the configuration refers to the unknown class 'com.google.android.gms.common.api.internal.BasePendingResult$ReleasableResultGuardian'
-Note: com.google.android.gms.common.util.WorkSourceUtil: can't find dynamically referenced class android.os.WorkSource$WorkChain
-Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.jdk8.JDK8PlatformImplementations
-Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.JRE8PlatformImplementations
-Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.JRE7PlatformImplementations
-Note: kotlin.jvm.internal.Reflection: can't find dynamically referenced class kotlin.reflect.jvm.internal.ReflectionFactoryImpl
-
-> Task :chromecast-sender-sample-app:transformClassesAndResourcesWithProguardForRelease
-Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
-thread-pool size=4
-
-Note: the configuration refers to the unknown field 'com.google.android.gms.common.api.internal.BasePendingResult$ReleasableResultGuardian mResultGuardian' in class 'com.google.android.gms.common.api.internal.BasePendingResult'
-Note: the configuration keeps the entry point 'com.google.android.gms.common.api.internal.LifecycleCallback { com.google.android.gms.common.api.internal.LifecycleFragment getChimeraLifecycleFragmentImpl(com.google.android.gms.common.api.internal.LifecycleActivity); }', but not the descriptor class 'com.google.android.gms.common.api.internal.LifecycleActivity'
-Note: the configuration keeps the entry point 'com.google.android.gms.flags.impl.FlagProviderImpl { void init(com.google.android.gms.dynamic.IObjectWrapper); }', but not the descriptor class 'com.google.android.gms.dynamic.IObjectWrapper'
-Note: the configuration keeps the entry point 'com.google.android.material.bottomnavigation.BottomNavigationMenuView { void setPresenter(com.google.android.material.bottomnavigation.BottomNavigationPresenter); }', but not the descriptor class 'com.google.android.material.bottomnavigation.BottomNavigationPresenter'
-Note: the configuration keeps the entry point 'com.google.android.material.bottomnavigation.BottomNavigationView { void setOnNavigationItemSelectedListener(com.google.android.material.bottomnavigation.BottomNavigationView$OnNavigationItemSelectedListener); }', but not the descriptor class 'com.google.android.material.bottomnavigation.BottomNavigationView$OnNavigationItemSelectedListener'
-Note: the configuration keeps the entry point 'com.google.android.material.bottomnavigation.BottomNavigationView { void setOnNavigationItemReselectedListener(com.google.android.material.bottomnavigation.BottomNavigationView$OnNavigationItemReselectedListener); }', but not the descriptor class 'com.google.android.material.bottomnavigation.BottomNavigationView$OnNavigationItemReselectedListener'
-Note: the configuration keeps the entry point 'com.google.android.material.chip.Chip { void setChipDrawable(com.google.android.material.chip.ChipDrawable); }', but not the descriptor class 'com.google.android.material.chip.ChipDrawable'
-Note: the configuration keeps the entry point 'com.google.android.material.chip.Chip { void setTextAppearance(com.google.android.material.resources.TextAppearance); }', but not the descriptor class 'com.google.android.material.resources.TextAppearance'
-Note: the configuration keeps the entry point 'com.google.android.material.chip.Chip { void setShowMotionSpec(com.google.android.material.animation.MotionSpec); }', but not the descriptor class 'com.google.android.material.animation.MotionSpec'
-Note: the configuration keeps the entry point 'com.google.android.material.chip.Chip { void setHideMotionSpec(com.google.android.material.animation.MotionSpec); }', but not the descriptor class 'com.google.android.material.animation.MotionSpec'
-Note: the configuration keeps the entry point 'com.google.android.material.chip.ChipGroup { void setOnCheckedChangeListener(com.google.android.material.chip.ChipGroup$OnCheckedChangeListener); }', but not the descriptor class 'com.google.android.material.chip.ChipGroup$OnCheckedChangeListener'
-Note: the configuration keeps the entry point 'com.google.android.material.circularreveal.CircularRevealFrameLayout { void setRevealInfo(com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo); }', but not the descriptor class 'com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo'
-Note: the configuration keeps the entry point 'com.google.android.material.circularreveal.CircularRevealGridLayout { void setRevealInfo(com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo); }', but not the descriptor class 'com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo'
-Note: the configuration keeps the entry point 'com.google.android.material.circularreveal.CircularRevealLinearLayout { void setRevealInfo(com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo); }', but not the descriptor class 'com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo'
-Note: the configuration keeps the entry point 'com.google.android.material.circularreveal.CircularRevealRelativeLayout { void setRevealInfo(com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo); }', but not the descriptor class 'com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo'
-Note: the configuration keeps the entry point 'com.google.android.material.circularreveal.cardview.CircularRevealCardView { void setRevealInfo(com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo); }', but not the descriptor class 'com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo'
-Note: the configuration keeps the entry point 'com.google.android.material.circularreveal.coordinatorlayout.CircularRevealCoordinatorLayout { void setRevealInfo(com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo); }', but not the descriptor class 'com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo'
-Note: the configuration keeps the entry point 'com.google.android.material.floatingactionbutton.FloatingActionButton { void setShowMotionSpec(com.google.android.material.animation.MotionSpec); }', but not the descriptor class 'com.google.android.material.animation.MotionSpec'
-Note: the configuration keeps the entry point 'com.google.android.material.floatingactionbutton.FloatingActionButton { void setHideMotionSpec(com.google.android.material.animation.MotionSpec); }', but not the descriptor class 'com.google.android.material.animation.MotionSpec'
-Note: the configuration keeps the entry point 'com.google.android.material.navigation.NavigationView { void setNavigationItemSelectedListener(com.google.android.material.navigation.NavigationView$OnNavigationItemSelectedListener); }', but not the descriptor class 'com.google.android.material.navigation.NavigationView$OnNavigationItemSelectedListener'
-Note: the configuration keeps the entry point 'com.google.android.material.snackbar.BaseTransientBottomBar$SnackbarBaseLayout { void setOnLayoutChangeListener(com.google.android.material.snackbar.BaseTransientBottomBar$OnLayoutChangeListener); }', but not the descriptor class 'com.google.android.material.snackbar.BaseTransientBottomBar$OnLayoutChangeListener'
-Note: the configuration keeps the entry point 'com.google.android.material.snackbar.BaseTransientBottomBar$SnackbarBaseLayout { void setOnAttachStateChangeListener(com.google.android.material.snackbar.BaseTransientBottomBar$OnAttachStateChangeListener); }', but not the descriptor class 'com.google.android.material.snackbar.BaseTransientBottomBar$OnAttachStateChangeListener'
-Note: the configuration keeps the entry point 'com.google.android.material.tabs.TabLayout { void setOnTabSelectedListener(com.google.android.material.tabs.TabLayout$BaseOnTabSelectedListener); }', but not the descriptor class 'com.google.android.material.tabs.TabLayout$BaseOnTabSelectedListener'
-Note: the configuration keeps the entry point 'com.google.android.material.textfield.TextInputLayout { void setTextInputAccessibilityDelegate(com.google.android.material.textfield.TextInputLayout$AccessibilityDelegate); }', but not the descriptor class 'com.google.android.material.textfield.TextInputLayout$AccessibilityDelegate'
-Note: the configuration keeps the entry point 'com.pierfrancescosoffritti.androidyoutubeplayer.core.ui.views.YouTubePlayerSeekBar { void setYoutubePlayerSeekBarListener(com.pierfrancescosoffritti.androidyoutubeplayer.core.ui.views.YouTubePlayerSeekBarListener); }', but not the descriptor class 'com.pierfrancescosoffritti.androidyoutubeplayer.core.ui.views.YouTubePlayerSeekBarListener'
-Note: the configuration keeps the entry point 'com.psoffritti.librarysampleapptemplate.core.customviews.ProgressBarWebView { void setOnUrlClick(kotlin.jvm.functions.Function1); }', but not the descriptor class 'kotlin.jvm.functions.Function1'
-Note: there were 1 references to unknown classes.
-      You should check your configuration for typos.
-      (http://proguard.sourceforge.net/manual/troubleshooting.html#unknownclass)
-Note: there were 1 references to unknown class members.
-      You should check your configuration for typos.
-Note: there were 25 unkept descriptor classes in kept class members.
-      You should consider explicitly keeping the mentioned classes
-      (using '-keep').
-      (http://proguard.sourceforge.net/manual/troubleshooting.html#descriptorclass)
-Note: there were 5 unresolved dynamic references to classes or interfaces.
-      You should check if you need to specify additional program jars.
-      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
-Ignoring unused library classes...
-  Original number of library classes: 4803
-  Final number of library classes:    1649
-Printing kept classes, fields, and methods...
-Inlining subroutines...
-Shrinking...
-Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/chromecast-sender-sample-app/build/outputs/mapping/release/usage.txt]...
-Removing unused program classes and class elements...
-  Original number of program classes: 7216
-  Final number of program classes:    2646
-Obfuscating...
-Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/chromecast-sender-sample-app/build/outputs/mapping/release/mapping.txt]...
-Preverifying...
-Writing output...
-Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/chromecast-sender-sample-app/build/intermediates/transforms/proguard/release/0.jar]
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/ec9f3af61f3cdd83b88b6e34f8dc10d5/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.21/d207ce2c9bcf17dc8e51bab4dbfdac4d013e7138/kotlin-stdlib-jdk7-1.3.21.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/jetified-taptargetview-1.12.0.aar/e615f8504f20513cede6712b6975181a/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/558eb96257bcf144193e7ce9fd974e21/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/jetified-play-services-cast-framework-16.1.2.aar/e4aacc9279aec73e5e5ab1919f14f7df/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/jetified-play-services-cast-16.1.2.aar/cd0d69c1da678b270dade493b551a442/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/mediarouter-1.0.0.aar/fba43e891a4d8a208ddb207257ca206e/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.2.aar/7ba91d98e4c684806c4e528abcefc825/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/55f5dc96d7df998e12b2621cf85e30aa/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/537742a3b282d995ac558defe64ec86d/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/palette-1.0.0.aar/09e951bdd96c16fa88464e2ac7fe68a5/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/rxandroid-2.1.0.aar/cb60621bf0eeab4d1a0b2f02d2ca7615/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.2.2/db2277cb0641bd8bd2f491fab555d37345351d6/rxjava-2.2.2.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client-android/1.23.0/b95521559faf49989ff036a5b15fd16476bdc955/google-api-client-android-1.23.0.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/google-api-services-youtube-v3-rev198-1.23.0.jar/b429697f3fdd44e7af01ba56942ba184/jetified-google-api-services-youtube-v3-rev198-1.23.0.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/a431a0470addd1971887c662921d0eab/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c54f76352f0d4f89b8564584ac31e32/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/5a92c5451414b7ea3bbf3eff02d8b90b/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/8fd1143e7bd12183440ccbeddbe93cfd/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/60852c66936b450d7a87ece754b23e5b/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/bbf2b029347694a1380c7c761a18327f/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/e807dbde33046da9c2ba9a0d638294eb/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/e3046118813af9f0873cdaf7991a1da2/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/d3085efd43673dbe767b4d59777fe642/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.1.aar/8883d6a4cbc9d36702b42692475f1cd8/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/0696aa9517c1bd5adb0f85e0f8a7477d/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/fe9c173547b935a25e4d0833293106ca/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/cdd7f143b79ea1ae6bcbab7b14d2bd53/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/642e357d2e3cbbc729518040cf3dbc75/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/d20b368a2f000332d19cb12912a317dd/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/f2f79e4f8b668c69ca320a180570bf02/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/96dafd8dfc1c8bffc50a1d439d2dcbf7/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/1c1a069836a860fade6ec5e07c361051/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/ea18bffcbcf7add50c19b271e36be91c/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/63b4952ffb83640b05022a89b1a5a88d/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/4fd64324bcacfec58cfdd8b6ea3f892a/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/58c60a5310e87116563ff0d0db5dd132/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/83197c790686721dfc986e13c32fdbf5/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.0.0/42858b26cafdaa69b6149f45dfc2894007bc2c7a/collection-1.0.0.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/ef5748305f4907be527ea89325ae548c/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/8583e8033d02aa7d59369b6a593a6dd2/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/e8d5c8c7cd092b111134c88e51a1605b/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/3709a5663f2537fddb49d52c397ca7fd/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0/e070ffae07452331bc5684734fce6831d531785c/lifecycle-common-2.0.0.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/b99b1bce442003e6db8150f143d9504e/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.0.0/bb21b9a11761451b51624ac428d1f1bb5deeac38/core-common-2.0.0.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/8575b572229e0817905ce9e66a06f2fe/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/6b42b560161bb04a531ab0a7ccc45718/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/6e0d95784cc38c623a9f66031ef89c85/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/d964cd9dcfb093ab15e3378d6cd7f8ea/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/39043bed19254286203f323cf799cd30/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.0.2/2f1d597d48e5309e935ce1212eedf5ae69d3f97/annotation-1.0.2.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.21/4bcc2012b84840e19e1e28074284cac908be0295/kotlin-stdlib-1.3.21.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout-solver/1.1.3/54abe9ffb22cc9019b0b6fcc10f185cc4e67b34e/constraintlayout-solver-1.1.3.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.2/323964c36556eb0e6209f65c1cef72b53b461ab8/reactive-streams-1.0.2.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client/1.23.0/522ea860eb48dee71dfe2c61a1fd09663539f556/google-api-client-1.23.0.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-android/1.23.0/1bbe77a8594d7892571266392b8a7dd0a5980664/google-http-client-android-1.23.0.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.21/f30e4a9897913e53d778f564110bafa1fef46643/kotlin-stdlib-common-1.3.21.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client/1.23.0/e57ea1e2220bda5a2bd24ff17860212861f3c5cf/google-oauth-client-1.23.0.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.23.0/8e86c84ff3c98eca6423e97780325b299133d858/google-http-client-1.23.0.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/chromecast-sender/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/core/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/chromecast-sender-sample-app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
-  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/chromecast-sender-sample-app/build/tmp/kotlin-classes/release] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/chromecast-sender-sample-app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
-
-> Task :chromecast-sender-sample-app:transformClassesWithDexBuilderForRelease
-> Task :chromecast-sender-sample-app:transformDexArchiveWithDexMergerForRelease
-> Task :chromecast-sender:compileReleaseNdk NO-SOURCE
+> Task :chromecast-sender:processReleaseJavaRes NO-SOURCE
 > Task :chromecast-sender:mergeReleaseJniLibFolders
-> Task :chromecast-sender:transformNativeLibsWithMergeJniLibsForRelease
-> Task :chromecast-sender:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :chromecast-sender:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :chromecast-sender-sample-app:mergeReleaseJniLibFolders
-> Task :core:compileReleaseNdk NO-SOURCE
+> Task :core:processReleaseJavaRes NO-SOURCE
 > Task :core:mergeReleaseJniLibFolders
-> Task :core:transformNativeLibsWithMergeJniLibsForRelease
-> Task :core:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :core:javaPreCompileRelease
+> Task :core:compileReleaseJavaWithJavac
+> Task :chromecast-sender:mergeReleaseNativeLibs
+> Task :chromecast-sender:generateReleaseRFile
+> Task :chromecast-sender-sample-app:processReleaseResources
+> Task :chromecast-sender:stripReleaseDebugSymbols
+> Task :chromecast-sender:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :core:prepareLintJarForPublish
+> Task :core:mergeReleaseNativeLibs
+> Task :core:stripReleaseDebugSymbols
 > Task :core:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :chromecast-sender-sample-app:transformNativeLibsWithMergeJniLibsForRelease
-> Task :chromecast-sender-sample-app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :chromecast-sender-sample-app:mergeExtDexDebug
+> Task :core:bundleLibResRelease
+> Task :core:bundleLibCompileRelease
+> Task :chromecast-sender:compileReleaseKotlin
+> Task :chromecast-sender:javaPreCompileRelease
+> Task :chromecast-sender:compileReleaseJavaWithJavac
+> Task :chromecast-sender:bundleLibCompileRelease
+> Task :chromecast-sender-sample-app:compileReleaseKotlin
+> Task :chromecast-sender:bundleLibResRelease
+> Task :chromecast-sender-sample-app:javaPreCompileRelease
+> Task :chromecast-sender-sample-app:compileReleaseJavaWithJavac
+> Task :chromecast-sender-sample-app:compileReleaseSources
+
+> Task :chromecast-sender-sample-app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/34dd2b6d9234edbbf2faab1b6391f661/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+
+> Task :chromecast-sender-sample-app:mergeReleaseNativeLibs
+> Task :chromecast-sender-sample-app:stripReleaseDebugSymbols
+> Task :chromecast-sender-sample-app:mergeDexDebug
+> Task :chromecast-sender-sample-app:packageDebug
+> Task :chromecast-sender-sample-app:assembleDebug
+> Task :chromecast-sender:mergeReleaseGeneratedProguardFiles
+> Task :chromecast-sender:mergeReleaseConsumerProguardFiles
+> Task :chromecast-sender-sample-app:mergeReleaseGeneratedProguardFiles
+> Task :chromecast-sender-sample-app:processReleaseJavaRes NO-SOURCE
+> Task :core:mergeReleaseGeneratedProguardFiles
+> Task :core:mergeReleaseConsumerProguardFiles
+> Task :chromecast-sender:bundleLibRuntimeRelease
+> Task :core:bundleLibRuntimeRelease
+> Task :chromecast-sender-sample-app:mergeReleaseJavaResource
+R8: The rule `-keep public class * extends androidx.versionedparcelable.VersionedParcelable {
+  <init>();
+}` uses extends but actually matches implements.
+> Task :chromecast-sender-sample-app:transformClassesAndResourcesWithR8ForRelease
 > Task :chromecast-sender-sample-app:packageRelease
 > Task :chromecast-sender-sample-app:assembleRelease
 > Task :chromecast-sender-sample-app:assemble
 > Task :chromecast-sender-sample-app:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 32s
-132 actionable tasks: 132 executed
+BUILD SUCCESSFUL in 1m 40s
+138 actionable tasks: 138 executed
 
-2019-07-21 20:15:34,586 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714829713-0/src/android-youtube-player-master/core-sample-app/apk/core v10.0.3.apk
+2019-09-03 20:02:06,265 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/core-sample-app/apk/core v10.0.4.apk
