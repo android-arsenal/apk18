@@ -1,48 +1,48 @@
-2019-08-28 13:57:17,407 INFO  DownloadService - Downloading "https://github.com/lisawray/groupie/archive/master.zip", attempt 3
-2019-08-28 13:57:18,076 INFO  DownloadService - Downloaded https://github.com/lisawray/groupie/archive/master.zip, attempt 3
-2019-08-28 13:57:18,076 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/master.zip": 202 KB
-2019-08-28 13:57:18,076 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-28 13:57:18,082 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/master.zip: true
-2019-08-28 13:57:18,082 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src'.
-2019-08-28 13:57:18,126 INFO  FullProcessService - Size of directory with sources: 346 KB
-2019-08-28 13:57:18,127 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src]
-2019-08-28 13:57:18,144 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/.git/
+2019-09-07 17:47:23,540 INFO  DownloadService - Downloading "https://github.com/lisawray/groupie/archive/master.zip", attempt 3
+2019-09-07 17:47:25,687 INFO  DownloadService - Downloaded https://github.com/lisawray/groupie/archive/master.zip, attempt 3
+2019-09-07 17:47:25,688 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/master.zip": 202 KB
+2019-09-07 17:47:25,688 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-07 17:47:25,689 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/master.zip: true
+2019-09-07 17:47:25,689 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src'.
+2019-09-07 17:47:25,756 INFO  FullProcessService - Size of directory with sources: 346 KB
+2019-09-07 17:47:25,756 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src]
+2019-09-07 17:47:25,785 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/.git/
 
-2019-08-28 13:57:18,151 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/gradlew
-2019-08-28 13:57:18,157 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/example-databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/example-shared/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/library-databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/library-kotlin-android-extensions/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/library/build.gradle
-2019-08-28 13:57:18,161 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/example-shared/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/library-databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/jcenter/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/jcenter/maven-install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/library-kotlin-android-extensions/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/release-bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/example-databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/settings.gradle
-2019-08-28 13:57:18,162 INFO  ProjectBuildService - Remote scripts: none
-2019-08-28 13:57:18,162 INFO  ProjectFixService - Fixing project...
-2019-08-28 13:57:18,175 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/local.properties
-2019-08-28 13:57:18,176 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.5.1-all.zip
-2019-08-28 13:57:18,176 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.5.1-bin.zip)
-2019-08-28 13:57:18,180 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-08-28 13:57:18,180 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-08-28 13:57:18,181 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/example-databinding/local.properties
-2019-08-28 13:57:18,185 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/example-databinding/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-08-28 13:57:18,185 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/example-databinding/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-08-28 13:57:18,186 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/example-shared/local.properties
-2019-08-28 13:57:18,190 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/example-shared/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-08-28 13:57:18,190 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/example-shared/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-08-28 13:57:18,191 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/example/local.properties
-2019-08-28 13:57:18,195 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-08-28 13:57:18,195 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-08-28 13:57:18,197 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/library-databinding/local.properties
-2019-08-28 13:57:18,201 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/library-databinding/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-08-28 13:57:18,201 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/library-databinding/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-08-28 13:57:18,202 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/library-kotlin-android-extensions/local.properties
-2019-08-28 13:57:18,206 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/library-kotlin-android-extensions/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-08-28 13:57:18,206 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/library-kotlin-android-extensions/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-08-28 13:57:18,207 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/library/local.properties
-2019-08-28 13:57:18,211 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-08-28 13:57:18,211 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-08-28 13:57:18,211 INFO  ProjectFixService - Project was maybe fixed
-2019-08-28 13:57:18,211 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-28 13:57:18,212 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-28 13:57:29,707 INFO  ProjectTaskService - Detected possible tasks: 76
-2019-08-28 13:57:29,708 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-08-28 13:57:29,708 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-08-28 13:59:16,630 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-07 17:47:25,791 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/gradlew
+2019-09-07 17:47:25,798 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/example-databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/example-shared/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/library-databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/library-kotlin-android-extensions/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/library/build.gradle
+2019-09-07 17:47:25,804 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/example-shared/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/library-databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/jcenter/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/jcenter/maven-install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/library-kotlin-android-extensions/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/release-bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/example-databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/settings.gradle
+2019-09-07 17:47:25,806 INFO  ProjectBuildService - Remote scripts: none
+2019-09-07 17:47:25,806 INFO  ProjectFixService - Fixing project...
+2019-09-07 17:47:25,828 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/local.properties
+2019-09-07 17:47:25,829 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.5.1-all.zip
+2019-09-07 17:47:25,830 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.5.1-bin.zip)
+2019-09-07 17:47:25,836 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-09-07 17:47:25,836 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-09-07 17:47:25,837 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/example-databinding/local.properties
+2019-09-07 17:47:25,843 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/example-databinding/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-09-07 17:47:25,844 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/example-databinding/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-09-07 17:47:25,845 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/example-shared/local.properties
+2019-09-07 17:47:25,851 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/example-shared/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-09-07 17:47:25,851 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/example-shared/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-09-07 17:47:25,852 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/example/local.properties
+2019-09-07 17:47:25,858 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-09-07 17:47:25,858 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-09-07 17:47:25,859 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/library-databinding/local.properties
+2019-09-07 17:47:25,865 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/library-databinding/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-09-07 17:47:25,865 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/library-databinding/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-09-07 17:47:25,866 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/library-kotlin-android-extensions/local.properties
+2019-09-07 17:47:25,871 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/library-kotlin-android-extensions/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-09-07 17:47:25,871 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/library-kotlin-android-extensions/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-09-07 17:47:25,873 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/library/local.properties
+2019-09-07 17:47:25,880 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-09-07 17:47:25,880 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-09-07 17:47:25,880 INFO  ProjectFixService - Project was maybe fixed
+2019-09-07 17:47:25,881 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-07 17:47:25,881 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-07 17:47:36,817 INFO  ProjectTaskService - Detected possible tasks: 76
+2019-09-07 17:47:36,817 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-09-07 17:47:36,818 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-09-07 17:49:24,728 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :example:preBuild UP-TO-DATE
 > Task :example:preDebugBuild UP-TO-DATE
 > Task :example-shared:preBuild UP-TO-DATE
@@ -64,15 +64,15 @@
 > Task :example-shared:compileDebugRenderscript NO-SOURCE
 > Task :example-shared:generateDebugResources
 > Task :example-shared:packageDebugResources
-> Task :library:generateDebugResValues
-> Task :library-kotlin-android-extensions:generateDebugResValues
 > Task :library:compileDebugAidl NO-SOURCE
 > Task :example-shared:compileDebugAidl NO-SOURCE
 > Task :library-kotlin-android-extensions:compileDebugAidl NO-SOURCE
 > Task :example:compileDebugAidl NO-SOURCE
+> Task :library:generateDebugResValues
 > Task :library:compileDebugRenderscript NO-SOURCE
 > Task :library:generateDebugResources
 > Task :library:packageDebugResources
+> Task :library-kotlin-android-extensions:generateDebugResValues
 > Task :library-kotlin-android-extensions:compileDebugRenderscript NO-SOURCE
 > Task :library-kotlin-android-extensions:generateDebugResources
 > Task :library-kotlin-android-extensions:packageDebugResources
@@ -82,9 +82,9 @@
 > Task :library-kotlin-android-extensions:checkDebugManifest
 > Task :example:mergeDebugResources
 > Task :example-shared:processDebugManifest
-> Task :library:processDebugManifest
-> Task :example-shared:parseDebugLibraryResources
 > Task :library-kotlin-android-extensions:processDebugManifest
+> Task :example-shared:parseDebugLibraryResources
+> Task :library:processDebugManifest
 > Task :example:processDebugManifest
 > Task :example-shared:generateDebugBuildConfig
 > Task :library:parseDebugLibraryResources
@@ -124,24 +124,24 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :library-kotlin-android-extensions:javaPreCompileDebug
 > Task :library-kotlin-android-extensions:compileDebugJavaWithJavac
 > Task :example-shared:bundleLibCompileDebug
+> Task :library-kotlin-android-extensions:bundleLibCompileDebug
+> Task :example:compileDebugKotlin
 > Task :example:processDebugJavaRes NO-SOURCE
 > Task :example-shared:processDebugJavaRes NO-SOURCE
 > Task :library:processDebugJavaRes NO-SOURCE
-> Task :library-kotlin-android-extensions:processDebugJavaRes NO-SOURCE
-> Task :library-kotlin-android-extensions:bundleLibResDebug
-> Task :example-shared:bundleLibRuntimeDebug
-> Task :library-kotlin-android-extensions:bundleLibCompileDebug
-> Task :example:compileDebugKotlin
-> Task :library-kotlin-android-extensions:bundleLibRuntimeDebug
-> Task :library-kotlin-android-extensions:createFullJarDebug
-> Task :example-shared:bundleLibResDebug
-> Task :example-shared:createFullJarDebug
-> Task :library:bundleLibRuntimeDebug
-> Task :library:bundleLibResDebug
-> Task :library:createFullJarDebug
 > Task :example:javaPreCompileDebug
 > Task :example:compileDebugJavaWithJavac
 > Task :example:compileDebugSources
+> Task :library-kotlin-android-extensions:processDebugJavaRes NO-SOURCE
+> Task :library-kotlin-android-extensions:bundleLibResDebug
+> Task :example-shared:bundleLibResDebug
+> Task :library:bundleLibResDebug
+> Task :example-shared:bundleLibRuntimeDebug
+> Task :example-shared:createFullJarDebug
+> Task :library:bundleLibRuntimeDebug
+> Task :library:createFullJarDebug
+> Task :library-kotlin-android-extensions:bundleLibRuntimeDebug
+> Task :library-kotlin-android-extensions:createFullJarDebug
 > Task :example:checkDebugDuplicateClasses
 > Task :example:mergeDebugJavaResource
 > Task :example:transformClassesWithDexBuilderForDebug
@@ -149,10 +149,10 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :example:signingConfigWriterDebug
 > Task :example:mergeDebugJniLibFolders
 > Task :example-shared:mergeDebugJniLibFolders
+> Task :library:mergeDebugJniLibFolders
 > Task :example-shared:mergeDebugNativeLibs
 > Task :example-shared:stripDebugDebugSymbols
 > Task :example-shared:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :library:mergeDebugJniLibFolders
 > Task :library-kotlin-android-extensions:mergeDebugJniLibFolders
 > Task :library:mergeDebugNativeLibs
 > Task :library:stripDebugDebugSymbols
@@ -186,26 +186,37 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :library-kotlin-android-extensions:generateReleaseResValues
 > Task :library-kotlin-android-extensions:generateReleaseResources
 > Task :library-kotlin-android-extensions:packageReleaseResources
-> Task :example:createReleaseCompatibleScreenManifests
-> Task :example-shared:checkReleaseManifest
-> Task :example-shared:processReleaseManifest
-> Task :library:checkReleaseManifest
-> Task :library:processReleaseManifest
-> Task :library-kotlin-android-extensions:checkReleaseManifest
-> Task :library-kotlin-android-extensions:processReleaseManifest
-> Task :example:processReleaseManifest
-> Task :example:mergeReleaseResources
 > Task :library-kotlin-android-extensions:mergeDebugNativeLibs
 > Task :library-kotlin-android-extensions:stripDebugDebugSymbols
 > Task :library-kotlin-android-extensions:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :library:parseReleaseLibraryResources
-> Task :example-shared:parseReleaseLibraryResources
-> Task :library-kotlin-android-extensions:parseReleaseLibraryResources
-> Task :library-kotlin-android-extensions:generateReleaseRFile
+> Task :example:createReleaseCompatibleScreenManifests
+> Task :example-shared:checkReleaseManifest
+> Task :example:mergeReleaseResources
+> Task :library:checkReleaseManifest
+> Task :example:mergeDebugNativeLibs
+> Task :example:stripDebugDebugSymbols
+> Task :library-kotlin-android-extensions:checkReleaseManifest
+> Task :library:processReleaseManifest
+> Task :library-kotlin-android-extensions:processReleaseManifest
+> Task :example-shared:processReleaseManifest
+> Task :example:processReleaseManifest
 > Task :example-shared:generateReleaseBuildConfig
 > Task :library:generateReleaseBuildConfig
-> Task :library:generateReleaseRFile
+> Task :example-shared:parseReleaseLibraryResources
+> Task :library-kotlin-android-extensions:generateReleaseBuildConfig
+> Task :library-kotlin-android-extensions:parseReleaseLibraryResources
+> Task :library:parseReleaseLibraryResources
 > Task :library:javaPreCompileRelease
+> Task :library-kotlin-android-extensions:generateReleaseRFile
+> Task :example:prepareLintJar
+> Task :library:processReleaseJavaRes NO-SOURCE
+> Task :example-shared:processReleaseJavaRes NO-SOURCE
+> Task :library-kotlin-android-extensions:processReleaseJavaRes NO-SOURCE
+> Task :example:checkReleaseDuplicateClasses
+> Task :library-kotlin-android-extensions:prepareLintJarForPublish
+> Task :library:prepareLintJarForPublish
+> Task :example-shared:prepareLintJarForPublish
+> Task :library:generateReleaseRFile
 
 > Task :library:compileReleaseJavaWithJavac
 Note: Some input files use unchecked or unsafe operations.
@@ -213,43 +224,32 @@ Note: Recompile with -Xlint:unchecked for details.
 
 > Task :example-shared:generateReleaseRFile
 > Task :example:processReleaseResources
-> Task :library-kotlin-android-extensions:generateReleaseBuildConfig
-> Task :example:mergeDebugNativeLibs
-> Task :example:stripDebugDebugSymbols
+> Task :library:bundleLibRuntimeRelease
+> Task :library:bundleLibResRelease
+> Task :library:createFullJarRelease
 > Task :library:bundleLibCompileRelease
-> Task :library-kotlin-android-extensions:compileReleaseKotlin
 > Task :example-shared:javaPreCompileRelease
 > Task :example-shared:compileReleaseJavaWithJavac
+> Task :library-kotlin-android-extensions:compileReleaseKotlin
+> Task :example-shared:bundleLibCompileRelease
+> Task :example-shared:bundleLibResRelease
 > Task :library-kotlin-android-extensions:javaPreCompileRelease
 > Task :library-kotlin-android-extensions:compileReleaseJavaWithJavac
-> Task :example-shared:bundleLibCompileRelease
 > Task :library-kotlin-android-extensions:bundleLibCompileRelease
 > Task :example:compileReleaseKotlin
-> Task :example:prepareLintJar
-> Task :library:processReleaseJavaRes NO-SOURCE
+> Task :library-kotlin-android-extensions:bundleLibResRelease
+> Task :example-shared:bundleLibRuntimeRelease
+> Task :example-shared:createFullJarRelease
 > Task :example:javaPreCompileRelease
 > Task :example:compileReleaseJavaWithJavac
 > Task :example:compileReleaseSources
-> Task :example-shared:processReleaseJavaRes NO-SOURCE
-> Task :example-shared:prepareLintJarForPublish
-> Task :library:bundleLibResRelease
-> Task :library-kotlin-android-extensions:processReleaseJavaRes NO-SOURCE
-> Task :library:prepareLintJarForPublish
-> Task :example-shared:bundleLibResRelease
-> Task :example:checkReleaseDuplicateClasses
-> Task :library:bundleLibRuntimeRelease
-> Task :library:createFullJarRelease
-> Task :library-kotlin-android-extensions:prepareLintJarForPublish
 
 > Task :example:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/2466cde1114f6dce021adb883eb9c672/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/6c9e9da94ed3ee6a78d873d319c14bce/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
-> Task :library-kotlin-android-extensions:bundleLibResRelease
 > Task :example:mergeExtDexDebug
 > Task :library-kotlin-android-extensions:bundleLibRuntimeRelease
 > Task :library-kotlin-android-extensions:createFullJarRelease
-> Task :example-shared:bundleLibRuntimeRelease
-> Task :example-shared:createFullJarRelease
 > Task :example:transformClassesWithDexBuilderForRelease
 > Task :example:mergeReleaseShaders
 > Task :example:compileReleaseShaders
@@ -296,27 +296,27 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :example-databinding:compileDebugRenderscript NO-SOURCE
 > Task :example-databinding:checkDebugManifest
 > Task :example-databinding:generateDebugBuildConfig
+> Task :library-databinding:compileDebugAidl NO-SOURCE
+> Task :example-databinding:compileDebugAidl NO-SOURCE
 > Task :example-databinding:prepareLintJar
 > Task :example-databinding:prepareLintJarForPublish
+> Task :example-databinding:generateDebugSources
+> Task :example-databinding:dataBindingExportBuildInfoDebug
 > Task :example-databinding:dataBindingExportFeaturePackageIdsDebug
 > Task :example-databinding:dataBindingMergeDependencyArtifactsDebug
 > Task :example-databinding:generateDebugResValues
 > Task :example-databinding:generateDebugResources
 > Task :library-databinding:generateDebugResValues
-> Task :example-databinding:dataBindingMergeGenClassesDebug
-> Task :library-databinding:checkDebugManifest
-> Task :library-databinding:generateDebugBuildConfig
-> Task :library-databinding:processDebugManifest
-> Task :example-databinding:mainApkListPersistenceDebug
-> Task :library-databinding:compileDebugAidl NO-SOURCE
-> Task :example-databinding:compileDebugAidl NO-SOURCE
-> Task :example-databinding:generateDebugSources
-> Task :example-databinding:dataBindingExportBuildInfoDebug
 > Task :library-databinding:compileDebugRenderscript NO-SOURCE
 > Task :library-databinding:generateDebugResources
 > Task :library-databinding:packageDebugResources
+> Task :example-databinding:dataBindingMergeGenClassesDebug
+> Task :library-databinding:checkDebugManifest
+> Task :library-databinding:generateDebugBuildConfig
 > Task :library-databinding:parseDebugLibraryResources
+> Task :library-databinding:processDebugManifest
 > Task :library-databinding:javaPreCompileDebug
+> Task :example-databinding:mainApkListPersistenceDebug
 > Task :example-databinding:createDebugCompatibleScreenManifests
 > Task :example-databinding:processDebugManifest
 > Task :library-databinding:generateDebugRFile
@@ -333,20 +333,20 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :library-databinding:generateDebugAssets
 > Task :library-databinding:packageDebugAssets
 > Task :example-databinding:mergeDebugAssets
-> Task :example-databinding:processDebugJavaRes NO-SOURCE
-> Task :library-databinding:processDebugJavaRes NO-SOURCE
 > Task :example-databinding:javaPreCompileDebug
 > Task :example-databinding:compileDebugJavaWithJavac
 > Task :example-databinding:compileDebugSources
 > Task :example:mergeExtDexRelease
-> Task :example-databinding:checkDebugDuplicateClasses
-> Task :library-databinding:bundleLibRuntimeDebug
+> Task :example-databinding:processDebugJavaRes NO-SOURCE
+> Task :library-databinding:processDebugJavaRes NO-SOURCE
 > Task :library-databinding:bundleLibResDebug
+> Task :library-databinding:bundleLibRuntimeDebug
 > Task :library-databinding:createFullJarDebug
 > Task :example-databinding:transformClassesWithDexBuilderForDebug
+> Task :example-databinding:checkDebugDuplicateClasses
+> Task :example-databinding:mergeDebugJavaResource
 > Task :example-databinding:validateSigningDebug
 > Task :example-databinding:signingConfigWriterDebug
-> Task :example-databinding:mergeDebugJavaResource
 > Task :example-databinding:mergeDebugJniLibFolders
 > Task :library-databinding:mergeDebugJniLibFolders
 > Task :example-databinding:preReleaseBuild UP-TO-DATE
@@ -359,7 +359,6 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :example-databinding:generateReleaseBuildConfig
 > Task :example-databinding:generateReleaseSources
 > Task :example-databinding:dataBindingExportBuildInfoRelease
-> Task :example-databinding:dataBindingExportFeaturePackageIdsRelease
 > Task :example-databinding:generateReleaseResValues
 > Task :example-databinding:generateReleaseResources
 > Task :library-databinding:compileReleaseRenderscript NO-SOURCE
@@ -373,27 +372,41 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :example:build
 > Task :library-databinding:checkReleaseManifest
 > Task :library-databinding:generateReleaseBuildConfig
-> Task :example-databinding:mergeReleaseResources
+> Task :example-databinding:dataBindingMergeDependencyArtifactsRelease
+> Task :example-databinding:dataBindingExportFeaturePackageIdsRelease
+> Task :library-databinding:mergeDebugNativeLibs
+> Task :library-databinding:stripDebugDebugSymbols
+> Task :library-databinding:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :library-databinding:processReleaseManifest
 > Task :example-databinding:mainApkListPersistenceRelease
 > Task :example-databinding:createReleaseCompatibleScreenManifests
 > Task :example-databinding:processReleaseManifest
 > Task :example-databinding:dataBindingMergeGenClassesRelease
-> Task :library-databinding:mergeDebugNativeLibs
-> Task :library-databinding:stripDebugDebugSymbols
-> Task :library-databinding:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :library-databinding:parseReleaseLibraryResources
-> Task :example-databinding:dataBindingMergeDependencyArtifactsRelease
+> Task :example-databinding:mergeReleaseResources
 > Task :example-databinding:dataBindingGenBaseClassesRelease
-> Task :library-databinding:javaPreCompileRelease
-> Task :library-databinding:processReleaseJavaRes NO-SOURCE
-> Task :example-databinding:checkReleaseDuplicateClasses
-> Task :library-databinding:prepareLintJarForPublish
 > Task :library-databinding:generateReleaseRFile
-> Task :library-databinding:compileReleaseJavaWithJavac
 > Task :example-databinding:processReleaseResources
+> Task :example-databinding:mergeExtDexDebug
+> Task :library-databinding:javaPreCompileRelease
+> Task :library-databinding:compileReleaseJavaWithJavac
+> Task :example-databinding:mergeDebugNativeLibs
+> Task :example-databinding:stripDebugDebugSymbols
 > Task :library-databinding:bundleLibCompileRelease
+> Task :library-databinding:processReleaseJavaRes NO-SOURCE
+> Task :library-databinding:prepareLintJarForPublish
+> Task :example-databinding:checkReleaseDuplicateClasses
 > Task :library-databinding:bundleLibResRelease
+> Task :library-databinding:bundleLibRuntimeRelease
+> Task :library-databinding:createFullJarRelease
+> Task :example-databinding:javaPreCompileRelease
+> Task :example-databinding:compileReleaseJavaWithJavac
+> Task :example-databinding:compileReleaseSources
+> Task :example-databinding:lintVitalRelease
+> Task :example-databinding:mergeDexDebug
+> Task :example-databinding:packageDebug
+> Task :example-databinding:assembleDebug
+> Task :example-databinding:transformClassesWithDexBuilderForRelease
 > Task :example-databinding:mergeReleaseShaders
 > Task :example-databinding:compileReleaseShaders
 > Task :example-databinding:generateReleaseAssets
@@ -412,41 +425,26 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :library-databinding:mergeReleaseNativeLibs
 > Task :library-databinding:stripReleaseDebugSymbols
 > Task :library-databinding:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :example-shared:mergeDebugJavaResource
-> Task :example-shared:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :example-shared:transformNativeLibsWithSyncJniLibsForDebug
-> Task :example-shared:bundleDebugAar
 > Task :example-shared:compileDebugSources
-> Task :example-shared:assembleDebug
 > Task :example-shared:extractReleaseAnnotations
 > Task :example-shared:mergeReleaseGeneratedProguardFiles
 > Task :example-shared:mergeReleaseConsumerProguardFiles
-> Task :example-databinding:mergeExtDexDebug
+> Task :example-shared:transformNativeLibsWithSyncJniLibsForRelease
+> Task :example-shared:compileReleaseSources
+> Task :example-shared:mergeDebugJavaResource
+> Task :example-shared:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :example-shared:bundleDebugAar
+> Task :example-shared:assembleDebug
 > Task :example-shared:mergeReleaseJavaResource
 > Task :example-shared:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :example-shared:transformNativeLibsWithSyncJniLibsForRelease
 > Task :example-shared:bundleReleaseAar
-> Task :example-shared:compileReleaseSources
+> Task :example-shared:mergeReleaseResources
 > Task :example-databinding:mergeReleaseNativeLibs
 > Task :example-databinding:stripReleaseDebugSymbols
-> Task :example-databinding:javaPreCompileRelease
-> Task :example-databinding:compileReleaseJavaWithJavac
-> Task :example-databinding:compileReleaseSources
-> Task :example-databinding:lintVitalRelease
-> Task :example-databinding:transformClassesWithDexBuilderForRelease
-> Task :example-databinding:mergeDexDebug
-> Task :example-databinding:mergeExtDexRelease
-> Task :example-databinding:mergeDebugNativeLibs
-> Task :example-databinding:stripDebugDebugSymbols
-> Task :example-databinding:packageDebug
-> Task :example-databinding:assembleDebug
-> Task :example-databinding:mergeReleaseJavaResource
-> Task :example-shared:mergeReleaseResources
 > Task :library:extractDebugAnnotations
 > Task :library:mergeDebugGeneratedProguardFiles
 > Task :library:mergeDebugConsumerProguardFiles
-> Task :library-databinding:bundleLibRuntimeRelease
-> Task :library-databinding:createFullJarRelease
 > Task :library:transformNativeLibsWithSyncJniLibsForDebug
 > Task :library:compileDebugSources
 > Task :library:extractReleaseAnnotations
@@ -454,13 +452,15 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :library:mergeReleaseConsumerProguardFiles
 > Task :library:transformNativeLibsWithSyncJniLibsForRelease
 > Task :library:compileReleaseSources
-> Task :library:mergeReleaseJavaResource
-> Task :library:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :library:bundleReleaseAar
 > Task :library:mergeDebugJavaResource
 > Task :library:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :library:bundleDebugAar
 > Task :library:assembleDebug
+> Task :example-databinding:mergeReleaseJavaResource
+> Task :example-databinding:mergeExtDexRelease
+> Task :library:mergeReleaseJavaResource
+> Task :library:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :library:bundleReleaseAar
 
 > Task :library:dokkaJavadoc
 No source directories found: skipping dokka generation
@@ -472,20 +472,17 @@ No source directories found: skipping dokka generation
 > Task :library-databinding:mergeDebugGeneratedProguardFiles
 > Task :library-databinding:mergeDebugConsumerProguardFiles
 > Task :library-databinding:transformNativeLibsWithSyncJniLibsForDebug
-> Task :library-databinding:compileDebugSources
-> Task :library-databinding:extractReleaseAnnotations
-> Task :library-databinding:mergeReleaseGeneratedProguardFiles
-> Task :library-databinding:mergeReleaseConsumerProguardFiles
 > Task :library-databinding:mergeDebugJavaResource
 > Task :library-databinding:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :library-databinding:bundleDebugAar
+> Task :library-databinding:compileDebugSources
 > Task :library-databinding:assembleDebug
+> Task :library-databinding:extractReleaseAnnotations
+> Task :library-databinding:mergeReleaseGeneratedProguardFiles
+> Task :library-databinding:mergeReleaseConsumerProguardFiles
 > Task :library-databinding:transformNativeLibsWithSyncJniLibsForRelease
 > Task :library-databinding:compileReleaseSources
 > Task :library-databinding:mergeReleaseResources
-> Task :library-databinding:mergeReleaseJavaResource
-> Task :library-databinding:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :library-databinding:bundleReleaseAar
 
 > Task :library-databinding:dokkaJavadoc
 No source directories found: skipping dokka generation
@@ -495,19 +492,28 @@ No source directories found: skipping dokka generation
 > Task :library-kotlin-android-extensions:extractDebugAnnotations
 > Task :library-kotlin-android-extensions:mergeDebugGeneratedProguardFiles
 > Task :library-kotlin-android-extensions:mergeDebugConsumerProguardFiles
-> Task :example-databinding:mergeDexRelease
-> Task :example-databinding:packageRelease
-> Task :example-databinding:assembleRelease
-> Task :example-databinding:assemble
-> Task :example-databinding:build
+> Task :library-databinding:mergeReleaseJavaResource
+> Task :example-shared:verifyReleaseResources
+> Task :example-shared:assembleRelease
+> Task :example-shared:assemble
+> Task :example-shared:build
+> Task :library-databinding:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :library-databinding:bundleReleaseAar
 > Task :library-kotlin-android-extensions:transformNativeLibsWithSyncJniLibsForDebug
 > Task :library-kotlin-android-extensions:compileDebugSources
 > Task :library-kotlin-android-extensions:extractReleaseAnnotations
 > Task :library-kotlin-android-extensions:mergeReleaseGeneratedProguardFiles
 > Task :library-kotlin-android-extensions:mergeReleaseConsumerProguardFiles
+> Task :library-databinding:verifyReleaseResources
+> Task :library-databinding:assembleRelease
+> Task :library-databinding:assemble
+> Task :library-databinding:build
 > Task :library-kotlin-android-extensions:transformNativeLibsWithSyncJniLibsForRelease
 > Task :library-kotlin-android-extensions:compileReleaseSources
 > Task :library-kotlin-android-extensions:mergeReleaseResources
+> Task :library-kotlin-android-extensions:mergeReleaseJavaResource
+> Task :library-kotlin-android-extensions:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :library-kotlin-android-extensions:bundleReleaseAar
 
 > Task :library-kotlin-android-extensions:dokkaJavadoc
 No documentation for com.xwray.groupie.groupiex$plusAssign(com.xwray.groupie.Section, com.xwray.groupie.Group) (SectionExt.kt:8)
@@ -518,46 +524,40 @@ No documentation for com.xwray.groupie.groupiex$plusAssign(com.xwray.groupie.Gro
 No documentation for com.xwray.groupie.groupiex$plusAssign(com.xwray.groupie.GroupAdapter((com.xwray.groupie.ViewHolder)), kotlin.collections.Collection((com.xwray.groupie.Group))) (GroupAdapterExt.kt:11)
 No documentation for com.xwray.groupie.groupiex$minusAssign(com.xwray.groupie.GroupAdapter((com.xwray.groupie.ViewHolder)), com.xwray.groupie.Group) (GroupAdapterExt.kt:14)
 No documentation for com.xwray.groupie.groupiex$minusAssign(com.xwray.groupie.GroupAdapter((com.xwray.groupie.ViewHolder)), kotlin.collections.Collection((com.xwray.groupie.Group))) (GroupAdapterExt.kt:17)
-No documentation for com.xwray.groupie.kotlinandroidextensions.Item (Item.kt:6)
-No documentation for com.xwray.groupie.kotlinandroidextensions.Item$createViewHolder(android.view.View) (Item.kt:11)
-No documentation for com.xwray.groupie.kotlinandroidextensions.Item$<init>() (Item.kt:8)
-No documentation for com.xwray.groupie.kotlinandroidextensions.Item$<init>(kotlin.Long) (Item.kt:9)
 No documentation for com.xwray.groupie.kotlinandroidextensions.ViewHolder (ViewHolder.kt:8)
 No documentation for com.xwray.groupie.kotlinandroidextensions.ViewHolder$containerView (ViewHolder.kt:11)
 No documentation for com.xwray.groupie.kotlinandroidextensions.ViewHolder$<init>(android.view.View) (ViewHolder.kt:11)
 No documentation for com.xwray.groupie.kotlinandroidextensions.ViewHolder$containerView (ViewHolder.kt:11)
+No documentation for com.xwray.groupie.kotlinandroidextensions.Item (Item.kt:6)
+No documentation for com.xwray.groupie.kotlinandroidextensions.Item$createViewHolder(android.view.View) (Item.kt:11)
+No documentation for com.xwray.groupie.kotlinandroidextensions.Item$<init>() (Item.kt:8)
+No documentation for com.xwray.groupie.kotlinandroidextensions.Item$<init>(kotlin.Long) (Item.kt:9)
 
 > Task :library-kotlin-android-extensions:javadocJar
 > Task :library-kotlin-android-extensions:sourcesJar
-> Task :library-kotlin-android-extensions:mergeReleaseJavaResource
-> Task :library-kotlin-android-extensions:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :library-kotlin-android-extensions:bundleReleaseAar
+> Task :example-databinding:mergeDexRelease
+> Task :example-databinding:packageRelease
+> Task :example-databinding:assembleRelease
+> Task :example-databinding:assemble
+> Task :example-databinding:build
+> Task :library-kotlin-android-extensions:mergeDebugJavaResource
+> Task :library-kotlin-android-extensions:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :library-kotlin-android-extensions:bundleDebugAar
+> Task :library-kotlin-android-extensions:assembleDebug
 > Task :library:verifyReleaseResources
 > Task :library:assembleRelease
 > Task :library:assemble
 > Task :library:build
 > Task :library-kotlin-android-extensions:verifyReleaseResources
 > Task :library-kotlin-android-extensions:assembleRelease
-> Task :library-kotlin-android-extensions:mergeDebugJavaResource
-> Task :library-kotlin-android-extensions:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :library-kotlin-android-extensions:bundleDebugAar
-> Task :library-kotlin-android-extensions:assembleDebug
 > Task :library-kotlin-android-extensions:assemble
 > Task :library-kotlin-android-extensions:build
-> Task :library-databinding:verifyReleaseResources
-> Task :library-databinding:assembleRelease
-> Task :library-databinding:assemble
-> Task :library-databinding:build
-> Task :example-shared:verifyReleaseResources
-> Task :example-shared:assembleRelease
-> Task :example-shared:assemble
-> Task :example-shared:build
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.5.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 46s
+BUILD SUCCESSFUL in 1m 47s
 350 actionable tasks: 350 executed
 
-2019-08-28 13:59:16,841 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566975437404-0/src/groupie-master/example/build/outputs/apk/release/example-release-unsigned.apk
+2019-09-07 17:49:25,096 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853243534-0/src/groupie-master/example/build/outputs/apk/release/example-release-unsigned.apk
