@@ -1,37 +1,31 @@
-2019-08-28 14:07:09,081 INFO  DownloadService - Downloading "https://github.com/akarnokd/RxJava2Interop/archive/master.zip", attempt 3
-2019-08-28 14:08:09,817 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-08-28 14:08:11,477 INFO  GithubDownloadService - Default branch of this repository: 3.x
-2019-08-28 14:08:11,477 INFO  DownloadService - Downloading "https://github.com/akarnokd/RxJava2Interop/archive/3.x.zip", attempt 3
-2019-08-28 14:09:13,740 DEBUG FullProcessService - Repository https://github.com/akarnokd/RxJava2Interop available: true
-2019-08-28 14:09:13,741 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-08-28 14:09:13,741 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/akarnokd/RxJava2Interop, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566976029077-0/src]
-2019-08-28 14:09:15,675 INFO  SysUtils - 
-2019-08-28 14:09:15,693 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566976029077-0/src/.git": true
-2019-08-28 14:09:15,695 INFO  FullProcessService - Size of directory with sources: 245 KB
-2019-08-28 14:09:15,695 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566976029077-0/src]
-2019-08-28 14:09:15,711 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566976029077-0/src/.git/
+2019-10-06 20:25:13,606 INFO  DownloadService - Downloading "https://github.com/akarnokd/RxJava2Interop/archive/master.zip", attempt 3
+2019-10-06 20:25:15,456 INFO  DownloadService - Downloaded https://github.com/akarnokd/RxJava2Interop/archive/master.zip, attempt 3
+2019-10-06 20:25:15,457 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368313603-0/master.zip": 100 KB
+2019-10-06 20:25:15,457 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-06 20:25:15,458 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368313603-0/master.zip: true
+2019-10-06 20:25:15,458 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368313603-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368313603-0/src'.
+2019-10-06 20:25:15,473 INFO  FullProcessService - Size of directory with sources: 241 KB
+2019-10-06 20:25:15,473 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368313603-0/src]
+2019-10-06 20:25:15,494 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368313603-0/src/.git/
 
-2019-08-28 14:09:15,712 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566976029077-0/src/gradlew
-2019-08-28 14:09:15,714 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566976029077-0/src/build.gradle
-2019-08-28 14:09:15,715 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566976029077-0/src/gradle/maven.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566976029077-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566976029077-0/src/settings.gradle
-2019-08-28 14:09:15,715 INFO  ProjectBuildService - Remote scripts: none
-2019-08-28 14:09:15,715 INFO  ProjectFixService - Fixing project...
-2019-08-28 14:09:15,719 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566976029077-0/src/local.properties
-2019-08-28 14:09:15,719 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.2.1-bin.zip
-2019-08-28 14:09:15,721 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566976029077-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-08-28 14:09:15,721 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566976029077-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-08-28 14:09:15,722 INFO  ProjectFixService - Project was maybe fixed
-2019-08-28 14:09:15,723 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-28 14:09:15,723 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566976029077-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566976029077-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-28 14:09:24,002 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-08-28 14:09:24,002 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-08-28 14:09:24,002 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566976029077-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566976029077-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-08-28 14:09:34,787 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-06 20:25:15,496 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368313603-0/src/RxJavaInterop-master/gradlew
+2019-10-06 20:25:15,498 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368313603-0/src/RxJavaInterop-master/build.gradle
+2019-10-06 20:25:15,499 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368313603-0/src/RxJavaInterop-master/gradle/maven.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368313603-0/src/RxJavaInterop-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368313603-0/src/RxJavaInterop-master/settings.gradle
+2019-10-06 20:25:15,500 INFO  ProjectBuildService - Remote scripts: none
+2019-10-06 20:25:15,500 INFO  ProjectFixService - Fixing project...
+2019-10-06 20:25:15,505 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368313603-0/src/RxJavaInterop-master/local.properties
+2019-10-06 20:25:15,506 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.2.1-bin.zip
+2019-10-06 20:25:15,508 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368313603-0/src/RxJavaInterop-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-06 20:25:15,508 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368313603-0/src/RxJavaInterop-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-06 20:25:15,510 INFO  ProjectFixService - Project was maybe fixed
+2019-10-06 20:25:15,510 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-06 20:25:15,510 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368313603-0/src/RxJavaInterop-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368313603-0/src/RxJavaInterop-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-06 20:25:47,924 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-10-06 20:25:47,924 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-10-06 20:25:47,924 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368313603-0/src/RxJavaInterop-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368313603-0/src/RxJavaInterop-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-10-06 20:26:01,587 INFO  SysUtils - Configuration on demand is an incubating feature.
 :compileJava
-Download https://repo1.maven.org/maven2/io/reactivex/rxjava3/rxjava/3.0.0-RC2/rxjava-3.0.0-RC2.pom
-Download https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.pom
-Download https://repo1.maven.org/maven2/io/reactivex/rxjava3/rxjava/3.0.0-RC2/rxjava-3.0.0-RC2.jar
-Download https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar
+Download https://repo1.maven.org/maven2/io/reactivex/rxjava2/rxjava/2.2.10/rxjava-2.2.10.pom
 warning: [options] bootstrap class path not set in conjunction with -source 1.6
 1 warning
 :processResources NO-SOURCE
@@ -44,34 +38,47 @@ warning: [options] bootstrap class path not set in conjunction with -source 1.6
 :assemble
 :jacocoTestReport SKIPPED
 :pmdMain
-4 PMD rule violations were found. See the report at: file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566976029077-0/src/build/reports/pmd/main.html
+Download https://repo1.maven.org/maven2/net/sourceforge/pmd/pmd-java/5.4.2/pmd-java-5.4.2.pom
+Download https://repo1.maven.org/maven2/net/sourceforge/pmd/pmd/5.4.2/pmd-5.4.2.pom
+Download https://repo1.maven.org/maven2/net/sourceforge/pmd/pmd-core/5.4.2/pmd-core-5.4.2.pom
+Download https://repo1.maven.org/maven2/net/sourceforge/pmd/pmd-java/5.4.2/pmd-java-5.4.2.jar
+Download https://repo1.maven.org/maven2/net/sourceforge/pmd/pmd-core/5.4.2/pmd-core-5.4.2.jar
+6 PMD rule violations were found. See the report at: file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368313603-0/src/RxJavaInterop-master/build/reports/pmd/main.html
 :pmdPrint
 Listing first 100 PMD violations
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="5.4.2" timestamp="2019-08-28T14:09:32.877">
-<file name="/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566976029077-0/src/src/main/java/hu/akarnokd/rxjava3/interop/ProcessorV3ToSubjectV1.java">
-<violation beginline="31" endline="31" begincolumn="11" endcolumn="25" rule="FieldDeclarationsShouldBeAtStartOfClass" ruleset="Design" package="hu.akarnokd.rxjava3.interop" class="ProcessorV3ToSubjectV1" variable="state" externalInfoUrl="https://pmd.github.io/pmd-5.4.2/pmd-java/rules/java/design.html#FieldDeclarationsShouldBeAtStartOfClass" priority="3">
+<pmd version="5.4.2" timestamp="2019-10-06T20:25:59.470">
+<file name="/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368313603-0/src/RxJavaInterop-master/src/main/java/hu/akarnokd/rxjava/interop/ProcessorV2ToSubjectV1.java">
+<violation beginline="31" endline="31" begincolumn="11" endcolumn="25" rule="FieldDeclarationsShouldBeAtStartOfClass" ruleset="Design" package="hu.akarnokd.rxjava.interop" class="ProcessorV2ToSubjectV1" variable="state" externalInfoUrl="https://pmd.github.io/pmd-5.4.2/pmd-java/rules/java/design.html#FieldDeclarationsShouldBeAtStartOfClass" priority="3">
 Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
 </violation>
 </file>
-<file name="/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566976029077-0/src/src/main/java/hu/akarnokd/rxjava3/interop/RxJavaInterop.java">
-<violation beginline="17" endline="679" begincolumn="1" endcolumn="2" rule="CouplingBetweenObjects" ruleset="Coupling" package="hu.akarnokd.rxjava3.interop" externalInfoUrl="https://pmd.github.io/pmd-5.4.2/pmd-java/rules/java/coupling.html#CouplingBetweenObjects" priority="3">
+<file name="/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368313603-0/src/RxJavaInterop-master/src/main/java/hu/akarnokd/rxjava/interop/RxJavaInterop.java">
+<violation beginline="17" endline="679" begincolumn="1" endcolumn="2" rule="CouplingBetweenObjects" ruleset="Coupling" package="hu.akarnokd.rxjava.interop" externalInfoUrl="https://pmd.github.io/pmd-5.4.2/pmd-java/rules/java/coupling.html#CouplingBetweenObjects" priority="3">
 High amount of different objects as members denotes a high coupling
 </violation>
-<violation beginline="300" endline="300" begincolumn="120" endcolumn="128" rule="SignatureDeclareThrowsException" ruleset="Strict Exceptions" package="hu.akarnokd.rxjava3.interop" class="RxJavaInterop" method="apply" externalInfoUrl="https://pmd.github.io/pmd-5.4.2/pmd-java/rules/java/strictexception.html#SignatureDeclareThrowsException" priority="3">
+<violation beginline="300" endline="300" begincolumn="120" endcolumn="128" rule="SignatureDeclareThrowsException" ruleset="Strict Exceptions" package="hu.akarnokd.rxjava.interop" class="RxJavaInterop" method="apply" externalInfoUrl="https://pmd.github.io/pmd-5.4.2/pmd-java/rules/java/strictexception.html#SignatureDeclareThrowsException" priority="3">
 A method/constructor shouldnt explicitly throw java.lang.Exception
 </violation>
 </file>
-<file name="/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566976029077-0/src/src/main/java/hu/akarnokd/rxjava3/interop/SubjectV3ToSubjectV1.java">
-<violation beginline="33" endline="33" begincolumn="11" endcolumn="25" rule="FieldDeclarationsShouldBeAtStartOfClass" ruleset="Design" package="hu.akarnokd.rxjava3.interop" class="SubjectV3ToSubjectV1" variable="state" externalInfoUrl="https://pmd.github.io/pmd-5.4.2/pmd-java/rules/java/design.html#FieldDeclarationsShouldBeAtStartOfClass" priority="3">
+<file name="/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368313603-0/src/RxJavaInterop-master/src/main/java/hu/akarnokd/rxjava/interop/SingleV1ToMaybeV2.java">
+<violation beginline="44" endline="44" begincolumn="15" endcolumn="51" rule="UnnecessaryFullyQualifiedName" ruleset="Import Statements" package="hu.akarnokd.rxjava.interop" class="SingleV1ToMaybeV2$SourceSingleSubscriber" externalInfoUrl="https://pmd.github.io/pmd-5.4.2/pmd-java/rules/java/imports.html#UnnecessaryFullyQualifiedName" priority="4">
+Unnecessary use of fully qualified name 'io.reactivex.MaybeObserver' due to existing import 'io.reactivex.MaybeObserver'
+</violation>
+<violation beginline="46" endline="46" begincolumn="32" endcolumn="68" rule="UnnecessaryFullyQualifiedName" ruleset="Import Statements" package="hu.akarnokd.rxjava.interop" class="SingleV1ToMaybeV2$SourceSingleSubscriber" method="SourceSingleSubscriber" externalInfoUrl="https://pmd.github.io/pmd-5.4.2/pmd-java/rules/java/imports.html#UnnecessaryFullyQualifiedName" priority="4">
+Unnecessary use of fully qualified name 'io.reactivex.MaybeObserver' due to existing import 'io.reactivex.MaybeObserver'
+</violation>
+</file>
+<file name="/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368313603-0/src/RxJavaInterop-master/src/main/java/hu/akarnokd/rxjava/interop/SubjectV2ToSubjectV1.java">
+<violation beginline="33" endline="33" begincolumn="11" endcolumn="25" rule="FieldDeclarationsShouldBeAtStartOfClass" ruleset="Design" package="hu.akarnokd.rxjava.interop" class="SubjectV2ToSubjectV1" variable="state" externalInfoUrl="https://pmd.github.io/pmd-5.4.2/pmd-java/rules/java/design.html#FieldDeclarationsShouldBeAtStartOfClass" priority="3">
 Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
 </violation>
 </file>
 </pmd>
 :build
 
-BUILD SUCCESSFUL in 10s
+BUILD SUCCESSFUL in 13s
 7 actionable tasks: 7 executed
 
-2019-08-28 14:09:34,792 ERROR FullProcessService - Project build has not produced APK file
-2019-08-28 14:09:34,796 ERROR FullProcessService - Could not find generated or existed APK file
+2019-10-06 20:26:01,592 ERROR FullProcessService - Project build has not produced APK file
+2019-10-06 20:26:01,597 ERROR FullProcessService - Could not find generated or existed APK file

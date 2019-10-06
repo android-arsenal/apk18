@@ -1,42 +1,42 @@
-2019-09-03 20:00:07,341 INFO  DownloadService - Downloading "https://github.com/PierfrancescoSoffritti/android-youtube-player/archive/master.zip", attempt 3
-2019-09-03 20:00:15,811 INFO  DownloadService - Downloaded https://github.com/PierfrancescoSoffritti/android-youtube-player/archive/master.zip, attempt 3
-2019-09-03 20:00:15,812 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/master.zip": 4 MB
-2019-09-03 20:00:15,812 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-09-03 20:00:15,814 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/master.zip: true
-2019-09-03 20:00:15,814 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src'.
-2019-09-03 20:00:15,919 INFO  FullProcessService - Size of directory with sources: 6 MB
-2019-09-03 20:00:15,919 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src]
-2019-09-03 20:00:15,943 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/.git/
+2019-10-06 20:21:41,820 INFO  DownloadService - Downloading "https://github.com/PierfrancescoSoffritti/android-youtube-player/archive/master.zip", attempt 3
+2019-10-06 20:21:46,525 INFO  DownloadService - Downloaded https://github.com/PierfrancescoSoffritti/android-youtube-player/archive/master.zip, attempt 3
+2019-10-06 20:21:46,526 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/master.zip": 4 MB
+2019-10-06 20:21:46,526 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-06 20:21:46,528 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/master.zip: true
+2019-10-06 20:21:46,528 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src'.
+2019-10-06 20:21:46,656 INFO  FullProcessService - Size of directory with sources: 6 MB
+2019-10-06 20:21:46,656 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src]
+2019-10-06 20:21:46,679 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/.git/
 
-2019-09-03 20:00:15,952 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/gradlew
-2019-09-03 20:00:15,961 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/chromecast-sender-sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/chromecast-sender/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/core-sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/build.gradle
-2019-09-03 20:00:15,970 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/chromecast-sender/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/core-sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/bintrayconfig.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/chromecast-sender-sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/settings.gradle
-2019-09-03 20:00:15,971 INFO  ProjectBuildService - Remote scripts: none
-2019-09-03 20:00:15,971 INFO  ProjectFixService - Fixing project...
-2019-09-03 20:00:15,992 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/chromecast-sender-sample-app/local.properties
-2019-09-03 20:00:15,995 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/chromecast-sender-sample-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-09-03 20:00:15,995 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/chromecast-sender-sample-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-09-03 20:00:15,996 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/chromecast-sender/local.properties
-2019-09-03 20:00:15,999 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/chromecast-sender/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-09-03 20:00:15,999 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/chromecast-sender/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-09-03 20:00:16,000 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/core-sample-app/local.properties
-2019-09-03 20:00:16,004 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/core-sample-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-09-03 20:00:16,004 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/core-sample-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-09-03 20:00:16,005 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/core/local.properties
-2019-09-03 20:00:16,008 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-09-03 20:00:16,008 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-09-03 20:00:16,009 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/local.properties
-2019-09-03 20:00:16,009 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-09-03 20:00:16,009 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-09-03 20:00:16,012 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-09-03 20:00:16,012 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-09-03 20:00:16,013 INFO  ProjectFixService - Project was maybe fixed
-2019-09-03 20:00:16,013 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-03 20:00:16,013 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/chromecast-sender-sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-03 20:00:24,699 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-09-03 20:00:24,699 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-09-03 20:00:24,699 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/chromecast-sender-sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-09-03 20:02:06,145 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-06 20:21:46,689 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/gradlew
+2019-10-06 20:21:46,700 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/chromecast-sender-sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/chromecast-sender/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/core-sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/build.gradle
+2019-10-06 20:21:46,711 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/chromecast-sender/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/core-sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/bintrayconfig.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/chromecast-sender-sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/settings.gradle
+2019-10-06 20:21:46,712 INFO  ProjectBuildService - Remote scripts: none
+2019-10-06 20:21:46,712 INFO  ProjectFixService - Fixing project...
+2019-10-06 20:21:46,735 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/chromecast-sender-sample-app/local.properties
+2019-10-06 20:21:46,738 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/chromecast-sender-sample-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-06 20:21:46,738 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/chromecast-sender-sample-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-06 20:21:46,739 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/chromecast-sender/local.properties
+2019-10-06 20:21:46,743 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/chromecast-sender/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-06 20:21:46,743 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/chromecast-sender/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-06 20:21:46,745 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/core-sample-app/local.properties
+2019-10-06 20:21:46,748 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/core-sample-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-06 20:21:46,748 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/core-sample-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-06 20:21:46,749 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/core/local.properties
+2019-10-06 20:21:46,753 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-06 20:21:46,753 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-06 20:21:46,754 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/local.properties
+2019-10-06 20:21:46,754 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-10-06 20:21:46,755 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-10-06 20:21:46,758 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-06 20:21:46,758 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-06 20:21:46,759 INFO  ProjectFixService - Project was maybe fixed
+2019-10-06 20:21:46,759 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-06 20:21:46,759 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/chromecast-sender-sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-06 20:21:54,932 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-10-06 20:21:54,933 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-06 20:21:54,933 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/chromecast-sender-sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-06 20:23:44,909 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :core
 WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -68,42 +68,14 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :chromecast-sender-sample-app:preDebugBuild UP-TO-DATE
 > Task :core:processDebugManifest
 > Task :chromecast-sender:packageDebugRenderscript NO-SOURCE
-> Task :chromecast-sender-sample-app:compileDebugRenderscript NO-SOURCE
 > Task :chromecast-sender-sample-app:checkDebugManifest
+> Task :chromecast-sender-sample-app:compileDebugRenderscript NO-SOURCE
 > Task :chromecast-sender-sample-app:generateDebugBuildConfig
 > Task :chromecast-sender-sample-app:mainApkListPersistenceDebug
-> Task :core:parseDebugLibraryResources
 > Task :chromecast-sender-sample-app:generateDebugResValues
 > Task :chromecast-sender-sample-app:generateDebugResources
-> Task :chromecast-sender:compileDebugAidl NO-SOURCE
-> Task :chromecast-sender:compileDebugRenderscript NO-SOURCE
-> Task :chromecast-sender:generateDebugResources
-> Task :chromecast-sender:packageDebugResources
-> Task :chromecast-sender-sample-app:compileDebugAidl NO-SOURCE
-> Task :core:generateDebugRFile
-
-> Task :core:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/core/src/main/java/com/pierfrancescosoffritti/androidyoutubeplayer/core/player/utils/Utils.kt: (12, 47): 'getter for activeNetworkInfo: NetworkInfo!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/core/src/main/java/com/pierfrancescosoffritti/androidyoutubeplayer/core/player/utils/Utils.kt: (13, 51): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/core/src/main/java/com/pierfrancescosoffritti/androidyoutubeplayer/core/player/views/LegacyYouTubePlayerView.kt: (99, 88): 'CONNECTIVITY_ACTION: String' is deprecated. Deprecated in Java
-
-> Task :chromecast-sender-sample-app:mergeDebugResources
-> Task :chromecast-sender:parseDebugLibraryResources
-> Task :core:javaPreCompileDebug
-> Task :core:compileDebugJavaWithJavac
-> Task :chromecast-sender:generateDebugRFile
+> Task :core:parseDebugLibraryResources
 > Task :chromecast-sender-sample-app:createDebugCompatibleScreenManifests
-> Task :chromecast-sender-sample-app:processDebugManifest
-> Task :chromecast-sender-sample-app:processDebugResources
-> Task :core:bundleLibCompileDebug
-> Task :chromecast-sender:compileDebugKotlin
-> Task :chromecast-sender:javaPreCompileDebug
-> Task :chromecast-sender:compileDebugJavaWithJavac
-> Task :chromecast-sender:bundleLibCompileDebug
-> Task :chromecast-sender-sample-app:compileDebugKotlin
-> Task :chromecast-sender-sample-app:javaPreCompileDebug
-> Task :chromecast-sender-sample-app:compileDebugJavaWithJavac
-> Task :chromecast-sender-sample-app:compileDebugSources
 > Task :chromecast-sender:mergeDebugShaders
 > Task :chromecast-sender:compileDebugShaders
 > Task :chromecast-sender:generateDebugAssets
@@ -116,10 +88,38 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/
 > Task :core:generateDebugAssets
 > Task :core:packageDebugAssets
 > Task :chromecast-sender-sample-app:mergeDebugAssets
+> Task :core:generateDebugRFile
+
+> Task :core:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/core/src/main/java/com/pierfrancescosoffritti/androidyoutubeplayer/core/player/utils/Utils.kt: (12, 47): 'getter for activeNetworkInfo: NetworkInfo!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/core/src/main/java/com/pierfrancescosoffritti/androidyoutubeplayer/core/player/utils/Utils.kt: (13, 51): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/core/src/main/java/com/pierfrancescosoffritti/androidyoutubeplayer/core/player/views/LegacyYouTubePlayerView.kt: (99, 88): 'CONNECTIVITY_ACTION: String' is deprecated. Deprecated in Java
+
+> Task :chromecast-sender:compileDebugRenderscript NO-SOURCE
+> Task :chromecast-sender:compileDebugAidl NO-SOURCE
+> Task :chromecast-sender:generateDebugResources
+> Task :chromecast-sender:packageDebugResources
+> Task :chromecast-sender-sample-app:compileDebugAidl NO-SOURCE
+> Task :chromecast-sender-sample-app:processDebugManifest
+> Task :chromecast-sender:parseDebugLibraryResources
+> Task :chromecast-sender-sample-app:mergeDebugResources
+> Task :core:javaPreCompileDebug
+> Task :core:compileDebugJavaWithJavac
+> Task :chromecast-sender:generateDebugRFile
+> Task :chromecast-sender-sample-app:processDebugResources
+> Task :core:bundleLibCompileDebug
+> Task :chromecast-sender:compileDebugKotlin
+> Task :chromecast-sender:javaPreCompileDebug
+> Task :chromecast-sender:compileDebugJavaWithJavac
 > Task :chromecast-sender:processDebugJavaRes NO-SOURCE
 > Task :chromecast-sender-sample-app:processDebugJavaRes NO-SOURCE
 > Task :core:processDebugJavaRes NO-SOURCE
+> Task :chromecast-sender:bundleLibCompileDebug
+> Task :chromecast-sender-sample-app:compileDebugKotlin
 > Task :core:bundleLibResDebug
+> Task :chromecast-sender-sample-app:javaPreCompileDebug
+> Task :chromecast-sender-sample-app:compileDebugJavaWithJavac
+> Task :chromecast-sender-sample-app:compileDebugSources
 > Task :chromecast-sender:bundleLibResDebug
 > Task :chromecast-sender:bundleLibRuntimeDebug
 > Task :chromecast-sender:createFullJarDebug
@@ -150,17 +150,16 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/
 > Task :core:mergeDebugNativeLibs
 > Task :core:stripDebugDebugSymbols
 > Task :core:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :chromecast-sender:processReleaseManifest
 > Task :core:compileReleaseRenderscript NO-SOURCE
 > Task :core:generateReleaseResValues
 > Task :core:generateReleaseResources
 > Task :core:packageReleaseResources
-> Task :chromecast-sender:processReleaseManifest
 > Task :core:checkReleaseManifest
 > Task :chromecast-sender:parseReleaseLibraryResources
 > Task :core:generateReleaseBuildConfig
 > Task :chromecast-sender-sample-app:extractProguardFiles
 > Task :chromecast-sender-sample-app:preReleaseBuild
-> Task :core:parseReleaseLibraryResources
 > Task :chromecast-sender-sample-app:compileReleaseAidl NO-SOURCE
 > Task :chromecast-sender:packageReleaseRenderscript NO-SOURCE
 > Task :chromecast-sender-sample-app:compileReleaseRenderscript NO-SOURCE
@@ -170,21 +169,12 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/
 > Task :chromecast-sender-sample-app:generateReleaseResValues
 > Task :chromecast-sender-sample-app:generateReleaseResources
 > Task :chromecast-sender-sample-app:createReleaseCompatibleScreenManifests
-> Task :core:processReleaseManifest
 > Task :chromecast-sender-sample-app:mergeDebugNativeLibs
 > Task :chromecast-sender-sample-app:stripDebugDebugSymbols
-> Task :chromecast-sender-sample-app:processReleaseManifest
-> Task :chromecast-sender-sample-app:prepareLintJar
-> Task :core:generateReleaseRFile
-
-> Task :core:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/core/src/main/java/com/pierfrancescosoffritti/androidyoutubeplayer/core/player/utils/Utils.kt: (12, 47): 'getter for activeNetworkInfo: NetworkInfo!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/core/src/main/java/com/pierfrancescosoffritti/androidyoutubeplayer/core/player/utils/Utils.kt: (13, 51): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/core/src/main/java/com/pierfrancescosoffritti/androidyoutubeplayer/core/player/views/LegacyYouTubePlayerView.kt: (99, 88): 'CONNECTIVITY_ACTION: String' is deprecated. Deprecated in Java
-
-> Task :chromecast-sender-sample-app:mergeReleaseResources
-> Task :chromecast-sender:mergeReleaseShaders
 > Task :chromecast-sender:prepareLintJarForPublish
+> Task :chromecast-sender-sample-app:prepareLintJar
+> Task :core:prepareLintJarForPublish
+> Task :chromecast-sender:mergeReleaseShaders
 > Task :chromecast-sender:compileReleaseShaders
 > Task :chromecast-sender:generateReleaseAssets
 > Task :chromecast-sender:packageReleaseAssets
@@ -199,49 +189,56 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/
 > Task :chromecast-sender-sample-app:signingConfigWriterRelease
 > Task :chromecast-sender:processReleaseJavaRes NO-SOURCE
 > Task :chromecast-sender:mergeReleaseJniLibFolders
+> Task :core:processReleaseManifest
+> Task :chromecast-sender-sample-app:processReleaseManifest
 > Task :chromecast-sender-sample-app:mergeReleaseJniLibFolders
 > Task :core:processReleaseJavaRes NO-SOURCE
 > Task :core:mergeReleaseJniLibFolders
-> Task :core:javaPreCompileRelease
-> Task :core:compileReleaseJavaWithJavac
 > Task :chromecast-sender:mergeReleaseNativeLibs
-> Task :chromecast-sender:generateReleaseRFile
-> Task :chromecast-sender-sample-app:processReleaseResources
 > Task :chromecast-sender:stripReleaseDebugSymbols
 > Task :chromecast-sender:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :core:prepareLintJarForPublish
 > Task :core:mergeReleaseNativeLibs
 > Task :core:stripReleaseDebugSymbols
 > Task :core:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :core:parseReleaseLibraryResources
+> Task :chromecast-sender-sample-app:processReleaseJavaRes NO-SOURCE
+> Task :core:generateReleaseRFile
+
+> Task :core:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/core/src/main/java/com/pierfrancescosoffritti/androidyoutubeplayer/core/player/utils/Utils.kt: (12, 47): 'getter for activeNetworkInfo: NetworkInfo!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/core/src/main/java/com/pierfrancescosoffritti/androidyoutubeplayer/core/player/utils/Utils.kt: (13, 51): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/core/src/main/java/com/pierfrancescosoffritti/androidyoutubeplayer/core/player/views/LegacyYouTubePlayerView.kt: (99, 88): 'CONNECTIVITY_ACTION: String' is deprecated. Deprecated in Java
+
+> Task :chromecast-sender-sample-app:mergeReleaseResources
+> Task :chromecast-sender:generateReleaseRFile
+> Task :chromecast-sender-sample-app:processReleaseResources
 > Task :chromecast-sender-sample-app:mergeExtDexDebug
+> Task :core:javaPreCompileRelease
+> Task :core:compileReleaseJavaWithJavac
+> Task :core:mergeReleaseGeneratedProguardFiles
+> Task :core:mergeReleaseConsumerProguardFiles
+> Task :core:bundleLibRuntimeRelease
 > Task :core:bundleLibResRelease
 > Task :core:bundleLibCompileRelease
 > Task :chromecast-sender:compileReleaseKotlin
 > Task :chromecast-sender:javaPreCompileRelease
 > Task :chromecast-sender:compileReleaseJavaWithJavac
+> Task :chromecast-sender:mergeReleaseGeneratedProguardFiles
+> Task :chromecast-sender:mergeReleaseConsumerProguardFiles
+> Task :chromecast-sender:bundleLibRuntimeRelease
+> Task :chromecast-sender:bundleLibResRelease
 > Task :chromecast-sender:bundleLibCompileRelease
 > Task :chromecast-sender-sample-app:compileReleaseKotlin
-> Task :chromecast-sender:bundleLibResRelease
-> Task :chromecast-sender-sample-app:javaPreCompileRelease
-> Task :chromecast-sender-sample-app:compileReleaseJavaWithJavac
-> Task :chromecast-sender-sample-app:compileReleaseSources
-
-> Task :chromecast-sender-sample-app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/34dd2b6d9234edbbf2faab1b6391f661/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
-
-> Task :chromecast-sender-sample-app:mergeReleaseNativeLibs
-> Task :chromecast-sender-sample-app:stripReleaseDebugSymbols
 > Task :chromecast-sender-sample-app:mergeDexDebug
 > Task :chromecast-sender-sample-app:packageDebug
 > Task :chromecast-sender-sample-app:assembleDebug
-> Task :chromecast-sender:mergeReleaseGeneratedProguardFiles
-> Task :chromecast-sender:mergeReleaseConsumerProguardFiles
+> Task :chromecast-sender-sample-app:javaPreCompileRelease
+> Task :chromecast-sender-sample-app:compileReleaseJavaWithJavac
+> Task :chromecast-sender-sample-app:compileReleaseSources
+> Task :chromecast-sender-sample-app:lintVitalRelease
 > Task :chromecast-sender-sample-app:mergeReleaseGeneratedProguardFiles
-> Task :chromecast-sender-sample-app:processReleaseJavaRes NO-SOURCE
-> Task :core:mergeReleaseGeneratedProguardFiles
-> Task :core:mergeReleaseConsumerProguardFiles
-> Task :chromecast-sender:bundleLibRuntimeRelease
-> Task :core:bundleLibRuntimeRelease
+> Task :chromecast-sender-sample-app:mergeReleaseNativeLibs
+> Task :chromecast-sender-sample-app:stripReleaseDebugSymbols
 > Task :chromecast-sender-sample-app:mergeReleaseJavaResource
 R8: The rule `-keep public class * extends androidx.versionedparcelable.VersionedParcelable {
   <init>();
@@ -256,7 +253,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 40s
+BUILD SUCCESSFUL in 1m 49s
 138 actionable tasks: 138 executed
 
-2019-09-03 20:02:06,265 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567515607337-0/src/android-youtube-player-master/core-sample-app/apk/core v10.0.4.apk
+2019-10-06 20:23:45,081 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368101811-0/src/android-youtube-player-master/core-sample-app/apk/core v10.0.4.apk
