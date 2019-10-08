@@ -1,36 +1,36 @@
-2019-09-08 15:42:32,013 INFO  DownloadService - Downloading "https://github.com/ParkSangGwon/TedBottomPicker/archive/master.zip", attempt 3
-2019-09-08 15:42:34,016 INFO  DownloadService - Downloaded https://github.com/ParkSangGwon/TedBottomPicker/archive/master.zip, attempt 3
-2019-09-08 15:42:34,017 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932152011-0/master.zip": 1 MB
-2019-09-08 15:42:34,017 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-09-08 15:42:34,017 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932152011-0/master.zip: true
-2019-09-08 15:42:34,017 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932152011-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932152011-0/src'.
-2019-09-08 15:42:34,063 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-09-08 15:42:34,064 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932152011-0/src]
-2019-09-08 15:42:34,090 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932152011-0/src/.git/
+2019-10-08 18:37:47,925 INFO  DownloadService - Downloading "https://github.com/ParkSangGwon/TedBottomPicker/archive/master.zip", attempt 3
+2019-10-08 18:37:53,932 INFO  DownloadService - Downloaded https://github.com/ParkSangGwon/TedBottomPicker/archive/master.zip, attempt 3
+2019-10-08 18:37:53,932 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534667921-0/master.zip": 1 MB
+2019-10-08 18:37:53,932 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-08 18:37:53,933 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534667921-0/master.zip: true
+2019-10-08 18:37:53,933 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534667921-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534667921-0/src'.
+2019-10-08 18:37:54,058 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-10-08 18:37:54,058 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534667921-0/src]
+2019-10-08 18:37:54,083 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534667921-0/src/.git/
 
-2019-09-08 15:42:34,092 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932152011-0/src/TedBottomPicker-master/gradlew
-2019-09-08 15:42:34,095 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932152011-0/src/TedBottomPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932152011-0/src/TedBottomPicker-master/tedbottompicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932152011-0/src/TedBottomPicker-master/build.gradle
-2019-09-08 15:42:34,098 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932152011-0/src/TedBottomPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932152011-0/src/TedBottomPicker-master/tedbottompicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932152011-0/src/TedBottomPicker-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932152011-0/src/TedBottomPicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932152011-0/src/TedBottomPicker-master/settings.gradle
-2019-09-08 15:42:34,098 INFO  ProjectBuildService - Remote scripts: none
-2019-09-08 15:42:34,098 INFO  ProjectFixService - Fixing project...
-2019-09-08 15:42:34,105 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932152011-0/src/TedBottomPicker-master/app/local.properties
-2019-09-08 15:42:34,106 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932152011-0/src/TedBottomPicker-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=26]
-2019-09-08 15:42:34,107 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932152011-0/src/TedBottomPicker-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=26]
-2019-09-08 15:42:34,107 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932152011-0/src/TedBottomPicker-master/tedbottompicker/local.properties
-2019-09-08 15:42:34,108 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932152011-0/src/TedBottomPicker-master/tedbottompicker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=24]
-2019-09-08 15:42:34,109 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932152011-0/src/TedBottomPicker-master/tedbottompicker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=24]
-2019-09-08 15:42:34,110 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932152011-0/src/TedBottomPicker-master/local.properties
-2019-09-08 15:42:34,110 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-09-08 15:42:34,110 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-09-08 15:42:34,112 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932152011-0/src/TedBottomPicker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=26]
-2019-09-08 15:42:34,112 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932152011-0/src/TedBottomPicker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=26]
-2019-09-08 15:42:34,113 INFO  ProjectFixService - Project was maybe fixed
-2019-09-08 15:42:34,113 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-08 15:42:34,113 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932152011-0/src/TedBottomPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932152011-0/src/TedBottomPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-08 15:42:42,598 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-09-08 15:42:42,598 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-09-08 15:42:42,598 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932152011-0/src/TedBottomPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932152011-0/src/TedBottomPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-09-08 15:43:30,740 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-08 18:37:54,086 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534667921-0/src/TedBottomPicker-master/gradlew
+2019-10-08 18:37:54,089 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534667921-0/src/TedBottomPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534667921-0/src/TedBottomPicker-master/tedbottompicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534667921-0/src/TedBottomPicker-master/build.gradle
+2019-10-08 18:37:54,091 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534667921-0/src/TedBottomPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534667921-0/src/TedBottomPicker-master/tedbottompicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534667921-0/src/TedBottomPicker-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534667921-0/src/TedBottomPicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534667921-0/src/TedBottomPicker-master/settings.gradle
+2019-10-08 18:37:54,092 INFO  ProjectBuildService - Remote scripts: none
+2019-10-08 18:37:54,092 INFO  ProjectFixService - Fixing project...
+2019-10-08 18:37:54,099 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534667921-0/src/TedBottomPicker-master/app/local.properties
+2019-10-08 18:37:54,101 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534667921-0/src/TedBottomPicker-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=26]
+2019-10-08 18:37:54,101 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534667921-0/src/TedBottomPicker-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=26]
+2019-10-08 18:37:54,102 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534667921-0/src/TedBottomPicker-master/tedbottompicker/local.properties
+2019-10-08 18:37:54,103 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534667921-0/src/TedBottomPicker-master/tedbottompicker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=24]
+2019-10-08 18:37:54,104 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534667921-0/src/TedBottomPicker-master/tedbottompicker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=24]
+2019-10-08 18:37:54,105 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534667921-0/src/TedBottomPicker-master/local.properties
+2019-10-08 18:37:54,105 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-10-08 18:37:54,105 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-10-08 18:37:54,107 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534667921-0/src/TedBottomPicker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=26]
+2019-10-08 18:37:54,107 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534667921-0/src/TedBottomPicker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=26]
+2019-10-08 18:37:54,108 INFO  ProjectFixService - Project was maybe fixed
+2019-10-08 18:37:54,108 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-08 18:37:54,108 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534667921-0/src/TedBottomPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534667921-0/src/TedBottomPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-08 18:38:06,229 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-10-08 18:38:06,230 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-08 18:38:06,230 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534667921-0/src/TedBottomPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534667921-0/src/TedBottomPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-08 18:38:53,532 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :tedbottompicker
 WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation'.
@@ -61,11 +61,11 @@ It will be removed at the end of 2018. For more information see: http://d.androi
 > Task :tedbottompicker:javaPreCompileDebug
 
 > Task :tedbottompicker:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932152011-0/src/TedBottomPicker-master/tedbottompicker/src/main/java/gun0912/tedbottompicker/TedBottomSheetDialogFragment.java uses unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
 
 > Task :tedbottompicker:processDebugJavaRes NO-SOURCE
 > Task :tedbottompicker:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534667921-0/src/TedBottomPicker-master/tedbottompicker/src/main/java/gun0912/tedbottompicker/TedBottomSheetDialogFragment.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
 > Task :app:javaPreCompileDebug
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
@@ -127,7 +127,7 @@ Consider setting the experimental feature flag android.enableSeparateAnnotationP
 > Task :tedbottompicker:javaPreCompileRelease
 
 > Task :tedbottompicker:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932152011-0/src/TedBottomPicker-master/tedbottompicker/src/main/java/gun0912/tedbottompicker/TedBottomSheetDialogFragment.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534667921-0/src/TedBottomPicker-master/tedbottompicker/src/main/java/gun0912/tedbottompicker/TedBottomSheetDialogFragment.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :tedbottompicker:processReleaseJavaRes NO-SOURCE
@@ -178,7 +178,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 47s
+BUILD SUCCESSFUL in 46s
 86 actionable tasks: 86 executed
 
-2019-09-08 15:43:30,808 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932152011-0/src/TedBottomPicker-master/app/build/outputs/apk/debug/app-debug.apk
+2019-10-08 18:38:53,602 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534667921-0/src/TedBottomPicker-master/app/build/outputs/apk/debug/app-debug.apk

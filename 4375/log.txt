@@ -1,70 +1,36 @@
-2019-10-06 20:19:04,355 INFO  DownloadService - Downloading "https://github.com/openid/AppAuth-Android/archive/master.zip", attempt 3
-2019-10-06 20:19:06,638 INFO  DownloadService - Downloaded https://github.com/openid/AppAuth-Android/archive/master.zip, attempt 3
-2019-10-06 20:19:06,639 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367944352-0/master.zip": 314 KB
-2019-10-06 20:19:06,639 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-10-06 20:19:06,644 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367944352-0/master.zip: true
-2019-10-06 20:19:06,644 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367944352-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367944352-0/src'.
-2019-10-06 20:19:06,687 INFO  FullProcessService - Size of directory with sources: 943 KB
-2019-10-06 20:19:06,687 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367944352-0/src]
-2019-10-06 20:19:06,713 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367944352-0/src/.git/
+2019-10-08 18:36:38,084 INFO  DownloadService - Downloading "https://github.com/openid/AppAuth-Android/archive/master.zip", attempt 3
+2019-10-08 18:36:38,828 INFO  DownloadService - Downloaded https://github.com/openid/AppAuth-Android/archive/master.zip, attempt 3
+2019-10-08 18:36:38,828 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534598079-0/master.zip": 314 KB
+2019-10-08 18:36:38,828 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-08 18:36:38,829 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534598079-0/master.zip: true
+2019-10-08 18:36:38,829 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534598079-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534598079-0/src'.
+2019-10-08 18:36:38,880 INFO  FullProcessService - Size of directory with sources: 943 KB
+2019-10-08 18:36:38,880 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534598079-0/src]
+2019-10-08 18:36:38,899 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534598079-0/src/.git/
 
-2019-10-06 20:19:06,716 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367944352-0/src/AppAuth-Android-master/gradlew
-2019-10-06 20:19:06,720 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367944352-0/src/AppAuth-Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367944352-0/src/AppAuth-Android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367944352-0/src/AppAuth-Android-master/library/build.gradle
-2019-10-06 20:19:06,723 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367944352-0/src/AppAuth-Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367944352-0/src/AppAuth-Android-master/config/testdeps.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367944352-0/src/AppAuth-Android-master/config/javadoc.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367944352-0/src/AppAuth-Android-master/config/keystore.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367944352-0/src/AppAuth-Android-master/config/android-common.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367944352-0/src/AppAuth-Android-master/config/style.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367944352-0/src/AppAuth-Android-master/config/coverage.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367944352-0/src/AppAuth-Android-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367944352-0/src/AppAuth-Android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367944352-0/src/AppAuth-Android-master/settings.gradle
-2019-10-06 20:19:06,724 INFO  ProjectBuildService - Remote scripts: none
-2019-10-06 20:19:06,724 INFO  ProjectFixService - Fixing project...
-2019-10-06 20:19:06,737 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367944352-0/src/AppAuth-Android-master/app/local.properties
-2019-10-06 20:19:06,742 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367944352-0/src/AppAuth-Android-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-06 20:19:06,743 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367944352-0/src/AppAuth-Android-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-06 20:19:06,744 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367944352-0/src/AppAuth-Android-master/local.properties
-2019-10-06 20:19:06,745 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-10-06 20:19:06,746 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-10-06 20:19:06,751 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367944352-0/src/AppAuth-Android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-06 20:19:06,751 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367944352-0/src/AppAuth-Android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-06 20:19:06,753 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367944352-0/src/AppAuth-Android-master/library/local.properties
-2019-10-06 20:19:06,758 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367944352-0/src/AppAuth-Android-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-06 20:19:06,758 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367944352-0/src/AppAuth-Android-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-06 20:19:06,759 INFO  ProjectFixService - Project was maybe fixed
-2019-10-06 20:19:06,760 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-06 20:19:06,760 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367944352-0/src/AppAuth-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367944352-0/src/AppAuth-Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-06 20:19:18,081 INFO  ProjectTaskService - Detected possible tasks: 71
-2019-10-06 20:19:18,082 INFO  ProjectTaskService - Excluded tasks (20): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-10-06 20:19:18,082 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367944352-0/src/AppAuth-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367944352-0/src/AppAuth-Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-10-06 20:20:26,873 INFO  SysUtils - Configuration on demand is an incubating feature.
-Download https://jcenter.bintray.com/com/vladsch/flexmark/flexmark-all/0.15.3/flexmark-all-0.15.3.jar
-Download https://jcenter.bintray.com/com/vladsch/flexmark/flexmark-ext-abbreviation/0.15.3/flexmark-ext-abbreviation-0.15.3.jar
-Download https://jcenter.bintray.com/com/vladsch/flexmark/flexmark-profile-pegdown/0.15.3/flexmark-profile-pegdown-0.15.3.jar
-Download https://jcenter.bintray.com/com/vladsch/flexmark/flexmark-ext-definition/0.15.3/flexmark-ext-definition-0.15.3.jar
-Download https://jcenter.bintray.com/com/vladsch/flexmark/flexmark-ext-aside/0.15.3/flexmark-ext-aside-0.15.3.jar
-Download https://jcenter.bintray.com/com/vladsch/flexmark/flexmark-ext-anchorlink/0.15.3/flexmark-ext-anchorlink-0.15.3.jar
-Download https://jcenter.bintray.com/com/vladsch/flexmark/flexmark-ext-escaped-character/0.15.3/flexmark-ext-escaped-character-0.15.3.jar
-Download https://jcenter.bintray.com/com/vladsch/flexmark/flexmark-ext-emoji/0.15.3/flexmark-ext-emoji-0.15.3.jar
-Download https://jitpack.io/com/github/mnlipp/jdrupes-mdoclet/doclet/1.0.3/doclet-1.0.3.jar
-Download https://jcenter.bintray.com/com/vladsch/flexmark/flexmark-ext-footnotes/0.15.3/flexmark-ext-footnotes-0.15.3.jar
-Download https://jcenter.bintray.com/com/vladsch/flexmark/flexmark-jira-converter/0.15.3/flexmark-jira-converter-0.15.3.jar
-Download https://jcenter.bintray.com/com/vladsch/flexmark/flexmark-youtrack-converter/0.15.3/flexmark-youtrack-converter-0.15.3.jar
-Download https://jcenter.bintray.com/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.15.3/flexmark-ext-gfm-tables-0.15.3.jar
-Download https://jcenter.bintray.com/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.15.3/flexmark-ext-gfm-strikethrough-0.15.3.jar
-Download https://jcenter.bintray.com/com/vladsch/flexmark/flexmark-ext-jekyll-front-matter/0.15.3/flexmark-ext-jekyll-front-matter-0.15.3.jar
-Download https://jcenter.bintray.com/com/vladsch/flexmark/flexmark-ext-jekyll-tag/0.15.3/flexmark-ext-jekyll-tag-0.15.3.jar
-Download https://jcenter.bintray.com/com/vladsch/flexmark/flexmark-ext-ins/0.15.3/flexmark-ext-ins-0.15.3.jar
-Download https://jcenter.bintray.com/com/vladsch/flexmark/flexmark-ext-spec-example/0.15.3/flexmark-ext-spec-example-0.15.3.jar
-Download https://jcenter.bintray.com/com/vladsch/flexmark/flexmark-ext-superscript/0.15.3/flexmark-ext-superscript-0.15.3.jar
-Download https://jcenter.bintray.com/com/vladsch/flexmark/flexmark-ext-tables/0.15.3/flexmark-ext-tables-0.15.3.jar
-Download https://jcenter.bintray.com/com/vladsch/flexmark/flexmark-ext-toc/0.15.3/flexmark-ext-toc-0.15.3.jar
-Download https://jcenter.bintray.com/com/vladsch/flexmark/flexmark-ext-autolink/0.15.3/flexmark-ext-autolink-0.15.3.jar
-Download https://jcenter.bintray.com/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.15.3/flexmark-ext-gfm-tasklist-0.15.3.jar
-Download https://jcenter.bintray.com/com/vladsch/flexmark/flexmark-ext-wikilink/0.15.3/flexmark-ext-wikilink-0.15.3.jar
-Download https://jcenter.bintray.com/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.15.3/flexmark-ext-yaml-front-matter-0.15.3.jar
-Download https://jcenter.bintray.com/com/vladsch/flexmark/flexmark-pdf-converter/0.15.3/flexmark-pdf-converter-0.15.3.jar
-Download https://jcenter.bintray.com/com/vladsch/flexmark/flexmark-ext-xwiki-macros/0.15.3/flexmark-ext-xwiki-macros-0.15.3.jar
-Download https://jcenter.bintray.com/com/vladsch/flexmark/flexmark-ext-typographic/0.15.3/flexmark-ext-typographic-0.15.3.jar
-Download https://jcenter.bintray.com/com/vladsch/flexmark/flexmark-formatter/0.15.3/flexmark-formatter-0.15.3.jar
-Download https://jcenter.bintray.com/com/vladsch/flexmark/flexmark-html-parser/0.15.3/flexmark-html-parser-0.15.3.jar
-Download https://jcenter.bintray.com/com/vladsch/flexmark/flexmark-test-util/0.15.3/flexmark-test-util-0.15.3.jar
-Download https://jcenter.bintray.com/com/vladsch/flexmark/flexmark-util/0.15.3/flexmark-util-0.15.3.jar
-Download https://jcenter.bintray.com/com/vladsch/flexmark/flexmark/0.15.3/flexmark-0.15.3.jar
-Download https://dl.google.com/dl/android/maven2/com/android/support/customtabs/27.1.1/customtabs-27.1.1.aar
+2019-10-08 18:36:38,902 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534598079-0/src/AppAuth-Android-master/gradlew
+2019-10-08 18:36:38,906 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534598079-0/src/AppAuth-Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534598079-0/src/AppAuth-Android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534598079-0/src/AppAuth-Android-master/library/build.gradle
+2019-10-08 18:36:38,909 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534598079-0/src/AppAuth-Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534598079-0/src/AppAuth-Android-master/config/testdeps.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534598079-0/src/AppAuth-Android-master/config/javadoc.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534598079-0/src/AppAuth-Android-master/config/keystore.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534598079-0/src/AppAuth-Android-master/config/android-common.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534598079-0/src/AppAuth-Android-master/config/style.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534598079-0/src/AppAuth-Android-master/config/coverage.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534598079-0/src/AppAuth-Android-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534598079-0/src/AppAuth-Android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534598079-0/src/AppAuth-Android-master/settings.gradle
+2019-10-08 18:36:38,910 INFO  ProjectBuildService - Remote scripts: none
+2019-10-08 18:36:38,910 INFO  ProjectFixService - Fixing project...
+2019-10-08 18:36:38,919 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534598079-0/src/AppAuth-Android-master/app/local.properties
+2019-10-08 18:36:38,924 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534598079-0/src/AppAuth-Android-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-08 18:36:38,924 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534598079-0/src/AppAuth-Android-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-08 18:36:38,925 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534598079-0/src/AppAuth-Android-master/local.properties
+2019-10-08 18:36:38,926 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-10-08 18:36:38,926 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-10-08 18:36:38,930 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534598079-0/src/AppAuth-Android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-08 18:36:38,930 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534598079-0/src/AppAuth-Android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-08 18:36:38,931 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534598079-0/src/AppAuth-Android-master/library/local.properties
+2019-10-08 18:36:38,935 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534598079-0/src/AppAuth-Android-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-08 18:36:38,935 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534598079-0/src/AppAuth-Android-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-08 18:36:38,936 INFO  ProjectFixService - Project was maybe fixed
+2019-10-08 18:36:38,937 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-08 18:36:38,937 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534598079-0/src/AppAuth-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534598079-0/src/AppAuth-Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-08 18:36:48,163 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-10-08 18:36:48,164 INFO  ProjectTaskService - Excluded tasks (20): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-08 18:36:48,164 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534598079-0/src/AppAuth-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534598079-0/src/AppAuth-Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-08 18:37:35,740 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :library:preBuild UP-TO-DATE
 :library:preDebugBuild UP-TO-DATE
@@ -141,19 +107,6 @@ Download https://dl.google.com/dl/android/maven2/com/android/support/customtabs/
 :app:compileReleaseShaders
 :app:generateReleaseAssets
 :library:mergeReleaseShaders
-:library:compileReleaseShaders
-:library:generateReleaseAssets
-:library:packageReleaseAssets
-:app:mergeReleaseAssets
-:app:extractTryWithResourcesSupportJarRelease
-:app:mergeReleaseJniLibFolders
-:library:compileReleaseNdk NO-SOURCE
-:library:mergeReleaseJniLibFolders
-:library:transformNativeLibsWithMergeJniLibsForRelease
-:library:transformNativeLibsWithStripDebugSymbolForRelease
-:library:transformNativeLibsWithIntermediateJniLibsForRelease
-:app:processReleaseJavaRes NO-SOURCE
-:app:validateSigningRelease
 :library:generateDebugRFile
 :app:processDebugResources
 :app:generateDebugSources
@@ -161,7 +114,6 @@ Download https://dl.google.com/dl/android/maven2/com/android/support/customtabs/
 :library:compileDebugJavaWithJavac
 :library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 :app:javaPreCompileDebug
-Download https://jcenter.bintray.com/joda-time/joda-time/2.10/joda-time-2.10.jar
 :app:compileDebugJavaWithJavacNote: [1] Wrote GeneratedAppGlideModule with: []
 
 :app:compileDebugSources
@@ -186,32 +138,33 @@ Download https://jcenter.bintray.com/joda-time/joda-time/2.10/joda-time-2.10.jar
 
 :app:compileReleaseSources
 :app:lintVitalRelease
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.1.4/lint-26.1.4.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.1.4/lint-kotlin-26.1.4.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.1.4/lint-gradle-26.1.4.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.1.4/lint-api-26.1.4.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.1.4/lint-checks-26.1.4.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.1.4/uast-26.1.4.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.1.4/kotlin-compiler-26.1.4.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.1.4/intellij-core-26.1.4.jar
-Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy-agent/1.8.10/byte-buddy-agent-1.8.10.jar
-Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy/1.8.10/byte-buddy-1.8.10.jar
-Download https://jcenter.bintray.com/com/squareup/assertj/assertj-android/1.2.0/assertj-android-1.2.0.jar
-Download https://jcenter.bintray.com/org/mockito/mockito-core/2.19.0/mockito-core-2.19.0.jar
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:extractTryWithResourcesSupportJarRelease
 :app:transformClassesWithStackFramesFixerForRelease
 :app:transformClassesWithDesugarForRelease
 :app:transformClassesWithDexBuilderForRelease
 :app:transformDexArchiveWithExternalLibsDexMergerForRelease
 :app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:library:compileReleaseNdk NO-SOURCE
+:library:mergeReleaseJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForRelease
+:library:transformNativeLibsWithStripDebugSymbolForRelease
+:library:transformNativeLibsWithIntermediateJniLibsForRelease
 :app:transformNativeLibsWithMergeJniLibsForRelease
 :app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
 :app:transformResourcesWithMergeJavaResForRelease
+:app:validateSigningRelease
 :app:packageRelease
 :app:assembleRelease
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 1m 8s
+BUILD SUCCESSFUL in 46s
 98 actionable tasks: 98 executed
 
-2019-10-06 20:20:26,987 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367944352-0/src/AppAuth-Android-master/app/build/outputs/apk/release/appauth-demoapp-release.apk
+2019-10-08 18:37:35,813 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534598079-0/src/AppAuth-Android-master/app/build/outputs/apk/release/appauth-demoapp-release.apk
